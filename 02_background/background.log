@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  22 JAN 2014 21:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  28 JAN 2014 16:02
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **background.tex
 (./background.tex
 LaTeX2e <2011/06/27>
-Babel <3.9g> and hyphenation patterns for 78 languages loaded.
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 ! Undefined control sequence.
 l.1 \section
             {Background} \label{sec:background}
@@ -664,15 +664,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-l.9 	\subfigure
-               [Transverse anatomy of the prostate.]{
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -680,10 +671,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 	\subfigure[
-                Transverse anatomy of the prostate.]{
+l.9 	\hspace*{\fill}
+                    
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.10 	\subfigure
+                [Transverse anatomy of the prostate.]{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
 Missing character: There is no T in font nullfont!
@@ -719,7 +719,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.11 			\includegraphics
+l.12 			\includegraphics
                         [height=0.15\textheight]{02_background/figures/anato...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -742,7 +742,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.11 			\includegraphics[height=0.15\textheight]
+l.12 			\includegraphics[height=0.15\textheight]
                                                 {02_background/figures/anato...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -751,7 +751,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.11 			\includegraphics[height=0.15\textheight]
+l.12 			\includegraphics[height=0.15\textheight]
                                                 {02_background/figures/anato...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -766,17 +766,17 @@ Missing character: There is no 2 in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.11 ...ncludegraphics[height=0.15\textheight]{02_
+l.12 ...ncludegraphics[height=0.15\textheight]{02_
                                                   background/figures/anatomy...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
+(Font)              <7> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 11.
+(Font)              <5> on input line 12.
 ! Extra }, or forgotten $.
-l.11 ...nd/figures/anatomy/prostateTransverse.eps}
+l.12 ...nd/figures/anatomy/prostateTransverse.eps}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -785,7 +785,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.12 			\label{fig:anatomyProstateTransverse}}
+l.13 			\label{fig:anatomyProstateTransverse}}
                                               
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -794,7 +794,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.14 	\subfigure
+l.15 	\subfigure
                 [Sagittal anatomy of the prostate.]{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -803,7 +803,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.16 			\includegraphics
+l.17 			\includegraphics
                         [height=0.23\textheight]{02_background/figures/anato...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -814,7 +814,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.16 			\includegraphics[height=0.23\textheight]
+l.17 			\includegraphics[height=0.23\textheight]
                                                 {02_background/figures/anato...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -823,7 +823,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.16 			\includegraphics[height=0.23\textheight]
+l.17 			\includegraphics[height=0.23\textheight]
                                                 {02_background/figures/anato...
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -839,7 +839,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 	\caption
+l.19 	\caption
               {Prostate anatomy with division in different zones. \textit{AF...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -849,7 +849,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.18 ...tit{A:} apex (copyright by \cite{Choi2007}
+l.19 ...tit{A:} apex (copyright by \cite{Choi2007}
                                                   ). {\color{red}Ask for per...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -858,10 +858,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Choi2007' on page  undefined on input line 18.
+LaTeX Warning: Citation `Choi2007' on page  undefined on input line 19.
 
 ! Undefined control sequence.
-l.18 ...ex (copyright by \cite{Choi2007}). {\color
+l.19 ...ex (copyright by \cite{Choi2007}). {\color
                                                   {red}Ask for permission.}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -876,7 +876,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \end{figure*}
+l.21 \end{figure*}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -885,7 +885,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.20 \end{figure*}
+l.21 \end{figure*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -896,7 +896,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.20 \end{figure*}
+l.21 \end{figure*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -907,7 +907,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.20 \end{figure*}
+l.21 \end{figure*}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -916,10 +916,10 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (1932.16185pt too wide) in paragraph at lines 9--21
-[]\OML/cmm/m/it/10 ackground=figures=anatomy=prostateTransverse:eps[] [] [] [] 
-[] []\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 Sagittalanatomyoftheprostate:\OT1/cmr/m/
-n/10 ][][][]$ 
+Overfull \hbox (1932.16185pt too wide) in paragraph at lines 9--22
+[]|       $[]\OML/cmm/m/it/10 ackground=figures=anatomy=prostateTransverse:eps[
+] \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 Sagittalanatomyoftheprostate:\OT1/cmr/m/n/1
+0 ][]| [][]$ 
  []
 
 
@@ -929,7 +929,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 T
+l.23 T
       he prostate is an exocrine gland of the male reproductive system havin...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1168,7 +1168,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.22 ...en grams for an adult (\cite{Leissner1979}
+l.23 ...en grams for an adult (\cite{Leissner1979}
                                                   ). The prostate size incre...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1177,7 +1177,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Leissner1979' on page  undefined on input line 22.
+LaTeX Warning: Citation `Leissner1979' on page  undefined on input line 23.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -1329,7 +1329,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
-l.22 ...in after sixty years of age leading to \ac
+l.23 ...in after sixty years of age leading to \ac
                                                   {bph} (\cite{Parfait2010}).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1346,7 +1346,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.22 ...ge leading to \ac{bph} (\cite{Parfait2010}
+l.23 ...ge leading to \ac{bph} (\cite{Parfait2010}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1355,23 +1355,23 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 22.
+LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 23.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 22--23
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 22--23
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 23--24
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 22--23
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 23--24
 [] 
  []
 
@@ -1382,7 +1382,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 A
+l.25 A
        zonal classification of the prostate, depicted in \acs{fig} \ref{fig:...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1433,7 +1433,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.24 ...fication of the prostate, depicted in \acs
+l.25 ...fication of the prostate, depicted in \acs
                                                   {fig} \ref{fig:anatomyPros...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1447,7 +1447,7 @@ Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 <write> ...:anatomyProstateZone' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...in \acs{fig} \ref{fig:anatomyProstateZone}
+l.25 ...in \acs{fig} \ref{fig:anatomyProstateZone}
                                                   , was suggested by McNeal ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1457,7 +1457,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:anatomyProstateZone' on page  undefined on input 
-line 24.
+line 25.
 
 Missing character: There is no , in font nullfont!
 Missing character: There is no w in font nullfont!
@@ -1486,7 +1486,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...was suggested by McNeal (\cite{McNeal1981}
+l.25 ...was suggested by McNeal (\cite{McNeal1981}
                                                   ). Subsequently, this cate...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1495,7 +1495,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `McNeal1981' on page  undefined on input line 24.
+LaTeX Warning: Citation `McNeal1981' on page  undefined on input line 25.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -1573,7 +1573,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...k1987,Villers1991,Coakley2000,Parfait2010}
+l.25 ...k1987,Villers1991,Coakley2000,Parfait2010}
                                                   ) and is used in all medic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1582,14 +1582,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Hricak1987' on page  undefined on input line 24.
+LaTeX Warning: Citation `Hricak1987' on page  undefined on input line 25.
 
 Missing character: There is no , in font nullfont!
 \citation{Villers1991}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...k1987,Villers1991,Coakley2000,Parfait2010}
+l.25 ...k1987,Villers1991,Coakley2000,Parfait2010}
                                                   ) and is used in all medic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1598,14 +1598,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Villers1991' on page  undefined on input line 24.
+LaTeX Warning: Citation `Villers1991' on page  undefined on input line 25.
 
 Missing character: There is no , in font nullfont!
 \citation{Coakley2000}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...k1987,Villers1991,Coakley2000,Parfait2010}
+l.25 ...k1987,Villers1991,Coakley2000,Parfait2010}
                                                   ) and is used in all medic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1614,14 +1614,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Coakley2000' on page  undefined on input line 24.
+LaTeX Warning: Citation `Coakley2000' on page  undefined on input line 25.
 
 Missing character: There is no , in font nullfont!
 \citation{Parfait2010}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...k1987,Villers1991,Coakley2000,Parfait2010}
+l.25 ...k1987,Villers1991,Coakley2000,Parfait2010}
                                                   ) and is used in all medic...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1630,7 +1630,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 24.
+LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 25.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -1681,7 +1681,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.24 ...ll medical examinations (e.g., biopsy, \ac
+l.25 ...ll medical examinations (e.g., biopsy, \ac
                                                   {mri} screening). The clas...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1774,7 +1774,7 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.24 ...gland into three distinct regions: (i) \ac
+l.25 ...gland into three distinct regions: (i) \ac
                                                   {cz} accounting for 20-25\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1832,7 +1832,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.24 ...25\% of the whole prostate gland, (ii) \ac
+l.25 ...25\% of the whole prostate gland, (ii) \ac
                                                   {tz} standing for 5\% and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1864,7 +1864,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.24 ...ii) \ac{tz} standing for 5\% and (iii) \ac
+l.25 ...ii) \ac{tz} standing for 5\% and (iii) \ac
                                                   {pz} representing the 70\%...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1896,7 +1896,7 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.24 ...iii) \ac{pz} representing the 70\%. In \ac
+l.25 ...iii) \ac{pz} representing the 70\%. In \ac
                                                   {mri} images, tissues of \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1924,7 +1924,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.24 ...e 70\%. In \ac{mri} images, tissues of \ac
+l.25 ...e 70\%. In \ac{mri} images, tissues of \ac
                                                   {cz} and \ac{tz} are diffi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1938,7 +1938,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
-l.24 ...ac{mri} images, tissues of \ac{cz} and \ac
+l.25 ...ac{mri} images, tissues of \ac{cz} and \ac
                                                   {tz} are difficult to dist...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2022,7 +2022,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
-l.24 ...rged into a common region, denominated \ac
+l.25 ...rged into a common region, denominated \ac
                                                   {cg}. As part of this clas...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2121,7 +2121,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.24 ...ree longitudinal portions depicted in \acs
+l.25 ...ree longitudinal portions depicted in \acs
                                                   {fig} \ref{fig:anatomyPros...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2135,7 +2135,7 @@ Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 <write> ...tomyProstateSagittal' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...acs{fig} \ref{fig:anatomyProstateSagittal}
+l.25 ...acs{fig} \ref{fig:anatomyProstateSagittal}
                                                   : (i) base, (ii) median gl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2145,7 +2145,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:anatomyProstateSagittal' on page  undefined on in
-put line 24.
+put line 25.
 
 Missing character: There is no : in font nullfont!
 Missing character: There is no ( in font nullfont!
@@ -2185,47 +2185,47 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 24--25
+Overfull \hbox (20.0pt too wide) in paragraph at lines 25--26
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 24--25
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 25--26
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 24--25
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 25--26
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 24--25
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 25--26
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 24--25
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 25--26
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 24--25
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 25--26
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 24--25
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 25--26
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 24--25
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 25--26
 []
  []
 
 ! Undefined control sequence.
-l.26 \subsection
+l.27 \subsection
                 {Prostate carcinoma}\label{subsec:procar}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2240,7 +2240,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 \subsection{P
+l.27 \subsection{P
                   rostate carcinoma}\label{subsec:procar}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2263,12 +2263,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 26--27
+Overfull \hbox (20.0pt too wide) in paragraph at lines 27--28
 []
  []
 
 ! Undefined control sequence.
-l.28 \ac
+l.29 \ac
         {cap} was reported on a worldwide scale to be the second most freque...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2283,7 +2283,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \ac{c
+l.29 \ac{c
           ap} was reported on a worldwide scale to be the second most freque...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2386,7 +2386,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...ccounting for $13.6 \%$ (\cite{Ferlay2010}
+l.29 ...ccounting for $13.6 \%$ (\cite{Ferlay2010}
                                                   ). Statistically, in 2008,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2395,7 +2395,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Ferlay2010' on page  undefined on input line 28.
+LaTeX Warning: Citation `Ferlay2010' on page  undefined on input line 29.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -2491,7 +2491,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...s than $258,100$ deaths (\cite{Ferlay2010}
+l.29 ...s than $258,100$ deaths (\cite{Ferlay2010}
                                                   ). In United States, aside...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2500,7 +2500,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Ferlay2010' on page  undefined on input line 28.
+LaTeX Warning: Citation `Ferlay2010' on page  undefined on input line 29.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -2541,7 +2541,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.28 ...United States, aside from skin cancer, \ac
+l.29 ...United States, aside from skin cancer, \ac
                                                   {cap} was declared to be t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2662,7 +2662,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 ! Undefined control sequence.
-l.28 ... one in six men will be diagnosed with \ac
+l.29 ... one in six men will be diagnosed with \ac
                                                   {cap} during their lifetim...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2740,7 +2740,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.28 ...six will die from this disease causing \ac
+l.29 ...six will die from this disease causing \ac
                                                   {cap} to be the second mos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2806,7 +2806,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ... cancer death among men (\cite{Siegel2013}
+l.29 ... cancer death among men (\cite{Siegel2013}
                                                   , \cite{Society2013}).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2815,7 +2815,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Siegel2013' on page  undefined on input line 28.
+LaTeX Warning: Citation `Siegel2013' on page  undefined on input line 29.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -2824,7 +2824,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ...men (\cite{Siegel2013}, \cite{Society2013}
+l.29 ...men (\cite{Siegel2013}, \cite{Society2013}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2833,48 +2833,48 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Society2013' on page  undefined on input line 28.
+LaTeX Warning: Citation `Society2013' on page  undefined on input line 29.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 28--29
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--30
 []
  []
 
 
-Overfull \hbox (26.11119pt too wide) in paragraph at lines 28--29
+Overfull \hbox (26.11119pt too wide) in paragraph at lines 29--30
 \OT1/cmr/m/n/10 13\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 6%$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 28--29
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--30
 []
  []
 
 
-Overfull \hbox (34.4445pt too wide) in paragraph at lines 28--29
+Overfull \hbox (34.4445pt too wide) in paragraph at lines 29--30
 \OT1/cmr/m/n/10 899\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 000$
  []
 
 
-Overfull \hbox (34.4445pt too wide) in paragraph at lines 28--29
+Overfull \hbox (34.4445pt too wide) in paragraph at lines 29--30
 \OT1/cmr/m/n/10 258\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 100$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 28--29
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--30
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 28--29
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--30
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 28--29
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 29--30
 [] 
  []
 
@@ -2885,7 +2885,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 D
+l.31 D
       espite active research to determine the causes of prostate cancer, a f...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2987,7 +2987,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...isk factors has arisen (\cite{Society2010}
+l.31 ...isk factors has arisen (\cite{Society2010}
                                                   ). The etiology was linked...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2996,7 +2996,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Society2010' on page  undefined on input line 30.
+LaTeX Warning: Citation `Society2010' on page  undefined on input line 31.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -3048,7 +3048,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ... the following factors (\cite{Society2010}
+l.31 ... the following factors (\cite{Society2010}
                                                   ): (i) family history (\ci...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3057,7 +3057,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Society2010' on page  undefined on input line 30.
+LaTeX Warning: Citation `Society2010' on page  undefined on input line 31.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -3084,7 +3084,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...tory (\cite{Giovannucci2007,Steinberg1990}
+l.31 ...tory (\cite{Giovannucci2007,Steinberg1990}
                                                   ), (ii) genetic factors (\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3093,14 +3093,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Giovannucci2007' on page  undefined on input line 30.
+LaTeX Warning: Citation `Giovannucci2007' on page  undefined on input line 31.
 
 Missing character: There is no , in font nullfont!
 \citation{Steinberg1990}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...tory (\cite{Giovannucci2007,Steinberg1990}
+l.31 ...tory (\cite{Giovannucci2007,Steinberg1990}
                                                   ), (ii) genetic factors (\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3109,7 +3109,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Steinberg1990' on page  undefined on input line 30.
+LaTeX Warning: Citation `Steinberg1990' on page  undefined on input line 31.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -3138,7 +3138,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...Freedman2006,Amundadottir2006,Agalliu2009}
+l.31 ...Freedman2006,Amundadottir2006,Agalliu2009}
                                                   ), (iii) race-ethnicity (\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3147,14 +3147,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Freedman2006' on page  undefined on input line 30.
+LaTeX Warning: Citation `Freedman2006' on page  undefined on input line 31.
 
 Missing character: There is no , in font nullfont!
 \citation{Amundadottir2006}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...Freedman2006,Amundadottir2006,Agalliu2009}
+l.31 ...Freedman2006,Amundadottir2006,Agalliu2009}
                                                   ), (iii) race-ethnicity (\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3163,7 +3163,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Amundadottir2006' on page  undefined on input line 30.
+LaTeX Warning: Citation `Amundadottir2006' on page  undefined on input line 31.
 
 
 Missing character: There is no , in font nullfont!
@@ -3171,7 +3171,7 @@ Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...Freedman2006,Amundadottir2006,Agalliu2009}
+l.31 ...Freedman2006,Amundadottir2006,Agalliu2009}
                                                   ), (iii) race-ethnicity (\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3180,7 +3180,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Agalliu2009' on page  undefined on input line 30.
+LaTeX Warning: Citation `Agalliu2009' on page  undefined on input line 31.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -3210,7 +3210,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...nicity (\cite{Giovannucci2007,Hoffman2001}
+l.31 ...nicity (\cite{Giovannucci2007,Hoffman2001}
                                                   ), (iv) diet (\cite{Giovan...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3219,14 +3219,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Giovannucci2007' on page  undefined on input line 30.
+LaTeX Warning: Citation `Giovannucci2007' on page  undefined on input line 31.
 
 Missing character: There is no , in font nullfont!
 \citation{Hoffman2001}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...nicity (\cite{Giovannucci2007,Hoffman2001}
+l.31 ...nicity (\cite{Giovannucci2007,Hoffman2001}
                                                   ), (iv) diet (\cite{Giovan...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3235,7 +3235,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Hoffman2001' on page  undefined on input line 30.
+LaTeX Warning: Citation `Hoffman2001' on page  undefined on input line 31.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -3254,7 +3254,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...cite{Giovannucci2007,Ma2009,Alexander2010}
+l.31 ...cite{Giovannucci2007,Ma2009,Alexander2010}
                                                   ), (v) obesity (\cite{Giov...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3263,14 +3263,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Giovannucci2007' on page  undefined on input line 30.
+LaTeX Warning: Citation `Giovannucci2007' on page  undefined on input line 31.
 
 Missing character: There is no , in font nullfont!
 \citation{Ma2009}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...cite{Giovannucci2007,Ma2009,Alexander2010}
+l.31 ...cite{Giovannucci2007,Ma2009,Alexander2010}
                                                   ), (v) obesity (\cite{Giov...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3279,14 +3279,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Ma2009' on page  undefined on input line 30.
+LaTeX Warning: Citation `Ma2009' on page  undefined on input line 31.
 
 Missing character: There is no , in font nullfont!
 \citation{Alexander2010}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...cite{Giovannucci2007,Ma2009,Alexander2010}
+l.31 ...cite{Giovannucci2007,Ma2009,Alexander2010}
                                                   ), (v) obesity (\cite{Giov...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3295,7 +3295,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Alexander2010' on page  undefined on input line 30.
+LaTeX Warning: Citation `Alexander2010' on page  undefined on input line 31.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -3316,7 +3316,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...sity (\cite{Giovannucci2007,Rodriguez2007}
+l.31 ...sity (\cite{Giovannucci2007,Rodriguez2007}
                                                   ). This list of risk facto...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3325,14 +3325,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Giovannucci2007' on page  undefined on input line 30.
+LaTeX Warning: Citation `Giovannucci2007' on page  undefined on input line 31.
 
 Missing character: There is no , in font nullfont!
 \citation{Rodriguez2007}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.30 ...sity (\cite{Giovannucci2007,Rodriguez2007}
+l.31 ...sity (\cite{Giovannucci2007,Rodriguez2007}
                                                   ). This list of risk facto...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3341,7 +3341,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Rodriguez2007' on page  undefined on input line 30.
+LaTeX Warning: Citation `Rodriguez2007' on page  undefined on input line 31.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -3454,82 +3454,82 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 30--31
+Overfull \hbox (20.0pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 30--31
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 31--32
 []
  []
 
 ! Undefined control sequence.
-l.32 \ac
+l.33 \ac
         {cap} growth is characterized by two main types of evolution (\cite{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3544,7 +3544,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \ac{c
+l.33 \ac{c
           ap} growth is characterized by two main types of evolution (\cite{...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3605,7 +3605,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.32 ... main types of evolution (\cite{Strum2005}
+l.33 ... main types of evolution (\cite{Strum2005}
                                                   ): slow-growing tumours, a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3614,7 +3614,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Strum2005' on page  undefined on input line 32.
+LaTeX Warning: Citation `Strum2005' on page  undefined on input line 33.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -3665,7 +3665,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.32 ...rs, accounting for up to 85 \% of all \acp
+l.33 ...rs, accounting for up to 85 \% of all \acp
                                                   {cap} (\cite{Lu-Yao2009}),...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3682,7 +3682,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.32 ... 85 \% of all \acp{cap} (\cite{Lu-Yao2009}
+l.33 ... 85 \% of all \acp{cap} (\cite{Lu-Yao2009}
                                                   ), progress slowly and usu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3691,7 +3691,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Lu-Yao2009' on page  undefined on input line 32.
+LaTeX Warning: Citation `Lu-Yao2009' on page  undefined on input line 33.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -3842,7 +3842,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.32 ...e. In contrast, the second variant of \acp
+l.33 ...e. In contrast, the second variant of \acp
                                                   {cap} develops rapidly and...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3938,7 +3938,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.32 ...ans, primarily the bones (\cite{Oster2013}
+l.33 ...ans, primarily the bones (\cite{Oster2013}
                                                   ). Bone metastases, being ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3947,7 +3947,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Oster2013' on page  undefined on input line 32.
+LaTeX Warning: Citation `Oster2013' on page  undefined on input line 33.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -4045,7 +4045,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.32 ...orbidity and mortality rate (\cite{Ye2007}
+l.33 ...orbidity and mortality rate (\cite{Ye2007}
                                                   ). Hence, the  results of ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4054,7 +4054,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Ye2007' on page  undefined on input line 32.
+LaTeX Warning: Citation `Ye2007' on page  undefined on input line 33.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -4158,7 +4158,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.32 ...stinguish aggressive from slow-growing \ac
+l.33 ...stinguish aggressive from slow-growing \ac
                                                   {cap}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4171,32 +4171,32 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 32--33
+Overfull \hbox (20.0pt too wide) in paragraph at lines 33--34
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 32--33
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 33--34
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 32--33
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 33--34
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 32--33
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 33--34
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 32--33
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 33--34
 []
  []
 
 ! Undefined control sequence.
-l.34 \ac
+l.35 \ac
         {cap} is more likely to come into being in specific regions of the p...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4211,7 +4211,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \ac{c
+l.35 \ac{c
           ap} is more likely to come into being in specific regions of the p...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4307,7 +4307,7 @@ Missing character: There is no % in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.34 .... In that respect, around 70-80 \% of \acp
+l.35 .... In that respect, around 70-80 \% of \acp
                                                   {cap} originate in \ac{pz}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4330,7 +4330,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.34 ...und 70-80 \% of \acp{cap} originate in \ac
+l.35 ...und 70-80 \% of \acp{cap} originate in \ac
                                                   {pz} whereas 10-20 \% in \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4356,7 +4356,7 @@ Missing character: There is no % in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.34 ...iginate in \ac{pz} whereas 10-20 \% in \ac
+l.35 ...iginate in \ac{pz} whereas 10-20 \% in \ac
                                                   {tz} (\cite{Carrol1987,McN...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4372,7 +4372,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.34 ...} (\cite{Carrol1987,McNeal1988,Stamey1998}
+l.35 ...} (\cite{Carrol1987,McNeal1988,Stamey1998}
                                                   ). Only about 5 \% of \acp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4381,14 +4381,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Carrol1987' on page  undefined on input line 34.
+LaTeX Warning: Citation `Carrol1987' on page  undefined on input line 35.
 
 Missing character: There is no , in font nullfont!
 \citation{McNeal1988}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.34 ...} (\cite{Carrol1987,McNeal1988,Stamey1998}
+l.35 ...} (\cite{Carrol1987,McNeal1988,Stamey1998}
                                                   ). Only about 5 \% of \acp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4397,14 +4397,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `McNeal1988' on page  undefined on input line 34.
+LaTeX Warning: Citation `McNeal1988' on page  undefined on input line 35.
 
 Missing character: There is no , in font nullfont!
 \citation{Stamey1998}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.34 ...} (\cite{Carrol1987,McNeal1988,Stamey1998}
+l.35 ...} (\cite{Carrol1987,McNeal1988,Stamey1998}
                                                   ). Only about 5 \% of \acp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4413,7 +4413,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Stamey1998' on page  undefined on input line 34.
+LaTeX Warning: Citation `Stamey1998' on page  undefined on input line 35.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -4432,7 +4432,7 @@ Missing character: There is no % in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.34 ...1988,Stamey1998}). Only about 5 \% of \acp
+l.35 ...1988,Stamey1998}). Only about 5 \% of \acp
                                                   {cap} occur in \ac{cz} (\c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4451,7 +4451,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.34 ... Only about 5 \% of \acp{cap} occur in \ac
+l.35 ... Only about 5 \% of \acp{cap} occur in \ac
                                                   {cz} (\cite{McNeal1988,Coh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4467,7 +4467,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.34 ...ur in \ac{cz} (\cite{McNeal1988,Cohen2008}
+l.35 ...ur in \ac{cz} (\cite{McNeal1988,Cohen2008}
                                                   ). However, those cancers ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4476,14 +4476,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `McNeal1988' on page  undefined on input line 34.
+LaTeX Warning: Citation `McNeal1988' on page  undefined on input line 35.
 
 Missing character: There is no , in font nullfont!
 \citation{Cohen2008}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.34 ...ur in \ac{cz} (\cite{McNeal1988,Cohen2008}
+l.35 ...ur in \ac{cz} (\cite{McNeal1988,Cohen2008}
                                                   ). However, those cancers ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4492,7 +4492,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Cohen2008' on page  undefined on input line 34.
+LaTeX Warning: Citation `Cohen2008' on page  undefined on input line 35.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -4597,7 +4597,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.34 ...ns due to their location (\cite{Cohen2008}
+l.35 ...ns due to their location (\cite{Cohen2008}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4606,48 +4606,48 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Cohen2008' on page  undefined on input line 34.
+LaTeX Warning: Citation `Cohen2008' on page  undefined on input line 35.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 34--35
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 35--36
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 34--35
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 35--36
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 34--35
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 35--36
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 34--35
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 35--36
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 34--35
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 35--36
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 34--35
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 35--36
 [] 
  []
 
 ! Undefined control sequence.
-l.36 \subsection
+l.37 \subsection
                 {\ac{cap} screening and imaging techniques}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4656,7 +4656,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.36 \subsection{\ac
+l.37 \subsection{\ac
                     {cap} screening and imaging techniques}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4671,7 +4671,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \subsection{\ac{c
+l.37 \subsection{\ac{c
                       ap} screening and imaging techniques}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4709,12 +4709,12 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 36--37
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--38
 []
  []
 
 ! Undefined control sequence.
-l.38 \subsubsection
+l.39 \subsubsection
                    {Current \ac{cap} screening}\label{subsubsec:curscr}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4729,7 +4729,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \subsubsection{C
+l.39 \subsubsection{C
                      urrent \ac{cap} screening}\label{subsubsec:curscr}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4742,7 +4742,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.38 \subsubsection{Current \ac
+l.39 \subsubsection{Current \ac
                                {cap} screening}\label{subsubsec:curscr}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4763,7 +4763,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 38--39
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--40
 []
  []
 
@@ -4774,7 +4774,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 C
+l.41 C
       urrent \ac{cap} screening consists of three different stages. First, \...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -4788,7 +4788,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.40 Current \ac
+l.41 Current \ac
                 {cap} screening consists of three different stages. First, \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4846,7 +4846,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.40 ...ists of three different stages. First, \ac
+l.41 ...ists of three different stages. First, \ac
                                                   {psa} control is performed...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4910,7 +4910,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.40 ... distinguish between low and high risk \ac
+l.41 ... distinguish between low and high risk \ac
                                                   {cap}. Then, for confirmat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5032,7 +5032,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.40 ...valuate the prognosis and the stage of \ac
+l.41 ...valuate the prognosis and the stage of \ac
                                                   {cap}. In this section, we...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5127,7 +5127,7 @@ Missing character: There is no k in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 40--41
+Overfull \hbox (20.0pt too wide) in paragraph at lines 41--42
 []
  []
 
@@ -5138,7 +5138,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 S
+l.43 S
       ince its introduction in mid-1980s, \ac{psa} is widely used for \ac{ca...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -5177,7 +5177,7 @@ Missing character: There is no 0 in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.42 Since its introduction in mid-1980s, \ac
+l.43 Since its introduction in mid-1980s, \ac
                                              {psa} is widely used for \ac{ca...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5204,7 +5204,7 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.42 ...mid-1980s, \ac{psa} is widely used for \ac
+l.43 ...mid-1980s, \ac{psa} is widely used for \ac
                                                   {cap} screening (\cite{Etz...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5230,7 +5230,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.42 ...for \ac{cap} screening (\cite{Etzioni2002}
+l.43 ...for \ac{cap} screening (\cite{Etzioni2002}
                                                   ). A higher-than-normal le...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5239,7 +5239,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Etzioni2002' on page  undefined on input line 42.
+LaTeX Warning: Citation `Etzioni2002' on page  undefined on input line 43.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -5271,7 +5271,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.42 ...i2002}). A higher-than-normal level of \ac
+l.43 ...i2002}). A higher-than-normal level of \ac
                                                   {psa} can indicate an abno...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5329,7 +5329,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 ! Undefined control sequence.
-l.42 ...bnormality of the prostate either as a \ac
+l.43 ...bnormality of the prostate either as a \ac
                                                   {bph} or a cancer (\cite{H...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5355,7 +5355,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.42 ...s a \ac{bph} or a cancer (\cite{Hoeks2011}
+l.43 ...s a \ac{bph} or a cancer (\cite{Hoeks2011}
                                                   ). However, other factors ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5364,7 +5364,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Hoeks2011' on page  undefined on input line 42.
+LaTeX Warning: Citation `Hoeks2011' on page  undefined on input line 43.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -5410,7 +5410,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
-l.42 ...other factors can lead to an increased \ac
+l.43 ...other factors can lead to an increased \ac
                                                   {psa} level such as prosta...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5513,7 +5513,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.42 ...ent rectal examination (\cite{Parfait2010}
+l.43 ...ent rectal examination (\cite{Parfait2010}
                                                   ). \ac{psa} can be found i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5522,13 +5522,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 42.
+LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 43.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.42 ...ctal examination (\cite{Parfait2010}). \ac
+l.43 ...ctal examination (\cite{Parfait2010}). \ac
                                                   {psa} can be found in the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5590,7 +5590,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.42 ...oodstream in two different forms: free \ac
+l.43 ...oodstream in two different forms: free \ac
                                                   {psa} (about 10\%), and li...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5657,7 +5657,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.42 ...other protein (about 90\%). A level of \ac
+l.43 ...other protein (about 90\%). A level of \ac
                                                   {psa} higher than 10 ng.mL...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5713,7 +5713,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.42 ...nsidered to be at risk (\cite{Parfait2010}
+l.43 ...nsidered to be at risk (\cite{Parfait2010}
                                                   ). If the \ac{psa} level i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5722,7 +5722,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 42.
+LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 43.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -5733,7 +5733,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.42 ...e at risk (\cite{Parfait2010}). If the \ac
+l.43 ...e at risk (\cite{Parfait2010}). If the \ac
                                                   {psa} level is between 10 ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5815,7 +5815,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.42 ...sidered as suspicious (\cite{Barentsz2012}
+l.43 ...sidered as suspicious (\cite{Barentsz2012}
                                                   ). In that case, the ratio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5824,7 +5824,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Barentsz2012' on page  undefined on input line 42.
+LaTeX Warning: Citation `Barentsz2012' on page  undefined on input line 43.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -5855,7 +5855,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.42 ...012}). In that case, the ratio of free \ac
+l.43 ...012}). In that case, the ratio of free \ac
                                                   {psa} to total \ac{psa} is...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5874,7 +5874,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.42 ...e, the ratio of free \ac{psa} to total \ac
+l.43 ...e, the ratio of free \ac{psa} to total \ac
                                                   {psa} is computed; if the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5961,7 +5961,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.42 ...idered as pathological (\cite{Parfait2010}
+l.43 ...idered as pathological (\cite{Parfait2010}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5970,63 +5970,63 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 42.
+LaTeX Warning: Citation `Parfait2010' on page  undefined on input line 43.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 42--43
+Overfull \hbox (20.0pt too wide) in paragraph at lines 43--44
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 42--43
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 43--44
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 42--43
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 43--44
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 42--43
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 43--44
 []
  []
 
 
-Overfull \hbox (10.73615pt too wide) in paragraph at lines 42--43
+Overfull \hbox (10.73615pt too wide) in paragraph at lines 43--44
 []$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 42--43
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 43--44
 []
  []
 
 
-Overfull \hbox (10.73615pt too wide) in paragraph at lines 42--43
+Overfull \hbox (10.73615pt too wide) in paragraph at lines 43--44
 []$
  []
 
 
-Overfull \hbox (10.73615pt too wide) in paragraph at lines 42--43
+Overfull \hbox (10.73615pt too wide) in paragraph at lines 43--44
 []$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 42--43
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 43--44
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 42--43
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 43--44
 [] 
  []
 
 ! Undefined control sequence.
-l.44 \Iac
+l.45 \Iac
          {trus} biopsy is carried out for cases which are considered as path...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6041,7 +6041,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \Iac{t
+l.45 \Iac{t
            rus} biopsy is carried out for cases which are considered as path...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6287,7 +6287,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.44 ...Gleason grading system (\cite{Gleason1977}
+l.45 ...Gleason grading system (\cite{Gleason1977}
                                                   ). The scoring scheme to c...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6296,7 +6296,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Gleason1977' on page  undefined on input line 44.
+LaTeX Warning: Citation `Gleason1977' on page  undefined on input line 45.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -6466,7 +6466,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.44 ...ed with poor prognosis (\cite{Epstein2005}
+l.45 ...ed with poor prognosis (\cite{Epstein2005}
                                                   ). Then, in the Gleason sy...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6475,7 +6475,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Epstein2005' on page  undefined on input line 44.
+LaTeX Warning: Citation `Epstein2005' on page  undefined on input line 45.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -6636,7 +6636,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.44 ...present tumour pattern (\cite{Epstein2005}
+l.45 ...present tumour pattern (\cite{Epstein2005}
                                                   ). A higher \ac{gs} indica...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6645,7 +6645,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Epstein2005' on page  undefined on input line 44.
+LaTeX Warning: Citation `Epstein2005' on page  undefined on input line 45.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -6658,7 +6658,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.44 ...pattern (\cite{Epstein2005}). A higher \ac
+l.45 ...pattern (\cite{Epstein2005}). A higher \ac
                                                   {gs} indicates a more aggr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6704,7 +6704,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.44 ...more aggressive tumour (\cite{Epstein2005}
+l.45 ...more aggressive tumour (\cite{Epstein2005}
                                                   ). Also, it should be note...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6713,7 +6713,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Epstein2005' on page  undefined on input line 44.
+LaTeX Warning: Citation `Epstein2005' on page  undefined on input line 45.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -6823,7 +6823,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.44 ... urine retention (\cite{Hara2005,Chou2011}
+l.45 ... urine retention (\cite{Hara2005,Chou2011}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6832,14 +6832,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Hara2005' on page  undefined on input line 44.
+LaTeX Warning: Citation `Hara2005' on page  undefined on input line 45.
 
 Missing character: There is no , in font nullfont!
 \citation{Chou2011}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.44 ... urine retention (\cite{Hara2005,Chou2011}
+l.45 ... urine retention (\cite{Hara2005,Chou2011}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6848,43 +6848,43 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Chou2011' on page  undefined on input line 44.
+LaTeX Warning: Citation `Chou2011' on page  undefined on input line 45.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 44--45
+Overfull \hbox (20.0pt too wide) in paragraph at lines 45--46
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 44--45
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 45--46
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 44--45
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 45--46
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 44--45
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 45--46
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 44--45
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 45--46
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 44--45
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 45--46
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 44--45
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 45--46
 [] 
  []
 
@@ -6895,7 +6895,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 A
+l.47 A
       lthough \ac{psa} screening has been shown to improve early detection o...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -6910,7 +6910,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no h in font nullfont!
 ! Undefined control sequence.
-l.46 Although \ac
+l.47 Although \ac
                  {psa} screening has been shown to improve early detection o...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6968,7 +6968,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.46 ...en shown to improve early detection of \ac
+l.47 ...en shown to improve early detection of \ac
                                                   {cap} (\cite{Chou2011}), i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6985,7 +6985,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ...rly detection of \ac{cap} (\cite{Chou2011}
+l.47 ...rly detection of \ac{cap} (\cite{Chou2011}
                                                   ), its lack of reliability...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -6994,7 +6994,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Chou2011' on page  undefined on input line 46.
+LaTeX Warning: Citation `Chou2011' on page  undefined on input line 47.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -7055,7 +7055,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.46 ...motivates further investigations using \ac
+l.47 ...motivates further investigations using \ac
                                                   {mri}-\ac{cad}. Two reliab...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7068,7 +7068,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.46 ... further investigations using \ac{mri}-\ac
+l.47 ... further investigations using \ac{mri}-\ac
                                                   {cad}. Two reliable studie...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7132,7 +7132,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ... in the United States (\cite{Andriole2009}
+l.47 ... in the United States (\cite{Andriole2009}
                                                   ) and in Europe (\cite{Sch...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7141,7 +7141,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Andriole2009' on page  undefined on input line 46.
+LaTeX Warning: Citation `Andriole2009' on page  undefined on input line 47.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -7162,7 +7162,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ...Europe (\cite{Schroeder2012, Hugosson2010}
+l.47 ...Europe (\cite{Schroeder2012, Hugosson2010}
                                                   ), have attempted to asses...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7171,14 +7171,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Schroeder2012' on page  undefined on input line 46.
+LaTeX Warning: Citation `Schroeder2012' on page  undefined on input line 47.
 
 Missing character: There is no , in font nullfont!
 \citation{Hugosson2010}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ...Europe (\cite{Schroeder2012, Hugosson2010}
+l.47 ...Europe (\cite{Schroeder2012, Hugosson2010}
                                                   ), have attempted to asses...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7187,7 +7187,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Hugosson2010' on page  undefined on input line 46.
+LaTeX Warning: Citation `Hugosson2010' on page  undefined on input line 47.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -7241,7 +7241,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.46 ...ssess the impact of early detection of \ac
+l.47 ...ssess the impact of early detection of \ac
                                                   {cap}, with diverging outc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7280,7 +7280,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ... outcomes (\cite{Chou2011,Heidenreich2013}
+l.47 ... outcomes (\cite{Chou2011,Heidenreich2013}
                                                   ). The study carried out i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7289,14 +7289,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Chou2011' on page  undefined on input line 46.
+LaTeX Warning: Citation `Chou2011' on page  undefined on input line 47.
 
 Missing character: There is no , in font nullfont!
 \citation{Heidenreich2013}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ... outcomes (\cite{Chou2011,Heidenreich2013}
+l.47 ... outcomes (\cite{Chou2011,Heidenreich2013}
                                                   ). The study carried out i...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7305,7 +7305,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Heidenreich2013' on page  undefined on input line 46.
+LaTeX Warning: Citation `Heidenreich2013' on page  undefined on input line 47.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -7339,7 +7339,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.46 ... of \ac{psa} screening on mortality rate.}
+l.47 ... of \ac{psa} screening on mortality rate.}
                                                    concluded that \ac{psa} s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7350,7 +7350,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.46 ... of \ac{psa} screening on mortality rate.}
+l.47 ... of \ac{psa} screening on mortality rate.}
                                                    concluded that \ac{psa} s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7361,7 +7361,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> The \ac 
                    {ersspc} started in the 1990s in order to evaluate the ef...
-l.46 ... of \ac{psa} screening on mortality rate.}
+l.47 ... of \ac{psa} screening on mortality rate.}
                                                    concluded that \ac{psa} s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7372,7 +7372,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...order to evaluate the effect of \ac 
                                                   {psa} screening on mortali...
-l.46 ... of \ac{psa} screening on mortality rate.}
+l.47 ... of \ac{psa} screening on mortality rate.}
                                                    concluded that \ac{psa} s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7381,127 +7381,127 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (17.22224pt too wide) in paragraph at lines 46--46
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 47--47
 [][]\OT1/cmr/m/n/10 The
  []
 
 
-Overfull \hbox (26.5278pt too wide) in paragraph at lines 46--46
+Overfull \hbox (26.5278pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ersspc
  []
 
 
-Overfull \hbox (30.63895pt too wide) in paragraph at lines 46--46
+Overfull \hbox (30.63895pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 started
  []
 
 
-Overfull \hbox (8.33336pt too wide) in paragraph at lines 46--46
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 in
  []
 
 
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 the
  []
 
 
-Overfull \hbox (23.9445pt too wide) in paragraph at lines 46--46
+Overfull \hbox (23.9445pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 1990s
  []
 
 
-Overfull \hbox (8.33336pt too wide) in paragraph at lines 46--46
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 in
  []
 
 
-Overfull \hbox (12.25002pt too wide) in paragraph at lines 46--46
+Overfull \hbox (12.25002pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 or-
  []
 
 
-Overfull \hbox (13.91669pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.91669pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 der
  []
 
 
-Overfull \hbox (8.88892pt too wide) in paragraph at lines 46--46
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 to
  []
 
 
-Overfull \hbox (20.27782pt too wide) in paragraph at lines 46--46
+Overfull \hbox (20.27782pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 eval-
  []
 
 
-Overfull \hbox (8.8889pt too wide) in paragraph at lines 46--46
+Overfull \hbox (8.8889pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 u-
  []
 
 
-Overfull \hbox (13.33336pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.33336pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ate
  []
 
 
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 the
  []
 
 
-Overfull \hbox (10.83334pt too wide) in paragraph at lines 46--46
+Overfull \hbox (10.83334pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ef-
  []
 
 
-Overfull \hbox (15.83336pt too wide) in paragraph at lines 46--46
+Overfull \hbox (15.83336pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 fect
  []
 
 
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 46--46
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 of
  []
 
 
-Overfull \hbox (14.50003pt too wide) in paragraph at lines 46--46
+Overfull \hbox (14.50003pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 psa
  []
 
 
-Overfull \hbox (30.08334pt too wide) in paragraph at lines 46--46
+Overfull \hbox (30.08334pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 screen-
  []
 
 
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ing
  []
 
 
-Overfull \hbox (10.55559pt too wide) in paragraph at lines 46--46
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 on
  []
 
 
-Overfull \hbox (20.58337pt too wide) in paragraph at lines 46--46
+Overfull \hbox (20.58337pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 mor-
  []
 
 
-Overfull \hbox (15.00003pt too wide) in paragraph at lines 46--46
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 tal-
  []
 
 
-Overfull \hbox (11.6667pt too wide) in paragraph at lines 46--46
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ity
  []
 
 
-Overfull \hbox (20.02782pt too wide) in paragraph at lines 46--46
+Overfull \hbox (20.02782pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 rate.| 
  []
 
@@ -7519,7 +7519,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.46 ...ing on mortality rate.} concluded that \ac
+l.47 ...ing on mortality rate.} concluded that \ac
                                                   {psa} screening reduces Ca...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7580,7 +7580,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ...1-44\% (\cite{Schroeder2012, Hugosson2010}
+l.47 ...1-44\% (\cite{Schroeder2012, Hugosson2010}
                                                   ), while the American\foot...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7589,14 +7589,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Schroeder2012' on page  undefined on input line 46.
+LaTeX Warning: Citation `Schroeder2012' on page  undefined on input line 47.
 
 Missing character: There is no , in font nullfont!
 \citation{Hugosson2010}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ...1-44\% (\cite{Schroeder2012, Hugosson2010}
+l.47 ...1-44\% (\cite{Schroeder2012, Hugosson2010}
                                                   ), while the American\foot...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7605,7 +7605,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Hugosson2010' on page  undefined on input line 46.
+LaTeX Warning: Citation `Hugosson2010' on page  undefined on input line 47.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -7629,7 +7629,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.46 ...e effects of screening on mortality rate.}
+l.47 ...e effects of screening on mortality rate.}
                                                    trial found no such effec...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7640,7 +7640,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.46 ...e effects of screening on mortality rate.}
+l.47 ...e effects of screening on mortality rate.}
                                                    trial found no such effec...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7651,7 +7651,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> The \ac 
                    {plco} cancer screening trial is carried out in the Unite...
-l.46 ...e effects of screening on mortality rate.}
+l.47 ...e effects of screening on mortality rate.}
                                                    trial found no such effec...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7660,167 +7660,167 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (17.22224pt too wide) in paragraph at lines 46--46
+Overfull \hbox (17.22224pt too wide) in paragraph at lines 47--47
 [][]\OT1/cmr/m/n/10 The
  []
 
 
-Overfull \hbox (17.77782pt too wide) in paragraph at lines 46--46
+Overfull \hbox (17.77782pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 plco
  []
 
 
-Overfull \hbox (18.33336pt too wide) in paragraph at lines 46--46
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 can-
  []
 
 
-Overfull \hbox (12.80556pt too wide) in paragraph at lines 46--46
+Overfull \hbox (12.80556pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 cer
  []
 
 
-Overfull \hbox (30.08334pt too wide) in paragraph at lines 46--46
+Overfull \hbox (30.08334pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 screen-
  []
 
 
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ing
  []
 
 
-Overfull \hbox (18.36116pt too wide) in paragraph at lines 46--46
+Overfull \hbox (18.36116pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 trial
  []
 
 
-Overfull \hbox (6.72223pt too wide) in paragraph at lines 46--46
+Overfull \hbox (6.72223pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 is
  []
 
 
-Overfull \hbox (16.69446pt too wide) in paragraph at lines 46--46
+Overfull \hbox (16.69446pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 car-
  []
 
 
-Overfull \hbox (16.69447pt too wide) in paragraph at lines 46--46
+Overfull \hbox (16.69447pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ried
  []
 
 
-Overfull \hbox (14.44449pt too wide) in paragraph at lines 46--46
+Overfull \hbox (14.44449pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 out
  []
 
 
-Overfull \hbox (8.33336pt too wide) in paragraph at lines 46--46
+Overfull \hbox (8.33336pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 in
  []
 
 
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 the
  []
 
 
-Overfull \hbox (29.72229pt too wide) in paragraph at lines 46--46
+Overfull \hbox (29.72229pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 United
  []
 
 
-Overfull \hbox (26.72227pt too wide) in paragraph at lines 46--46
+Overfull \hbox (26.72227pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 States
  []
 
 
-Overfull \hbox (16.11116pt too wide) in paragraph at lines 46--46
+Overfull \hbox (16.11116pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 and
  []
 
 
-Overfull \hbox (11.66669pt too wide) in paragraph at lines 46--46
+Overfull \hbox (11.66669pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 in-
  []
 
 
-Overfull \hbox (23.38893pt too wide) in paragraph at lines 46--46
+Overfull \hbox (23.38893pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 tends
  []
 
 
-Overfull \hbox (8.88892pt too wide) in paragraph at lines 46--46
+Overfull \hbox (8.88892pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 to
  []
 
 
-Overfull \hbox (12.27779pt too wide) in paragraph at lines 46--46
+Overfull \hbox (12.27779pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 as-
  []
 
 
-Overfull \hbox (16.13889pt too wide) in paragraph at lines 46--46
+Overfull \hbox (16.13889pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 cer-
  []
 
 
-Overfull \hbox (17.22227pt too wide) in paragraph at lines 46--46
+Overfull \hbox (17.22227pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 tain
  []
 
 
-Overfull \hbox (13.88892pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.88892pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 the
  []
 
 
-Overfull \hbox (10.83334pt too wide) in paragraph at lines 46--46
+Overfull \hbox (10.83334pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ef-
  []
 
 
-Overfull \hbox (19.7778pt too wide) in paragraph at lines 46--46
+Overfull \hbox (19.7778pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 fects
  []
 
 
-Overfull \hbox (8.05559pt too wide) in paragraph at lines 46--46
+Overfull \hbox (8.05559pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 of
  []
 
 
-Overfull \hbox (30.08334pt too wide) in paragraph at lines 46--46
+Overfull \hbox (30.08334pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 screen-
  []
 
 
-Overfull \hbox (13.33337pt too wide) in paragraph at lines 46--46
+Overfull \hbox (13.33337pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ing
  []
 
 
-Overfull \hbox (10.55559pt too wide) in paragraph at lines 46--46
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 on
  []
 
 
-Overfull \hbox (20.58337pt too wide) in paragraph at lines 46--46
+Overfull \hbox (20.58337pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 mor-
  []
 
 
-Overfull \hbox (15.00003pt too wide) in paragraph at lines 46--46
+Overfull \hbox (15.00003pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 tal-
  []
 
 
-Overfull \hbox (11.6667pt too wide) in paragraph at lines 46--46
+Overfull \hbox (11.6667pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 ity
  []
 
 
-Overfull \hbox (20.02782pt too wide) in paragraph at lines 46--46
+Overfull \hbox (20.02782pt too wide) in paragraph at lines 47--47
 \OT1/cmr/m/n/10 rate.| 
  []
 
@@ -7852,7 +7852,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ... found no such effect (\cite{Andriole2009}
+l.47 ... found no such effect (\cite{Andriole2009}
                                                   ). However, both studies a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7861,7 +7861,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Andriole2009' on page  undefined on input line 46.
+LaTeX Warning: Citation `Andriole2009' on page  undefined on input line 47.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -7895,7 +7895,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.46 ...09}). However, both studies agree that \ac
+l.47 ...09}). However, both studies agree that \ac
                                                   {psa} screening suffers fr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7971,7 +7971,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ...timated rate of 36 \% (\cite{Schroder2008}
+l.47 ...timated rate of 36 \% (\cite{Schroder2008}
                                                   ). Both studies also agree...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7980,7 +7980,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Schroder2008' on page  undefined on input line 46.
+LaTeX Warning: Citation `Schroder2008' on page  undefined on input line 47.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -8147,7 +8147,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.46 ... the aggressiveness and progression of \ac
+l.47 ... the aggressiveness and progression of \ac
                                                   {cap} (\cite{Delpierre2013}).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8164,7 +8164,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.46 ...gression of \ac{cap} (\cite{Delpierre2013}
+l.47 ...gression of \ac{cap} (\cite{Delpierre2013}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8173,78 +8173,78 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Delpierre2013' on page  undefined on input line 46.
+LaTeX Warning: Citation `Delpierre2013' on page  undefined on input line 47.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 46--47
+Overfull \hbox (20.0pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 46--47
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 46--47
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 47--48
 [] 
  []
 
@@ -8256,7 +8256,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 
+l.48 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -8266,7 +8266,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> \newlabel{sec:background}{{}{\thepage 
                                               }}
-l.47 
+l.48 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8279,7 +8279,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{subsec:humpro}{{}{\thepage 
                                              }}
-l.47 
+l.48 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8291,7 +8291,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...anatomyProstateTransverse}{{}{\thepage 
                                                   }}
-l.47 
+l.48 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8303,7 +8303,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...g:anatomyProstateSagittal}{{}{\thepage 
                                                   }}
-l.47 
+l.48 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8315,7 +8315,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...l{fig:anatomyProstateZone}{{}{\thepage 
                                                   }}
-l.47 
+l.48 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8327,7 +8327,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{subsec:procar}{{}{\thepage 
                                              }}
-l.47 
+l.48 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8339,7 +8339,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{subsubsec:curscr}{{}{\thepage 
                                                 }}
-l.47 
+l.48 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8356,7 +8356,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 H
+l.49 H
       ence, new screening methods should be developed with improved specific...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -8570,7 +8570,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.48 ...ying new biological markers to replace \ac
+l.49 ...ying new biological markers to replace \ac
                                                   {psa}-based screening (\ci...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8602,7 +8602,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.48 ...ite{Bourdoumis2010,Morgan2011,Brenner2013}
+l.49 ...ite{Bourdoumis2010,Morgan2011,Brenner2013}
                                                   ). Until such research com...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8611,14 +8611,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Bourdoumis2010' on page  undefined on input line 48.
+LaTeX Warning: Citation `Bourdoumis2010' on page  undefined on input line 49.
 
 Missing character: There is no , in font nullfont!
 \citation{Morgan2011}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.48 ...ite{Bourdoumis2010,Morgan2011,Brenner2013}
+l.49 ...ite{Bourdoumis2010,Morgan2011,Brenner2013}
                                                   ). Until such research com...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8627,14 +8627,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Morgan2011' on page  undefined on input line 48.
+LaTeX Warning: Citation `Morgan2011' on page  undefined on input line 49.
 
 Missing character: There is no , in font nullfont!
 \citation{Brenner2013}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.48 ...ite{Bourdoumis2010,Morgan2011,Brenner2013}
+l.49 ...ite{Bourdoumis2010,Morgan2011,Brenner2013}
                                                   ). Until such research com...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8643,7 +8643,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Brenner2013' on page  undefined on input line 48.
+LaTeX Warning: Citation `Brenner2013' on page  undefined on input line 49.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -8755,7 +8755,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 ! Undefined control sequence.
-l.48 ...llance strategy using multi-parametric \ac
+l.49 ...llance strategy using multi-parametric \ac
                                                   {mri} techniques (\cite{Ho...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8782,7 +8782,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.48 ...ri} techniques (\cite{Hoeks2011,Moore2013}
+l.49 ...ri} techniques (\cite{Hoeks2011,Moore2013}
                                                   ). \ac{mri}-\acs{cad} syst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8791,14 +8791,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Hoeks2011' on page  undefined on input line 48.
+LaTeX Warning: Citation `Hoeks2011' on page  undefined on input line 49.
 
 Missing character: There is no , in font nullfont!
 \citation{Moore2013}
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.48 ...ri} techniques (\cite{Hoeks2011,Moore2013}
+l.49 ...ri} techniques (\cite{Hoeks2011,Moore2013}
                                                   ). \ac{mri}-\acs{cad} syst...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8807,13 +8807,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Moore2013' on page  undefined on input line 48.
+LaTeX Warning: Citation `Moore2013' on page  undefined on input line 49.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.48 ...chniques (\cite{Hoeks2011,Moore2013}). \ac
+l.49 ...chniques (\cite{Hoeks2011,Moore2013}). \ac
                                                   {mri}-\acs{cad} system, wh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8826,7 +8826,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.48 ...\cite{Hoeks2011,Moore2013}). \ac{mri}-\acs
+l.49 ...\cite{Hoeks2011,Moore2013}). \ac{mri}-\acs
                                                   {cad} system, which is an ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8988,32 +8988,32 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 48--49
+Overfull \hbox (20.0pt too wide) in paragraph at lines 49--50
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 48--49
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 49--50
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 48--49
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 49--50
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 48--49
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 49--50
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 48--49
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 49--50
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 48--49
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 49--50
 []
  []
 
@@ -9024,7 +9024,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 A
+l.51 A
       nother weakness of the current screening strategy lies in the fact tha...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -9092,7 +9092,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.50 ...reening strategy lies in the fact that \ac
+l.51 ...reening strategy lies in the fact that \ac
                                                   {trus} biopsy does not pro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9295,7 +9295,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.50 ...s-assessment procedure (\cite{Noguchi2001}
+l.51 ...s-assessment procedure (\cite{Noguchi2001}
                                                   ). As a consequence, over-...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9304,7 +9304,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Noguchi2001' on page  undefined on input line 50.
+LaTeX Warning: Citation `Noguchi2001' on page  undefined on input line 51.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -9364,7 +9364,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.50 ... estimated at up to 30 \% (\cite{Haas2007}
+l.51 ... estimated at up to 30 \% (\cite{Haas2007}
                                                   ), while missed clinically...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9373,7 +9373,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Haas2007' on page  undefined on input line 50.
+LaTeX Warning: Citation `Haas2007' on page  undefined on input line 51.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -9411,7 +9411,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.50 ...), while missed clinically significant \ac
+l.51 ...), while missed clinically significant \ac
                                                   {cap} is estimated at up t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9448,7 +9448,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.50 ...estimated at up to 35 \% (\cite{Taira2010}
+l.51 ...estimated at up to 35 \% (\cite{Taira2010}
                                                   ). In an effort to solve b...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9457,7 +9457,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Taira2010' on page  undefined on input line 50.
+LaTeX Warning: Citation `Taira2010' on page  undefined on input line 51.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -9535,7 +9535,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
-l.50 ... biopsy approaches have been explored. \ac
+l.51 ... biopsy approaches have been explored. \ac
                                                   {mri}/\ac{us}-guided biops...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9548,7 +9548,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no / in font nullfont!
 ! Undefined control sequence.
-l.50 ...pproaches have been explored. \ac{mri}/\ac
+l.51 ...pproaches have been explored. \ac{mri}/\ac
                                                   {us}-guided biopsy has bee...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9604,7 +9604,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
-l.50 ... has been shown to outperform standard \ac
+l.51 ... has been shown to outperform standard \ac
                                                   {trus} biopsy (\cite{Delon...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9628,7 +9628,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.50 ... \ac{trus} biopsy (\cite{Delongchamps2013}
+l.51 ... \ac{trus} biopsy (\cite{Delongchamps2013}
                                                   ). There, multimodal \ac{m...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9637,7 +9637,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Delongchamps2013' on page  undefined on input line 50.
+LaTeX Warning: Citation `Delongchamps2013' on page  undefined on input line 51.
 
 
 Missing character: There is no ] in font nullfont!
@@ -9660,7 +9660,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.50 ...{Delongchamps2013}). There, multimodal \ac
+l.51 ...{Delongchamps2013}). There, multimodal \ac
                                                   {mri} images are fused wit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9690,7 +9690,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 ! Undefined control sequence.
-l.50 ...timodal \ac{mri} images are fused with \ac
+l.51 ...timodal \ac{mri} images are fused with \ac
                                                   {us} images in order to im...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9904,7 +9904,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.50 ...ntial human errors at this stage, the \acs
+l.51 ...ntial human errors at this stage, the \acs
                                                   {cad} framework can be use...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9970,32 +9970,32 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 50--51
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--52
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 50--51
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 51--52
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 50--51
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 51--52
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 50--51
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 51--52
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 50--51
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 51--52
 []
  []
 
 ! Undefined control sequence.
-l.52 \ac
+l.53 \ac
         {cap} detection and diagnosis benefit from the use of \acs{cad} and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10010,7 +10010,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \ac{c
+l.53 \ac{c
           ap} detection and diagnosis benefit from the use of \acs{cad} and ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -10060,7 +10060,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.52 ...and diagnosis benefit from the use of \acs
+l.53 ...and diagnosis benefit from the use of \acs
                                                   {cad} and \ac{mri} techniq...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10075,7 +10075,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
-l.52 ... benefit from the use of \acs{cad} and \ac
+l.53 ... benefit from the use of \acs{cad} and \ac
                                                   {mri} techniques. In the f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10175,7 +10175,7 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
-l.52 ...esented in addition to an overview of \acs
+l.53 ...esented in addition to an overview of \acs
                                                   {cad} for \ac{cap}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10190,7 +10190,7 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.52 ...dition to an overview of \acs{cad} for \ac
+l.53 ...dition to an overview of \acs{cad} for \ac
                                                   {cap}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10203,12 +10203,12 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 52--53
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--54
 []
  []
 
 ! Undefined control sequence.
-l.54 \subsubsection
+l.55 \subsubsection
                    {Imaging techniques: \ac{mri} - \ac{mrsi}} \label{subsubs...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10223,7 +10223,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \subsubsection{I
+l.55 \subsubsection{I
                      maging techniques: \ac{mri} - \ac{mrsi}} \label{subsubs...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -10248,7 +10248,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.54 \subsubsection{Imaging techniques: \ac
+l.55 \subsubsection{Imaging techniques: \ac
                                            {mri} - \ac{mrsi}} \label{subsubs...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10261,7 +10261,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.54 ...section{Imaging techniques: \ac{mri} - \ac
+l.55 ...section{Imaging techniques: \ac{mri} - \ac
                                                   {mrsi}} \label{subsubsec:m...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10274,12 +10274,12 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 54--55
+Overfull \hbox (20.0pt too wide) in paragraph at lines 55--56
 []
  []
 
 ! Undefined control sequence.
-l.56 \ac
+l.57 \ac
         {mri} provides promising imaging techniques to overcome the previous...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10294,7 +10294,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \ac{m
+l.57 \ac{m
           ri} provides promising imaging techniques to overcome the previous...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -10384,7 +10384,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.56 ...e previous mentioned drawbacks. Unlike \ac
+l.57 ...e previous mentioned drawbacks. Unlike \ac
                                                   {trus} biopsy, \ac{mri} ex...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10404,7 +10404,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
-l.56 ...ed drawbacks. Unlike \ac{trus} biopsy, \ac
+l.57 ...ed drawbacks. Unlike \ac{trus} biopsy, \ac
                                                   {mri} examination is a non...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10524,7 +10524,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.56 ...ue available currently (\cite{Turkbey2012}
+l.57 ...ue available currently (\cite{Turkbey2012}
                                                   ).
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10533,7 +10533,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Turkbey2012' on page  undefined on input line 56.
+LaTeX Warning: Citation `Turkbey2012' on page  undefined on input line 57.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no ) in font nullfont!
@@ -10570,7 +10570,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
-l.57 In this section, we review different \ac
+l.58 In this section, we review different \ac
                                              {mri} techniques developed for ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10604,7 +10604,7 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.57 ...rent \ac{mri} techniques developed for \ac
+l.58 ...rent \ac{mri} techniques developed for \ac
                                                   {cap} detection and diagno...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10852,7 +10852,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
-l.57 ...thms. However, we refer the reader to \acs
+l.58 ...thms. However, we refer the reader to \acs
                                                   {sec} \ref{subsec:featured...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10866,7 +10866,7 @@ Missing character: There is no c in font nullfont!
 ! Undefined control sequence.
 <write> ...sec:featuredetection' on page \thepage 
                                                   \space undefined\on@line .
-l.57 ...to \acs{sec} \ref{subsec:featuredetection}
+l.58 ...to \acs{sec} \ref{subsec:featuredetection}
                                                    for more details on autom...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10876,7 +10876,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `subsec:featuredetection' on page  undefined on input 
-line 57.
+line 58.
 
 Missing character: There is no f in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -10957,7 +10957,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.57 ...since they are part and parcel of the \acs
+l.58 ...since they are part and parcel of the \acs
                                                   {cad} framework. Table \re...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10986,7 +10986,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `tab:modmri' on page \thepage 
                                                   \space undefined\on@line .
-l.57 ...acs{cad} framework. Table \ref{tab:modmri}
+l.58 ...acs{cad} framework. Table \ref{tab:modmri}
                                                    provides an overview of t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10995,7 +10995,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `tab:modmri' on page  undefined on input line 57.
+LaTeX Warning: Reference `tab:modmri' on page  undefined on input line 58.
 
 Missing character: There is no p in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -11041,22 +11041,22 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 56--58
+Overfull \hbox (20.0pt too wide) in paragraph at lines 57--59
 []
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 56--58
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 57--59
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 56--58
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 57--59
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 56--58
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 57--59
 []
  []
 
@@ -11067,24 +11067,33 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \begin{table*}
+l.60 \begin{table*}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+! Undefined control sequence.
+l.61 \small
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-! LaTeX Error: \caption outside float.
+
+! LaTeX Error: Environment adjustwidth undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 \caption
-             {Overview of the features associated with each \ac{mri}-\ac{mrs...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.62 \begin{adjustwidth}
+                        {-2.2cm}{}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 ! LaTeX Error: Missing \begin{document}.
@@ -11093,8 +11102,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 \caption{O
-               verview of the features associated with each \ac{mri}-\ac{mrs...
+l.62 \begin{adjustwidth}{-
+                          2.2cm}{}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \caption
+             {Overview of the features associated with each \ac{mri}-\ac{mrs...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -11139,7 +11166,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 ! Undefined control sequence.
-l.61 ...w of the features associated with each \ac
+l.63 ...w of the features associated with each \ac
                                                   {mri}-\ac{mrsi}. Acronyms:...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11152,7 +11179,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.61 ...features associated with each \ac{mri}-\ac
+l.63 ...features associated with each \ac{mri}-\ac
                                                   {mrsi}. Acronyms: \acf{cap...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11175,7 +11202,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.61 ...th each \ac{mri}-\ac{mrsi}. Acronyms: \acf
+l.63 ...th each \ac{mri}-\ac{mrsi}. Acronyms: \acf
                                                   {cap} - \acf{si} - \acf{gs}.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11188,7 +11215,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.61 ...mri}-\ac{mrsi}. Acronyms: \acf{cap} - \acf
+l.63 ...mri}-\ac{mrsi}. Acronyms: \acf{cap} - \acf
                                                   {si} - \acf{gs}.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11200,7 +11227,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no - in font nullfont!
 ! Undefined control sequence.
-l.61 ...si}. Acronyms: \acf{cap} - \acf{si} - \acf
+l.63 ...si}. Acronyms: \acf{cap} - \acf{si} - \acf
                                                   {gs}.}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11218,14 +11245,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 \begin{threeparttable}
+l.64 \begin{threeparttable}
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.64 \small
+l.66 \small
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11236,7 +11263,7 @@ and I'll forget about whatever was undefined.
 ! Use of \@array doesn't match its definition.
 \@ifnextchar ... \reserved@d =#1\def \reserved@a {
                                                   #2}\def \reserved@b {#3}\f...
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 If you say, e.g., `\def\a1{...}', then you must always
 put `1' after `\a', since control sequence names are
@@ -11246,7 +11273,7 @@ followed by the required stuff, so I'm ignoring it.
 ! Argument of \@firstoftwo has an extra }.
 <inserted text> 
                 \par 
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -11259,7 +11286,7 @@ Runaway argument?
 ! Paragraph ended before \@firstoftwo was complete.
 <to be read again> 
                    \par 
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -11268,7 +11295,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Use of \@array doesn't match its definition.
 \@xexpast #1*#2#3#4\@@ ->\edef \reserved@a {
                                             #1}\@tempcnta #2\relax \ifnum \@...
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 If you say, e.g., `\def\a1{...}', then you must always
 put `1' after `\a', since control sequence names are
@@ -11278,7 +11305,7 @@ followed by the required stuff, so I'm ignoring it.
 ! Use of \@array doesn't match its definition.
 \@ifnextchar ... \reserved@d =#1\def \reserved@a {
                                                   #2}\def \reserved@b {#3}\f...
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 If you say, e.g., `\def\a1{...}', then you must always
 put `1' after `\a', since control sequence names are
@@ -11288,7 +11315,7 @@ followed by the required stuff, so I'm ignoring it.
 ! Use of \@argtabularcr doesn't match its definition.
 \@ifnextchar ...eserved@d =#1\def \reserved@a {#2}
                                                   \def \reserved@b {#3}\futu...
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 If you say, e.g., `\def\a1{...}', then you must always
 put `1' after `\a', since control sequence names are
@@ -11298,7 +11325,7 @@ followed by the required stuff, so I'm ignoring it.
 ! Use of \@array doesn't match its definition.
 \@xexpast #1*#2#3#4\@@ ->\edef \reserved@a {
                                             #1}\@tempcnta #2\relax \ifnum \@...
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 If you say, e.g., `\def\a1{...}', then you must always
 put `1' after `\a', since control sequence names are
@@ -11310,7 +11337,7 @@ Runaway argument?
 ! Paragraph ended before \reserved@b was complete.
 <to be read again> 
                    \par 
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -11319,7 +11346,7 @@ My plan is to forget the whole thing and hope for the best.
 ! Undefined control sequence.
 \reserved@a ...@unexpandable@protect \let \@sharp 
                                                   \relax \let \@startpbox \r...
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11330,7 +11357,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    \relax 
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -11339,7 +11366,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.66 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
+l.68 ...{4cm}|>{\centering\arraybackslash}m{2cm}|}
                                                   \hline
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -11349,7 +11376,7 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 )
-! Incomplete \iffalse; all text was ignored after line 66.
+! Incomplete \iffalse; all text was ignored after line 68.
 <inserted text> 
                 \fi 
 <*> background.tex
@@ -11365,11 +11392,11 @@ the matching `\fi'. I've inserted a `\fi'; this might work.
 
  
 Here is how much of TeX's memory you used:
- 79 strings out of 493308
- 1106 string characters out of 6137821
- 57269 words of memory out of 5000000
- 3634 multiletter control sequences out of 15000+600000
+ 80 strings out of 493311
+ 1117 string characters out of 6137856
+ 57195 words of memory out of 5000000
+ 3632 multiletter control sequences out of 15000+600000
  4294 words of font info for 16 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 19i,5n,30p,1679b,113s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,5n,30p,1651b,118s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

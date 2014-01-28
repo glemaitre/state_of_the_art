@@ -52,68 +52,70 @@ Discriminative features allowing to recognize \ac{cap} from healthy tissue have 
 	\label{tab:feat}
 \end{table*}
 
+\newgeometry{left=0.5cm,right=0.5cm,bottom=0.5cm,top=0.3cm}
+
 \begin{table*}
 \centering
 \caption{Overview of the different features extracted by studies reviewed. The indexes of the features are presented in Tab. \ref{tab:feat}.}
-\footnotesize
 %\begin{adjustwidth}{-2.2cm}{}
 \begin{threeparttable}
+\fontsize{8}{10}\selectfont
 \renewcommand{\arraystretch}{1.5}
 	%\rowcolors{3}{black!5}{white}	
-	\begin{tabular}{c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}c@{\hspace{2.5ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2.5ex}}}\hline
+	\begin{tabular}{c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}c@{\hspace{2ex}}>{\columncolor[gray]{0.95}}c@{\hspace{2ex}}}\hline
 	%\hiderowcolors
 %	\multirow{2}{*}{Index} & \multirow{2}{*}{Study} & \# & \multicolumn{4}{c|}{\ac{mri}-modality} & \multicolumn{2}{c|}{Strength of field} & \multicolumn{2}{c|}{Studied zones} & \multicolumn{3}{c|}{\ac{cad} stages} \\ \cline{4-14}
 %	 & & patients & \ac{t2w} \ac{mri} & \ac{dce} \ac{mri} & \ac{dw} \ac{mri} & \ac{mrsi} & 1.5 T & 3.0 T & \ac{pz} & \ac{cg} & Img. Reg. & \ac{cade} & \ac{cadx}
 	%\cline{2-25}
-	%\multirow{2}{*}{Articles} & \multicolumn{16}{@{\hspace{2.5ex}}c|@{\hspace{2.5ex}}}{\ac{mri} images} & \multicolumn{6}{@{\hspace{2.5ex}}c@{\hspace{2.5ex}}|}{\ac{dce}} & \multicolumn{3}{@{\hspace{2.5ex}}c@{\hspace{2.5ex}}}{\ac{mrsi}} \\
+	%\multirow{2}{*}{Articles} & \multicolumn{16}{@{\hspace{2.5ex}}c|@{\hspace{2.5ex}}}{\ac{mri} images} & \multicolumn{6}{@{\hspace{2.5ex}}c@{\hspace{2ex}}|}{\ac{dce}} & \multicolumn{3}{@{\hspace{2.5ex}}c@{\hspace{2ex}}}{\ac{mrsi}} \\
 	%\cline{2-26}	
 	 Indexes & A & B$_1$ & B$_2$ & B$_3$ & B$_4$ & C$_1$ & C$_2$ & C$_3$ & C$_4$ & D & E$_1$ & E$_2$ & F$_1$ & F$_2$ & F$_3$ & F$_4$ & G & H & I & J$_1$ & J$_2$ & J$_3$ & J$_4$ & K & L & M \\ \hline \hline
-	 %\showrowcolors %\tiny{$\triangle\bullet\diamond$}
-		$[1]$ & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
-		$[2]$ & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
-		$[3]$ &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  & \tiny{$--\diamond$} & \tiny{$--\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
-		$[4]$ & \tiny{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  \\ \hdashline
-		$[5]$ & \tiny{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  \\ \hdashline
-		$[6]$ & \tiny{$\triangle-\diamond$} &  &  &  &  &  &  & \tiny{$\triangle-\diamond$} &  & \cmarksmall &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
-		$[7]$ & \tiny{$--\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  & \cmarksmall & \cmarksmall &  &  &  \\ \hdashline
+	 %\showrowcolors %\fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$}
+		$[1]$ & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
+		$[2]$ & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
+		$[3]$ &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  & \fontsize{4}{5}\selectfont{$--\diamond$} & \fontsize{4}{5}\selectfont{$--\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
+		$[4]$ & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  \\ \hdashline
+		$[5]$ & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  \\ \hdashline
+		$[6]$ & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  & \cmarksmall &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
+		$[7]$ & \fontsize{4}{5}\selectfont{$--\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  & \cmarksmall & \cmarksmall &  &  &  \\ \hdashline
 		$[8]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall & \cmarksmall &  \\ \hdashline
-		$[9]$ & \tiny{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
-		$[10]$ & \tiny{$\triangle-\diamond$} &  &  &  &  &  &  &  &  & \cmarksmall & \tiny{$\triangle\bullet\diamond$} & \tiny{$\triangle\bullet\diamond$} &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
-		$[11]$ & \tiny{$\triangle-\diamond$} &  &  &  &  & \tiny{$\triangle\bullet\diamond$} &  &  &  & \cmarksmall & \tiny{$\triangle\bullet\diamond$} & \tiny{$\triangle\bullet\diamond$} &  &  &  &  & \cmarksmall &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
-		$[12]$ & \tiny{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  \\ \hdashline
-		$[13]$ &  &  &  &  &  &  &  &  &  &  &  &  & \tiny{$\triangle\bullet\diamond$} & \tiny{$\triangle\bullet\diamond$} & \tiny{$\triangle\bullet\diamond$} & \tiny{$\triangle\bullet\diamond$} &  &  &  & \mmarksmall &  &  &  &  &  &  \\ \hdashline
-		$[14]$ &  &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
-		$[15]$ &  &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
+		$[9]$ & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[10]$ & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  &  &  &  &  & \cmarksmall & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[11]$ & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  &  &  & \cmarksmall & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  &  &  &  & \cmarksmall &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[12]$ & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  \\ \hdashline
+		$[13]$ &  &  &  &  &  &  &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  &  &  & \mmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[14]$ &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
+		$[15]$ &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
 		$[16]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
 		$[17]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall & \cmarksmall &  & \cmarksmall & \cmarksmall &  &  &  \\ \hdashline
-		$[18]$ & \tiny{$\triangle\bullet\diamond$} &  & \tiny{$\triangle\bullet\diamond$} & \tiny{$\triangle\bullet\diamond$} &  & \tiny{$\triangle\bullet\diamond$} &  &  &  &  & \tiny{$\triangle\bullet\diamond$} & \tiny{$\triangle\bullet\diamond$} &  &  &  &  &  &  & \cmarksmall & \cmarksmall &  &  &  &  &  &  \\ \hdashline
-		$[19]$ & \tiny{$\triangle\bullet\diamond$} &  & \tiny{$\triangle\bullet\diamond$} & \tiny{$\triangle\bullet\diamond$} &  & \tiny{$\triangle\bullet\diamond$} &  &  &  &  & \tiny{$\triangle\bullet\diamond$} & \tiny{$\triangle\bullet\diamond$} &  &  &  &  &  &  & \cmarksmall & \cmarksmall &  &  &  &  &  &  \\ \hdashline
-		$[20]$ & \tiny{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  \\ \hdashline
-		$[21]$ & \tiny{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  \\ \hdashline
+		$[18]$ & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  &  &  &  &  &  & \cmarksmall & \cmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[19]$ & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  &  &  &  &  &  & \cmarksmall & \cmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[20]$ & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  \\ \hdashline
+		$[21]$ & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  \\ \hdashline
 		$[22]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall & \cmarksmall &  \\ \hdashline
-		$[23]$ &  &  &  &  &  &  &  &  &  &  & \tiny{$--\diamond$} & \tiny{$\triangle-\diamond$} &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[23]$ &  &  &  &  &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$--\diamond$} & \fontsize{4}{5}\selectfont{$\triangle-\diamond$} &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  &  \\ \hdashline
 		$[24]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \mmarksmall &  &  &  &  &  &  &  \\ \hdashline
 		$[25]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  & \cmarksmall &  &  &  &  &  \\ \hdashline
 		$[26]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
 		$[27]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
 		$[28]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
-		$[29]$ &  & \tiny{$\triangle--$} & \tiny{$\triangle--$} & \tiny{$\triangle--$} &  & \tiny{$\triangle--$} &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
-		$[30]$ &  & \tiny{$\triangle--$} & \tiny{$\triangle--$} & \tiny{$\triangle--$} &  & \tiny{$\triangle--$} &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
-		$[31]$ &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall \\ \hdashline
-		$[32]$ &  & \tiny{$\triangle--$} & \tiny{$\triangle--$} & \tiny{$\triangle--$} &  & \tiny{$\triangle--$} &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
-		$[33]$ &  & \tiny{$\triangle--$} & \tiny{$\triangle--$} & \tiny{$\triangle--$} & \tiny{$\triangle--$} & \tiny{$\triangle--$} &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
+		$[29]$ &  & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
+		$[30]$ &  & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
+		$[31]$ &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall \\ \hdashline
+		$[32]$ &  & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
+		$[33]$ &  & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  \\ \hdashline
 		$[34]$ &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
-		$[35]$ &  &  & \tiny{$\triangle--$} & \tiny{$\triangle--$} &  & \tiny{$\triangle--$} &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
-		$[36]$ &  &  & \tiny{$\triangle--$} & \tiny{$\triangle--$} &  & \tiny{$\triangle\bullet-$} &  &  &  &  &  & \tiny{$\triangle\bullet-$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
-		$[37]$ &  &  & \tiny{$\triangle--$} & \tiny{$\triangle--$} & \tiny{$\triangle--$} & \tiny{$\triangle--$} &  &  & \tiny{$\triangle--$} &  &  & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
-		$[38]$ & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
-		$[39]$ &  &  &  &  &  &  &  &  &  &  & \tiny{$-\bullet-$} &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
-		$[40]$ &  &  &  &  &  &  &  &  &  &  & \tiny{$\triangle\bullet-$} &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
-		$[41]$ &  &  &  &  &  &  &  &  &  &  & \tiny{$\triangle\bullet\diamond$} &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\
+		$[35]$ &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
+		$[36]$ &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} &  & \fontsize{4}{5}\selectfont{$\triangle\bullet-$} &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle\bullet-$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
+		$[37]$ &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\ \hdashline
+		$[38]$ & \fontsize{4}{5}\selectfont{$\triangle--$} &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[39]$ &  &  &  &  &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$-\bullet-$} &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[40]$ &  &  &  &  &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle\bullet-$} &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\ \hdashline
+		$[41]$ &  &  &  &  &  &  &  &  &  &  & \fontsize{4}{5}\selectfont{$\triangle\bullet\diamond$} &  &  &  &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  \\
 	 	 \hline
 	\end{tabular}
 	\begin{tablenotes}
-      \footnotesize
+      \scriptsize
       \item Notes:
       \item {\tiny{$\triangle$}}: implemented for \ac{t2w}-\ac{mri} images.
       \item {\tiny{$\bullet$}}: implemented for \ac{dce}-\ac{mri} images.
@@ -126,6 +128,8 @@ Discriminative features allowing to recognize \ac{cap} from healthy tissue have 
 %\end{adjustwidth}
 \label{tab:featrev}
 \end{table*}
+
+\restoregeometry
 
 \subsubsection{Image-based features}
 
@@ -345,7 +349,8 @@ The last group of region-based feature is based on \textit{fractal analysis}. Th
 \item[$-$] \textbf{\textit{Whole-spectra approach:}} Some studies are using the whole \ac{dce} time series as feature vector such as \cite{Ampeliotis2007,Ampeliotis2008}, \cite{Tiwari2012} and \cite{Viswanath2008a,Viswanath2008}. In some cases, the high-dimensional feature space will be reduced using dimension reduction methods as it will be presented in the next section (see Sect. \ref{subsec:featureselectionextraction}).
 
 \begin{figure}
-	\includegraphics[width=\linewidth]{04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps}
+	\centering
+	\includegraphics[width=.8\linewidth]{04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps}
 	\caption{Graphical representation of the different semi-quantitative features used for \ac{dce}-\ac{mri} analysis.}
 	\label{fig:dceparam}
 \end{figure}
