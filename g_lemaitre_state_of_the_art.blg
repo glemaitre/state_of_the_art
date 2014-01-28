@@ -1,0 +1,120 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: g_lemaitre_state_of_the_art.aux
+The style file: model2-names.bst
+Reallocated field_info (elt_size=4) to 12540 items from 5000.
+Database file #1: bibtex/literature_review.bib.bib
+Warning--entry type for "Society2013" isn't style-file defined
+--line 92 of file bibtex/literature_review.bib.bib
+Warning--entry type for "Society2010" isn't style-file defined
+--line 105 of file bibtex/literature_review.bib.bib
+Warning--entry type for "Doi1987" isn't style-file defined
+--line 858 of file bibtex/literature_review.bib.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Too many commas in name 4 of "Liu, P. and Wang, S. and Turkbey, B. and Grant, K.and Pinto, P.and Choyke, P. and Wood, B. J. and Summers, R. M." for entry Liu2013
+while executing---line 3089 of file model2-names.bst
+Name 1 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3089 of file model2-names.bst
+Name 1 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3089 of file model2-names.bst
+Name 2 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3089 of file model2-names.bst
+Name 3 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3089 of file model2-names.bst
+Name 4 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3089 of file model2-names.bst
+Name 5 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3089 of file model2-names.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty pages in Ampeliotis2008
+Warning--empty journal in Antic2013
+Warning--empty journal in Giannini2013
+Warning--can't use both author and editor fields in Gleason1977
+Warning--empty journal in Litjens2012
+Warning--empty journal in Litjens2011
+Too many commas in name 4 of "Liu, P. and Wang, S. and Turkbey, B. and Grant, K.and Pinto, P.and Choyke, P. and Wood, B. J. and Summers, R. M." for entry Liu2013
+while executing---line 3271 of file model2-names.bst
+Too many commas in name 4 of "Liu, P. and Wang, S. and Turkbey, B. and Grant, K.and Pinto, P.and Choyke, P. and Wood, B. J. and Summers, R. M." for entry Liu2013
+while executing---line 3271 of file model2-names.bst
+Warning--empty journal in Liu2013
+Warning--empty journal in Mazzetti2011
+Warning--empty pages in Mitra2011
+Warning--empty journal in Niaf2011
+Warning--can't use both author and editor fields in Osorio-Garcia2012
+Warning--can't use both author and editor fields in Prewitt1970
+Warning--empty pages in Prewitt1970
+Warning--missing institution in Quinonero-Candela2002
+Warning--empty booktitle in Rumelhart1988
+Warning--empty pages in Tofts2010
+Name 1 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 2 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 3 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 4 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 5 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 5 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 1 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 2 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 3 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 4 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 5 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Name 5 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
+while executing---line 3271 of file model2-names.bst
+Warning--empty pages in Toth2009
+Warning--empty journal in Viswanath2011
+Warning--empty pages in Viswanath2009
+Warning--empty pages in Viswanath2008
+Warning--empty pages in Vos2008
+Warning--empty pages in Walker2010
+You've used 260 entries,
+            2990 wiz_defined-function locations,
+            2423 strings with 66997 characters,
+and the built_in function-call counts, 208706 in all, are:
+= -- 14969
+> -- 10850
+< -- 101
++ -- 4138
+- -- 3872
+* -- 24851
+:= -- 30345
+add.period$ -- 792
+call.type$ -- 260
+change.case$ -- 2582
+chr.to.int$ -- 254
+cite$ -- 282
+duplicate$ -- 14299
+empty$ -- 13856
+format.name$ -- 4645
+if$ -- 38155
+int.to.chr$ -- 7
+int.to.str$ -- 1
+missing$ -- 3083
+newline$ -- 1327
+num.names$ -- 1046
+pop$ -- 5255
+preamble$ -- 1
+purify$ -- 2329
+quote$ -- 0
+skip$ -- 3745
+stack$ -- 0
+substring$ -- 8774
+swap$ -- 11630
+text.length$ -- 25
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2307
+warning$ -- 22
+while$ -- 1188
+width$ -- 0
+write$ -- 3715
+(There were 21 error messages)

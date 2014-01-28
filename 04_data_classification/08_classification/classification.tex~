@@ -1,0 +1,41 @@
+\section{Background} \label{sec:background}
+
+\subsection{The human prostate}
+
+\subsection{Prostate carcinoma}
+
+Prostate cancer (CaP) was reported, at a worldwide scale, to be the second most frequently diagnosed cancer of men accounting for $13.6 \%$ (\cite{Ferlay2010}). Statistical estimation stated about $899,000$ new diagnosed cases and no less than $258,100$ deaths in 2008 (\cite{Ferlay2010}). In United States, aside of skin cancer, CaP was declared to be the most commonly diagnosed cancer among men implying that approximately one in six men will be diagnosed with CaP during their lifetime and one in thirty-six will die from this disease entailing CaP to be the second most common cause of cancer death among men (\cite{Siegel2013}, \cite{Society2013}).
+
+{\color{red}Speaks about risk factors.}
+
+{\color{red}Speaks about early detection.}
+
+\subsection{CaP screening and Magnetic Resonance Imaging (MRI)}
+
+\subsubsection{Digital Rectal Examination (DRE)}
+
+\subsubsection{Prostate Specific Antigen (PSA)}
+
+\subsubsection{Biopsy}
+
+\subsubsection{Magnetic Resonance Imaging (MRI) and Magnetic Resonance Spectroscopy Imaging (MRSI)}
+
+\begin{itemize}
+\item {T$_2$ Weighted (T$_2$-W) MRI}
+
+\item{Diffusion Weighted Imaging (DWI)}
+
+\item{Dynamic Contrast-Enhanced (DCE) MRI}
+
+\item{MRSI}
+\end{itemize}
+
+\subsubsection{Discussion}
+
+{\color{red}False positive rate in PSA, DRE and why using MRI.}
+
+\subsection{Computer-aided detection (CADe) and computer-aided diagnosis (CADx)}
+
+{\color{red}Schematic about CADx - CADe.}
+
+{\color{red}Explain why CADx - CADe are useful using Huisman's paper.}

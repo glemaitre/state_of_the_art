@@ -1,0 +1,45 @@
+\subsection{\ac{cade}: \acp{roi} detection/selection}
+
+\begin{table}
+	\caption{Overview of the \ac{cade} strategies employed in \ac{cad} systems.}
+	\small
+	%\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{\ac{cade}: \acp{roi} selection strategy} & \textbf{References} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\quad All voxels-based approach & $[$4-5,7-8,12,14,16-17,20-22,25-37$]$ \\ \\ [-1.5ex]
+		\quad Lesions candidate detection & $[$10-11,41$]$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+	\label{tab:cade}
+\end{table}
+
+As discussed in the introduction and shown in Fig. \ref{fig:wkfcad}, the image classification framework is composed of eventually a \ac{cade} and a \ac{cadx}. In this section, attention will be paid on studies embedding a \ac{cade} in their framework. Let us remind the characteristics allowing to be or not tagged as a \ac{cade} system in our classification. \ac{cad} systems with manual delineations of potential lesions were excluded from the \ac{cade} classification.
+
+Thus, only two others approaches were considered to be \ac{cade} which are summarized in Tab. \ref{tab:cade}. The first strategy, which concern the majority of the studies reviewed (see Tab. \ref{tab:cade}), is in fact linked to the nature of the classification framework. All voxels are considered as a possible threat and the output of the framework will be the lesions classified as cancerous.
+
+The secondary group of methods is composed of method implementing a specific processing to delineate potential lesions to further obtain a diagnosis through the \ac{cadx}.
+
+\cite{Vos2012} highlighted candidate lesions by detecting blob in the \ac{adc} map follow by a suppression stage based on \textit{a priori} criterion. As mentioned in Sect. \ref{subsubsec:mrimrsi} (see also Tab. \ref{tab:modmri}), \ac{cap} can be interpreted as region of lower \ac{si} in \ac{adc} map. Hence, blob detector are suitable to highlight these kinds of region. Then, blobs were detected in a multi-resolution scheme by computing the three main eigenvalues $\{ \lambda_{\sigma,1},\lambda_{\sigma,2},\lambda_{\sigma,3} \}$ of the Hessian matrix for each voxel location of the \ac{adc} map at a specific scale $\sigma$ as proposed by \cite{Li2003}. The probability $p$ of a voxel $\mathbf{x}$ to be part of a blob at the scale $\sigma$ is given such as:
+
+\begin{equation}
+P(\mathbf{x},\sigma) = \begin{cases}
+	\frac{\| \lambda_{\sigma,3}(\mathbf{x}) \|^{2}}{\| \lambda_{\sigma,1} (\mathbf{x}) \|} \ , & \text{if } \lambda_{\sigma,k}(\mathbf{x}) > 0 \text{ with } k = \{1,2,3\} \  , \\
+	0 \ , & \text{otherwise} \ .
+\end{cases}
+\label{eq:blobdet}
+\end{equation}
+
+The fusion of the different scales is computed such as:
+
+\begin{equation}
+	L(\mathbf{x}) = \max P(\mathbf{x},\sigma) , \forall \sigma \ .
+	\label{eq:fusionBlob}
+\end{equation}
+
+The resulting map $L(\mathbf{x})$ is then filtered depending on its appearance (cf. maximum of the likelihood of the region, diameter of the lesion) and their \ac{si} in \ac{adc} and \ac{t2w} images. The detected regions were then used as inputs for the \ac{cadx}.
+
+\cite{Litjens2011} used a pattern recognition approach in order to delineate the \acp{roi}. A blobness map was calculated in the same manner as previously mentioned using the multi-resolution Hessian blob detector on the \ac{adc} map, \ac{t2w} and pharmacokinetic parameters maps (see Sect. \ref{subsec:featuredetection} for details about those parameters). Additionally, the position of the voxel $\mathbf{x}=\{x,y,z\}$ was used as features as well as the Euclidean distance of the voxel to the prostate center. Hence, the feature vectors was composed of eight features and a \ac{svm} classifier was trained using a \ac{rbf} kernel (see Sect. \ref{subsec:classification} for more details).
+
+Posteriorly, \cite{Litjens2012} modified this approach by including only features related to the blob detection on the different maps as well as the original \acp{si} of the parametric images. Two new maps were introduced based on texture. Instead of a \ac{svm} classifier, a \ac{knn} classifier was performed. The candidate regions are then extracted by performing a local maxima detection follow by a post-processing region-growing and morphological operations. 

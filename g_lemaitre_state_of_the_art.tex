@@ -1,0 +1,380 @@
+%% This is file `elsarticle-template-2-harv.tex',
+%%
+%% Copyright 2009 Elsevier Ltd
+%%
+%% This file is part of the 'Elsarticle Bundle'.
+%% ---------------------------------------------
+%%
+%% It may be distributed under the conditions of the LaTeX Project Public
+%% License, either version 1.2 of this license or (at your option) any
+%% later version.  The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.2 or later is part of all distributions of LaTeX
+%% version 1999/12/01 or later.
+%%
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
+%%
+%% Template article for Elsevier's document class `elsarticle'
+%% with harvard style bibliographic references
+%%
+%% $Id: elsarticle-template-2-harv.tex 155 2009-10-08 05:35:05Z rishi $
+%% $URL: http://lenova.river-valley.com/svn/elsbst/trunk/elsarticle-template-2-harv.tex $
+%%
+
+%% Preprint needed
+%\documentclass[preprint,authoryear,12pt]{elsarticle}
+%% Preprint with number citation system
+%\documentclass[preprint,12pt]{elsarticle}
+%% Final rendering
+\documentclass[final,authoryear,5p,times,twocolumn]{elsarticle}
+
+%% Specify the journal
+\journal{Medical Image Analysis}
+
+%% Use the option review to obtain double line spacing
+%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
+
+%% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
+%% for a journal layout:
+%% \documentclass[final,authoryear,1p,times]{elsarticle}
+%% \documentclass[final,authoryear,1p,times,twocolumn]{elsarticle}
+%% \documentclass[final,authoryear,3p,times]{elsarticle}
+%% \documentclass[final,authoryear,3p,times,twocolumn]{elsarticle}
+%% \documentclass[final,authoryear,5p,times]{elsarticle}
+%% \documentclass[final,authoryear,5p,times,twocolumn]{elsarticle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% INSERT HERE WHATEVER IS FILE SYSTEMS
+
+%% Insert the file with all the package used in this file
+\input{file_system/package}
+
+%% Insert the acronym definition
+\input{file_system/acronym_definition}
+
+%% Option for the bibtex file
+\input{bibtex/bibtex_option}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% START THE DOCUMENTS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ADD THE FRONTMATTER HERE
+\input{00_frontmatter/frontmatter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% The lineno packages adds line numbers.
+%\linenumbers
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ADD ALL THE SECTIONS HERE
+
+\input{01_introduction/introduction}
+
+\input{02_background/background}
+
+\input{03_image_processing/image_processing}
+
+\input{04_data_classification/data_classification}
+
+\input{09_discussion/discussion}
+
+\input{10_conclusion/conclusion}
+
+\input{11_acknowledgement/acknowledgement}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newpage
+%
+%\section{Pre-processing methods}
+%
+%\subsection{MRI}
+%
+%\subsubsection{Image normalization / standardization}
+%
+%\begin{itemize}
+%	\item Quantitative map building
+%	\item Bias correction
+%	\item Mean/standard-deviation Normalization
+%	\item Intensities standardization
+%\end{itemize}
+%
+%\subsubsection{Image de-noising}
+%
+%\begin{itemize}
+%	\item Median filtering
+%	\item Wavelet-based de-noising
+%\end{itemize}
+%
+%\subsubsection{Image re-sampling}
+%
+%\subsection{MRSI}
+%
+%\subsubsection{Signal de-noising}
+%
+%\subsubsection{Phase correction}
+%
+%\newpage
+%
+%\section{Segmentation}
+%
+%\subsection{MRI}
+%
+%\subsubsection{Probabilistic appearance approach}
+%
+%\subsubsection{Multi-atlas segmentation}
+%
+%\subsubsection{ASM with mutual information}
+%
+%\subsubsection{MANTRA}
+%
+%\subsubsection{K-means clustering}
+%
+%\subsection{MRSI}
+%
+%\subsubsection{Clustering}
+%
+%\begin{itemize}
+%\item K-means
+%\item Iterative K-means
+%\end{itemize}
+%
+%\newpage
+%
+%\section{Registration}
+%
+%\subsection{Introduction}
+%
+%\subsection{Geometric transformation}
+%
+%\subsubsection{Rigid transformation}
+%
+%\subsubsection{Affine transformation}
+%
+%\subsubsection{Elastic transformation}
+%
+%\subsection{Alignment measures}
+%
+%\subsubsection{Mean-Squared Error}
+%
+%\subsubsection{Mutual Information}
+%
+%\subsubsection{Combined Mutual Information}
+%
+%\subsubsection{COFEMI}
+%
+%\subsubsection{MACMI}
+%
+%\subsection{Optimization}
+%
+%\subsubsection{L-BFGS-B optimizer}
+%
+%\subsubsection{Nedler-Mead simplex}
+%
+%\subsection{Discussion}
+%
+%\newpage
+%
+%\section{Features detection}
+%
+%\subsection{MRI}
+%
+%\subsubsection{T$_2$-W}
+%
+%\begin{itemize}
+%	\item Quantitative T$_2$ map
+%	\item Textural features
+%	\item Fractal dimensions
+%\end{itemize}
+%
+%\subsubsection{DCE MRI}
+%
+%\begin{itemize}
+%	\item Toft's model
+%	\item Semi-quantitative features
+%	\item Weilbull's model
+%	\item EU1 model
+%\end{itemize}
+%
+%\subsubsection{DWI}
+%
+%\begin{itemize}
+%	\item Quantitative ADC map
+%	\item Textural features based on ADC map
+%\end{itemize}
+%
+%\subsection{MRSI}
+%
+%\subsubsection{Whole spectra}
+%
+%\subsubsection{Wavelet decomposition}
+%
+%\subsubsection{Quantification}
+%
+%\newpage
+%
+%\section{Feature selection - feature extraction}
+%
+%\subsection{Feature selection}
+%
+%\subsubsection{Fisher discriminant analysis}
+%
+%\subsubsection{Minimum Redundancy Maximum Relevance (mRMR)}
+%
+%\subsubsection{p-score test}
+%
+%\subsubsection{Selection based on Mutual Information}
+%
+%\subsection{feature dimension reduction}
+%
+%\subsubsection{Graphic Embedding}
+%
+%\subsubsection{Local Linearly Embedding}
+%
+%\subsubsection{Consensus - LLE}
+%
+%\subsubsection{Principal Component Analysis}
+%
+%\subsubsection{ScEPTre}
+%
+%\subsubsection{SeSMiK}
+%
+%\subsubsection{EMPrAvISE}
+%
+%\newpage
+%
+%\section{Classification / fusion}
+%
+%\subsection{Ensemble learner}
+%
+%\subsubsection{AdaBoost}
+%
+%\subsubsection{Random forests}
+%
+%\subsubsection{Probabilistic boosting tree}
+%
+%\subsection{Linear model}
+%
+%\subsubsection{Linear discriminant analysis}
+%
+%\subsubsection{Logistic regression}
+%
+%\subsubsection{Quadratic discriminant analysis}
+%
+%\subsubsection{Maximum likelihood}
+%
+%\subsubsection{Bayesian classifier}
+%
+%\subsection{Neural Network}
+%
+%\subsubsection{Multiple layer perceptron}
+%
+%\subsubsection{Probabilistic neural network}
+%
+%\subsection{Kernel method}
+%
+%\subsubsection{Gaussian processes}
+%
+%\subsection{Sparse kernel methods}
+%
+%\subsubsection{SVM}
+%
+%\subsubsection{RVM}
+%
+%\subsection{Graphical model}
+%
+%\subsubsection{Markov random field}
+%
+%\subsubsection{Conditional random field}
+%
+%\subsection{Rules scoring}
+%
+%\subsection{Clustering}
+%
+%\subsubsection{k-means}
+%
+%\subsubsection{kNN}
+%
+%\subsection{Discussion}
+%
+%\newpage
+%
+%\section{Discussion - recommendations}
+%
+%\newpage
+%
+%\section{Conclusion}
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+%% \appendix
+
+%% \section{}
+%% \label{}
+
+%% References
+%%
+%% Following citation commands can be used in the body text:
+%%
+%%  \citet{key}  ==>>  Jones et al. (1990)
+%%  \citep{key}  ==>>  (Jones et al., 1990)
+%%
+%% Multiple citations as normal:
+%% \citep{key1,key2}         ==>> (Jones et al., 1990; Smith, 1989)
+%%                            or  (Jones et al., 1990, 1991)
+%%                            or  (Jones et al., 1990a,b)
+%% \cite{key} is the equivalent of \citet{key} in author-year mode
+%%
+%% Full author lists may be forced with \citet* or \citep*, e.g.
+%%   \citep*{key}            ==>> (Jones, Baker, and Williams, 1990)
+%%
+%% Optional notes as:
+%%   \citep[chap. 2]{key}    ==>> (Jones et al., 1990, chap. 2)
+%%   \citep[e.g.,][]{key}    ==>> (e.g., Jones et al., 1990)
+%%   \citep[see][pg. 34]{key}==>> (see Jones et al., 1990, pg. 34)
+%%  (Note: in standard LaTeX, only one note is allowed, after the ref.
+%%   Here, one note is like the standard, two make pre- and post-notes.)
+%%
+%%   \citealt{key}          ==>> Jones et al. 1990
+%%   \citealt*{key}         ==>> Jones, Baker, and Williams 1990
+%%   \citealp{key}          ==>> Jones et al., 1990
+%%   \citealp*{key}         ==>> Jones, Baker, and Williams, 1990
+%%
+%% Additional citation possibilities
+%%   \citeauthor{key}       ==>> Jones et al.
+%%   \citeauthor*{key}      ==>> Jones, Baker, and Williams
+%%   \citeyear{key}         ==>> 1990
+%%   \citeyearpar{key}      ==>> (1990)
+%%   \citetext{priv. comm.} ==>> (priv. comm.)
+%%   \citenum{key}          ==>> 11 [non-superscripted]
+%% Note: full author lists depends on whether the bib style supports them;
+%%       if not, the abbreviated list is printed even when full requested.
+%%
+%% For names like della Robbia at the start of a sentence, use
+%%   \Citet{dRob98}         ==>> Della Robbia (1998)
+%%   \Citep{dRob98}         ==>> (Della Robbia, 1998)
+%%   \Citeauthor{dRob98}    ==>> Della Robbia
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% BIBTEX AND BIBLIOGRAPHY START HERE
+
+\bibliographystyle{model2-names}
+\bibliography{bibtex/literature_review.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% End of file `elsarticle-template-2-harv.tex'.
