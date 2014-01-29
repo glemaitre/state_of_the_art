@@ -649,7 +649,7 @@
 \end{tikzpicture}
 }
 \hspace*{\fill}
-\caption{Comparison of the results in term of sensitivity and specificity for 1.5 and 3.0 Tesla \ac{mri} scanner. The blue value represent the metric and are graphically reported in the blue rose in the center of the figure. The red value correspond to the number of patients in the dataset and is also reported in the center of the figure. The numbers between brackets correspond to the reference as reported in Tab. \ref{tab:sumpap}.}
+\caption{Comparison of the results in term of sensitivity and specificity for 1.5 and 3.0 Tesla \ac{mri} scanner. The blue value represent the metric and are graphically reported in the blue curve in the center of the figure. The red value correspond to the number of patients in the dataset and is also reported in the center of the figure. The numbers between brackets correspond to the reference as reported in Tab. \ref{tab:sumpap}.}
 \label{fig:sensspec}
 \end{figure*}
 
@@ -752,26 +752,26 @@
 %  }
         
 \end{tikzpicture}
-\caption{Comparison in term of \ac{froc} of the methods using data from 3.0 Tesla \ac{mri} scanner. The blue value represent the metric and are graphically reported in the blue rose in the center of the figure. The red value correspond to the number of patients in the dataset and is also reported in the center of the figure. The numbers between brackets correspond to the reference as reported in Tab. \ref{tab:sumpap}.}
+\caption{Comparison in term of \ac{froc} of the methods using data from 3.0 Tesla \ac{mri} scanner. The blue value represent the metric and are graphically reported in the blue curve in the center of the figure. The red value correspond to the number of patients in the dataset and is also reported in the center of the figure. The numbers between brackets correspond to the reference as reported in Tab. \ref{tab:sumpap}.}
 \label{fig:froc}
 \end{figure}
 
 As discussed previously in Sect. \ref{subsubsec:eval}, different metrics have been used to report results. A comparison of the different methods reviewed is given depending on the metric used in each research and also the type of \ac{mri} scanner used (cf., 1.5 \textit{versus} 3.0 Tesla). For each research, the experiment obtaining the best result was reported into these figures.
 
-The results given in term of \ac{auc}-\ac{roc} are depicted in Fig. \ref{fig:auc}. The results vary between $77\%$ and $95\%$ for some experiment with a 1.5 \ac{mri} Tesla scanner and $77\%$ and $95\%$ with a 3.0 Tesla \ac{mri} scanner. 
+The results given in term of \ac{auc}-\ac{roc} are depicted in Fig. \ref{fig:auc}. The results vary between $77\%$ and $95\%$ for some experiments with a 1.5 \ac{mri} Tesla scanner and $77\%$ and $95\%$ with a 3.0 Tesla \ac{mri} scanner. 
 
 The results related with sensitivity and specificity are reported in Fig. \ref{fig:sensspec}. In the case that the data were collected with a 1.5 Tesla \ac{mri} scanner, the sensitivity is ranging from $74\%$ and $100\%$ and the specificity from $43\%$ and $93\%$. For the experiments carried out with a 3.0 Tesla \ac{mri} scanner, the sensitivity is varying from $60\%$ to $90\%$ and the specificity from $66\%$ to $99\%$.
 
 Three studies also use \ac{froc} analysis to report their results and are shown in Fig. \ref{fig:froc}. The results are ranging from $65\%$ to $80\%$
 
-However, we would like to emphasize the fact that the results obtained from these different experiments cannot be fairly compared. Different dataset were used implying different complexity involved and set of input parameter during the data acquisition. To our mind, the only to provide a real and fair comparison would be to provide a common working dataset where those algorithms could be tested.
+However, we would like to emphasize the fact that the results obtained from these different experiments cannot be fairly compared. Different datasets were used implying different complexity involved and set of input parameter during the data acquisition. To our mind, the only to provide a real and fair comparison would be to provide a common working dataset where those algorithms could be tested.
 
 \subsection{General discussion}
 
-This review lead to some general discussion which could direct to future avenues for research. As previously mentioned, no open multi-parametric dataset is currently available. This fact lead to an impossibility to compare fairly the different algorithm designed over year. Also, the availability of a full multi-parametric dataset (cf., \ac{mri} and \ac{mrsi}), could lead to algorithm which are using all the different modalities available currently. Recalling Tab. \ref{tab:sumpap}, it can be noted that none of the current work provide a algorithm using at the same time the four different modalities. We can also mentioned that all the algorithm are focused on one type of scanner only, either 1.5 Tesla and 3.0 Tesla. A dataset grouping these both types of imaging could allow to develop more generic algorithms.
+This review leads to some general discussion which could direct to future avenues for research. As previously mentioned, no open multi-parametric dataset is currently available. This fact leads to an impossibility to compare fairly the different algorithm designed over years. Also, the availability of a full multi-parametric dataset (cf., \ac{mri} and \ac{mrsi}), could lead to algorithm which are using all the different modalities available currently. Recalling Tab. \ref{tab:sumpap}, it can be noted that none of the current work provides an algorithm using at the same time the four different modalities. We can also mentioned that all the algorithms are focused on one type of scanner only, either 1.5 Tesla and 3.0 Tesla. A dataset grouping these both types of imaging could allow to develop more generic algorithms.
 
 Then, by analysing the different stage of the \ac{cad} work-flow, it can be notice that the actual \ac{cad} systems do not include all the different pre-processing steps. It could be interesting to evaluate the gain of these pre-processing steps on the final results obtained after the classification in order to know if any significant improvement can be observed. Regarding segmentation and registration of the prostate, \ac{cad} systems could highly benefit from specific research in these area which could lead to a better automation of those system. Moreover, methods specific to segmentation and registration which are not actually used in \ac{cad} systems can performed better than the one used currently in \acp{cad}.
 
 Regarding the classification framework, it seems that the current well-known pattern recognition method have been widely study. However, more investigations can be carried out regarding the feature detection stage. Lately, histogram-based features have shown good capabilities in the field of computer vision and could be incorporated. Only, one study \cite{Liu2013} used some of these features.
 
-Finally, an important point allowing a fair comparison between methods reside in the fact that no universal evaluation model and metric was defined in the research community allowing such comparison. Usually, it is quite common to choose an evaluation model which fit the dataset limitations, usually the size. Regarding the evaluation, the community would benefit from settling a standard metric which represents the most fairly the performance of the algorithms designed.
+Finally, an important point allowing a fair comparison between methods resides in the fact that no universal evaluation model and metric was defined in the research community allowing such comparison. Usually, it is quite common to choose an evaluation model which fits the dataset limitations, usually the size. Regarding the evaluation, the community would benefit from settling a standard metric which represents the most fairly the performance of the algorithms designed.

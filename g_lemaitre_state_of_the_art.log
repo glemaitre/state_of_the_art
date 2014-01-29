@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  29 JAN 2014 11:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  29 JAN 2014 15:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2313,9 +2313,9 @@ bias_antenna-eps-converted-to.pdf used on input line 69.
 (pdftex.def)             Requested size: 129.00269pt x 129.00516pt.
  [26 <./03_image_processing/03_preprocessing/figures/bias/t2w_bias_antenna-eps-
 converted-to.pdf>] [27]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 2521) in paragraph at lines 124--124
 [][][]\OT1/cmr/m/n/10 The N3 al-go-rithm im-ple-men-ta-tion is avail-able at: \
-OT1/cmtt/m/n/10 http://www.bic.mni.
+OT1/cmtt/m/n/10 http://www.bic.mni.mcgill.ca/
  []
 
 [28] [29]
@@ -2924,9 +2924,9 @@ he eigenvectors-eigenvalues
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
+Underfull \hbox (badness 1067) in paragraph at lines 109--109
 [][][]\OT1/cmr/m/n/10 Laplacian eigen-map im-ple-men-ta-tion is avail-able at: 
-\OT1/cmtt/m/n/10 http://www.cse.
+\OT1/cmtt/m/n/10 http://www.cse.ohio-state.edu/
  []
 
 [63]
@@ -2936,14 +2936,14 @@ Overfull \hbox (18.64488pt too wide) in paragraph at lines 116--117
  []
 
 [64]) (./04_data_classification/08_classification/classification.tex
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 []|$\OT1/cmr/m/n/10.95 [$4-6,8,10-11,13-14,18-
  []
 
 [65] [66] [67] [68] [69]
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
+Underfull \hbox (badness 3713) in paragraph at lines 174--174
 [][][]\OT1/cmr/m/n/10 Random for-est im-ple-men-ta-tion can be found at: \OT1/c
-mtt/m/n/10 http://www.stat.
+mtt/m/n/10 http://www.stat.berkeley.edu/
  []
 
 [70]
@@ -2958,18 +2958,18 @@ igures/pbt-simulation/pbt_tree_3_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_3_2-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_3_2.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_2-e
-ps-converted-to.pdf, id=2422, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2424, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3
 _2-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_3_2-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_3_2-eps-converted-to.pdf used on input line 198.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_3_1.eps>
@@ -2982,18 +2982,18 @@ igures/pbt-simulation/pbt_tree_3_1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_3_1-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_3_1.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-e
-ps-converted-to.pdf, id=2423, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2425, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3
 _1-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_3_1-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_3_1-eps-converted-to.pdf used on input line 198.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_2_1.eps>
@@ -3006,18 +3006,18 @@ igures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_2_1.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_1-e
-ps-converted-to.pdf, id=2424, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2426, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2
 _1-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_2_1-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_2_1-eps-converted-to.pdf used on input line 198.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_2_2.eps>
@@ -3030,18 +3030,18 @@ igures/pbt-simulation/pbt_tree_2_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_2_2-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_2_2.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_2-e
-ps-converted-to.pdf, id=2425, 477.785pt x 357.335pt>
+ps-converted-to.pdf, id=2427, 477.785pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2
 _2-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_2_2-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_2_2-eps-converted-to.pdf used on input line 198.
 (pdftex.def)             Requested size: 56.9055pt x 42.55664pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_1.eps>
@@ -3054,18 +3054,18 @@ igures/pbt-simulation/pbt_tree_1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_1-eps-converted-to.pdf 04_data_cl
 assification/08_classification/figures/pbt-simulation/pbt_tree_1.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1-eps
--converted-to.pdf, id=2426, 475.7775pt x 357.335pt>
+-converted-to.pdf, id=2428, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1
 -eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_1-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_1-eps-converted-to.pdf used on input line 198.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Missing character: There is no ; in font nullfont!
  [71 <./04_data_classification/08_classification/figures/pbt-simulation/pbt_tre
@@ -3075,23 +3075,17 @@ lassification/figures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf> <./04_d
 ata_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-eps-co
 nverted-to.pdf> <./04_data_classification/08_classification/figures/pbt-simulat
 ion/pbt_tree_3_2-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 203.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 206.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 203.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
+ [72] [73]
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
-[][][]\OT1/cmr/m/n/10 Gaussian pro-cess im-ple-men-ta-tion can be found at: \OT
-1/cmtt/m/n/10 http://www.
- []
-
-[72] [73]
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 278.
+LaTeX Font Warning: Command \small invalid in math mode on input line 281.
 
 [74]
 Missing character: There is no ; in font nullfont!
@@ -3103,12 +3097,12 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (3.00064pt too wide) in paragraph at lines 477--477
+Overfull \hbox (3.00064pt too wide) in paragraph at lines 480--480
  [][][][]\OT1/cmr/m/n/10 Summation 
  []
 
 [77] [78]
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
+Underfull \hbox (badness 10000) in paragraph at lines 566--566
 []|$\OT1/cmr/m/n/10.95 [$4-5,7,12,14,17,20-23,25,27-
  []
 
@@ -3121,8 +3115,8 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
  [81] [82] [83])
-(./10_conclusion/conclusion.tex) (./11_acknowledgement/acknowledgement.tex)
-[84] (./g_lemaitre_state_of_the_art.bbl [85] [86]
+(./10_conclusion/conclusion.tex) [84] (./11_acknowledgement/acknowledgement.tex
+) (./g_lemaitre_state_of_the_art.bbl [85] [86]
 Underfull \hbox (badness 10000) in paragraph at lines 228--238
 []$\OT1/cmtt/m/n/12 http : / / www . sciencedirect . com / science / article / 
 pii / S0167715298000789$[]\OT1/cmr/m/n/12 ,
@@ -3220,7 +3214,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  32634 strings out of 493311
  651899 string characters out of 6137856
- 914971 words of memory out of 5000000
+ 915381 words of memory out of 5000000
  34757 multiletter control sequences out of 15000+600000
  26964 words of font info for 102 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -3261,10 +3255,10 @@ onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (111 pages, 3075949 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (111 pages, 3076800 bytes).
 PDF statistics:
- 3196 PDF objects out of 3580 (max. 8388607)
- 2913 compressed objects within 30 object streams
+ 3198 PDF objects out of 3580 (max. 8388607)
+ 2915 compressed objects within 30 object streams
  571 named destinations out of 1000 (max. 500000)
  627 words of extra memory for PDF output out of 10000 (max. 10000000)
 

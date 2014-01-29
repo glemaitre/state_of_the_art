@@ -106,7 +106,7 @@ It is then possible to find the new low-dimensional space by sorting the eigenve
 
 Non-linear mapping was also used for dimension reduction and mainly based on Laplacian eigenmaps and \acf{lle} methods.
 
-Laplacian eigenmaps\footnote{Laplacian eigenmap implementation is available at: \texttt{http://www.cse.\allowbreak ohio-state.edu/~mbelkin/algorithms/algorithms.html}} or also referred as spectral clustering in computer vision aimed to find a low-dimensional space in which the proximity of the data should be preserved from the high-dimensional space (\cite{Shi2000,Belkin2001}). Thus, two adjacent data points in the high-dimensional space should also be close in the low-dimensional space. In like manner, two far away data points in the high-dimensional space should be also distant in the low-dimensional space. To compute this projection, an adjacency matrix is defined such as:
+Laplacian eigenmaps\footnote{Laplacian eigenmap implementation is available at: \texttt{http://www.cse.ohio-state.edu/\allowbreak $\sim$mbelkin/algorithms/algorithms.html}} or also referred as spectral clustering in computer vision aimed to find a low-dimensional space in which the proximity of the data should be preserved from the high-dimensional space (\cite{Shi2000,Belkin2001}). Thus, two adjacent data points in the high-dimensional space should also be close in the low-dimensional space. In like manner, two far away data points in the high-dimensional space should be also distant in the low-dimensional space. To compute this projection, an adjacency matrix is defined such as:
 
 \begin{equation}
 	W(i,j) = \exp \| x_i - x_j \|_2 \ .
