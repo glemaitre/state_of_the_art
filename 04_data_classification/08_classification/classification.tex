@@ -275,10 +275,8 @@ From Eq. \ref{eq:svm1}, it is important to notice that only few points from the 
 The different parameters can be inferred using quadratic programming. This version of \ac{svm} is known as hard-margin since that no point can lie in the margin area. However, this is highly probable to not find any hyperplane splitting the classes such as specified previously. Thus, a soft-margin optimization approach was proposed (\cite{Cortes1995}), where points can lie into the margin but at the cost of penalty which will be minimized in the optimization process such that:
 
 \begin{equation}
-\begin{aligned}
-\arg\min_{\mathbf{w},\mathbf{\xi}, b } \max_{\boldsymbol{\alpha},\boldsymbol{\beta} } & \left\{ \frac{1}{2}\|\mathbf{w}\|^2+C \sum_{i=1}^n \xi_i \right. \\
- & \left. - \sum_{i=1}^{n}{\alpha_i[y_i(\mathbf{w}\cdot \mathbf{x_i} - b) -1 + \xi_i]} - \sum_{i=1}^{n} \beta_i \xi_i \right\} \ .
-\end{aligned}
+\small
+\arg\min_{\mathbf{w},\mathbf{\xi}, b } \max_{\boldsymbol{\alpha},\boldsymbol{\beta} } \left\{ \frac{1}{2}\|\mathbf{w}\|^2+C \sum_{i=1}^n \xi_i - \sum_{i=1}^{n}{\alpha_i[y_i(\mathbf{w}\cdot \mathbf{x_i} - b) -1 + \xi_i]} - \sum_{i=1}^{n} \beta_i \xi_i \right\} \ .
 \end{equation}
 
 The decision to assigned the label to a new observation $\mathbf{x}_i$ is taken such that:
@@ -362,9 +360,9 @@ As mentioned in \cite{Quinonero-Candela2002}, the sparsity regarding the relevan
     \draw[shorten >=1pt,->,draw=black!50] (H-5) -- (O-2) node [midway, below] (w251) {\scriptsize $w_{kj}^{(2)}$};
 
     % Annotate the layers
-    \node[annot,above of=H-1, node distance=1cm] (hl) {\small Hidden layer};
-    \node[annot,left of=hl] {\small Input layer};
-    \node[annot,right of=hl] {\small Output layer};
+    \node[annot,above of=H-1, node distance=1cm] (hl) {\footnotesize Hidden layer};
+    \node[annot,left of=hl] {\footnotesize Input layer};
+    \node[annot,right of=hl] {\footnotesize Output layer};
 \end{tikzpicture}
 \caption{Representation of a neural network of the multilayer perceptron family.}
 \label{fig:mlp}
@@ -423,9 +421,9 @@ This optimization can be performed using a gradient descent method where the der
    \draw[dashed,draw=black!50] (I-3) -- (I-4);
    
    % Draw the pattern layer
-   \node[hidden neuron] (H-1) at (\layersep,0 cm) {\tiny $h_{11}\left(\sum .\right)$};
-   \node[hidden neuron] (H-2) at (\layersep,-1 cm) {\tiny $h_{21}\left(\sum .\right)$};
-   \node[hidden neuron] (H-3) at (\layersep,-2.5 cm) {\tiny $h_{31}\left(\sum .\right)$};
+   \node[hidden neuron] (H-1) at (\layersep,0 cm) {\tiny $h_{11}\left(.\right)$};
+   \node[hidden neuron] (H-2) at (\layersep,-1 cm) {\tiny $h_{21}\left(.\right)$};
+   \node[hidden neuron] (H-3) at (\layersep,-2.5 cm) {\tiny $h_{31}\left(.\right)$};
    \draw[dashed,draw=black!50] (H-2) -- (H-3);
    
    \begin{pgfonlayer}{background}
@@ -435,9 +433,9 @@ This optimization can be performed using a gradient descent method where the der
     \path[fill=blue!10,rounded corners, draw=blue!50, dashed] (a) rectangle (b);
    \end{pgfonlayer}
    
-   \node[hidden neuron] (H-4) at (\layersep,-4.5 cm) {\tiny $h_{12}\left(\sum .\right)$};
-   \node[hidden neuron] (H-5) at (\layersep,-5.5 cm) {\tiny $h_{22}\left(\sum .\right)$};
-   \node[hidden neuron] (H-6) at (\layersep,-7 cm) {\tiny $h_{32}\left(\sum .\right)$};
+   \node[hidden neuron] (H-4) at (\layersep,-4.5 cm) {\tiny $h_{12}\left(.\right)$};
+   \node[hidden neuron] (H-5) at (\layersep,-5.5 cm) {\tiny $h_{22}\left(.\right)$};
+   \node[hidden neuron] (H-6) at (\layersep,-7 cm) {\tiny $h_{32}\left(.\right)$};
    \draw[dashed,draw=black!50] (H-5) -- (H-6);
    
    \begin{pgfonlayer}{background}
@@ -473,12 +471,12 @@ This optimization can be performed using a gradient descent method where the der
    	\draw[shorten >=1pt,->,draw=black!50] (S-2)  -- (O);
   
     % Annotate the layers
-    \node[annot,above of=H-1, node distance=1cm] (hl) {\small Pattern layer};
-    \node[annot,left of=hl] {\small Input layer};
+    \node[annot,above of=H-1, node distance=1cm] (hl) {\footnotesize Pattern layer};
+    \node[annot,left of=hl] {\footnotesize Input layer};
     \begin{scope}[node distance=2cm]
-    \node[annot,right of=hl] {\small Summation layer};
+    \node[annot,right of=hl] {\footnotesize Summation layer};
     \end{scope}
-    \node[annot,above of=O, node distance=4.5cm] (o) {\small Decision layer};
+    \node[annot,above of=O, node distance=4.5cm] (o) {\footnotesize Decision layer};
 \end{tikzpicture}
 \caption{Representation of a neural network of the probabilistic neural network family.}
 \label{fig:pnn}

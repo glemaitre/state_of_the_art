@@ -234,10 +234,7 @@ These features are commonly incorporated in the feature vector for further class
 Gabor filters offer another approach to extract information related to edges and texture and were found to performed similar processing than in the human visual system (\cite{Gabor1946,Daugman1985}). A Gabor filter is defined by the modulation of a Gaussian function with a sinusoid which can be further rotated. Hence, a Gabor filter $g$ can be formalized as:
 
 \begin{equation}
-\begin{aligned}
-	g(x,y;\theta,\psi,\sigma,\gamma) = & \exp \left( - \frac{x'^{2}+ \gamma^{2}y'^{2}}{2 \sigma^{2}} \right) \\
-	& \times \cos \left( 2 \pi \frac{x'}{\lambda} + \phi \right) \ , \\
-\end{aligned}
+	g(x,y;\theta,\psi,\sigma,\gamma) = \exp \left( - \frac{x'^{2}+ \gamma^{2}y'^{2}}{2 \sigma^{2}} \right) \cos \left( 2 \pi \frac{x'}{\lambda} + \phi \right) \ ,
 \end{equation}
 
 \noindent with 
