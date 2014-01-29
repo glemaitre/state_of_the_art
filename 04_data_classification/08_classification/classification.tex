@@ -16,8 +16,9 @@
 		\quad \acs{knn} & $[$11,18-19$]$ \\ \\ [-1.5ex]
 		\textit{Linear model classifiers:} & \\
 		\quad \acs{lda} & $[$3,6,18-19,41$]$ \\
-		\quad \acs{qda} & $[$37$]$ \\
-		\quad Logistic regression & $[$8-9$]$ \\
+		\quad Logistic regression & $[$8-9$]$ \\ \\ [-1.5ex]
+		\textit{Non-linear classifier:} & \\
+		\quad \acs{qda} & $[$37$]$ \\ \\ [-1.5ex]
 		\textit{Probabilistic classifier:} & \\
 		\quad Naive Bayes & $[$7,17-19$]$ \\ \\ [-1.5ex]
 		\textit{Ensemble learner classifiers:} & \\
@@ -58,9 +59,9 @@ Once that the feature vector was extracted and eventually the complexity reduced
 
 \ac{knn} was one of the method used by \cite{Niaf2011,Niaf2012} mainly to make a comparison with different machine learning techniques. \cite{Litjens2012} used this method to roughly detect potential \ac{cap} voxel before to perform a region-based classification.
 
-$k$-means is an unsupervised clustering methods in which the data have to be partitioned into $k$ clusters. The discovery of the clusters is an iterative procedure. First $k$ random centroids are defined in the feature space and each data point is assigned to the nearest centroid. Then, the centroid position for each cluster is updated by computing the mean of all the data points belonging to this particular cluster. Both assignment and updating are repeated until the centroids are stable. The number of cluster $k$ is usually defined as the number of classes. This algorithm can also be used incrementally. In case that new data have to be incorporated, the initial centroid positions can corresponds to the results of a previous $k$-means follow by the assignment-updating stage.
+$k$-means is an unsupervised clustering methods in which the data have to be partitioned into $k$ clusters. The discovery of the clusters is an iterative procedure. First $k$ random centroids are defined in the feature space and each data point is assigned to the nearest centroid. Then, the centroid position for each cluster is updated by computing the mean of all the data points belonging to this particular cluster. Both assignment and updating are repeated until the centroids are stable. The number of cluster $k$ is usually defined as the number of classes. This algorithm can also be used incrementally. In case that new data have to be incorporated, the initial centroid positions can corresponds to the results of a previous $k$-means followed by the assignment-updating stage.
 
-\cite{Tiwari2007,Tiwari2009} used $k$-means in an iterative procedure. Three clusters were defined corresponding to \ac{cap}, healthy and non-prostate, respectively. $k$-means was applied iteratively and the larger cluster excluded under the assumption that it is assigned to ``non-prostate'' cluster. The iteration stop until the number of cluster is smaller than a threshold.
+\cite{Tiwari2007,Tiwari2009} used $k$-means in an iterative procedure. Three clusters were defined corresponding to \ac{cap}, healthy and non-prostate, respectively. $k$-means was applied iteratively and the voxels corresponding to the larger cluster were excluded under the assumption that it is assigned to ``non-prostate'' cluster. The iteration stop until the number of voxels composing the clusters is smaller than a threshold.
 
 \cite{Tiwari2008,Viswanath2008,Viswanath2008a} used $k$-means in a repetitive manner to be less sensitive to the centroids initialisation. Thus, $k$ clusters will be generated $T$ times. The final assignment is performed by majority voting using a co-association matrix as proposed by \cite{Fred2005}.
 
@@ -84,15 +85,6 @@ To perform the classification, a sample $\mathbf{x}_i$ will be assigned to the c
 
 \cite{Antic2013,Chan2003,Niaf2011,Niaf2012,Vos2012} used \ac{lda} to classify their feature vectors defining two classes \ac{cap} \textit{versus} healthy.
 
-\cite{Viswanath2012} used the most general \acf{qda} instead of \ac{lda}. Unlike in \ac{lda} in which one assumes that the class covariance matrices $\Sigma$ is identical for all the classes, in \ac{qda}, it is assumes that a covariance matrix $\Sigma_k$ specific at each class is computed. Thus, Eq. \ref{eq:ldafun} becomes:
-
-\begin{equation}
-	\delta_{k}(\mathbf{x}_i) = \mathbf{x}_i^{\text{T}} \Sigma_{k}^{-1} \mu_k - \frac{1}{2} \mu_{k}^{\text{T}} \Sigma_{k}^{-1} \mu_k + \log (\pi_k) \ .
-	\label{eq:qdafun}
-\end{equation}
-
-The classification rules in the case of the \ac{qda} is identical to Eq. \ref{eq:ldaclass}.
-
 Logistic regression can be used to perform binary classification and can provide the probability of an observation to belong to a class. The posterior probability of one of the class $c_1$ can be written as:
 
 \begin{equation}
@@ -113,27 +105,39 @@ From Eq. \ref{eq:postprlr}, one can see that the key of classification using log
 
 \cite{Kelm2007,Puech2009} used a logistic regression to create a linear probabilistic model in order to classify their feature vectors.
 
+\item[$-$] \textbf{\textit{Non-linear model classifier:}} 
+
+\cite{Viswanath2012} used the most general \acf{qda} instead of \ac{lda}. Unlike in \ac{lda} in which one assumes that the class covariance matrices $\Sigma$ is identical for all the classes, in \ac{qda}, it is assumes that a covariance matrix $\Sigma_k$ specific at each class is computed. Thus, Eq. \ref{eq:ldafun} becomes:
+
+\begin{equation}
+	\delta_{k}(\mathbf{x}_i) = \mathbf{x}_i^{\text{T}} \Sigma_{k}^{-1} \mu_k - \frac{1}{2} \mu_{k}^{\text{T}} \Sigma_{k}^{-1} \mu_k + \log (\pi_k) \ .
+	\label{eq:qdafun}
+\end{equation}
+
+The classification rules in the case of the \ac{qda} is identical to Eq. \ref{eq:ldaclass}.
+
 \item[$-$] \textbf{\textit{Probabilistic classifier:}}
 
 The most commonly used classifier is the naive Bayes classifier which is a probabilistic classifier assuming the independence between each feature dimension (\cite{Rish2001}). This classifier is based on the Bayes' theorem:
 
 \begin{equation}
-	p(C=k,\mathbf{x}) = \frac{p(k)p(\mathbf{x}|k)}{p(\mathbf{x})} \ .
+	p(C=k|\mathbf{x}) = \frac{p(C)p(\mathbf{x}|C)}{p(\mathbf{x})} \ .
 	\label{eq:bayth}
 \end{equation}
 
-\noindent where $p(C=k,\mathbf{x})$ is the posterior probability, $p(k)$ is the prior probability, $p(\mathbf{x},k)$ is the likelihood and $p(k)$ is the evidence. 
+\noindent where $p(C=k|\mathbf{x})$ is the posterior probability, $p(C)$ is the prior probability, $p(\mathbf{x}|C)$ is the likelihood and $p(C)$ is the evidence. 
 
-However, the evidence term is usually discarded since, it is not class dependent and play the role of a normalization term. Hence, in a classification scheme, an unlabelled observation will be classified to the class which maximized the posterior probability such as:
+However, the evidence term is usually discarded since, it is not class dependent and play the role of a normalization term. Hence, in a classification scheme, an unlabelled observation will be classified to the class which maximizes the posterior probability such as:
 
 \begin{eqnarray}
 	C(\mathbf{x}_i) & = & \argmax_k p(C=k|\mathbf{x}_i) \ , \label{eq:maxbay} \\
-	p(C=k|\mathbf{x}_i) & = & p(k) \prod_{j=1}^{n} p(x_{ij},|k) \ . \label{eq:postbay}
+	p(C=k|\mathbf{x}_i) & = & p(C=k) \prod_{j=1}^{n} p(x_{ij},|C=k) \ . \label{eq:postbay}
 \end{eqnarray}
 
 \noindent where $n$ is the number of dimension of the feature vector $\mathbf{x}_i = \{x_{i1},\cdots,x_{in}\}$.
 
-Usually, a model have to be affected for the prior and likelihood probabilities and it is common to affect an equal prior probability for each class or eventually a value depending of the relative frequency derived from the training set. Regarding the likelihood probability, it is common to choose a Normal distribution to characterized each class. Thus, each class will be characterized by two parameters: (i) the mean and (ii) the standard deviation. These parameters can be inferred from the training set by using the maximum likelihood approach.
+Usually, a model have to be affected for the prior and likelihood probabilities and it is common to affect an equal prior probability for each class or eventually a value depending of the relative frequency derived from the training set. Regarding the likelihood probability, it is common to choose a Normal distribution to characterize each class. Thus, each class will be characterized by two parameters: (i) the mean and (ii) the standard deviation. These parameters can be inferred from the training set by using the maximum likelihood approach.
+
 
 \cite{Giannini2013,Mazzetti2011,Niaf2011,Niaf2012} used the naive Bayes classifier to classify their feature vector either malignant or healthy. The model used to characterized the likelihood probability using the Normal distribution.
 
@@ -150,7 +154,7 @@ AdaBoost is considered as an adaptive method in the way that the weak learner ar
 
 \noindent where $\epsilon_t$ corresponds to the classification error rate of the weak learner on the distribution of weight $D_t$.
 
-Before to perform a new iteration, the distribution of weight $D_t$ is updated such that the weight associated with the misclassified samples by $h_t$ will increased and the weights of well classified samples will decrease as shown in Eq. \ref{eq:rewada}. This procedure allows to select a weak learner at the next iteration $t+1$ which will classified in priority previous misclassified samples.
+Before performing a new iteration, the distribution of weight $D_t$ is updated such that the weight associated with the misclassified samples by $h_t$ will increase and the weights of well classified samples will decrease as shown in Eq. \ref{eq:rewada}. This procedure allows to select a weak learner at the next iteration $t+1$ which will classify in priority previous misclassified samples.
 
 \begin{equation}
 	D_{t+1}(i) = \frac{ D_t(i) \exp(-\alpha_t y_i h_{t}(\mathbf{x}_{i} ) }{ Z_t  } \ .
@@ -168,11 +172,11 @@ Thus, after $T$ iterations, the final strong classifier corresponds to the linea
 
 \cite{Lopes2011} make use of AdaBoost technique to perform their classification.
 
-Random forest\footnote{Random forest implementation can be found at: \texttt{http://www.stat.\allowbreak berkeley.edu/~breiman/RandomForests/cc\_software.htm}} is a classification method which is based creating an ensemble of decision tree and was introduced by \cite{Breiman2001}.
+Random forest\footnote{Random forest implementation can be found at: \texttt{http://www.stat.\allowbreak berkeley.edu/~breiman/RandomForests/cc\_software.htm}} is a classification method which is based creating an ensemble of decision trees and was introduced by \cite{Breiman2001}.
 
 In the learning stage, multiple decision tree learners (\cite{Breiman1984}) will be trained. However, each decision tree will be trained with a different dataset. Each of these dataset corresponds to a bootstrap sample generated by randomly choosing $n$ samples with replacements from the $N$ available in the original set (\cite{Efron1979}). Then, randomization is also part of the decision tree growth. At each node of the decision tree, from the bootstrap sample of $D$ dimensions, a number of $d \ll D$ dimensions will be randomly selected. Finally, the $d^{\text{th}}$ dimension splitting the best the data will be used. This best splitting can be evaluated using \ac{mi} (see Sect. \ref{subsubsec:simmea}). Finally, each tree is grown as much as possible without using any pruning procedure.
 
-In the prediction stage, a sample is introduced in each tree and each of the tree will assign a class to this sample. Finally, it is common to use a a majority voting approach to choose the final class labelling.
+In the prediction stage, a sample is introduced in each tree and each of the tree will assign a class to this sample. Finally, it is common to use a majority voting approach to choose the final class labelling.
 
 \cite{Kelm2007,Tiwari2012,Tiwari2013,Viswanath2009} make use of the random forest classifier to classify their feature vector.
 
@@ -212,7 +216,7 @@ Probabilistic boosting-tree are an ensemble classifier method which is sharing p
 	q(-1, \mathbf{x}_i) & = & \frac{\exp(-2H(\mathbf{x}_i))}{1+\exp(-2H(\mathbf{x}_i))} \ . \label{eq:regada2}
 \end{eqnarray}
 
-Employing such a scheme tend to divide the data in such a way that positive and negative samples are naturally split as shown in Fig. \ref{fig:pbtsim}.
+Employing such a scheme tends to divide the data in such a way that positive and negative samples are naturally split as shown in Fig. \ref{fig:pbtsim}.
 
 In the classification stage, the sample $\mathbf{x}$ is propagated through the trees, where at each node, it will be classified by the strong classifier previously learned and where an estimation of the posterior distribution will be computed. The posterior distribution will correspond to the sum of the posterior distribution at each node of the tree.
 
@@ -253,7 +257,7 @@ Then, the function $f(\mathbf{x}_*)$ is squashed using the sigmoid function and 
 
 In Gaussian process, when a prediction has to be performed, the whole training data will be used to assign a label to the new observations. That is why, this method is also called kernel method. Sparse kernel category is composed of methods which rely only on few example in order to label new observations (\cite{Bishop2006}).
 
-\Acf{svm}\footnote{\ac{svm} implementation can be found at: \texttt{http://www.csie.ntu.edu.tw/\allowbreak ~cjlin/libsvm/}} is a sparse kernel method which aimed at finding the best linear hyperplane which separates two classes such as the margin between the two classes is maximized (\cite{Vapnik1963}). The margin is in fact the region defined by two hyperplanes splitting the two classes, such that no points in between. The distance between these two hyperplanes is equal to $\frac{2}{\|\mathbf{w}\|}$ where $\mathbf{w}$ is the normal vector of the hyperplane splitting the classes. Thus, maximizing the margin is equivalent to minimized $\|\mathbf{w}\|$. This problem solved by an optimization approach and formalized such that:
+\Acf{svm}\footnote{\ac{svm} implementation can be found at: \texttt{http://www.csie.ntu.edu.tw/\allowbreak ~cjlin/libsvm/}} is a sparse kernel method which aimed at finding the best linear hyperplane which separates two classes such as the margin between the two classes is maximized (\cite{Vapnik1963}). The margin is in fact the region defined by two hyperplanes splitting the two classes, such that no points in between. The distance between these two hyperplanes is equal to $\frac{2}{\|\mathbf{w}\|}$ where $\mathbf{w}$ is the normal vector of the hyperplane splitting the classes. Thus, maximizing the margin is equivalent to minimizing $\|\mathbf{w}\|$. Hence, This problem solved by an optimization approach and formalized such that:
 
 \begin{equation}
 \begin{aligned}
@@ -265,7 +269,7 @@ In Gaussian process, when a prediction has to be performed, the whole training d
 \label{eq:svm1}
 \end{equation}
 
-From Eq. \ref{eq:svm1}, it is important to notice that only few points from the set of $n$ points have to be selected which will later define the hyperplane. This can be introduce in the optimization problems using Lagrange multipliers $\boldsymbol{\alpha}$. All points which are not lying on the margin will be assigned a corresponding $\alpha_i = 0$. This can be formalized such as:
+From Eq. \ref{eq:svm1}, it is important to notice that only few points from the set of $n$ points have to be selected which will later define the hyperplane. This can be introduced in the optimization problems using Lagrange multipliers $\boldsymbol{\alpha}$. All points which are not lying on the margin will be assigned a corresponding $\alpha_i = 0$. This can be formalized such as:
 
 \begin{equation}
 	\arg\min_{\mathbf{w},b } \max_{\boldsymbol{\alpha}\geq 0 } \left\{ \frac{1}{2}\|\mathbf{w}\|^2 - \sum_{i=1}^{n}{\alpha_i[y_i(\mathbf{w}\cdot \mathbf{x_i} - b)-1]} \right\} \ .
@@ -499,7 +503,7 @@ This method was used  by \cite{Ampeliotis2007,Ampeliotis2008,Viswanath2011} in o
 
 \item[$-$] \textbf{\textit{Graphical model classifiers:}}
 
-Markov random field can also be used as a lesion segmentation method to detect \ac{cap}. First, we can define $s$ as a pixel which will belong to a certain class denoted by $\omega_s$. The labelling process can be noted as $\omega = \{\omega_s, s \in I\}$ where $I$ is the set of all the pixels inside the image. The observations corresponding to \ac{si} in the image are noted $\mathcal{F} = \{ f_s | s \in I \}$. Thus, the image process $\mathcal{F}$ represents the deviation from the labelling process $\omega$ (\cite{Kato2001}). Hence, lesion segmentation is equivalent to estimate the best $\hat{\omega}$ which maximize the posterior probability $p(\omega|\mathcal{F})$. Thus, using a Bayesian approach, this can be formulated such that:
+Markov random field can also be used as a lesion segmentation method to detect \ac{cap}. First, we can define $s$ as a pixel which will belong to a certain class denoted by $\omega_s$. The labelling process can be noted as $\omega = \{\omega_s, s \in I\}$ where $I$ is the set of all the pixels inside the image. The observations corresponding to \ac{si} in the image are noted $\mathcal{F} = \{ f_s | s \in I \}$. Thus, the image process $\mathcal{F}$ represents the deviation from the labelling process $\omega$ (\cite{Kato2001}). Hence, lesion segmentation is equivalent to estimate the best $\hat{\omega}$ which maximizes the posterior probability $p(\omega|\mathcal{F})$. Thus, using a Bayesian approach, this can be formulated such that:
 
 \begin{equation}
 	p(\omega|\mathcal{F}) = \argmax_{\omega} \prod_{s \in I} p(f_s | \omega_s) p(\omega) \ .
@@ -515,7 +519,7 @@ It is generally assumed that $p(f_s | \omega_s)$ follow a Gaussian distribution 
 
 \noindent where $Z$ is a normalization factor to obtain a probability value, $U(.)$ is the energy function.
 
-Thus the segmentation problem can be solved as an optimization problem where the energy function $U(.)$ has to be minimized. There is different possibilities to define the energy function $U(.)$. However this is common to define the energy function such that it combines two type of potential function: (i) a local term relative to the pixel itself and (ii) a smoothing prior which embed neighbourhood information which will more or less penalize the energy function to obtain more or less homogeneous region. Th optimization of such function can be performed algorithm such as iterated conditional modes (\cite{Kato2001}).
+Thus the segmentation problem can be solved as an optimization problem where the energy function $U(.)$ has to be minimized. There are different possibilities to define the energy function $U(.)$. However, this is common to define the energy function such that it combines two type of potential function: (i) a local term relative to the pixel itself and (ii) a smoothing prior which embeds neighbourhood information which will more or less penalizes the energy function to obtain more or less homogeneous region. This optimization of such function can be performed algorithm such as iterated conditional modes (\cite{Kato2001}).
 
 \cite{Liu2009,Ozer2010} used Markov random field as an unsupervised method to segment lesions in multi-parametric \ac{mri} images.
 
@@ -547,7 +551,7 @@ Thus the segmentation problem can be solved as an optimization problem where the
 
 In pattern recognition, the use of model validation techniques to assess the performance of trained classifiers is quite important. Two techniques are broadly used in the development of \ac{cad} system and are summarized in Tab. \ref{tab:valmod}.
 
-The most popular technique used in \ac{cad} systems (see Tab. \ref{tab:valmod}) is the \acf{loo} technique. From the whole data, one patient is kept for validate and the other case are used to train. This manipulation is repeated until that each patient was used as validation. This technique is popular when working with medical data due to the restricted number of patients included in datasets. Thus, it is allowing to train on a fair number of patients even with a small dataset. However, this technique suffer from high variance and can considered as a non reliable estimate (\cite{Efron1983}).
+The most popular technique used in \ac{cad} systems (see Tab. \ref{tab:valmod}) is the \acf{loo} technique. From the whole data, one patient is kept for validate and the other cases are used to train. This manipulation is repeated until that each patient was used as validation. This technique is popular when working with medical data due to the restricted number of patients included in datasets. Thus, it is allowing to train on a fair number of patients even with a small dataset. However, this technique suffer from high variance and can considered as a non reliable estimate (\cite{Efron1983}).
 
 The other very well known technique used for assessing classifier is the \acf{kcv} technique. This technique is based on splitting the dataset into $k$ subsets where the samples are randomly selected. Then, one fold is kept for the validation and the remaining subsets for training. The classification is then repeated as in the \ac{loo} technique. In our review, the typical values used for $k$ were set to three and five. This technique is more appropriate than the previous one since that it does not suffer from large variance. However, the number of patients in the dataset need to be large enough to apply such technique.
 
@@ -575,12 +579,12 @@ Several metrics can be used in order to assess the performance of the classifier
 
 Using the classification approach previously presented, each voxel in the \ac{mri} image will be classified into a class. Comparison with a ground-truth can give rise to a confusion matrix by counting true positive, true negative, false positive and false negative samples. From this analysis, different statistics can be extracted. 
 
-The first statistic used is the accuracy which compute the ratio of true detection over the number of samples. However, depending on the strategy employed in the \ac{cad} work-flow, this statistic can be highly biased by a high number of true negative samples which will boost the accuracy score and does not represent the actual performance of the classifier.
+The first statistic used is the accuracy which computes the ratio of true detection over the number of samples. However, depending on the strategy employed in the \ac{cad} work-flow, this statistic can be highly biased by a high number of true negative samples which will boost the accuracy score and does not represent the actual performance of the classifier.
 
 That is why, the most common statistic computed are sensitivity and specificity which are giving a full overview of the performance of the classifier trained. Sensitivity is also called the true positive rate and is equal to the ratio of the true positive samples over the true positive added with the false negative samples. Specificity is also named the true negative rate and is equal to the ratio of the true negative samples over the true negative added with the false positive samples.
 
-These both statistics gave rise to the \acf{roc} analysis. This analysis represents graphically the sensitivity as a function of (1 - specificity), which is in fact the false positive rate, by varying the discriminative threshold of the classifier. By varying this threshold, more true negative samples will be found but at the cost to detect also more false negative. However, this fact is interesting in \ac{cad} since that it could be possible to obtain a high sensitivity and to ensure that no cancers were missed even if more false alarm will have to be investigated. A statistic derive from \ac{roc} analysis is the \acf{auc} which correspond to the area under the \ac{roc} and is a measure used to make comparison between model. 
+These both statistics gave rise to the \acf{roc} analysis. This analysis represents graphically the sensitivity as a function of (1 - specificity), which is in fact the false positive rate, by varying the discriminative threshold of the classifier. By varying this threshold, more true negative samples will be found but at the cost to detect also more false negative. However, this fact is interesting in \ac{cad} since that it could be possible to obtain a high sensitivity and to ensure that no cancers were missed even if more false alarm will have to be investigated. A statistic derive from \ac{roc} analysis is the \acf{auc} which corresponds to the area under the \ac{roc} and is a measure used to make comparison between models.
 
-The previous method could have been classified on pixel-based evaluation method. However, a cancer can be also considered as a region. \acf{froc} extend the \ac{roc} analysis but a region-based level. The same confusion matrix can be computed were the sample are not a pixel any more but a lesion. However, this is important to define what is a true positive sample in that case. Usually, a lesion is considered as a true positive sample if the region detected by the classifier and the one inside the ground are overlapping ``enough''. ``Enough'' is defined by each researcher and can correspond to one pixel only.
+The previous method could have been classified on pixel-based evaluation method. However, a cancer can be also considered as a region. \Acf{froc} extends the \ac{roc} analysis but at region-based level. The same confusion matrix can be computed were the sample are not pixels any more but refer to a lesion. However, this is important to define what is a true positive sample in that case. Usually, a lesion is considered as a true positive sample if the region detected by the classifier and the one inside the ground-truth are overlapping ``enough''. ``Enough'' is defined by each researcher and can correspond to one pixel only!!!
 
 Finally, Dice's coefficient is sometimes computed which is corresponding to the similarity of a lesion between the ground-truth and the output of the classifier. This coefficient correspond to the ratio of the twice the number of pixels in common over the sum of the pixels of the lesions in the ground-truth and the output of the classifier.
