@@ -255,7 +255,7 @@ The first type of transformations is usually referred to as rigid transformation
 
 \noindent where $\theta$ is the rotation angle and $\{ t_x,t_y \}$ represents the translation along $\{x,y\}$ respectively.
 
-In the case of 3D registration using volume, an additional component $z$ have to be taken into account such that $\mathbf{x} = (x,y,z)$. Thus, the rotation matrix $\mathbf{R}$ becomes of size $3 \times 3$ whereas the translation vector $\mathbf{t}$ consists in a vector of three elements. Hence, the geometric transformation $\mathcal{T}_R(.)$ is embedded into a matrix of size $4 \times 4$.
+In the case of 3D registration using volume, an additional component $z$ have to be taken into account such that $\mathbf{x} = (x,y,z)$. Thus, the rotation matrix $\mathbf{R}$ becomes of size $3 \times 3$ whereas the translation vector $\mathbf{t}$ consists in a vector of three elements. Hence, the geometric transformation $\mathcal{T}_R(\cdots)$ is embedded into a matrix of size $4 \times 4$.
 
 Affine transformations provide additional degrees of freedom managing rotations and translation as with the rigid transformations but also shearing and scaling. Hence, for a 2D space where $\mathbf{x} = (x,y) \in \mathbb{R}^2$ an affine transformation $\mathcal{T}_A$ is formalized such as: 
 
@@ -292,7 +292,7 @@ Affine transformations provide additional degrees of freedom managing rotations 
 
 Hence the four parameters $\{a_{11},a_{12},a_{21},a_{22}\}$ of the affine matrix and $\{ t_x, t_y \}$ of the translation transform encode an affine transformation.
 
-Regarding volume registered, the same remark as previously mentioned can be recall in this case. Thus the geometric transformation $\mathcal{T}_A(.)$ is of size $4 \times 4$ with nine parameters involved.
+Regarding volume registered, the same remark as previously mentioned can be recall in this case. Thus the geometric transformation $\mathcal{T}_A(\cdots)$ is of size $4 \times 4$ with nine parameters involved.
 
 Finally, the last group of transformations is known as elastic transformations and offer the advantage to handle local distortions. In the reviewed \ac{cad} systems, the radial basis functions are used to formalize the local distortions such as:
 
@@ -303,7 +303,7 @@ Finally, the last group of transformations is known as elastic transformations a
 	\end{matrix} \ ,
 \end{equation}
 
-\noindent where $\mathbf{x}$ are the control points in both images and $g(.)$ is the actual radial basis function. 
+\noindent where $\mathbf{x}$ are the control points in both images and $g(\cdots)$ is the actual radial basis function. 
 
 Two radial basis functions are used: (i) the \ac{tps} and (ii) the B-splines. Apart from the formalism, these two approaches have a main difference. With B-splines, the control points are usually uniformly and densely placed on a grid where as with \ac{tps}, the control points correspond to detected or selected key points. By using \ac{tps}, \cite{Mitra2011} obtained more accurate and time efficient results than with the B-splines strategy (\cite{Mitra2012a}).
 

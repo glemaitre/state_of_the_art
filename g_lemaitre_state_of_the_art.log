@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  30 JAN 2014 19:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  30 JAN 2014 20:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2234,32 +2234,32 @@ ground/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>] [19] [20] [21]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (0.8529pt too wide) in paragraph at lines 566--566
+Overfull \hbox (0.8529pt too wide) in paragraph at lines 565--565
  []|[]| 
  []
 
 
-Overfull \hbox (1.1088pt too wide) in paragraph at lines 567--567
+Overfull \hbox (1.1088pt too wide) in paragraph at lines 566--566
  []|\OT1/cmr/m/n/8 patients| 
  []
 
 
-Overfull \hbox (2.85571pt too wide) in paragraph at lines 567--567
+Overfull \hbox (2.85571pt too wide) in paragraph at lines 566--566
  []|[][]| 
  []
 
 
-Overfull \hbox (3.56406pt too wide) in paragraph at lines 567--567
+Overfull \hbox (3.56406pt too wide) in paragraph at lines 566--566
  []|[][]| 
  []
 
 
-Overfull \hbox (6.3046pt too wide) in paragraph at lines 562--622
+Overfull \hbox (6.3046pt too wide) in paragraph at lines 561--621
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 9.03992pt on input line 622.
+LaTeX Warning: Float too large for page by 9.03992pt on input line 621.
 
 [22]) (./03_image_processing/image_processing.tex
 (./03_image_processing/03_preprocessing/preprocessing_rm.tex
@@ -2278,7 +2278,7 @@ preprocessing/figures/noise/noisedistr.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/noise/noisedistr-eps-converted-to
-.pdf, id=1202, 546.04pt x 337.26pt>
+.pdf, id=1203, 546.04pt x 337.26pt>
 File: 03_image_processing/03_preprocessing/figures/noise/noisedistr-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
@@ -2294,11 +2294,11 @@ sedistr-eps-converted-to.pdf used on input line 44.
 -to.pdf>] [24] [25]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/bias/t2w_bias_antenna.eps>
-(epstopdf)                    date: 2014-01-30 18:54:37
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 462446 bytes
 (epstopdf)             Output file: <03_image_processing/03_preprocessing/figur
 es/bias/t2w_bias_antenna-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 18:54:47
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 28249 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
 rocessing/figures/bias/t2w_bias_antenna-eps-converted-to.pdf 03_image_processin
@@ -2307,7 +2307,7 @@ g/03_preprocessing/figures/bias/t2w_bias_antenna.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/bias/t2w_bias_antenna-eps-convert
-ed-to.pdf, id=1269, 258.9675pt x 258.9675pt>
+ed-to.pdf, id=1270, 258.9675pt x 258.9675pt>
 File: 03_image_processing/03_preprocessing/figures/bias/t2w_bias_antenna-eps-co
 nverted-to.pdf Graphic file (type pdf)
 
@@ -2340,7 +2340,7 @@ eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/normalization/linear_transform_pa
-rts-eps-converted-to.pdf, id=1369, 545.03625pt x 338.26375pt>
+rts-eps-converted-to.pdf, id=1370, 545.03625pt x 338.26375pt>
 File: 03_image_processing/03_preprocessing/figures/normalization/linear_transfo
 rm_parts-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2408,11 +2408,11 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <0.5> not available
 
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/niaf/t2w_bladder.eps>
-(epstopdf)                    date: 2014-01-30 19:02:46
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 362990 bytes
 (epstopdf)             Output file: <03_image_processing/03_preprocessing/figur
 es/niaf/t2w_bladder-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 19:03:25
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 32465 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
 rocessing/figures/niaf/t2w_bladder-eps-converted-to.pdf 03_image_processing/03_
@@ -2421,7 +2421,7 @@ preprocessing/figures/niaf/t2w_bladder.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-converted-to
-.pdf, id=1390, 258.9675pt x 194.7275pt>
+.pdf, id=1391, 258.9675pt x 194.7275pt>
 File: 03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
@@ -2437,11 +2437,11 @@ Underfull \hbox (badness 1418) in paragraph at lines 219--219
 
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/niaf/t1w_arteries.eps>
-(epstopdf)                    date: 2014-01-30 19:01:51
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 360349 bytes
 (epstopdf)             Output file: <03_image_processing/03_preprocessing/figur
 es/niaf/t1w_arteries-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 19:03:25
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 33487 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
 rocessing/figures/niaf/t1w_arteries-eps-converted-to.pdf 03_image_processing/03
@@ -2450,7 +2450,7 @@ _preprocessing/figures/niaf/t1w_arteries.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-converted-t
-o.pdf, id=1391, 258.9675pt x 194.7275pt>
+o.pdf, id=1392, 258.9675pt x 194.7275pt>
 File: 03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
@@ -2486,7 +2486,7 @@ ocessing/figures/phase/phase.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-to.pdf,
- id=1422, 546.04pt x 337.26pt>
+ id=1423, 546.04pt x 337.26pt>
 File: 03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -2513,7 +2513,7 @@ reprocessing/figures/water/water_fat.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/water/water_fat-eps-converted-to.
-pdf, id=1452, 670.505pt x 486.81876pt>
+pdf, id=1453, 670.505pt x 486.81876pt>
 File: 03_image_processing/03_preprocessing/figures/water/water_fat-eps-converte
 d-to.pdf Graphic file (type pdf)
 
@@ -2540,7 +2540,7 @@ rocessing/figures/frequency/frequency-eps-converted-to.pdf 03_image_processing/
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/frequency/frequency-eps-converted
--to.pdf, id=1520, 547.04375pt x 338.26375pt>
+-to.pdf, id=1521, 547.04375pt x 338.26375pt>
 File: 03_image_processing/03_preprocessing/figures/frequency/frequency-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -2630,11 +2630,11 @@ Overfull \hbox (75.8018pt too wide) in paragraph at lines 195--218
 [40] [41] [42]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
-(epstopdf)                    date: 2014-01-30 17:12:04
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 31205 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 18:20:00
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 7348 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
@@ -2643,7 +2643,7 @@ ng/05_registration/figures/histogram/jointhistoalg.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-conver
-ted-to.pdf, id=1707, 258.9675pt x 258.9675pt>
+ted-to.pdf, id=1708, 258.9675pt x 258.9675pt>
 File: 03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-c
 onverted-to.pdf Graphic file (type pdf)
 
@@ -2654,11 +2654,11 @@ jointhistoalg-eps-converted-to.pdf used on input line 328.
 (pdftex.def)             Requested size: 85.9996pt x 86.00089pt.
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
-(epstopdf)                    date: 2014-01-30 17:11:43
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 241135 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 18:20:01
+(epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 31593 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
@@ -2667,7 +2667,7 @@ sing/05_registration/figures/histogram/jointhistomisal.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/05_registration/figures/histogram/jointhistomisal-eps-conv
-erted-to.pdf, id=1708, 258.9675pt x 258.9675pt>
+erted-to.pdf, id=1709, 258.9675pt x 258.9675pt>
 File: 03_image_processing/05_registration/figures/histogram/jointhistomisal-eps
 -converted-to.pdf Graphic file (type pdf)
 
@@ -2795,7 +2795,7 @@ ion/06_feature_detection/figures/gabor/gabor_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/gabor/gabor_1-eps-converte
-d-to.pdf, id=1884, 50.1875pt x 50.1875pt>
+d-to.pdf, id=1885, 50.1875pt x 50.1875pt>
 File: 04_data_classification/06_feature_detection/figures/gabor/gabor_1-eps-con
 verted-to.pdf Graphic file (type pdf)
 
@@ -2819,7 +2819,7 @@ ion/06_feature_detection/figures/gabor/gabor_2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/gabor/gabor_2-eps-converte
-d-to.pdf, id=1885, 50.1875pt x 50.1875pt>
+d-to.pdf, id=1886, 50.1875pt x 50.1875pt>
 File: 04_data_classification/06_feature_detection/figures/gabor/gabor_2-eps-con
 verted-to.pdf Graphic file (type pdf)
 
@@ -2843,7 +2843,7 @@ ion/06_feature_detection/figures/gabor/gabor_3.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/gabor/gabor_3-eps-converte
-d-to.pdf, id=1886, 50.1875pt x 50.1875pt>
+d-to.pdf, id=1887, 50.1875pt x 50.1875pt>
 File: 04_data_classification/06_feature_detection/figures/gabor/gabor_3-eps-con
 verted-to.pdf Graphic file (type pdf)
 
@@ -2867,7 +2867,7 @@ ion/06_feature_detection/figures/gabor/gabor_4.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/gabor/gabor_4-eps-converte
-d-to.pdf, id=1887, 50.1875pt x 50.1875pt>
+d-to.pdf, id=1888, 50.1875pt x 50.1875pt>
 File: 04_data_classification/06_feature_detection/figures/gabor/gabor_4-eps-con
 verted-to.pdf Graphic file (type pdf)
 
@@ -2894,7 +2894,14 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 257--278
 [][]
  []
 
-[51] [52] [53]
+[51] [52]
+
+LaTeX Warning: Reference `eq:magn' on page 53 undefined on input line 304.
+
+
+LaTeX Warning: Reference `eq:orien' on page 53 undefined on input line 304.
+
+[53]
 Underfull \hbox (badness 2894) in paragraph at lines 332--332
 []|\OT1/cmr/m/it/10.95 Derivatives and in-te-gral fea-
  []
@@ -2919,7 +2926,7 @@ _classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters-
-eps-converted-to.pdf, id=2053, 710.655pt x 510.90875pt>
+eps-converted-to.pdf, id=2052, 710.655pt x 510.90875pt>
 File: 04_data_classification/06_feature_detection/figures/dce/dce_cancer_parame
 ters-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2981,7 +2988,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_3_2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_2-e
-ps-converted-to.pdf, id=2415, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2411, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3005,7 +3012,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_3_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-e
-ps-converted-to.pdf, id=2416, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2412, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3029,7 +3036,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_2_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_1-e
-ps-converted-to.pdf, id=2417, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2413, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3053,7 +3060,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_2_2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_2-e
-ps-converted-to.pdf, id=2418, 477.785pt x 357.335pt>
+ps-converted-to.pdf, id=2414, 477.785pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3077,7 +3084,7 @@ assification/08_classification/figures/pbt-simulation/pbt_tree_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1-eps
--converted-to.pdf, id=2419, 475.7775pt x 357.335pt>
+-converted-to.pdf, id=2415, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3233,66 +3240,54 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 32640 strings out of 493311
- 651997 string characters out of 6137856
- 915437 words of memory out of 5000000
- 34762 multiletter control sequences out of 15000+600000
+ 32634 strings out of 493311
+ 651925 string characters out of 6137856
+ 915195 words of memory out of 5000000
+ 34759 multiletter control sequences out of 15000+600000
  26964 words of font info for 102 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  67i,19n,74p,2335b,1339s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{equation.4.55} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.4.54} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.4.37} has been referenced but does not exi
-st, replaced by a fixed one
-
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pf
-b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (110 pages, 3111182 bytes).
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on g_lemaitre_state_of_the_art.pdf (110 pages, 3110880 bytes).
 PDF statistics:
- 3186 PDF objects out of 3580 (max. 8388607)
- 2905 compressed objects within 30 object streams
- 572 named destinations out of 1000 (max. 500000)
+ 3180 PDF objects out of 3580 (max. 8388607)
+ 2900 compressed objects within 29 object streams
+ 569 named destinations out of 1000 (max. 500000)
  627 words of extra memory for PDF output out of 10000 (max. 10000000)
 
