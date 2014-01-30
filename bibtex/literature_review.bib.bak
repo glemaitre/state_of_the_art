@@ -909,7 +909,7 @@
   file = {:../../../../For Article/CAD review/A systematic review of computer-assisted diagnosis in diagnostic cancer imaging - Eadie 2012.pdf:PDF:}
 }
 
-@ARTICLE{1983,
+@ARTICLE{Efron1983,
   author = {Efron, B.},
   title = {{{E}stimating the error rate of a prediction rule: {I}mprovement
 	on cross-validation}},

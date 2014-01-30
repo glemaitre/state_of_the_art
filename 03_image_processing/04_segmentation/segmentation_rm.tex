@@ -48,21 +48,21 @@ For the training stage, a set of landmarks is defined and the shape model is gen
 	\label{eq:mantra1}
 \end{equation}
 
-\noindent where $I_k(\mathcal{N}(l))$ represent a feature vector obtained by sampling the $k^{\text{th}}$ texture map using the neighbourhood $\mathcal{N}(l)$.
+\noindent where $I_k(\mathcal{N}(l))$ represents a feature vector obtained by sampling the $k^{\text{th}}$ texture map using the neighbourhood $\mathcal{N}(l)$.
 
-By generating multiple landmark in the same fashion than with the \ac{asm}, \ac{pca} (\cite{Pearson1901}) is applied to learn the appearance variations. 
+By generating multiple landmarks in the same fashion than with the \ac{asm}, \ac{pca} (\cite{Pearson1901}) is applied to learn the appearance variations. 
 
 For the segmentation stage, the mean shape learned previously is initialised in the test image. The same associated texture images as in the training stage are computed. For each landmark $l$, a neighbourhood of patches are used to sample the texture images and a reconstruction is obtained using the appearance model previously trained. The new landmark location will be defined as the position where the \ac{mi} is maximal between the reconstructed and original values. This scheme is performed in a multi-resolution manner as in \cite{Cootes1995}.
 
 Posteriorly, the same authors (\cite{Viswanath2012}) used the \ac{weritas} method also proposed by \cite{Toth2009}. As with the \ac{mantra} method, \ac{weritas} is based on the \ac{asm} formulation. In fact it is very close to the \ac{mantra} itself. The same texture features are used to construct the appearance models, but instead of using \ac{mi} between the landmarks and neighbour patches for adapting the landmark positions, it defines a metric based on the Mahalanobis distance. In the training stage, the Mahalanobis distance is computed between landmarks and neighbour patches for each of the features. Subsequently, a new metric is proposed as a linear weighted combination of those Mahalanobis distances which maximises the correlation with the Euclidean distance between the patches and the true landmarks. In the segmentation step, this metric is then computed between the initialised landmarks and neighbouring patches in order to update landmark positions, in a similar fashion to other \ac{acm} models. 
 
-\cite{Litjens2011} and \cite{Vos2012} used an approach proposed by \cite{Huisman2010} in which the bladder, prostate and rectum are segmented tackling the segmentation task as an optimization problem. First, a probabilistic model is first trained by embedding the three following aspects: (i) the shape by defining each organ as an ellipse, (ii) the position by defining the distance and the angle between each organ center and (iii) the appearance using the \acp{pdf} of \ac{si} of each organ. \cite{Litjens2011} used only \ac{adc} map to encode the appearance whereas \cite{Vos2012} used both \ac{adc} and T$_2$ maps. Then, during the optimization using a quasi-Newton optimizer, an objective function is minimized. This function is defined as the sum of the deviations from the above model learnt. This rough segmentation is then used inside a Bayesian framework to refine the shape.
+\cite{Litjens2011} and \cite{Vos2012} used an approach proposed by \cite{Huisman2010} in which the bladder, prostate and rectum are segmented tackling the segmentation task as an optimization problem. First, a probabilistic model is first trained by embedding the three following aspects: (i) the shape by defining each organ as an ellipse, (ii) the position by defining the distance and the angle between each organ center and (iii) the appearance using the \acp{pdf} of \ac{si} of each organ. \cite{Litjens2011} used only \ac{adc} map to encode the appearance whereas \cite{Vos2012} used both \ac{adc} and T$_2$ maps. Then, during the optimization using a quasi-Newton optimizer, an objective function is minimized. This function is defined as the sum of the deviations from the above model learnt. This rough segmentation is then used inside a Bayesian framework to refine the segmentation.
 
 \end{enumerate}
 
 \subsubsection{MRSI-based segmentation}
 
-\cite{Tiwari2009} localize the voxels corresponding to the prostate organ using a hierarchical spectral clustering. First, each \ac{mrsi} spectrum is projected into a lower dimension space using graph embedding \cite{Shi2000}. To proceed, a similarity matrix $W$ is computed using a Gaussian similarity measure from the Euclidean distance (\cite{Belkin2001}) such that:
+\cite{Tiwari2009} localized the voxels corresponding to the prostate organ using a hierarchical spectral clustering. First, each \ac{mrsi} spectrum is projected into a lower dimension space using graph embedding (\cite{Shi2000}). To proceed, a similarity matrix $W$ is computed using a Gaussian similarity measure from the Euclidean distance (\cite{Belkin2001}) such that:
 
 \begin{equation}
 	W(\mathbf{x},\mathbf{y}) =
@@ -73,6 +73,6 @@ Posteriorly, the same authors (\cite{Viswanath2012}) used the \ac{weritas} metho
 	\label{eq:ge1}
 \end{equation}
 
-\noindent where $s(\mathbf{x})$ and $s(\mathbf{y})$ are the \ac{mrsi} spectra for the voxels $\mathbf{x}$ and $\mathbf{y}$ respectively, $\sigma$ is the standard deviation of the Gaussian similarity measure and $\epsilon$ is the parameter to defined an $\epsilon$-neighbourhood.
+\noindent where $s(\mathbf{x})$ and $s(\mathbf{y})$ are the \ac{mrsi} spectra for the voxels $\mathbf{x}$ and $\mathbf{y}$ respectively, $\sigma$ is the standard deviation of the Gaussian similarity measure and $\epsilon$ is the parameter to define an $\epsilon$-neighbourhood.
 
 The \ac{mrsi} spectra projection into the lower dimension space is approached as a generalized eigenvector problem. Subsequently,  a replicate k-means clustering method is run defining two clusters. The larger cluster is assimilated to be the cluster corresponding to non-prostate voxels and is eliminated. The full procedure is repeated until the total number of voxels left is inferior to a given threshold set experimentally.

@@ -1,4 +1,4 @@
-\begin{thebibliography}{260}
+\begin{thebibliography}{261}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -2408,6 +2408,19 @@
   prostate cancer diagnosis and management}}.
 \newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{198},
   \bibinfo{pages}{1277--1288}.
+%Type = Article
+\bibitem[{Vilanova et~al.(2009)Vilanova, Comet, Barcel{\'o}-Vidal, Barcel{\'o},
+  L{\'o}pez-Bonet, Maroto, Arzoz, Moreno and Areal}]{Vilanova2009}
+\bibinfo{author}{Vilanova, J.C.}, \bibinfo{author}{Comet, J.},
+  \bibinfo{author}{Barcel{\'o}-Vidal, C.}, \bibinfo{author}{Barcel{\'o}, J.},
+  \bibinfo{author}{L{\'o}pez-Bonet, E.}, \bibinfo{author}{Maroto, A.},
+  \bibinfo{author}{Arzoz, M.}, \bibinfo{author}{Moreno, {\`A}.},
+  \bibinfo{author}{Areal, J.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{{P}eripheral zone prostate cancer in patients with
+  elevated {P}{S}{A} levels and low free-to-total {P}{S}{A} ratio: detection
+  with {M}{R} imaging and {M}{R} spectroscopy}}.
+\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{253},
+  \bibinfo{pages}{135--143}.
 %Type = Article
 \bibitem[{Villers et~al.(1991)Villers, Steg and Boccon-Gibod}]{Villers1991}
 \bibinfo{author}{Villers, A.}, \bibinfo{author}{Steg, A.},
