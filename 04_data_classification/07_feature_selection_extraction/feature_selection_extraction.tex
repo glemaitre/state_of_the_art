@@ -1,5 +1,20 @@
 \subsection{Feature selection and feature extraction} \label{subsec:featureselectionextraction}
 
+As presented in the previous section, a wide variety of features can be computed (see Tab. \ref{tab:feat}). Using multi-parametric data as well as multiple features lead to a high complexity feature space which might mislead or corrupt the classifier which have to be trained. Thus, one will be interesting to reduce the number of dimension of the feature space before to proceed to any classification task. The strategy used can be group into two groups: (i) feature selection and (ii) feature extraction. The methods used for \ac{cad} system are summarized in Tab. \ref{tab:featext}.
+
+\subsubsection{Feature selection}\label{subsubsec:featsel}
+
+The feature selection strategy corresponds in selecting the most discriminative feature dimension of the high-dimensional space. Thus, the low-dimensional space is then composed of a subset of the original features detected. In this section, methods employed in the studies reviewed will be briefly presented. More extensive review specific to feature selection can be found in \cite{Saeys2007}.
+
+\cite{Niaf2011,Niaf2012} make use of the p-value by using the independent two-sample t-test with equal mean for each feature dimension. In this statistical test, it is assumed two classes, \ac{cap} against healthy. Hence, for each particular feature, the distribution of each class can be characterized by their means $\bar{X}_1$ and $\bar{X}_2$ and standard deviation $s_{X_1}$ and $s_{X_2}$, respectively. Hence, the null hypothesis tested is based on the fact that these both distribution means are equal. Thus, the t-statistic related to verify the null hypothesis is then formalized such that:
+
+\begin{eqnarray}
+t & = & \frac{\bar {X}_1 - \bar{X}_2}{s_{X_1X_2} \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}} \ , \label{eq:tstat} \\
+s_{X_1X_2} & = & \sqrt{\frac{(n_1-1)s_{X_1}^2+(n_2-1)s_{X_2}^2}{n_1+n_2-2}} \ , \nonumber
+\end{eqnarray}
+
+\noindent where $n_1$ and $n_2$ are the number of sample in each class.
+
 \begin{table}
 	\caption{Overview of the feature selection and extraction methods used in \ac{cad} systems.}
 	\small
@@ -22,22 +37,7 @@
 	\label{tab:featext}
 \end{table}
 
-As presented in the previous section, a wide variety of features can be computed (see Tab. \ref{tab:feat}). Using multi-parametric data as well as multiple features lead to a high complexity feature space which might mislead or corrupt the classifier which have to be trained. Thus, one will be interesting to reduce the number of dimension of the feature space before to proceed to any classification task. The strategy used can be group into two groups: (i) feature selection and (ii) feature extraction. The methods used for \ac{cad} system are summarized in Tab. \ref{tab:featext}.
-
-\subsubsection{Feature selection}\label{subsubsec:featsel}
-
-The feature selection strategy corresponds in selecting the most discriminative feature dimension of the high-dimensional space. Thus, the low-dimensional space is then composed of a subset of the original features detected. In this section, methods employed in the studies reviewed will be briefly presented. More extensive review specific to feature selection can be found in \cite{Saeys2007}.
-
-\cite{Niaf2011,Niaf2012} make use of the p-value by using the independent two-sample t-test with equal mean for each feature dimension. In this statistical test, it is assumed two classes, \ac{cap} against healthy. Hence, for each particular feature, the distribution of each class can be characterized by their means $\bar{X}_1$ and $\bar{X}_2$ and standard deviation $s_{X_1}$ and $s_{X_2}$, respectively. Hence, the null hypothesis tested is based on the fact that these both distribution means are equal. Thus, the t-statistic related to verify the null hypothesis is then formalized such that:
-
-\begin{eqnarray}
-t & = & \frac{\bar {X}_1 - \bar{X}_2}{s_{X_1X_2} \cdot \sqrt{\frac{1}{n_1}+\frac{1}{n_2}}} \ , \label{eq:tstat} \\
-s_{X_1X_2} & = & \sqrt{\frac{(n_1-1)s_{X_1}^2+(n_2-1)s_{X_2}^2}{n_1+n_2-2}} \ . \nonumber
-\end{eqnarray}
-
-\noindent where $n_1$ and $n_2$ are the number of sample in each class.
-
-From Eq. \ref{eq:tstat}, it can be seen that the more the means of the class distribution diverge, larger the $t$-statistic $t$ will be implying that this particular feature is more relevant and able to make the distinction between the two classes to separate. 
+From Eq. \eqref{eq:tstat}, it can be seen that the more the means of the class distribution diverge, larger the $t$-statistic $t$ will be implying that this particular feature is more relevant and able to make the distinction between the two classes to separate. 
 
 The $p$-value statistic can be deduced from the $t$-test and corresponds to the probability to obtain such an extreme test assuming that the null hypothesis is true \cite{Goodman1999}. Hence, smaller is the $p$-value, more likely is to reject the null hypothesis and more relevant the feature is likely to be.
 
@@ -52,7 +52,7 @@ F_r = \frac{\bar{X}_1 - \bar{X}_2}{s^{2}_{X_1}+s^{2}_{X_2}} \ .
 
 Hence, a feature dimension can be seen as more relevant when the variance between classes is maximum and the variance within classes in minimum. Once the features ordered, \cite{Vos2012} select the feature dimensions with the larger Fisher discriminant ratio.
 
-\ac{mi} can also be used to select the subset of feature dimension. Definition of the \ac{mi} was presented in Sect. \ref{subsubsec:simmea} and formalized in \ref{eq:midef}. The computation of the entropies involves the estimation of some \acp{pdf} and the data being usually continuous variables, it is then necessary to estimate the \acp{pdf} using method such as Parzen windows.
+\ac{mi} can also be used to select the subset of feature dimension. Definition of the \ac{mi} was presented in Sect. \ref{subsubsec:simmea} and formalized in \eqref{eq:midef}. The computation of the entropies involves the estimation of some \acp{pdf} and the data being usually continuous variables, it is then necessary to estimate the \acp{pdf} using method such as Parzen windows.
 
 \cite{Peng2005} introduced two main criteria to select the features dimensions and then combined: (i) maximal relevance and (ii) minimum redundancy.
 
@@ -60,10 +60,10 @@ Maximal relevance criterion is based on the paradigm that the classes and the fe
 
 \begin{eqnarray}
 	&&\argmax Rel(\mathbf{x},c) \ , \nonumber \\
-	&& Rel(\mathbf{x},c) = \frac{1}{|\mathbf{x}|} \sum_{x_i \in \mathbf{x}} MI(x_i,c)  \ . \label{eq:mRel}
+	&& Rel(\mathbf{x},c) = \frac{1}{|\mathbf{x}|} \sum_{x_i \in \mathbf{x}} MI(x_i,c)  \ , \label{eq:mRel}
 \end{eqnarray}
 
-\noindent where $\mathbf{x} = \{x_i,i=1,\cdots,d\}$ is a feature vector of $d$ dimensions, $c$ is the class considered and $MI(.)$ is the \ac{mi}.
+\noindent where $\mathbf{x} = \{x_i,i=1,\cdots,d\}$ is a feature vector of $d$ dimensions, $c$ is the class considered and $MI(\cdot)$ is the \ac{mi}.
 
 As in the previous method, using maximal relevance criterion alone will imply the independence between each feature dimension which is usually not true.
 
@@ -74,7 +74,7 @@ Minimal redundancy criterion will force to select a new feature dimension which 
 	&& Red(\mathbf{x}) = \frac{1}{|\mathbf{x}|^2} \sum_{x_i,x_j \in \mathbf{x}} MI(x_i,x_j)  \ . \label{eq:mRed}
 \end{eqnarray}
 
-Combination of these two previous criteria is known as \ac{mrmr}\footnote{\ac{mrmr} implementation can be found at: \texttt{http://penglab.janelia.\allowbreak org/proj/mRMR/}} (\cite{Peng2005}) and can be computed such as a difference or a quotient of the Eq. \ref{eq:mRel} and \ref{eq:mRed}.
+Combination of these two previous criteria is known as \ac{mrmr}\footnote{\ac{mrmr} implementation can be found at: \texttt{http://penglab.janelia.\allowbreak org/proj/mRMR/}} (\cite{Peng2005}) and can be computed such as a difference or a quotient of the Eq. \eqref{eq:mRel} and \eqref{eq:mRed}.
 
 \cite{Niaf2011,Niaf2012} make use of maximal relevance criterion alone and also of both \ac{mrmr} difference and quotient criterion. \cite{Viswanath2012} also reduced their feature vector via \ac{mrmr} difference and quotient.
 
@@ -96,7 +96,7 @@ The principal components can then by computing using the eigenvectors-eigenvalue
 The eigenvectors-eigenvalues decomposition can be formalized such as:
 
 \begin{equation}
-	\mathbf{v}^{-1} \Sigma \mathbf{v} = \Lambda \ .
+	\mathbf{v}^{-1} \Sigma \mathbf{v} = \Lambda \ ,
 	\label{eq:eigpca}
 \end{equation}
 
@@ -116,7 +116,7 @@ Laplacian eigenmaps\footnote{Laplacian eigenmap implementation is available at: 
 Then, the low-dimensional space will be found by solving the generalized eigenvectors-eigenvalues problem such as:
 
 \begin{equation}
-	(D-W)\mathbf{y} = \lambda D \mathbf{y} \ .
+	(D-W)\mathbf{y} = \lambda D \mathbf{y} \ ,
 	\label{eq:geeig}
 \end{equation}
 
@@ -124,7 +124,7 @@ Then, the low-dimensional space will be found by solving the generalized eigenve
 
 Finally the low-dimensional space is defined by the $k$ eigenvectors of the $k$ smallest eigenvalues (\cite{Belkin2001}). \cite{Tiwari2007,Tiwari2009,Tiwari2009a,Viswanath2008} used this spectral clustering to project their feature vector into a low-dimensional space. The feature space in these studies is usually composed of features extracted from a single or multiple modalities and then concatenated before applying the Laplacian eigenmaps dimension reduction technique.
 
-\cite{Tiwari2009,Tiwari2013} used a slightly different approach by combining the Laplacian eigenmaps techniques with a prior multi-kernel learning strategy. First, multiple feature were extracted for multiple modalities. The features of a single modalities were then mapped to an higher dimensional space via the Kernel trick (\cite{Aizerman1964}) and more precisely using a Gaussian kernel. Then, each kernel associated with each modality are linearly combined to obtain a combined kernel $K$. Then, the computation of the adjacency matrix $W$ takes place and the same scheme as in Laplacian eigenmaps is performed. However, in order to used the combined kernel, Eq. \ref{eq:geeig} becomes as shown in Eq. \ref{eq:sesmik} and can be solved as a generalized eigenvectors-eigenvalues problem as previously.
+\cite{Tiwari2009,Tiwari2013} used a slightly different approach by combining the Laplacian eigenmaps techniques with a prior multi-kernel learning strategy. First, multiple feature were extracted for multiple modalities. The features of a single modalities were then mapped to an higher dimensional space via the Kernel trick (\cite{Aizerman1964}) and more precisely using a Gaussian kernel. Then, each kernel associated with each modality are linearly combined to obtain a combined kernel $K$. Then, the computation of the adjacency matrix $W$ takes place and the same scheme as in Laplacian eigenmaps is performed. However, in order to used the combined kernel, Eq. \eqref{eq:geeig} becomes as shown in Eq. \eqref{eq:sesmik} and can be solved as a generalized eigenvectors-eigenvalues problem as previously.
 
 \begin{equation}
 	K (D-W) K^{\text{T}} \mathbf{y} = \lambda K D K^{\text{T}} \mathbf{y} \ .
@@ -136,7 +136,7 @@ Finally the low-dimensional space is defined by the $k$ eigenvectors of the $k$ 
 \ac{lle}\footnote{\ac{lle} implementation is available at: \texttt{http://www.cs.nyu.edu/\allowbreak ~roweis/lle/code.html}} is another non-linear dimension technique broadly known firstly proposed by \cite{Roweis2000}. \ac{lle} is based on the fact that a data point in the feature space can be characterized by its neighbours. Thus, it was proposed to represent each data point in the high-dimensional space as the linear combination of its $k$-nearest neighbours. This can be expressed such as:
 
 \begin{equation}
-	\hat{\mathbf{x}}_i = \sum_j W(i,j) \mathbf{x}_j \ .
+	\hat{\mathbf{x}}_i = \sum_j W(i,j) \mathbf{x}_j \ ,
 	\label{eq:lincomlle}
 \end{equation}
 
