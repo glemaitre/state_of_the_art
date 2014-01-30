@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  30 JAN 2014 20:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  30 JAN 2014 20:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2583,12 +2583,12 @@ sedistr-eps-converted-to.pdf used on input line 44.
 rted-to.pdf>]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/bias/t2w_bias_antenna.eps>
-(epstopdf)                    date: 2014-01-30 19:36:07
-(epstopdf)                    size: 250457 bytes
+(epstopdf)                    date: 2014-01-30 20:40:18
+(epstopdf)                    size: 462446 bytes
 (epstopdf)             Output file: <03_image_processing/03_preprocessing/figur
 es/bias/t2w_bias_antenna-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 19:36:07
-(epstopdf)                    size: 17068 bytes
+(epstopdf)                    date: 2014-01-30 20:40:18
+(epstopdf)                    size: 28249 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
 rocessing/figures/bias/t2w_bias_antenna-eps-converted-to.pdf 03_image_processin
 g/03_preprocessing/figures/bias/t2w_bias_antenna.eps>
@@ -2596,7 +2596,7 @@ g/03_preprocessing/figures/bias/t2w_bias_antenna.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/bias/t2w_bias_antenna-eps-convert
-ed-to.pdf, id=1179, 257.96375pt x 257.96375pt>
+ed-to.pdf, id=1179, 258.9675pt x 258.9675pt>
 File: 03_image_processing/03_preprocessing/figures/bias/t2w_bias_antenna-eps-co
 nverted-to.pdf Graphic file (type pdf)
 
@@ -2604,7 +2604,7 @@ nverted-to.pdf Graphic file (type pdf)
 verted-to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/bias/t2w_
 bias_antenna-eps-converted-to.pdf used on input line 69.
-(pdftex.def)             Requested size: 126.0pt x 125.9979pt.
+(pdftex.def)             Requested size: 126.0pt x 126.00212pt.
  [13 <./03_image_processing/03_preprocessing/figures/bias/t2w_bias_antenna-eps-
 converted-to.pdf>] [14]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
@@ -2647,12 +2647,12 @@ x/n/9 x\OT1/txr/m/n/9 )) = []
 LaTeX Font Info:    Calculating math sizes for size <> on input line 219.
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/niaf/t2w_bladder.eps>
-(epstopdf)                    date: 2014-01-30 19:36:07
-(epstopdf)                    size: 362154 bytes
+(epstopdf)                    date: 2014-01-30 20:40:18
+(epstopdf)                    size: 362990 bytes
 (epstopdf)             Output file: <03_image_processing/03_preprocessing/figur
 es/niaf/t2w_bladder-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 19:36:07
-(epstopdf)                    size: 30447 bytes
+(epstopdf)                    date: 2014-01-30 20:40:18
+(epstopdf)                    size: 32465 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
 rocessing/figures/niaf/t2w_bladder-eps-converted-to.pdf 03_image_processing/03_
 preprocessing/figures/niaf/t2w_bladder.eps>
@@ -2671,12 +2671,12 @@ bladder-eps-converted-to.pdf used on input line 226.
 (pdftex.def)             Requested size: 113.39923pt x 85.27031pt.
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/niaf/t1w_arteries.eps>
-(epstopdf)                    date: 2014-01-30 19:36:07
-(epstopdf)                    size: 190758 bytes
+(epstopdf)                    date: 2014-01-30 20:40:18
+(epstopdf)                    size: 360349 bytes
 (epstopdf)             Output file: <03_image_processing/03_preprocessing/figur
 es/niaf/t1w_arteries-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 19:36:07
-(epstopdf)                    size: 19466 bytes
+(epstopdf)                    date: 2014-01-30 20:40:18
+(epstopdf)                    size: 33487 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
 rocessing/figures/niaf/t1w_arteries-eps-converted-to.pdf 03_image_processing/03
 _preprocessing/figures/niaf/t1w_arteries.eps>
@@ -2684,7 +2684,7 @@ _preprocessing/figures/niaf/t1w_arteries.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-converted-t
-o.pdf, id=1294, 257.96375pt x 193.72375pt>
+o.pdf, id=1294, 258.9675pt x 194.7275pt>
 File: 03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
@@ -2692,7 +2692,7 @@ ted-to.pdf Graphic file (type pdf)
 ed-to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/niaf/t1w_
 arteries-eps-converted-to.pdf used on input line 227.
-(pdftex.def)             Requested size: 113.39923pt x 85.15889pt.
+(pdftex.def)             Requested size: 113.39923pt x 85.27031pt.
  [15 <./03_image_processing/03_preprocessing/figures/normalization/linear_trans
 form_parts-eps-converted-to.pdf> <./03_image_processing/03_preprocessing/figure
 s/niaf/t2w_bladder-eps-converted-to.pdf> <./03_image_processing/03_preprocessin
@@ -2856,11 +2856,11 @@ Overfull \hbox (3.33109pt too wide) in paragraph at lines 195--220
 [18] [19]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
-(epstopdf)                    date: 2014-01-30 19:36:07
+(epstopdf)                    date: 2014-01-30 20:42:48
 (epstopdf)                    size: 31205 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 19:36:07
+(epstopdf)                    date: 2014-01-30 20:42:48
 (epstopdf)                    size: 7348 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
@@ -2885,11 +2885,11 @@ Underfull \hbox (badness 1910) in paragraph at lines 327--327
 
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
-(epstopdf)                    date: 2014-01-30 19:36:07
+(epstopdf)                    date: 2014-01-30 20:42:48
 (epstopdf)                    size: 241135 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 19:36:07
+(epstopdf)                    date: 2014-01-30 20:42:48
 (epstopdf)                    size: 31593 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
@@ -3665,14 +3665,11 @@ nged.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  33101 strings out of 493311
  658144 string characters out of 6137856
- 942387 words of memory out of 5000000
+ 942383 words of memory out of 5000000
  35231 multiletter control sequences out of 15000+600000
  83217 words of font info for 208 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -3691,7 +3688,7 @@ s/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmbi8a.
 pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
 local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (45 pages, 2708403 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (45 pages, 2735614 bytes).
 PDF statistics:
  2751 PDF objects out of 2984 (max. 8388607)
  2558 compressed objects within 26 object streams
