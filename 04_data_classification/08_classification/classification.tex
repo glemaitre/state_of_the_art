@@ -70,7 +70,7 @@ $k$-means is an unsupervised clustering methods in which the data have to be par
 \Acf{lda} can be used as a classification in which the optimal linear separation is found by maximizing the distance between the classes and minimizing the distance within the classes (\cite{Friedman1989}). The linear discriminant function is defined such as:
 
 \begin{equation}
-	\delta_{k}(\mathbf{x}_i) = \mathbf{x}_i^{\text{T}} \Sigma^{-1} \mu_k - \frac{1}{2} \mu_{k}^{\text{T}} \Sigma^{-1} \mu_k + \log (\pi_k) \ .
+	\delta_{k}(\mathbf{x}_i) = \mathbf{x}_i^{\text{T}} \Sigma^{-1} \mu_k - \frac{1}{2} \mu_{k}^{\text{T}} \Sigma^{-1} \mu_k + \log (\pi_k) \ ,
 	\label{eq:ldafun}
 \end{equation}
 
@@ -88,7 +88,7 @@ covariance matrix $\Sigma_k$ specific at each class is computed
 Logistic regression can be used to perform binary classification and can provide the probability of an observation to belong to a class. The posterior probability of one of the class $c_1$ can be written as:
 
 \begin{equation}
-	p(c_1|\mathbf{x}_i) = \frac{1}{1+\exp(-\mathbf{w}^{\text{T}}\mathbf{x}_i)} \ .
+	p(c_1|\mathbf{x}_i) = \frac{1}{1+\exp(-\mathbf{w}^{\text{T}}\mathbf{x}_i)} \ ,
 	\label{eq:postprlr}
 \end{equation}
 
@@ -101,27 +101,27 @@ Thus, an unlabelled observation $\mathbf{x}_i$ will be assigned to the class whi
 	\label{eq:posprobreg}
 \end{equation}
 
-From Eq. \ref{eq:postprlr}, one can see that the key of classification using logistic regression model is to infer the set of parameter $\mathbf{w}$ through a learning stage in the training set. This vector of parameters $\mathbf{w}$ can be inferred by finding the maximum likelihood estimates. This step can be performed through an optimization scheme, using a quasi-Newton method (\cite{Byrd1995}), which iteratively seeks for the local minimum in the derivative.
+From Eq. \eqref{eq:postprlr}, one can see that the key of classification using logistic regression model is to infer the set of parameter $\mathbf{w}$ through a learning stage in the training set. This vector of parameters $\mathbf{w}$ can be inferred by finding the maximum likelihood estimates. This step can be performed through an optimization scheme, using a quasi-Newton method (\cite{Byrd1995}), which iteratively seeks for the local minimum in the derivative.
 
 \cite{Kelm2007,Puech2009} used a logistic regression to create a linear probabilistic model in order to classify their feature vectors.
 
 \item[$-$] \textbf{\textit{Non-linear model classifier:}} 
 
-\cite{Viswanath2012} used the most general \acf{qda} instead of \ac{lda}. Unlike in \ac{lda} in which one assumes that the class covariance matrices $\Sigma$ is identical for all the classes, in \ac{qda}, it is assumes that a covariance matrix $\Sigma_k$ specific at each class is computed. Thus, Eq. \ref{eq:ldafun} becomes:
+\cite{Viswanath2012} used the most general \acf{qda} instead of \ac{lda}. Unlike in \ac{lda} in which one assumes that the class covariance matrices $\Sigma$ is identical for all the classes, in \ac{qda}, it is assumes that a covariance matrix $\Sigma_k$ specific at each class is computed. Thus, Eq. \eqref{eq:ldafun} becomes:
 
 \begin{equation}
 	\delta_{k}(\mathbf{x}_i) = \mathbf{x}_i^{\text{T}} \Sigma_{k}^{-1} \mu_k - \frac{1}{2} \mu_{k}^{\text{T}} \Sigma_{k}^{-1} \mu_k + \log (\pi_k) \ .
 	\label{eq:qdafun}
 \end{equation}
 
-The classification rules in the case of the \ac{qda} is identical to Eq. \ref{eq:ldaclass}.
+The classification rules in the case of the \ac{qda} is identical to Eq. \eqref{eq:ldaclass}.
 
 \item[$-$] \textbf{\textit{Probabilistic classifier:}}
 
 The most commonly used classifier is the naive Bayes classifier which is a probabilistic classifier assuming the independence between each feature dimension (\cite{Rish2001}). This classifier is based on the Bayes' theorem:
 
 \begin{equation}
-	p(C=k|\mathbf{x}) = \frac{p(C)p(\mathbf{x}|C)}{p(\mathbf{x})} \ .
+	p(C=k|\mathbf{x}) = \frac{p(C)p(\mathbf{x}|C)}{p(\mathbf{x})} \ ,
 	\label{eq:bayth}
 \end{equation}
 
@@ -131,7 +131,7 @@ However, the evidence term is usually discarded since, it is not class dependent
 
 \begin{eqnarray}
 	C(\mathbf{x}_i) & = & \argmax_k p(C=k|\mathbf{x}_i) \ , \label{eq:maxbay} \\
-	p(C=k|\mathbf{x}_i) & = & p(C=k) \prod_{j=1}^{n} p(x_{ij},|C=k) \ . \label{eq:postbay}
+	p(C=k|\mathbf{x}_i) & = & p(C=k) \prod_{j=1}^{n} p(x_{ij},|C=k) \ , \label{eq:postbay}
 \end{eqnarray}
 
 \noindent where $n$ is the number of dimension of the feature vector $\mathbf{x}_i = \{x_{i1},\cdots,x_{in}\}$.
@@ -147,16 +147,16 @@ AdaBoost is an adaptive method based on ensemble learner initially proposed by \
 AdaBoost is considered as an adaptive method in the way that the weak learner are selected. The selection is performed in an iterative manner. At each iteration $t$, the weak learner selected $h_t$ corresponds to the one minimizing the classification error on a distribution of weights $D_t$, that is associated to the training sample. A weight $\alpha_t$ is affected at each weak learner such that:
 
 \begin{equation}
-	\alpha_t = \frac{1}{2} \ln \frac{1 - \epsilon_t}{\epsilon_t} \ .
+	\alpha_t = \frac{1}{2} \ln \frac{1 - \epsilon_t}{\epsilon_t} \ ,
 	\label{eq:wclssada}
 \end{equation}
 
 \noindent where $\epsilon_t$ corresponds to the classification error rate of the weak learner on the distribution of weight $D_t$.
 
-Before performing a new iteration, the distribution of weight $D_t$ is updated such that the weight associated with the misclassified samples by $h_t$ will increase and the weights of well classified samples will decrease as shown in Eq. \ref{eq:rewada}. This procedure allows to select a weak learner at the next iteration $t+1$ which will classify in priority previous misclassified samples.
+Before performing a new iteration, the distribution of weight $D_t$ is updated such that the weight associated with the misclassified samples by $h_t$ will increase and the weights of well classified samples will decrease as shown in Eq. \eqref{eq:rewada}. This procedure allows to select a weak learner at the next iteration $t+1$ which will classify in priority previous misclassified samples.
 
 \begin{equation}
-	D_{t+1}(i) = \frac{ D_t(i) \exp(-\alpha_t y_i h_{t}(\mathbf{x}_{i} ) }{ Z_t  } \ .
+	D_{t+1}(i) = \frac{ D_t(i) \exp(-\alpha_t y_i h_{t}(\mathbf{x}_{i} ) }{ Z_t  } \ ,
 	\label{eq:rewada} 
 \end{equation}
 
@@ -208,7 +208,7 @@ Probabilistic boosting-tree are an ensemble classifier method which is sharing p
 	\item else $\mathbf{x}_i$ will be propagated in both branches with $w_i=q(+1, \mathbf{x}_i)$ in the right branch and $w_i=q(-1, \mathbf{x}_i)$ in the left branch.
 \end{itemize}
 
-\noindent with $\mathbf{w} = w_i, i=\{1,\cdots,N\}$ corresponding to distribution of weight, $N$ the number of samples as in AdaBoost and $q(.)$ is defined such as:
+\noindent with $\mathbf{w} = w_i, i=\{1,\cdots,N\}$ corresponding to distribution of weight, $N$ the number of samples as in AdaBoost and $q(\cdot)$ is defined such as:
 
 \begin{eqnarray}
 	q(+1, \mathbf{x}_i) & = & \frac{\exp(2H(\mathbf{x}_i))}{1+\exp(2H(\mathbf{x}_i))} \ , \label{eq:regada1} \\
@@ -227,10 +227,10 @@ Gaussian process\footnote{Gaussian process implementation can be found at: \text
 
 \begin{eqnarray}
 	p(y_i|\mathbf{x}_i,\mathbf{w}) & = & \sigma(y_i f(\mathbf{x}_i)) \ , \label{eq:gp1} \\
-	f(\mathbf{x}_i) & = & \mathbf{x}_i^{\text{T}} \mathbf{w} \ . \nonumber
+	f(\mathbf{x}_i) & = & \mathbf{x}_i^{\text{T}} \mathbf{w} \ , \nonumber
 \end{eqnarray}
 
-\noindent where $\sigma(.)$ is the logistic function.
+\noindent where $\sigma(\cdot)$ is the logistic function.
 
 Thus, the essence of Gaussian process for the classification is based on affecting a Gaussian process prior over the function $f(\mathbf{x})$ which will be characterized by a mean $\bar{f}$ and covariance functions $K$. Thus, in the training stage, the best mean and covariance function have to be inferred in regard to our training data using a Newton optimization and a Laplacian approximation.
 
@@ -238,7 +238,7 @@ The prediction stage can be performed in two stages. First, for a new observatio
 \begin{eqnarray}
 	p(f(\mathbf{x}*)|f(\mathbf{x})) & = & \mathcal{N}( K_*K^{-1}\bar{f}, K_{**}-K_*(K')^{-1}K_*^{\text{T}} ) \ , \nonumber \\
 	K' & = & K + W^{-1} \ , \label{eq:gp2} \\
-	W & = & \nabla \nabla \log p(\mathbf{y}|f(\mathbf{x})) \ . \nonumber
+	W & = & \nabla \nabla \log p(\mathbf{y}|f(\mathbf{x})) \ , \nonumber
 \end{eqnarray}
 
 \noindent where $K_{**}$ is the covariance on testing, $K_{*}$ is the covariance on training-testing, $\mathbf{x}$ is the training data.
@@ -268,7 +268,7 @@ In Gaussian process, when a prediction has to be performed, the whole training d
 \label{eq:svm1}
 \end{equation}
 
-From Eq. \ref{eq:svm1}, it is important to notice that only few points from the set of $n$ points have to be selected which will later define the hyperplane. This can be introduced in the optimization problems using Lagrange multipliers $\boldsymbol{\alpha}$. All points which are not lying on the margin will be assigned a corresponding $\alpha_i = 0$. This can be formalized such as:
+From Eq. \eqref{eq:svm1}, it is important to notice that only few points from the set of $n$ points have to be selected which will later define the hyperplane. This can be introduced in the optimization problems using Lagrange multipliers $\boldsymbol{\alpha}$. All points which are not lying on the margin will be assigned a corresponding $\alpha_i = 0$. This can be formalized such as:
 
 \begin{equation}
 	\arg\min_{\mathbf{w},b } \max_{\boldsymbol{\alpha}\geq 0 } \left\{ \frac{1}{2}\|\mathbf{w}\|^2 - \sum_{i=1}^{n}{\alpha_i[y_i(\mathbf{w}\cdot \mathbf{x_i} - b)-1]} \right\} \ .
@@ -285,7 +285,7 @@ The different parameters can be inferred using quadratic programming. This versi
 The decision to assigned the label to a new observation $\mathbf{x}_i$ is taken such that:
 
 \begin{equation}
-	C(\mathbf{x}_i) = \sign \left( \sum_{n=1}^{N} \alpha_n (\mathbf{x}_n . \mathbf{x}_i) + b_0 \right) \ .
+	C(\mathbf{x}_i) = \sign \left( \sum_{n=1}^{N} \alpha_n (\mathbf{x}_n . \mathbf{x}_i) + b_0 \right) \ ,
 	\label{eq:svmdec} 
 \end{equation}
 
@@ -298,11 +298,11 @@ In \ac{cad} system, \ac{svm} is the most popular classification method and was u
 \Acf{rvm} is a sparse version of Gaussian process previously presented and was proposed by \cite{Tipping2001}. \ac{rvm} is identical to a Gaussian process with following covariance function (\cite{Quinonero-Candela2002}):
 
 \begin{equation}
-	K_{RVM}(\mathbf{x}_p,\mathbf{x}_q) = \sum_{j=1}^{M} \frac{1}{\alpha_j} \Phi_j ( \mathbf{x}_p ) \Phi_j ( \mathbf{x}_q ) \ . 
+	K_{RVM}(\mathbf{x}_p,\mathbf{x}_q) = \sum_{j=1}^{M} \frac{1}{\alpha_j} \Phi_j ( \mathbf{x}_p ) \Phi_j ( \mathbf{x}_q ) \ ,
  	\label{eq:rvm}
 \end{equation}
 
-\noindent where $\phi(.)$ is a Gaussian basis function, $\mathbf{x}_n|n=\{1,\cdots,N\}$ are the $N$ training points and $\boldsymbol{\alpha}$ are the weights.
+\noindent where $\phi(\cdot)$ is a Gaussian basis function, $\mathbf{x}_n|n=\{1,\cdots,N\}$ are the $N$ training points and $\boldsymbol{\alpha}$ are the weights.
 
 As mentioned in \cite{Quinonero-Candela2002}, the sparsity regarding the relevance vector arises if $j \alpha_j^{-1} = 0$. The set of parameters $\boldsymbol{\alpha}$ is inferred using the expectation maximization algorithm.
 
@@ -374,18 +374,18 @@ As mentioned in \cite{Quinonero-Candela2002}, the sparsity regarding the relevan
 Multilayer perceptron is a feed-forward neural network consider as well as the most successful model of this kind in pattern recognition (\cite{Bishop2006}). The most well spread model used is based on a two layers model where a prediction of an observation is computed such as:
 
 \begin{equation}
-	C(\mathbf{x}_n,w_{ij}^{(1)},w_{kj}^{(2)}) = \sigma \left[ \sum_{j=0}^{M} w_{kj}^{(2)} \  h \left( \sum_{i=0}^{D} w_{ij}^{(1)} x_{in} \right) \right] \ .
+	C(\mathbf{x}_n,w_{ij}^{(1)},w_{kj}^{(2)}) = \sigma \left[ \sum_{j=0}^{M} w_{kj}^{(2)} \  h \left( \sum_{i=0}^{D} w_{ij}^{(1)} x_{in} \right) \right] \ ,
 	\label{eq:annmlp}
 \end{equation}
 
-\noindent where $h(.)$ and $\sigma(.)$ are two activations functions usually non-linear, $w_{ij}^{(1)}$ and $ w_{kj}^{(2)}$ are the weights associated with the linear combination with the input feature $\mathbf{x}_n$ and hidden unit, respectively.
+\noindent where $h(\cdot)$ and $\sigma(\cdot)$ are two activations functions usually non-linear, $w_{ij}^{(1)}$ and $ w_{kj}^{(2)}$ are the weights associated with the linear combination with the input feature $\mathbf{x}_n$ and hidden unit, respectively.
 
-A graphical representation of this network is presented in Fig. \ref{fig:mlp}. Relating Fig. \ref{fig:mlp} with Eq. \ref{eq:annmlp}, it can be noted that this network is composed of some successive non-linear mapping of the input data. First, a linear combination of the input vector $\mathbf{x}_i$ is performed into some hidden units through a set of weight $w_{ij}^{(1)}$. This combination becomes non-linear by the use of the activation function $h(.)$ which is usually chosen to be a sigmoid function. Then, a linear combination of these hidden units is performed into the output of the neural network through a set of weight $w_{kj}^{(2)}$. This combination is also mapped non-linearly using an activation function $\sigma(.)$ which is usually a logistic function.
+A graphical representation of this network is presented in Fig. \ref{fig:mlp}. Relating Fig. \ref{fig:mlp} with Eq. \eqref{eq:annmlp}, it can be noted that this network is composed of some successive non-linear mapping of the input data. First, a linear combination of the input vector $\mathbf{x}_i$ is performed into some hidden units through a set of weight $w_{ij}^{(1)}$. This combination becomes non-linear by the use of the activation function $h(\cdot)$ which is usually chosen to be a sigmoid function. Then, a linear combination of these hidden units is performed into the output of the neural network through a set of weight $w_{kj}^{(2)}$. This combination is also mapped non-linearly using an activation function $\sigma(\cdot)$ which is usually a logistic function.
 
 Thus, the training of such a network resides in finding the best weights $w_{ij}^{(1)}$ and $ w_{kj}^{(2)}$ which will model our data the best. The error perform of this model can be computed such that:
 
 \begin{equation}
-	E(w_{ij}^{(1)},w_{kj}^{(2)}) = \frac{1}{2} \sum_{n=1}^{N} \left( C(\mathbf{x}_n,w_{ij}^{(1)},w_{kj}^{(2)}) - y(\mathbf{x}_n) \right) ^{2} \ .
+	E(w_{ij}^{(1)},w_{kj}^{(2)}) = \frac{1}{2} \sum_{n=1}^{N} \left( C(\mathbf{x}_n,w_{ij}^{(1)},w_{kj}^{(2)}) - y(\mathbf{x}_n) \right) ^{2} \ ,
 	\label{eq:mlpcost}
 \end{equation}
 
@@ -398,7 +398,7 @@ Thus the best set of weight can be inferred in an optimization framework such th
 	\label{eq:mlpopt}
 \end{equation}
 
-This optimization can be performed using a gradient descent method where the derivative of Eq. \ref{eq:mlpcost} can be computed using the backpropagation algorithm proposed by \cite{Rumelhart1988}.
+This optimization can be performed using a gradient descent method where the derivative of Eq. \eqref{eq:mlpcost} can be computed using the backpropagation algorithm proposed by \cite{Rumelhart1988}.
 
 \cite{Matulewicz2013,Parfait2012} used this method to classify \ac{mrsi} spectra.
 
@@ -485,16 +485,16 @@ This optimization can be performed using a gradient descent method where the der
 \label{fig:pnn}
 \end{figure}
 
-Probabilistic neural network is another type of feed-forward which can be derived from the multilayer perceptron case and was proposed by \cite{Specht1988}. This classifier can be modelled by affecting the activation function $h(.)$ in Eq. \ref{eq:annmlp} to an exponential function such that:
+Probabilistic neural network is another type of feed-forward which can be derived from the multilayer perceptron case and was proposed by \cite{Specht1988}. This classifier can be modelled by affecting the activation function $h(\cdot)$ in Eq. \eqref{eq:annmlp} to an exponential function such that:
 
 \begin{equation}
-	h(\mathbf{x}_n) = \exp \left( - \frac{ (\mathbf{w}_j - \mathbf{x})^{\text{T}}(\mathbf{w}_j - \mathbf{x}) }{2\sigma^2} \right) \ .
+	h(\mathbf{x}_n) = \exp \left( - \frac{ (\mathbf{w}_j - \mathbf{x})^{\text{T}}(\mathbf{w}_j - \mathbf{x}) }{2\sigma^2} \right) \ ,
 	\label{eq:pnn1}
 \end{equation}
 
 \noindent where $\sigma$ is a free parameter.
 
-The other difference of the probabilistic neural network with the multilayer perceptron resides in the architecture as shown in Fig. \ref{fig:pnn}. This network is formed by two hidden layer. The first hidden layer corresponds to the pattern layer which is the mapping done using Eq. \ref{eq:pnn1}. This pattern layer is sub-divided into groups corresponding to the class. The second hidden layer corresponds to the summation layer which simply sum the output of each sub-group of the pattern layer.
+The other difference of the probabilistic neural network with the multilayer perceptron resides in the architecture as shown in Fig. \ref{fig:pnn}. This network is formed by two hidden layer. The first hidden layer corresponds to the pattern layer which is the mapping done using Eq. \eqref{eq:pnn1}. This pattern layer is sub-divided into groups corresponding to the class. The second hidden layer corresponds to the summation layer which simply sum the output of each sub-group of the pattern layer.
 
 This method was used  by \cite{Ampeliotis2007,Ampeliotis2008,Viswanath2011} in order to perform the classification of their feature vector.
 
@@ -510,13 +510,13 @@ Markov random field can also be used as a lesion segmentation method to detect \
 It is generally assumed that $p(f_s | \omega_s)$ follow a Gaussian distribution and that the pixels classes $\lambda = \{1,2\}$ for a binary classification will be characterized by their respective mean $\mu_{\lambda}$ and standard deviation $\sigma_{\lambda}$. Then, $\omega$ is supposed to be a Markov random field thus:
 
 \begin{equation}
-	p(\omega) =  \frac{1}{Z} \exp\left( -U(\omega) \right)  \ .
+	p(\omega) =  \frac{1}{Z} \exp\left( -U(\omega) \right)  \ ,
 	\label{eq:mrf2}
 \end{equation}
 
-\noindent where $Z$ is a normalization factor to obtain a probability value, $U(.)$ is the energy function.
+\noindent where $Z$ is a normalization factor to obtain a probability value, $U(\cdot)$ is the energy function.
 
-Thus the segmentation problem can be solved as an optimization problem where the energy function $U(.)$ has to be minimized. There are different possibilities to define the energy function $U(.)$. However, this is common to define the energy function such that it combines two type of potential function: (i) a local term relative to the pixel itself and (ii) a smoothing prior which embeds neighbourhood information which will more or less penalizes the energy function to obtain more or less homogeneous region. This optimization of such function can be performed algorithm such as iterated conditional modes (\cite{Kato2001}).
+Thus the segmentation problem can be solved as an optimization problem where the energy function $U(\cdot)$ has to be minimized. There are different possibilities to define the energy function $U(\cdot)$. However, this is common to define the energy function such that it combines two type of potential function: (i) a local term relative to the pixel itself and (ii) a smoothing prior which embeds neighbourhood information which will more or less penalizes the energy function to obtain more or less homogeneous region. This optimization of such function can be performed algorithm such as iterated conditional modes (\cite{Kato2001}).
 
 \cite{Liu2009,Ozer2010} used Markov random field as an unsupervised method to segment lesions in multi-parametric \ac{mri} images.
 

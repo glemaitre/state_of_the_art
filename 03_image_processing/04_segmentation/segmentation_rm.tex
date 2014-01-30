@@ -44,7 +44,7 @@ Subsequently,  \ac{cg} and \ac{pz} segmentation within the prostate region is ac
 For the training stage, a set of landmarks is defined and the shape model is generated as in the original \ac{asm} method (\cite{Cootes1995}). Then, to model the appearance, a set of $K$ texture images $\{I_1,I_2,\cdots,I_k\}$ based on first and second order statistical texture features, are computed. For a given landmark $l$ with its given neighbourhood $\mathcal{N}(l)$, its feature matrix extracted can be expressed as:
 
 \begin{equation}
-	f_l = \{ I_1(\mathcal{N}(l)), I_2(\mathcal{N}(l)), \cdots, I_k(\mathcal{N}(l)) \} \ .	
+	f_l = \{ I_1(\mathcal{N}(l)), I_2(\mathcal{N}(l)), \cdots, I_k(\mathcal{N}(l)) \} \ ,
 	\label{eq:mantra1}
 \end{equation}
 
@@ -68,7 +68,7 @@ Posteriorly, the same authors (\cite{Viswanath2012}) used the \ac{weritas} metho
 	W(\mathbf{x},\mathbf{y}) =
 	\begin{cases}	
 	 	\exp \left( \frac{\| s(\mathbf{x}) - s(\mathbf{y}) \|_2^2}{\sigma^2} \right) \ , & \text{if } \| \mathbf{x} - \mathbf{y} \|_2 < \epsilon \ , \\
-	 	0 \ , & \text{if } \| \mathbf{x} - \mathbf{y} \|_2 > \epsilon \ .
+	 	0 \ , & \text{if } \| \mathbf{x} - \mathbf{y} \|_2 > \epsilon \ ,
 	 \end{cases}
 	\label{eq:ge1}
 \end{equation}

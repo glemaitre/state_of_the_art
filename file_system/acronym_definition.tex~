@@ -339,6 +339,10 @@ long = $k$ cross-validation
 short = ROC,
 long = receiver operating characteristic
 }
+\DeclareAcronym{froc}{
+short = FROC,
+long = free-response receiver operating characteristic
+}
 \DeclareAcronym{auc}{
 short = AUC,
 long = area under the curve
