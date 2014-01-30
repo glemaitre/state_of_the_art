@@ -909,7 +909,7 @@
   file = {:../../../../For Article/CAD review/A systematic review of computer-assisted diagnosis in diagnostic cancer imaging - Eadie 2012.pdf:PDF:}
 }
 
-@ARTICLE{1983,
+@ARTICLE{Efron1983,
   author = {Efron, B.},
   title = {{{E}stimating the error rate of a prediction rule: {I}mprovement
 	on cross-validation}},
@@ -3473,6 +3473,21 @@
   pages = {1277--1288},
   number = {6},
   month = {Jun}
+}
+
+@ARTICLE{Vilanova2009,
+  author = {Vilanova, Joan C and Comet, Josep and Barcel{\'o}-Vidal, Carles and
+	Barcel{\'o}, Joaquim and L{\'o}pez-Bonet, Eugeni and Maroto, Albert
+	and Arzoz, Montse and Moreno, {\`A}ngel and Areal, Joan},
+  title = {Peripheral zone prostate cancer in patients with elevated PSA levels
+	and low free-to-total PSA ratio: detection with MR imaging and MR
+	spectroscopy},
+  journal = {Radiology},
+  year = {2009},
+  volume = {253},
+  pages = {135--143},
+  number = {1},
+  publisher = {Radiological Society of North America}
 }
 
 @ARTICLE{Villers1991,
