@@ -1,6 +1,6 @@
 \subsection{Feature detection} \label{subsec:featuredetection}
 
-Discriminative features allowing to recognize \ac{cap} from healthy tissue have to be first detected. This section will summarize the different strategies employed for this task. The feature type used is summarized in Tab. \ref{tab:feat} while Tab. \ref{tab:featrev} summed up which strategies were used by the different studies reviewed.
+Discriminative features which can be used to recognize \ac{cap} from healthy tissue have to be first detected. This section will summarize the different strategies employed for this task. The feature type used is summarized in Tab. \ref{tab:feat} while Tab. \ref{tab:featrev} sums up which strategies were used by the different studies reviewed.
 
 \begin{table*}
 	\caption{Overview of the feature detection methods used in \ac{cad} systems.}
@@ -67,7 +67,7 @@ Discriminative features allowing to recognize \ac{cap} from healthy tissue have 
 	%\cline{2-25}
 	%\multirow{2}{*}{Articles} & \multicolumn{16}{@{\hspace{2.5ex}}c|@{\hspace{2.5ex}}}{\ac{mri} images} & \multicolumn{6}{@{\hspace{2.5ex}}c@{\hspace{2.5ex}}|}{\ac{dce}} & \multicolumn{3}{@{\hspace{2.5ex}}c@{\hspace{2.5ex}}}{\ac{mrsi}} \\
 	%\cline{2-26}	
-	 Indexes & A & B$_1$ & B$_2$ & B$_3$ & B$_4$ & C$_1$ & C$_2$ & C$_3$ & C$_4$ & D & E$_1$ & E$_2$ & F$_1$ & F$_2$ & F$_3$ & F$_4$ & G & H & I & J$_1$ & J$_2$ & J$_3$ & J$_4$ & K & L & M \\ \hline \hline
+	  & A & B$_1$ & B$_2$ & B$_3$ & B$_4$ & C$_1$ & C$_2$ & C$_3$ & C$_4$ & D & E$_1$ & E$_2$ & F$_1$ & F$_2$ & F$_3$ & F$_4$ & G & H & I & J$_1$ & J$_2$ & J$_3$ & J$_4$ & K & L & M \\ \hline \hline
 	 %\showrowcolors %\tiny{$\triangle\bullet\diamond$}
 		$[1]$ & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
 		$[2]$ & \tiny{$\triangle--$} &  &  &  &  &  &  &  &  &  &  & \tiny{$\triangle--$} &  &  &  &  &  & \cmarksmall &  &  &  &  &  &  &  &  \\ \hdashline
@@ -129,7 +129,7 @@ Discriminative features allowing to recognize \ac{cap} from healthy tissue have 
 
 \subsubsection{Image-based features}
 
-This section will focus on the image-based features detection. Two main strategies to detect features have been identified and used for the purpose of our classification: (i) voxel-wise detection or (ii) region-wise detection.
+This section will focus on image-based features detection. Two main strategies to detect features have been identified and used for the purpose of our classification: (i) voxel-wise detection and (ii) region-wise detection.
 
 \setenumerate{listparindent=\parindent,itemsep=10px}
 \setlist{noitemsep}
@@ -137,9 +137,9 @@ This section will focus on the image-based features detection. Two main strategi
 
 \item[$-$] \textbf{\textit{Voxel-wise detection:}} This strategy refers to the fact that a feature is extracted at each voxel location of an image.
 
-\ac{cap} as previously discussed (see Tab. \ref{tab:modmri}) can be discerned due to \ac{si} changes. Hence, intensity-based features are one of the most common features used to build the feature vector which has to be classified (\cite{Ampeliotis2007,Ampeliotis2008,Artan2009,Artan2010,Chan2003,Langer2009,Liu2009,Niaf2011,Niaf2012,Viswanath2008a,Viswanath2011}). This type of feature consists simply in the \ac{si} of each voxel of the different \ac{mri} modalities.
+\ac{cap} as previously discussed (see Tab. \ref{tab:modmri}) can be discerned due to \ac{si} changes. Hence, intensity-based features are one of the most common features used to build the feature vector which has to be classified (\cite{Ampeliotis2007,Ampeliotis2008,Artan2009,Artan2010,Chan2003,Langer2009,Liu2009,Niaf2011,Niaf2012,Viswanath2008a,Viswanath2011}). This type of feature consists simply of the \ac{si} of each voxel of the different \ac{mri} modalities.
 
-\Ac{si} changes can be viewed as heterogeneous regions and edge-based features are used in that regard. Each feature will be computed by convolving the original image with an edge operator. Three of these operators are used in \ac{cad} systems: (i) Prewitt operator (\cite{Prewitt1970}), (ii) Sobel operator (\cite{Sobel1970}) and (iii) Kirsch operator (\cite{Kirsch1971}). Results obtained with these operators vary, due to their different kernels.% as shown in Eq. \ref{eq:prewitt}-\ref{eq:kirsch}.
+\Ac{si} changes can be viewed as heterogeneous regions and edge-based features are used in that regard. Each feature is computed by convolving the original image with an edge operator. Three of these operators are used in \ac{cad} systems: (i) Prewitt operator (\cite{Prewitt1970}), (ii) Sobel operator (\cite{Sobel1970}) and (iii) Kirsch operator (\cite{Kirsch1971}). Results obtained with these operators vary, due to their different kernels.% as shown in Eq. \ref{eq:prewitt}-\ref{eq:kirsch}.
 %
 %{\footnotesize
 %\begin{eqnarray}
@@ -218,16 +218,16 @@ These features are commonly incorporated in the feature vector for further class
 
 \begin{figure}
 	\hspace*{\fill}
-	\subfigure[Gabor filter with an angle $\theta=0^{\circ}$.]{\label{subfig:gab1} \includegraphics[width=0.2\linewidth]{04_data_classification/06_feature_detection/figures/gabor/gabor_1.eps}} \hfill
-	\subfigure[Gabor filter with an angle $\theta=60^{\circ}$.]{\label{subfig:gab2} \includegraphics[width=0.2\linewidth]{04_data_classification/06_feature_detection/figures/gabor/gabor_2.eps}} \hfill
-	\subfigure[Gabor filter with an angle $\theta=120^{\circ}$.]{\label{subfig:gab3} \includegraphics[width=0.2\linewidth]{04_data_classification/06_feature_detection/figures/gabor/gabor_3.eps}} \hfill
-	\subfigure[Gabor filter with an angle $\theta=180^{\circ}$.]{\label{subfig:gab4} \includegraphics[width=0.2\linewidth]{04_data_classification/06_feature_detection/figures/gabor/gabor_4.eps}}
+	\subfigure[$\theta=0^{\circ}$.]{\label{subfig:gab1} \includegraphics[width=0.2\linewidth]{04_data_classification/06_feature_detection/figures/gabor/gabor_1.eps}} \hfill
+	\subfigure[$\theta=60^{\circ}$.]{\label{subfig:gab2} \includegraphics[width=0.2\linewidth]{04_data_classification/06_feature_detection/figures/gabor/gabor_2.eps}} \hfill
+	\subfigure[$\theta=120^{\circ}$.]{\label{subfig:gab3} \includegraphics[width=0.2\linewidth]{04_data_classification/06_feature_detection/figures/gabor/gabor_3.eps}} \hfill
+	\subfigure[$\theta=180^{\circ}$.]{\label{subfig:gab4} \includegraphics[width=0.2\linewidth]{04_data_classification/06_feature_detection/figures/gabor/gabor_4.eps}}
 	\hspace*{\fill}
-	\caption{Illustration of four different Gabor filters varying by their orientations.}
+	\caption{Illustration of four different Gabor filters varying their orientations $\theta$.}
 	\label{fig:gabor}
 \end{figure}
 
-Gabor filters offer another approach to extract information related to edges and texture and were found to perform similar processing than in the human visual system (\cite{Gabor1946,Daugman1985}). A Gabor filter is defined by the modulation of a Gaussian function with a sinusoid which can be further rotated. Hence, a Gabor filter $g$ can be formalized as:
+Gabor filters offer another approach to extract information related to edges and texture and were found to perform similar processing to that in the human visual system (\cite{Gabor1946,Daugman1985}). A Gabor filter is defined by the modulation of a Gaussian function with a sinusoid which can be further rotated. Hence, a Gabor filter $g$ can be formalized as:
 
 \begin{equation}
 \begin{aligned}
@@ -245,9 +245,9 @@ Gabor filters offer another approach to extract information related to edges and
 
 \noindent where $\lambda$ is the wavelength of the sinusoidal factor, $\theta$ represents the orientation of the Gabor filter, $\psi$ is the phase offset, $\sigma$ is the standard deviation of the Gaussian envelope, $\gamma$ is the spatial aspect ratio and $s$ is the scale factor.
 
-To perform Gabor analysis to extract features for a classification scheme, a bank of Gabor filters is usually created with different angles, scale and dilatations (see Fig. \ref{fig:anatomyProstateSagittal}) and then convolved with the image. \cite{Viswanath2008a,Viswanath2012} and \cite{Tiwari2012} integrated Gabor analysis in their feature vector.
+To perform Gabor analysis to extract features for a classification scheme, a bank of Gabor filters is usually created with different angles, scale and dilatations (see Fig. \ref{fig:gabor}) and then convolved with the image. \cite{Viswanath2008a,Viswanath2012} and \cite{Tiwari2012} integrated Gabor analysis in their feature vector.
 
-Texture-based features provide other characteristics discerning \ac{cap} from healthy tissue. The most common texture analysis for image classification was proposed by \cite{Haralick1973} and is commonly used in \ac{cad} system (\cite{Antic2013,Niaf2011,Niaf2012,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012}). At each voxel, a neighbourhood is defined around this center and a gray-level co-occurrence matrix is built by selecting a pair of voxel based on a defined distance and angle. Then, using this co-occurrence matrix, a set of features can be computed based on the statistics intending to describe the texture around each voxel. Computation of these features are reported in Tab. \ref{tab:glcm}.
+Texture-based features provide other characteristics discerning \ac{cap} from healthy tissue. The most common texture analysis for image classification was proposed by \cite{Haralick1973} and is commonly used in \ac{cad} systems (\cite{Antic2013,Niaf2011,Niaf2012,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012}). At each voxel, a neighbourhood is defined around this center and a gray-level co-occurrence matrix is built by selecting a pair of voxels based on a defined distance and angle. Then, using this co-occurrence matrix, a set of features can be computed based on the statistics describing the texture around each voxel. Computation of these features is presented in Tab. \ref{tab:glcm}.
 
 \begin{table}
 	\caption{The fourteen statistical features for texture analysis commonly computed from the gray level co-occurrence matrix $p$ as presented by \cite{Haralick1973}.}
@@ -276,38 +276,36 @@ Texture-based features provide other characteristics discerning \ac{cap} from he
 	\label{tab:glcm}
 \end{table}
 
-Fractal analysis and more precisely a local estimation of the fractal dimension (\cite{Benassi1998}) describing the texture roughness at this specific location was used in \cite{Lopes2011}. A wavelet-based method in a multi-resolution framework was used to estimate the fractal dimension. Cancerous tissue were characterized to have a higher fractal dimension than healthy tissue.
+Fractal analysis and more precisely a local estimation of the fractal dimension (\cite{Benassi1998}) describing the texture roughness at a specific location was used in \cite{Lopes2011}. A wavelet-based method in a multi-resolution framework was used to estimate the fractal dimension. Cancerous tissue were characterized to have a higher fractal dimension than healthy tissue.
 
-\cite{Chan2003} aimed to describe texture using the frequency signature via the \ac{dct} (\cite{Ahmed1974}). The \ac{dct} allows to decompose a portion of image into a coefficients space where few of these coefficients encoded the visually significant information. The \ac{dct} coefficients are computed such as:
+\cite{Chan2003} aimed to describe the texture using the frequency signature via the \acf{dct} (\cite{Ahmed1974}) defining a neighbourhood of $7 \times 7$ pixels for each of the modalities that they used.. The \ac{dct} allows to decompose a portion of image into a coefficients space where few of these coefficients encoded the visually significant information. The \ac{dct} coefficients are computed such as:
 
 \begin{equation}
 	C_{k_1,k_2} = \sum_{m=0}^{M-1} \sum_{n=0}^{N-1} p_{m,n} \cos \left[ \frac{\pi}{M} \left( m + \frac{1}{2} \right) k_1 \right] \cos \left[ \frac{\pi}{N} \left( n + \frac{1}{2} \right) k_2 \right] \ ,
 \end{equation}
 
-\noindent where $C_{k_1,k_2}$ is a \ac{dct} coefficient at the position $k_1,k_2$, $M$ and $N$ are the dimension of the neighbourhood and $p_m,n$ is the pixel \ac{si} at the position $m,n$.
+\noindent where $C_{k_1,k_2}$ is the \ac{dct} coefficient at the position $k_1,k_2$, $M$ and $N$ are the dimension of the neighbourhood and $p_m,n$ is the pixel \ac{si} at the position $p_{m,n}$.
 
 In the same spirit, \cite{Viswanath2012} projected \ac{t2w} images into the wavelet space and used the coefficients obtained from the decomposition as features. The wavelet family used for the decomposition was the Haar wavelet.
 
-\cite{Chan2003} computed these features for a neighbourhood of $7 \times 7$ pixels for each the modalities that they used.
-
-The position of a voxel within the prostate was also considered as possible feature. \cite{Litjens2011} computed the Euclidean distance from each voxel to the prostate center as well as the individual distance in the three directions $x$, $y$ and $z$. \cite{Chan2003} embedding the same information but this time using cylindrical coordinate $r$, $\theta$ and $z$ which are the radius, azimuth and altitude respectively.
+The position of a voxel within the prostate was also considered a possible feature. \cite{Litjens2011} computed the Euclidean distance from each voxel to the prostate center as well as the individual distance in the three directions $x$, $y$ and $z$. \cite{Chan2003} embedded the same information but this time using cylindrical coordinate $r$, $\theta$ and $z$ corresponding to the radius, azimuth and elevation respectively.
 
 \item[$-$] \textbf{\textit{Region-wise detection:}}
 
 Unlike the previous section, another strategy is to study an entire region and extract characteristic features corresponding to this region.
 
-The most common approach reviewed can be classified as statical method. Full map corresponding to feature types presented in the previous section are computed. Then, \acp{roi} are defined and statistics are deduced from each of these regions. The first type of statistic is based on percentiles and is widely used (\cite{Antic2013,Litjens2011,Litjens2012,Peng2013,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012,Vos2008,Vos2008a,Vos2010,Vos2012}).  In fact, once that a \ac{roi} is defined, the features corresponding the $n^{\text{th}}$ percentile will be used as feature. $n$ can take any value between $0$ and $100$ but is usually selected because of its discriminative factor to differentiate \ac{cap} from healthy tissue. Identically, statistic-moments such as mean, standard deviation, kurtosis and skewness are also used (\cite{Ampeliotis2007,Ampeliotis2008,Antic2013,Niaf2011,Niaf2012,Peng2013}).
+The most common approach reviewed can be classified as statical methods. Full map corresponding to feature types presented in the previous section are computed. Then, \acp{roi} are defined and statistics are extracted from each of these regions. The first type of statistic is based on percentiles and is widely used (\cite{Antic2013,Litjens2011,Litjens2012,Peng2013,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012,Vos2008,Vos2008a,Vos2010,Vos2012}).  In fact, once that a \ac{roi} is defined, the features corresponding the $n^{\text{th}}$ percentile is used as feature. This $n$ can take any value between $0$ and $100$. This threshold is usually manually determined observing the distribution and corresponds to the best discriminant value differentiating malignant and healthy tissue. in addition, statistic-moments such as mean, standard deviation, kurtosis and skewness are also used (\cite{Ampeliotis2007,Ampeliotis2008,Antic2013,Niaf2011,Niaf2012,Peng2013}).
 
-Anatomical features characterizing the region defined were also used as by \cite{Litjens2012} and \cite{Matulewicz2013}. \cite{Litjens2012} computes the volume, compactness and sphericity related to the region to integrate it in their feature vector to later classify. \cite{Matulewicz2013} introduced four features corresponding the percentage present of \ac{pz}, \ac{cg}, periurethral region or outside prostate region for the considered \ac{roi}.
+Another subset of features are anatomic which were also used by \cite{Litjens2012} and \cite{Matulewicz2013}. \cite{Litjens2012} computed the volume, compactness and sphericity related to the region to integrate it in their feature vector to later classify. \cite{Matulewicz2013} introduced four features corresponding to the percentage of tissue belonging to the regions\ac{pz}, \ac{cg}, periurethral region or outside prostate region for the considered \ac{roi}.
 
-\cite{Liu2013} introduced four different types of histogram-based features. The first type correspond to the histogram of the \ac{si} of the image. The second type is the \ac{hog} (\cite{Dalal2005}). \Ac{hog} is descriptor describing the local shape of the object of interest by using edge directions distribution. This descriptor is extracted mainly in three steps. First the gradient image and its corresponding magnitude and direction are computed (see Eq. \eqref{eq:magn} - \eqref{eq:orien}). Then, the \ac{roi} is divided into cells and an oriented-based histogram will be generated for each cell. At each pixel location, the orientation of the gradient will vote for a bin of the histogram and this vote will be weighted by the magnitude of the same gradient. Finally, The cells are grouped into block and each block will be normalized. The third histogram-based type used by \cite{Liu2013} was shape context (\cite{Belongie2002}). The shape context is also a way to describe the shape of object of interest. First, a set of edges have to be detected and for each point of each edge, a log-polar-based histogram is computed using the relative points distribution. The last features extracted is based on the framework of \cite{Zhao2012} which is using the Fourier transform of the histogram created via \ac{lbp} (\cite{Ojala1996}). \Ac{lbp} is generating by comparing the value central pixel with its 8-connected neighbours. Then, in the \ac{roi}, the histogram of the \ac{lbp} distribution is then computed. However, this representation is not rotational invariant. Hence, the \ac{dft} is taken to make the feature invariant to rotation.
+In contrqst to anatomical are histogram-based features. For instance, \cite{Liu2013} introduced four different types of histogram-based features. The first type corresponds to the histogram of the \ac{si} of the image. The second type is the \acf{hog} (\cite{Dalal2005}). \Ac{hog} descriptor describes the local shape of the object of interest by using gradient directions distribution. This descriptor is extracted mainly in three steps. First the gradient image and its corresponding magnitude and direction are computed. Then, the \ac{roi} is divided into cells and an oriented-based histogram is generated for each cell. At each pixel location, the orientation of the gradient will vote for a bin of the histogram and this vote is weighted by the magnitude of the same gradient. Finally, The cells are grouped into block and each block is normalized. The third histogram-based type used by \cite{Liu2013} was shape context (\cite{Belongie2002}). The shape context is also a way to describe the shape of an object of interest. First, a set of points defining edges have to be detected and for each point of each edge, a log-polar-based histogram is computed using the relative points distribution. The last set of histogram-based feature extracted is based on the framework of \cite{Zhao2012} which is using the Fourier transform of the histogram created via \acf{lbp} (\cite{Ojala1996}). \Ac{lbp} is generated by comparing the value of the central pixel with its 8-connected neighbours. Then, in the \ac{roi}, the histogram of the \ac{lbp} distribution is computed. The \acf{dft} of the \ac{lbp} histogram is ised to make the feature invariant to rotation.
 
-The last group of region-based feature is based on fractal analysis. The features proposed are based on estimating the fractal dimension which is a statistical index representing the complexity of what is analysed. \cite{Lv2009} proposed two features based on fractal dimension: (i) texture fractal dimension and (ii) histogram fractal dimension. The first feature is based on estimating the fractal dimension on the \ac{si} of each image. Hence, this feature will be a statistical characteristic of the image roughness. The second fractal dimension is estimated in the \ac{pdf} of each image and is characteristic of the complexity of the \ac{pdf}. \cite{Lopes2011} proposed a 3D version to estimate the fractal dimension of a volume using wavelet decomposition.
+The last group of region-based feature is based on fractal analysis. The features proposed are based on estimating the fractal dimension which is a statistical index representing the complexity of what is analysed. \cite{Lv2009} proposed two features based on fractal dimension: (i) texture fractal dimension and (ii) histogram fractal dimension. The first feature is based on estimating the fractal dimension on the \ac{si} of each image. Hence, this feature is a statistical characteristic of the image roughness. The second fractal dimension is estimated in the \ac{pdf} of each image and is characteristic of the complexity of the \ac{pdf}. \cite{Lopes2011} proposed a 3D version to estimate the fractal dimension of a volume using wavelet decomposition.
 \end{enumerate}
 
 \subsubsection{\ac{dce}-based features}\label{subsubsec:fddce}
 
-\ac{dce}-\ac{mri} is more commonly based on a \ac{si} analysis over time as presented in Sect. \ref{subsubsec:mrimrsi}. In this section, a description of the features extracted for this analysis are used in the \ac{cad} systems reviewed.
+\ac{dce}-\ac{mri} is more commonly based on a \ac{si} analysis over time as presented in Sect. \ref{subsubsec:mrimrsi}. The parameters extracted used in \ac{cad} system during the \ac{dce}-\ac{mri} analysis are presented
 
 \begin{table*}
 	\caption{Parameters used as features for a \ac{dce} semi-quantitative analysis in \ac{cad} systems.}
@@ -342,7 +340,7 @@ The last group of region-based feature is based on fractal analysis. The feature
 \setlist{noitemsep}
 \begin{enumerate}[leftmargin=*]
 
-\item[$-$] \textbf{\textit{Whole-spectra approach:}} Some studies are using the whole \ac{dce} time series as feature vector such as \cite{Ampeliotis2007,Ampeliotis2008}, \cite{Tiwari2012} and \cite{Viswanath2008a,Viswanath2008}. In some cases, the high-dimensional feature space will be reduced using dimension reduction methods as it will be presented in the next section (see Sect. \ref{subsec:featureselectionextraction}).
+\item[$-$] \textbf{\textit{Whole-spectra approach:}} Some studies are using the whole \ac{dce} time series as feature vector such as \cite{Ampeliotis2007,Ampeliotis2008}, \cite{Tiwari2012} and \cite{Viswanath2008a,Viswanath2008}. In some cases, the high-dimensional feature space is reduced using dimension reduction methods as it will be presented in the next section (see Sect. \ref{subsec:featureselectionextraction}).
 
 \begin{figure}
 	\centering
@@ -351,7 +349,7 @@ The last group of region-based feature is based on fractal analysis. The feature
 	\label{fig:dceparam}
 \end{figure}
 
-\item[$-$] \textbf{\textit{Semi-quantitative approach:}} Semi-quantitative approaches are based on modelling mathematically the \ac{dce} time series. The parameters modelling the signal are commonly used mainly due to the simplicity to compute them. Parameters included in semi-quantitative analysis are summarized in Tab. \ref{tab:semiqua} and also graphically depicted in Fig. \ref{fig:dceparam}. A set of time features corresponding to specific amplitude level (start, maximum and end) are extracted. Then, derivative and integral are also considered as discriminative and are commonly computed.
+\item[$-$] \textbf{\textit{Semi-quantitative approach:}} Semi-quantitative approaches are based on modelling mathematically the \ac{dce} time series. The parameters modelling the signal are commonly used mainly due to the simplicity of their computation. Parameters included in semi-quantitative analysis are summarized in Tab. \ref{tab:semiqua} and also graphically depicted in Fig. \ref{fig:dceparam}. A set of time features corresponding to specific amplitude level (start, maximum and end) are extracted. Then, derivative and integral features are also considered as discriminative and are commonly computed.
 
 \item[$-$] \textbf{\textit{Quantitative approach:}} As presented in Sect. \ref{subsubsec:mrimrsi}, quantitative approaches correspond to mathematical-pharmacokinetic models based on physiological exchanges. Four different models have been used in \ac{cad} systems. 
 

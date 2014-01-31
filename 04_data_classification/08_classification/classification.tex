@@ -335,14 +335,14 @@ As mentioned in \cite{Quinonero-Candela2002}, the sparsity regarding the relevan
     % Draw the hidden layer nodes
     \foreach \name / \y in {1,...,4}
         \path[yshift=0.5cm]
-            node[hidden neuron] (H-\name) at (\layersep,-\y cm) {\tiny $h_{ \y }\left(\sum .\right)$};
+            node[hidden neuron] (H-\name) at (\layersep,-\y cm) {\tiny $h_{ \y }\left(\sum \cdot \right)$};
             
-    \node[hidden neuron] (H-5) at (\layersep,-5.5 cm) {\tiny $h_{j}\left(\sum .\right)$};
+    \node[hidden neuron] (H-5) at (\layersep,-5.5 cm) {\tiny $h_{j}\left(\sum \cdot \right)$};
     \draw[dashed,draw=black!50] (H-4) -- (H-5);
 
     % Draw the output layer node
-    	\node[output neuron,pin={[pin edge={->}]right:$C_{0}$}, right of=H-2] (O-1) {\tiny $\sigma\left(\sum .\right)$};
-    	\node[output neuron,pin={[pin edge={->}]right:$C_{1}$}, right of=H-4] (O-2) {\tiny $\sigma\left(\sum .\right)$};
+    	\node[output neuron,pin={[pin edge={->}]right:$C_{0}$}, right of=H-2] (O-1) {\tiny $\sigma\left(\sum \cdot \right)$};
+    	\node[output neuron,pin={[pin edge={->}]right:$C_{1}$}, right of=H-4] (O-2) {\tiny $\sigma\left(\sum \cdot \right)$};
 
     % Connect every node in the input layer with every node in the
     % hidden layer.
@@ -427,9 +427,9 @@ This optimization can be performed using a gradient descent method where the der
    \draw[dashed,draw=black!50] (I-3) -- (I-4);
    
    % Draw the pattern layer
-   \node[hidden neuron] (H-1) at (\layersep,0 cm) {\tiny $h_{11}\left(\sum .\right)$};
-   \node[hidden neuron] (H-2) at (\layersep,-1 cm) {\tiny $h_{21}\left(\sum .\right)$};
-   \node[hidden neuron] (H-3) at (\layersep,-2.5 cm) {\tiny $h_{31}\left(\sum .\right)$};
+   \node[hidden neuron] (H-1) at (\layersep,0 cm) {\tiny $h_{11}\left(\sum \cdot \right)$};
+   \node[hidden neuron] (H-2) at (\layersep,-1 cm) {\tiny $h_{21}\left(\sum \cdot \right)$};
+   \node[hidden neuron] (H-3) at (\layersep,-2.5 cm) {\tiny $h_{31}\left(\sum \cdot \right)$};
    \draw[dashed,draw=black!50] (H-2) -- (H-3);
    
    \begin{pgfonlayer}{background}
@@ -439,9 +439,9 @@ This optimization can be performed using a gradient descent method where the der
     \path[fill=blue!10,rounded corners, draw=blue!50, dashed] (a) rectangle (b);
    \end{pgfonlayer}
    
-   \node[hidden neuron] (H-4) at (\layersep,-4.5 cm) {\tiny $h_{12}\left(\sum .\right)$};
-   \node[hidden neuron] (H-5) at (\layersep,-5.5 cm) {\tiny $h_{22}\left(\sum .\right)$};
-   \node[hidden neuron] (H-6) at (\layersep,-7 cm) {\tiny $h_{32}\left(\sum .\right)$};
+   \node[hidden neuron] (H-4) at (\layersep,-4.5 cm) {\tiny $h_{12}\left(\sum \cdot \right)$};
+   \node[hidden neuron] (H-5) at (\layersep,-5.5 cm) {\tiny $h_{22}\left(\sum \cdot \right)$};
+   \node[hidden neuron] (H-6) at (\layersep,-7 cm) {\tiny $h_{32}\left(\sum \cdot \right)$};
    \draw[dashed,draw=black!50] (H-5) -- (H-6);
    
    \begin{pgfonlayer}{background}
@@ -453,12 +453,12 @@ This optimization can be performed using a gradient descent method where the der
    
    % Draw the summation layer
    \begin{scope}[node distance=2cm]
-   \node[summation neuron, right of=H-2] (S-1) {\tiny $\sum_1 .$};
-   \node[summation neuron, right of=H-5] (S-2) {\tiny $\sum_2 .$};
+   \node[summation neuron, right of=H-2] (S-1) {\tiny $\sum_1 \cdot $};
+   \node[summation neuron, right of=H-5] (S-2) {\tiny $\sum_2 \cdot $};
    \end{scope}
    
    % Draw the decision layer
-   \node[output neuron,pin={[pin edge={->}]right:$C$},] at (3*\finallayersep,-3.5 cm) (O) {$\sigma \left( . \right)$};
+   \node[output neuron,pin={[pin edge={->}]right:$C$},] at (3*\finallayersep,-3.5 cm) (O) {$\sigma \left( \cdot \right)$};
    
    % Draw the networking from input layer to pattern layer
    \foreach \source in {1,...,4}
