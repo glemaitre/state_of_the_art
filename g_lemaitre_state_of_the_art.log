@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  31 JAN 2014 18:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  31 JAN 2014 18:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2856,11 +2856,11 @@ Overfull \hbox (3.33109pt too wide) in paragraph at lines 195--220
 [18] [19]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
-(epstopdf)                    date: 2014-01-30 20:42:48
+(epstopdf)                    date: 2014-01-31 18:44:55
 (epstopdf)                    size: 31205 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 20:42:48
+(epstopdf)                    date: 2014-01-31 18:44:55
 (epstopdf)                    size: 7348 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
@@ -2885,11 +2885,11 @@ Underfull \hbox (badness 1910) in paragraph at lines 327--327
 
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
-(epstopdf)                    date: 2014-01-30 20:42:48
+(epstopdf)                    date: 2014-01-31 18:44:55
 (epstopdf)                    size: 241135 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-30 20:42:48
+(epstopdf)                    date: 2014-01-31 18:44:55
 (epstopdf)                    size: 31593 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
@@ -3630,10 +3630,6 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `g_lemaitre_state_of_the_art.out' has not cha
 nged.
 (rerunfilecheck)             Checksum: C584F4DD0E9C10606C56D388A03D8665;2914.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  33101 strings out of 493311
@@ -3658,7 +3654,7 @@ blic/txfonts/txsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (45 pages, 2746912 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (45 pages, 2746909 bytes).
 PDF statistics:
  2755 PDF objects out of 2984 (max. 8388607)
  2561 compressed objects within 26 object streams
