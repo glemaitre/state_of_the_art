@@ -244,7 +244,7 @@ Presented in Sect. \ref{subsubsec:mrimrsi}, \ac{mrsi} is a modality related to a
 
 	\item[$-$] \textbf{\textit{Phase correction:}} \ac{mrsi} data acquired suffer from zero-order and first-order phase misalignments as shown in Fig. \ref{fig:phase} (\cite{Chen2002,Osorio-Garcia2012}). 
 	
-\cite{Parfait2012} used a method proposed by \cite{Chen2002} where the phase of \ac{mrsi} signal is corrected based on entropy minimization in  the frequency domain. The corrected \ac{mrsi} signal $o(\xi)$ can be expressed:
+\cite{Parfait2012} used a method proposed by \cite{Chen2002} where the phase of \ac{mrsi} signal is corrected based on entropy minimization in  the frequency domain. The corrected \ac{mrsi} signal $o(\xi)$ can be expressed as:
 
 \begin{eqnarray}
 	\Re(o(\xi)) & = & \Re(s(\xi))\cos(\Phi(\xi)) - \Im(\xi)\sin(\Phi(\xi)) \ , \nonumber  \\
@@ -286,9 +286,9 @@ Once the best parameter $\Phi$ is obtained, the \ac{mrsi} signal is corrected us
 \cite{Pijnappel1992} showed that the ``noise-free signal'' can be found using the \ac{svd} decomposition. First the noisy signal is reorganized inside a Hankel matrix $H$. It can be shown that if the signal considered would be a ``noise-free signal'', the rank of $H$ would be equal to rank $K$. However, due to the presence of noise, $H$ is in fact a full rank matrix. Thus, to recover the ``noise-free signal'', the rank of $H$ can be truncated to $K$ using its \ac{svd} decomposition. Hence, knowing the cut off frequencies of water (cf., 4.7 ppm) and lipid (cf., 2.2 ppm) metabolites, their corresponding peaks can be reconstructed and subtracted from the original signal (\cite{Laudadio2002}).
 %\rmm{not very clear this hankel matrix...}
 	
-	\item[$-$] \textbf{\textit{Baseline correction:}} Sometimes, the problem discussed in the above section regarding the lipid molecules is not addressed simultaneously than water residuals suppression. Lipids and macromolecules are known to affect the baseline of the \ac{mrsi} spectra. They could cause errors during further fitting processes aiming to quantify the metabolites, especially regarding the citrate metabolite.
+	\item[$-$] \textbf{\textit{Baseline correction:}} Sometimes, the problem discussed in the above section regarding the lipid molecules is not addressed simultaneously with water residuals suppression. Lipids and macromolecules are known to affect the baseline of the \ac{mrsi} spectra. They could cause errors during further fitting processes aiming to quantify the metabolites, especially regarding the citrate metabolite.
 	
-\cite{Parfait2012} made the comparison of two different methods to detect the baseline and correct the \ac{mrsi} spectra which are based on the work of \cite{Lieber2003} and \cite{Devos2004}. \cite{Lieber2003} addressed the problem of baseline detection in the frequency domain by fitting a polynomial of low degree $p(x)$ (e.g., second or third degree) to the \ac{mrsi} signal $s(x)$ in a least-squares sense. Then, the values of the fitted polynomial are re-assigned such as:
+\cite{Parfait2012} made the comparison of two different methods to detect the baseline and correct the \ac{mrsi} spectra which are based on the work of \cite{Lieber2003} and \cite{Devos2004}. \cite{Lieber2003} addressed the problem of baseline detection in the frequency domain by fitting a polynomial of low degree $p(x)$ (e.g., second or third degree) to the \ac{mrsi} signal $s(x)$ in a least-squares sense. Then, the values of the fitted polynomial are re-assigned as:
 
 \begin{equation}
 	p_f(x) = 
@@ -299,7 +299,7 @@ Once the best parameter $\Phi$ is obtained, the \ac{mrsi} signal is corrected us
 	\label{eq:lieber}
 \end{equation}
 
-Finally, this procedure of fitting and re-assignment is iteratively repeated on $p_f(x)$ until a stopping criterion is reached. The final polynomial function can be subtracted to the original signal s(x) to correct it.
+Finally, this procedure of fitting and re-assignment is iteratively repeated on $p_f(x)$ until a stopping criterion is reached. The final polynomial function can be subtracted from the original signal s(x) to correct it.
 
 \cite{Parfait2012} modified this algorithm by convolving a Gaussian kernel to smooth the \ac{mrsi} signal instead of fitting a polynomial function, keeping the rest of the algorithm identical. 
 
@@ -311,9 +311,7 @@ Unlike \cite{Lieber2003}, \cite{Devos2004} proposed to correct the baseline in t
 
 \noindent Having a typical value for $\beta$ of 0.15.
 
-However, \cite{Parfait2012} concluded that the method proposed by \cite{Lieber2003} outperforms the one of \cite{Devos2004}.
-
-In the contemporary work of \cite{Tiwari2012}, authors detected the baseline using a local non-linear fitting method avoiding regions with significant peaks which were  detected using a experimentally parametrised signal-to-noise ratio (i.e. a value larger than 5).
+However, \cite{Parfait2012} concluded that the method proposed by \cite{Lieber2003} outperforms the one of \cite{Devos2004}. In the contemporary work of \cite{Tiwari2012}, the authors detected the baseline using a local non-linear fitting method avoiding regions with significant peaks which were detected using a experimentally parametrised signal-to-noise ratio (i.e. a value larger than 5 dB).
 
 \begin{figure}
 \centering
@@ -328,7 +326,7 @@ In the contemporary work of \cite{Tiwari2012}, authors detected the baseline usi
 
 	\item[$-$] \textbf{\textit{Normalization:}} Due to variations of the experimental conditions, the \ac{mrsi} signal may also vary between patients.
 	
-\cite{Parfait2012} as \cite{Devos2004} compared two methods to normalize \ac{mrsi} signal. In each method, a normalization factor is obtained and divided to the original \ac{mrsi} spectra, similar to the intensity normalization described earlier. 
+\cite{Parfait2012} as \cite{Devos2004} compared two methods to normalize \ac{mrsi} signal. In each method, the original \ac{mrsi} spectra is divided by a normalization factor, similar to the intensity normalization described earlier.  
 
 The first approach to obtain the normalization factor is based on an estimation of the water concentration. It is required to have an additional \ac{mrsi} sequence where the water metabolites are unsuppressed. Using this sequence, an estimation of the water concentration can be performed using the previously reported HSVD algorithm.  The second approach to normalization is based on using the L$_2$ norm of the \ac{mrsi} spectra $\|s(\xi)\|_2$. 
 It should be noted that both \cite{Parfait2012} and \cite{Devos2004} concluded that the L$_2$ normalization was more efficient in their framework.
