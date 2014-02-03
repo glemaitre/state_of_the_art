@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  3 FEB 2014 20:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  3 FEB 2014 21:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2856,11 +2856,11 @@ Overfull \hbox (3.33109pt too wide) in paragraph at lines 195--220
 [18] [19]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
-(epstopdf)                    date: 2014-01-31 18:44:55
+(epstopdf)                    date: 2014-02-03 21:01:17
 (epstopdf)                    size: 31205 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-31 18:44:55
+(epstopdf)                    date: 2014-02-03 21:01:17
 (epstopdf)                    size: 7348 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
@@ -2885,11 +2885,11 @@ Underfull \hbox (badness 1910) in paragraph at lines 327--327
 
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
-(epstopdf)                    date: 2014-01-31 18:44:55
+(epstopdf)                    date: 2014-02-03 21:01:17
 (epstopdf)                    size: 241135 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-31 18:44:55
+(epstopdf)                    date: 2014-02-03 21:01:17
 (epstopdf)                    size: 31593 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
@@ -3424,7 +3424,7 @@ blic/txfonts/txsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (44 pages, 2734154 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (44 pages, 2734403 bytes).
 PDF statistics:
  2655 PDF objects out of 2984 (max. 8388607)
  2459 compressed objects within 25 object streams
