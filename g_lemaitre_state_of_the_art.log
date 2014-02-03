@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  31 JAN 2014 18:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  3 FEB 2014 20:06
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2942,6 +2942,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--16
 converted-to.pdf> <./03_image_processing/05_registration/figures/histogram/join
 thistomisal-eps-converted-to.pdf>])
 (./04_data_classification/06_feature_detection/feature_detection.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--53
+[][]
+ []
+
 
 LaTeX Warning: Float too large for page by 22.53842pt on input line 128.
 
@@ -3041,22 +3045,22 @@ erted-to.pdf>
 Package pdftex.def Info: 04_data_classification/06_feature_detection/figures/ga
 bor/gabor_4-eps-converted-to.pdf used on input line 224.
 (pdftex.def)             Requested size: 50.39923pt x 50.40254pt.
-
+ [22 <./04_data_classification/06_feature_detection/figures/gabor/gabor_1-eps-c
+onverted-to.pdf> <./04_data_classification/06_feature_detection/figures/gabor/g
+abor_2-eps-converted-to.pdf> <./04_data_classification/06_feature_detection/fig
+ures/gabor/gabor_3-eps-converted-to.pdf> <./04_data_classification/06_feature_d
+etection/figures/gabor/gabor_4-eps-converted-to.pdf>] [23]
 Overfull \hbox (24.0pt too wide) in paragraph at lines 256--277
 [][]
  []
 
-[22 <./04_data_classification/06_feature_detection/figures/gabor/gabor_1-eps-co
-nverted-to.pdf> <./04_data_classification/06_feature_detection/figures/gabor/ga
-bor_2-eps-converted-to.pdf> <./04_data_classification/06_feature_detection/figu
-res/gabor/gabor_3-eps-converted-to.pdf> <./04_data_classification/06_feature_de
-tection/figures/gabor/gabor_4-eps-converted-to.pdf>] [23] [24]
+
 Overfull \hbox (3.99982pt too wide) detected at line 285
 []\OML/txmi/m/it/10 C[] \OT1/txr/m/n/10 = [] [] \OML/txmi/m/it/10 p[] [] [] [] 
 []  ;
  []
 
-[25]
+[24]
 Package epstopdf Info: Source file: <04_data_classification/06_feature_detectio
 n/figures/dce/dce_cancer_parameters.eps>
 (epstopdf)                    date: 2014-01-23 09:23:40
@@ -3072,7 +3076,7 @@ _classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters-
-eps-converted-to.pdf, id=1904, 710.655pt x 510.90875pt>
+eps-converted-to.pdf, id=1893, 710.655pt x 510.90875pt>
 File: 04_data_classification/06_feature_detection/figures/dce/dce_cancer_parame
 ters-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3092,31 +3096,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 354--355
 \OT1/txr/m/n/10 quan-ti-ta-tive ap-proaches cor-re-spond to mathematical-
  []
 
-[26 <./04_data_classification/06_feature_detection/figures/dce/dce_cancer_param
-eters-eps-converted-to.pdf>])
+[25 <./04_data_classification/06_feature_detection/figures/dce/dce_cancer_param
+eters-eps-converted-to.pdf>] [26])
 (./04_data_classification/07_feature_selection_extraction/feature_selection_ext
 raction.tex
-Underfull \vbox (badness 7468) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 22--38
 [][]
  []
 
-[27] [28]
-Underfull \hbox (badness 1082) in paragraph at lines 125--126
+[27]
+Underfull \hbox (badness 1082) in paragraph at lines 123--124
 \OT1/txr/m/n/10 vec-tors of the $\OML/txmi/m/it/10 k$ \OT1/txr/m/n/10 small-est
  eigen-val-ues ([]Belkin and Niyogi[]
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 136--136
+Underfull \hbox (badness 5189) in paragraph at lines 134--134
 [][][][][] \OT1/txr/m/n/8 im-ple-men-ta-tion is avail-able at: \OT1/cmtt/m/n/8 
 http://www.cs.nyu.edu/
  []
 
-) (./04_data_classification/08_classification/classification.tex [29] [30]
-[31] [32]
+[28]) (./04_data_classification/08_classification/classification.tex
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+[]|$\OT1/txr/m/n/9 [$4-6,8,10-11,13-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\OT1/txr/m/n/9 14,18-23,25,31,38-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--42
+[][]
+ []
+
+[29] [30]
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_3_2.eps>
 (epstopdf)                    date: 2014-01-22 11:06:06
@@ -3128,18 +3143,18 @@ igures/pbt-simulation/pbt_tree_3_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_3_2-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_3_2.eps>
-(epstopdf)             \includegraphics on input line 199.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_2-e
-ps-converted-to.pdf, id=2227, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2204, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3
 _2-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_3_2-eps-converted-to.pdf used on input line 199.
+imulation/pbt_tree_3_2-eps-converted-to.pdf used on input line 195.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_3_1.eps>
@@ -3152,18 +3167,18 @@ igures/pbt-simulation/pbt_tree_3_1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_3_1-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_3_1.eps>
-(epstopdf)             \includegraphics on input line 199.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-e
-ps-converted-to.pdf, id=2228, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2205, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3
 _1-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_3_1-eps-converted-to.pdf used on input line 199.
+imulation/pbt_tree_3_1-eps-converted-to.pdf used on input line 195.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_2_1.eps>
@@ -3176,18 +3191,18 @@ igures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_2_1.eps>
-(epstopdf)             \includegraphics on input line 199.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_1-e
-ps-converted-to.pdf, id=2229, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2206, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2
 _1-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_2_1-eps-converted-to.pdf used on input line 199.
+imulation/pbt_tree_2_1-eps-converted-to.pdf used on input line 195.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_2_2.eps>
@@ -3200,18 +3215,18 @@ igures/pbt-simulation/pbt_tree_2_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_2_2-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_2_2.eps>
-(epstopdf)             \includegraphics on input line 199.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_2-e
-ps-converted-to.pdf, id=2230, 477.785pt x 357.335pt>
+ps-converted-to.pdf, id=2207, 477.785pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2
 _2-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_2_2-eps-converted-to.pdf used on input line 199.
+imulation/pbt_tree_2_2-eps-converted-to.pdf used on input line 195.
 (pdftex.def)             Requested size: 56.9055pt x 42.55664pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_1.eps>
@@ -3224,90 +3239,90 @@ igures/pbt-simulation/pbt_tree_1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_1-eps-converted-to.pdf 04_data_cl
 assification/08_classification/figures/pbt-simulation/pbt_tree_1.eps>
-(epstopdf)             \includegraphics on input line 199.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1-eps
--converted-to.pdf, id=2231, 475.7775pt x 357.335pt>
+-converted-to.pdf, id=2208, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1
 -eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_1-eps-converted-to.pdf used on input line 199.
+imulation/pbt_tree_1-eps-converted-to.pdf used on input line 195.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (1.20856pt too wide) in paragraph at lines 200--201
+Overfull \hbox (1.20856pt too wide) in paragraph at lines 196--197
  [][] 
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 205--207
-[]\OT1/txr/m/n/10 Probabilistic boosting-tree are an en-sem-ble clas-si-fier
+Underfull \hbox (badness 3364) in paragraph at lines 201--203
+[]\OT1/txr/m/n/10 Probabilistic boosting-tree is an en-sem-ble clas-si-fier
  []
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 207.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 207.
-
-Underfull \hbox (badness 2343) in paragraph at lines 227--227
-[][][]\OT1/txr/m/n/8 Gaussian pro-cess im-ple-men-ta-tion can be found at: \OT1
-/cmtt/m/n/8 http://www.
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 260--261
-[][]\OT1/txr/m/n/10 Support vec-tor ma-chine ([])[][][] is a sparse ker-nel
- []
-
-[33 <./04_data_classification/08_classification/figures/pbt-simulation/pbt_tree
+[31 <./04_data_classification/08_classification/figures/pbt-simulation/pbt_tree
 _1-eps-converted-to.pdf> <./04_data_classification/08_classification/figures/pb
 t-simulation/pbt_tree_2_2-eps-converted-to.pdf> <./04_data_classification/08_cl
 assification/figures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf> <./04_da
 ta_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-eps-con
 verted-to.pdf> <./04_data_classification/08_classification/figures/pbt-simulati
 on/pbt_tree_3_2-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 203.
+
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 203.
+
+Underfull \hbox (badness 2343) in paragraph at lines 223--223
+[][][]\OT1/txr/m/n/8 Gaussian pro-cess im-ple-men-ta-tion can be found at: \OT1
+/cmtt/m/n/8 http://www.
+ []
+
+[32]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [34]
+
+Underfull \vbox (badness 4995) has occurred while \output is active []
+
+ [33]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (1.508pt too wide) in paragraph at lines 483--483
+Overfull \hbox (1.508pt too wide) in paragraph at lines 479--479
  [][][][]\OT1/txr/m/n/9 Summation 
  []
 
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 545--545
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
 []|$\OT1/txr/m/n/9 [$1-8,11,17-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--550
+Underfull \hbox (badness 10000) in paragraph at lines 537--546
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []|$\OT1/txr/m/n/9 [$4-5,7,12,14,17,20-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 570--570
+Underfull \hbox (badness 10000) in paragraph at lines 566--566
 []|$\OT1/txr/m/n/9 [$2-3,6-9,13-19,23,29-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--576
+Underfull \hbox (badness 10000) in paragraph at lines 560--572
 [][]
  []
 
@@ -3317,312 +3332,67 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-)) [36] [37] (./09_discussion/discussion.tex
+)) (./09_discussion/discussion.tex
 Missing character: There is no ; in font nullfont!
-) (./10_conclusion/conclusion.tex)
-[38] (./11_acknowledgement/acknowledgement.tex)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+[36]) (./10_conclusion/conclusion.tex)
+(./11_acknowledgement/acknowledgement.tex [37])
 (./g_lemaitre_state_of_the_art.bbl
-Underfull \hbox (badness 2744) in paragraph at lines 228--238
-[]\OT1/txr/m/n/8 Benassi, A., Co-hen, S., Is-tas, J., 1998.  Iden-ti-fy-ing the
- mul-ti-frac-
- []
-
-
-Underfull \hbox (badness 4647) in paragraph at lines 228--238
-\OT1/txr/m/n/8 tional func-tion of a Gaus-sian pro-cess.  Statis-tics & Prob-a-
-bil-ity
- []
-
-
-Underfull \hbox (badness 7308) in paragraph at lines 228--238
-\OT1/txr/m/n/8 Let-ters 39, 337 -- 345.  URL: []$\OT1/cmtt/m/n/8 http : / / www
- . sciencedirect .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--238
-\OT1/cmtt/m/n/8 com / science / article / pii / S0167715298000789$[]\OT1/txr/m/
-n/8 , doi:[]$\OT1/cmtt/m/n/8 http :
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
+ [38]
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 415.
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--422
-\OT1/cmtt/m/n/8 sciencedirect . com / science / article / pii / S10907807020006
-91$[]\OT1/txr/m/n/8 ,
- []
-
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 408.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1033) in paragraph at lines 709--719
-[]\OT1/txr/m/n/8 Freund, Y., Schapire, R., 1997.  A decision-theoretic gen-er-a
-l-iza-tion of
- []
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 709--719
-\OT1/txr/m/n/8 on-line learn-ing and an ap-pli-ca-tion to boost-ing.  Jour-nal 
-of Com-
- []
-
-
-Underfull \hbox (badness 2213) in paragraph at lines 709--719
-\OT1/txr/m/n/8 puter and Sys-tem Sci-ences 55, 119 -- 139.  URL: []$\OT1/cmtt/m
-/n/8 http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 709--719
-\OT1/cmtt/m/n/8 sciencedirect . com / science / article / pii / S00220000979150
-4X$[]\OT1/txr/m/n/8 ,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \hbox (badness 4242) in paragraph at lines 1063--1070
-[]\OT1/txr/m/n/8 Jolliffe, I.T., 2002.  Prin-ci-pal Com-po-nent Anal-y-sis.  Se
-c-ond ed.,
- []
-
-
-Underfull \hbox (badness 1383) in paragraph at lines 1093--1104
-[]\OT1/txr/m/n/8 Kato, Z., Pong, T., 2001.  A Markov ran-dom field im-age seg-m
-en-ta-
- []
-
-
-Underfull \hbox (badness 1189) in paragraph at lines 1093--1104
-\OT1/txr/m/n/8 tion model us-ing com-bined color and tex-ture fea-tures, in: Sk
-ar-bek,
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 1141--1150
-[]\OT1/txr/m/n/8 Kirsch, R., 1971.  Com-puter de-ter-mi-na-tion of the con-stit
-uent struc-
- []
-
-
-Underfull \hbox (badness 5119) in paragraph at lines 1141--1150
-\OT1/txr/m/n/8 315 -- 328.  URL: []$\OT1/cmtt/m/n/8 http : / / www . sciencedir
-ect . com / science /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1141--1150
-\OT1/cmtt/m/n/8 article / pii / 0010480971900346$[]\OT1/txr/m/n/8 , doi:[]$\OT1
-/cmtt/m/n/8 http : / / dx . doi . org / 10 .
- []
-
-
-Underfull \hbox (badness 5607) in paragraph at lines 1202--1214
-[]\OT1/txr/m/n/8 Laudadio, T., Mas-tronardi, N., Van-hamme, L., Hecke, P.V., Hu
-f-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 1202--1214
-\OT1/txr/m/n/8 fel, S.V., 2002.  Im-proved Lanc-zos al-go-rithms for black-box 
-\OMS/txsy/m/n/8 f\OT1/txr/m/n/8 MRS\OMS/txsy/m/n/8 g
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 1202--1214
-\OT1/txr/m/n/8 data quan-ti-ta-tion.  Jour-nal of Mag-netic Res-o-nance 157, 29
-2 --
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 1202--1214
-\OT1/txr/m/n/8 297.  URL: []$\OT1/cmtt/m/n/8 http : / / www . sciencedirect . c
-om / science / article /
- []
-
-
-Underfull \hbox (badness 2781) in paragraph at lines 1202--1214
-\OT1/cmtt/m/n/8 pii / S1090780702925930$[]\OT1/txr/m/n/8 , doi:[]$\OT1/cmtt/m/n
-/8 http : / / dx . doi . org / 10 . 1006 / jmre .
- []
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1435--1445
-\OT1/cmtt/m/n/8 sciencedirect . com / science / article / pii / S10773142050012
-44$[]\OT1/txr/m/n/8 ,
- []
-
-
+ [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1565) in paragraph at lines 1560--1570
-[]\OT1/txr/m/n/8 Mohan, J., Kr-ish-naveni, V., Guo, Y., 2014.  A sur-vey on the
- mag-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1560--1570
-\OT1/txr/m/n/8 netic res-o-nance im-age de-nois-ing meth-ods.  Biomed-i-cal Sig
--
- []
-
-
-Underfull \hbox (badness 4726) in paragraph at lines 1560--1570
-\OT1/txr/m/n/8 nal Pro-cess-ing and Con-trol 9, 56 -- 69.  URL: []$\OT1/cmtt/m/
-n/8 http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1560--1570
-\OT1/cmtt/m/n/8 sciencedirect . com / science / article / pii / S17468094130014
-07$[]\OT1/txr/m/n/8 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1593--1603
-[]\OT1/txr/m/n/8 Nelder, J.A., Mead, R., 1965.  A sim-plex method for func-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1593--1603
-\OT1/txr/m/n/8 tion min-i-miza-tion.  The Com-puter Jour-nal 7, 308--313.
- []
-
-
-Overfull \hbox (49.00417pt too wide) in paragraph at lines 1593--1603
-[]\OT1/cmtt/m/n/8 arXiv:http://comjnl.oxfordjournals.org/content/7/4/308.full.p
-df+html[]\OT1/txr/m/n/8 . 
- []
 
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¨ in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+ [41]
 Missing character: There is no Ã in font txr!
 Missing character: There is no © in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no © in font txr!
-
-Underfull \hbox (badness 2103) in paragraph at lines 1808--1819
-\OT1/txr/m/n/8 SVD-based quan-tifi-ca-tion of mag-netic res-o-nance sig-nals . 
- Jour-nal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1808--1819
-\OT1/cmtt/m/n/8 sciencedirect . com / science / article / pii / 002223649290241
-X$[]\OT1/txr/m/n/8 ,
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1960--1973
-[]\OT1/txr/m/n/8 Roweis, S.T., Saul, L.K., 2000.  Non-lin-ear di-men-sion-al-it
-y re-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1960--1973
-\OT1/txr/m/n/8 duc-tion by lo-cally lin-ear em-bed-ding.  Sci-ence 290, 2323--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1960--1973
-\OT1/txr/m/n/8 2326.  URL: []$\OT1/cmtt/m/n/8 http : / / www . sciencemag . org
- / content / 290 /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1960--1973
-\OT1/cmtt/m/n/8 5500 / 2323 . abstract$[]\OT1/txr/m/n/8 , doi:[]$\OT1/cmtt/m/n/
-8 10 . 1126 / science . 290 . 5500 . 2323$[]\OT1/txr/m/n/8 ,
- []
-
-
-Overfull \hbox (23.5038pt too wide) in paragraph at lines 1960--1973
-[]\OT1/cmtt/m/n/8 arXiv:http://www.sciencemag.org/content/290/5500/2323.full.pd
-f[]\OT1/txr/m/n/8 . 
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 1993--2006
-[]\OT1/txr/m/n/8 Saeys, Y., Inza, I., Lar-ranaga, P., 2007.  A re-view of fea-t
-ure se-lec-
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 1993--2006
-\OT1/txr/m/n/8 tion tech-niques in bioin-for-mat-ics.  Bioin-for-mat-ics 23, 25
-07--2517.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1993--2006
-\OT1/txr/m/n/8 URL: []$\OT1/cmtt/m/n/8 http : / / bioinformatics . oxfordjourna
-ls . org / content /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1993--2006
-\OT1/cmtt/m/n/8 23 / 19 / 2507 . abstract$[]\OT1/txr/m/n/8 , doi:[]$\OT1/cmtt/m
-/n/8 10 . 1093 / bioinformatics / btm344$[]\OT1/txr/m/n/8 ,
- []
-
-
-Overfull \hbox (95.75484pt too wide) in paragraph at lines 1993--2006
-[]\OT1/cmtt/m/n/8 arXiv:http://bioinformatics.oxfordjournals.org/content/23/19/
-2507.full.pdf+html[]\OT1/txr/m/n/8 . 
- []
 
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¡ in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
+ [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
-Underfull \hbox (badness 1596) in paragraph at lines 2629--2637
-\OT1/txr/m/n/8 age and Vi-sion Com-put-ing 21, 977 -- 1000.  URL: []$\OT1/cmtt/
-m/n/8 http : / / www .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2629--2637
-\OT1/cmtt/m/n/8 sciencedirect . com / science / article / pii / S02628856030013
-79$[]\OT1/txr/m/n/8 ,
- []
-
-)
+ [43])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
- [45
+
+[44
 
 ] (./g_lemaitre_state_of_the_art.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
@@ -3632,13 +3402,13 @@ nged.
 (rerunfilecheck)             Checksum: C584F4DD0E9C10606C56D388A03D8665;2914.
  ) 
 Here is how much of TeX's memory you used:
- 33101 strings out of 493311
- 658146 string characters out of 6137856
- 940731 words of memory out of 5000000
- 35230 multiletter control sequences out of 15000+600000
+ 33106 strings out of 493311
+ 658226 string characters out of 6137856
+ 941603 words of memory out of 5000000
+ 35235 multiletter control sequences out of 15000+600000
  83385 words of font info for 209 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 67i,19n,74p,2243b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,19n,74p,2269b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texl
@@ -3654,10 +3424,10 @@ blic/txfonts/txsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (45 pages, 2746909 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (44 pages, 2734154 bytes).
 PDF statistics:
- 2755 PDF objects out of 2984 (max. 8388607)
- 2561 compressed objects within 26 object streams
+ 2655 PDF objects out of 2984 (max. 8388607)
+ 2459 compressed objects within 25 object streams
  505 named destinations out of 1000 (max. 500000)
  627 words of extra memory for PDF output out of 10000 (max. 10000000)
 

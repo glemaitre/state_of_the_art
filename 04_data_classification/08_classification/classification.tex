@@ -2,7 +2,7 @@
 
 \subsubsection{Classifier}
 
-\begin{table*}
+\begin{table}
 	\caption{Overview of the classifiers used in \ac{cad} systems.}
 	\small
 	%\renewcommand{\arraystretch}{1.5}
@@ -10,7 +10,7 @@
 		\hline \\ [-1.5ex]
 		\textbf{Classifier} & \textbf{References} \\ \\ [-1.5ex]
 		\hline \\ [-1.5ex]
-		\textit{Simple rules:} & $[$15,24$]$ \\ \\ [-1.5ex]
+		\textit{Rule-based method:} & $[$15,24$]$ \\ \\ [-1.5ex]
 		\textit{Clustering methods:} & \\
 		\quad $k$-means clustering & $[$26-28,33-34$]$ \\
 		\quad \acs{knn} & $[$11,18-19$]$ \\ \\ [-1.5ex]
@@ -39,44 +39,42 @@
 		\hline
 	\end{tabular}
 	\label{tab:class}
-\end{table*}
+\end{table}
 
-Once that the feature vector was extracted and eventually the complexity reduced, it is possible to take decision and classify this feature vector to belong to \ac{cap} or healthy tissue. Classification methods used in \ac{cad} system to distinguish this two classes are summarized in Tab. \ref{tab:class}. A full review of classification methods used in pattern recognition can be found in \cite{Bishop2006}.
+Once that the feature vector has been extracted and eventually the complexity reduced, it is possible to make a decision and classify this feature vector to belong to \ac{cap} or healthy tissue. Classification methods used in \ac{cad} system to distinguish these two classes are summarized in Tab. \ref{tab:class}. A full review of classification methods used in pattern recognition can be found in \cite{Bishop2006}.
 
 \setenumerate{listparindent=\parindent,itemsep=10px}
 \setlist{noitemsep}
 \begin{enumerate}[leftmargin=*]
 
-\item[$-$] \textbf{\textit{Simple rules:}}
+\item[$-$] \textbf{\textit{Rule-based method:}}
 
 \cite{Lv2009} make use of a decision stump classifier to distinguish \ac{cap} and healthy classes. 
 
-\cite{Puech2009} detect \ac{cap} by implementing a score medical decision making approach. The feature values are compared with a pre-defined threshold. Then, at each comparison, the final score is incremented or not, depending on the threshold and the final decision is taken depending of the final score.
+\cite{Puech2009} detect \ac{cap} by implementing a given set of rules using a score medical decision making approach. The feature values are compared with a pre-defined threshold. Then, at each comparison, the final score is incremented or not, depending on the threshold and the final decision is taken depending of the final score.
 
 \item[$-$] \textbf{\textit{Clustering methods:}} 
 
-\acf{knn} is one of the simplest supervised machine learning classification method. In this method, a new unlabelled vector is assigned to the most represented class from its $k$ nearest-neighbours in the feature space. The parameter $k$ is usually an odd number in order to avoid any tie case. 
+\acf{knn} is one of the simplest supervised machine learning classification methods. In this method, a new unlabelled vector is assigned to the most represented class from its $k$ nearest-neighbours in the feature space. The parameter $k$ is usually an odd number in order to avoid any tie case. \ac{knn} was one of the method used by \cite{Niaf2011,Niaf2012} mainly to make a comparison with different machine learning techniques. \cite{Litjens2012} used this method to roughly detect potential \ac{cap} voxels before performing a region-based classification.
 
-\ac{knn} was one of the method used by \cite{Niaf2011,Niaf2012} mainly to make a comparison with different machine learning techniques. \cite{Litjens2012} used this method to roughly detect potential \ac{cap} voxel before to perform a region-based classification.
-
-$k$-means is an unsupervised clustering methods in which the data have to be partitioned into $k$ clusters. The discovery of the clusters is an iterative procedure. First $k$ random centroids are defined in the feature space and each data point is assigned to the nearest centroid. Then, the centroid position for each cluster is updated by computing the mean of all the data points belonging to this particular cluster. Both assignment and updating are repeated until the centroids are stable. The number of cluster $k$ is usually defined as the number of classes. This algorithm can also be used incrementally. In case that new data have to be incorporated, the initial centroid positions can corresponds to the results of a previous $k$-means followed by the assignment-updating stage.
+$k$-means is an unsupervised clustering methods in which the data have to be partitioned into $k$ clusters. The discovery of the clusters is an iterative procedure. First $k$ random centroids are defined in the feature space and each data point is assigned to the nearest centroid. Then, the centroid position for each cluster is updated by computing the mean of all the data points belonging to this particular cluster. Both assignment and updating are repeated until the centroids are stable. The number of clusters $k$ is usually defined as the number of classes. This algorithm can also be used for ``on-line'' learning. In case that new data has to be incorporated, the initial centroid positions corresponds to the results of a previous $k$-means training and is followed by the assignment-updating stage previously explained.
 
 \cite{Tiwari2007,Tiwari2009} used $k$-means in an iterative procedure. Three clusters were defined corresponding to \ac{cap}, healthy and non-prostate, respectively. $k$-means was applied iteratively and the voxels corresponding to the larger cluster were excluded under the assumption that it is assigned to ``non-prostate'' cluster. The iteration stop until the number of voxels composing the clusters is smaller than a threshold.
 
-\cite{Tiwari2008,Viswanath2008,Viswanath2008a} used $k$-means in a repetitive manner to be less sensitive to the centroids initialisation. Thus, $k$ clusters will be generated $T$ times. The final assignment is performed by majority voting using a co-association matrix as proposed by \cite{Fred2005}.
+\cite{Tiwari2008,Viswanath2008,Viswanath2008a} used $k$-means in a repetitive manner to be less sensitive to the centroids initialisation. Thus, $k$ clusters were generated $T$ times. The final assignment was performed by majority voting using a co-association matrix as proposed by \cite{Fred2005}.
 
 \item[$-$] \textbf{\textit{Linear model classifiers:}} 
 
-\Acf{lda} can be used as a classification in which the optimal linear separation is found by maximizing the distance between the classes and minimizing the distance within the classes (\cite{Friedman1989}). The linear discriminant function is defined such as:
+\Acf{lda} can be used as a classification method in which the optimal linear separation between two classes is found by maximizing the interclass variance and minimizing the intraclass variance (\cite{Friedman1989}). The linear discriminant function is defined as:
 
 \begin{equation}
 	\delta_{k}(\mathbf{x}_i) = \mathbf{x}_i^{\text{T}} \Sigma^{-1} \mu_k - \frac{1}{2} \mu_{k}^{\text{T}} \Sigma^{-1} \mu_k + \log (\pi_k) \ ,
 	\label{eq:ldafun}
 \end{equation}
 
-\noindent where $\mathbf{x}$ is a feature vector which the class have to be determined, $\Sigma$ is the covariance matrix of the training data, $\mu_k$ is the mean vector of the class $k$ and $\pi_k$ is the prior probabilities.
+\noindent where $\mathbf{x}_i$ is an unlabelled feature vector, $\Sigma$ is the covariance matrix of the training data, $\mu_k$ is the mean vector of the class $k$ and $\pi_k$ is the prior probabilities of class $k$.
 
-To perform the classification, a sample $\mathbf{x}_i$ will be assigned to the class which maximize the discriminant function:
+To perform the classification, a sample $\mathbf{x}_i$ will be assigned to the class which maximizes the discriminant function:
 
 \begin{equation}
 	C(\mathbf{x}_i) = \argmax_k \delta_k(\mathbf{x}_i) \ .
@@ -101,20 +99,20 @@ Thus, an unlabelled observation $\mathbf{x}_i$ will be assigned to the class whi
 	\label{eq:posprobreg}
 \end{equation}
 
-From Eq. \eqref{eq:postprlr}, one can see that the key of classification using logistic regression model is to infer the set of parameter $\mathbf{w}$ through a learning stage in the training set. This vector of parameters $\mathbf{w}$ can be inferred by finding the maximum likelihood estimates. This step can be performed through an optimization scheme, using a quasi-Newton method (\cite{Byrd1995}), which iteratively seeks for the local minimum in the derivative.
+From Eq. \eqref{eq:postprlr}, one can see that the key of classification using logistic regression model is to infer the set of parameters $\mathbf{w}$ through a learning stage in the training set. This vector of parameters $\mathbf{w}$ can be inferred by finding the maximum likelihood estimates. This step can be performed through an optimization scheme, using a quasi-Newton method (\cite{Byrd1995}), which iteratively seeks for the local minimum in the derivative of Eq. \eqref{eq:postprlr}.
 
 \cite{Kelm2007,Puech2009} used a logistic regression to create a linear probabilistic model in order to classify their feature vectors.
 
 \item[$-$] \textbf{\textit{Non-linear model classifier:}} 
 
-\cite{Viswanath2012} used the most general \acf{qda} instead of \ac{lda}. Unlike in \ac{lda} in which one assumes that the class covariance matrices $\Sigma$ is identical for all the classes, in \ac{qda}, it is assumes that a covariance matrix $\Sigma_k$ specific at each class is computed. Thus, Eq. \eqref{eq:ldafun} becomes:
+\cite{Viswanath2012} used the most general \acf{qda} instead of \ac{lda}. Unlike in \ac{lda} in which one assumes that the class covariance matrix $\Sigma$ is identical for all the classes, in \ac{qda}, it is assumes that a covariance matrix $\Sigma_k$ specific for each class is computed. Thus, Eq. \eqref{eq:ldafun} becomes:
 
 \begin{equation}
 	\delta_{k}(\mathbf{x}_i) = \mathbf{x}_i^{\text{T}} \Sigma_{k}^{-1} \mu_k - \frac{1}{2} \mu_{k}^{\text{T}} \Sigma_{k}^{-1} \mu_k + \log (\pi_k) \ .
 	\label{eq:qdafun}
 \end{equation}
 
-The classification rules in the case of the \ac{qda} is identical to Eq. \eqref{eq:ldaclass}.
+The classification scheme in the case of the \ac{qda} is identical to Eq. \eqref{eq:ldaclass}.
 
 \item[$-$] \textbf{\textit{Probabilistic classifier:}}
 
@@ -125,27 +123,27 @@ The most commonly used classifier is the naive Bayes classifier which is a proba
 	\label{eq:bayth}
 \end{equation}
 
-\noindent where $p(C=k|\mathbf{x})$ is the posterior probability, $p(C)$ is the prior probability, $p(\mathbf{x}|C)$ is the likelihood and $p(C)$ is the evidence. 
+\noindent where $p(C=k|\mathbf{x})$ is the posterior probability, $p(C)$ is the prior probability, $p(\mathbf{x}|C)$ is the likelihood and $p(\mathbf{x})$ is the evidence. 
 
-However, the evidence term is usually discarded since, it is not class dependent and play the role of a normalization term. Hence, in a classification scheme, an unlabelled observation will be classified to the class which maximizes the posterior probability such as:
+However, the evidence term is usually discarded since, it is not class dependent and plays the role of a normalization term. Hence, in a classification scheme, an unlabelled observation will be classified to the class which maximizes the posterior probability such as:
 
 \begin{eqnarray}
 	C(\mathbf{x}_i) & = & \argmax_k p(C=k|\mathbf{x}_i) \ , \label{eq:maxbay} \\
 	p(C=k|\mathbf{x}_i) & = & p(C=k) \prod_{j=1}^{n} p(x_{ij},|C=k) \ , \label{eq:postbay}
 \end{eqnarray}
 
-\noindent where $n$ is the number of dimension of the feature vector $\mathbf{x}_i = \{x_{i1},\cdots,x_{in}\}$.
+\noindent where $d$ is the number of dimensions of the feature vector $\mathbf{x}_i = \{x_{i1},\cdots,x_{id}\}$.
 
-Usually, a model have to be affected for the prior and likelihood probabilities and it is common to affect an equal prior probability for each class or eventually a value depending of the relative frequency derived from the training set. Regarding the likelihood probability, it is common to choose a Normal distribution to characterize each class. Thus, each class will be characterized by two parameters: (i) the mean and (ii) the standard deviation. These parameters can be inferred from the training set by using the maximum likelihood approach.
+Usually, a model includes both the prior and likelihood probabilities and it is common to use an equal prior probability for each class or eventually a value depending of the relative frequency derived from the training set. Regarding the likelihood probability, it is common to choose a Normal distribution to characterize each class. Thus, each class will be characterized by two parameters: (i) the mean and (ii) the standard deviation. These parameters can be inferred from the training set by using the \ac{ml} approach.
 
 
-\cite{Giannini2013,Mazzetti2011,Niaf2011,Niaf2012} used the naive Bayes classifier to classify their feature vector either malignant or healthy. The model used to characterized the likelihood probability using the Normal distribution.
+\cite{Giannini2013,Mazzetti2011,Niaf2011,Niaf2012} used the naive Bayes classifier to classify their feature vectors to either malignant or healthy. The Normal distribution was used as the likelihood probability for that model.
 
 \item[$-$] \textbf{\textit{Ensemble learner classifiers:}}
 
-AdaBoost is an adaptive method based on ensemble learner initially proposed by \cite{Freund1997}. AdaBoost linearly combines several weak learners resulting into a final strong classifier. A weak learner is defined as a classification method performing slightly better than random classification. Popular choices regarding the weak learner methods are: decision stump, decision tree learners (cf., \ac{id3} (\cite{Quinlan1986}), C4.5 (\cite{Quinlan1993}), \ac{cart} (\cite{Breiman1984})).
+AdaBoost is an adaptive method based on an ensemble learner and was initially proposed by \cite{Freund1997}. AdaBoost linearly combines several weak learners resulting into a final strong classifier. A weak learner is defined as a classification method performing slightly better than random classification. Popular choices regarding the weak learner methods are: decision stump, decision tree learners (cf., \ac{id3} (\cite{Quinlan1986}), C4.5 (\cite{Quinlan1993}), \ac{cart} (\cite{Breiman1984})).
 
-AdaBoost is considered as an adaptive method in the way that the weak learner are selected. The selection is performed in an iterative manner. At each iteration $t$, the weak learner selected $h_t$ corresponds to the one minimizing the classification error on a distribution of weights $D_t$, that is associated to the training sample. A weight $\alpha_t$ is affected at each weak learner such that:
+AdaBoost is considered as an adaptive method in the way that the weak learners are selected. The selection is performed in an iterative manner. At each iteration $t$, the weak learner selected $h_t$ corresponds to the one minimizing the classification error on a distribution of weights $D_t$, that is associated to the training sample. A weight $\alpha_t$ is affected at each weak learner such that:
 
 \begin{equation}
 	\alpha_t = \frac{1}{2} \ln \frac{1 - \epsilon_t}{\epsilon_t} \ ,
@@ -154,29 +152,27 @@ AdaBoost is considered as an adaptive method in the way that the weak learner ar
 
 \noindent where $\epsilon_t$ corresponds to the classification error rate of the weak learner on the distribution of weight $D_t$.
 
-Before performing a new iteration, the distribution of weight $D_t$ is updated such that the weight associated with the misclassified samples by $h_t$ will increase and the weights of well classified samples will decrease as shown in Eq. \eqref{eq:rewada}. This procedure allows to select a weak learner at the next iteration $t+1$ which will classify in priority previous misclassified samples.
+Before performing a new iteration, the distribution of weight $D_t$ is updated such that the weight associated with the misclassified samples by $h_t$ will increase and the weights of well classified samples will decrease as shown in Eq. \eqref{eq:rewada}.
 
 \begin{equation}
 	D_{t+1}(i) = \frac{ D_t(i) \exp(-\alpha_t y_i h_{t}(\mathbf{x}_{i} ) }{ Z_t  } \ ,
 	\label{eq:rewada} 
 \end{equation}
 
-\noindent where $\mathbf{x}_i$ is the $i^{\text{th}}$ sample corresponding to class $y_i$ and $Z_t$ is a normalization factor to impose that $D_{t+1}$ to be a probability distribution.
+\noindent where $\mathbf{x}_i$ is the $i^{\text{th}}$ sample corresponding to class $y_i$ and $Z_t$ is a normalization factor to impose that $D_{t+1}$ to be a probability distribution. 
 
-Thus, after $T$ iterations, the final strong classifier corresponds to the linear combination of the weak learners and the classification is performed such that:
+This procedure allows to select a weak learner at the next iteration $t+1$ which will classify in priority previous misclassified samples. Thus, after $T$ iterations, the final strong classifier corresponds to the linear combination of the weak learners and the classification is performed such that:
 
 \begin{equation}
 	C(\mathbf{x}_i) = \sign \left( \sum_{t=1}^{T} \alpha_t h_t(\mathbf{x}_i) \right) \ .
 	\label{eq:strclaada}
 \end{equation}
 
-\cite{Lopes2011} make use of AdaBoost technique to perform their classification.
+\cite{Lopes2011} make use of the AdaBoost technique to perform their classification.
 
-Random forest\footnote{Random forest implementation can be found at: \texttt{http://www.stat.\allowbreak berkeley.edu/~breiman/RandomForests/cc\_software.htm}} is a classification method which is based creating an ensemble of decision trees and was introduced by \cite{Breiman2001}.
+Random forest\footnote{Random forest implementation can be found at: \texttt{http://www.stat.\allowbreak berkeley.edu/~breiman/RandomForests/cc\_software.htm}} is a classification method which is based on creating an ensemble of decision trees and was introduced by \cite{Breiman2001}. In the learning stage, multiple decision tree learners (\cite{Breiman1984}) will be trained. However, each decision tree will be trained with a different dataset. Each of these datasets corresponds to a bootstrap sample generated by randomly choosing $n$ samples with replacement from the $N$ samples available in the original set (\cite{Efron1979}). Then, randomization is also part of the decision tree growth. At each node of the decision tree, from the bootstrap sample of $D$ dimensions, a number of $d \ll D$ dimensions will be randomly selected. Finally, the $d^{\text{th}}$ dimension splitting the best the data will be used. This best splitting is often evaluated using \ac{mi} (see Sect. \ref{subsubsec:simmea}). Finally, each tree is grown as much as possible without using any pruning procedure.
 
-In the learning stage, multiple decision tree learners (\cite{Breiman1984}) will be trained. However, each decision tree will be trained with a different dataset. Each of these dataset corresponds to a bootstrap sample generated by randomly choosing $n$ samples with replacements from the $N$ available in the original set (\cite{Efron1979}). Then, randomization is also part of the decision tree growth. At each node of the decision tree, from the bootstrap sample of $D$ dimensions, a number of $d \ll D$ dimensions will be randomly selected. Finally, the $d^{\text{th}}$ dimension splitting the best the data will be used. This best splitting can be evaluated using \ac{mi} (see Sect. \ref{subsubsec:simmea}). Finally, each tree is grown as much as possible without using any pruning procedure.
-
-In the prediction stage, a sample is introduced in each tree and each of the tree will assign a class to this sample. Finally, it is common to use a majority voting approach to choose the final class labelling.
+In the prediction stage, a sample is introduced in each tree and each of the tree will assign a class to this sample. Finally, it is common to use a majority voting approach to choose the final class label.
 
 \cite{Kelm2007,Tiwari2012,Tiwari2013,Viswanath2009} make use of the random forest classifier to classify their feature vector.
 
@@ -202,14 +198,14 @@ In the prediction stage, a sample is introduced in each tree and each of the tre
 \label{fig:pbtsim}
 \end{figure}
 
-Probabilistic boosting-tree are an ensemble classifier method which is sharing principles from AdaBoost and using them inside a decision tree (\cite{Tu2005}). In the training stage, the probabilistic boosting-tree method is growing a decision tree and at each node a strong classifier is learnt in an almost comparable scheme than AdaBoost. Once the strong learner is trained, the training set will be split into two subsets which will be used to train the next strong classifiers in the next descending nodes. Thus, three cases are conceivable to decide which branch to propagate each sample $\mathbf{x}_i$:
+Probabilistic boosting-tree is an ensemble classifier method which is sharing principles from AdaBoost but using them inside a decision tree (\cite{Tu2005}). In the training stage, the probabilistic boosting-tree method grows a decision tree and at each node a strong classifier is learnt in an almost comparable scheme than AdaBoost (see Eq. \ref{eq:strclaada}). Once the strong learner is trained, the training set will be split into two subsets which will be used to train the next strong classifiers in the next descending nodes. Thus, three cases are conceivable to decide which branch to propagate each sample $\mathbf{x}_i$:
 \begin{itemize}
 	\item if $q(+1, \mathbf{x}_i) - \frac{1}{2} > \epsilon$ then $\mathbf{x}_i$ is propagated to the right branch set and a weight $w_i=1$ is assigned. 
 	\item if $q(-1, \mathbf{x}_i) - \frac{1}{2} > \epsilon$ then $\mathbf{x}_i$ is propagated to the left branch set and a weight $w_i=1$ is assigned.
 	\item else $\mathbf{x}_i$ will be propagated in both branches with $w_i=q(+1, \mathbf{x}_i)$ in the right branch and $w_i=q(-1, \mathbf{x}_i)$ in the left branch.
 \end{itemize}
 
-\noindent with $\mathbf{w} = w_i, i=\{1,\cdots,N\}$ corresponding to distribution of weight, $N$ the number of samples as in AdaBoost and $q(\cdot)$ is defined such as:
+\noindent with $\mathbf{w} = w_i, i=\{1,\cdots,N\}$ corresponding to distribution of weights, $N$ the number of samples as in AdaBoost and $q(\cdot)$ is defined such as:
 
 \begin{eqnarray}
 	q(+1, \mathbf{x}_i) & = & \frac{\exp(2H(\mathbf{x}_i))}{1+\exp(2H(\mathbf{x}_i))} \ , \label{eq:regada1} \\
@@ -220,20 +216,20 @@ Employing such a scheme tends to divide the data in such a way that positive and
 
 In the classification stage, the sample $\mathbf{x}$ is propagated through the trees, where at each node, it will be classified by the strong classifier previously learned and where an estimation of the posterior distribution will be computed. The posterior distribution will correspond to the sum of the posterior distribution at each node of the tree.
 
-\cite{Tiwari2009a,Tiwari2012,Tiwari2010,Viswanath2011} make use of the probabilistic boosting-tree classifier to determine which of the class to assign to their feature vectors.
+\cite{Tiwari2009a,Tiwari2012,Tiwari2010,Viswanath2011} make use of the probabilistic boosting-tree classifier.
 
 \item[$-$] \textbf{\textit{Kernel method:}}
 
-Gaussian process\footnote{Gaussian process implementation can be found at: \texttt{http://www.\allowbreak gaussianprocess.org/gpml/code/matlab/doc/index.html}} for classification is a kernel method in which it is assumed that the data can be represented as a single sample from a multivariate Gaussian distribution (\cite{Rasmussen2005}). In the case of linear logistic regression for classification, the posterior probability can be expressed as:
+A Gaussian process\footnote{Gaussian process implementation can be found at: \texttt{http://www.\allowbreak gaussianprocess.org/gpml/code/matlab/doc/index.html}} for classification is a kernel method in which it is assumed that the data can be represented by a single sample from a multivariate Gaussian distribution (\cite{Rasmussen2005}). In the case of linear logistic regression for classification, the posterior probability can be expressed as:
 
 \begin{eqnarray}
 	p(y_i|\mathbf{x}_i,\mathbf{w}) & = & \sigma(y_i f(\mathbf{x}_i)) \ , \label{eq:gp1} \\
 	f(\mathbf{x}_i) & = & \mathbf{x}_i^{\text{T}} \mathbf{w} \ , \nonumber
 \end{eqnarray}
 
-\noindent where $\sigma(\cdot)$ is the logistic function.
+\noindent where $\sigma(\cdot)$ is the logistic function and $\mathbf{w}$ are the parameters of the model.
 
-Thus, the essence of Gaussian process for the classification is based on affecting a Gaussian process prior over the function $f(\mathbf{x})$ which will be characterized by a mean $\bar{f}$ and covariance functions $K$. Thus, in the training stage, the best mean and covariance function have to be inferred in regard to our training data using a Newton optimization and a Laplacian approximation.
+Thus, the classification using Gaussian processes is based on affecting a Gaussian process prior over the function $f(\mathbf{x})$ which will be characterized by a mean $\bar{f}$ and covariance functions $K$. Thus, in the training stage, the best mean and covariance functions have to be inferred in regard to our training data using a Newton optimization and a Laplacian approximation.
 
 The prediction stage can be performed in two stages. First, for a new observation $\mathbf{x}_*$, the corresponding probability $p(f(\mathbf{x}_*)|f(\mathbf{x}))$ can be computed such that:
 \begin{eqnarray}
@@ -242,7 +238,7 @@ The prediction stage can be performed in two stages. First, for a new observatio
 	W & = & \nabla \nabla \log p(\mathbf{y}|f(\mathbf{x})) \ , \nonumber
 \end{eqnarray}
 
-\noindent where $K_{**}$ is the covariance on testing, $K_{*}$ is the covariance on training-testing, $\mathbf{x}$ is the training data.
+\noindent where $K_{**}$ is the variance of the testing sample $\mathbf{x}_*$, $K_{*}$ is the covariance of training-testing samples $\mathbf{x}$ and $\mathbf{x}_*$.
 
 Then, the function $f(\mathbf{x}_*)$ is squashed using the sigmoid function and the probability of the class membership can be defined such that:
 
@@ -251,25 +247,27 @@ Then, the function $f(\mathbf{x}_*)$ is squashed using the sigmoid function and 
 	\label{eq:gp3}
 \end{equation}
 
-\cite{Kelm2007} is using Gaussian process for classification in order to distinguish \ac{cap} in \ac{mrsi} data.
+Only the work of \cite{Kelm2007} used Gaussian process for classification in order to distinguish \ac{cap} in \ac{mrsi} data.
 
 \item[$-$] \textbf{\textit{Sparse kernel methods:}}
 
-In Gaussian process, when a prediction has to be performed, the whole training data will be used to assign a label to the new observations. That is why, this method is also called kernel method. Sparse kernel category is composed of methods which rely only on few example in order to label new observations (\cite{Bishop2006}).
+In Gaussian process, when a prediction has to be performed, the whole training data will be used to assign a label to the new observations. That is why, this method is also called kernel method. Sparse kernel category is composed of methods which rely only on few labelled observations in order to label new observations (\cite{Bishop2006}).
 
-\Acf{svm}\footnote{\ac{svm} implementation can be found at: \texttt{http://www.csie.ntu.edu.tw/\allowbreak ~cjlin/libsvm/}} is a sparse kernel method which aimed at finding the best linear hyperplane which separates two classes such as the margin between the two classes is maximized (\cite{Vapnik1963}). The margin is in fact the region defined by two hyperplanes splitting the two classes, such that no points in between. The distance between these two hyperplanes is equal to $\frac{2}{\|\mathbf{w}\|}$ where $\mathbf{w}$ is the normal vector of the hyperplane splitting the classes. Thus, maximizing the margin is equivalent to minimizing $\|\mathbf{w}\|$. Hence, This problem solved by an optimization approach and formalized such that:
+\Acf{svm}\footnote{\ac{svm} implementation can be found at: \texttt{http://www.csie.ntu.edu.tw/\allowbreak ~cjlin/libsvm/}} is a sparse kernel method based on finding the best linear hyperplane (non-linear separation is discussed further) which separates two classes such as the margin between the two classes is maximized (\cite{Vapnik1963}). The margin is in fact the region defined by two hyperplanes splitting the two classes, such that no points lie in between. The distance between these two hyperplanes is equal to $\frac{2}{\|\mathbf{w}\|}$ where $\mathbf{w}$ is the normal vector of the hyperplane splitting the classes. Thus, maximizing the margin is equivalent to minimizing $\|\mathbf{w}\|$. Hence, This problem is solved by an optimization approach and formalized such that:
 
 \begin{equation}
 \begin{aligned}
 & \argmin_{\mathbf{w}}
 & & \frac{1}{2} \| \mathbf{w}^2\| \ , \\
 & \text{subject to}
-& & y_i(\mathbf{w}.\mathbf{x}_i - b) \geq 1, \; i = 1, \ldots, n \ .
+& & y_i(\mathbf{w}.\mathbf{x}_i - b) \geq 1, \; i = \{ 1, \ldots, N \} \ ,
 \end{aligned}
 \label{eq:svm1}
 \end{equation}
 
-From Eq. \eqref{eq:svm1}, it is important to notice that only few points from the set of $n$ points have to be selected which will later define the hyperplane. This can be introduced in the optimization problems using Lagrange multipliers $\boldsymbol{\alpha}$. All points which are not lying on the margin will be assigned a corresponding $\alpha_i = 0$. This can be formalized such as:
+\noindent where $\mathbf{x}_i$ is a training sample with is corresponding class label $y_i$.
+
+From Eq. \eqref{eq:svm1}, it is important to notice that only few points from the set of $n$ points have to be selected which will later define the hyperplane. This can be introduced in the optimization problem using Lagrange multipliers $\boldsymbol{\alpha}$. All points which are not lying on the margin will be assigned a corresponding $\alpha_i = 0$. This can be formalized as:
 
 \begin{equation}
 	\arg\min_{\mathbf{w},b } \max_{\boldsymbol{\alpha}\geq 0 } \left\{ \frac{1}{2}\|\mathbf{w}\|^2 - \sum_{i=1}^{n}{\alpha_i[y_i(\mathbf{w}\cdot \mathbf{x_i} - b)-1]} \right\} \ .
@@ -285,18 +283,18 @@ The different parameters can be inferred using quadratic programming. This versi
 \end{aligned}
 \end{equation}
 
-The decision to assigned the label to a new observation $\mathbf{x}_i$ is taken such that:
+The decision to assign the label to a new observation $\mathbf{x}_i$ is taken such that:
 
 \begin{equation}
 	C(\mathbf{x}_i) = \sign \left( \sum_{n=1}^{N} \alpha_n (\mathbf{x}_n . \mathbf{x}_i) + b_0 \right) \ ,
 	\label{eq:svmdec} 
 \end{equation}
 
-\noindent where $\mathbf{x}_n|n=\{1,\cdots,N\}$, $N$ being the support vectors.
+\noindent where $\mathbf{x}_n|n=\{1,\cdots,S\}$, $S$ being the support vectors.
 
-\ac{svm} can also be used as a non-linear classifier by performing a kernel trick \cite{Boser1992}. The original data $\mathbf{x}$ can be projected in an higher dimensional space in which it is assumed that a linear hyperplane will split the classes. Different kernels are popular such as \ac{rbf} kernel, polynomial kernels or Gaussian kernel.
+\ac{svm} can also be used as a non-linear classifier by performing a kernel trick \cite{Boser1992}. The original data $\mathbf{x}$ can be projected in an high-dimensional space in which it is assumed that a linear hyperplane will split the classes. Different kernels are popular such as the \ac{rbf} kernel, polynomial kernels or Gaussian kernel.
 
-In \ac{cad} system, \ac{svm} is the most popular classification method and was used in a multitude of research: \cite{Artan2009,Artan2010,Chan2003,Kelm2007,Litjens2011,Litjens2012,Liu2013,Lopes2011,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Parfait2012,Peng2013,Sung2011,Tiwari2012,Vos2008,Vos2008a,Vos2010,Vos2012}.
+In prostate \ac{cad} system, \ac{svm} is the most popular classification method and was used in a multitude of research works: \cite{Artan2009,Artan2010,Chan2003,Kelm2007,Litjens2011,Litjens2012,Liu2013,Lopes2011,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Parfait2012,Peng2013,Sung2011,Tiwari2012,Vos2008,Vos2008a,Vos2010,Vos2012}.
 
 \Acf{rvm} is a sparse version of Gaussian process previously presented and was proposed by \cite{Tipping2001}. \ac{rvm} is identical to a Gaussian process with following covariance function (\cite{Quinonero-Candela2002}):
 
@@ -305,11 +303,9 @@ In \ac{cad} system, \ac{svm} is the most popular classification method and was u
  	\label{eq:rvm}
 \end{equation}
 
-\noindent where $\phi(\cdot)$ is a Gaussian basis function, $\mathbf{x}_n|n=\{1,\cdots,N\}$ are the $N$ training points and $\boldsymbol{\alpha}$ are the weights.
+\noindent where $\phi(\cdot)$ is a Gaussian basis function, $\mathbf{x}_i|i=\{1,\cdots,N\}$ are the $N$ training points and $\boldsymbol{\alpha}$ are the weights.
 
-As mentioned in \cite{Quinonero-Candela2002}, the sparsity regarding the relevance vector arises if $j \alpha_j^{-1} = 0$. The set of parameters $\boldsymbol{\alpha}$ is inferred using the expectation maximization algorithm.
-
-\cite{Ozer2009,Ozer2010} make use of \ac{rvm} and make a comparison with \ac{svm} for the task of \ac{cap} detection.
+As mentioned in \cite{Quinonero-Candela2002}, the sparsity regarding the relevance vector arises if $j \alpha_j^{-1} = 0$. The set of parameters $\boldsymbol{\alpha}$ is inferred using the expectation maximization algorithm. \cite{Ozer2009,Ozer2010} make use of \ac{rvm} and make a comparison with \ac{svm} for the task of \ac{cap} detection.
 
 \item[$-$] \textbf{\textit{Neural network:}} 
 
@@ -374,18 +370,18 @@ As mentioned in \cite{Quinonero-Candela2002}, the sparsity regarding the relevan
 \label{fig:mlp}
 \end{figure}
 
-Multilayer perceptron is a feed-forward neural network consider as well as the most successful model of this kind in pattern recognition (\cite{Bishop2006}). The most well spread model used is based on a two layers model where a prediction of an observation is computed such as:
+Multilayer perceptron is a feed-forward neural network considered as well as the most successful model of this kind in pattern recognition (\cite{Bishop2006}). The most well spread model used is based on a two layers model where a prediction of an observation is computed as:
 
 \begin{equation}
 	C(\mathbf{x}_n,w_{ij}^{(1)},w_{kj}^{(2)}) = \sigma \left[ \sum_{j=0}^{M} w_{kj}^{(2)} \  h \left( \sum_{i=0}^{D} w_{ij}^{(1)} x_{in} \right) \right] \ ,
 	\label{eq:annmlp}
 \end{equation}
 
-\noindent where $h(\cdot)$ and $\sigma(\cdot)$ are two activations functions usually non-linear, $w_{ij}^{(1)}$ and $ w_{kj}^{(2)}$ are the weights associated with the linear combination with the input feature $\mathbf{x}_n$ and hidden unit, respectively.
+\noindent where $h(\cdot)$ and $\sigma(\cdot)$ are two activation functions usually non-linear, $w_{ij}^{(1)}$ and $ w_{kj}^{(2)}$ are the weights associated with the linear combination with the input feature $\mathbf{x}_n$ and the hidden unit, respectively.
 
-A graphical representation of this network is presented in Fig. \ref{fig:mlp}. Relating Fig. \ref{fig:mlp} with Eq. \eqref{eq:annmlp}, it can be noted that this network is composed of some successive non-linear mapping of the input data. First, a linear combination of the input vector $\mathbf{x}_i$ is performed into some hidden units through a set of weight $w_{ij}^{(1)}$. This combination becomes non-linear by the use of the activation function $h(\cdot)$ which is usually chosen to be a sigmoid function. Then, a linear combination of these hidden units is performed into the output of the neural network through a set of weight $w_{kj}^{(2)}$. This combination is also mapped non-linearly using an activation function $\sigma(\cdot)$ which is usually a logistic function.
+A graphical representation of this network is presented in Fig. \ref{fig:mlp}. Relating Fig. \ref{fig:mlp} with Eq. \eqref{eq:annmlp}, it can be noted that this network is composed of some successive non-linear mapping of the input data. First, a linear combination of the input vector $\mathbf{x}_i$ is performed into some hidden units through a set of weights $w_{ij}^{(1)}$. This combination becomes non-linear by the use of the activation function $h(\cdot)$ which is usually chosen to be a sigmoid function. Then, a linear combination of these hidden units is performed into the output of the neural network through a set of weights $w_{kj}^{(2)}$. This combination is also mapped non-linearly using an activation function $\sigma(\cdot)$ which is usually a logistic function.
 
-Thus, the training of such a network resides in finding the best weights $w_{ij}^{(1)}$ and $ w_{kj}^{(2)}$ which will model our data the best. The error perform of this model can be computed such that:
+Thus, the training of such a network resides in finding the best weights $w_{ij}^{(1)}$ and $ w_{kj}^{(2)}$ which will model our data the best. The error of this model can be computed such that:
 
 \begin{equation}
 	E(w_{ij}^{(1)},w_{kj}^{(2)}) = \frac{1}{2} \sum_{n=1}^{N} \left( C(\mathbf{x}_n,w_{ij}^{(1)},w_{kj}^{(2)}) - y(\mathbf{x}_n) \right) ^{2} \ ,
@@ -394,7 +390,7 @@ Thus, the training of such a network resides in finding the best weights $w_{ij}
 
 \noindent where $\mathbf{x}_n|n=\{1,\cdots,N\}$ are the $N$ training vectors with their corresponding class label $y(\mathbf{x}_n)$.
 
-Thus the best set of weight can be inferred in an optimization framework such that:
+Thus the best set of weights can be inferred in an optimization framework such that:
 
 \begin{equation}
 	\argmin_{w_{ij}^{(1)},w_{kj}^{(2)}} E(w_{ij}^{(1)},w_{kj}^{(2)}) \ . 
@@ -488,7 +484,7 @@ This optimization can be performed using a gradient descent method where the der
 \label{fig:pnn}
 \end{figure}
 
-Probabilistic neural network is another type of feed-forward which can be derived from the multilayer perceptron case and was proposed by \cite{Specht1988}. This classifier can be modelled by affecting the activation function $h(\cdot)$ in Eq. \eqref{eq:annmlp} to an exponential function such that:
+Probabilistic neural networks are another type of feed-forward networks which can be derived from the multilayer perceptron case and was proposed by \cite{Specht1988}. This classifier can be modelled by changing the activation function $h(\cdot)$ in Eq. \eqref{eq:annmlp} to an exponential function such that:
 
 \begin{equation}
 	h(\mathbf{x}_n) = \exp \left( - \frac{ (\mathbf{w}_j - \mathbf{x})^{\text{T}}(\mathbf{w}_j - \mathbf{x}) }{2\sigma^2} \right) \ ,
@@ -497,20 +493,18 @@ Probabilistic neural network is another type of feed-forward which can be derive
 
 \noindent where $\sigma$ is a free parameter.
 
-The other difference of the probabilistic neural network with the multilayer perceptron resides in the architecture as shown in Fig. \ref{fig:pnn}. This network is formed by two hidden layer. The first hidden layer corresponds to the pattern layer which is the mapping done using Eq. \eqref{eq:pnn1}. This pattern layer is sub-divided into groups corresponding to the class. The second hidden layer corresponds to the summation layer which simply sum the output of each sub-group of the pattern layer.
-
-This method was used  by \cite{Ampeliotis2007,Ampeliotis2008,Viswanath2011} in order to perform the classification of their feature vector.
+The other difference of the probabilistic neural network with the multilayer perceptron resides in the architecture as shown in Fig. \ref{fig:pnn}. This network is formed by two hidden layers. The first hidden layer corresponds to the pattern layer which is the mapping done using Eq. \eqref{eq:pnn1}. This pattern layer is sub-divided into groups corresponding to the class. The second hidden layer corresponds to the summation layer which simply sums the output of each sub-group of the pattern layer. This method was used  by \cite{Ampeliotis2007,Ampeliotis2008,Viswanath2011} in order to perform the classification of their feature vector.
 
 \item[$-$] \textbf{\textit{Graphical model classifiers:}}
 
-Markov random field can also be used as a lesion segmentation method to detect \ac{cap}. First, we can define $s$ as a pixel which will belong to a certain class denoted by $\omega_s$. The labelling process can be noted as $\omega = \{\omega_s, s \in I\}$ where $I$ is the set of all the pixels inside the image. The observations corresponding to \ac{si} in the image are noted $\mathcal{F} = \{ f_s | s \in I \}$. Thus, the image process $\mathcal{F}$ represents the deviation from the labelling process $\omega$ (\cite{Kato2001}). Hence, lesion segmentation is equivalent to estimate the best $\hat{\omega}$ which maximizes the posterior probability $p(\omega|\mathcal{F})$. Thus, using a Bayesian approach, this can be formulated such that:
+Markov random fields can also be used as a lesion segmentation method to detect \ac{cap}. First, we can define $s$ as a pixel which will belong to a certain class denoted by $\omega_s$. The labelling process can be noted as $\omega = \{\omega_s, s \in I\}$ where $I$ is the set of all the pixels inside the image. The observations corresponding to \ac{si} in the image are noted $\mathcal{F} = \{ f_s | s \in I \}$. Thus, the image process $\mathcal{F}$ represents the deviation from the labelling process $\omega$ (\cite{Kato2001}). Hence, lesion segmentation is equivalent to estimate to estimating the best $\hat{\omega}$ which maximizes the posterior probability $p(\omega|\mathcal{F})$. Thus, using a Bayesian approach, this can be formulated such that:
 
 \begin{equation}
 	p(\omega|\mathcal{F}) = \argmax_{\omega} \prod_{s \in I} p(f_s | \omega_s) p(\omega) \ .
 	\label{eq:mrf1}
 \end{equation}
 
-It is generally assumed that $p(f_s | \omega_s)$ follow a Gaussian distribution and that the pixels classes $\lambda = \{1,2\}$ for a binary classification will be characterized by their respective mean $\mu_{\lambda}$ and standard deviation $\sigma_{\lambda}$. Then, $\omega$ is supposed to be a Markov random field thus:
+It is generally assumed that $p(f_s | \omega_s)$ follows a Gaussian distribution and that the pixels classes $\lambda = \{1,2\}$ for a binary classification will be characterized by their respective mean $\mu_{\lambda}$ and standard deviation $\sigma_{\lambda}$. Then, $\omega$ is supposed to be a Markov random field thus:
 
 \begin{equation}
 	p(\omega) =  \frac{1}{Z} \exp\left( -U(\omega) \right)  \ ,
@@ -519,16 +513,18 @@ It is generally assumed that $p(f_s | \omega_s)$ follow a Gaussian distribution 
 
 \noindent where $Z$ is a normalization factor to obtain a probability value, $U(\cdot)$ is the energy function.
 
-Thus the segmentation problem can be solved as an optimization problem where the energy function $U(\cdot)$ has to be minimized. There are different possibilities to define the energy function $U(\cdot)$. However, this is common to define the energy function such that it combines two type of potential function: (i) a local term relative to the pixel itself and (ii) a smoothing prior which embeds neighbourhood information which will more or less penalizes the energy function to obtain more or less homogeneous region. This optimization of such function can be performed algorithm such as iterated conditional modes (\cite{Kato2001}).
+Thus the segmentation problem can be solved as an optimization problem where the energy function $U(\cdot)$ has to be minimized. There are different possibilities to define the energy function $U(\cdot)$. However, this is common to define the energy function such that it combines two type of potential function: (i) a local term relative to the pixel itself and (ii) a smoothing prior which embeds neighbourhood information which will more or less penalizes the energy function to obtain more or less homogeneous region. This optimization of such function can be performed with an algorithm such as iterated conditional modes (\cite{Kato2001}).
 
-\cite{Liu2009,Ozer2010} used Markov random field as an unsupervised method to segment lesions in multi-parametric \ac{mri} images.
+\cite{Liu2009,Ozer2010} used Markov random fields as an unsupervised method to segment lesions in multi-parametric \ac{mri} images.
 
-\cite{Artan2009,Artan2010} used conditional random field instead of Markov random field to segment their \ac{mri} images. The difference between these two methods reside in the fact that conditional probabilities are used such as:
+\cite{Artan2009,Artan2010} used conditional random fields instead of Markov random fields to segment their \ac{mri} images. The difference between these two methods reside in the fact that conditional probabilities are used such as:
 
 \begin{equation}
 	p(\omega|\mathcal{F}) =  \frac{1}{Z} \exp \left[ - \sum_{s \in I} V_{C1}(\omega_s|\mathcal{F}) - \sum_{\{s,r\} \in C } V_{C2} (\omega_s,\omega_r|\mathcal{F})  \right] \ .
 \label{eq:crf}
 \end{equation}
+
+\noindent $V_{C1}(\cdot)$ is the state (or partition) feature function and $V_{C2}(\cdot)$ is the transition (or edge) feature function (\cite{Kato2012}).
 
 \end{enumerate}
 
@@ -551,9 +547,9 @@ Thus the segmentation problem can be solved as an optimization problem where the
 
 In pattern recognition, the use of model validation techniques to assess the performance of trained classifiers is quite important. Two techniques are broadly used in the development of \ac{cad} system and are summarized in Tab. \ref{tab:valmod}.
 
-The most popular technique used in \ac{cad} systems (see Tab. \ref{tab:valmod}) is the \acf{loo} technique. From the whole data, one patient is kept for validate and the other cases are used to train. This manipulation is repeated until that each patient was used as validation. This technique is popular when working with medical data due to the restricted number of patients included in datasets. Thus, it is allowing to train on a fair number of patients even with a small dataset. However, this technique suffer from high variance and can considered as a non reliable estimate (\cite{Efron1983}).
+The most popular technique used in \ac{cad} systems (see Tab. \ref{tab:valmod}) is the \acf{loo} technique. From the whole data, one patient is kept to validate and the other cases are used to train. This manipulation is repeated until each patient is used for validation. This technique is popular when working with medical data due to the restricted number of patients included in datasets. Thus, it allows to train on a fair number of patients even with a small dataset. However, this technique suffer from high variance and can considered as a non reliable estimate (\cite{Efron1983}).
 
-The other very well known technique used for assessing classifier is the \acf{kcv} technique. This technique is based on splitting the dataset into $k$ subsets where the samples are randomly selected. Then, one fold is kept for the validation and the remaining subsets for training. The classification is then repeated as in the \ac{loo} technique. In our review, the typical values used for $k$ were set to three and five. This technique is more appropriate than the previous one since that it does not suffer from large variance. However, the number of patients in the dataset need to be large enough to apply such technique.
+The other very well known technique used for assessing classifier is the \acf{kcv} technique. This technique is based on splitting the dataset into $k$ subsets where the samples are randomly selected. Then, one fold is kept for the validation and the remaining subsets for training. The classification is then repeated as in the \ac{loo} technique. In our review, the typical values used for $k$ were set to three and five. This technique is more appropriate than the previous one since that it does not suffer from large variance. However, the number of patients in the dataset needs to be large enough to apply such technique.
 
 \subsubsection{Evaluation measure}\label{subsubsec:eval}
 
@@ -793,7 +789,7 @@ The other very well known technique used for assessing classifier is the \acf{kc
 \end{tikzpicture}
 }
 \hspace*{\fill}
-\caption{Comparison of the results in term of AUC for 1.5 and 3.0 Tesla \ac{mri} scanner. The blue value represent the metric and are graphically reported in the blue curve in the center of the figure. The red value correspond to the number of patients in the dataset and is also reported in the center of the figure. The numbers between brackets correspond to the reference as reported in Tab. \ref{tab:sumpap}.}
+\caption{Comparison of the results in term of AUC for 1.5 and 3.0 Tesla \ac{mri} scanners. The {\color{blue}blue} value represents the metric and are graphically reported in the blue curve in the center of the figure. The {\color{red}red} value and areas correspond to the number of patients in the dataset. The numbers between brackets in {\color{semiAuto}green} correspond to the reference as reported in Tab. \ref{tab:sumpap}.}
 \label{fig:auc}
 \end{figure*}
 
@@ -1222,7 +1218,7 @@ The other very well known technique used for assessing classifier is the \acf{kc
 \end{tikzpicture}
 }
 \hspace*{\fill}
-\caption{Comparison of the results in term of sensitivity and specificity for 1.5 and 3.0 Tesla \ac{mri} scanner. The blue value represent the metric and are graphically reported in the blue curve in the center of the figure. The red value correspond to the number of patients in the dataset and is also reported in the center of the figure. The numbers between brackets correspond to the reference as reported in Tab. \ref{tab:sumpap}.}
+\caption{Comparison of the results in term of sensitivity (\ref{fig:sens15},\ref{fig:sens30}) and specificity (\ref{fig:spec15},\ref{fig:spec30}) for 1.5 and 3.0 Tesla \ac{mri} scanners. The {\color{blue}blue} value represents the metric and are graphically reported in the blue curve in the center of the figure. The {\color{red}red} value and areas correspond to the number of patients in the dataset. The numbers between brackets in {\color{semiAuto}green} correspond to the reference as reported in Tab. \ref{tab:sumpap}.}
 \label{fig:sensspec}
 \end{figure*}
 

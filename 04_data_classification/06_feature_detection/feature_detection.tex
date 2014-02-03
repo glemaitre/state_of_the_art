@@ -2,7 +2,7 @@
 
 Discriminative features which can be used to recognize \ac{cap} from healthy tissue have to be first detected. This section will summarize the different strategies employed for this task. The feature type used is summarized in Tab. \ref{tab:feat} while Tab. \ref{tab:featrev} sums up which strategies were used by the different studies reviewed.
 
-\begin{table*}
+\begin{table}
 	\caption{Overview of the feature detection methods used in \ac{cad} systems.}
 	\small
 	\renewcommand{\arraystretch}{.9}
@@ -50,7 +50,7 @@ Discriminative features which can be used to recognize \ac{cap} from healthy tis
 		\hline
 	\end{tabular}
 	\label{tab:feat}
-\end{table*}
+\end{table}
 
 \begin{table*}
 \centering
@@ -359,21 +359,17 @@ The most common model reviewed was the Brix model (\cite{Artan2009,Artan2010,Sun
 	\label{eq:brixmod}
 \end{equation}
 
-\noindent where $S(\cdot)$ is the \ac{dce} signal, $A$ is the parameter simulating the tissue properties, $k_{el}$ is the parameter related to the first-order elimination from the plasma compartment, $k_{ep}$ is the parameter of the transvascular permeability.
+\noindent where $S(\cdot)$ is the \ac{dce} signal, $A$ is the parameter simulating the tissue properties, $k_{el}$ is the parameter related to the first-order elimination from the plasma compartment and $k_{ep}$ is the parameter of the transvascular permeability. Thus, the parameters $k_{ep}$, $k_{el}$ and $A$ are computed from the \ac{mri} data and used as features.
 
-Thus, the parameters $k_{ep}$, $k_{el}$ and $A$ are computed and used as features.
-
-Tofts model (\cite{Tofts1997}) was used by \cite{Langer2009,Giannini2013,Niaf2011,Niaf2012,Mazzetti2011}. The \ac{dce} signal relative to the concentration is then modelled such as:
+The Tofts model (\cite{Tofts1997}) was used by \cite{Langer2009,Giannini2013,Niaf2011,Niaf2012,Mazzetti2011}. The \ac{dce} signal relative to the concentration is modelled as:
 \begin{equation}
 	C_t(t) = v_p C_p(t) + K_{trans} \int_{0}^{t} C_p(\tau) \exp( -k_{ep}(t-\tau) ) \ d\tau \ ,
 	\label{eq:tofts} 
 \end{equation}
 
-\noindent where $C_t(\cdot)$ is the concentration of the medium, $C_p(\cdot)$ is the \ac{aif} which have to be estimated apart, $K_{trans}$ is the parameter related to the diffuse transport of media across the capillary endothelium, $k_{ep}$ is the parameter related to the exchanges back into the vascular space and $v_e$ is the extravascular-extracellular space fraction such as $v_e = 1 - v_p$. 
+\noindent where $C_t(\cdot)$ is the concentration of the medium, $C_p(\cdot)$ is the \ac{aif} which have to be estimated apart, $K_{trans}$ is the parameter related to the diffuse transport of media across the capillary endothelium, $k_{ep}$ is the parameter related to the exchanges back into the vascular space and $v_e$ is the extravascular-extracellular space fraction defined as $v_e = 1 - v_p$. Thus, the parameters $K_{trans}$, $k_{ep}$ and $v_e$ are computed and used as features in this model.
 
-Thus, the parameters $K_{trans}$, $k_{ep}$ and $v_e$ are computed and used as features.
-
-\cite{Mazzetti2011} and \cite{Giannini2013} employed two others empirical models. A Weibull function was used and can be formalized such as:
+\cite{Mazzetti2011} and \cite{Giannini2013} used the Weibull function empirically formalized as:
 \begin{equation}
 	S(t) = A t \exp( -t^{B} ) \ ,
 	\label{eq:weibull}
@@ -381,13 +377,15 @@ Thus, the parameters $K_{trans}$, $k_{ep}$ and $v_e$ are computed and used as fe
 
 \noindent where $A$ and $B$ are the two parameters which have to be inferred.
 
-The other empirical model is called phenomenological universalities model (\cite{Castorina2006}) which can be formalized:
+They also used another empirical model which is based on the West-like function and named the phenomenological universalities model (\cite{Castorina2006}) formalized as:
 \begin{equation}
-	S(t) = \exp \left( r t + \frac{1}{\beta} a_0 - r ( \exp( \beta t ) - 1 ) \right) \ ,
+	S(t) = \exp \left[ r t + \frac{1}{\beta} a_0 - r \left( \exp( \beta t ) - 1 \right) \right] \ ,
 	\label{eq:pun}
 \end{equation}
 
-\noindent where the parameters $\beta$, $a_0$ and $r$ are inferred by using curve fitting approach.
+\noindent where the parameters $\beta$, $a_0$ and $r$ are inferred.
+
+For all these models, the parameters are inferred using an optimization curve fitting approach.
 
 \end{enumerate}
 
@@ -397,9 +395,9 @@ The other empirical model is called phenomenological universalities model (\cite
 \setlist{noitemsep}
 \begin{enumerate}[leftmargin=*]
 
-\item[$-$] \textbf{\textit{Whole spectra approach:}} As for the \ac{dce} analysis, one common approach is to incorporate the whole \ac{mrsi} spectra in the feature vector to classify (\cite{Kelm2007,Parfait2012,Tiwari2007,Tiwari2009,Tiwari2013,Tiwari2009a,Tiwari2010,Viswanath2008a,Matulewicz2013}) Sometimes post-processing involving dimension reduction methods is perform to reduce the complexity during the classification as it will be presented in Sect. \ref{subsec:featureselectionextraction}.
+\item[$-$] \textbf{\textit{Whole spectra approach:}} As for the \ac{dce} analysis, one common approach is to incorporate the whole \ac{mrsi} spectra in the feature vector for classification (\cite{Kelm2007,Parfait2012,Tiwari2007,Tiwari2009,Tiwari2013,Tiwari2009a,Tiwari2010,Viswanath2008a,Matulewicz2013}). Sometimes post-processing involving dimension reduction methods is performed to reduce the complexity during the classification as it will be presented in Sect. \ref{subsec:featureselectionextraction}.
 
-\item[$-$] \textbf{\textit{Quantification approach:}} We cab recall that in \ac{mrsi} only few biological markers (cf., choline, creatine and citrate metabolites mainly) are known to be useful to discriminate \ac{cap} and healthy tissue. Then, quantification of these metabolite concentrations are considered as feature for further classification. In order to perform this quantification, four different approaches have been used. QUEST (\cite{Ratiney2005}), AMARES (\cite{Vanhamme1997}) and VARPRO (\cite{Coleman1993}) were used by \cite{Kelm2007} which are all time-domain quantification methods varying by the type of pre-knowledge embedded and the optimization approaches used to solve the quantification problem. Unlike the previous method, \cite{Parfait2012} used the LcModel approach (\cite{Provencher1993}) which solves the optimization problem in the frequency domain.
+\item[$-$] \textbf{\textit{Quantification approach:}} We can recall that in \ac{mrsi} only few biological markers (cf., choline, creatine and citrate metabolites mainly) are known to be useful to discriminate \ac{cap} and healthy tissue. Then, quantification of these metabolites concentrations is considered as features which will be later classify. In order to perform this quantification, four different approaches have been used. The QUEST (\cite{Ratiney2005}), AMARES (\cite{Vanhamme1997}) and VARPRO (\cite{Coleman1993}) models were used by \cite{Kelm2007}. They are all time-domain quantification methods varying by the type of pre-knowledge embedded and the optimization approaches used to solve the quantification problem. Unlike the previous method, \cite{Parfait2012} used the LcModel approach (\cite{Provencher1993}) which solves the optimization problem in the frequency domain.
 
 Once the different concentrations are computed, \cite{Kelm2007} calculated the relative concentrations (Eq. \eqref{eq:ratio1} and \eqref{eq:ratio2}) and used them as features. However, \cite{Parfait2012} used each metabolite concentrations individually.
 
@@ -410,6 +408,6 @@ Once the different concentrations are computed, \cite{Kelm2007} calculated the r
 
 \noindent where $\text{Cit}$, $\text{Cho}$ and $\text{Cr}$ are the concentration of citrate, choline and creatine respectively.
 
-\item[$-$] \textbf{\textit{Wavelet decomposition approach:}} \cite{Tiwari2012} performed a wavelet packet decomposition (\cite{Coifman1992}) by using the Haar wavelet basis function and use the coefficients of this decomposition as features for further classification.
+\item[$-$] \textbf{\textit{Wavelet decomposition approach:}} \cite{Tiwari2012} performed a wavelet packet decomposition (\cite{Coifman1992}) with the Haar wavelet basis function and used the coefficients of this decomposition as features for further classification.
 
 \end{enumerate}

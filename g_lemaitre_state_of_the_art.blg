@@ -2,14 +2,10 @@ This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: g_lemaitre_state_of_the_art.aux
 The style file: model2-names.bst
-Reallocated field_info (elt_size=4) to 12569 items from 5000.
+Reallocated field_info (elt_size=4) to 12598 items from 5000.
 Database file #1: bibtex/literature_review.bib.bib
-Warning--entry type for "Society2013" isn't style-file defined
---line 92 of file bibtex/literature_review.bib.bib
-Warning--entry type for "Society2010" isn't style-file defined
---line 105 of file bibtex/literature_review.bib.bib
 Warning--entry type for "Doi1987" isn't style-file defined
---line 858 of file bibtex/literature_review.bib.bib
+--line 783 of file bibtex/literature_review.bib.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Too many commas in name 4 of "Liu, P. and Wang, S. and Turkbey, B. and Grant, K.and Pinto, P.and Choyke, P. and Wood, B. J. and Summers, R. M." for entry Liu2013
 while executing---line 3089 of file model2-names.bst
@@ -27,24 +23,16 @@ Name 5 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madab
 while executing---line 3089 of file model2-names.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty pages in Ampeliotis2008
-Warning--empty journal in Antic2013
-Warning--empty journal in Giannini2013
 Warning--can't use both author and editor fields in Gleason1977
-Warning--empty journal in Litjens2012
-Warning--empty journal in Litjens2011
 Too many commas in name 4 of "Liu, P. and Wang, S. and Turkbey, B. and Grant, K.and Pinto, P.and Choyke, P. and Wood, B. J. and Summers, R. M." for entry Liu2013
 while executing---line 3271 of file model2-names.bst
 Too many commas in name 4 of "Liu, P. and Wang, S. and Turkbey, B. and Grant, K.and Pinto, P.and Choyke, P. and Wood, B. J. and Summers, R. M." for entry Liu2013
 while executing---line 3271 of file model2-names.bst
-Warning--empty journal in Liu2013
-Warning--empty journal in Mazzetti2011
 Warning--empty pages in Mitra2011
-Warning--empty journal in Niaf2011
+Warning--empty pages in Niaf2011
 Warning--can't use both author and editor fields in Osorio-Garcia2012
 Warning--can't use both author and editor fields in Prewitt1970
 Warning--empty pages in Prewitt1970
-Warning--missing institution in Quinonero-Candela2002
-Warning--empty booktitle in Rumelhart1988
 Warning--empty pages in Tofts2010
 Name 1 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
 while executing---line 3271 of file model2-names.bst
@@ -71,50 +59,50 @@ while executing---line 3271 of file model2-names.bst
 Name 5 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
 while executing---line 3271 of file model2-names.bst
 Warning--empty pages in Toth2009
-Warning--empty journal in Viswanath2011
+Warning--empty pages in Viswanath2011
 Warning--empty pages in Viswanath2009
 Warning--empty pages in Viswanath2008
 Warning--empty pages in Vos2008
 Warning--empty pages in Walker2010
-You've used 261 entries,
+You've used 262 entries,
             2990 wiz_defined-function locations,
-            2430 strings with 67431 characters,
-and the built_in function-call counts, 209742 in all, are:
-= -- 15035
-> -- 10924
-< -- 101
-+ -- 4166
-- -- 3899
-* -- 24988
-:= -- 30498
-add.period$ -- 795
-call.type$ -- 261
-change.case$ -- 2596
-chr.to.int$ -- 255
-cite$ -- 283
-duplicate$ -- 14362
-empty$ -- 13913
-format.name$ -- 4675
-if$ -- 38336
+            2370 strings with 65132 characters,
+and the built_in function-call counts, 210518 in all, are:
+= -- 14997
+> -- 10949
+< -- 108
++ -- 4175
+- -- 3907
+* -- 24863
+:= -- 30529
+add.period$ -- 752
+call.type$ -- 262
+change.case$ -- 2606
+chr.to.int$ -- 256
+cite$ -- 276
+duplicate$ -- 14545
+empty$ -- 14046
+format.name$ -- 4689
+if$ -- 38567
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 3099
-newline$ -- 1332
-num.names$ -- 1050
-pop$ -- 5279
+missing$ -- 3121
+newline$ -- 1291
+num.names$ -- 1056
+pop$ -- 5428
 preamble$ -- 1
-purify$ -- 2342
+purify$ -- 2348
 quote$ -- 0
-skip$ -- 3758
+skip$ -- 3861
 stack$ -- 0
-substring$ -- 8810
-swap$ -- 11691
-text.length$ -- 25
+substring$ -- 8866
+swap$ -- 11796
+text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2316
-warning$ -- 22
-while$ -- 1193
+type$ -- 2322
+warning$ -- 14
+while$ -- 1205
 width$ -- 0
-write$ -- 3729
+write$ -- 3643
 (There were 21 error messages)

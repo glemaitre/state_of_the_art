@@ -1,4 +1,4 @@
-\begin{thebibliography}{261}
+\begin{thebibliography}{262}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -27,7 +27,6 @@
 \newblock \bibinfo{title}{{{D}iscrete cosine transform}}.
 \newblock \bibinfo{journal}{Computers, IEEE Transactions on}
   \bibinfo{volume}{C-23}, \bibinfo{pages}{90--93}.
-\newblock \DOIprefix\doi{10.1109/T-C.1974.223784}.
 %Type = Inproceedings
 \bibitem[{Aizerman et~al.(1964)Aizerman, Braverman and Rozonoer}]{Aizerman1964}
 \bibinfo{author}{Aizerman, M.A.}, \bibinfo{author}{Braverman, E.A.},
@@ -64,17 +63,21 @@
   properties}}.
 \newblock \bibinfo{journal}{Systems, Man and Cybernetics, IEEE Transactions on}
   \bibinfo{volume}{19}, \bibinfo{pages}{1264--1274}.
-\newblock \DOIprefix\doi{10.1109/21.44046}.
 %Type = Misc
 \bibitem[{American Cancer~Society(2010)}]{Society2010}
 \bibinfo{author}{American Cancer~Society, A.C.}, \bibinfo{year}{2010}.
 \newblock \bibinfo{title}{{{C}ancer Facts and Figures 2010}}.
+\newblock
+  \bibinfo{howpublished}{http://www.cancer.org/research/cancerfactsfigures}.
 \newblock \URLprefix \url{http://www.cancer.org/research/cancerfactsfigures}.
+  \bibinfo{note}{accessed: 2013-08-01}.
 %Type = Misc
 \bibitem[{American Cancer~Society(2013)}]{Society2013}
 \bibinfo{author}{American Cancer~Society, A.C.}, \bibinfo{year}{2013}.
 \newblock \bibinfo{title}{{{C}ancer Facts and Figures 2013}}.
-\newblock \URLprefix \url{http://www.cancer.org/research/cancerfactsfigures}.
+\newblock
+  \bibinfo{howpublished}{http://www.cancer.org/research/cancerfactsfigures}.
+\newblock \bibinfo{note}{Accessed: 2013-08-01}.
 %Type = Inproceedings
 \bibitem[{Ampeliotis et~al.(2007)Ampeliotis, Anonakoudi, Berberidis and
   Psarakis}]{Ampeliotis2007}
@@ -154,7 +157,7 @@
   Prostate-cancer screening trial}}.
 \newblock \bibinfo{journal}{New England Journal of Medicine}
   \bibinfo{volume}{360}, \bibinfo{pages}{1310--1319}.
-%Type = Article
+%Type = Inproceedings
 \bibitem[{Antic et~al.(2013)Antic, Peng, Jiang, Giger, Eggener and
   Oto}]{Antic2013}
 \bibinfo{author}{Antic, T.}, \bibinfo{author}{Peng, Y.},
@@ -163,7 +166,9 @@
   \bibinfo{year}{2013}.
 \newblock \bibinfo{title}{{{A} study of {T}2-weighted {M}{R} image texture
   features and diffusion-weighted {M}{R} image features for computer-aided
-  diagnosis of prostate cancer}} , \bibinfo{pages}{86701H--86701H--6}.
+  diagnosis of prostate cancer}}, in: \bibinfo{booktitle}{Proc. SPIE 8670,
+  Medical Imaging 2013: Computer-Aided Diagnosis}, pp.
+  \bibinfo{pages}{86701H--86701H--6}.
 %Type = Article
 \bibitem[{Artan et~al.(2010)Artan, Haider, Langer, van~der Kwast, Evans, Yang,
   Wernick, Trachtenberg and Yetik}]{Artan2010}
@@ -222,7 +227,6 @@
   contexts}}.
 \newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
   Transactions on} \bibinfo{volume}{24}, \bibinfo{pages}{509--522}.
-\newblock \DOIprefix\doi{10.1109/34.993558}.
 %Type = Article
 \bibitem[{Benassi et~al.(1998)Benassi, Cohen and Istas}]{Benassi1998}
 \bibinfo{author}{Benassi, A.}, \bibinfo{author}{Cohen, S.},
@@ -231,9 +235,6 @@
   {G}aussian process}}.
 \newblock \bibinfo{journal}{Statistics \& Probability Letters}
   \bibinfo{volume}{39}, \bibinfo{pages}{337 -- 345}.
-\newblock \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/S0167715298000789},
-  \DOIprefix\doi{http://dx.doi.org/10.1016/S0167-7152(98)00078-9}.
 %Type = Book
 \bibitem[{Bishop(2006)}]{Bishop2006}
 \bibinfo{author}{Bishop, C.M.}, \bibinfo{year}{2006}.
@@ -247,7 +248,6 @@
   decomposition of deformations}}.
 \newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
   Transactions on} \bibinfo{volume}{11}, \bibinfo{pages}{567--585}.
-\newblock \DOIprefix\doi{10.1109/34.24792}.
 %Type = Inproceedings
 \bibitem[{Boser et~al.(1992)Boser, Guyon and Vapnik}]{Boser1992}
 \bibinfo{author}{Boser, B.E.}, \bibinfo{author}{Guyon, I.M.},
@@ -256,8 +256,6 @@
   classifiers}}, in: \bibinfo{booktitle}{Proceedings of the Fifth Annual
   Workshop on Computational Learning Theory}, \bibinfo{publisher}{ACM},
   \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{144--152}.
-\newblock \URLprefix \url{http://doi.acm.org/10.1145/130385.130401},
-  \DOIprefix\doi{10.1145/130385.130401}.
 %Type = Article
 \bibitem[{Bourdoumis et~al.(2010)Bourdoumis, Papatsoris, Chrisofos, Efstathiou,
   Skolarikos and Deliveliotis}]{Bourdoumis2010}
@@ -320,8 +318,6 @@
   optimization}}.
 \newblock \bibinfo{journal}{SIAM J. Sci. Comput.} \bibinfo{volume}{16},
   \bibinfo{pages}{1190--1208}.
-\newblock \URLprefix \url{http://dx.doi.org/10.1137/0916069},
-  \DOIprefix\doi{10.1137/0916069}.
 %Type = Article
 \bibitem[{Carmeliet and Jain(2000)}]{Carmeliet2000}
 \bibinfo{author}{Carmeliet, P.}, \bibinfo{author}{Jain, R.K.},
@@ -346,9 +342,6 @@
   universalities in growth problems in physics and other sciences}}.
 \newblock \bibinfo{journal}{Phys. Rev. Lett.} \bibinfo{volume}{96},
   \bibinfo{pages}{188701}.
-\newblock \URLprefix
-  \url{http://link.aps.org/doi/10.1103/PhysRevLett.96.188701},
-  \DOIprefix\doi{10.1103/PhysRevLett.96.188701}.
 %Type = Article
 \bibitem[{Chan et~al.(1987)Chan, Doi, Galhotra, Vyborny, MacMahon and
   Jokich}]{Chan1987}
@@ -415,9 +408,6 @@
   correction of \{NMR\} spectra based on entropy minimization }}.
 \newblock \bibinfo{journal}{Journal of Magnetic Resonance}
   \bibinfo{volume}{158}, \bibinfo{pages}{164 -- 168}.
-\newblock \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/S1090780702000691},
-  \DOIprefix\doi{http://dx.doi.org/10.1016/S1090-7807(02)00069-1}.
 %Type = Article
 \bibitem[{Cheng et~al.(2010)Cheng, Shan, Ju, Guo and Zhang}]{Cheng2010}
 \bibinfo{author}{Cheng, H.D.}, \bibinfo{author}{Shan, J.}, \bibinfo{author}{Ju,
@@ -477,7 +467,6 @@
   selection}}.
 \newblock \bibinfo{journal}{Information Theory, IEEE Transactions on}
   \bibinfo{volume}{38}, \bibinfo{pages}{713--718}.
-\newblock \DOIprefix\doi{10.1109/18.119732}.
 %Type = Techreport
 \bibitem[{Coleman and Li(1993)}]{Coleman1993}
 \bibinfo{author}{Coleman, T.}, \bibinfo{author}{Li, Y.}, \bibinfo{year}{1993}.
@@ -493,8 +482,6 @@
   application}}.
 \newblock \bibinfo{journal}{Comput. Vis. Image Underst.} \bibinfo{volume}{61},
   \bibinfo{pages}{38--59}.
-\newblock \URLprefix \url{http://dx.doi.org/10.1006/cviu.1995.1004},
-  \DOIprefix\doi{10.1006/cviu.1995.1004}.
 %Type = Article
 \bibitem[{Cortes and Vapnik(1995)}]{Cortes1995}
 \bibinfo{author}{Cortes, C.}, \bibinfo{author}{Vapnik, V.},
@@ -502,8 +489,6 @@
 \newblock \bibinfo{title}{{{S}upport-{V}ector networks}}.
 \newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{20},
   \bibinfo{pages}{273--297}.
-\newblock \URLprefix \url{http://dx.doi.org/10.1023/A%3A1022627411411},
-  \DOIprefix\doi{10.1023/A:1022627411411}.
 %Type = Article
 \bibitem[{Costello and Franklin(2006)}]{Costello2006}
 \bibinfo{author}{Costello, L.C.}, \bibinfo{author}{Franklin, R.B.},
@@ -533,7 +518,6 @@
   detection}}, in: \bibinfo{booktitle}{Computer Vision and Pattern Recognition,
   2005. CVPR 2005. IEEE Computer Society Conference on}, pp.
   \bibinfo{pages}{886--893 vol. 1}.
-\newblock \DOIprefix\doi{10.1109/CVPR.2005.177}.
 %Type = Article
 \bibitem[{Daugman(1985)}]{Daugman1985}
 \bibinfo{author}{Daugman, J.G.}, \bibinfo{year}{1985}.
@@ -605,7 +589,6 @@
 \newblock \bibinfo{title}{{{I}deal spatial adaptation by wavelet shrinkage}}.
 \newblock \bibinfo{journal}{Biometrika} \bibinfo{volume}{81},
   \bibinfo{pages}{425--455}.
-\newblock \DOIprefix\doi{10.1093/biomet/81.3.425}.
 %Type = Article
 \bibitem[{Doo et~al.(2012)Doo, Sung, Park, Kim, Cho, Oh, Ko and Yang}]{Doo2012}
 \bibinfo{author}{Doo, K.W.}, \bibinfo{author}{Sung, D.J.},
@@ -624,8 +607,6 @@
   jackknife}}.
 \newblock \bibinfo{journal}{The Annals of Statistics} \bibinfo{volume}{7},
   \bibinfo{pages}{1--26}.
-\newblock \URLprefix \url{http://dx.doi.org/10.1214/aos/1176344552},
-  \DOIprefix\doi{10.1214/aos/1176344552}.
 %Type = Article
 \bibitem[{Efron(1983)}]{Efron1983}
 \bibinfo{author}{Efron, B.}, \bibinfo{year}{1983}.
@@ -633,7 +614,6 @@
   {I}mprovement on cross-validation}}.
 \newblock \bibinfo{journal}{Journal of the American Statistical Association}
   \bibinfo{volume}{78}, \bibinfo{pages}{pp. 316--331}.
-\newblock \URLprefix \url{http://www.jstor.org/stable/2288636}.
 %Type = Article
 \bibitem[{Elter and Horsch(2009)}]{Elter2009}
 \bibinfo{author}{Elter, M.}, \bibinfo{author}{Horsch, A.},
@@ -686,7 +666,6 @@
   accumulation}}.
 \newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
   Transactions on} \bibinfo{volume}{27}, \bibinfo{pages}{835--850}.
-\newblock \DOIprefix\doi{10.1109/TPAMI.2005.113}.
 %Type = Article
 \bibitem[{Freedman et~al.(2006)Freedman, Haiman, Patterson, McDonald, Tandon,
   Waliszewska, Penney, Steen, Ardlie, John, Oakley-Girvan, Whittemore, Cooney,
@@ -712,16 +691,12 @@
   learning and an application to boosting}}.
 \newblock \bibinfo{journal}{Journal of Computer and System Sciences}
   \bibinfo{volume}{55}, \bibinfo{pages}{119 -- 139}.
-\newblock \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/S002200009791504X},
-  \DOIprefix\doi{http://dx.doi.org/10.1006/jcss.1997.1504}.
 %Type = Article
 \bibitem[{Friedman(1989)}]{Friedman1989}
 \bibinfo{author}{Friedman, J.}, \bibinfo{year}{1989}.
 \newblock \bibinfo{title}{{{R}egularized discriminant analysis}}.
 \newblock \bibinfo{journal}{Journal of the American Statistical Association}
   \bibinfo{volume}{84}, \bibinfo{pages}{pp. 165--175}.
-\newblock \URLprefix \url{http://www.jstor.org/stable/2289860}.
 %Type = Article
 \bibitem[{Gabor(1946)}]{Gabor1946}
 \bibinfo{author}{Gabor, D.}, \bibinfo{year}{1946}.
@@ -730,7 +705,6 @@
 \newblock \bibinfo{journal}{Electrical Engineers - Part III: Radio and
   Communication Engineering, Journal of the Institution of}
   \bibinfo{volume}{93}, \bibinfo{pages}{429--441}.
-\newblock \DOIprefix\doi{10.1049/ji-3-2.1946.0074}.
 %Type = Article
 \bibitem[{Ghose et~al.(2012)Ghose, Oliver, Marti, Llado, Vilanova, Freixenet,
   Mitra, Sidibe and Meriaudeau}]{Ghose2012}
@@ -743,7 +717,7 @@
   ultrasound, magnetic resonance and computed tomography images}}.
 \newblock \bibinfo{journal}{Comput Methods Programs Biomed}
   \bibinfo{volume}{108}, \bibinfo{pages}{262--287}.
-%Type = Article
+%Type = Inproceedings
 \bibitem[{Giannini et~al.(2013)Giannini, Vignati, Mazzetti, De~Luca, Bracco,
   Stasi, Russo, Armando and Regge}]{Giannini2013}
 \bibinfo{author}{Giannini, V.}, \bibinfo{author}{Vignati, A.},
@@ -753,7 +727,8 @@
   \bibinfo{author}{Regge, D.}, \bibinfo{year}{2013}.
 \newblock \bibinfo{title}{{{A} prostate {C}{A}{D} system based on
   multiparametric analysis of {D}{C}{E} {T}1-w, and {D}{W} automatically
-  registered images}} , \bibinfo{pages}{86703E--86703E--6}.
+  registered images}}, in: \bibinfo{booktitle}{Proc. SPIE 8670, Medical Imaging
+  2013: Computer-Aided Diagnosis}, pp. \bibinfo{pages}{86703E--86703E--6}.
 %Type = Article
 \bibitem[{Gibbs et~al.(2001)Gibbs, Tozer, Liney and Turnbull}]{Gibbs2001}
 \bibinfo{author}{Gibbs, P.}, \bibinfo{author}{Tozer, D.J.},
@@ -853,7 +828,6 @@
 \newblock \bibinfo{title}{{{M}agnetic resonance imaging: Physical principles
   and sequence design}}.
 \newblock \bibinfo{publisher}{Wiley}.
-\newblock \URLprefix \url{http://books.google.es/books?id=BnOvQgAACAAJ}.
 %Type = Article
 \bibitem[{Haas et~al.(2007)Haas, Delongchamps, Jones, Chandan, Serio, Vickers,
   Jumbelic, Threatte, Korets, Lilja and de~la Roza}]{Haas2007}
@@ -908,7 +882,6 @@
 \newblock \bibinfo{title}{{{T}extural features for image classification}}.
 \newblock \bibinfo{journal}{Systems, Man and Cybernetics, IEEE Transactions on}
   \bibinfo{volume}{SMC-3}, \bibinfo{pages}{610--621}.
-\newblock \DOIprefix\doi{10.1109/TSMC.1973.4309314}.
 %Type = Article
 \bibitem[{Hegde et~al.(2013)Hegde, Mulkern, Panych, Fennessy, Fedorov, Maier
   and Tempany}]{Hegde2013}
@@ -929,9 +902,10 @@
   \bibinfo{author}{Montorsi, F.}, \bibinfo{author}{Van~Poppel, H.},
   \bibinfo{author}{Wirth, M.}, \bibinfo{author}{Mottet, N.},
   \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{E}arly {D}etection of {P}rostate {C}ancer:
-  {E}uropean {A}ssociation of {U}rology {R}ecommendation}}.
-\newblock \bibinfo{journal}{Eur. Urol.} .
+\newblock \bibinfo{title}{{{E}arly detection of prostate cancer: {E}uropean
+  {A}ssociation of {U}rology recommendation}}.
+\newblock \bibinfo{journal}{Eur. Urol.} \bibinfo{volume}{64},
+  \bibinfo{pages}{347--354}.
 %Type = Article
 \bibitem[{Hero et~al.(2002)Hero, Ma, Michel and Gorman}]{Hero2002}
 \bibinfo{author}{Hero, A.}, \bibinfo{author}{Ma, B.}, \bibinfo{author}{Michel,
@@ -939,7 +913,6 @@
 \newblock \bibinfo{title}{{{A}pplications of entropic spanning graphs}}.
 \newblock \bibinfo{journal}{Signal Processing Magazine, IEEE}
   \bibinfo{volume}{19}, \bibinfo{pages}{85--95}.
-\newblock \DOIprefix\doi{10.1109/MSP.2002.1028355}.
 %Type = Article
 \bibitem[{Hoeks et~al.(2011)Hoeks, Barentsz, Hambrock, Yakar, Somford,
   Heijmink, Scheenen, Vos, Huisman, van Oort, Witjes, Heerschap and
@@ -1063,8 +1036,6 @@
 \bibinfo{author}{Jolliffe, I.T.}, \bibinfo{year}{2002}.
 \newblock \bibinfo{title}{{{P}rincipal Component Analysis}}.
 \newblock \bibinfo{edition}{Second} ed., \bibinfo{publisher}{Springer}.
-\newblock \URLprefix
-  \url{http://www.amazon.com/exec/obidos/redirect?tag=citeulike07-20\&path=ASIN/0387954422}.
 %Type = Inproceedings
 \bibitem[{Jungke et~al.(1987)Jungke, Von~Seelen, Bielke, Meindl, Grigat and
   Pfannenstiel}]{Jungke1987}
@@ -1097,8 +1068,13 @@
   \bibinfo{publisher}{Springer Berlin Heidelberg}. volume
   \bibinfo{volume}{2124} of \textit{\bibinfo{series}{Lecture Notes in Computer
   Science}}, pp. \bibinfo{pages}{547--554}.
-\newblock \URLprefix \url{http://dx.doi.org/10.1007/3-540-44692-3_66},
-  \DOIprefix\doi{10.1007/3-540-44692-3_66}.
+%Type = Book
+\bibitem[{Kato and Zerubia(2012)}]{Kato2012}
+\bibinfo{author}{Kato, Z.}, \bibinfo{author}{Zerubia, J.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{Markov Random Fields in Image Segmentation.
+  Collection Foundation and Trends in Signal Processing}}.
+\newblock \bibinfo{publisher}{Now Editor, World Scientific}.
 %Type = Article
 \bibitem[{Kelm et~al.(2007)Kelm, Menze, Zechmann, Baudendistel and
   Hamprecht}]{Kelm2007}
@@ -1143,9 +1119,6 @@
   structure of biological images }}.
 \newblock \bibinfo{journal}{Computers and Biomedical Research}
   \bibinfo{volume}{4}, \bibinfo{pages}{315 -- 328}.
-\newblock \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/0010480971900346},
-  \DOIprefix\doi{http://dx.doi.org/10.1016/0010-4809(71)90034-6}.
 %Type = Article
 \bibitem[{Koh and Collins(2007)}]{Koh2007}
 \bibinfo{author}{Koh, D.M.}, \bibinfo{author}{Collins, D.J.},
@@ -1206,9 +1179,6 @@
   data quantitation}}.
 \newblock \bibinfo{journal}{Journal of Magnetic Resonance}
   \bibinfo{volume}{157}, \bibinfo{pages}{292 -- 297}.
-\newblock \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/S1090780702925930},
-  \DOIprefix\doi{http://dx.doi.org/10.1006/jmre.2002.2593}.
 %Type = Article
 \bibitem[{Le~Bihan et~al.(1988)Le~Bihan, Breton, Lallemand, Aubin, Vignaud and
   Laval-Jeantet}]{LeBihan1988}
@@ -1337,25 +1307,27 @@
   segmentation of the prostate on {M}{R}{I}}}.
 \newblock \bibinfo{journal}{Med Image Comput Comput Assist Interv}
   \bibinfo{volume}{15}, \bibinfo{pages}{413--420}.
-%Type = Article
+%Type = Inproceedings
 \bibitem[{Litjens et~al.(2012b)Litjens, Barentsz, Karssemeijer and
   Huisman}]{Litjens2012}
 \bibinfo{author}{Litjens, G.J.S.}, \bibinfo{author}{Barentsz, J.O.},
   \bibinfo{author}{Karssemeijer, N.}, \bibinfo{author}{Huisman, H.J.},
   \bibinfo{year}{2012}b.
 \newblock \bibinfo{title}{{{A}utomated computer-aided detection of prostate
-  cancer in MR images: from a whole-organ to a zone-based approach}} ,
-  \bibinfo{pages}{83150G--83150G--6}.
-%Type = Article
+  cancer in MR images: from a whole-organ to a zone-based approach}}, in:
+  \bibinfo{booktitle}{Proc. SPIE 8315, Medical Imaging 2012: Computer-Aided
+  Diagnosis}, pp. \bibinfo{pages}{83150G--83150G--6}.
+%Type = Inproceedings
 \bibitem[{Litjens et~al.(2011)Litjens, Vos, Barentsz, Karssemeijer and
   Huisman}]{Litjens2011}
 \bibinfo{author}{Litjens, G.J.S.}, \bibinfo{author}{Vos, P.C.},
   \bibinfo{author}{Barentsz, J.O.}, \bibinfo{author}{Karssemeijer, N.},
   \bibinfo{author}{Huisman, H.J.}, \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{{{A}utomatic computer aided detection of
-  abnormalities in multi-parametric prostate {M}{R}{I}}} ,
-  \bibinfo{pages}{79630T--79630T--7}.
-%Type = Article
+  abnormalities in multi-parametric prostate {M}{R}{I}}}, in:
+  \bibinfo{booktitle}{Proc. SPIE 7963, Medical Imaging 2011: Computer-Aided
+  Diagnosis}, pp. \bibinfo{pages}{79630T--79630T--7}.
+%Type = Inproceedings
 \bibitem[{Liu et~al.(2013)Liu, Wang, Turkbey, Grant, Wood and
   Summers}]{Liu2013}
 \bibinfo{author}{Liu, P.}, \bibinfo{author}{Wang, S.},
@@ -1363,8 +1335,9 @@
   \bibinfo{author}{Wood, B.J.}, \bibinfo{author}{Summers, R.M.},
   \bibinfo{year}{2013}.
 \newblock \bibinfo{title}{{{A} prostate cancer computer-aided diagnosis system
-  using multimodal magnetic resonance imaging and targeted biopsy labels}} ,
-  \bibinfo{pages}{86701G--86701G--6}.
+  using multimodal magnetic resonance imaging and targeted biopsy labels}}, in:
+  \bibinfo{booktitle}{Proc. SPIE 8670, Medical Imaging 2013: Computer-Aided
+  Diagnosis}, pp. \bibinfo{pages}{86701G--86701G--6}.
 %Type = Article
 \bibitem[{Liu et~al.(2011)Liu, Turkbey, Senegas, Remmele, Xu, Kruecker,
   Bernardo, Wood, Pinto and Choyke}]{Liu2011}
@@ -1438,9 +1411,6 @@
   application to image inhomogeneity correction }}.
 \newblock \bibinfo{journal}{Computer Vision and Image Understanding}
   \bibinfo{volume}{101}, \bibinfo{pages}{100 -- 121}.
-\newblock \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/S1077314205001244},
-  \DOIprefix\doi{http://dx.doi.org/10.1016/j.cviu.2005.07.010}.
 %Type = Article
 \bibitem[{Madabhushi and Udupa(2006)}]{Madabhushi2006a}
 \bibinfo{author}{Madabhushi, A.}, \bibinfo{author}{Udupa, J.K.},
@@ -1485,10 +1455,8 @@
   detection with artificial neural networks analysis of 1H magnetic resonance
   spectroscopic imaging}}.
 \newblock \bibinfo{journal}{Journal of Magnetic Resonance Imaging} ,
-  \bibinfo{pages}{n/a--n/a}\URLprefix
-  \url{http://dx.doi.org/10.1002/jmri.24487},
-  \DOIprefix\doi{10.1002/jmri.24487}.
-%Type = Article
+  \bibinfo{pages}{n/a--n/a}.
+%Type = Inproceedings
 \bibitem[{Mazzetti et~al.(2011)Mazzetti, De~Luca, Bracco, Vignati, Giannini,
   Stasi, Russo, Armando, Agliozzo and Regge}]{Mazzetti2011}
 \bibinfo{author}{Mazzetti, S.}, \bibinfo{author}{De~Luca, M.},
@@ -1498,8 +1466,9 @@
   \bibinfo{author}{Agliozzo, S.}, \bibinfo{author}{Regge, D.},
   \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{{{A} {C}{A}{D} system based on multi-parametric
-  analysis for cancer prostate detection on {D}{C}{E}-{M}{R}{I}}} ,
-  \bibinfo{pages}{79633Q--79633Q--7}.
+  analysis for cancer prostate detection on {D}{C}{E}-{M}{R}{I}}}, in:
+  \bibinfo{booktitle}{Proc. SPIE 7963, Medical Imaging 2011: Computer-Aided
+  Diagnosis}, pp. \bibinfo{pages}{79633Q--79633Q--7}.
 %Type = Article
 \bibitem[{McNeal(1981)}]{McNeal1981}
 \bibinfo{author}{McNeal, J.E.}, \bibinfo{year}{1981}.
@@ -1523,7 +1492,6 @@
   signals in noise}}.
 \newblock \bibinfo{journal}{Information Theory, IEEE Transactions on}
   \bibinfo{volume}{14}, \bibinfo{pages}{434--444}.
-\newblock \DOIprefix\doi{10.1109/TIT.1968.1054139}.
 %Type = Phdthesis
 \bibitem[{Mitra(2012)}]{Mitra2012}
 \bibinfo{author}{Mitra, J.}, \bibinfo{year}{2012}.
@@ -1554,7 +1522,6 @@
   correspondences and B-splines with uniform grids for multimodal prostate
   registration}}, in: \bibinfo{booktitle}{Society of Photo-Optical
   Instrumentation Engineers (SPIE) Conference Series}.
-\newblock \DOIprefix\doi{10.1117/12.877956}.
 %Type = Article
 \bibitem[{Mohan et~al.(2014)Mohan, Krishnaveni and Guo}]{Mohan2014}
 \bibinfo{author}{Mohan, J.}, \bibinfo{author}{Krishnaveni, V.},
@@ -1563,9 +1530,6 @@
   methods}}.
 \newblock \bibinfo{journal}{Biomedical Signal Processing and Control}
   \bibinfo{volume}{9}, \bibinfo{pages}{56 -- 69}.
-\newblock \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/S1746809413001407},
-  \DOIprefix\doi{http://dx.doi.org/10.1016/j.bspc.2013.10.007}.
 %Type = Article
 \bibitem[{Moore et~al.(2013)Moore, Ridout and Emberton}]{Moore2013}
 \bibinfo{author}{Moore, C.M.}, \bibinfo{author}{Ridout, A.},
@@ -1595,9 +1559,6 @@
 \newblock \bibinfo{title}{{{A} simplex method for function minimization}}.
 \newblock \bibinfo{journal}{The Computer Journal} \bibinfo{volume}{7},
   \bibinfo{pages}{308--313}.
-\newblock
-  \href{http://arxiv.org/abs/http://comjnl.oxfordjournals.org/content/7/4/308.full.pdf+html}{\tt
-  arXiv:http://comjnl.oxfordjournals.org/content/7/4/308.full.pdf+html}.
 %Type = Article
 \bibitem[{Niaf et~al.(2012)Niaf, Rouviere, Mege-Lechevallier, Bratan and
   Lartizien}]{Niaf2012}
@@ -1608,13 +1569,14 @@
   peripheral zone using multiparametric {M}{R}{I}}}.
 \newblock \bibinfo{journal}{Phys Med Biol} \bibinfo{volume}{57},
   \bibinfo{pages}{3833--3851}.
-%Type = Article
+%Type = Inproceedings
 \bibitem[{Niaf et~al.(2011)Niaf, Rouvière and Lartizien}]{Niaf2011}
 \bibinfo{author}{Niaf, E.}, \bibinfo{author}{Rouvière, O.},
   \bibinfo{author}{Lartizien, C.}, \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{{{C}omputer-aided diagnosis for prostate cancer
-  detection in the peripheral zone via multisequence {M}{R}{I}}s} ,
-  \bibinfo{pages}{79633P--79633P--8}.
+  detection in the peripheral zone via multisequence {M}{R}{I}}}, in:
+  \bibinfo{booktitle}{Proc. SPIE 7963, Medical Imaging 2011: Computer-Aided
+  Diagnosis}.
 %Type = Article
 \bibitem[{van Niekerk et~al.(2009)van Niekerk, van~der Laak, Borger, Huisman,
   Witjes, Barentsz and Hulsbergen-van~de Kaa}]{Niekerk2009}
@@ -1654,7 +1616,6 @@
   resonance imaging}}.
 \newblock \bibinfo{journal}{Image Processing, IEEE Transactions on}
   \bibinfo{volume}{8}, \bibinfo{pages}{1408--1419}.
-\newblock \DOIprefix\doi{10.1109/83.791966}.
 %Type = Article
 \bibitem[{Nyul and Udupa(1999)}]{Nyul1999}
 \bibinfo{author}{Nyul, L.G.}, \bibinfo{author}{Udupa, J.K.},
@@ -1679,8 +1640,6 @@
   classification based on featured distributions}}.
 \newblock \bibinfo{journal}{Pattern Recognition} \bibinfo{volume}{29},
   \bibinfo{pages}{51--59}.
-\newblock \URLprefix \url{http://dx.doi.org/10.1016/0031-3203(95)00067-4},
-  \DOIprefix\doi{10.1016/0031-3203(95)00067-4}.
 %Type = Inbook
 \bibitem[{Osorio-Garcia et~al.(2012)Osorio-Garcia, Croitor~Sava, Sima, Nielsen,
   Himmelreich and Van~Huffel}]{Osorio-Garcia2012}
@@ -1704,7 +1663,8 @@
 \newblock \bibinfo{title}{{{N}atural history of skeletal-related events in
   patients with breast, lung, or prostate cancer and metastases to bone: a
   15-year study in two large {U}{S} health systems}}.
-\newblock \bibinfo{journal}{Support Care Cancer} .
+\newblock \bibinfo{journal}{Support Care Cancer} \bibinfo{volume}{21},
+  \bibinfo{pages}{3279--3286}.
 %Type = Inproceedings
 \bibitem[{Ozer et~al.(2009)Ozer, Haider, Langer, Van~der Kwast, Evans, Wernick,
   Trachtenberg and Yetik}]{Ozer2009}
@@ -1775,7 +1735,6 @@
   criteria of max-dependency, max-relevance, and min-redundancy}}.
 \newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
   Transactions on} \bibinfo{volume}{27}, \bibinfo{pages}{1226--1238}.
-\newblock \DOIprefix\doi{10.1109/TPAMI.2005.159}.
 %Type = Article
 \bibitem[{Peng et~al.(2013)Peng, Jiang, Yang, Brown, Antic, Sethi,
   Schmid-Tannwald, Giger, Eggener and Oto}]{Peng2013}
@@ -1812,9 +1771,6 @@
   signals }}.
 \newblock \bibinfo{journal}{Journal of Magnetic Resonance (1969)}
   \bibinfo{volume}{97}, \bibinfo{pages}{122 -- 134}.
-\newblock \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/002223649290241X},
-  \DOIprefix\doi{http://dx.doi.org/10.1016/0022-2364(92)90241-X}.
 %Type = Phdthesis
 \bibitem[{Pizurica(2002)}]{Pizurica2002}
 \bibinfo{author}{Pizurica, A.}, \bibinfo{year}{2002}.
@@ -1870,8 +1826,6 @@
 \newblock \bibinfo{title}{{{I}nduction of decision trees}}.
 \newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{1},
   \bibinfo{pages}{81--106}.
-\newblock \URLprefix \url{http://dx.doi.org/10.1007/BF00116251},
-  \DOIprefix\doi{10.1007/BF00116251}.
 %Type = Book
 \bibitem[{Quinlan(1993)}]{Quinlan1993}
 \bibinfo{author}{Quinlan, J.}, \bibinfo{year}{1993}.
@@ -1886,7 +1840,7 @@
 \newblock \bibinfo{title}{{{P}rediction at an Uncertain Input for {G}aussian
   processes and relevance vector machines application to Multiple-Step ahead
   time-series forecasting}}.
-\newblock \bibinfo{type}{Technical Report}.
+\newblock \bibinfo{type}{Technical Report}. DTU Informatics.
 %Type = Article
 \bibitem[{Quint et~al.(1991)Quint, Van~Erp, Bland, Mandell, Del~Buono,
   Grossman, Glazer and Gikas}]{Quint1991}
@@ -1963,11 +1917,6 @@
   linear embedding}}.
 \newblock \bibinfo{journal}{Science} \bibinfo{volume}{290},
   \bibinfo{pages}{2323--2326}.
-\newblock \URLprefix
-  \url{http://www.sciencemag.org/content/290/5500/2323.abstract},
-  \DOIprefix\doi{10.1126/science.290.5500.2323},
-  \href{http://arxiv.org/abs/http://www.sciencemag.org/content/290/5500/2323.full.pdf}{\tt
-  arXiv:http://www.sciencemag.org/content/290/5500/2323.full.pdf}.
 %Type = Article
 \bibitem[{Rueckert et~al.(1999)Rueckert, Sonoda, Hayes, Hill, Leach and
   Hawkes}]{Rueckert1999}
@@ -1983,11 +1932,13 @@
 \bibitem[{Rumelhart et~al.(1988)Rumelhart, Hinton and Williams}]{Rumelhart1988}
 \bibinfo{author}{Rumelhart, D.E.}, \bibinfo{author}{Hinton, G.E.},
   \bibinfo{author}{Williams, R.J.}, \bibinfo{year}{1988}.
-\newblock \bibinfo{title}{{{N}eurocomputing: foundations of research}},
+\newblock \bibinfo{title}{{{L}earning internal representations by error
+  propagation}}, in: \bibinfo{editor}{Anderson, J.A.},
+  \bibinfo{editor}{Rosenfeld, E.} (Eds.),
+  \bibinfo{booktitle}{{{N}eurocomputing: foundations of research}}.
   \bibinfo{publisher}{MIT Press}, \bibinfo{address}{Cambridge, MA, USA}.
   chapter \bibinfo{chapter}{Learning Internal Representations by Error
   Propagation}, pp. \bibinfo{pages}{673--695}.
-\newblock \URLprefix \url{http://dl.acm.org/citation.cfm?id=65669.104449}.
 %Type = Article
 \bibitem[{Saeys et~al.(2007)Saeys, Inza and Larranaga}]{Saeys2007}
 \bibinfo{author}{Saeys, Y.}, \bibinfo{author}{Inza, I.},
@@ -1996,11 +1947,6 @@
   bioinformatics}}.
 \newblock \bibinfo{journal}{Bioinformatics} \bibinfo{volume}{23},
   \bibinfo{pages}{2507--2517}.
-\newblock \URLprefix
-  \url{http://bioinformatics.oxfordjournals.org/content/23/19/2507.abstract},
-  \DOIprefix\doi{10.1093/bioinformatics/btm344},
-  \href{http://arxiv.org/abs/http://bioinformatics.oxfordjournals.org/content/23/19/2507.full.pdf+html}{\tt
-  arXiv:http://bioinformatics.oxfordjournals.org/content/23/19/2507.full.pdf+html}.
 %Type = Article
 \bibitem[{Scheidler et~al.(1999a)Scheidler, Hricak, Vigneron, Yu, Sokolov,
   Huang, Zaloudek, Nelson, Carroll and Kurhanewicz}]{Scheidler1999a}
@@ -2080,14 +2026,12 @@
 \newblock \bibinfo{title}{{{C}omputer vision}}.
 \newblock \bibinfo{publisher}{Prentice Hall}, \bibinfo{address}{Upper Saddle
   River, NJ}.
-\newblock \URLprefix \url{http://opac.inria.fr/record=b1128947}.
 %Type = Article
 \bibitem[{Shi and Malik(2000)}]{Shi2000}
 \bibinfo{author}{Shi, J.}, \bibinfo{author}{Malik, J.}, \bibinfo{year}{2000}.
 \newblock \bibinfo{title}{{{N}ormalized cuts and image segmentation}}.
 \newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
   Transactions on} \bibinfo{volume}{22}, \bibinfo{pages}{888--905}.
-\newblock \DOIprefix\doi{10.1109/34.868688}.
 %Type = Article
 \bibitem[{Shimofusa et~al.(2005)Shimofusa, Fujimoto, Akamata, Motoori,
   Yamamoto, Ueda and Ito}]{Shimofusa2005}
@@ -2135,7 +2079,6 @@
   mapping, or associative memory}}, in: \bibinfo{booktitle}{Neural Networks,
   1988., IEEE International Conference on}, pp. \bibinfo{pages}{525--532
   vol.1}.
-\newblock \DOIprefix\doi{10.1109/ICNN.1988.23887}.
 %Type = Article
 \bibitem[{St~Lawrence and Lee(1998)}]{StLawrence1998}
 \bibinfo{author}{St~Lawrence, K.S.}, \bibinfo{author}{Lee, T.Y.},
@@ -2193,7 +2136,6 @@
   applied to {M}{R}{I}}}.
 \newblock \bibinfo{journal}{Medical Imaging, IEEE Transactions on}
   \bibinfo{volume}{19}, \bibinfo{pages}{153--165}.
-\newblock \DOIprefix\doi{10.1109/42.845174}.
 %Type = Techreport
 \bibitem[{Styner and Gerig(1997)}]{Styner1997}
 \bibinfo{author}{Styner, M.}, \bibinfo{author}{Gerig, G.},
@@ -2358,7 +2300,6 @@
   discriminative models for classification, recognition, and clustering}}, in:
   \bibinfo{booktitle}{Computer Vision, 2005. ICCV 2005. Tenth IEEE
   International Conference on}, pp. \bibinfo{pages}{1589--1596 Vol. 2}.
-\newblock \DOIprefix\doi{10.1109/ICCV.2005.194}.
 %Type = Article
 \bibitem[{Turkbey and Choyke(2012)}]{Turkbey2012}
 \bibinfo{author}{Turkbey, B.}, \bibinfo{author}{Choyke, P.L.},
@@ -2436,7 +2377,7 @@
 \newblock \bibinfo{title}{{{A}lignment by maximization of mutual information}}.
 \newblock \bibinfo{journal}{Int. J. Comput. Vision} \bibinfo{volume}{24},
   \bibinfo{pages}{137--154}.
-%Type = Article
+%Type = Inproceedings
 \bibitem[{Viswanath et~al.(2011)Viswanath, Bloch, Chappelow, Patel, Rofsky,
   Lenkinski, Genega and Madabhushi}]{Viswanath2011}
 \bibinfo{author}{Viswanath, S.}, \bibinfo{author}{Bloch, B.N.},
@@ -2446,9 +2387,8 @@
   \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{{{E}nhanced multi-protocol analysis via intelligent
   supervised embedding ({E}{M}{P}r{A}v{I}{S}{E}): detecting prostate cancer on
-  multi-parametric {M}{R}{I}}} , \bibinfo{pages}{79630U--79630U--15}\URLprefix
-  \url{+ http://dx.doi.org/10.1117/12.878312},
-  \DOIprefix\doi{10.1117/12.878312}.
+  multi-parametric {M}{R}{I}}}, in: \bibinfo{booktitle}{Proc. SPIE 7963,
+  Medical Imaging 2011: Computer-Aided Diagnosis}.
 %Type = Article
 \bibitem[{Viswanath et~al.(2008a)Viswanath, Bloch, Genega, Rofsky, Lenkinski,
   Chappelow, Toth and Madabhushi}]{Viswanath2008a}
@@ -2545,7 +2485,6 @@
   inhomogeneity in {M}{R}{I}}}.
 \newblock \bibinfo{journal}{Medical Imaging, IEEE Transactions on}
   \bibinfo{volume}{26}, \bibinfo{pages}{405--421}.
-\newblock \DOIprefix\doi{10.1109/TMI.2006.891486}.
 %Type = Inproceedings
 \bibitem[{Walker et~al.(2010)Walker, Crehange, Parfait, Cochet, Maignon,
   Cormier and Brunotte}]{Walker2010}
@@ -2615,7 +2554,6 @@
   With Local Binary Pattern Features}}.
 \newblock \bibinfo{journal}{Image Processing, IEEE Transactions on}
   \bibinfo{volume}{21}, \bibinfo{pages}{1465--1477}.
-\newblock \DOIprefix\doi{10.1109/TIP.2011.2175739}.
 %Type = Article
 \bibitem[{Zhu et~al.(2010)Zhu, Ouwerkerk and Barker}]{Zhu2010}
 \bibinfo{author}{Zhu, H.}, \bibinfo{author}{Ouwerkerk, R.},
@@ -2631,8 +2569,5 @@
 \newblock \bibinfo{title}{{{I}mage registration methods: a survey}}.
 \newblock \bibinfo{journal}{Image and Vision Computing} \bibinfo{volume}{21},
   \bibinfo{pages}{977 -- 1000}.
-\newblock \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/S0262885603001379},
-  \DOIprefix\doi{http://dx.doi.org/10.1016/S0262-8856(03)00137-9}.
 
 \end{thebibliography}

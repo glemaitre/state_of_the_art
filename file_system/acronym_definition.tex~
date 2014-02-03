@@ -189,7 +189,7 @@ long = discrete wavelet squared transform
 }
 \DeclareAcronym{map}{
 short = MAP,
-long = maximum a posteriori
+long = maximum \textit{a posteriori}
 }
 \DeclareAcronym{ml}{
 short = ML,
@@ -273,7 +273,7 @@ long = combined mutual information
 }
 \DeclareAcronym{svm}{
 short = SVM,
-long = support vector machine
+long = support vector machines
 }
 \DeclareAcronym{rvm}{
 short = RVM,
@@ -301,7 +301,7 @@ long = discrete fourier transform
 }
 \DeclareAcronym{mrmr}{
 short = mRMR,
-long = maximal relevance minimal redundancy
+long = minimum redundancy maximum relevance
 }
 \DeclareAcronym{lle}{
 short = LLE,
