@@ -41,7 +41,7 @@
 	\label{tab:class}
 \end{table}
 
-Once that the feature vector has been extracted and eventually the complexity reduced, it is possible to make a decision and classify this feature vector to belong to \ac{cap} or healthy tissue. Classification methods used in \ac{cad} system to distinguish these two classes are summarized in Tab. \ref{tab:class}. A full review of classification methods used in pattern recognition can be found in \cite{Bishop2006}.
+Once the feature vector has been extracted and eventually the complexity reduced, it is possible to make a decision and classify this feature vector to belong to \ac{cap} or healthy tissue. Classification methods used in \ac{cad} system to distinguish these two classes are summarized in Tab. \ref{tab:class}. A full review of classification methods used in pattern recognition can be found in \cite{Bishop2006}.
 
 \setenumerate{listparindent=\parindent,itemsep=10px}
 \setlist{noitemsep}
@@ -57,9 +57,9 @@ Once that the feature vector has been extracted and eventually the complexity re
 
 \acf{knn} is one of the simplest supervised machine learning classification methods. In this method, a new unlabelled vector is assigned to the most represented class from its $k$ nearest-neighbours in the feature space. The parameter $k$ is usually an odd number in order to avoid any tie case. \ac{knn} was one of the method used by \cite{Niaf2011,Niaf2012} mainly to make a comparison with different machine learning techniques. \cite{Litjens2012} used this method to roughly detect potential \ac{cap} voxels before performing a region-based classification.
 
-$k$-means is an unsupervised clustering methods in which the data have to be partitioned into $k$ clusters. The discovery of the clusters is an iterative procedure. First $k$ random centroids are defined in the feature space and each data point is assigned to the nearest centroid. Then, the centroid position for each cluster is updated by computing the mean of all the data points belonging to this particular cluster. Both assignment and updating are repeated until the centroids are stable. The number of clusters $k$ is usually defined as the number of classes. This algorithm can also be used for ``on-line'' learning. In case that new data has to be incorporated, the initial centroid positions corresponds to the results of a previous $k$-means training and is followed by the assignment-updating stage previously explained.
+$k$-means is an unsupervised clustering method in which the data have to be partitioned into $k$ clusters. The discovery of the clusters is an iterative procedure. First $k$ random centroids are defined in the feature space and each data point is assigned to the nearest centroid. Then, the centroid position for each cluster is updated by computing the mean of all the data points belonging to this particular cluster. Both assignment and updating are repeated until the centroids are stable. The number of clusters $k$ is usually defined as the number of classes. This algorithm can also be used for ``on-line'' learning. In case that new data has to be incorporated, the initial centroid positions correspond to the results of a previous $k$-means training and is followed by the assignment-updating stage previously explained.
 
-\cite{Tiwari2007,Tiwari2009} used $k$-means in an iterative procedure. Three clusters were defined corresponding to \ac{cap}, healthy and non-prostate, respectively. $k$-means was applied iteratively and the voxels corresponding to the larger cluster were excluded under the assumption that it is assigned to ``non-prostate'' cluster. The iteration stop until the number of voxels composing the clusters is smaller than a threshold.
+\cite{Tiwari2007,Tiwari2009} used $k$-means in an iterative procedure. Three clusters were defined corresponding to \ac{cap}, healthy and non-prostate, respectively. $k$-means was applied iteratively and the voxels corresponding to the largest cluster were excluded under the assumption that it is assigned to ``non-prostate'' cluster. The iteration stop when the number of voxels composing all clusters remaining is smaller than a threshold.
 
 \cite{Tiwari2008,Viswanath2008,Viswanath2008a} used $k$-means in a repetitive manner to be less sensitive to the centroids initialisation. Thus, $k$ clusters were generated $T$ times. The final assignment was performed by majority voting using a co-association matrix as proposed by \cite{Fred2005}.
 
@@ -72,7 +72,7 @@ $k$-means is an unsupervised clustering methods in which the data have to be par
 	\label{eq:ldafun}
 \end{equation}
 
-\noindent where $\mathbf{x}_i$ is an unlabelled feature vector, $\Sigma$ is the covariance matrix of the training data, $\mu_k$ is the mean vector of the class $k$ and $\pi_k$ is the prior probabilities of class $k$.
+\noindent where $\mathbf{x}_i$ is an unlabelled feature vector, $\Sigma$ is the covariance matrix of the training data, $\mu_k$ is the mean vector of the class $k$ and $\pi_k$ is the prior probability of class $k$.
 
 To perform the classification, a sample $\mathbf{x}_i$ will be assigned to the class which maximizes the discriminant function:
 
@@ -99,13 +99,13 @@ Thus, an unlabelled observation $\mathbf{x}_i$ will be assigned to the class whi
 	\label{eq:posprobreg}
 \end{equation}
 
-From Eq. \eqref{eq:postprlr}, one can see that the key of classification using logistic regression model is to infer the set of parameters $\mathbf{w}$ through a learning stage in the training set. This vector of parameters $\mathbf{w}$ can be inferred by finding the maximum likelihood estimates. This step can be performed through an optimization scheme, using a quasi-Newton method (\cite{Byrd1995}), which iteratively seeks for the local minimum in the derivative of Eq. \eqref{eq:postprlr}.
+From Eq. \eqref{eq:postprlr}, one can see that the key to classification using logistic regression model is to infer the set of parameters $\mathbf{w}$ through a learning stage in the training set. This vector of parameters $\mathbf{w}$ can be inferred by finding the maximum likelihood estimates. This step can be performed through an optimization scheme, using a quasi-Newton method (\cite{Byrd1995}), which iteratively seeks for the local minimum in the derivative of Eq. \eqref{eq:postprlr}.
 
 \cite{Kelm2007,Puech2009} used a logistic regression to create a linear probabilistic model in order to classify their feature vectors.
 
 \item[$-$] \textbf{\textit{Non-linear model classifier:}} 
 
-\cite{Viswanath2012} used the most general \acf{qda} instead of \ac{lda}. Unlike in \ac{lda} in which one assumes that the class covariance matrix $\Sigma$ is identical for all the classes, in \ac{qda}, it is assumes that a covariance matrix $\Sigma_k$ specific for each class is computed. Thus, Eq. \eqref{eq:ldafun} becomes:
+\cite{Viswanath2012} used the most general \acf{qda} instead of \ac{lda}. Unlike in \ac{lda} in which one assumes that the class covariance matrix $\Sigma$ is identical for all the classes, in \ac{qda}, a covariance matrix $\Sigma_k$ specific to each class is computed. Thus, Eq. \eqref{eq:ldafun} becomes:
 
 \begin{equation}
 	\delta_{k}(\mathbf{x}_i) = \mathbf{x}_i^{\text{T}} \Sigma_{k}^{-1} \mu_k - \frac{1}{2} \mu_{k}^{\text{T}} \Sigma_{k}^{-1} \mu_k + \log (\pi_k) \ .
@@ -116,7 +116,7 @@ The classification scheme in the case of the \ac{qda} is identical to Eq. \eqref
 
 \item[$-$] \textbf{\textit{Probabilistic classifier:}}
 
-The most commonly used classifier is the naive Bayes classifier which is a probabilistic classifier assuming the independence between each feature dimension (\cite{Rish2001}). This classifier is based on the Bayes' theorem:
+The most commonly used classifier is the naive Bayes classifier which is a probabilistic classifier assuming independence between each feature dimension (\cite{Rish2001}). This classifier is based on Bayes' theorem:
 
 \begin{equation}
 	p(C=k|\mathbf{x}) = \frac{p(C)p(\mathbf{x}|C)}{p(\mathbf{x})} \ ,
@@ -125,7 +125,7 @@ The most commonly used classifier is the naive Bayes classifier which is a proba
 
 \noindent where $p(C=k|\mathbf{x})$ is the posterior probability, $p(C)$ is the prior probability, $p(\mathbf{x}|C)$ is the likelihood and $p(\mathbf{x})$ is the evidence. 
 
-However, the evidence term is usually discarded since, it is not class dependent and plays the role of a normalization term. Hence, in a classification scheme, an unlabelled observation will be classified to the class which maximizes the posterior probability such as:
+However, the evidence term is usually discarded since it is not class dependent and plays the role of a normalization term. Hence, in a classification scheme, an unlabelled observation will be classified to the class which maximizes the posterior probability as:
 
 \begin{eqnarray}
 	C(\mathbf{x}_i) & = & \argmax_k p(C=k|\mathbf{x}_i) \ , \label{eq:maxbay} \\

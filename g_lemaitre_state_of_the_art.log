@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  3 FEB 2014 21:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  4 FEB 2014 12:31
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2856,11 +2856,11 @@ Overfull \hbox (3.33109pt too wide) in paragraph at lines 195--220
 [18] [19]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
-(epstopdf)                    date: 2014-02-03 21:01:17
+(epstopdf)                    date: 2014-02-03 21:06:12
 (epstopdf)                    size: 31205 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-03 21:01:17
+(epstopdf)                    date: 2014-02-03 21:06:12
 (epstopdf)                    size: 7348 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
@@ -2885,11 +2885,11 @@ Underfull \hbox (badness 1910) in paragraph at lines 327--327
 
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
-(epstopdf)                    date: 2014-02-03 21:01:17
+(epstopdf)                    date: 2014-02-03 21:06:12
 (epstopdf)                    size: 241135 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-03 21:01:17
+(epstopdf)                    date: 2014-02-03 21:06:12
 (epstopdf)                    size: 31593 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
@@ -3147,7 +3147,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_3_2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_2-e
-ps-converted-to.pdf, id=2204, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2205, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3171,7 +3171,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_3_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-e
-ps-converted-to.pdf, id=2205, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2206, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3195,7 +3195,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_2_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_1-e
-ps-converted-to.pdf, id=2206, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2207, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3219,7 +3219,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_2_2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_2-e
-ps-converted-to.pdf, id=2207, 477.785pt x 357.335pt>
+ps-converted-to.pdf, id=2208, 477.785pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3243,7 +3243,7 @@ assification/08_classification/figures/pbt-simulation/pbt_tree_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1-eps
--converted-to.pdf, id=2208, 475.7775pt x 357.335pt>
+-converted-to.pdf, id=2209, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3288,9 +3288,6 @@ Underfull \hbox (badness 2343) in paragraph at lines 223--223
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \vbox (badness 4995) has occurred while \output is active []
-
  [33]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -3402,10 +3399,10 @@ nged.
 (rerunfilecheck)             Checksum: C584F4DD0E9C10606C56D388A03D8665;2914.
  ) 
 Here is how much of TeX's memory you used:
- 33106 strings out of 493311
- 658226 string characters out of 6137856
- 941603 words of memory out of 5000000
- 35235 multiletter control sequences out of 15000+600000
+ 33107 strings out of 493311
+ 658239 string characters out of 6137856
+ 941642 words of memory out of 5000000
+ 35236 multiletter control sequences out of 15000+600000
  83385 words of font info for 209 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  67i,19n,74p,2269b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3424,10 +3421,10 @@ blic/txfonts/txsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (44 pages, 2734403 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (44 pages, 2734288 bytes).
 PDF statistics:
- 2655 PDF objects out of 2984 (max. 8388607)
- 2459 compressed objects within 25 object streams
+ 2656 PDF objects out of 2984 (max. 8388607)
+ 2460 compressed objects within 25 object streams
  505 named destinations out of 1000 (max. 500000)
  627 words of extra memory for PDF output out of 10000 (max. 10000000)
 
