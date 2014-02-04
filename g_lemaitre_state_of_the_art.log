@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  3 FEB 2014 20:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  4 FEB 2014 12:45
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2630,11 +2630,11 @@ Overfull \hbox (54.82452pt too wide) in paragraph at lines 195--218
 [40] [41] [42]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
-(epstopdf)                    date: 2014-02-03 20:47:32
+(epstopdf)                    date: 2014-02-04 12:34:08
 (epstopdf)                    size: 31205 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-03 20:47:32
+(epstopdf)                    date: 2014-02-04 12:34:08
 (epstopdf)                    size: 7348 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
@@ -2654,11 +2654,11 @@ jointhistoalg-eps-converted-to.pdf used on input line 328.
 (pdftex.def)             Requested size: 85.9996pt x 86.00089pt.
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
-(epstopdf)                    date: 2014-02-03 20:47:32
+(epstopdf)                    date: 2014-02-04 12:34:08
 (epstopdf)                    size: 241135 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-03 20:47:32
+(epstopdf)                    date: 2014-02-04 12:34:08
 (epstopdf)                    size: 31593 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
@@ -2966,7 +2966,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_3_2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_2-e
-ps-converted-to.pdf, id=2416, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2418, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2990,7 +2990,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_3_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-e
-ps-converted-to.pdf, id=2417, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2419, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 3_1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3014,7 +3014,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_2_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_1-e
-ps-converted-to.pdf, id=2418, 475.7775pt x 357.335pt>
+ps-converted-to.pdf, id=2420, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3038,7 +3038,7 @@ classification/08_classification/figures/pbt-simulation/pbt_tree_2_2.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_2-e
-ps-converted-to.pdf, id=2419, 477.785pt x 357.335pt>
+ps-converted-to.pdf, id=2421, 477.785pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 2_2-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3062,7 +3062,7 @@ assification/08_classification/figures/pbt-simulation/pbt_tree_1.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1-eps
--converted-to.pdf, id=2420, 475.7775pt x 357.335pt>
+-converted-to.pdf, id=2422, 475.7775pt x 357.335pt>
 File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 1-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3172,12 +3172,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 32633 strings out of 493311
- 651919 string characters out of 6137856
- 916134 words of memory out of 5000000
- 34759 multiletter control sequences out of 15000+600000
+ 32634 strings out of 493311
+ 651932 string characters out of 6137856
+ 916144 words of memory out of 5000000
+ 34760 multiletter control sequences out of 15000+600000
  26964 words of font info for 102 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  67i,19n,74p,2413b,1339s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3217,10 +3220,10 @@ onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (109 pages, 3103360 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (109 pages, 3102963 bytes).
 PDF statistics:
- 3048 PDF objects out of 3580 (max. 8388607)
- 2765 compressed objects within 28 object streams
+ 3050 PDF objects out of 3580 (max. 8388607)
+ 2767 compressed objects within 28 object streams
  568 named destinations out of 1000 (max. 500000)
  627 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -360,7 +360,7 @@ The most common model reviewed was the \textit{Brix model} (\cite{Artan2009,Arta
 	\label{eq:brixmod}
 \end{equation}
 
-noindent where $S(\cdot)$ is the \ac{dce} signal, $A$ is the parameter simulating the tissue properties, $k_{el}$ is the parameter related to the first-order elimination from the plasma compartment and $k_{ep}$ is the parameter of the transvascular permeability. Thus, the parameters $k_{ep}$, $k_{el}$ and $A$ are computed from the \ac{mri} data and used as features.
+\noindent where $S(\cdot)$ is the \ac{dce} signal, $A$ is the parameter simulating the tissue properties, $k_{el}$ is the parameter related to the first-order elimination from the plasma compartment and $k_{ep}$ is the parameter of the transvascular permeability and the parameters $k_{ep}$, $k_{el}$ and $A$ are computed from the \ac{mri} data and used as features.
 
 Thus, the parameters $k_{ep}$, $k_{el}$ and $A$ are computed and used as features.
 
@@ -370,7 +370,7 @@ The Tofts model (\cite{Tofts1997}) was used by \cite{Langer2009,Giannini2013,Nia
 	\label{eq:tofts} 
 \end{equation}
 
-\noindent where $C_t(\cdot)$ is the concentration of the medium, $C_p(\cdot)$ is the \ac{aif} which have to be estimated apart, $K_{trans}$ is the parameter related to the diffuse transport of media across the capillary endothelium, $k_{ep}$ is the parameter related to the exchanges back into the vascular space and $v_e$ is the extravascular-extracellular space fraction defined as $v_e = 1 - v_p$. Thus, the parameters $K_{trans}$, $k_{ep}$ and $v_e$ are computed and used as features in this model.
+\noindent where $C_t(\cdot)$ is the concentration of the medium, $C_p(\cdot)$ is the \ac{aif} which have to be estimated independently, $K_{trans}$ is the parameter related to the diffuse transport of media across the capillary endothelium, $k_{ep}$ is the parameter related to the exchanges back into the vascular space and $v_e$ is the extravascular-extracellular space fraction defined such that $v_e = 1 - v_p$. Thus, the parameters $K_{trans}$, $k_{ep}$ and $v_e$ are computed and used as features in this model.
 
 \cite{Mazzetti2011} and \cite{Giannini2013} used the Weibull function empirically formalized as:
 \begin{equation}
@@ -398,9 +398,9 @@ For all these models, the parameters are inferred using an optimization curve fi
 \setlist{noitemsep}
 \begin{enumerate}[leftmargin=*]
 
-\item[$-$] \textbf{\textit{Whole spectra approach:}} As for the \ac{dce} analysis, one common approach is to incorporate the whole \ac{mrsi} spectra in the feature vector for classification (\cite{Kelm2007,Parfait2012,Tiwari2007,Tiwari2009,Tiwari2013,Tiwari2009a,Tiwari2010,Viswanath2008a,Matulewicz2013}). Sometimes post-processing involving dimension reduction methods is performed to reduce the complexity during the classification as it will be presented in Sect. \ref{subsec:featureselectionextraction}.
+\item[$-$] \textbf{\textit{Whole spectra approach:}} As in the case of \ac{dce} analysis, one common approach is to incorporate the whole \ac{mrsi} spectra in the feature vector for classification (\cite{Kelm2007,Parfait2012,Tiwari2007,Tiwari2009,Tiwari2013,Tiwari2009a,Tiwari2010,Viswanath2008a,Matulewicz2013}). Sometimes post-processing involving dimension reduction methods is performed to reduce the complexity during the classification as it will be presented in Sect. \ref{subsec:featureselectionextraction}.
 
-\item[$-$] \textbf{\textit{Quantification approach:}} We can recall that in \ac{mrsi} only few biological markers (cf., choline, creatine and citrate metabolites mainly) are known to be useful to discriminate \ac{cap} and healthy tissue. Then, quantification of these metabolites concentrations is considered as features which will be later classify. In order to perform this quantification, four different approaches have been used. The QUEST (\cite{Ratiney2005}), AMARES (\cite{Vanhamme1997}) and VARPRO (\cite{Coleman1993}) models were used by \cite{Kelm2007}. They are all time-domain quantification methods varying by the type of pre-knowledge embedded and the optimization approaches used to solve the quantification problem. Unlike the previous method, \cite{Parfait2012} used the LcModel approach (\cite{Provencher1993}) which solves the optimization problem in the frequency domain.
+\item[$-$] \textbf{\textit{Quantification approach:}} We can reiterate that in \ac{mrsi} only few biological markers (cf., choline, creatine and citrate metabolites mainly) are known to be useful to discriminate \ac{cap} and healthy tissue. Then, concentrations of these metabolites can be considered as a feature used for classification. In order to perform this quantification, four different approaches have been used. The QUEST (\cite{Ratiney2005}), AMARES (\cite{Vanhamme1997}) and VARPRO (\cite{Coleman1993}) models were used by \cite{Kelm2007}. They are all time-domain quantification methods varying by the type of pre-knowledge embedded and the optimization approaches used to solve the quantification problem. Unlike the time-domain quantification approaches, \cite{Parfait2012} used the LcModel approach (\cite{Provencher1993}) which solves the optimization problem in the frequency domain.
 
 Once the different concentrations are computed, \cite{Kelm2007} calculated the relative concentrations (Eq. \eqref{eq:ratio1} and \eqref{eq:ratio2}) and used them as features. However, \cite{Parfait2012} used each metabolite concentrations individually.
 
