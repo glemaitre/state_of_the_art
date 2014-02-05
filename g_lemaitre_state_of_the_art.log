@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  4 FEB 2014 12:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  5 FEB 2014 11:23
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2856,11 +2856,11 @@ Overfull \hbox (3.33109pt too wide) in paragraph at lines 195--220
 [18] [19]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
-(epstopdf)                    date: 2014-02-03 21:06:12
+(epstopdf)                    date: 2014-02-04 14:32:41
 (epstopdf)                    size: 31205 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-03 21:06:12
+(epstopdf)                    date: 2014-02-04 14:32:41
 (epstopdf)                    size: 7348 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
@@ -2885,11 +2885,11 @@ Underfull \hbox (badness 1910) in paragraph at lines 327--327
 
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
-(epstopdf)                    date: 2014-02-03 21:06:12
+(epstopdf)                    date: 2014-02-04 14:32:41
 (epstopdf)                    size: 241135 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-03 21:06:12
+(epstopdf)                    date: 2014-02-04 14:32:41
 (epstopdf)                    size: 31593 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
@@ -3143,7 +3143,7 @@ igures/pbt-simulation/pbt_tree_3_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_3_2-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_3_2.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_2-e
@@ -3154,7 +3154,7 @@ File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3
 _2-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_3_2-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_3_2-eps-converted-to.pdf used on input line 194.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_3_1.eps>
@@ -3167,7 +3167,7 @@ igures/pbt-simulation/pbt_tree_3_1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_3_1-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_3_1.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-e
@@ -3178,7 +3178,7 @@ File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3
 _1-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_3_1-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_3_1-eps-converted-to.pdf used on input line 194.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_2_1.eps>
@@ -3191,7 +3191,7 @@ igures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_2_1.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_1-e
@@ -3202,7 +3202,7 @@ File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2
 _1-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_2_1-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_2_1-eps-converted-to.pdf used on input line 194.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_2_2.eps>
@@ -3215,7 +3215,7 @@ igures/pbt-simulation/pbt_tree_2_2-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_2_2-eps-converted-to.pdf 04_data_
 classification/08_classification/figures/pbt-simulation/pbt_tree_2_2.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_2-e
@@ -3226,7 +3226,7 @@ File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2
 _2-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_2_2-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_2_2-eps-converted-to.pdf used on input line 194.
 (pdftex.def)             Requested size: 56.9055pt x 42.55664pt.
 Package epstopdf Info: Source file: <04_data_classification/08_classification/f
 igures/pbt-simulation/pbt_tree_1.eps>
@@ -3239,7 +3239,7 @@ igures/pbt-simulation/pbt_tree_1-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/08_c
 lassification/figures/pbt-simulation/pbt_tree_1-eps-converted-to.pdf 04_data_cl
 assification/08_classification/figures/pbt-simulation/pbt_tree_1.eps>
-(epstopdf)             \includegraphics on input line 195.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1-eps
@@ -3250,41 +3250,34 @@ File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
 <use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1
 -eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_1-eps-converted-to.pdf used on input line 195.
+imulation/pbt_tree_1-eps-converted-to.pdf used on input line 194.
 (pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (1.20856pt too wide) in paragraph at lines 196--197
+Overfull \hbox (1.20856pt too wide) in paragraph at lines 195--196
  [][] 
  []
 
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 202.
 
-Underfull \hbox (badness 3364) in paragraph at lines 201--203
-[]\OT1/txr/m/n/10 Probabilistic boosting-tree is an en-sem-ble clas-si-fier
+(/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 202.
+ [31]
+Underfull \hbox (badness 2343) in paragraph at lines 222--222
+[][][]\OT1/txr/m/n/8 Gaussian pro-cess im-ple-men-ta-tion can be found at: \OT1
+/cmtt/m/n/8 http://www.
  []
 
-[31 <./04_data_classification/08_classification/figures/pbt-simulation/pbt_tree
+[32 <./04_data_classification/08_classification/figures/pbt-simulation/pbt_tree
 _1-eps-converted-to.pdf> <./04_data_classification/08_classification/figures/pb
 t-simulation/pbt_tree_2_2-eps-converted-to.pdf> <./04_data_classification/08_cl
 assification/figures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf> <./04_da
 ta_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-eps-con
 verted-to.pdf> <./04_data_classification/08_classification/figures/pbt-simulati
 on/pbt_tree_3_2-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 203.
-
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 203.
-
-Underfull \hbox (badness 2343) in paragraph at lines 223--223
-[][][]\OT1/txr/m/n/8 Gaussian pro-cess im-ple-men-ta-tion can be found at: \OT1
-/cmtt/m/n/8 http://www.
- []
-
-[32]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -3294,32 +3287,32 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (1.508pt too wide) in paragraph at lines 479--479
+Overfull \hbox (1.508pt too wide) in paragraph at lines 475--475
  [][][][]\OT1/txr/m/n/9 Summation 
  []
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 541--541
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
 []|$\OT1/txr/m/n/9 [$1-8,11,17-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--546
+Underfull \hbox (badness 10000) in paragraph at lines 533--542
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--565
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
 []|$\OT1/txr/m/n/9 [$4-5,7,12,14,17,20-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--566
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 []|$\OT1/txr/m/n/9 [$2-3,6-9,13-19,23,29-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--572
+Underfull \hbox (badness 10000) in paragraph at lines 556--568
 [][]
  []
 
@@ -3331,19 +3324,15 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )) (./09_discussion/discussion.tex
 Missing character: There is no ; in font nullfont!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35]
-[36]) (./10_conclusion/conclusion.tex)
+ [35] [36]) (./10_conclusion/conclusion.tex)
 (./11_acknowledgement/acknowledgement.tex [37])
 (./g_lemaitre_state_of_the_art.bbl
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38]
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 408.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no â in font txr!
@@ -3363,15 +3352,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¨ in font txr!
+Missing character: There is no Ã in font txr!
+Missing character: There is no © in font txr!
+Missing character: There is no Ã in font txr!
+Missing character: There is no © in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-Missing character: There is no Ã in font txr!
-Missing character: There is no © in font txr!
-Missing character: There is no Ã in font txr!
-Missing character: There is no © in font txr!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no Ã in font txr!
@@ -3396,13 +3384,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `g_lemaitre_state_of_the_art.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: C584F4DD0E9C10606C56D388A03D8665;2914.
+(rerunfilecheck)             Checksum: 2B40D85E4DF9CAE4EB4692D9120E868A;2906.
  ) 
 Here is how much of TeX's memory you used:
- 33107 strings out of 493311
- 658239 string characters out of 6137856
- 941642 words of memory out of 5000000
- 35236 multiletter control sequences out of 15000+600000
+ 33105 strings out of 493311
+ 658221 string characters out of 6137856
+ 941310 words of memory out of 5000000
+ 35235 multiletter control sequences out of 15000+600000
  83385 words of font info for 209 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  67i,19n,74p,2269b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3421,10 +3409,10 @@ blic/txfonts/txsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (44 pages, 2734288 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (44 pages, 2734410 bytes).
 PDF statistics:
- 2656 PDF objects out of 2984 (max. 8388607)
- 2460 compressed objects within 25 object streams
- 505 named destinations out of 1000 (max. 500000)
+ 2654 PDF objects out of 2984 (max. 8388607)
+ 2458 compressed objects within 25 object streams
+ 504 named destinations out of 1000 (max. 500000)
  627 words of extra memory for PDF output out of 10000 (max. 10000000)
 
