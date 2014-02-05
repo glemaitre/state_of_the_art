@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  5 FEB 2014 11:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  5 FEB 2014 18:34
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3322,17 +3322,17 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-)) (./09_discussion/discussion.tex
+[35] [36])) (./09_discussion/discussion.tex
 Missing character: There is no ; in font nullfont!
- [35] [36]) (./10_conclusion/conclusion.tex)
-(./11_acknowledgement/acknowledgement.tex [37])
+) (./10_conclusion/conclusion.tex)
+[37] (./11_acknowledgement/acknowledgement.tex)
 (./g_lemaitre_state_of_the_art.bbl
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 408.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 408.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no â in font txr!
@@ -3352,14 +3352,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no Ã in font txr!
 Missing character: There is no ¨ in font txr!
-Missing character: There is no Ã in font txr!
-Missing character: There is no © in font txr!
-Missing character: There is no Ã in font txr!
-Missing character: There is no © in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
+Missing character: There is no Ã in font txr!
+Missing character: There is no © in font txr!
+Missing character: There is no Ã in font txr!
+Missing character: There is no © in font txr!
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no Ã in font txr!
@@ -3387,10 +3388,10 @@ nged.
 (rerunfilecheck)             Checksum: 2B40D85E4DF9CAE4EB4692D9120E868A;2906.
  ) 
 Here is how much of TeX's memory you used:
- 33105 strings out of 493311
- 658221 string characters out of 6137856
- 941310 words of memory out of 5000000
- 35235 multiletter control sequences out of 15000+600000
+ 33111 strings out of 493311
+ 658287 string characters out of 6137856
+ 928361 words of memory out of 5000000
+ 35238 multiletter control sequences out of 15000+600000
  83385 words of font info for 209 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  67i,19n,74p,2269b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3409,10 +3410,10 @@ blic/txfonts/txsy.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (44 pages, 2734410 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (44 pages, 2735579 bytes).
 PDF statistics:
- 2654 PDF objects out of 2984 (max. 8388607)
- 2458 compressed objects within 25 object streams
- 504 named destinations out of 1000 (max. 500000)
+ 2662 PDF objects out of 2984 (max. 8388607)
+ 2466 compressed objects within 25 object streams
+ 507 named destinations out of 1000 (max. 500000)
  627 words of extra memory for PDF output out of 10000 (max. 10000000)
 
