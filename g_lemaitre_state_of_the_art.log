@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.9.12)  4 FEB 2014 12:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  7 FEB 2014 00:20
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **g_lemaitre_state_of_the_art.tex
 (./g_lemaitre_state_of_the_art.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+Babel <3.9g> and hyphenation patterns for 78 languages loaded.
 (./elsarticle.cls
 Document Class: elsarticle 2009/09/17, 1.20b: Elsevier Ltd
 \@bls=\dimen102
@@ -302,22 +302,22 @@ Package: l3names 2012/12/07 v4346 L3 Namespace for primitives
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count112
 )
-Package: expl3 2013/07/28 v4582 L3 Experimental code bundle wrapper
+Package: expl3 2013/10/13 v4597 L3 Experimental code bundle wrapper
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3basics.sty
 Package: l3basics 2013/07/28 v4581 L3 Basic definitions
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3expan.sty
-Package: l3expan 2013/07/24 v4565 L3 Argument expansion
+Package: l3expan 2013/08/17 v4584 L3 Argument expansion
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3tl.sty
-Package: l3tl 2013/07/28 v4581 L3 Token lists
+Package: l3tl 2013/09/16 v4592 L3 Token lists
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3seq.sty
 Package: l3seq 2013/07/28 v4581 L3 Sequences and stacks
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3int.sty
-Package: l3int 2013/07/28 v4581 L3 Integers
+Package: l3int 2013/08/02 v4583 L3 Integers
 \c_max_int=\count113
 \l_tmpa_int=\count114
 \l_tmpb_int=\count115
@@ -328,14 +328,14 @@ Package: l3int 2013/07/28 v4581 L3 Integers
 Package: l3quark 2013/07/21 v4564 L3 Quarks
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3prg.sty
-Package: l3prg 2013/07/28 v4581 L3 Control structures
+Package: l3prg 2013/08/25 v4587 L3 Control structures
 \g__prg_map_int=\count118
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3clist.sty
 Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3token.sty
-Package: l3token 2013/07/28 v4581 L3 Experimental token manipulation
+Package: l3token 2013/08/25 v4587 L3 Experimental token manipulation
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3prop.sty
 Package: l3prop 2013/07/28 v4581 L3 Property lists
@@ -344,7 +344,7 @@ Package: l3prop 2013/07/28 v4581 L3 Property lists
 Package: l3msg 2013/07/28 v4581 L3 Messages
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3kernel/l3file.sty
-Package: l3file 2013/07/28 v4581 L3 File and I/O operations
+Package: l3file 2013/10/13 v4596 L3 File and I/O operations
 \l_iow_line_count_int=\count119
 \l__iow_target_count_int=\count120
 \l__iow_current_line_int=\count121
@@ -447,7 +447,7 @@ Package: l3candidates 2013/07/24 v4576 L3 Experimental additions to l3kernel
 \l__coffin_scaled_width_dim=\dimen160
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2013/07/28 v4582 L3 Experimental document command parser
+Package: xparse 2013/10/13 v4597 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count137
 \l__xparse_m_args_int=\count138
 \l__xparse_mandatory_args_int=\count139
@@ -455,11 +455,11 @@ Package: xparse 2013/07/28 v4582 L3 Experimental document command parser
 \l__xparse_v_nesting_int=\count141
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2013/07/28 v4582 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2013/10/13 v4597 LaTeX2e option processing using LaTeX3 keys
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.st
 y
-Package: xtemplate 2013/07/28 v4582 L3 Experimental prototype document function
+Package: xtemplate 2013/10/13 v4597 L3 Experimental prototype document function
 s
 \l__xtemplate_tmp_dim=\dimen161
 \l__xtemplate_tmp_int=\count142
@@ -469,7 +469,7 @@ Variant \prop_get:NoNTF already defined; not changing it on line 106
 Variant \prop_get:NoNT already defined; not changing it on line 107
 Variant \prop_get:NoNF already defined; not changing it on line 108
 )
-Package: acro 2013/09/02 v1.4a Typeset Acronyms
+Package: acro 2013/09/24 v1.4b Typeset Acronyms
 \l__acro_tmpa_int=\count143
 \l__acro_tmpb_int=\count144
 \l__acro_tmpc_int=\count145
@@ -531,184 +531,184 @@ Package zref Info: New property: abspage on input line 62.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ac with arg. spec. 'sm' on line 1832.
+. Defining document command \ac with arg. spec. 'sm' on line 1833.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \iac with arg. spec. 'sm' on line 1844.
+. Defining document command \iac with arg. spec. 'sm' on line 1845.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Iac with arg. spec. 'sm' on line 1856.
+. Defining document command \Iac with arg. spec. 'sm' on line 1857.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Ac with arg. spec. 'sm' on line 1868.
+. Defining document command \Ac with arg. spec. 'sm' on line 1869.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acp with arg. spec. 'sm' on line 1880.
+. Defining document command \acp with arg. spec. 'sm' on line 1881.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Acp with arg. spec. 'sm' on line 1893.
+. Defining document command \Acp with arg. spec. 'sm' on line 1894.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acs with arg. spec. 'sm' on line 1905.
+. Defining document command \acs with arg. spec. 'sm' on line 1906.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \iacs with arg. spec. 'sm' on line 1917.
+. Defining document command \iacs with arg. spec. 'sm' on line 1918.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Iacs with arg. spec. 'sm' on line 1929.
+. Defining document command \Iacs with arg. spec. 'sm' on line 1930.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acsp with arg. spec. 'sm' on line 1941.
+. Defining document command \acsp with arg. spec. 'sm' on line 1942.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \aca with arg. spec. 'sm' on line 1953.
+. Defining document command \aca with arg. spec. 'sm' on line 1954.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \iaca with arg. spec. 'sm' on line 1965.
+. Defining document command \iaca with arg. spec. 'sm' on line 1966.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Iaca with arg. spec. 'sm' on line 1977.
+. Defining document command \Iaca with arg. spec. 'sm' on line 1978.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acap with arg. spec. 'sm' on line 1989.
+. Defining document command \acap with arg. spec. 'sm' on line 1990.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acl with arg. spec. 'sm' on line 2001.
+. Defining document command \acl with arg. spec. 'sm' on line 2002.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \iacl with arg. spec. 'sm' on line 2013.
+. Defining document command \iacl with arg. spec. 'sm' on line 2014.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Iacl with arg. spec. 'sm' on line 2025.
+. Defining document command \Iacl with arg. spec. 'sm' on line 2026.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Acl with arg. spec. 'sm' on line 2037.
+. Defining document command \Acl with arg. spec. 'sm' on line 2038.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \aclp with arg. spec. 'sm' on line 2049.
+. Defining document command \aclp with arg. spec. 'sm' on line 2050.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Aclp with arg. spec. 'sm' on line 2062.
+. Defining document command \Aclp with arg. spec. 'sm' on line 2063.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acf with arg. spec. 'sm' on line 2074.
+. Defining document command \acf with arg. spec. 'sm' on line 2075.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \iacf with arg. spec. 'sm' on line 2086.
+. Defining document command \iacf with arg. spec. 'sm' on line 2087.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Iacf with arg. spec. 'sm' on line 2098.
+. Defining document command \Iacf with arg. spec. 'sm' on line 2099.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Acf with arg. spec. 'sm' on line 2110.
+. Defining document command \Acf with arg. spec. 'sm' on line 2111.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acfp with arg. spec. 'sm' on line 2122.
+. Defining document command \acfp with arg. spec. 'sm' on line 2123.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Acfp with arg. spec. 'sm' on line 2135.
+. Defining document command \Acfp with arg. spec. 'sm' on line 2136.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acflike with arg. spec. 'smm' on line 2147.
+. Defining document command \acflike with arg. spec. 'smm' on line 2148.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \iacflike with arg. spec. 'smm' on line 2159.
+. Defining document command \iacflike with arg. spec. 'smm' on line 2160.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Iacflike with arg. spec. 'smm' on line 2171.
+. Defining document command \Iacflike with arg. spec. 'smm' on line 2172.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acfplike with arg. spec. 'smm' on line 2183.
+. Defining document command \acfplike with arg. spec. 'smm' on line 2184.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acifused with arg. spec. 'm' on line 2220.
+. Defining document command \acifused with arg. spec. 'm' on line 2221.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acresetall with arg. spec. '' on line 2234.
+. Defining document command \acresetall with arg. spec. '' on line 2235.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \acuseall with arg. spec. '' on line 2237.
+. Defining document command \acuseall with arg. spec. '' on line 2238.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining document command \acreset with arg. spec. '>{\SplitList {,}}m' on
-. line 2240.
+. line 2241.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
 . Defining document command \acuse with arg. spec. '>{\SplitList {,}}m' on
-. line 2243.
+. line 2244.
 .................................................
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/translations/translations.sty
-Package: translations 2013/08/05 v1.1 internationalization of LaTeX2e packages 
-(CN)
+Package: translations 2013/09/30 v1.1a internationalization of LaTeX2e packages
+ (CN)
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
@@ -727,12 +727,12 @@ File: acro1.def
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \DeclareAcronym with arg. spec. 'mm' on line 449.
+. Defining document command \DeclareAcronym with arg. spec. 'mm' on line 451.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \printacronyms with arg. spec. 'O{}' on line 504.
+. Defining document command \printacronyms with arg. spec. 'O{}' on line 506.
 .................................................
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lineno/lineno.sty
@@ -2630,11 +2630,11 @@ Overfull \hbox (54.82452pt too wide) in paragraph at lines 195--218
 [40] [41] [42]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
-(epstopdf)                    date: 2014-02-04 12:34:08
+(epstopdf)                    date: 2014-02-05 18:38:03
 (epstopdf)                    size: 31205 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-04 12:34:08
+(epstopdf)                    date: 2014-02-05 18:38:03
 (epstopdf)                    size: 7348 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
@@ -2654,11 +2654,11 @@ jointhistoalg-eps-converted-to.pdf used on input line 328.
 (pdftex.def)             Requested size: 85.9996pt x 86.00089pt.
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
-(epstopdf)                    date: 2014-02-04 12:34:08
+(epstopdf)                    date: 2014-02-05 18:38:03
 (epstopdf)                    size: 241135 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-02-04 12:34:08
+(epstopdf)                    date: 2014-02-05 18:38:03
 (epstopdf)                    size: 31593 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
@@ -3095,22 +3095,22 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 280.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [74] [75]
+ [74]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (3.00064pt too wide) in paragraph at lines 477--477
+Overfull \hbox (3.00064pt too wide) in paragraph at lines 468--468
  [][][][]\OT1/cmr/m/n/10 Summation 
  []
 
-[76] [77] [78]
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
+[75] [76] [77] [78]
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
 []|$\OT1/cmr/m/n/10.95 [$4-5,7,12,14,17,20-23,25,27-
  []
 
-[79])) (./09_discussion/discussion.tex
+[79] [80])) (./09_discussion/discussion.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -3118,14 +3118,15 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [80] [81] [82]) [83]
+ [81] [82] [83])
 (./10_conclusion/conclusion.tex) (./11_acknowledgement/acknowledgement.tex
+[84]
 Overfull \hbox (4.04738pt too wide) in paragraph at lines 3--4
 \OT1/cmr/m/n/12 DGR2012) and partly by the Mediter-ranean Of-fice for Youth (gr
 ant nb. 2011/018/06). 
  []
 
-) (./g_lemaitre_state_of_the_art.bbl [84]
+) (./g_lemaitre_state_of_the_art.bbl
 Underfull \hbox (badness 2875) in paragraph at lines 68--75
 []\OT1/cmr/m/n/12 American Can-cer So-ci-ety, A.C., 2010.  Can-cer Facts and Fi
 g-ures 2010.
@@ -3141,10 +3142,10 @@ g-ures 2013.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [92] [93] [94] [95] [96] [97] [98]
+ [92] [93] [94] [95] [96] [97] [98] [99]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¨ in font cmr12!
- [99]
+
 [100]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
@@ -3153,9 +3154,9 @@ Missing character: There is no © in font cmr12!
  [101] [102] [103]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¡ in font cmr12!
- [104] [105] [106] [107] [108])
+ [104] [105] [106] [107] [108] [109])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [109]
+ [110]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 
 (./g_lemaitre_state_of_the_art.aux)
@@ -3163,7 +3164,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `g_lemaitre_state_of_the_art.out' has not cha
 nged.
-(rerunfilecheck)             Checksum: C584F4DD0E9C10606C56D388A03D8665;2914.
+(rerunfilecheck)             Checksum: 2B40D85E4DF9CAE4EB4692D9120E868A;2906.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3172,15 +3173,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 32634 strings out of 493311
- 651932 string characters out of 6137856
- 916144 words of memory out of 5000000
- 34760 multiletter control sequences out of 15000+600000
+ 32639 strings out of 493308
+ 651988 string characters out of 6137821
+ 914580 words of memory out of 5000000
+ 34765 multiletter control sequences out of 15000+600000
  26964 words of font info for 102 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  67i,19n,74p,2413b,1339s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3220,10 +3218,10 @@ onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (109 pages, 3102963 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (110 pages, 3104930 bytes).
 PDF statistics:
- 3050 PDF objects out of 3580 (max. 8388607)
- 2767 compressed objects within 28 object streams
- 568 named destinations out of 1000 (max. 500000)
+ 3062 PDF objects out of 3580 (max. 8388607)
+ 2778 compressed objects within 28 object streams
+ 571 named destinations out of 1000 (max. 500000)
  627 words of extra memory for PDF output out of 10000 (max. 10000000)
 
