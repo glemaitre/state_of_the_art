@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  13 FEB 2014 00:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.15)  13 FEB 2014 00:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -3386,15 +3386,11 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
 Package rerunfilecheck Info: File `g_lemaitre_state_of_the_art.out' has not cha
 nged.
 (rerunfilecheck)             Checksum: 2B40D85E4DF9CAE4EB4692D9120E868A;2906.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  33111 strings out of 493308
  658287 string characters out of 6137821
- 928515 words of memory out of 5000000
+ 928518 words of memory out of 5000000
  35241 multiletter control sequences out of 15000+600000
  83385 words of font info for 209 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
