@@ -194,18 +194,18 @@ path picture={
 \begin{threeparttable}
 \renewcommand{\arraystretch}{1.5}
 	\rowcolors{3}{black!5}{white}	
-	\begin{tabular}{|c|c|c|>{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm}| >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm}| >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.5cm}|}\hline
+	\begin{tabular}{|c|c|c| >{\centering\arraybackslash}m{1.2cm} >{\centering\arraybackslash}m{1.2cm}| >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm}| >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.5cm}| }\hline
 	\hiderowcolors
-	Study & Modality & \multirow{2}{*}{Type} & \multicolumn{3}{c|}{Geometric transformation} & \multicolumn{3}{c|}{Similarity measure} & \multicolumn{3}{c|}{Optimizer} \\ \cline{4-12}
-	 index & registered & & Rigid & Affine & Elastic & \acs{mse} & \acs{mi} & \acs{cmi} & GD & L-BFGS-B & NM simplex \\ \hline \hline
+	Study & Modality & \multirow{2}{*}{Type} & \multicolumn{2}{c|}{Geometric model} & \multicolumn{3}{c|}{Similarity measure} & \multicolumn{2}{c|}{Optimizer} \\ \cline{4-10}
+	 index & registered & & Affine & Elastic & \acs{mse} & \acs{mi} & \acs{cmi} & GD & L-BFGS-B \\ \hline \hline
 	 \showrowcolors
-	 	  $[$1-2$]$ & \ac{t2w} - \ac{dce} & 2D & $-$ & \cmark & $-$ & \cmark & $-$ & $-$ & $-$ & $-$ & $-$ \\
-	 	  $[$7$]$ & \ac{t2w} - \ac{dw} & 2D & $-$ & \cmark & \cmark & $-$ & $-$ & $-$ & $-$ & $-$ & $-$ \\
-		  $[$7$]$ & \ac{t2w} - \ac{dce} & 2D & $-$ & \cmark & \cmark & $-$ & \cmark & $-$ & \cmark & $-$ & $-$ \\
-	 	  $[$34-35$]$ & \ac{t2w} - \ac{dce} & 2D & $-$ & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ & $-$ \\
-	 	  $[$36$]$ & \ac{t2w} - \ac{dce} - \ac{dw} & 3D & $-$ & \cmark & $-$ & $-$ & $-$ & \cmark & \cmark & $-$ & $-$ \\
-	 	  $[$38$]$ & \ac{t2w} - \ac{dce} & 3D & $-$ & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ & $-$ \\
-	 	  $[$40$]$ & \ac{t2w} - \ac{dce} & 3D & $-$ & \cmark & \cmark & $-$ & \cmark & $-$ & $-$ & \cmark & $-$ \\
+	 	  $[$1-2$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & \cmark & $-$ & $-$ & $-$ & $-$ \\
+	 	  $[$7$]$ & \ac{t2w} - \ac{dw} & 2D & \cmark & \cmark & $-$ & $-$ & $-$ & $-$ & $-$  \\
+		  $[$7$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & \cmark & $-$ & \cmark & $-$ & \cmark & $-$ \\
+	 	  $[$34-35$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
+	 	  $[$36$]$ & \ac{t2w} - \ac{dce} - \ac{dw} & 3D & \cmark & $-$ & $-$ & $-$ & \cmark & \cmark & $-$  \\
+	 	  $[$38$]$ & \ac{t2w} - \ac{dce} & 3D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
+	 	  $[$40$]$ & \ac{t2w} - \ac{dce} & 3D & \cmark & \cmark & $-$ & \cmark & $-$ & $-$ & \cmark \\
 	 	 \hline
 	\end{tabular}
 	\begin{tablenotes}
@@ -229,34 +229,34 @@ From Sect. \ref{subsubsec:geotra} to \ref{subsubsec:int}, we individually review
 
 As previously mentioned, the registration problem is to align two images or volumes by finding the geometric transformation. Regarding the transformation, from all \ac{cad} systems reviewed, only parametric methods have been implemented.
 
-Three different groups of parametric transformation models have been used, each of them are characterized by the degree of freedom that they offer.
+Two different groups of parametric transformation models have been used, each of them are characterized by the degree of freedom that they offer.
 
-The first type of transformation is usually referred to as rigid transformation. These transformations are only composed of rotation and translation transforms. Hence, for a 2D space where $\mathbf{x} = (x,y) \in \mathbb{R}^2$ a rigid transformation $\mathcal{T}_R$ is formalized as:
-\begin{eqnarray}
-	\mathcal{T}_R(\mathbf{x}) & = & \begin{bmatrix}
-		R & \mathbf{t} \\
-		\mathbf{0^T} & 1
-	\end{bmatrix} \mathbf{x} \ , \nonumber \\
-	& = & \begin{bmatrix}
-		\cos \theta & -\sin \theta & t_x \\
-		\sin \theta & \cos \theta & t_y \\
-		0 & 0 & 1
-	\end{bmatrix}\begin{bmatrix}
-		x \\
-		y \\
-		1
-	\end{bmatrix} \ , \label{eq:rigtra} %\\
-%	& = & \begin{matrix}
-%	\cos(\theta) x - \sin(\theta) y + t_x \\
-%	\sin(\theta) x + \cos(\theta) y + t_y
-%	\end{matrix} \ . \nonumber
-\end{eqnarray}
+%The first type of transformation is usually referred to as rigid transformation. These transformations are only composed of rotation and translation transforms. Hence, for a 2D space where $\mathbf{x} = (x,y) \in \mathbb{R}^2$ a rigid transformation $\mathcal{T}_R$ is formalized as:
+%\begin{eqnarray}
+%	\mathcal{T}_R(\mathbf{x}) & = & \begin{bmatrix}
+%		R & \mathbf{t} \\
+%		\mathbf{0^T} & 1
+%	\end{bmatrix} \mathbf{x} \ , \nonumber \\
+%	& = & \begin{bmatrix}
+%		\cos \theta & -\sin \theta & t_x \\
+%		\sin \theta & \cos \theta & t_y \\
+%		0 & 0 & 1
+%	\end{bmatrix}\begin{bmatrix}
+%		x \\
+%		y \\
+%		1
+%	\end{bmatrix} \ , \label{eq:rigtra} %\\
+%%	& = & \begin{matrix}
+%%	\cos(\theta) x - \sin(\theta) y + t_x \\
+%%	\sin(\theta) x + \cos(\theta) y + t_y
+%%	\end{matrix} \ . \nonumber
+%\end{eqnarray}
+%
+%\noindent where $\theta$ is the rotation angle and $\{ t_x,t_y \}$ represents the translation along $\{x,y\}$ respectively.
+%
+%In the case of 3D registration using volume, an additional component $z$ has to be taken into account such that $\mathbf{x} = (x,y,z)$. Thus, the rotation matrix $\mathbf{R}$ becomes of size $3 \times 3$ whereas the translation vector $\mathbf{t}$ consists of a vector of three elements. Hence, the geometric transformation $\mathcal{T}_R(\cdot)$ is embedded into a matrix of size $4 \times 4$.
 
-\noindent where $\theta$ is the rotation angle and $\{ t_x,t_y \}$ represents the translation along $\{x,y\}$ respectively.
-
-In the case of 3D registration using volume, an additional component $z$ has to be taken into account such that $\mathbf{x} = (x,y,z)$. Thus, the rotation matrix $\mathbf{R}$ becomes of size $3 \times 3$ whereas the translation vector $\mathbf{t}$ consists of a vector of three elements. Hence, the geometric transformation $\mathcal{T}_R(\cdot)$ is embedded into a matrix of size $4 \times 4$.
-
-Affine transformations provide additional degrees of freedom managing rotations and translation as with the rigid transformations but also shearing and scaling. Hence, for a 2D space where $\mathbf{x} = (x,y) \in \mathbb{R}^2$, an affine transformation $\mathcal{T}_A$ is formalized as: 
+Affine transformations provide four degrees of freedom managing rotations and translation as with the rigid transformations but also shearing and scaling. Hence, for a 2D space where $\mathbf{x} = (x,y) \in \mathbb{R}^2$, an affine transformation $\mathcal{T}_A$ is formalized as: 
 
 \begin{eqnarray}
 	\mathcal{T}_A(\mathbf{x}) & = & \begin{bmatrix}
@@ -291,9 +291,9 @@ Affine transformations provide additional degrees of freedom managing rotations 
 
 Hence the four parameters $\{a_{11},a_{12},a_{21},a_{22}\}$ of the affine matrix and $\{ t_x, t_y \}$ of the translation encode an affine transformation.
 
-Regarding volume registered, the same remark as previously mentioned can be applied in this case. Thus the geometric transformation $\mathcal{T}_A(\cdot)$ is of size $4 \times 4$ with nine parameters involved.
+In the case of 3D registration using volume, an additional component $z$ has to be taken into account such that $\mathbf{x} = (x,y,z)$. Thus the geometric transformation $\mathcal{T}_A(\cdot)$ is of size $4 \times 4$ with nine parameters involved.
 
-Finally, the last group of transformations is known as elastic transformations and offer the advantage to handle local distortions. In the reviewed \ac{cad} systems, the radial basis functions are used to formalize the local distortions such as:
+The other group of transformations is known as elastic transformations and offer the advantage to handle local distortions. In the reviewed \ac{cad} systems, the radial basis functions are used to formalize the local distortions such as:
 
 \begin{equation}
 	\mathcal{T}_E(\mathbf{x}) = \begin{matrix}
@@ -312,14 +312,14 @@ It is reasonable to point out that usually only rigid or affine registrations ar
 
 During the registration procedure, a similarity criterion is computed in order to evaluate the quality of the alignment performed. Roughly speaking, this criterion will give the direction to take to the optimizer, in order to assign the most optimal values to the geometric transformation parameters.
 
-The most naive similarity measure is the \acf{mse} of the \ac{si} of \ac{mri} images. For a pair of images $I$ and $J$, the \ac{mse} is formalized as:
+The most naive similarity measure is the \acf{mse} of the \ac{si} of \ac{mri} images.% For a pair of images $I$ and $J$, the \ac{mse} is formalized as:
 
-\begin{equation}
-	\text{MSE} =\frac{1}{N} \sum_x \sum_y ( I(x,y) - J(x,y) )^2 \ ,
-	\label{eq:mse}
-\end{equation}
-
-\noindent where $N$ is the total number of pixels.
+%\begin{equation}
+%	\text{MSE} =\frac{1}{N} \sum_x \sum_y ( I(x,y) - J(x,y) )^2 \ ,
+%	\label{eq:mse}
+%\end{equation}
+%
+%\noindent where $N$ is the total number of pixels.
 
 \begin{figure*}
 \centering
@@ -333,29 +333,29 @@ The most naive similarity measure is the \acf{mse} of the \ac{si} of \ac{mri} im
 
 However, this metric is not well suited when multi-parametric images are involved due to the tissue appearance variations between the different modalities.
 
-In that regard, \ac{mi} was introduced as a registration measure in the late 1990's by \cite{Pluim2003}. The \ac{mi} measure finds its foundation in the assumption that a homogeneous region in the first modality image should also appear as a homogeneous region in the second modality even if their \acp{si} are not identical. Thus, those regions share information and the registration task can be achieved by maximizing this common information. Hence, \Ac{mi} of two images $A$ and $B$ is defined as:
+In that regard, \ac{mi} was introduced as a registration measure in the late 1990's by \cite{Pluim2003}. The \ac{mi} measure finds its foundation in the assumption that a homogeneous region in the first modality image should also appear as a homogeneous region in the second modality even if their \acp{si} are not identical. Thus, those regions share information and the registration task can be achieved by maximizing this common information.% Hence, \Ac{mi} of two images $A$ and $B$ is defined as:
 
-\begin{equation}
-	MI(A;B) = S(A) + S(B) - S(A,B) \ ,
-	\label{eq:midef}
-\end{equation}
+%\begin{equation}
+%	MI(A;B) = S(A) + S(B) - S(A,B) \ ,
+%	\label{eq:midef}
+%\end{equation}
 
-\noindent where $S(A)$ and $S(B)$ are the marginal entropies and $S(A,B)$ is the joint entropy.
+%\noindent where $S(A)$ and $S(B)$ are the marginal entropies and $S(A,B)$ is the joint entropy.
 
 Then, maximizing the \ac{mi} is equivalent to minimizing the joint entropy. The joint entropy measure is related with the degree of uncertainty or dispersion of the data in the joint histogram of the images $A$ and $B$. As shown in Fig. \ref{fig:jointhisto}, the data in the joint histogram will be concentrated in the case of aligned images while will be more randomly distributed in the case of misaligned images. Regarding the computation of the entropies, an estimation of the \acp{pdf} have to be carried out. Histogram or Parzen window methods are a common way to estimate these \acp{pdf}.
 
-A generalized form of \ac{mi}, \ac{cmi}, was proposed by \cite{Chappelow2011}. \ac{cmi} encompasses interdependent information such as texture and gradient into the metric. Hence, for both of images $A$ and $B$, the image ensembles $\epsilon^{A}_n$ and $\epsilon^{B}_m$ are generated and composed of $n$ and $m$ images based on the texture and gradient. Then, the \ac{cmi} can be formulated such as:
-
-\begin{equation}
-	CMI(\epsilon^{A}_n;\epsilon^{B}_m) = S(\epsilon^{A}_n) + S(\epsilon^{B}_m) - S(\epsilon^{A}_n,\epsilon^{B}_m) \ .
-	\label{eq:cmidef}
-\end{equation}
-
-From Eq. \eqref{eq:cmidef}, it can be seen that \ac{cmi} is estimated using high dimensional data and that histogram-based methods to estimate the \acp{pdf} are not suitable any more (\cite{Chappelow2011}). However, other approaches can be used such as the one employed by \cite{Staring2009} to compute the $\alpha$-\ac{mi} (\cite{Hero2002}) which is based on the construction of entropic graphs using \ac{knn} inside the high dimensional feature space later used to estimate the \ac{mi}.
+A generalized form of \ac{mi}, \ac{cmi}, was proposed by \cite{Chappelow2011}. \ac{cmi} encompasses interdependent information such as texture and gradient into the metric.% Hence, for both of images $A$ and $B$, the image ensembles $\epsilon^{A}_n$ and $\epsilon^{B}_m$ are generated and composed of $n$ and $m$ images based on the texture and gradient. Then, the \ac{cmi} can be formulated such as:
+%
+%\begin{equation}
+%	CMI(\epsilon^{A}_n;\epsilon^{B}_m) = S(\epsilon^{A}_n) + S(\epsilon^{B}_m) - S(\epsilon^{A}_n,\epsilon^{B}_m) \ .
+%	\label{eq:cmidef}
+%\end{equation}
+%
+%From Eq. \eqref{eq:cmidef}, it can be seen that \ac{cmi} is estimated using high dimensional data and that histogram-based methods to estimate the \acp{pdf} are not suitable any more (\cite{Chappelow2011}). However, other approaches can be used such as the one employed by \cite{Staring2009} to compute the $\alpha$-\ac{mi} (\cite{Hero2002}) which is based on the construction of entropic graphs using \ac{knn} inside the high dimensional feature space later used to estimate the \ac{mi}.
 
 \subsubsection{Optimization methods}\label{subsubsec:optmea}
 
-Registration is usually regarded as an optimization problem where the parameters of the geometric transformation model have to be inferred by minimizing the similarity measure. Iterative estimation methods are commonly used: Nelder-Mead simplex method (\cite{Nelder1965}), L-BFGS-B quasi-Newton method (\cite{Byrd1995}) and gradient descent (\cite{Viola1997}). During our review, we noticed that authors do not usually linger over optimizer choice.
+Registration is usually regarded as an optimization problem where the parameters of the geometric transformation model have to be inferred by minimizing the similarity measure. Iterative estimation methods are commonly used: L-BFGS-B quasi-Newton method (\cite{Byrd1995}) and gradient descent (\cite{Viola1997}). During our review, we noticed that authors do not usually linger over optimizer choice.
 
 \subsubsection{Interpolation}\label{subsubsec:int}
 

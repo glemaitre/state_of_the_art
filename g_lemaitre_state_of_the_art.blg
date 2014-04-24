@@ -1,12 +1,10 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: g_lemaitre_state_of_the_art.aux
 The style file: model2-names.bst
-Reallocated field_info (elt_size=4) to 12598 items from 5000.
+Reallocated field_info (elt_size=4) to 11583 items from 5000.
 Database file #1: bibtex/literature_review.bib.bib
-Warning--entry type for "Doi1987" isn't style-file defined
---line 783 of file bibtex/literature_review.bib.bib
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--I didn't find a database entry for "Giskeodegard201"
 Too many commas in name 4 of "Liu, P. and Wang, S. and Turkbey, B. and Grant, K.and Pinto, P.and Choyke, P. and Wood, B. J. and Summers, R. M." for entry Liu2013
 while executing---line 3089 of file model2-names.bst
 Name 1 in "Toth, R, and Doyle, S., and Pungavkar, S, and Kalyanpur, A, and Madabhushi, A," has a comma at the end for entry Toth2009
@@ -64,45 +62,45 @@ Warning--empty pages in Viswanath2009
 Warning--empty pages in Viswanath2008
 Warning--empty pages in Vos2008
 Warning--empty pages in Walker2010
-You've used 262 entries,
+You've used 226 entries,
             2990 wiz_defined-function locations,
-            2370 strings with 65132 characters,
-and the built_in function-call counts, 210518 in all, are:
-= -- 14997
-> -- 10949
-< -- 108
-+ -- 4175
-- -- 3907
-* -- 24863
-:= -- 30529
-add.period$ -- 752
-call.type$ -- 262
-change.case$ -- 2606
-chr.to.int$ -- 256
-cite$ -- 276
-duplicate$ -- 14545
-empty$ -- 14046
-format.name$ -- 4689
-if$ -- 38567
+            2162 strings with 59100 characters,
+and the built_in function-call counts, 186148 in all, are:
+= -- 13143
+> -- 9989
+< -- 91
++ -- 3806
+- -- 3574
+* -- 22165
+:= -- 27001
+add.period$ -- 645
+call.type$ -- 226
+change.case$ -- 2317
+chr.to.int$ -- 220
+cite$ -- 240
+duplicate$ -- 12737
+empty$ -- 12242
+format.name$ -- 4238
+if$ -- 34057
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 3121
-newline$ -- 1291
-num.names$ -- 1056
-pop$ -- 5428
+missing$ -- 2762
+newline$ -- 1112
+num.names$ -- 912
+pop$ -- 4768
 preamble$ -- 1
-purify$ -- 2348
+purify$ -- 2093
 quote$ -- 0
-skip$ -- 3861
+skip$ -- 3386
 stack$ -- 0
-substring$ -- 8866
-swap$ -- 11796
+substring$ -- 7701
+swap$ -- 10481
 text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2322
+type$ -- 2004
 warning$ -- 14
-while$ -- 1205
+while$ -- 1040
 width$ -- 0
-write$ -- 3643
+write$ -- 3144
 (There were 21 error messages)

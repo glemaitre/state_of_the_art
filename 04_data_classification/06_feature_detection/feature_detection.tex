@@ -6,22 +6,22 @@ Discriminative features which can be used to recognize \ac{cap} from healthy tis
 	\caption{Overview of the feature detection methods used in \ac{cad} systems.}
 	\small
 	\renewcommand{\arraystretch}{.9}
-	\begin{tabular}{p{.7\linewidth} >{\centering\arraybackslash}p{.20\linewidth}}
+	\begin{tabular}{p{.5\linewidth} p{.4\linewidth}}
 		\hline \\ [-1.5ex]
 		\textbf{Feature detection methods} & \textbf{Indexes} \\ \\ [-1.5ex]
 		\hline \\ [-1.5ex]
 		\textbf{\ac{mri} image:} & \\ \\ [-1.5ex]
 		\quad \textit{Voxel-wise detection} &  \\ \\ [-1.5ex]
-		\quad \quad Intensity-based & A \\
+		\quad \quad Intensity-based & $[$1-2,38$]^{\text{{\cmarksmall}- -}}$\par $[$7$]^{\text{- - {\cmarksmall}}}$\par $[$4-6,9-12,20-21$]^{\text{{\cmarksmall}- {\cmarksmall}}}$\par $[$18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
 		\quad \quad Edge-based & \\
-		\quad \quad \quad Prewitt operator & B$_1$ \\
-		\quad \quad \quad Sobel operator & B$_2$ \\
-		\quad \quad \quad Kirsch operator & B$_3$ \\
-		\quad \quad \quad Gabor filtering & B$_4$ \\ 
+		\quad \quad \quad Prewitt operator & $[$29-30,32-33$]^{\text{{\cmarksmall}- -}}$ \\
+		\quad \quad \quad Sobel operator & $[$29-30,32-33,35-37$]^{\text{{\cmarksmall}- -}}$\par $[$18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Kirsch operator & $[$29-30,32-33,35-37$]^{\text{{\cmarksmall}- -}}$\par $[$18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Gabor filtering & $[$31,33,37$]^{\text{{\cmarksmall}- -}}$ \\ 
 		\quad \quad Texture-based & \\
-		\quad \quad \quad Haralick features & C$_1$ \\
-		\quad \quad \quad Fractal analysis & C$_2$ \\
-		\quad \quad \quad \Ac{dct} & C$_3$ \\
+		\quad \quad \quad Haralick features & $[$3,29-30,32.33,35,37$]^{\text{{\cmarksmall}- -}}$\par $[$36$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$11,18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Fractal analysis & $[$14-15$]^{\text{{\cmarksmall}- -}}$ \\
+		\quad \quad \quad \Ac{dct} & $[$18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
 		\quad \quad \quad Wavelet-based features & C$_4$ \\
 		\quad \quad Position-based & D \\ \\ [-1.5ex]
 		\quad \textit{Region-wise detection} &  \\ \\ [-1.5ex]

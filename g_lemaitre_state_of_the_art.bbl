@@ -1,4 +1,4 @@
-\begin{thebibliography}{262}
+\begin{thebibliography}{226}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -55,14 +55,6 @@
 \newblock \bibinfo{title}{{{A} review and meta-analysis of prospective studies
   of red and processed meat intake and prostate cancer}}.
 \newblock \bibinfo{journal}{Nutr J} \bibinfo{volume}{9}, \bibinfo{pages}{50}.
-%Type = Article
-\bibitem[{Amadasun and King(1989)}]{Amadasun1989}
-\bibinfo{author}{Amadasun, M.}, \bibinfo{author}{King, R.},
-  \bibinfo{year}{1989}.
-\newblock \bibinfo{title}{{{T}extural features corresponding to textural
-  properties}}.
-\newblock \bibinfo{journal}{Systems, Man and Cybernetics, IEEE Transactions on}
-  \bibinfo{volume}{19}, \bibinfo{pages}{1264--1274}.
 %Type = Misc
 \bibitem[{American Cancer~Society(2010)}]{Society2010}
 \bibinfo{author}{American Cancer~Society, A.C.}, \bibinfo{year}{2010}.
@@ -241,13 +233,6 @@
 \newblock \bibinfo{title}{{{P}attern recognition and machine learning}}.
 \newblock \bibinfo{publisher}{Springer-Verlag New York, Inc.},
   \bibinfo{address}{Secaucus, NJ, USA}.
-%Type = Article
-\bibitem[{Bookstein(1989)}]{Bookstein1989}
-\bibinfo{author}{Bookstein, F.L.}, \bibinfo{year}{1989}.
-\newblock \bibinfo{title}{{{P}rincipal warps: thin-plate splines and the
-  decomposition of deformations}}.
-\newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
-  Transactions on} \bibinfo{volume}{11}, \bibinfo{pages}{567--585}.
 %Type = Inproceedings
 \bibitem[{Boser et~al.(1992)Boser, Guyon and Vapnik}]{Boser1992}
 \bibinfo{author}{Boser, B.E.}, \bibinfo{author}{Guyon, I.M.},
@@ -299,17 +284,6 @@
 \newblock \bibinfo{journal}{Simul} \bibinfo{volume}{4},
   \bibinfo{pages}{490--530}.
 %Type = Article
-\bibitem[{Buckley et~al.(2004)Buckley, Roberts, Parker, Logue and
-  Hutchinson}]{Buckley2004}
-\bibinfo{author}{Buckley, D.L.}, \bibinfo{author}{Roberts, C.},
-  \bibinfo{author}{Parker, G.J.}, \bibinfo{author}{Logue, J.P.},
-  \bibinfo{author}{Hutchinson, C.E.}, \bibinfo{year}{2004}.
-\newblock \bibinfo{title}{{{P}rostate cancer: evaluation of vascular
-  characteristics with dynamic contrast-enhanced {T}1-weighted {M}{R}
-  imaging--initial experience}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{233},
-  \bibinfo{pages}{709--715}.
-%Type = Article
 \bibitem[{Byrd et~al.(1995)Byrd, Lu, Nocedal and Zhu}]{Byrd1995}
 \bibinfo{author}{Byrd, R.H.}, \bibinfo{author}{Lu, P.},
   \bibinfo{author}{Nocedal, J.}, \bibinfo{author}{Zhu, C.},
@@ -318,13 +292,6 @@
   optimization}}.
 \newblock \bibinfo{journal}{SIAM J. Sci. Comput.} \bibinfo{volume}{16},
   \bibinfo{pages}{1190--1208}.
-%Type = Article
-\bibitem[{Carmeliet and Jain(2000)}]{Carmeliet2000}
-\bibinfo{author}{Carmeliet, P.}, \bibinfo{author}{Jain, R.K.},
-  \bibinfo{year}{2000}.
-\newblock \bibinfo{title}{{{A}ngiogenesis in cancer and other diseases}}.
-\newblock \bibinfo{journal}{Nature} \bibinfo{volume}{407},
-  \bibinfo{pages}{249--257}.
 %Type = Article
 \bibitem[{Carrol et~al.(1987)Carrol, Sommer, McNeal and Stamey}]{Carrol1987}
 \bibinfo{author}{Carrol, C.L.}, \bibinfo{author}{Sommer, F.G.},
@@ -342,27 +309,6 @@
   universalities in growth problems in physics and other sciences}}.
 \newblock \bibinfo{journal}{Phys. Rev. Lett.} \bibinfo{volume}{96},
   \bibinfo{pages}{188701}.
-%Type = Article
-\bibitem[{Chan et~al.(1987)Chan, Doi, Galhotra, Vyborny, MacMahon and
-  Jokich}]{Chan1987}
-\bibinfo{author}{Chan, H.P.}, \bibinfo{author}{Doi, K.},
-  \bibinfo{author}{Galhotra, S.}, \bibinfo{author}{Vyborny, C.J.},
-  \bibinfo{author}{MacMahon, H.}, \bibinfo{author}{Jokich, P.M.},
-  \bibinfo{year}{1987}.
-\newblock \bibinfo{title}{{{I}mage feature analysis and computer-aided
-  diagnosis in digital radiography. {I}. {A}utomated detection of
-  microcalcifications in mammography}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{14},
-  \bibinfo{pages}{538--548}.
-%Type = Article
-\bibitem[{Chan et~al.(2008)Chan, Hadjiiski, Zhou and Sahiner}]{Chan2008}
-\bibinfo{author}{Chan, H.P.}, \bibinfo{author}{Hadjiiski, L.},
-  \bibinfo{author}{Zhou, C.}, \bibinfo{author}{Sahiner, B.},
-  \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{C}omputer-aided diagnosis of lung cancer and
-  pulmonary embolism in computed tomography-a review}}.
-\newblock \bibinfo{journal}{Acad Radiol} \bibinfo{volume}{15},
-  \bibinfo{pages}{535--555}.
 %Type = Article
 \bibitem[{Chan et~al.(1999)Chan, Sahiner, Helvie, Petrick, Roubidoux, Wilson,
   Adler, Paramagul, Newman and Sanjay-Gopal}]{Chan1999}
@@ -409,15 +355,6 @@
 \newblock \bibinfo{journal}{Journal of Magnetic Resonance}
   \bibinfo{volume}{158}, \bibinfo{pages}{164 -- 168}.
 %Type = Article
-\bibitem[{Cheng et~al.(2010)Cheng, Shan, Ju, Guo and Zhang}]{Cheng2010}
-\bibinfo{author}{Cheng, H.D.}, \bibinfo{author}{Shan, J.}, \bibinfo{author}{Ju,
-  W.}, \bibinfo{author}{Guo, Y.}, \bibinfo{author}{Zhang, L.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{A}utomated breast cancer detection and
-  classification using ultrasound images: {A} survey}}.
-\newblock \bibinfo{journal}{Pattern Recogn.} \bibinfo{volume}{43},
-  \bibinfo{pages}{299--317}.
-%Type = Article
 \bibitem[{Choi et~al.(2007)Choi, Kim, Kim, Kim, Choi and Cho}]{Choi2007}
 \bibinfo{author}{Choi, Y.J.}, \bibinfo{author}{Kim, J.K.},
   \bibinfo{author}{Kim, N.}, \bibinfo{author}{Kim, K.W.},
@@ -440,14 +377,6 @@
   evidence for the {U}.{S}. {P}reventive {S}ervices {T}ask {F}orce}}.
 \newblock \bibinfo{journal}{Ann. Intern. Med.} \bibinfo{volume}{155},
   \bibinfo{pages}{762--771}.
-%Type = Article
-\bibitem[{Coakley and Hricak(2000)}]{Coakley2000}
-\bibinfo{author}{Coakley, F.V.}, \bibinfo{author}{Hricak, H.},
-  \bibinfo{year}{2000}.
-\newblock \bibinfo{title}{{{R}adiologic anatomy of the prostate gland: a
-  clinical approach}}.
-\newblock \bibinfo{journal}{Radiol. Clin. North Am.} \bibinfo{volume}{38},
-  \bibinfo{pages}{15--30}.
 %Type = Article
 \bibitem[{Cohen et~al.(2008)Cohen, Shannon, Phillips, Moorin, Wheeler and
   Garrett}]{Cohen2008}
@@ -576,19 +505,6 @@
   time 1{H} {M}{R} spectra}}.
 \newblock \bibinfo{journal}{J. Magn. Reson.} \bibinfo{volume}{170},
   \bibinfo{pages}{164--175}.
-%Type = Misc
-\bibitem[{Doi et~al.(1990)Doi, Chan and Giger}]{Doi1987}
-\bibinfo{author}{Doi, K.}, \bibinfo{author}{Chan, H.P.},
-  \bibinfo{author}{Giger, M.}, \bibinfo{year}{1990}.
-\newblock \bibinfo{title}{{{M}ethod and system for enhancement and detection of
-  abnormal anatomic regions in a digital image}}.
-%Type = Article
-\bibitem[{Donoho and Johnstone(1994)}]{Donoho1994}
-\bibinfo{author}{Donoho, D.L.}, \bibinfo{author}{Johnstone, J.M.},
-  \bibinfo{year}{1994}.
-\newblock \bibinfo{title}{{{I}deal spatial adaptation by wavelet shrinkage}}.
-\newblock \bibinfo{journal}{Biometrika} \bibinfo{volume}{81},
-  \bibinfo{pages}{425--455}.
 %Type = Article
 \bibitem[{Doo et~al.(2012)Doo, Sung, Park, Kim, Cho, Oh, Ko and Yang}]{Doo2012}
 \bibinfo{author}{Doo, K.W.}, \bibinfo{author}{Sung, D.J.},
@@ -614,25 +530,6 @@
   {I}mprovement on cross-validation}}.
 \newblock \bibinfo{journal}{Journal of the American Statistical Association}
   \bibinfo{volume}{78}, \bibinfo{pages}{pp. 316--331}.
-%Type = Article
-\bibitem[{Elter and Horsch(2009)}]{Elter2009}
-\bibinfo{author}{Elter, M.}, \bibinfo{author}{Horsch, A.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{C}{A}{D}x of mammographic masses and clustered
-  microcalcifications: a review}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{36},
-  \bibinfo{pages}{2052--2068}.
-%Type = Article
-\bibitem[{Epstein et~al.(2005)Epstein, Allsbrook, Amin and
-  Egevad}]{Epstein2005}
-\bibinfo{author}{Epstein, J.I.}, \bibinfo{author}{Allsbrook, W.C.},
-  \bibinfo{author}{Amin, M.B.}, \bibinfo{author}{Egevad, L.L.},
-  \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{T}he 2005 {I}nternational {S}ociety of {U}rological
-  {P}athology ({I}{S}{U}{P}) {C}onsensus {C}onference on {G}leason {G}rading of
-  {P}rostatic {C}arcinoma}}.
-\newblock \bibinfo{journal}{Am. J. Surg. Pathol.} \bibinfo{volume}{29},
-  \bibinfo{pages}{1228--1242}.
 %Type = Article
 \bibitem[{Etzioni et~al.(2002)Etzioni, Penson, Legler, di~Tommaso, Boer, Gann
   and Feuer}]{Etzioni2002}
@@ -748,15 +645,6 @@
 \newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{35},
   \bibinfo{pages}{5799--5820}.
 %Type = Article
-\bibitem[{Giger et~al.(1988)Giger, Doi and MacMahon}]{Giger1988}
-\bibinfo{author}{Giger, M.L.}, \bibinfo{author}{Doi, K.},
-  \bibinfo{author}{MacMahon, H.}, \bibinfo{year}{1988}.
-\newblock \bibinfo{title}{{{I}mage feature analysis and computer-aided
-  diagnosis in digital radiography. 3. {A}utomated detection of nodules in
-  peripheral lung fields}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{15},
-  \bibinfo{pages}{158--166}.
-%Type = Article
 \bibitem[{Giovannucci et~al.(2007)Giovannucci, Liu, Platz, Stampfer and
   Willett}]{Giovannucci2007}
 \bibinfo{author}{Giovannucci, E.}, \bibinfo{author}{Liu, Y.},
@@ -819,15 +707,6 @@
   \bibinfo{booktitle}{Dynamic Contrast-Enhanced Magnetic Resonance Imaging in
   Oncology}. \bibinfo{publisher}{Springer Berlin Heidelberg}. Medical
   Radiology, pp. \bibinfo{pages}{1--22}.
-%Type = Book
-\bibitem[{Haacke et~al.(1999)Haacke, Brown, Thompson and
-  Venkatesan}]{Haacke1999}
-\bibinfo{author}{Haacke, E.}, \bibinfo{author}{Brown, R.},
-  \bibinfo{author}{Thompson, M.}, \bibinfo{author}{Venkatesan, R.},
-  \bibinfo{year}{1999}.
-\newblock \bibinfo{title}{{{M}agnetic resonance imaging: Physical principles
-  and sequence design}}.
-\newblock \bibinfo{publisher}{Wiley}.
 %Type = Article
 \bibitem[{Haas et~al.(2007)Haas, Delongchamps, Jones, Chandan, Serio, Vickers,
   Jumbelic, Threatte, Korets, Lilja and de~la Roza}]{Haas2007}
@@ -906,13 +785,6 @@
   {A}ssociation of {U}rology recommendation}}.
 \newblock \bibinfo{journal}{Eur. Urol.} \bibinfo{volume}{64},
   \bibinfo{pages}{347--354}.
-%Type = Article
-\bibitem[{Hero et~al.(2002)Hero, Ma, Michel and Gorman}]{Hero2002}
-\bibinfo{author}{Hero, A.}, \bibinfo{author}{Ma, B.}, \bibinfo{author}{Michel,
-  O.}, \bibinfo{author}{Gorman, J.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{A}pplications of entropic spanning graphs}}.
-\newblock \bibinfo{journal}{Signal Processing Magazine, IEEE}
-  \bibinfo{volume}{19}, \bibinfo{pages}{85--95}.
 %Type = Article
 \bibitem[{Hoeks et~al.(2011)Hoeks, Barentsz, Hambrock, Yakar, Somford,
   Heijmink, Scheenen, Vos, Huisman, van Oort, Witjes, Heerschap and
@@ -1087,13 +959,6 @@
 \newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{57},
   \bibinfo{pages}{150--159}.
 %Type = Article
-\bibitem[{Kety(1951)}]{Kety1951}
-\bibinfo{author}{Kety, S.}, \bibinfo{year}{1951}.
-\newblock \bibinfo{title}{{{T}he theory and applications of the exchange of
-  inert gas at the lungs and tissues}}.
-\newblock \bibinfo{journal}{Pharmacol. Rev.} \bibinfo{volume}{3},
-  \bibinfo{pages}{1--41}.
-%Type = Article
 \bibitem[{Kim et~al.(2005)Kim, Hong, Choi, Park, Ahn, Kim and Cho}]{Kim2005}
 \bibinfo{author}{Kim, J.K.}, \bibinfo{author}{Hong, S.S.},
   \bibinfo{author}{Choi, Y.J.}, \bibinfo{author}{Park, S.H.},
@@ -1128,14 +993,6 @@
 \newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{188},
   \bibinfo{pages}{1622--1635}.
 %Type = Article
-\bibitem[{Korotkov and Garcia(2012)}]{Korotkov2012}
-\bibinfo{author}{Korotkov, K.}, \bibinfo{author}{Garcia, R.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{C}omputerized analysis of pigmented skin lesions: a
-  review}}.
-\newblock \bibinfo{journal}{Artif Intell Med} \bibinfo{volume}{56},
-  \bibinfo{pages}{69--90}.
-%Type = Article
 \bibitem[{Kurhanewicz et~al.(1996)Kurhanewicz, Vigneron, Hricak, Narayan,
   Carroll and Nelson}]{Kurhanewicz1996}
 \bibinfo{author}{Kurhanewicz, J.}, \bibinfo{author}{Vigneron, D.B.},
@@ -1160,26 +1017,6 @@
 \newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{30},
   \bibinfo{pages}{327--334}.
 %Type = Article
-\bibitem[{Larsson et~al.(1996)Larsson, Fritz-Hansen, Rostrup, Sondergaard, Ring
-  and Henriksen}]{Larsson1996}
-\bibinfo{author}{Larsson, H.B.}, \bibinfo{author}{Fritz-Hansen, T.},
-  \bibinfo{author}{Rostrup, E.}, \bibinfo{author}{Sondergaard, L.},
-  \bibinfo{author}{Ring, P.}, \bibinfo{author}{Henriksen, O.},
-  \bibinfo{year}{1996}.
-\newblock \bibinfo{title}{{{M}yocardial perfusion modeling using {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{35},
-  \bibinfo{pages}{716--726}.
-%Type = Article
-\bibitem[{Laudadio et~al.(2002)Laudadio, Mastronardi, Vanhamme, Hecke and
-  Huffel}]{Laudadio2002}
-\bibinfo{author}{Laudadio, T.}, \bibinfo{author}{Mastronardi, N.},
-  \bibinfo{author}{Vanhamme, L.}, \bibinfo{author}{Hecke, P.V.},
-  \bibinfo{author}{Huffel, S.V.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{I}mproved {L}anczos algorithms for blackbox \{MRS\}
-  data quantitation}}.
-\newblock \bibinfo{journal}{Journal of Magnetic Resonance}
-  \bibinfo{volume}{157}, \bibinfo{pages}{292 -- 297}.
-%Type = Article
 \bibitem[{Le~Bihan et~al.(1988)Le~Bihan, Breton, Lallemand, Aubin, Vignaud and
   Laval-Jeantet}]{LeBihan1988}
 \bibinfo{author}{Le~Bihan, D.}, \bibinfo{author}{Breton, E.},
@@ -1201,13 +1038,6 @@
   application to diffusion and perfusion in neurologic disorders}}.
 \newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{161},
   \bibinfo{pages}{401--407}.
-%Type = Article
-\bibitem[{Leissner and Tisell(1979)}]{Leissner1979}
-\bibinfo{author}{Leissner, K.H.}, \bibinfo{author}{Tisell, L.E.},
-  \bibinfo{year}{1979}.
-\newblock \bibinfo{title}{{{T}he weight of the human prostate}}.
-\newblock \bibinfo{journal}{Scand. J. Urol. Nephrol.} \bibinfo{volume}{13},
-  \bibinfo{pages}{137--142}.
 %Type = Masterthesis
 \bibitem[{Lema\^itre(2011)}]{Lemaitre2011}
 \bibinfo{author}{Lema\^itre, G.}, \bibinfo{year}{2011}.
@@ -1229,17 +1059,6 @@
 \newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{183},
   \bibinfo{pages}{1209--1215}.
 %Type = Article
-\bibitem[{Li et~al.(2005)Li, Giger, Olopade, Margolis, Lan and
-  Chinander}]{Li2005a}
-\bibinfo{author}{Li, H.}, \bibinfo{author}{Giger, M.L.},
-  \bibinfo{author}{Olopade, O.I.}, \bibinfo{author}{Margolis, A.},
-  \bibinfo{author}{Lan, L.}, \bibinfo{author}{Chinander, M.R.},
-  \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{C}omputerized texture analysis of mammographic
-  parenchymal patterns of digitized mammograms}}.
-\newblock \bibinfo{journal}{Acad Radiol} \bibinfo{volume}{12},
-  \bibinfo{pages}{863--873}.
-%Type = Article
 \bibitem[{Li et~al.(2003)Li, Sone and Doi}]{Li2003}
 \bibinfo{author}{Li, Q.}, \bibinfo{author}{Sone, S.}, \bibinfo{author}{Doi,
   K.}, \bibinfo{year}{2003}.
@@ -1247,13 +1066,6 @@
   vessels, and airway walls in two- and three-dimensional {C}{T} scans}}.
 \newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{30},
   \bibinfo{pages}{2040--2051}.
-%Type = Article
-\bibitem[{Li(1996)}]{Li1996}
-\bibinfo{author}{Li, S.Z.}, \bibinfo{year}{1996}.
-\newblock \bibinfo{title}{{{R}obustizing robust {M}-estimation using
-  deterministic annealing}}.
-\newblock \bibinfo{journal}{Pattern Recognition} \bibinfo{volume}{29},
-  \bibinfo{pages}{159--166}.
 %Type = Article
 \bibitem[{Lieber and Mahadevan-Jansen(2003)}]{Lieber2003}
 \bibinfo{author}{Lieber, C.A.}, \bibinfo{author}{Mahadevan-Jansen, A.},
@@ -1470,12 +1282,6 @@
   \bibinfo{booktitle}{Proc. SPIE 7963, Medical Imaging 2011: Computer-Aided
   Diagnosis}, pp. \bibinfo{pages}{79633Q--79633Q--7}.
 %Type = Article
-\bibitem[{McNeal(1981)}]{McNeal1981}
-\bibinfo{author}{McNeal, J.E.}, \bibinfo{year}{1981}.
-\newblock \bibinfo{title}{{{T}he zonal anatomy of the prostate}}.
-\newblock \bibinfo{journal}{Prostate} \bibinfo{volume}{2},
-  \bibinfo{pages}{35--49}.
-%Type = Article
 \bibitem[{McNeal et~al.(1988)McNeal, Redwine, Freiha and Stamey}]{McNeal1988}
 \bibinfo{author}{McNeal, J.E.}, \bibinfo{author}{Redwine, E.A.},
   \bibinfo{author}{Freiha, F.S.}, \bibinfo{author}{Stamey, T.A.},
@@ -1553,13 +1359,6 @@
 \newblock \bibinfo{journal}{Clin. Cancer Res.} \bibinfo{volume}{17},
   \bibinfo{pages}{1090--1098}.
 %Type = Article
-\bibitem[{Nelder and Mead(1965)}]{Nelder1965}
-\bibinfo{author}{Nelder, J.A.}, \bibinfo{author}{Mead, R.},
-  \bibinfo{year}{1965}.
-\newblock \bibinfo{title}{{{A} simplex method for function minimization}}.
-\newblock \bibinfo{journal}{The Computer Journal} \bibinfo{volume}{7},
-  \bibinfo{pages}{308--313}.
-%Type = Article
 \bibitem[{Niaf et~al.(2012)Niaf, Rouviere, Mege-Lechevallier, Bratan and
   Lartizien}]{Niaf2012}
 \bibinfo{author}{Niaf, E.}, \bibinfo{author}{Rouviere, O.},
@@ -1577,18 +1376,6 @@
   detection in the peripheral zone via multisequence {M}{R}{I}}}, in:
   \bibinfo{booktitle}{Proc. SPIE 7963, Medical Imaging 2011: Computer-Aided
   Diagnosis}.
-%Type = Article
-\bibitem[{van Niekerk et~al.(2009)van Niekerk, van~der Laak, Borger, Huisman,
-  Witjes, Barentsz and Hulsbergen-van~de Kaa}]{Niekerk2009}
-\bibinfo{author}{van Niekerk, C.G.}, \bibinfo{author}{van~der Laak, J.A.},
-  \bibinfo{author}{Borger, M.E.}, \bibinfo{author}{Huisman, H.J.},
-  \bibinfo{author}{Witjes, J.A.}, \bibinfo{author}{Barentsz, J.O.},
-  \bibinfo{author}{Hulsbergen-van~de Kaa, C.A.}, \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{C}omputerized whole slide quantification shows
-  increased microvascular density in p{T}2 prostate cancer as compared to
-  normal prostate tissue}}.
-\newblock \bibinfo{journal}{Prostate} \bibinfo{volume}{69},
-  \bibinfo{pages}{62--69}.
 %Type = Article
 \bibitem[{van Niekerk et~al.(2013)van Niekerk, Witjes, Barentsz, van~der Laak
   and Hulsbergen-van~de Kaa}]{Niekerk2013}
@@ -1721,13 +1508,6 @@
 \newblock \bibinfo{journal}{Biomedical Signal Processing and Control}
   \bibinfo{volume}{7}, \bibinfo{pages}{499 -- 508}.
 %Type = Article
-\bibitem[{Pearson(1901)}]{Pearson1901}
-\bibinfo{author}{Pearson, K.}, \bibinfo{year}{1901}.
-\newblock \bibinfo{title}{{{O}n lines and planes of closest fit to systems of
-  points in space}}.
-\newblock \bibinfo{journal}{Philosophical Magazine} \bibinfo{volume}{2},
-  \bibinfo{pages}{559--572}.
-%Type = Article
 \bibitem[{Peng et~al.(2005)Peng, Long and Ding}]{Peng2005}
 \bibinfo{author}{Peng, H.}, \bibinfo{author}{Long, F.}, \bibinfo{author}{Ding,
   C.}, \bibinfo{year}{2005}.
@@ -1853,14 +1633,6 @@
   with body coils do not accurately reflect tumor volume}}.
 \newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{156},
   \bibinfo{pages}{511--516}.
-%Type = Article
-\bibitem[{Rangayyan et~al.(2007)Rangayyan, Ayres and Desautels}]{Rangayyan2007}
-\bibinfo{author}{Rangayyan, R.}, \bibinfo{author}{Ayres, F.},
-  \bibinfo{author}{Desautels, J.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{A} review of computer-aided diagnosis of breast
-  cancer: {T}oward the detection of subtle signs}}.
-\newblock \bibinfo{journal}{Journal of the Franklin Institute}
-  \bibinfo{volume}{344}, \bibinfo{pages}{312 -- 348}.
 %Type = Book
 \bibitem[{Rasmussen and Williams(2005)}]{Rasmussen2005}
 \bibinfo{author}{Rasmussen, C.}, \bibinfo{author}{Williams, C.},
@@ -2019,13 +1791,6 @@
   follow-up}}.
 \newblock \bibinfo{journal}{New England Journal of Medicine}
   \bibinfo{volume}{366}, \bibinfo{pages}{981--990}.
-%Type = Book
-\bibitem[{Shapiro and Stockman(2001)}]{Shapiro2001}
-\bibinfo{author}{Shapiro, L.G.}, \bibinfo{author}{Stockman, G.C.},
-  \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{C}omputer vision}}.
-\newblock \bibinfo{publisher}{Prentice Hall}, \bibinfo{address}{Upper Saddle
-  River, NJ}.
 %Type = Article
 \bibitem[{Shi and Malik(2000)}]{Shi2000}
 \bibinfo{author}{Shi, J.}, \bibinfo{author}{Malik, J.}, \bibinfo{year}{2000}.
@@ -2049,29 +1814,11 @@
 \newblock \bibinfo{title}{{{C}ancer statistics, 2013}}.
 \newblock \bibinfo{journal}{CA Cancer J Clin} \bibinfo{volume}{63},
   \bibinfo{pages}{11--30}.
-%Type = Article
-\bibitem[{Sled et~al.(1998)Sled, Zijdenbos and Evans}]{Sled1998}
-\bibinfo{author}{Sled, J.G.}, \bibinfo{author}{Zijdenbos, A.P.},
-  \bibinfo{author}{Evans, A.C.}, \bibinfo{year}{1998}.
-\newblock \bibinfo{title}{{{A} nonparametric method for automatic correction of
-  intensity nonuniformity in {M}{R}{I} data}}.
-\newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{17},
-  \bibinfo{pages}{87--97}.
 %Type = Techreport
 \bibitem[{Sobel(1970)}]{Sobel1970}
 \bibinfo{author}{Sobel, I.}, \bibinfo{year}{1970}.
 \newblock \bibinfo{title}{{{C}amera models and machine perception}}.
 \newblock \bibinfo{type}{Technical Report}. DTIC Document.
-%Type = Article
-\bibitem[{Somford et~al.(2008)Somford, Futterer, Hambrock and
-  Barentsz}]{Somford2008}
-\bibinfo{author}{Somford, D.M.}, \bibinfo{author}{Futterer, J.J.},
-  \bibinfo{author}{Hambrock, T.}, \bibinfo{author}{Barentsz, J.O.},
-  \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{D}iffusion and perfusion {M}{R} imaging of the
-  prostate}}.
-\newblock \bibinfo{journal}{Magn Reson Imaging Clin N Am} \bibinfo{volume}{16},
-  \bibinfo{pages}{685--695}.
 %Type = Inproceedings
 \bibitem[{Specht(1988)}]{Specht1988}
 \bibinfo{author}{Specht, D.F.}, \bibinfo{year}{1988}.
@@ -2079,15 +1826,6 @@
   mapping, or associative memory}}, in: \bibinfo{booktitle}{Neural Networks,
   1988., IEEE International Conference on}, pp. \bibinfo{pages}{525--532
   vol.1}.
-%Type = Article
-\bibitem[{St~Lawrence and Lee(1998)}]{StLawrence1998}
-\bibinfo{author}{St~Lawrence, K.S.}, \bibinfo{author}{Lee, T.Y.},
-  \bibinfo{year}{1998}.
-\newblock \bibinfo{title}{{{A}n adiabatic approximation to the tissue
-  homogeneity model for water exchange in the brain: {I}. {T}heoretical
-  derivation}}.
-\newblock \bibinfo{journal}{J. Cereb. Blood Flow Metab.} \bibinfo{volume}{18},
-  \bibinfo{pages}{1365--1377}.
 %Type = Article
 \bibitem[{Stamey et~al.(1998)Stamey, Donaldson, Yemoto, McNeal, Sozen and
   Gill}]{Stamey1998}
@@ -2100,16 +1838,6 @@
   epidemiologic significance of annual changes}}.
 \newblock \bibinfo{journal}{J. Urol.} \bibinfo{volume}{160},
   \bibinfo{pages}{2412--2417}.
-%Type = Article
-\bibitem[{Staring et~al.(2009)Staring, van~der Heide, Klein, Viergever and
-  Pluim}]{Staring2009}
-\bibinfo{author}{Staring, M.}, \bibinfo{author}{van~der Heide, U.A.},
-  \bibinfo{author}{Klein, S.}, \bibinfo{author}{Viergever, M.A.},
-  \bibinfo{author}{Pluim, J.P.}, \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{R}egistration of cervical {M}{R}{I} using
-  multifeature mutual information}}.
-\newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{28},
-  \bibinfo{pages}{1412--1421}.
 %Type = Article
 \bibitem[{Steinberg et~al.(1990)Steinberg, Carter, Beaty, Childs and
   Walsh}]{Steinberg1990}
@@ -2136,13 +1864,6 @@
   applied to {M}{R}{I}}}.
 \newblock \bibinfo{journal}{Medical Imaging, IEEE Transactions on}
   \bibinfo{volume}{19}, \bibinfo{pages}{153--165}.
-%Type = Techreport
-\bibitem[{Styner and Gerig(1997)}]{Styner1997}
-\bibinfo{author}{Styner, M.}, \bibinfo{author}{Gerig, G.},
-  \bibinfo{year}{1997}.
-\newblock \bibinfo{title}{{{E}valuation of 2{D}/3{D} bias correction with
-  1+1{E}{S}-optimization}}.
-\newblock \bibinfo{type}{Technical Report}. ETH Z\"urich.
 %Type = Article
 \bibitem[{Sung et~al.(2011)Sung, Kwon, Park, Cho, Lee, Cho and Kim}]{Sung2011}
 \bibinfo{author}{Sung, Y.S.}, \bibinfo{author}{Kwon, H.J.},
@@ -2154,13 +1875,6 @@
   parameter maps}}.
 \newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{197},
   \bibinfo{pages}{1122--1129}.
-%Type = Article
-\bibitem[{Suzuki(2012)}]{Suzuki2012}
-\bibinfo{author}{Suzuki, K.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{A} review of computer-aided diagnosis in thoracic
-  and colonic imaging}}.
-\newblock \bibinfo{journal}{Quant Imaging Med Surg} \bibinfo{volume}{2},
-  \bibinfo{pages}{163--176}.
 %Type = Article
 \bibitem[{Swanson et~al.(2001)Swanson, Vigneron, Tran, Sailasuta, Hurd and
   Kurhanewicz}]{Swanson2001}
@@ -2363,14 +2077,6 @@
 \newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{253},
   \bibinfo{pages}{135--143}.
 %Type = Article
-\bibitem[{Villers et~al.(1991)Villers, Steg and Boccon-Gibod}]{Villers1991}
-\bibinfo{author}{Villers, A.}, \bibinfo{author}{Steg, A.},
-  \bibinfo{author}{Boccon-Gibod, L.}, \bibinfo{year}{1991}.
-\newblock \bibinfo{title}{{{A}natomy of the prostate: review of the different
-  models}}.
-\newblock \bibinfo{journal}{Eur. Urol.} \bibinfo{volume}{20},
-  \bibinfo{pages}{261--268}.
-%Type = Article
 \bibitem[{Viola and Wells(1997)}]{Viola1997}
 \bibinfo{author}{Viola, P.}, \bibinfo{author}{Wells, III, W.M.},
   \bibinfo{year}{1997}.
@@ -2506,15 +2212,6 @@
   radical prostatectomy}}.
 \newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{246},
   \bibinfo{pages}{168--176}.
-%Type = Article
-\bibitem[{Warfield et~al.(2004)Warfield, Zou and Wells}]{Warfield2004}
-\bibinfo{author}{Warfield, S.K.}, \bibinfo{author}{Zou, K.H.},
-  \bibinfo{author}{Wells, W.M.}, \bibinfo{year}{2004}.
-\newblock \bibinfo{title}{{{S}imultaneous truth and performance level
-  estimation ({S}{T}{A}{P}{L}{E}): an algorithm for the validation of image
-  segmentation}}.
-\newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{23},
-  \bibinfo{pages}{903--921}.
 %Type = Article
 \bibitem[{Wiart et~al.(2007)Wiart, Curiel, Gelet, Lyonnet, Chapelon and
   Rouviere}]{Wiart2007}
