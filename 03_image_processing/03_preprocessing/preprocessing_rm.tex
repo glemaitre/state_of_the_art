@@ -47,12 +47,12 @@ Three different groups of pre-processing methods are commonly applied to images 
 %\end{figure}
 
 %Noise filtering
-\item[$-$] \textbf{\textit{Noise filtering:}} The \ac{nmr} signal measured and recorded in the k-space during an \ac{mri} acquisition is affected by noise. This noise obeys a complex Gaussian white noise mainly due to thermal noises in the patient area (\cite{Nowak1999}). Furthermore, \ac{mri} images visualized by radiologists are in fact the magnitude images resulting from the complex Fourier transform of the k-space data. The complex Fourier transform, being a linear and orthogonal transform, does not affect the Gaussian noise characteristics (\cite{Nowak1999}). However, the function involved in the magnitude computation is a non-linear transform (i.e., the square root of the sum of squares of real and the imaginary parts), implying that the noise distribution is no longer Gaussian; it indeed follows a Rician distribution making the denoising task harder. Briefly, a Rician distribution can be characterized as follows: in low-\ac{si} region (low \ac{snr}), it can be approximated with a Rayleigh distribution while in high-\ac{si} region (high \ac{snr}), it is similar to a Gaussian distribution (see Fig. \ref{fig:noisedistr}) (\cite{Manjon2008}). Reviews of all denoising methods can be found in the work of \cite{Buades2005} and \cite{Mohan2014}.
+\item[$-$] \textbf{\textit{Noise filtering:}} The \ac{nmr} signal measured and recorded in the k-space during an \ac{mri} acquisition is affected by noise. This noise obeys a complex Gaussian white noise mainly due to thermal noises in the patient area (\cite{Nowak1999}). Furthermore, \ac{mri} images visualized by radiologists are in fact the magnitude images resulting from the complex Fourier transform of the k-space data. The complex Fourier transform, being a linear and orthogonal transform, does not affect the Gaussian noise characteristics (\cite{Nowak1999}). However, the function involved in the magnitude computation is a non-linear transform (i.e., the square root of the sum of squares of real and the imaginary parts), implying that the noise distribution is no longer Gaussian; it indeed follows a Rician distribution making the denoising task harder. Briefly, a Rician distribution can be characterized as follows: in low-\ac{si} region (low \ac{snr}), it can be approximated with a Rayleigh distribution while in high-\ac{si} region (high \ac{snr}), it is similar to a Gaussian distribution (\cite{Manjon2008}). Reviews of all denoising methods can be found in the work of \cite{Buades2005} and \cite{Mohan2014}.
 
 Median filtering is the simplest approach used to address the denoising issue in \ac{mri} images (\cite{Ozer2009,Ozer2010}). %In both studies, Ozer et al. used a square kernel of size $5 \times 5$ pixels with the image resolutions ranging from $320 \times 256$ (cf., \ac{t2w} \ac{mri}) to $256 \times 128$ (cf., T$_2$ map, \ac{dce} and \ac{dw} \ac{mri}) and \iac{fov} ranging from 14 cm (cf, \ac{t2w} and \ac{dw} \ac{mri}) to 20 cm (cf, T$_2$ map and \ac{dce} \ac{mri}). 
 However, from a theoretical point of view, this simple filtering method is not well formalized to address the noise distribution in \ac{mri} images.
 
-More complex approaches were proposed to overcome this problem. A common method used to denoise \ac{mri} images is based on wavelet-based filtering.% This filtering exploits the sparsity property of the wavelet decomposition. The projection of a noisy signal from the spatial-domain to the wavelet-domain implies that only few wavelet coefficients contribute to the ``signal-free noise'' while all wavelet coefficients contribute to the noise (\cite{Donoho1994}). Therefore, denoising is performed by thresholding/attenuating the insignificant wavelet coefficients to enforce the sparsity in the wavelet-domain. 
+More complex approaches were proposed to overcome this problem. A common method used to denoise \ac{mri} images is based on wavelet-based filtering. % This filtering exploits the sparsity property of the wavelet decomposition. The projection of a noisy signal from the spatial-domain to the wavelet-domain implies that only few wavelet coefficients contribute to the ``signal-free noise'' while all wavelet coefficients contribute to the noise (\cite{Donoho1994}). Therefore, denoising is performed by thresholding/attenuating the insignificant wavelet coefficients to enforce the sparsity in the wavelet-domain. 
 Investigations focus on the strategies to perform the most adequate coefficient shrinkage method (e.g., using thresholding, singularity property or Bayesian framework) (\cite{Pizurica2002}).
 
 \cite{Ampeliotis2007,Ampeliotis2008} performed wavelet shrinkage to denoise magnitude \ac{mri} images (cf., \ac{t2w}-\ac{mri} and \ac{dce}-\ac{mri}) using thresholding techniques (\cite{Mallat2008}). However, since the wavelet transform is an orthogonal transform, the Rician distribution of the noise is preserved in the wavelet-domain. Hence, for low \ac{snr}, the wavelet and scaling coefficients still suffer from a bias due to this specific noise distribution (\cite{Nowak1999}). 
@@ -74,7 +74,7 @@ Investigations focus on the strategies to perform the most adequate coefficient 
 %\end{figure}
 
 % Artefacts filtering
-\item[$-$] \textbf{\textit{Bias correction:}} Besides being corrupted by noise, \ac{mri} images are also affected by the inhomogeneity of the \ac{mri} field commonly referred to as bias field (\cite{Styner2000}). This bias field results in a smooth variation of the \ac{si} through the image. When an endorectal coil is used, an artefact resulting of an hyper-intense signal can be observed around the coil on the images (see Fig. \ref{fig:bias}). As a consequence, the \ac{si} of identical tissues varies depending on their spatial location in the image making further processes such as segmentation or registration harder (\cite{Jungke1987,Vovk2007}). A review of bias correction methods can be found in \cite{Vovk2007}.
+\item[$-$] \textbf{\textit{Bias correction:}} Besides being corrupted by noise, \ac{mri} images are also affected by the inhomogeneity of the \ac{mri} field commonly referred to as bias field (\cite{Styner2000}). This bias field results in a smooth variation of the \ac{si} through the image. When an endorectal coil is used, an artefact resulting of an hyper-intense signal can be observed around the coil on the images. As a consequence, the \ac{si} of identical tissues varies depending on their spatial location in the image making further processes such as segmentation or registration harder (\cite{Jungke1987,Vovk2007}). A review of bias correction methods can be found in \cite{Vovk2007}.
 
 The model of image formation is usually formalized such that:
 
@@ -96,7 +96,7 @@ The model of image formation is usually formalized such that:
 
 Hence, the task of bias correction involves estimating the bias function $b(\mathbf{x})$ in order to infer the ``signal-free bias'' $o(\mathbf{x})$.% and subtract to the logarithm of the initial signal in order to obtain an estimated ``signal-free bias''.
 
-\cite{Viswanath2009} performed bias correction on \ac{t2w}-\ac{mri} using a parametric Legendre polynomial model proposed by \cite{Styner2000} and available in the \ac{itk} library\footnote{The \ac{itk} library is available at: \texttt{http://www.itk.org/}}. \cite{Styner2000} chose to model the bias field by using a linear combination of Legendre polynomials.% as:
+\cite{Viswanath2009} performed bias correction on \ac{t2w}-\ac{mri} using a parametric Legendre polynomial model proposed by \cite{Styner2000} and available in the \ac{itk} library\footnote{The \ac{itk} library is available at: \texttt{http://www.itk.org/}}.% \cite{Styner2000} chose to model the bias field by using a linear combination of Legendre polynomials.% as:
 
 %\begin{equation}
 %	\hat{b}(\mathbf{x},\mathbf{p}) = \sum_{i=0}^{m-1} p_i f_i(\mathbf{x}) =  \sum_{i=0}^{l} \sum_{j=0}^{l-i} p_{ij} P_i(x) P_j(y) \ ,
@@ -168,7 +168,7 @@ However, it is a known fact that variability between patients occurs during the 
 
 Approaches used to standardize \ac{mri} images can be either categorized as statistical-based standardization or organ \ac{si}-based standardization. 
 
-%\cite{Artan2009,Artan2010} as well as \cite{Ozer2009,Ozer2010} standardized \ac{t2w}, \ac{dce} and \ac{dw} \ac{mri} images by computing the \textit{standard score} (also called \textit{z-score}) of the pixels of the \ac{pz}. as:
+\cite{Artan2009,Artan2010} as well as \cite{Ozer2009,Ozer2010} standardized \ac{t2w}, \ac{dce} and \ac{dw} \ac{mri} images by computing the \textit{standard score} (also called \textit{z-score}) of the pixels of the \ac{pz}. % as:
 %
 %\begin{equation}
 %	I_s(\mathbf{x}) = \frac{ I_r(\mathbf{x}) - \mu_{pz}}{\sigma_{pz}}, \ \forall \mathbf{x} \in \text{PZ} \ ,
@@ -198,16 +198,16 @@ In a similar way, \cite{Liu2013} normalized \ac{t2w}-\ac{mri} by making use of t
 %\end{eqnarray}
 %
 %\noindent where $\phi_{n^\text{th}}^{i^{\text{th}}}$ is the $n^{\text{th}}$ quantile of the $i^{\text{th}}$ training image.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\linewidth]{03_image_processing/03_preprocessing/figures/normalization/linear_transform_parts.eps}
-	\caption{Example of linear mapping by parts as proposed by \cite{Nyul2000}.}
-	\label{fig:imnorm}
-\end{figure}
+%
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.9\linewidth]{03_image_processing/03_preprocessing/figures/normalization/linear_transform_parts.eps}
+%	\caption{Example of linear mapping by parts as proposed by \cite{Nyul2000}.}
+%	\label{fig:imnorm}
+%\end{figure}
 %
 %Then, the mean of each quantile $\{ \bar{\Phi}_{0}, \bar{\Phi}_{25}, \bar{\Phi}_{50}, \bar{\Phi}_{75}, \bar{\Phi}_{100} \}$ is also calculated.
-%Once this training stage is performed, a linear transformation by parts $\mathcal{T}(\cdot)$ can be computed (Eq. \eqref{eq:linearMap}) for each test image $t$ by mapping each statistical landmark $\varphi_{(cdot)}̂^{t}$ of this image with the pre-learned statistical landmarks $\bar{\Phi}_{(\cdot)}$. This linear mapping is also depicted in Fig. \ref{fig:imnorm}.
+%Once this training stage is performed, a linear transformation by parts $\mathcal{T}(\cdot)$ can be computed (Eq. \eqref{eq:linearMap}) for each test image $t$ by mapping each statistical landmark $\varphi_{(cdot)}̂^{t}$ of this image with the pre-learned statistical landmarks $\bar{\Phi}_{(\cdot)}$. This linear mapping is also depicted in Fig.~\ref{fig:imnorm}.
 %
 %\begin{equation}
 %\small
@@ -233,7 +233,7 @@ In a similar way, \cite{Liu2013} normalized \ac{t2w}-\ac{mri} by making use of t
 	\label{fig:niaf}
 \end{figure}
 
-The methods described above were statistical-based methods. However, the standardization problem can be tackled by normalizing the MRI images using the \ac{si} of some known organs present in these images. \cite{Niaf2011,Niaf2012} normalized \ac{t2w}-\ac{mri} images by dividing the original \ac{si} of the images by the mean \ac{si} of the bladder (see Fig. \ref{subfig:bladder}). Likewise, \cite{Niaf2011} standardized the \ac{t1w}-\ac{mri} images using the \ac{aif}. They computed the \ac{aif} by taking the mean of the \ac{si} in the most enhanced part of the common femoral arteries (see Fig. \ref{subfig:arteries}) as proposed by \cite{Wiart2007}.
+The methods described above were statistical-based methods. However, the standardization problem can be tackled by normalizing the MRI images using the \ac{si} of some known organs present in these images. \cite{Niaf2011,Niaf2012} normalized \ac{t2w}-\ac{mri} images by dividing the original \ac{si} of the images by the mean \ac{si} of the bladder (see Fig.~\ref{subfig:bladder}). Likewise, \cite{Niaf2011} standardized the \ac{t1w}-\ac{mri} images using the \ac{aif}. They computed the \ac{aif} by taking the mean of the \ac{si} in the most enhanced part of the common femoral arteries (see Fig.~\ref{subfig:arteries}) as proposed by \cite{Wiart2007}.
 
 \end{enumerate}
 
@@ -245,9 +245,9 @@ Presented in Sect. \ref{subsubsec:mrimrsi}, \ac{mrsi} is a modality related to a
 \setlist{noitemsep}
 \begin{enumerate}[leftmargin=*]
 
-	\item[$-$] \textbf{\textit{Phase correction:}} \ac{mrsi} data acquired suffer from zero-order and first-order phase misalignments as shown in Fig. \ref{fig:phase} (\cite{Chen2002,Osorio-Garcia2012}). 
+	\item[$-$] \textbf{\textit{Phase correction:}} \ac{mrsi} data acquired suffer from zero-order and first-order phase misalignments as shown in Fig.~\ref{fig:phase} (\cite{Chen2002,Osorio-Garcia2012}). 
 	
-\cite{Parfait2012} used a method proposed by \cite{Chen2002} where the phase of \ac{mrsi} signal is corrected based on entropy minimization in  the frequency domain.% The corrected \ac{mrsi} signal $o(\xi)$ can be expressed as:
+\cite{Parfait2012} used a method proposed by \cite{Chen2002} where the phase of \ac{mrsi} signal is corrected based on entropy minimization in the frequency domain.% The corrected \ac{mrsi} signal $o(\xi)$ can be expressed as:
 %
 %\begin{eqnarray}
 %	\Re(o(\xi)) & = & \Re(s(\xi))\cos(\Phi(\xi)) - \Im(\xi)\sin(\Phi(\xi)) \ , \nonumber  \\
@@ -275,9 +275,9 @@ Presented in Sect. \ref{subsubsec:mrimrsi}, \ac{mrsi} is a modality related to a
 	\label{fig:phase}
 \end{figure}
 
-	\item[$-$] \textbf{\textit{Water and lipid residuals filtering:}} The water and lipid metabolites occur in much higher concentrations the metabolites of interests (cf., choline, creatine and citrate) (\cite{Zhu2010,Osorio-Garcia2012}). Fortunately, specific \ac{mrsi} sequences were developed in order to suppress water and lipid metabolites using pre-saturation techniques (\cite{Zhu2010}). However, these techniques do not perfectly remove water and lipids peaks and some residuals are still present in the \ac{mrsi} spectra as shown in Fig. \ref{fig:waterfat}. Therefore, different post-processing methods have been proposed to enhance the quality of the \ac{mrsi} spectra by removing these residuals.
+	\item[$-$] \textbf{\textit{Water and lipid residuals filtering:}} The water and lipid metabolites occur in much higher concentrations than the metabolites of interests (cf., choline, creatine and citrate) (\cite{Zhu2010,Osorio-Garcia2012}). Fortunately, specific \ac{mrsi} sequences were developed in order to suppress water and lipid metabolites using pre-saturation techniques (\cite{Zhu2010}). However, these techniques do not perfectly remove water and lipids peaks and some residuals are still present in the \ac{mrsi} spectra as shown in Fig.~\ref{fig:waterfat}. Therefore, different post-processing methods have been proposed to enhance the quality of the \ac{mrsi} spectra by removing these residuals.
 	
-	\cite{Kelm2007} used the well known HSVD algorithm proposed by \cite{Pijnappel1992}.% In the time domain, a \ac{mrsi} signal $s(t)$ is modelled by a sum of $K$ exponentially damped sinusoids such that:
+	\cite{Kelm2007} used the well known HSVD algorithm proposed by \cite{Pijnappel1992} which model the \ac{mrsi} signal by a sum of exponentially damped sinusoids in the time domain.% In the time domain, a \ac{mrsi} signal $s(t)$ is modelled by a sum of $K$ exponentially damped sinusoids such that:
 %\begin{equation}
 %	s(t) = \sum_{k=1}^{K} a_{k}\exp(i \phi_k) \exp( -d_{k} + i 2 \pi f_{k} ) t + \eta(t) \ ,
 %	\label{eq:fidsig}
@@ -328,7 +328,7 @@ However, \cite{Parfait2012} concluded that the method proposed by \cite{Lieber20
 	\label{fig:frequency}
 \end{figure}
 
-	\item[$-$] \textbf{\textit{Frequency alignment:}} Due to variations of the experimental conditions, a frequency shift can be observed in the \ac{mrsi} spectra as shown in Fig. \ref{fig:frequency} (\cite{Chen2002,Osorio-Garcia2012}).
+	\item[$-$] \textbf{\textit{Frequency alignment:}} Due to variations of the experimental conditions, a frequency shift can be observed in the \ac{mrsi} spectra as shown in Fig.~\ref{fig:frequency} (\cite{Chen2002,Osorio-Garcia2012}).
 	
 \cite{Tiwari2012} corrected the frequency shift by first detecting known metabolite peaks such as choline, creatine and citrate. The frequency shift is corrected by minimizing the frequency error between the experimental and theoretical values of each of these peaks.
 

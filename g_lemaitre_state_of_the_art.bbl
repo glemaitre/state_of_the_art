@@ -1,4 +1,4 @@
-\begin{thebibliography}{226}
+\begin{thebibliography}{215}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -27,13 +27,6 @@
 \newblock \bibinfo{title}{{{D}iscrete cosine transform}}.
 \newblock \bibinfo{journal}{Computers, IEEE Transactions on}
   \bibinfo{volume}{C-23}, \bibinfo{pages}{90--93}.
-%Type = Inproceedings
-\bibitem[{Aizerman et~al.(1964)Aizerman, Braverman and Rozonoer}]{Aizerman1964}
-\bibinfo{author}{Aizerman, M.A.}, \bibinfo{author}{Braverman, E.A.},
-  \bibinfo{author}{Rozonoer, L.}, \bibinfo{year}{1964}.
-\newblock \bibinfo{title}{{{T}heoretical foundations of the potential function
-  method in pattern recognition learning}}, in: \bibinfo{booktitle}{Automation
-  and Remote Control,}, pp. \bibinfo{pages}{821--837}.
 %Type = Article
 \bibitem[{Akin et~al.(2006)Akin, Sala, Moskowitz, Kuroiwa, Ishill, Pucar,
   Scardino and Hricak}]{Akin2006}
@@ -258,15 +251,6 @@
 \newblock \bibinfo{title}{{{R}andom forests}}.
 \newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{45},
   \bibinfo{pages}{5--32}.
-%Type = Book
-\bibitem[{Breiman et~al.(1984)Breiman, Friedman, Olshen and
-  Stone}]{Breiman1984}
-\bibinfo{author}{Breiman, L.}, \bibinfo{author}{Friedman, J.},
-  \bibinfo{author}{Olshen, R.}, \bibinfo{author}{Stone, C.},
-  \bibinfo{year}{1984}.
-\newblock \bibinfo{title}{{{C}lassification and regression trees}}.
-\newblock \bibinfo{publisher}{Wadsworth and Brooks},
-  \bibinfo{address}{Monterey, CA}.
 %Type = Incollection
 \bibitem[{Brenner et~al.(2013)Brenner, Chinnaiyan and Tomlins}]{Brenner2013}
 \bibinfo{author}{Brenner, J.}, \bibinfo{author}{Chinnaiyan, A.},
@@ -412,13 +396,6 @@
 \newblock \bibinfo{journal}{Comput. Vis. Image Underst.} \bibinfo{volume}{61},
   \bibinfo{pages}{38--59}.
 %Type = Article
-\bibitem[{Cortes and Vapnik(1995)}]{Cortes1995}
-\bibinfo{author}{Cortes, C.}, \bibinfo{author}{Vapnik, V.},
-  \bibinfo{year}{1995}.
-\newblock \bibinfo{title}{{{S}upport-{V}ector networks}}.
-\newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{20},
-  \bibinfo{pages}{273--297}.
-%Type = Article
 \bibitem[{Costello and Franklin(2006)}]{Costello2006}
 \bibinfo{author}{Costello, L.C.}, \bibinfo{author}{Franklin, R.B.},
   \bibinfo{year}{2006}.
@@ -516,13 +493,6 @@
   {M}{R}{I}}}.
 \newblock \bibinfo{journal}{Eur Radiol} \bibinfo{volume}{22},
   \bibinfo{pages}{1812--1819}.
-%Type = Article
-\bibitem[{Efron(1979)}]{Efron1979}
-\bibinfo{author}{Efron, B.}, \bibinfo{year}{1979}.
-\newblock \bibinfo{title}{{{B}ootstrap methods: Another look at the
-  jackknife}}.
-\newblock \bibinfo{journal}{The Annals of Statistics} \bibinfo{volume}{7},
-  \bibinfo{pages}{1--26}.
 %Type = Article
 \bibitem[{Efron(1983)}]{Efron1983}
 \bibinfo{author}{Efron, B.}, \bibinfo{year}{1983}.
@@ -675,13 +645,6 @@
   Veteran's Administration Cooperative Urologic Research Group: histologic
   grading and clinical staging of prostatic carcinoma}.
 \newblock p. \bibinfo{pages}{171–198}.
-%Type = Article
-\bibitem[{Goodman(1999)}]{Goodman1999}
-\bibinfo{author}{Goodman, S.N.}, \bibinfo{year}{1999}.
-\newblock \bibinfo{title}{{{T}oward evidence-based medical statistics. 1: {T}he
-  {P} value fallacy}}.
-\newblock \bibinfo{journal}{Ann. Intern. Med.} \bibinfo{volume}{130},
-  \bibinfo{pages}{995--1004}.
 %Type = Article
 \bibitem[{van~der Graaf et~al.(2000)van~der Graaf, Schipper, Oosterhof,
   Schalken, Verhofstad and Heerschap}]{Graaf2000}
@@ -931,22 +894,6 @@
   imaging}}.
 \newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{206},
   \bibinfo{pages}{785--790}.
-%Type = Incollection
-\bibitem[{Kato and Pong(2001)}]{Kato2001}
-\bibinfo{author}{Kato, Z.}, \bibinfo{author}{Pong, T.}, \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{A} {M}arkov random field image segmentation model
-  using combined color and texture features}}, in: \bibinfo{editor}{Skarbek,
-  W.} (Ed.), \bibinfo{booktitle}{Computer Analysis of Images and Patterns}.
-  \bibinfo{publisher}{Springer Berlin Heidelberg}. volume
-  \bibinfo{volume}{2124} of \textit{\bibinfo{series}{Lecture Notes in Computer
-  Science}}, pp. \bibinfo{pages}{547--554}.
-%Type = Book
-\bibitem[{Kato and Zerubia(2012)}]{Kato2012}
-\bibinfo{author}{Kato, Z.}, \bibinfo{author}{Zerubia, J.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{Markov Random Fields in Image Segmentation.
-  Collection Foundation and Trends in Signal Processing}}.
-\newblock \bibinfo{publisher}{Now Editor, World Scientific}.
 %Type = Article
 \bibitem[{Kelm et~al.(2007)Kelm, Menze, Zechmann, Baudendistel and
   Hamprecht}]{Kelm2007}
@@ -1058,14 +1005,6 @@
   computer-estimated likelihood of malignancy}}.
 \newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{183},
   \bibinfo{pages}{1209--1215}.
-%Type = Article
-\bibitem[{Li et~al.(2003)Li, Sone and Doi}]{Li2003}
-\bibinfo{author}{Li, Q.}, \bibinfo{author}{Sone, S.}, \bibinfo{author}{Doi,
-  K.}, \bibinfo{year}{2003}.
-\newblock \bibinfo{title}{{{S}elective enhancement filters for nodules,
-  vessels, and airway walls in two- and three-dimensional {C}{T} scans}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{30},
-  \bibinfo{pages}{2040--2051}.
 %Type = Article
 \bibitem[{Lieber and Mahadevan-Jansen(2003)}]{Lieber2003}
 \bibinfo{author}{Lieber, C.A.}, \bibinfo{author}{Mahadevan-Jansen, A.},
@@ -1600,18 +1539,6 @@
   results}}.
 \newblock \bibinfo{journal}{Int J Comput Assist Radiol Surg}
   \bibinfo{volume}{4}, \bibinfo{pages}{1--10}.
-%Type = Article
-\bibitem[{Quinlan(1986)}]{Quinlan1986}
-\bibinfo{author}{Quinlan, J.}, \bibinfo{year}{1986}.
-\newblock \bibinfo{title}{{{I}nduction of decision trees}}.
-\newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{1},
-  \bibinfo{pages}{81--106}.
-%Type = Book
-\bibitem[{Quinlan(1993)}]{Quinlan1993}
-\bibinfo{author}{Quinlan, J.}, \bibinfo{year}{1993}.
-\newblock \bibinfo{title}{{{C}{4}.{5}: {P}rograms for machine learning}}.
-\newblock \bibinfo{publisher}{Morgan Kaufmann Publishers Inc.},
-  \bibinfo{address}{San Francisco, CA, USA}.
 %Type = Techreport
 \bibitem[{Quinonero-Candela et~al.(2002)Quinonero-Candela, Girard and
   Rasmussen}]{Quinonero-Candela2002}
@@ -1700,17 +1627,6 @@
   deformations: application to breast {M}{R} images}}.
 \newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{18},
   \bibinfo{pages}{712--721}.
-%Type = Incollection
-\bibitem[{Rumelhart et~al.(1988)Rumelhart, Hinton and Williams}]{Rumelhart1988}
-\bibinfo{author}{Rumelhart, D.E.}, \bibinfo{author}{Hinton, G.E.},
-  \bibinfo{author}{Williams, R.J.}, \bibinfo{year}{1988}.
-\newblock \bibinfo{title}{{{L}earning internal representations by error
-  propagation}}, in: \bibinfo{editor}{Anderson, J.A.},
-  \bibinfo{editor}{Rosenfeld, E.} (Eds.),
-  \bibinfo{booktitle}{{{N}eurocomputing: foundations of research}}.
-  \bibinfo{publisher}{MIT Press}, \bibinfo{address}{Cambridge, MA, USA}.
-  chapter \bibinfo{chapter}{Learning Internal Representations by Error
-  Propagation}, pp. \bibinfo{pages}{673--695}.
 %Type = Article
 \bibitem[{Saeys et~al.(2007)Saeys, Inza and Larranaga}]{Saeys2007}
 \bibinfo{author}{Saeys, Y.}, \bibinfo{author}{Inza, I.},

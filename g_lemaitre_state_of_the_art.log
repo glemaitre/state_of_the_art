@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.28)  24 APR 2014 20:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.28)  28 APR 2014 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1873,17 +1873,17 @@ tate Can-cer
  []
 
 
-Overfull \hbox (7.9135pt too wide) in paragraph at lines 150--150
+Overfull \hbox (7.9135pt too wide) in paragraph at lines 152--152
  []\OT1/txr/m/n/14.4 detection/selection 
  []
 
 
-Overfull \hbox (12.49268pt too wide) in paragraph at lines 152--152
+Overfull \hbox (12.49268pt too wide) in paragraph at lines 154--154
  []\OT1/txr/m/n/14.4 selection/extraction 
  []
 
 
-Overfull \hbox (15.12787pt too wide) in paragraph at lines 153--153
+Overfull \hbox (15.12787pt too wide) in paragraph at lines 155--155
  []\OT1/txr/m/n/14.4 classification/fusion 
  []
 
@@ -1896,7 +1896,7 @@ verted-to.pdf>
 (epstopdf)                    size: 10583 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/tikzimage/t2-eps-converted-to.pdf, id=35, 119.44624pt x 
@@ -1905,7 +1905,7 @@ File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use 02_background/figures/tikzimage/t2-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/t2-eps-converted-to.pd
-f used on input line 193.
+f used on input line 195.
 (pdftex.def)             Requested size: 28.45274pt x 28.4526pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 (epstopdf)                    date: 2013-10-09 16:39:45
@@ -1916,14 +1916,14 @@ verted-to.pdf>
 (epstopdf)                    size: 10583 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
-(epstopdf)             \includegraphics on input line 197.
+(epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
 e pdf)
 
 <use 02_background/figures/tikzimage/t2-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/t2-eps-converted-to.pd
-f used on input line 197.
+f used on input line 199.
 (pdftex.def)             Requested size: 28.45274pt x 28.4526pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 (epstopdf)                    date: 2013-10-09 16:39:45
@@ -1934,14 +1934,14 @@ verted-to.pdf>
 (epstopdf)                    size: 10583 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
-(epstopdf)             \includegraphics on input line 201.
+(epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
 e pdf)
 
 <use 02_background/figures/tikzimage/t2-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/t2-eps-converted-to.pd
-f used on input line 201.
+f used on input line 203.
 (pdftex.def)             Requested size: 28.45274pt x 28.4526pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 (epstopdf)                    date: 2013-10-09 16:39:45
@@ -1952,14 +1952,14 @@ verted-to.pdf>
 (epstopdf)                    size: 10583 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
-(epstopdf)             \includegraphics on input line 206.
+(epstopdf)             \includegraphics on input line 208.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
 e pdf)
 
 <use 02_background/figures/tikzimage/t2-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/t2-eps-converted-to.pd
-f used on input line 206.
+f used on input line 208.
 (pdftex.def)             Requested size: 28.45274pt x 28.4526pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 (epstopdf)                    date: 2013-10-09 16:39:45
@@ -1970,14 +1970,14 @@ verted-to.pdf>
 (epstopdf)                    size: 10583 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 212.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
 e pdf)
 
 <use 02_background/figures/tikzimage/t2-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/t2-eps-converted-to.pd
-f used on input line 210.
+f used on input line 212.
 (pdftex.def)             Requested size: 28.45274pt x 28.4526pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 (epstopdf)                    date: 2013-10-09 16:39:45
@@ -1988,14 +1988,14 @@ verted-to.pdf>
 (epstopdf)                    size: 10583 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
-(epstopdf)             \includegraphics on input line 214.
+(epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
 e pdf)
 
 <use 02_background/figures/tikzimage/t2-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/t2-eps-converted-to.pd
-f used on input line 214.
+f used on input line 216.
 (pdftex.def)             Requested size: 28.45274pt x 28.4526pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 (epstopdf)                    date: 2013-10-09 16:41:58
@@ -2006,7 +2006,7 @@ nverted-to.pdf>
 (epstopdf)                    size: 7551 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
-(epstopdf)             \includegraphics on input line 219.
+(epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/tikzimage/dce-eps-converted-to.pdf, id=36, 85.31876pt x 
@@ -2015,7 +2015,7 @@ File: 02_background/figures/tikzimage/dce-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use 02_background/figures/tikzimage/dce-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/dce-eps-converted-to.p
-df used on input line 219.
+df used on input line 221.
 (pdftex.def)             Requested size: 28.45274pt x 28.45209pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 (epstopdf)                    date: 2013-10-09 16:41:58
@@ -2026,14 +2026,14 @@ nverted-to.pdf>
 (epstopdf)                    size: 7551 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
-(epstopdf)             \includegraphics on input line 223.
+(epstopdf)             \includegraphics on input line 225.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dce-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 
 <use 02_background/figures/tikzimage/dce-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/dce-eps-converted-to.p
-df used on input line 223.
+df used on input line 225.
 (pdftex.def)             Requested size: 28.45274pt x 28.45209pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 (epstopdf)                    date: 2013-10-09 16:41:58
@@ -2044,14 +2044,14 @@ nverted-to.pdf>
 (epstopdf)                    size: 7551 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
-(epstopdf)             \includegraphics on input line 227.
+(epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dce-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 
 <use 02_background/figures/tikzimage/dce-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/dce-eps-converted-to.p
-df used on input line 227.
+df used on input line 229.
 (pdftex.def)             Requested size: 28.45274pt x 28.45209pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/dwi1.eps>
 (epstopdf)                    date: 2013-10-09 16:46:29
@@ -2062,7 +2062,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 5017 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
-(epstopdf)             \includegraphics on input line 232.
+(epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/tikzimage/dwi1-eps-converted-to.pdf, id=37, 85.31876pt x
@@ -2071,7 +2071,7 @@ File: 02_background/figures/tikzimage/dwi1-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use 02_background/figures/tikzimage/dwi1-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/dwi1-eps-converted-to.
-pdf used on input line 232.
+pdf used on input line 234.
 (pdftex.def)             Requested size: 28.45274pt x 28.45209pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/dwi1.eps>
 (epstopdf)                    date: 2013-10-09 16:46:29
@@ -2082,14 +2082,14 @@ onverted-to.pdf>
 (epstopdf)                    size: 5017 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dwi1-eps-converted-to.pdf Graphic file (t
 ype pdf)
 
 <use 02_background/figures/tikzimage/dwi1-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/dwi1-eps-converted-to.
-pdf used on input line 236.
+pdf used on input line 238.
 (pdftex.def)             Requested size: 28.45274pt x 28.45209pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/dwi1.eps>
 (epstopdf)                    date: 2013-10-09 16:46:29
@@ -2100,14 +2100,14 @@ onverted-to.pdf>
 (epstopdf)                    size: 5017 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
-(epstopdf)             \includegraphics on input line 240.
+(epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dwi1-eps-converted-to.pdf Graphic file (t
 ype pdf)
 
 <use 02_background/figures/tikzimage/dwi1-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/dwi1-eps-converted-to.
-pdf used on input line 240.
+pdf used on input line 242.
 (pdftex.def)             Requested size: 28.45274pt x 28.45209pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/adc.eps>
 (epstopdf)                    date: 2014-04-24 15:29:31
@@ -2118,7 +2118,7 @@ nverted-to.pdf>
 (epstopdf)                    size: 14008 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
-(epstopdf)             \includegraphics on input line 245.
+(epstopdf)             \includegraphics on input line 247.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/tikzimage/adc-eps-converted-to.pdf, id=38, 151.56625pt x
@@ -2127,7 +2127,7 @@ File: 02_background/figures/tikzimage/adc-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use 02_background/figures/tikzimage/adc-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/adc-eps-converted-to.p
-df used on input line 245.
+df used on input line 247.
 (pdftex.def)             Requested size: 28.45274pt x 28.45097pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/adc.eps>
 (epstopdf)                    date: 2014-04-24 15:29:31
@@ -2138,14 +2138,14 @@ nverted-to.pdf>
 (epstopdf)                    size: 14008 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/adc-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 
 <use 02_background/figures/tikzimage/adc-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/adc-eps-converted-to.p
-df used on input line 249.
+df used on input line 251.
 (pdftex.def)             Requested size: 28.45274pt x 28.45097pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/adc.eps>
 (epstopdf)                    date: 2014-04-24 15:29:31
@@ -2156,14 +2156,14 @@ nverted-to.pdf>
 (epstopdf)                    size: 14008 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
-(epstopdf)             \includegraphics on input line 253.
+(epstopdf)             \includegraphics on input line 255.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/adc-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 
 <use 02_background/figures/tikzimage/adc-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/adc-eps-converted-to.p
-df used on input line 253.
+df used on input line 255.
 (pdftex.def)             Requested size: 28.45274pt x 28.45097pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/mrsi.eps>
 (epstopdf)                    date: 2013-10-09 16:49:26
@@ -2174,7 +2174,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 12482 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
-(epstopdf)             \includegraphics on input line 258.
+(epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/tikzimage/mrsi-eps-converted-to.pdf, id=39, 107.40125pt 
@@ -2183,7 +2183,7 @@ File: 02_background/figures/tikzimage/mrsi-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use 02_background/figures/tikzimage/mrsi-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/mrsi-eps-converted-to.
-pdf used on input line 258.
+pdf used on input line 260.
 (pdftex.def)             Requested size: 28.45274pt x 28.45135pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/mrsi.eps>
 (epstopdf)                    date: 2013-10-09 16:49:26
@@ -2194,14 +2194,14 @@ onverted-to.pdf>
 (epstopdf)                    size: 12482 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
-(epstopdf)             \includegraphics on input line 262.
+(epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/mrsi-eps-converted-to.pdf Graphic file (t
 ype pdf)
 
 <use 02_background/figures/tikzimage/mrsi-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/mrsi-eps-converted-to.
-pdf used on input line 262.
+pdf used on input line 264.
 (pdftex.def)             Requested size: 28.45274pt x 28.45135pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/mrsi.eps>
 (epstopdf)                    date: 2013-10-09 16:49:26
@@ -2212,75 +2212,15 @@ onverted-to.pdf>
 (epstopdf)                    size: 12482 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
 image/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
-(epstopdf)             \includegraphics on input line 266.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/mrsi-eps-converted-to.pdf Graphic file (t
 ype pdf)
 
 <use 02_background/figures/tikzimage/mrsi-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/mrsi-eps-converted-to.
-pdf used on input line 266.
+pdf used on input line 268.
 (pdftex.def)             Requested size: 28.45274pt x 28.45135pt.
-Package epstopdf Info: Source file: <02_background/figures/tikzimage/likeli.eps
->
-(epstopdf)                    date: 2013-10-10 11:56:27
-(epstopdf)                    size: 3605865 bytes
-(epstopdf)             Output file: <02_background/figures/tikzimage/likeli-eps
--converted-to.pdf>
-(epstopdf)                    date: 2013-10-10 11:56:40
-(epstopdf)                    size: 325991 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/likeli-eps-converted-to.pdf 02_background/figures/tikzimage/likeli.eps>
-(epstopdf)             \includegraphics on input line 292.
-Package epstopdf Info: Output file is already uptodate.
-
-<02_background/figures/tikzimage/likeli-eps-converted-to.pdf, id=40, 1206.5075p
-t x 1206.5075pt>
-File: 02_background/figures/tikzimage/likeli-eps-converted-to.pdf Graphic file 
-(type pdf)
-
-<use 02_background/figures/tikzimage/likeli-eps-converted-to.pdf>
-Package pdftex.def Info: 02_background/figures/tikzimage/likeli-eps-converted-t
-o.pdf used on input line 292.
-(pdftex.def)             Requested size: 85.35826pt x 85.34782pt.
-Package epstopdf Info: Source file: <02_background/figures/tikzimage/likeli.eps
->
-(epstopdf)                    date: 2013-10-10 11:56:27
-(epstopdf)                    size: 3605865 bytes
-(epstopdf)             Output file: <02_background/figures/tikzimage/likeli-eps
--converted-to.pdf>
-(epstopdf)                    date: 2013-10-10 11:56:40
-(epstopdf)                    size: 325991 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/likeli-eps-converted-to.pdf 02_background/figures/tikzimage/likeli.eps>
-(epstopdf)             \includegraphics on input line 296.
-Package epstopdf Info: Output file is already uptodate.
-File: 02_background/figures/tikzimage/likeli-eps-converted-to.pdf Graphic file 
-(type pdf)
-
-<use 02_background/figures/tikzimage/likeli-eps-converted-to.pdf>
-Package pdftex.def Info: 02_background/figures/tikzimage/likeli-eps-converted-t
-o.pdf used on input line 296.
-(pdftex.def)             Requested size: 85.35826pt x 85.34782pt.
-Package epstopdf Info: Source file: <02_background/figures/tikzimage/likeli.eps
->
-(epstopdf)                    date: 2013-10-10 11:56:27
-(epstopdf)                    size: 3605865 bytes
-(epstopdf)             Output file: <02_background/figures/tikzimage/likeli-eps
--converted-to.pdf>
-(epstopdf)                    date: 2013-10-10 11:56:40
-(epstopdf)                    size: 325991 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/likeli-eps-converted-to.pdf 02_background/figures/tikzimage/likeli.eps>
-(epstopdf)             \includegraphics on input line 300.
-Package epstopdf Info: Output file is already uptodate.
-File: 02_background/figures/tikzimage/likeli-eps-converted-to.pdf Graphic file 
-(type pdf)
-
-<use 02_background/figures/tikzimage/likeli-eps-converted-to.pdf>
-Package pdftex.def Info: 02_background/figures/tikzimage/likeli-eps-converted-t
-o.pdf used on input line 300.
-(pdftex.def)             Requested size: 85.35826pt x 85.34782pt.
 Package epstopdf Info: Source file: <02_background/figures/t2w/t2w_healthy.eps>
 
 (epstopdf)                    date: 2014-01-22 22:37:46
@@ -2291,17 +2231,17 @@ converted-to.pdf>
 (epstopdf)                    size: 19353 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/t2w/
 t2w_healthy-eps-converted-to.pdf 02_background/figures/t2w/t2w_healthy.eps>
-(epstopdf)             \includegraphics on input line 319.
+(epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf, id=41, 257.96375pt
+<02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf, id=40, 257.96375pt
  x 257.96375pt>
 File: 02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use 02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/t2w/t2w_healthy-eps-converted-to
-.pdf used on input line 319.
+.pdf used on input line 321.
 (pdftex.def)             Requested size: 156.6016pt x 156.60583pt.
 Package epstopdf Info: Source file: <02_background/figures/t2w/t2w_cancer_pz.ep
 s>
@@ -2314,17 +2254,17 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/t2w/
 t2w_cancer_pz-eps-converted-to.pdf 02_background/figures/t2w/t2w_cancer_pz.eps>
 
-(epstopdf)             \includegraphics on input line 320.
+(epstopdf)             \includegraphics on input line 322.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf, id=42, 258.9675p
+<02_background/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf, id=41, 258.9675p
 t x 258.9675pt>
 File: 02_background/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use 02_background/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/t2w/t2w_cancer_pz-eps-converted-
-to.pdf used on input line 320.
+to.pdf used on input line 322.
 (pdftex.def)             Requested size: 156.6016pt x 156.60664pt.
 Package epstopdf Info: Source file: <02_background/figures/t2w/t2w_cancer_cg.ep
 s>
@@ -2337,26 +2277,25 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/t2w/
 t2w_cancer_cg-eps-converted-to.pdf 02_background/figures/t2w/t2w_cancer_cg.eps>
 
-(epstopdf)             \includegraphics on input line 321.
+(epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/t2w/t2w_cancer_cg-eps-converted-to.pdf, id=43, 359.3425p
+<02_background/figures/t2w/t2w_cancer_cg-eps-converted-to.pdf, id=42, 359.3425p
 t x 359.3425pt>
 File: 02_background/figures/t2w/t2w_cancer_cg-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use 02_background/figures/t2w/t2w_cancer_cg-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/t2w/t2w_cancer_cg-eps-converted-
-to.pdf used on input line 321.
+to.pdf used on input line 323.
 (pdftex.def)             Requested size: 156.6016pt x 156.60332pt.
  [3] [4 <./02_background/figures/tikzimage/t2-eps-converted-to.pdf> <./02_backg
 round/figures/tikzimage/dce-eps-converted-to.pdf> <./02_background/figures/tikz
 image/dwi1-eps-converted-to.pdf> <./02_background/figures/tikzimage/adc-eps-con
-verted-to.pdf> <./02_background/figures/tikzimage/mrsi-eps-converted-to.pdf> <.
-/02_background/figures/tikzimage/likeli-eps-converted-to.pdf>]
+verted-to.pdf> <./02_background/figures/tikzimage/mrsi-eps-converted-to.pdf>]
 
 LaTeX Warning: File `02_background/figures/dce/slice.eps' not found on input li
-ne 365.
+ne 367.
 
 Package epstopdf Info: Source file: <02_background/figures/dce/slice.eps>
 (epstopdf)             Output file: <02_background/figures/dce/slice-eps-conver
@@ -2365,16 +2304,16 @@ ted-to.pdf>
 (epstopdf)                    size: 21861 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/dce/
 slice-eps-converted-to.pdf 02_background/figures/dce/slice.eps>
-(epstopdf)             \includegraphics on input line 365.
+(epstopdf)             \includegraphics on input line 367.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dce/slice-eps-converted-to.pdf, id=69, 257.96375pt x 193
+<02_background/figures/dce/slice-eps-converted-to.pdf, id=65, 257.96375pt x 193
 .72375pt>
 File: 02_background/figures/dce/slice-eps-converted-to.pdf Graphic file (type p
 df)
  <use 02_background/figures/dce/slice-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dce/slice-eps-converted-to.pdf u
-sed on input line 365.
+sed on input line 367.
 (pdftex.def)             Requested size: 208.79681pt x 156.806pt.
 Package epstopdf Info: Source file: <02_background/figures/dce/dce_cancer_healt
 hy.eps>
@@ -2387,21 +2326,27 @@ hy-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/dce/
 dce_cancer_healthy-eps-converted-to.pdf 02_background/figures/dce/dce_cancer_he
 althy.eps>
-(epstopdf)             \includegraphics on input line 366.
+(epstopdf)             \includegraphics on input line 368.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf, id=70, 710.
+<02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf, id=66, 710.
 655pt x 509.905pt>
 File: 02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use 02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dce/dce_cancer_healthy-eps-conve
-rted-to.pdf used on input line 366.
+rted-to.pdf used on input line 368.
 (pdftex.def)             Requested size: 234.8984pt x 168.54147pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf> <./02_backgr
+ound/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf> <./02_background/figures/t
+2w/t2w_cancer_cg-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <02_background/figures/dwi/dwi_cancer.eps>
 (epstopdf)                    date: 2014-01-27 17:25:04
 (epstopdf)                    size: 113081 bytes
@@ -2411,17 +2356,17 @@ onverted-to.pdf>
 (epstopdf)                    size: 13483 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/dwi/
 dwi_cancer-eps-converted-to.pdf 02_background/figures/dwi/dwi_cancer.eps>
-(epstopdf)             \includegraphics on input line 391.
+(epstopdf)             \includegraphics on input line 392.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf, id=71, 302.12875pt 
+<02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf, id=79, 302.12875pt 
 x 352.31625pt>
 File: 02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use 02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dwi/dwi_cancer-eps-converted-to.
-pdf used on input line 391.
-(pdftex.def)             Requested size: 130.5pt x 152.17577pt.
+pdf used on input line 392.
+(pdftex.def)             Requested size: 113.39923pt x 132.23653pt.
 Package epstopdf Info: Source file: <02_background/figures/dwi/adc_cancer.eps>
 (epstopdf)                    date: 2014-01-27 17:26:06
 (epstopdf)                    size: 225920 bytes
@@ -2431,47 +2376,45 @@ onverted-to.pdf>
 (epstopdf)                    size: 30458 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/dwi/
 adc_cancer-eps-converted-to.pdf 02_background/figures/dwi/adc_cancer.eps>
-(epstopdf)             \includegraphics on input line 392.
+(epstopdf)             \includegraphics on input line 393.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dwi/adc_cancer-eps-converted-to.pdf, id=72, 302.12875pt 
+<02_background/figures/dwi/adc_cancer-eps-converted-to.pdf, id=80, 302.12875pt 
 x 352.31625pt>
 File: 02_background/figures/dwi/adc_cancer-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use 02_background/figures/dwi/adc_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dwi/adc_cancer-eps-converted-to.
-pdf used on input line 392.
-(pdftex.def)             Requested size: 130.5pt x 152.17577pt.
+pdf used on input line 393.
+(pdftex.def)             Requested size: 113.39923pt x 132.23653pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1859) has occurred while \output is active []
 
- [5 <./02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf> <./02_backgr
-ound/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf> <./02_background/figures/t
-2w/t2w_cancer_cg-eps-converted-to.pdf>] [6 <./02_background/figures/dce/slice-e
-ps-converted-to.pdf> <./02_background/figures/dce/dce_cancer_healthy-eps-conver
-ted-to.pdf> <./02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf> <./02
-_background/figures/dwi/adc_cancer-eps-converted-to.pdf>]
-Overfull \hbox (2.12572pt too wide) in paragraph at lines 462--462
+ [6 <./02_background/figures/dce/slice-eps-converted-to.pdf> <./02_background/f
+igures/dce/dce_cancer_healthy-eps-converted-to.pdf> <./02_background/figures/dw
+i/dwi_cancer-eps-converted-to.pdf> <./02_background/figures/dwi/adc_cancer-eps-
+converted-to.pdf>]
+Overfull \hbox (2.12572pt too wide) in paragraph at lines 463--463
  []|\OT1/txr/m/n/8 patients| 
  []
 
 
-Overfull \hbox (0.52316pt too wide) in paragraph at lines 462--462
+Overfull \hbox (0.52316pt too wide) in paragraph at lines 463--463
  []|[]\OT1/txr/m/n/8 CADe| 
  []
 
 
-Overfull \hbox (0.97116pt too wide) in paragraph at lines 462--462
+Overfull \hbox (0.97116pt too wide) in paragraph at lines 463--463
  []|[]\OT1/txr/m/n/8 CADx| 
  []
 
 
-Overfull \hbox (13.56113pt too wide) in paragraph at lines 457--517
+Overfull \hbox (13.56113pt too wide) in paragraph at lines 458--518
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 40.81894pt on input line 517.
+LaTeX Warning: Float too large for page by 40.81894pt on input line 518.
 
 Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_healthy.ep
 s>
@@ -2484,17 +2427,17 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/mrsi
 /mrsi_healthy-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_healthy.eps>
 
-(epstopdf)             \includegraphics on input line 522.
+(epstopdf)             \includegraphics on input line 523.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf, id=102, 547.0437
-5pt x 338.26375pt>
+<02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf, id=99, 547.04375
+pt x 338.26375pt>
 File: 02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use 02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/mrsi/mrsi_healthy-eps-converted-
-to.pdf used on input line 522.
+to.pdf used on input line 523.
 (pdftex.def)             Requested size: 234.8984pt x 145.24927pt.
 Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_cancer.eps
 >
@@ -2506,28 +2449,21 @@ Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_cancer.eps
 (epstopdf)                    size: 16387 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/mrsi
 /mrsi_cancer-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_cancer.eps>
-(epstopdf)             \includegraphics on input line 523.
+(epstopdf)             \includegraphics on input line 524.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf, id=103, 547.04375
+<02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf, id=100, 547.04375
 pt x 338.26375pt>
 File: 02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use 02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/mrsi/mrsi_cancer-eps-converted-t
-o.pdf used on input line 523.
+o.pdf used on input line 524.
 (pdftex.def)             Requested size: 234.8984pt x 145.24927pt.
-
-
-Package natbib Warning: Citation `Giskeodegard201' on page 7 undefined on input
- line 534.
-
-[7] [8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf> <./02_back
-ground/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>])
+ [7] [8]
+[9 <./02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf> <./02_backg
+round/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>])
 (./03_image_processing/image_processing.tex
 (./03_image_processing/03_preprocessing/preprocessing_rm.tex
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
@@ -2535,38 +2471,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
  []
 
 
-LaTeX Warning: Reference `fig:noisedistr' on page 10 undefined on input line 50
-.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[10]
-
-LaTeX Warning: Reference `fig:bias' on page 11 undefined on input line 77.
-
-Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
-es/normalization/linear_transform_parts.eps>
-(epstopdf)                    date: 2014-01-23 23:45:23
-(epstopdf)                    size: 33121 bytes
-(epstopdf)             Output file: <03_image_processing/03_preprocessing/figur
-es/normalization/linear_transform_parts-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-23 23:48:49
-(epstopdf)                    size: 7993 bytes
-(epstopdf)             Command: <repstopdf --outfile=03_image_processing/03_pre
-processing/figures/normalization/linear_transform_parts-eps-converted-to.pdf 03
-_image_processing/03_preprocessing/figures/normalization/linear_transform_parts
-.eps>
-(epstopdf)             \includegraphics on input line 204.
-Package epstopdf Info: Output file is already uptodate.
-
-<03_image_processing/03_preprocessing/figures/normalization/linear_transform_pa
-rts-eps-converted-to.pdf, id=125, 545.03625pt x 338.26375pt>
-File: 03_image_processing/03_preprocessing/figures/normalization/linear_transfo
-rm_parts-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 03_image_processing/03_preprocessing/figures/normalization/linear_transfor
-m_parts-eps-converted-to.pdf>
-Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/normaliza
-tion/linear_transform_parts-eps-converted-to.pdf used on input line 204.
-(pdftex.def)             Requested size: 226.79846pt x 140.75362pt.
+ [10]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/niaf/t2w_bladder.eps>
 (epstopdf)                    date: 2014-01-30 20:40:18
@@ -2582,7 +2489,7 @@ _preprocessing/figures/niaf/t2w_bladder.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-converted-to
-.pdf, id=126, 258.9675pt x 194.7275pt>
+.pdf, id=121, 258.9675pt x 194.7275pt>
 File: 03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
@@ -2606,7 +2513,7 @@ processing/figures/niaf/t1w_arteries-eps-converted-to.pdf 03_image_processing/0
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-converted-t
-o.pdf, id=127, 258.9675pt x 194.7275pt>
+o.pdf, id=122, 258.9675pt x 194.7275pt>
 File: 03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
@@ -2615,11 +2522,6 @@ ed-to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/niaf/t1w_
 arteries-eps-converted-to.pdf used on input line 230.
 (pdftex.def)             Requested size: 113.39923pt x 85.27031pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./03_image_processing/03_preprocessing/figures/normalization/linear_trans
-form_parts-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/phase/phase.eps>
 (epstopdf)                    date: 2014-01-24 11:09:21
@@ -2635,7 +2537,7 @@ rocessing/figures/phase/phase.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-to.pdf,
- id=137, 546.04pt x 337.26pt>
+ id=123, 546.04pt x 337.26pt>
 File: 03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -2644,12 +2546,9 @@ pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/phase/pha
 se-eps-converted-to.pdf used on input line 273.
 (pdftex.def)             Requested size: 226.79846pt x 140.07864pt.
-
-Underfull \hbox (badness 3148) in paragraph at lines 278--279
-[]\OT1/txr/bx/it/10 Water and lipid resid-u-als fil-ter-ing: \OT1/txr/m/n/10 Th
-e wa-ter and
- []
-
+ [11 <./03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-conve
+rted-to.pdf> <./03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-
+eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/water/water_fat.eps>
 (epstopdf)                    date: 2014-01-24 14:25:38
@@ -2665,7 +2564,7 @@ preprocessing/figures/water/water_fat.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/water/water_fat-eps-converted-to.
-pdf, id=138, 670.505pt x 486.81876pt>
+pdf, id=134, 670.505pt x 486.81876pt>
 File: 03_image_processing/03_preprocessing/figures/water/water_fat-eps-converte
 d-to.pdf Graphic file (type pdf)
 
@@ -2694,7 +2593,7 @@ processing/figures/frequency/frequency-eps-converted-to.pdf 03_image_processing
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/frequency/frequency-eps-converted
--to.pdf, id=139, 547.04375pt x 338.26375pt>
+-to.pdf, id=135, 547.04375pt x 338.26375pt>
 File: 03_image_processing/03_preprocessing/figures/frequency/frequency-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -2703,15 +2602,13 @@ rted-to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/frequency
 /frequency-eps-converted-to.pdf used on input line 326.
 (pdftex.def)             Requested size: 226.79846pt x 140.24263pt.
+) (./03_image_processing/04_segmentation/segmentation_rm.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 8151) has occurred while \output is active []
-
- [12 <./03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-conve
-rted-to.pdf> <./03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-
-eps-converted-to.pdf> <./03_image_processing/03_preprocessing/figures/phase/pha
-se-eps-converted-to.pdf> <./03_image_processing/03_preprocessing/figures/water/
-water_fat-eps-converted-to.pdf>])
-(./03_image_processing/04_segmentation/segmentation_rm.tex
+ [12 <./03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-
+to.pdf> <./03_image_processing/03_preprocessing/figures/water/water_fat-eps-con
+verted-to.pdf> <./03_image_processing/03_preprocessing/figures/frequency/freque
+ncy-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 []|$\OT1/txr/m/n/9 [$4-5,16,18-
  []
@@ -2764,8 +2661,7 @@ Overfull \hbox (2.94229pt too wide) in paragraph at lines 184--185
  [][] 
  []
 
-[13 <./03_image_processing/03_preprocessing/figures/frequency/frequency-eps-con
-verted-to.pdf>] [14]
+[13]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
 (epstopdf)                    date: 2014-03-07 12:29:28
@@ -2781,7 +2677,7 @@ ing/05_registration/figures/histogram/jointhistoalg.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-conver
-ted-to.pdf, id=178, 258.9675pt x 258.9675pt>
+ted-to.pdf, id=164, 258.9675pt x 258.9675pt>
 File: 03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-c
 onverted-to.pdf Graphic file (type pdf)
 
@@ -2810,7 +2706,7 @@ ssing/05_registration/figures/histogram/jointhistomisal.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/05_registration/figures/histogram/jointhistomisal-eps-conv
-erted-to.pdf, id=179, 258.9675pt x 258.9675pt>
+erted-to.pdf, id=165, 258.9675pt x 258.9675pt>
 File: 03_image_processing/05_registration/figures/histogram/jointhistomisal-eps
 -converted-to.pdf Graphic file (type pdf)
 
@@ -2834,7 +2730,7 @@ Underfull \hbox (badness 2717) in paragraph at lines 334--335
 []\OT1/txr/m/n/10 However, this met-ric is not well suited when multi-
  []
 
-)) (./04_data_classification/data_classification.tex
+[14])) (./04_data_classification/data_classification.tex
 (./04_data_classification/06a_roi_detection/roi_detection.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
 []|$\OT1/txr/m/n/9 [$4-5,7-
@@ -2850,137 +2746,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--16
 [][]
  []
 
-[15]) (./04_data_classification/06_feature_detection/feature_detection.tex
-Underfull \hbox (badness 1406) in paragraph at lines 24--24
-[]|   []\OT1/txr/m/n/9 Dis-crete co-sine trans-form
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--53
-[][]
- []
-
-
-LaTeX Warning: Float too large for page by 22.53842pt on input line 128.
-
-[16 <./03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-
+[15 <./03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-
 converted-to.pdf> <./03_image_processing/05_registration/figures/histogram/join
-thistomisal-eps-converted-to.pdf>] [17]
-Package epstopdf Info: Source file: <04_data_classification/06_feature_detectio
-n/figures/gabor/gabor_1.eps>
-(epstopdf)                    date: 2014-01-24 16:22:32
-(epstopdf)                    size: 10422 bytes
-(epstopdf)             Output file: <04_data_classification/06_feature_detectio
-n/figures/gabor/gabor_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-24 16:24:50
-(epstopdf)                    size: 5095 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/06_
-feature_detection/figures/gabor/gabor_1-eps-converted-to.pdf 04_data_classifica
-tion/06_feature_detection/figures/gabor/gabor_1.eps>
-(epstopdf)             \includegraphics on input line 221.
-Package epstopdf Info: Output file is already uptodate.
-
-<04_data_classification/06_feature_detection/figures/gabor/gabor_1-eps-converte
-d-to.pdf, id=196, 50.1875pt x 50.1875pt>
-File: 04_data_classification/06_feature_detection/figures/gabor/gabor_1-eps-con
-verted-to.pdf Graphic file (type pdf)
-
-<use 04_data_classification/06_feature_detection/figures/gabor/gabor_1-eps-conv
-erted-to.pdf>
-Package pdftex.def Info: 04_data_classification/06_feature_detection/figures/ga
-bor/gabor_1-eps-converted-to.pdf used on input line 221.
-(pdftex.def)             Requested size: 50.39923pt x 50.40254pt.
-Package epstopdf Info: Source file: <04_data_classification/06_feature_detectio
-n/figures/gabor/gabor_2.eps>
-(epstopdf)                    date: 2014-01-24 16:23:32
-(epstopdf)                    size: 9349 bytes
-(epstopdf)             Output file: <04_data_classification/06_feature_detectio
-n/figures/gabor/gabor_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-24 16:24:51
-(epstopdf)                    size: 6211 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/06_
-feature_detection/figures/gabor/gabor_2-eps-converted-to.pdf 04_data_classifica
-tion/06_feature_detection/figures/gabor/gabor_2.eps>
-(epstopdf)             \includegraphics on input line 222.
-Package epstopdf Info: Output file is already uptodate.
-
-<04_data_classification/06_feature_detection/figures/gabor/gabor_2-eps-converte
-d-to.pdf, id=197, 50.1875pt x 50.1875pt>
-File: 04_data_classification/06_feature_detection/figures/gabor/gabor_2-eps-con
-verted-to.pdf Graphic file (type pdf)
-
-<use 04_data_classification/06_feature_detection/figures/gabor/gabor_2-eps-conv
-erted-to.pdf>
-Package pdftex.def Info: 04_data_classification/06_feature_detection/figures/ga
-bor/gabor_2-eps-converted-to.pdf used on input line 222.
-(pdftex.def)             Requested size: 50.39923pt x 50.40254pt.
-Package epstopdf Info: Source file: <04_data_classification/06_feature_detectio
-n/figures/gabor/gabor_3.eps>
-(epstopdf)                    date: 2014-01-24 16:24:11
-(epstopdf)                    size: 9345 bytes
-(epstopdf)             Output file: <04_data_classification/06_feature_detectio
-n/figures/gabor/gabor_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-24 16:24:51
-(epstopdf)                    size: 6223 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/06_
-feature_detection/figures/gabor/gabor_3-eps-converted-to.pdf 04_data_classifica
-tion/06_feature_detection/figures/gabor/gabor_3.eps>
-(epstopdf)             \includegraphics on input line 223.
-Package epstopdf Info: Output file is already uptodate.
-
-<04_data_classification/06_feature_detection/figures/gabor/gabor_3-eps-converte
-d-to.pdf, id=198, 50.1875pt x 50.1875pt>
-File: 04_data_classification/06_feature_detection/figures/gabor/gabor_3-eps-con
-verted-to.pdf Graphic file (type pdf)
-
-<use 04_data_classification/06_feature_detection/figures/gabor/gabor_3-eps-conv
-erted-to.pdf>
-Package pdftex.def Info: 04_data_classification/06_feature_detection/figures/ga
-bor/gabor_3-eps-converted-to.pdf used on input line 223.
-(pdftex.def)             Requested size: 50.39923pt x 50.40254pt.
-Package epstopdf Info: Source file: <04_data_classification/06_feature_detectio
-n/figures/gabor/gabor_4.eps>
-(epstopdf)                    date: 2014-01-24 16:24:38
-(epstopdf)                    size: 10422 bytes
-(epstopdf)             Output file: <04_data_classification/06_feature_detectio
-n/figures/gabor/gabor_4-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-24 16:24:51
-(epstopdf)                    size: 5095 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/06_
-feature_detection/figures/gabor/gabor_4-eps-converted-to.pdf 04_data_classifica
-tion/06_feature_detection/figures/gabor/gabor_4.eps>
-(epstopdf)             \includegraphics on input line 224.
-Package epstopdf Info: Output file is already uptodate.
-
-<04_data_classification/06_feature_detection/figures/gabor/gabor_4-eps-converte
-d-to.pdf, id=199, 50.1875pt x 50.1875pt>
-File: 04_data_classification/06_feature_detection/figures/gabor/gabor_4-eps-con
-verted-to.pdf Graphic file (type pdf)
-
-<use 04_data_classification/06_feature_detection/figures/gabor/gabor_4-eps-conv
-erted-to.pdf>
-Package pdftex.def Info: 04_data_classification/06_feature_detection/figures/ga
-bor/gabor_4-eps-converted-to.pdf used on input line 224.
-(pdftex.def)             Requested size: 50.39923pt x 50.40254pt.
-
-Overfull \hbox (24.0pt too wide) in paragraph at lines 256--277
-[][]
- []
-
-[18 <./04_data_classification/06_feature_detection/figures/gabor/gabor_1-eps-co
-nverted-to.pdf> <./04_data_classification/06_feature_detection/figures/gabor/ga
-bor_2-eps-converted-to.pdf> <./04_data_classification/06_feature_detection/figu
-res/gabor/gabor_3-eps-converted-to.pdf> <./04_data_classification/06_feature_de
-tection/figures/gabor/gabor_4-eps-converted-to.pdf>]
-Overfull \hbox (3.99982pt too wide) detected at line 285
-[]\OML/txmi/m/it/10 C[] \OT1/txr/m/n/10 = [] [] \OML/txmi/m/it/10 p[] [] [] [] 
-[]  ;
- []
-
-
+thistomisal-eps-converted-to.pdf>])
+(./04_data_classification/06_feature_detection/feature_detection.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19]
+ [16]
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package epstopdf Info: Source file: <04_data_classification/06_feature_detectio
 n/figures/dce/dce_cancer_parameters.eps>
 (epstopdf)                    date: 2014-01-23 09:23:40
@@ -2992,49 +2767,40 @@ n/figures/dce/dce_cancer_parameters-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=04_data_classification/06_
 feature_detection/figures/dce/dce_cancer_parameters-eps-converted-to.pdf 04_dat
 a_classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps>
-(epstopdf)             \includegraphics on input line 347.
+(epstopdf)             \includegraphics on input line 357.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters-
-eps-converted-to.pdf, id=220, 710.655pt x 510.90875pt>
+eps-converted-to.pdf, id=186, 710.655pt x 510.90875pt>
 File: 04_data_classification/06_feature_detection/figures/dce/dce_cancer_parame
 ters-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/06_feature_detection/figures/dce/dce_cancer_paramet
 ers-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/06_feature_detection/figures/dc
-e/dce_cancer_parameters-eps-converted-to.pdf used on input line 347.
+e/dce_cancer_parameters-eps-converted-to.pdf used on input line 357.
 (pdftex.def)             Requested size: 252.0pt x 181.16728pt.
 
-Underfull \hbox (badness 1184) in paragraph at lines 354--355
+Underfull \hbox (badness 1184) in paragraph at lines 364--365
 []\OT1/txr/bx/it/10 Quantitative ap-proach: \OT1/txr/m/n/10 As pre-sented in Se
 ct. 2.2.2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 \OT1/txr/m/n/10 quan-ti-ta-tive ap-proaches cor-re-spond to mathematical-
  []
 
-[20 <./04_data_classification/06_feature_detection/figures/dce/dce_cancer_param
-eters-eps-converted-to.pdf>])
+[18])
 (./04_data_classification/07_feature_selection_extraction/feature_selection_ext
-raction.tex [21]
-Underfull \hbox (badness 10000) in paragraph at lines 22--38
+raction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--37
 [][]
  []
 
-
-LaTeX Warning: Reference `eq:midef' on page 22 undefined on input line 55.
-
-[22]
-Underfull \hbox (badness 1082) in paragraph at lines 123--124
-\OT1/txr/m/n/10 vec-tors of the $\OML/txmi/m/it/10 k$ \OT1/txr/m/n/10 small-est
- eigen-val-ues (Belkin and Niyogi
- []
-
-
-Underfull \hbox (badness 5189) in paragraph at lines 134--134
+[19 <./04_data_classification/06_feature_detection/figures/dce/dce_cancer_param
+eters-eps-converted-to.pdf>]
+Underfull \hbox (badness 5189) in paragraph at lines 132--132
 [][][][]\OT1/txr/m/n/8 LLE im-ple-men-ta-tion is avail-able at: \OT1/cmtt/m/n/8
  http://www.cs.nyu.edu/
  []
@@ -3054,192 +2820,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--42
 [][]
  []
 
-[23] [24] [25]
-Package epstopdf Info: Source file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_3_2.eps>
-(epstopdf)                    date: 2014-01-22 11:06:06
-(epstopdf)                    size: 58467 bytes
-(epstopdf)             Output file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_3_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-22 11:54:11
-(epstopdf)                    size: 23006 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/08_
-classification/figures/pbt-simulation/pbt_tree_3_2-eps-converted-to.pdf 04_data
-_classification/08_classification/figures/pbt-simulation/pbt_tree_3_2.eps>
-(epstopdf)             \includegraphics on input line 194.
-Package epstopdf Info: Output file is already uptodate.
-
-<04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_2-e
-ps-converted-to.pdf, id=247, 475.7775pt x 357.335pt>
-File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
-3_2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3
-_2-eps-converted-to.pdf>
-Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_3_2-eps-converted-to.pdf used on input line 194.
-(pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
-Package epstopdf Info: Source file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_3_1.eps>
-(epstopdf)                    date: 2014-01-22 11:05:55
-(epstopdf)                    size: 54495 bytes
-(epstopdf)             Output file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_3_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-22 11:54:12
-(epstopdf)                    size: 110263 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/08_
-classification/figures/pbt-simulation/pbt_tree_3_1-eps-converted-to.pdf 04_data
-_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1.eps>
-(epstopdf)             \includegraphics on input line 194.
-Package epstopdf Info: Output file is already uptodate.
-
-<04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-e
-ps-converted-to.pdf, id=248, 475.7775pt x 357.335pt>
-File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
-3_1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_3
-_1-eps-converted-to.pdf>
-Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_3_1-eps-converted-to.pdf used on input line 194.
-(pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
-Package epstopdf Info: Source file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_2_1.eps>
-(epstopdf)                    date: 2014-01-22 11:05:41
-(epstopdf)                    size: 104571 bytes
-(epstopdf)             Output file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-22 11:50:01
-(epstopdf)                    size: 128441 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/08_
-classification/figures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf 04_data
-_classification/08_classification/figures/pbt-simulation/pbt_tree_2_1.eps>
-(epstopdf)             \includegraphics on input line 194.
-Package epstopdf Info: Output file is already uptodate.
-
-<04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_1-e
-ps-converted-to.pdf, id=249, 475.7775pt x 357.335pt>
-File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
-2_1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2
-_1-eps-converted-to.pdf>
-Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_2_1-eps-converted-to.pdf used on input line 194.
-(pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
-Package epstopdf Info: Source file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_2_2.eps>
-(epstopdf)                    date: 2014-01-22 11:05:30
-(epstopdf)                    size: 58467 bytes
-(epstopdf)             Output file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_2_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-22 11:50:34
-(epstopdf)                    size: 23007 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/08_
-classification/figures/pbt-simulation/pbt_tree_2_2-eps-converted-to.pdf 04_data
-_classification/08_classification/figures/pbt-simulation/pbt_tree_2_2.eps>
-(epstopdf)             \includegraphics on input line 194.
-Package epstopdf Info: Output file is already uptodate.
-
-<04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2_2-e
-ps-converted-to.pdf, id=250, 477.785pt x 357.335pt>
-File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
-2_2-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_2
-_2-eps-converted-to.pdf>
-Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_2_2-eps-converted-to.pdf used on input line 194.
-(pdftex.def)             Requested size: 56.9055pt x 42.55664pt.
-Package epstopdf Info: Source file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_1.eps>
-(epstopdf)                    date: 2014-01-22 11:05:12
-(epstopdf)                    size: 154600 bytes
-(epstopdf)             Output file: <04_data_classification/08_classification/f
-igures/pbt-simulation/pbt_tree_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-01-22 11:47:25
-(epstopdf)                    size: 146578 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/08_
-classification/figures/pbt-simulation/pbt_tree_1-eps-converted-to.pdf 04_data_c
-lassification/08_classification/figures/pbt-simulation/pbt_tree_1.eps>
-(epstopdf)             \includegraphics on input line 194.
-Package epstopdf Info: Output file is already uptodate.
-
-<04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1-eps
--converted-to.pdf, id=251, 475.7775pt x 357.335pt>
-File: 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_
-1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 04_data_classification/08_classification/figures/pbt-simulation/pbt_tree_1
--eps-converted-to.pdf>
-Package pdftex.def Info: 04_data_classification/08_classification/figures/pbt-s
-imulation/pbt_tree_1-eps-converted-to.pdf used on input line 194.
-(pdftex.def)             Requested size: 56.9055pt x 42.73657pt.
-Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (1.20856pt too wide) in paragraph at lines 195--196
- [][] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 202.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 202.
-
-Underfull \hbox (badness 2343) in paragraph at lines 222--222
+[20]
+Underfull \hbox (badness 2343) in paragraph at lines 218--218
 [][][]\OT1/txr/m/n/8 Gaussian pro-cess im-ple-men-ta-tion can be found at: \OT1
 /cmtt/m/n/8 http://www.
  []
 
-[26 <./04_data_classification/08_classification/figures/pbt-simulation/pbt_tree
-_1-eps-converted-to.pdf> <./04_data_classification/08_classification/figures/pb
-t-simulation/pbt_tree_2_2-eps-converted-to.pdf> <./04_data_classification/08_cl
-assification/figures/pbt-simulation/pbt_tree_2_1-eps-converted-to.pdf> <./04_da
-ta_classification/08_classification/figures/pbt-simulation/pbt_tree_3_1-eps-con
-verted-to.pdf> <./04_data_classification/08_classification/figures/pbt-simulati
-on/pbt_tree_3_2-eps-converted-to.pdf>]
-Underfull \hbox (badness 1253) in paragraph at lines 256--257
+
+Underfull \hbox (badness 1253) in paragraph at lines 251--289
 [][]\OT1/txr/m/n/10 Support vec-tor ma-chines (SVM)[] is a sparse ker-nel
  []
 
-[27]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (1.508pt too wide) in paragraph at lines 475--475
- [][][][]\OT1/txr/m/n/9 Summation 
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
 []|$\OT1/txr/m/n/9 [$1-8,11,17-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--542
+Underfull \hbox (badness 10000) in paragraph at lines 526--535
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
 []|$\OT1/txr/m/n/9 [$4-5,7,12,14,17,20-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--562
+Underfull \hbox (badness 10000) in paragraph at lines 555--555
 []|$\OT1/txr/m/n/9 [$2-3,6-9,13-19,23,29-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 556--568
+Underfull \hbox (badness 10000) in paragraph at lines 549--561
 [][]
  []
 
@@ -3249,20 +2862,29 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-[29] [30])) (./09_discussion/discussion.tex
+[22] [23])) (./09_discussion/discussion.tex
 Missing character: There is no ; in font nullfont!
- [31])
-(./10_conclusion/conclusion.tex) (./11_acknowledgement/acknowledgement.tex)
-(./g_lemaitre_state_of_the_art.bbl [32]
+ [24])
+(./10_conclusion/conclusion.tex)
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+
+(./11_acknowledgement/acknowledgement.tex) (./g_lemaitre_state_of_the_art.bbl
+[25]
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 338.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 354.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 338.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
+ [26]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
@@ -3272,7 +2894,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no Ã in font txr!
@@ -3280,7 +2902,7 @@ Missing character: There is no ¨ in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
+ [28]
 Missing character: There is no Ã in font txr!
 Missing character: There is no © in font txr!
 Missing character: There is no Ã in font txr!
@@ -3293,32 +2915,26 @@ Missing character: There is no ¡ in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+ [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-[37]
+ [30]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
- (./g_lemaitre_state_of_the_art.aux)
+
+(./g_lemaitre_state_of_the_art.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 32691 strings out of 493304
- 658881 string characters out of 6139871
- 932697 words of memory out of 5000000
- 35330 multiletter control sequences out of 15000+600000
- 72843 words of font info for 179 fonts, out of 8000000 for 9000
+ 32227 strings out of 493304
+ 648239 string characters out of 6139871
+ 913592 words of memory out of 5000000
+ 34884 multiletter control sequences out of 15000+600000
+ 71026 words of font info for 175 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 64i,19n,74p,10417b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,21n,74p,10417b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/
@@ -3333,10 +2949,10 @@ nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (37 pages, 1917466 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (30 pages, 1093745 bytes).
 PDF statistics:
- 374 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
+ 287 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 292 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 
