@@ -13,41 +13,42 @@ Discriminative features which can be used to recognize \ac{cap} from healthy tis
 		\hline \\ [-1.5ex]
 		\textbf{\ac{mri} image:} & \\ \\ [-1.5ex]
 		\quad \textit{Voxel-wise detection} &  \\ \\ [-1.5ex]
-		\quad \quad Intensity-based & $[$1-2,38$]^{\text{{\cmarksmall}- -}}$\par $[$7$]^{\text{- - {\cmarksmall}}}$\par $[$4-6,9-12,20-21$]^{\text{{\cmarksmall}- {\cmarksmall}}}$\par $[$18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad Intensity-based & $[$1-2,39$]^{\text{{\cmarksmall}- -}}$\par $[$7$]^{\text{- - {\cmarksmall}}}$\par $[$4-6,9-13,21-22$]^{\text{{\cmarksmall}- {\cmarksmall}}}$\par $[$19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
 		\quad \quad Edge-based & \\
-		\quad \quad \quad Prewitt operator & $[$29-30,32-33$]^{\text{{\cmarksmall}- -}}$ \\
-		\quad \quad \quad Sobel operator & $[$29-30,32-33,35-37$]^{\text{{\cmarksmall}- -}}$\par $[$18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Kirsch operator & $[$29-30,32-33,35-37$]^{\text{{\cmarksmall}- -}}$\par $[$18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Gabor filtering & $[$31,33,37$]^{\text{{\cmarksmall}- -}}$ \\ 
+		\quad \quad \quad Prewitt operator & $[$30-31,33-34$]^{\text{{\cmarksmall}- -}}$ \\
+		\quad \quad \quad Sobel operator & $[$30-31,33-34,36-38$]^{\text{{\cmarksmall}- -}}$\par $[$19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Kirsch operator & $[$30-31,33-34,36-38$]^{\text{{\cmarksmall}- -}}$\par $[$19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Gabor filtering & $[$32,34,38$]^{\text{{\cmarksmall}- -}}$ \\ 
 		\quad \quad Texture-based & \\
-		\quad \quad \quad Haralick features & $[$3,29-30,32.33,35,37$]^{\text{{\cmarksmall}- -}}$\par $[$36$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$11,18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Fractal analysis & $[$14-15$]^{\text{{\cmarksmall}- -}}$ \\
-		\quad \quad \quad \Ac{dct} & $[$18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Wavelet-based features & $[$37$]^{\text{{\cmarksmall}- -}}$ \\
-		\quad \quad Position-based & $[$6,10-11$]$ \\ \\ [-1.5ex]
+		\quad \quad \quad Haralick features & $[$3,30-31,33-34,36,38$]^{\text{{\cmarksmall}- -}}$\par $[$37$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$11,19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Fractal analysis & $[$15-16$]^{\text{{\cmarksmall}- -}}$ \\
+		\quad \quad \quad \Ac{dct} & $[$19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Wavelet-based features & $[$38$]^{\text{{\cmarksmall}- -}}$ \\
+		\quad \quad \quad Gaussian filer bank & $[$12$]^{\text{{\cmarksmall}- -}}$ \\
+		\quad \quad Position-based & $[$6,10-12$]$ \\ \\ [-1.5ex]
 		\quad \textit{Region-wise detection} &  \\ \\ [-1.5ex]
 		\quad \quad Statistical-based & \\
-		\quad \quad \quad Percentiles & $[$39$]^{\text{- {\cmarksmall}-}}$ \par $[$3,23$]^{\text{- - {\cmarksmall}}}$\par $[$40$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$10-11,18-19,41$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Statistical-moments & $[$1-2,29-30,32-33,35,37$]^{\text{{\cmarksmall}- -}}$\par $[$3$]^{\text{- - {\cmarksmall}}}$\par $[$36$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$23$]^{\text{{\cmarksmall}- {\cmarksmall}}}$\par $[$10-11,18-19$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Percentiles & $[$40$]^{\text{- {\cmarksmall}-}}$ \par $[$3,24$]^{\text{- - {\cmarksmall}}}$\par $[$41$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$10-12,19-20,42$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Statistical-moments & $[$1-2,30-31,33-34,36,38$]^{\text{{\cmarksmall}- -}}$\par $[$3$]^{\text{- - {\cmarksmall}}}$\par $[$37$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$24$]^{\text{{\cmarksmall}- {\cmarksmall}}}$\par $[$10-12,19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
 		\quad \quad Histogram-based & \\
-		\quad \quad \quad \acs{pdf} & $[$13$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad \acs{hog} & $[$13$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Shape context & $[$13$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad \acs{lbp} & $[$13$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad Anatomical-based & $[$11,15$]$ \\ \\ [-1.5ex]
+		\quad \quad \quad \acs{pdf} & $[$14$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad \acs{hog} & $[$14$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Shape context & $[$14$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad \acs{lbp} & $[$14$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad Anatomical-based & $[$11-12,16$]$ \\ \\ [-1.5ex]
 		\textbf{\ac{dce} signal:} & \\ \\ [-1.5ex]
 		\quad Whole spectra approach & $[$1,2$]$ \\
-		\quad Semi-quantitative approach & $[$24$]^{\text{{\mmarksmall}}}$\par $[$17-19,25$]$ \\
+		\quad Semi-quantitative approach & $[$25$]^{\text{{\mmarksmall}}}$\par $[$18-20,26$]$ \\
 		\quad Quantitative approach &  \\
-		\quad \quad Toft model & $[$13,24$]^{\text{{\mmarksmall}}}$\par $[$7,9-11,17-19$]$ \\
-		\quad \quad Brix model & $[$4-5,10-21$]^{\text{{\mmarksmall}}}$\par $[$12,25$]$ \\
-		\quad \quad Weibull function & $[$7,17$]$ \\
-		\quad \quad PUM & $[$7,17$]$ \\
+		\quad \quad Toft model & $[$14,25$]^{\text{{\mmarksmall}}}$\par $[$7,9-12,18-20$]$ \\
+		\quad \quad Brix model & $[$4-5,21-22$]^{\text{{\mmarksmall}}}$\par $[$13,26$]$ \\
+		\quad \quad Weibull function & $[$7,18$]$ \\
+		\quad \quad PUM & $[$7,18$]$ \\
 		\\ [-1.5ex]
 		\textbf{\ac{mrsi} signal:} & \\ \\ [-1.5ex]
-		\quad Whole spectra approach & $[$8,16,22,26-30,32-33$]$ \\
-		\quad Quantification approach & $[$8,22$]$ \\
-		\quad Wavelet-based approach & $[$31$]$ \\ \\ [-1.5ex]
+		\quad Whole spectra approach & $[$8,17,23,27-31,33-34$]$ \\
+		\quad Quantification approach & $[$8,23$]$ \\
+		\quad Wavelet-based approach & $[$32$]$ \\ \\ [-1.5ex]
 		\hline
 	\end{tabular}
 	\begin{tablenotes}
@@ -174,7 +175,7 @@ This section will focus on image-based features detection. Two main strategies t
 
 \item[$-$] \textbf{\textit{Voxel-wise detection:}} This strategy refers to the fact that a feature is extracted at each voxel location of an image.
 
-\ac{cap} as previously discussed (see Tab. \ref{tab:modmri}) can be discerned due to \ac{si} changes. Hence, intensity-based features are one of the most common features used to build the feature vector which has to be classified (\cite{Ampeliotis2007,Ampeliotis2008,Artan2009,Artan2010,Chan2003,Langer2009,Liu2009,Niaf2011,Niaf2012,Viswanath2008a,Viswanath2011}). This type of feature consists simply of the \ac{si} of each voxel of the different \ac{mri} modalities.
+\ac{cap} as previously discussed (see Tab. \ref{tab:modmri}) can be discerned due to \ac{si} changes. Hence, intensity-based features are one of the most common features used to build the feature vector which has to be classified (\cite{Ampeliotis2007,Ampeliotis2008,Artan2009,Artan2010,Chan2003,Langer2009,Litjens2011,Litjens2012,Litjens2014,Liu2009,Niaf2011,Niaf2012,Viswanath2008a,Viswanath2011}). This type of feature consists simply of the \ac{si} of each voxel of the different \ac{mri} modalities.
 
 \Ac{si} changes can be viewed as heterogeneous regions and edge-based features are used in that regard. Each feature is computed by convolving the original image with an edge operator. Three of these operators are used in \ac{cad} systems: (i) Prewitt operator (\cite{Prewitt1970}), (ii) Sobel operator (\cite{Sobel1970}) and (iii) Kirsch operator (\cite{Kirsch1971}). Results obtained with these operators vary, due to their different kernels. % as shown in Eq. \ref{eq:prewitt}-\ref{eq:kirsch}.
 %
@@ -324,15 +325,17 @@ Fractal analysis and more precisely a local estimation of the fractal dimension 
 
 In the same spirit, \cite{Viswanath2012} projected \ac{t2w} images into the wavelet space and used the coefficients obtained from the decomposition as features. The wavelet family used for the decomposition was the Haar wavelet.
 
-The position of a voxel within the prostate was also considered a possible feature. \cite{Litjens2011} computed the Euclidean distance from each voxel to the prostate center as well as the individual distance in the three directions $x$, $y$ and $z$. \cite{Chan2003} embedded the same information but this time using cylindrical coordinate $r$, $\theta$ and $z$ corresponding to the radius, azimuth and elevation respectively.
+\cite{Litjens2014} compute texture map based on \ac{t2w} images using a Gaussian filter bank (\cite{Leung2001}).
+
+The position of a voxel within the prostate was also considered a possible feature. \cite{Litjens2011,Litjens2014} computed the Euclidean distance from each voxel to the prostate center as well as the individual distance in the three directions $x$, $y$ and $z$. \cite{Chan2003} embedded the same information but this time using cylindrical coordinate $r$, $\theta$ and $z$ corresponding to the radius, azimuth and elevation respectively.
 
 \item[$-$] \textbf{\textit{Region-wise detection:}}
 
 Unlike the previous section, another strategy is to study an entire region and extract characteristic features corresponding to this region.
 
-The most common approach reviewed can be classified as statiscal methods. Full map corresponding to feature types presented in the previous section are computed. Then, \acp{roi} are defined and statistics are extracted from each of these regions. The first type of statistic is based on percentiles and is widely used (\cite{Antic2013,Litjens2011,Litjens2012,Peng2013,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012,Vos2008,Vos2008a,Vos2010,Vos2012}). In fact, once that a \ac{roi} is defined, the features corresponding the $n^{\text{th}}$ percentile is used as feature. This $n$ can take any value between $0$ and $100$. This threshold is usually manually determined observing the distribution and corresponds to the best discriminant value differentiating malignant and healthy tissue. in addition, statistic-moments such as mean, standard deviation, kurtosis and skewness are also used (\cite{Ampeliotis2007,Ampeliotis2008,Antic2013,Niaf2011,Niaf2012,Peng2013}).
+The most common approach reviewed can be classified as statiscal methods. Full map corresponding to feature types presented in the previous section are computed. Then, \acp{roi} are defined and statistics are extracted from each of these regions. The first type of statistic is based on percentiles and is widely used (\cite{Antic2013,Litjens2011,Litjens2012,Litjens2014,Peng2013,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012,Vos2008,Vos2008a,Vos2010,Vos2012}). In fact, once that a \ac{roi} is defined, the features corresponding the $n^{\text{th}}$ percentile is used as feature. This $n$ can take any value between $0$ and $100$. This threshold is usually manually determined observing the distribution and corresponds to the best discriminant value differentiating malignant and healthy tissue. in addition, statistic-moments such as mean, standard deviation, kurtosis and skewness are also used (\cite{Ampeliotis2007,Ampeliotis2008,Antic2013,Niaf2011,Niaf2012,Peng2013}). \cite{Litjens2014} also introduced a feature based on symmetry. They compute the mean of a candidate lesion as well as its mirrored counter-part and compute the quotient as feature.
 
-Another subset of features are anatomic which were also used by \cite{Litjens2012} and \cite{Matulewicz2013}. \cite{Litjens2012} computed the volume, compactness and sphericity related to the region to integrate it in their feature vector to later classify. \cite{Matulewicz2013} introduced four features corresponding to the percentage of tissue belonging to the regions \ac{pz}, \ac{cg}, periurethral region or outside prostate region for the considered \ac{roi}.
+Another subset of features are anatomic which were also used by \cite{Litjens2012,Litjens2014} and \cite{Matulewicz2013}. \cite{Litjens2012,Litjens2014} computed the volume, compactness and sphericity related to the region to integrate it in their feature vector to later classify. \cite{Matulewicz2013} introduced four features corresponding to the percentage of tissue belonging to the regions \ac{pz}, \ac{cg}, periurethral region or outside prostate region for the considered \ac{roi}.
 
 In contrast to anatomical are histogram-based feature descriptors. For instance, \cite{Liu2013} introduced four different types of histogram-based features. The first type corresponds to the histogram of the \ac{si} of the image. The second type is the \acf{hog} (\cite{Dalal2005}). \Ac{hog} descriptor describes the local shape of the object of interest by using gradient directions distribution. % This descriptor is extracted mainly in three steps. First the gradient image and its corresponding magnitude and direction are computed. Then, the \ac{roi} is divided into cells and an oriented-based histogram is generated for each cell. At each pixel location, the orientation of the gradient will vote for a bin of the histogram and this vote is weighted by the magnitude of the same gradient. Finally, the cells are grouped into block and each block is normalized. 
 The third histogram-based type used by \cite{Liu2013} was shape context (\cite{Belongie2002}). The shape context is also a way to describe the shape of an object of interest. % First, a set of points defining edges have to be detected and for each point of each edge, a log-polar-based histogram is computed using the relative points distribution.
@@ -352,13 +355,6 @@ The last group of region-based feature is based on fractal analysis. The feature
 
 \item[$-$] \textbf{\textit{Whole-spectra approach:}} Some studies are using the whole \ac{dce} time series as feature vector such as \cite{Ampeliotis2007,Ampeliotis2008}, \cite{Tiwari2012} and \cite{Viswanath2008a,Viswanath2008}. In some cases, the high-dimensional feature space is reduced using dimension reduction methods as it will be presented in the next section (see Sect. \ref{subsec:featureselectionextraction}).
 
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps}
-	\caption{Graphical representation of the different semi-quantitative features used for \ac{dce}-\ac{mri} analysis.}
-	\label{fig:dceparam}
-\end{figure}
-
 \item[$-$] \textbf{\textit{Semi-quantitative approach:}} Semi-quantitative approaches are based on modelling mathematically the \ac{dce} time series. The parameters modelling the signal are commonly used mainly due to the simplicity of their computation. Parameters included in semi-quantitative analysis are summarized in Tab. \ref{tab:semiqua} and also graphically depicted in Fig.~\ref{fig:dceparam}. A set of time features corresponding to specific amplitude level (start, maximum and end) are extracted. Then, derivative and integral features are also considered as discriminative and are commonly computed.
 
 \item[$-$] \textbf{\textit{Quantitative approach:}} As presented in Sect. \ref{subsubsec:mrimrsi}, quantitative approaches correspond to mathematical-pharmacokinetic models based on physiological exchanges. Four different models have been used in \ac{cad} systems. 
@@ -371,7 +367,7 @@ The most common model reviewed was the Brix model using three parameters $A$, $k
 %
 %\noindent where $S(\cdot)$ is the \ac{dce} signal, $A$ is the parameter simulating the tissue properties, $k_{el}$ is the parameter related to the first-order elimination from the plasma compartment and $k_{ep}$ is the parameter of the transvascular permeability and the parameters $k_{ep}$, $k_{el}$ and $A$ are computed from the \ac{mri} data and used as features.
 
-The Tofts model and more precisely the parameters $K_{trans}$, $k_{ep}$ and $v_e$ (\cite{Tofts1997}) was used by \cite{Langer2009,Giannini2013,Niaf2011,Niaf2012,Mazzetti2011}.% The \ac{dce} signal relative to the concentration is modelled as:
+The Tofts model and more precisely the parameters $K_{trans}$, $k_{ep}$ and $v_e$ (\cite{Tofts1997}) was used by \cite{Langer2009,Litjens2011,Litjens2012,Litjens2014,Giannini2013,Niaf2011,Niaf2012,Mazzetti2011}.% The \ac{dce} signal relative to the concentration is modelled as:
 %\begin{equation}
 %	C_t(t) = v_p C_p(t) + K_{trans} \int_{0}^{t} C_p(\tau) \exp( -k_{ep}(t-\tau) ) \ d\tau \ ,
 %	\label{eq:tofts} 
@@ -410,6 +406,14 @@ For all these models, the parameters are inferred using an optimization curve fi
 \item[$-$] \textbf{\textit{Quantification approach:}} We can reiterate that in \ac{mrsi} only few biological markers (cf., choline, creatine and citrate metabolites mainly) are known to be useful to discriminate \ac{cap} and healthy tissue. Then, concentrations of these metabolites can be considered as a feature used for classification. In order to perform this quantification, four different approaches have been used. The QUEST (\cite{Ratiney2005}), AMARES (\cite{Vanhamme1997}) and VARPRO (\cite{Coleman1993}) models were used by \cite{Kelm2007}. They are all time-domain quantification methods varying by the type of pre-knowledge embedded and the optimization approaches used to solve the quantification problem. Unlike the time-domain quantification approaches, \cite{Parfait2012} used the LcModel approach (\cite{Provencher1993}) which solves the optimization problem in the frequency domain.
 
 Once the different concentrations are computed, \cite{Kelm2007} calculated the relative concentrations (Eq. \eqref{eq:ratio1} and \eqref{eq:ratio2}) and used them as features. However, \cite{Parfait2012} used each metabolite concentrations individually.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps}
+	\caption{Graphical representation of the different semi-quantitative features used for \ac{dce}-\ac{mri} analysis.}
+	\label{fig:dceparam}
+\end{figure}
+
 
 \begin{eqnarray}
 	R_1 & = & \frac{ [ \text{Cho} ] + [ \text{Cr} ]}{[ \text{Cit} ]} \ . \label{eq:ratio1} \\

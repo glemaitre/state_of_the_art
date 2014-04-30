@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.28)  28 APR 2014 16:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.28)  30 APR 2014 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2293,9 +2293,17 @@ to.pdf used on input line 323.
 round/figures/tikzimage/dce-eps-converted-to.pdf> <./02_background/figures/tikz
 image/dwi1-eps-converted-to.pdf> <./02_background/figures/tikzimage/adc-eps-con
 verted-to.pdf> <./02_background/figures/tikzimage/mrsi-eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf> <./02_backgr
+ound/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf> <./02_background/figures/t
+2w/t2w_cancer_cg-eps-converted-to.pdf>]
 
 LaTeX Warning: File `02_background/figures/dce/slice.eps' not found on input li
-ne 367.
+ne 382.
 
 Package epstopdf Info: Source file: <02_background/figures/dce/slice.eps>
 (epstopdf)             Output file: <02_background/figures/dce/slice-eps-conver
@@ -2304,17 +2312,22 @@ ted-to.pdf>
 (epstopdf)                    size: 21861 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/dce/
 slice-eps-converted-to.pdf 02_background/figures/dce/slice.eps>
-(epstopdf)             \includegraphics on input line 367.
+(epstopdf)             \includegraphics on input line 382.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dce/slice-eps-converted-to.pdf, id=65, 257.96375pt x 193
+<02_background/figures/dce/slice-eps-converted-to.pdf, id=77, 257.96375pt x 193
 .72375pt>
 File: 02_background/figures/dce/slice-eps-converted-to.pdf Graphic file (type p
 df)
  <use 02_background/figures/dce/slice-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dce/slice-eps-converted-to.pdf u
-sed on input line 367.
-(pdftex.def)             Requested size: 208.79681pt x 156.806pt.
+sed on input line 382.
+(pdftex.def)             Requested size: 100.79846pt x 75.6968pt.
+
+Underfull \hbox (badness 2564) in paragraph at lines 382--382
+[]\OT1/txr/m/n/8 (a) []T$[]$-W-[]MRI im-age where
+ []
+
 Package epstopdf Info: Source file: <02_background/figures/dce/dce_cancer_healt
 hy.eps>
 (epstopdf)                    date: 2014-01-22 18:03:28
@@ -2326,27 +2339,18 @@ hy-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/dce/
 dce_cancer_healthy-eps-converted-to.pdf 02_background/figures/dce/dce_cancer_he
 althy.eps>
-(epstopdf)             \includegraphics on input line 368.
+(epstopdf)             \includegraphics on input line 383.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf, id=66, 710.
+<02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf, id=78, 710.
 655pt x 509.905pt>
 File: 02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use 02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dce/dce_cancer_healthy-eps-conve
-rted-to.pdf used on input line 368.
-(pdftex.def)             Requested size: 234.8984pt x 168.54147pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf> <./02_backgr
-ound/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf> <./02_background/figures/t
-2w/t2w_cancer_cg-eps-converted-to.pdf>]
+rted-to.pdf used on input line 383.
+(pdftex.def)             Requested size: 113.39923pt x 81.36082pt.
 Package epstopdf Info: Source file: <02_background/figures/dwi/dwi_cancer.eps>
 (epstopdf)                    date: 2014-01-27 17:25:04
 (epstopdf)                    size: 113081 bytes
@@ -2356,7 +2360,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 13483 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/dwi/
 dwi_cancer-eps-converted-to.pdf 02_background/figures/dwi/dwi_cancer.eps>
-(epstopdf)             \includegraphics on input line 392.
+(epstopdf)             \includegraphics on input line 420.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf, id=79, 302.12875pt 
@@ -2365,7 +2369,7 @@ File: 02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use 02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dwi/dwi_cancer-eps-converted-to.
-pdf used on input line 392.
+pdf used on input line 420.
 (pdftex.def)             Requested size: 113.39923pt x 132.23653pt.
 Package epstopdf Info: Source file: <02_background/figures/dwi/adc_cancer.eps>
 (epstopdf)                    date: 2014-01-27 17:26:06
@@ -2376,7 +2380,7 @@ onverted-to.pdf>
 (epstopdf)                    size: 30458 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/dwi/
 adc_cancer-eps-converted-to.pdf 02_background/figures/dwi/adc_cancer.eps>
-(epstopdf)             \includegraphics on input line 393.
+(epstopdf)             \includegraphics on input line 421.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/dwi/adc_cancer-eps-converted-to.pdf, id=80, 302.12875pt 
@@ -2385,10 +2389,10 @@ File: 02_background/figures/dwi/adc_cancer-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use 02_background/figures/dwi/adc_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dwi/adc_cancer-eps-converted-to.
-pdf used on input line 393.
+pdf used on input line 421.
 (pdftex.def)             Requested size: 113.39923pt x 132.23653pt.
 
-Underfull \vbox (badness 1859) has occurred while \output is active []
+Underfull \vbox (badness 2080) has occurred while \output is active []
 
  [6 <./02_background/figures/dce/slice-eps-converted-to.pdf> <./02_background/f
 igures/dce/dce_cancer_healthy-eps-converted-to.pdf> <./02_background/figures/dw
@@ -2409,12 +2413,12 @@ Overfull \hbox (0.97116pt too wide) in paragraph at lines 463--463
  []
 
 
-Overfull \hbox (13.56113pt too wide) in paragraph at lines 458--518
+Overfull \hbox (13.56113pt too wide) in paragraph at lines 458--519
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 40.81894pt on input line 518.
+LaTeX Warning: Float too large for page by 55.86287pt on input line 519.
 
 Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_healthy.ep
 s>
@@ -2427,7 +2431,7 @@ s-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/mrsi
 /mrsi_healthy-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_healthy.eps>
 
-(epstopdf)             \includegraphics on input line 523.
+(epstopdf)             \includegraphics on input line 524.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf, id=99, 547.04375
@@ -2437,7 +2441,7 @@ File: 02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf Graphic file
 
 <use 02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/mrsi/mrsi_healthy-eps-converted-
-to.pdf used on input line 523.
+to.pdf used on input line 524.
 (pdftex.def)             Requested size: 234.8984pt x 145.24927pt.
 Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_cancer.eps
 >
@@ -2449,7 +2453,7 @@ Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_cancer.eps
 (epstopdf)                    size: 16387 bytes
 (epstopdf)             Command: <repstopdf --outfile=02_background/figures/mrsi
 /mrsi_cancer-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_cancer.eps>
-(epstopdf)             \includegraphics on input line 524.
+(epstopdf)             \includegraphics on input line 525.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf, id=100, 547.04375
@@ -2459,21 +2463,18 @@ File: 02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf Graphic file
 
 <use 02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/mrsi/mrsi_cancer-eps-converted-t
-o.pdf used on input line 524.
+o.pdf used on input line 525.
 (pdftex.def)             Requested size: 234.8984pt x 145.24927pt.
- [7] [8]
-[9 <./02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf> <./02_backg
-round/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>])
-(./03_image_processing/image_processing.tex
-(./03_image_processing/03_preprocessing/preprocessing_rm.tex
+ [7] [8])
+(./03_image_processing/image_processing.tex [9 <./02_background/figures/mrsi/mr
+si_healthy-eps-converted-to.pdf> <./02_background/figures/mrsi/mrsi_cancer-eps-
+converted-to.pdf>] (./03_image_processing/03_preprocessing/preprocessing_rm.tex
+
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
-[]|$\OT1/txr/m/n/9 [$3-4,15,20-
+[]|$\OT1/txr/m/n/9 [$3-4,16,21-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
+[10]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/niaf/t2w_bladder.eps>
 (epstopdf)                    date: 2014-01-30 20:40:18
@@ -2522,6 +2523,9 @@ ed-to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/niaf/t1w_
 arteries-eps-converted-to.pdf used on input line 230.
 (pdftex.def)             Requested size: 113.39923pt x 85.27031pt.
+
+Underfull \vbox (badness 7522) has occurred while \output is active []
+
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/phase/phase.eps>
 (epstopdf)                    date: 2014-01-24 11:09:21
@@ -2546,9 +2550,6 @@ pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/phase/pha
 se-eps-converted-to.pdf used on input line 273.
 (pdftex.def)             Requested size: 226.79846pt x 140.07864pt.
- [11 <./03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-conve
-rted-to.pdf> <./03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-
-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/water/water_fat.eps>
 (epstopdf)                    date: 2014-01-24 14:25:38
@@ -2564,7 +2565,7 @@ preprocessing/figures/water/water_fat.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/water/water_fat-eps-converted-to.
-pdf, id=134, 670.505pt x 486.81876pt>
+pdf, id=124, 670.505pt x 486.81876pt>
 File: 03_image_processing/03_preprocessing/figures/water/water_fat-eps-converte
 d-to.pdf Graphic file (type pdf)
 
@@ -2573,7 +2574,10 @@ d-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/water/wat
 er_fat-eps-converted-to.pdf used on input line 292.
 (pdftex.def)             Requested size: 226.79846pt x 164.66193pt.
-
+ [11 <./03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-conve
+rted-to.pdf> <./03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-
+eps-converted-to.pdf> <./03_image_processing/03_preprocessing/figures/phase/pha
+se-eps-converted-to.pdf>]
 Underfull \hbox (badness 1810) in paragraph at lines 299--311
 \OT1/txr/m/n/10 Jansen (2003) and De-vos et al. (2004). Lieber and
  []
@@ -2593,7 +2597,7 @@ processing/figures/frequency/frequency-eps-converted-to.pdf 03_image_processing
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/frequency/frequency-eps-converted
--to.pdf, id=135, 547.04375pt x 338.26375pt>
+-to.pdf, id=141, 547.04375pt x 338.26375pt>
 File: 03_image_processing/03_preprocessing/figures/frequency/frequency-eps-conv
 erted-to.pdf Graphic file (type pdf)
 
@@ -2602,15 +2606,13 @@ rted-to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/frequency
 /frequency-eps-converted-to.pdf used on input line 326.
 (pdftex.def)             Requested size: 226.79846pt x 140.24263pt.
-) (./03_image_processing/04_segmentation/segmentation_rm.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12 <./03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-
-to.pdf> <./03_image_processing/03_preprocessing/figures/water/water_fat-eps-con
-verted-to.pdf> <./03_image_processing/03_preprocessing/figures/frequency/freque
-ncy-eps-converted-to.pdf>]
+Underfull \vbox (badness 8151) has occurred while \output is active []
+
+)
+(./03_image_processing/04_segmentation/segmentation_rm.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
-[]|$\OT1/txr/m/n/9 [$4-5,16,18-
+[]|$\OT1/txr/m/n/9 [$4-5,17,19-
  []
 
 
@@ -2618,7 +2620,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--25
 [][]
  []
 
-) (./03_image_processing/05_registration/registration.tex
+[12 <./03_image_processing/03_preprocessing/figures/water/water_fat-eps-convert
+ed-to.pdf> <./03_image_processing/03_preprocessing/figures/frequency/frequency-
+eps-converted-to.pdf>]) (./03_image_processing/05_registration/registration.tex
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 (epstopdf)                    date: 2013-10-09 16:41:58
 (epstopdf)                    size: 40634 bytes
@@ -2632,7 +2636,6 @@ image/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dce-eps-converted-to.pdf Graphic file (ty
 pe pdf)
-
 <use 02_background/figures/tikzimage/dce-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/tikzimage/dce-eps-converted-to.p
 df used on input line 64.
@@ -2662,6 +2665,10 @@ Overfull \hbox (2.94229pt too wide) in paragraph at lines 184--185
  []
 
 [13]
+Underfull \hbox (badness 2717) in paragraph at lines 324--325
+[]\OT1/txr/m/n/10 However, this met-ric is not well suited when multi-
+ []
+
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
 (epstopdf)                    date: 2014-03-07 12:29:28
@@ -2673,21 +2680,21 @@ s/histogram/jointhistoalg-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=03_image_processing/05_reg
 istration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_process
 ing/05_registration/figures/histogram/jointhistoalg.eps>
-(epstopdf)             \includegraphics on input line 327.
+(epstopdf)             \includegraphics on input line 357.
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-conver
-ted-to.pdf, id=164, 258.9675pt x 258.9675pt>
+ted-to.pdf, id=165, 258.9675pt x 258.9675pt>
 File: 03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-c
 onverted-to.pdf Graphic file (type pdf)
 
 <use 03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-co
 nverted-to.pdf>
 Package pdftex.def Info: 03_image_processing/05_registration/figures/histogram/
-jointhistoalg-eps-converted-to.pdf used on input line 327.
+jointhistoalg-eps-converted-to.pdf used on input line 357.
 (pdftex.def)             Requested size: 104.3984pt x 104.39915pt.
 
-Underfull \hbox (badness 1910) in paragraph at lines 327--327
+Underfull \hbox (badness 1910) in paragraph at lines 357--357
 []\OT1/txr/m/n/8 (a) Il-lus-tra-tion of a joint his-
  []
 
@@ -2702,32 +2709,27 @@ s/histogram/jointhistomisal-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=03_image_processing/05_reg
 istration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proce
 ssing/05_registration/figures/histogram/jointhistomisal.eps>
-(epstopdf)             \includegraphics on input line 328.
+(epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/05_registration/figures/histogram/jointhistomisal-eps-conv
-erted-to.pdf, id=165, 258.9675pt x 258.9675pt>
+erted-to.pdf, id=166, 258.9675pt x 258.9675pt>
 File: 03_image_processing/05_registration/figures/histogram/jointhistomisal-eps
 -converted-to.pdf Graphic file (type pdf)
 
 <use 03_image_processing/05_registration/figures/histogram/jointhistomisal-eps-
 converted-to.pdf>
 Package pdftex.def Info: 03_image_processing/05_registration/figures/histogram/
-jointhistomisal-eps-converted-to.pdf used on input line 328.
+jointhistomisal-eps-converted-to.pdf used on input line 358.
 (pdftex.def)             Requested size: 104.3984pt x 104.39915pt.
 
-Underfull \hbox (badness 1742) in paragraph at lines 328--328
+Underfull \hbox (badness 1742) in paragraph at lines 358--358
 []\OT1/txr/m/n/8 (b) Il-lus-tra-tion of a joint his-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 328--328
+Underfull \hbox (badness 2302) in paragraph at lines 358--358
 \OT1/txr/m/n/8 togram be-tween to mis-aligned
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 334--335
-[]\OT1/txr/m/n/10 However, this met-ric is not well suited when multi-
  []
 
 [14])) (./04_data_classification/data_classification.tex
@@ -2738,7 +2740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\OT1/txr/m/n/9 8,12,14,16-
+\OT1/txr/m/n/9 8,13,15,17-
  []
 
 
@@ -2746,16 +2748,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--16
 [][]
  []
 
-[15 <./03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-
-converted-to.pdf> <./03_image_processing/05_registration/figures/histogram/join
-thistomisal-eps-converted-to.pdf>])
+) [15 <./03_image_processing/05_registration/figures/histogram/jointhistoalg-ep
+s-converted-to.pdf> <./03_image_processing/05_registration/figures/histogram/jo
+inthistomisal-eps-converted-to.pdf>]
 (./04_data_classification/06_feature_detection/feature_detection.tex
+
+LaTeX Warning: Float too large for page by 1.17757pt on input line 63.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
 [17]
+Underfull \hbox (badness 1184) in paragraph at lines 360--361
+[]\OT1/txr/bx/it/10 Quantitative ap-proach: \OT1/txr/m/n/10 As pre-sented in Se
+ct. 2.2.2,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+\OT1/txr/m/n/10 quan-ti-ta-tive ap-proaches cor-re-spond to mathematical-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [18]
 Package epstopdf Info: Source file: <04_data_classification/06_feature_detectio
 n/figures/dce/dce_cancer_parameters.eps>
 (epstopdf)                    date: 2014-01-23 09:23:40
@@ -2767,31 +2785,20 @@ n/figures/dce/dce_cancer_parameters-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=04_data_classification/06_
 feature_detection/figures/dce/dce_cancer_parameters-eps-converted-to.pdf 04_dat
 a_classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps>
-(epstopdf)             \includegraphics on input line 357.
+(epstopdf)             \includegraphics on input line 412.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters-
-eps-converted-to.pdf, id=186, 710.655pt x 510.90875pt>
+eps-converted-to.pdf, id=189, 710.655pt x 510.90875pt>
 File: 04_data_classification/06_feature_detection/figures/dce/dce_cancer_parame
 ters-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/06_feature_detection/figures/dce/dce_cancer_paramet
 ers-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/06_feature_detection/figures/dc
-e/dce_cancer_parameters-eps-converted-to.pdf used on input line 357.
+e/dce_cancer_parameters-eps-converted-to.pdf used on input line 412.
 (pdftex.def)             Requested size: 252.0pt x 181.16728pt.
-
-Underfull \hbox (badness 1184) in paragraph at lines 364--365
-[]\OT1/txr/bx/it/10 Quantitative ap-proach: \OT1/txr/m/n/10 As pre-sented in Se
-ct. 2.2.2,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
-\OT1/txr/m/n/10 quan-ti-ta-tive ap-proaches cor-re-spond to mathematical-
- []
-
-[18])
+)
 (./04_data_classification/07_feature_selection_extraction/feature_selection_ext
 raction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 21--37
@@ -2807,12 +2814,12 @@ Underfull \hbox (badness 5189) in paragraph at lines 132--132
 
 ) (./04_data_classification/08_classification/classification.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
-[]|$\OT1/txr/m/n/9 [$4-6,8,10-11,13-
+[]|$\OT1/txr/m/n/9 [$4-6,8,10-11,14-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
-\OT1/txr/m/n/9 14,18-23,25,31,38-
+\OT1/txr/m/n/9 15,19-24,26,32,39-
  []
 
 
@@ -2826,14 +2833,14 @@ Underfull \hbox (badness 2343) in paragraph at lines 218--218
 /cmtt/m/n/8 http://www.
  []
 
-
+[21]
 Underfull \hbox (badness 1253) in paragraph at lines 251--289
 [][]\OT1/txr/m/n/10 Support vec-tor ma-chines (SVM)[] is a sparse ker-nel
  []
 
-[21]
+
 Underfull \hbox (badness 10000) in paragraph at lines 530--530
-[]|$\OT1/txr/m/n/9 [$1-8,11,17-
+[]|$\OT1/txr/m/n/9 [$1-8,11,18-
  []
 
 
@@ -2843,12 +2850,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 526--535
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 554--554
-[]|$\OT1/txr/m/n/9 [$4-5,7,12,14,17,20-
+[]|$\OT1/txr/m/n/9 [$4-5,7,13,15,18,21-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 555--555
-[]|$\OT1/txr/m/n/9 [$2-3,6-9,13-19,23,29-
+[]|$\OT1/txr/m/n/9 [$2-3,6-9,14-20,24,30-
  []
 
 
@@ -2863,17 +2870,40 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 [22] [23])) (./09_discussion/discussion.tex
-Missing character: There is no ; in font nullfont!
- [24])
-(./10_conclusion/conclusion.tex)
-Underfull \vbox (badness 1558) has occurred while \output is active []
+Package epstopdf Info: Source file: <09_discussion/figures/froc.eps>
+(epstopdf)                    date: 2014-04-30 11:30:30
+(epstopdf)                    size: 11831 bytes
+(epstopdf)             Output file: <09_discussion/figures/froc-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2014-04-30 11:34:37
+(epstopdf)                    size: 9336 bytes
+(epstopdf)             Command: <repstopdf --outfile=09_discussion/figures/froc
+-eps-converted-to.pdf 09_discussion/figures/froc.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+
+<09_discussion/figures/froc-eps-converted-to.pdf, id=215, 670.505pt x 490.83376
+pt>
+File: 09_discussion/figures/froc-eps-converted-to.pdf Graphic file (type pdf)
+ <use 09_discussion/figures/froc-eps-converted-to.pdf>
+Package pdftex.def Info: 09_discussion/figures/froc-eps-converted-to.pdf used o
+n input line 105.
+(pdftex.def)             Requested size: 252.0pt x 184.46663pt.
+ [24 <./09_discussion/figures/froc-eps-converted-to.pdf>]
+Underfull \hbox (badness 2134) in paragraph at lines 140--141
+[]\OT1/txr/m/n/10 Lately, three stud-ies (Lit-jens et al. (2014a, 2012b),
+ []
 
 
-(./11_acknowledgement/acknowledgement.tex) (./g_lemaitre_state_of_the_art.bbl
-[25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25])
+(./10_conclusion/conclusion.tex) (./11_acknowledgement/acknowledgement.tex)
+(./g_lemaitre_state_of_the_art.bbl [26]
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 338.
 
- (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
@@ -2884,7 +2914,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [27]
 Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
@@ -2894,7 +2924,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Missing character: There is no Ã in font txr!
@@ -2902,7 +2932,7 @@ Missing character: There is no ¨ in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [29]
 Missing character: There is no Ã in font txr!
 Missing character: There is no © in font txr!
 Missing character: There is no Ã in font txr!
@@ -2915,12 +2945,12 @@ Missing character: There is no ¡ in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [30]
+ [31]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 
 (./g_lemaitre_state_of_the_art.aux)
@@ -2928,10 +2958,10 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 32227 strings out of 493304
- 648239 string characters out of 6139871
- 913592 words of memory out of 5000000
- 34884 multiletter control sequences out of 15000+600000
+ 32155 strings out of 493304
+ 646891 string characters out of 6139871
+ 918864 words of memory out of 5000000
+ 34810 multiletter control sequences out of 15000+600000
  71026 words of font info for 175 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  64i,21n,74p,10417b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2949,10 +2979,10 @@ nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (30 pages, 1093745 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (31 pages, 1103393 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
+ 301 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 

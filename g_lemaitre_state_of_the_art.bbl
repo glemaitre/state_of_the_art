@@ -1,4 +1,4 @@
-\begin{thebibliography}{215}
+\begin{thebibliography}{221}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -565,6 +565,14 @@
 \newblock \bibinfo{journal}{Journal of the American Statistical Association}
   \bibinfo{volume}{84}, \bibinfo{pages}{pp. 165--175}.
 %Type = Article
+\bibitem[{Friedman et~al.(1998)Friedman, Hastie and Tibshirani}]{Friedman1998}
+\bibinfo{author}{Friedman, J.}, \bibinfo{author}{Hastie, T.},
+  \bibinfo{author}{Tibshirani, R.}, \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{{{A}dditive logistic regression: a statistical view
+  of boosting}}.
+\newblock \bibinfo{journal}{Annals of Statistics} \bibinfo{volume}{28},
+  \bibinfo{pages}{2000}.
+%Type = Article
 \bibitem[{Gabor(1946)}]{Gabor1946}
 \bibinfo{author}{Gabor, D.}, \bibinfo{year}{1946}.
 \newblock \bibinfo{title}{{{T}heory of communication. Part 1: The analysis of
@@ -932,6 +940,17 @@
 \newblock \bibinfo{journal}{Computers and Biomedical Research}
   \bibinfo{volume}{4}, \bibinfo{pages}{315 -- 328}.
 %Type = Article
+\bibitem[{Klein et~al.(2008)Klein, van~der Heide, Lips, van Vulpen, Staring and
+  Pluim}]{Klein2008}
+\bibinfo{author}{Klein, S.}, \bibinfo{author}{van~der Heide, U.A.},
+  \bibinfo{author}{Lips, I.M.}, \bibinfo{author}{van Vulpen, M.},
+  \bibinfo{author}{Staring, M.}, \bibinfo{author}{Pluim, J.P.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{{{A}utomatic segmentation of the prostate in 3{D}
+  {M}{R} images by atlas matching using localized mutual information}}.
+\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{35},
+  \bibinfo{pages}{1407--1417}.
+%Type = Article
 \bibitem[{Koh and Collins(2007)}]{Koh2007}
 \bibinfo{author}{Koh, D.M.}, \bibinfo{author}{Collins, D.J.},
   \bibinfo{year}{2007}.
@@ -964,6 +983,18 @@
 \newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{30},
   \bibinfo{pages}{327--334}.
 %Type = Article
+\bibitem[{Langerak et~al.(2010)Langerak, van~der Heide, Kotte, Viergever, van
+  Vulpen and Pluim}]{Langerak2010}
+\bibinfo{author}{Langerak, T.R.}, \bibinfo{author}{van~der Heide, U.A.},
+  \bibinfo{author}{Kotte, A.N.}, \bibinfo{author}{Viergever, M.A.},
+  \bibinfo{author}{van Vulpen, M.}, \bibinfo{author}{Pluim, J.P.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{{{L}abel fusion in atlas-based segmentation using a
+  selective and iterative method for performance level estimation
+  ({S}{I}{M}{P}{L}{E})}}.
+\newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{29},
+  \bibinfo{pages}{2000--2008}.
+%Type = Article
 \bibitem[{Le~Bihan et~al.(1988)Le~Bihan, Breton, Lallemand, Aubin, Vignaud and
   Laval-Jeantet}]{LeBihan1988}
 \bibinfo{author}{Le~Bihan, D.}, \bibinfo{author}{Breton, E.},
@@ -991,6 +1022,13 @@
 \newblock \bibinfo{title}{{{A}bsolute quantification at 3 {T}}}.
 \newblock Master's thesis. Universit\'e de Bourgogne, Heriot-Watt University,
   Universitat de Girona.
+%Type = Article
+\bibitem[{Leung and Malik(2001)}]{Leung2001}
+\bibinfo{author}{Leung, T.}, \bibinfo{author}{Malik, J.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{{{R}epresenting and recognizing the visual appearance
+  of materials using three-dimensional textons}}.
+\newblock \bibinfo{journal}{International Journal of Computer Vision}
+  \bibinfo{volume}{43}, \bibinfo{pages}{29--44}.
 %Type = Article
 \bibitem[{Li et~al.(2004)Li, Aoyama, Shiraishi, Abe, Li, Suzuki, Engelmann,
   Sone, Macmahon and Doi}]{Li2004}
@@ -1049,6 +1087,16 @@
 \newblock \bibinfo{journal}{Magn Reson Imaging} \bibinfo{volume}{15},
   \bibinfo{pages}{1177--1186}.
 %Type = Article
+\bibitem[{Litjens et~al.(2014a)Litjens, Debats, Barentsz, Karssemeijer and
+  Huisman}]{Litjens2014}
+\bibinfo{author}{Litjens, G.}, \bibinfo{author}{Debats, O.},
+  \bibinfo{author}{Barentsz, J.}, \bibinfo{author}{Karssemeijer, N.},
+  \bibinfo{author}{Huisman, H.}, \bibinfo{year}{2014}a.
+\newblock \bibinfo{title}{{{C}omputer-iided detection of prostate cancer in
+  {M}{R}{I}}}.
+\newblock \bibinfo{journal}{Medical Imaging, IEEE Transactions on}
+  \bibinfo{volume}{33}, \bibinfo{pages}{1083--1092}.
+%Type = Article
 \bibitem[{Litjens et~al.(2012a)Litjens, Debats, van~de Ven, Karssemeijer and
   Huisman}]{Litjens2012a}
 \bibinfo{author}{Litjens, G.}, \bibinfo{author}{Debats, O.},
@@ -1058,6 +1106,29 @@
   segmentation of the prostate on {M}{R}{I}}}.
 \newblock \bibinfo{journal}{Med Image Comput Comput Assist Interv}
   \bibinfo{volume}{15}, \bibinfo{pages}{413--420}.
+%Type = Article
+\bibitem[{Litjens et~al.(2014b)Litjens, Toth, van~de Ven, Hoeks, Kerkstra, van
+  Ginneken, Vincent, Guillard, Birbeck, Zhang, Strand, Malmberg, Ou,
+  Davatzikos, Kirschner, Jung, Yuan, Qiu, Gao, Edwards, Maan, van~der Heijden,
+  Ghose, Mitra, Dowling, Barratt, Huisman and Madabhushi}]{Litjens2014a}
+\bibinfo{author}{Litjens, G.}, \bibinfo{author}{Toth, R.},
+  \bibinfo{author}{van~de Ven, W.}, \bibinfo{author}{Hoeks, C.},
+  \bibinfo{author}{Kerkstra, S.}, \bibinfo{author}{van Ginneken, B.},
+  \bibinfo{author}{Vincent, G.}, \bibinfo{author}{Guillard, G.},
+  \bibinfo{author}{Birbeck, N.}, \bibinfo{author}{Zhang, J.},
+  \bibinfo{author}{Strand, R.}, \bibinfo{author}{Malmberg, F.},
+  \bibinfo{author}{Ou, Y.}, \bibinfo{author}{Davatzikos, C.},
+  \bibinfo{author}{Kirschner, M.}, \bibinfo{author}{Jung, F.},
+  \bibinfo{author}{Yuan, J.}, \bibinfo{author}{Qiu, W.}, \bibinfo{author}{Gao,
+  Q.}, \bibinfo{author}{Edwards, P.E.}, \bibinfo{author}{Maan, B.},
+  \bibinfo{author}{van~der Heijden, F.}, \bibinfo{author}{Ghose, S.},
+  \bibinfo{author}{Mitra, J.}, \bibinfo{author}{Dowling, J.},
+  \bibinfo{author}{Barratt, D.}, \bibinfo{author}{Huisman, H.},
+  \bibinfo{author}{Madabhushi, A.}, \bibinfo{year}{2014}b.
+\newblock \bibinfo{title}{{{E}valuation of prostate segmentation algorithms for
+  {M}{R}{I}: the {P}{R}{O}{M}{I}{S}{E}12 challenge}}.
+\newblock \bibinfo{journal}{Med Image Anal} \bibinfo{volume}{18},
+  \bibinfo{pages}{359--373}.
 %Type = Inproceedings
 \bibitem[{Litjens et~al.(2012b)Litjens, Barentsz, Karssemeijer and
   Huisman}]{Litjens2012}

@@ -202,10 +202,10 @@ path picture={
 	 	  $[$1-2$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & \cmark & $-$ & $-$ & $-$ & $-$ \\
 	 	  $[$7$]$ & \ac{t2w} - \ac{dw} & 2D & \cmark & \cmark & $-$ & $-$ & $-$ & $-$ & $-$  \\
 		  $[$7$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & \cmark & $-$ & \cmark & $-$ & \cmark & $-$ \\
-	 	  $[$34-35$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
-	 	  $[$36$]$ & \ac{t2w} - \ac{dce} - \ac{dw} & 3D & \cmark & $-$ & $-$ & $-$ & \cmark & \cmark & $-$  \\
-	 	  $[$38$]$ & \ac{t2w} - \ac{dce} & 3D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
-	 	  $[$40$]$ & \ac{t2w} - \ac{dce} & 3D & \cmark & \cmark & $-$ & \cmark & $-$ & $-$ & \cmark \\
+	 	  $[$35-36$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
+	 	  $[$37$]$ & \ac{t2w} - \ac{dce} - \ac{dw} & 3D & \cmark & $-$ & $-$ & $-$ & \cmark & \cmark & $-$  \\
+	 	  $[$39$]$ & \ac{t2w} - \ac{dce} & 3D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
+	 	  $[$41$]$ & \ac{t2w} - \ac{dce} & 3D & \cmark & \cmark & $-$ & \cmark & $-$ & $-$ & \cmark \\
 	 	 \hline
 	\end{tabular}
 	\begin{tablenotes}
@@ -321,16 +321,6 @@ The most naive similarity measure is the \acf{mse} of the \ac{si} of \ac{mri} im
 %
 %\noindent where $N$ is the total number of pixels.
 
-\begin{figure*}
-\centering
-	\hspace*{\fill}
-	\subfigure[Illustration of a joint histogram between to aligned image.]{\label{subfig:histoalgn} \includegraphics[width=0.2\textwidth]{03_image_processing/05_registration/figures/histogram/jointhistoalg.eps}} \hfill
-	\subfigure[Illustration of a joint histogram between to misaligned image.]{\label{subfig:histomisalgn} \includegraphics[width=0.2\textwidth]{03_image_processing/05_registration/figures/histogram/jointhistomisal.eps}}
-	\hspace*{\fill}
-	\caption{Difference observed in joint histogram between aligned and misaligned images. The joint measure will be more concentrated in the case that the images are aligned and more randomly distributed in the case that both images are more misaligned.}
-	\label{fig:jointhisto}
-\end{figure*}
-
 However, this metric is not well suited when multi-parametric images are involved due to the tissue appearance variations between the different modalities.
 
 In that regard, \ac{mi} was introduced as a registration measure in the late 1990's by \cite{Pluim2003}. The \ac{mi} measure finds its foundation in the assumption that a homogeneous region in the first modality image should also appear as a homogeneous region in the second modality even if their \acp{si} are not identical. Thus, those regions share information and the registration task can be achieved by maximizing this common information.% Hence, \Ac{mi} of two images $A$ and $B$ is defined as:
@@ -360,6 +350,16 @@ Registration is usually regarded as an optimization problem where the parameters
 \subsubsection{Interpolation}\label{subsubsec:int}
 
 The registration procedure involves transforming an image, and pixels mapped to non-integer points must be approximated using interpolation methods. As for the optimization methods, we notice that little attention has been paid on the choice of those interpolations methods. However, commonly used methods are bilinear, nearest-neighbour, bi-cubic, spline and inverse-distance weighting method (\cite{Mitra2012}).
+
+\begin{figure}
+\centering
+	\hspace*{\fill}
+	\subfigure[Illustration of a joint histogram between to aligned image.]{\label{subfig:histoalgn} \includegraphics[width=0.2\textwidth]{03_image_processing/05_registration/figures/histogram/jointhistoalg.eps}} \hfill
+	\subfigure[Illustration of a joint histogram between to misaligned image.]{\label{subfig:histomisalgn} \includegraphics[width=0.2\textwidth]{03_image_processing/05_registration/figures/histogram/jointhistomisal.eps}}
+	\hspace*{\fill}
+	\caption{Difference observed in joint histogram between aligned and misaligned images. The joint measure will be more concentrated in the case that the images are aligned and more randomly distributed in the case that both images are more misaligned.}
+	\label{fig:jointhisto}
+\end{figure}
 
 \subsubsection{Review of the methods used in \ac{cad} system}\label{subsubsec:regrev}
 

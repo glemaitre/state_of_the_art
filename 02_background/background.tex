@@ -59,7 +59,7 @@ Another weakness of the current screening strategy lies in the fact that \ac{tru
 \ac{mri} provides promising imaging techniques to overcome the previous mentioned drawbacks. Unlike \ac{trus} biopsy, \ac{mri} examination is a non-invasive protocol and has been shown to be the most acute and harmless technique available currently (\cite{Turkbey2012}).
 In this section, we review different \ac{mri} techniques developed for \ac{cap} detection and diagnosis. Features strengthening each modality, will receive particular attention together with their drawbacks. 
 
-{\color{red}It has to be emphasized that the features presented in this section are the one used by radiologist in everyday diagnosis task.} Moreover, these features commonly form the basis for developing analytic tools and automatic algorithms. However, we refer the reader to \acs{sec} \ref{subsec:featuredetection} for more details on automatic feature detection methods since they are part and parcel of the \acs{cad} framework. Table \ref{tab:modmri} provides an overview of the following discussion.
+{\color{red}It has to be emphasized that the features presented in this section are the one used by radiologists in everyday diagnosis task.} Moreover, these features commonly form the basis for developing analytic tools and automatic algorithms. However, we refer the reader to \acs{sec} \ref{subsec:featuredetection} for more details on automatic feature detection methods since they are part and parcel of the \acs{cad} framework. Table \ref{tab:modmri} provides an overview of the following discussion.
 
 \begin{table*}
 %\begin{adjustwidth}{-2.2cm}{}
@@ -361,16 +361,6 @@ The \Ac{fse} sequence has been shown to be particularly well suited in order to 
 
 Similar to \ac{t2w} \ac{mri}, T$_2$ values associated with \ac{cap} are significantly lower than those of healthy tissues (\cite{Liney1996,Gibbs2001}).
 
-\begin{figure*}
-\centering
-	\hspace*{\fill}
-	\subfigure[\ac{t1w}-\ac{mri} image where the cancer is delimited by the red contour. The green area was still not invaded by the \ac{cap}]{\label{subfig:t1w}\includegraphics[width=0.4\linewidth]{02_background/figures/dce/slice.eps}} \hfill
-	\subfigure[Enhancement curve computed during the \ac{dce}-\ac{mri} analysis. The red curve is typical from \ac{cap} cancer while the green curve is characteristic of healthy tissue.]{\label{subfig:dce}\includegraphics[width=0.45\linewidth]{02_background/figures/dce/dce_cancer_healthy.eps}}
-	\hspace*{\fill}
-	\caption{Illustration of typical enhancement signal observed in \ac{dce}-\ac{mri} analysis collected with a 3.0 Tesla \ac{mri} scanner.}
-	\label{fig:dceana}
-\end{figure*}
-
 %DCE MRI
 \item[$-$] \textbf{\textit{\ac{dce} \ac{mri}:}} \ac{dce} \ac{mri} is an imaging technique which exploits the vascularity characteristic of tissues. Contrast media, usually gadolinium-based, is injected intravenously into the patient. The media extravasates from vessels to \ac{ees} and is then released back into the vasculature before being eliminated by the kidneys (\cite{Gribbestad2005}). Furthermore, the diffusion speed of the contrast agent may vary due to several parameters: (i) the permeability of the micro-vessels, (ii) their surface area and (iii) the blood flow (\cite{Padhani2002}).
 
@@ -389,11 +379,11 @@ These parameters will be discussed in a later section (see Fig.~\ref{fig:dcepara
 \begin{figure}
 \centering
 	\hspace*{\fill}
-	\subfigure[\ac{dw}-\ac{mri} image acquired with a 1.5 Tesla \ac{mri} scanner. The cancer corresponds to the high \ac{si} region highlighted in red.]{\label{subfig:dwi}\includegraphics[width=0.45\linewidth]{02_background/figures/dwi/dwi_cancer.eps}} \hfill
-	\subfigure[\ac{adc} map computer after acquisition of \ac{dw}-\ac{mri} iages with a 1.5 Tesla \ac{mri} scanner. The cancer corresponds to the low \ac{si} region highlighted in red.]{\label{subfig:adc}\includegraphics[width=0.45\linewidth]{02_background/figures/dwi/adc_cancer.eps}}
+	\subfigure[\ac{t1w}-\ac{mri} image where the cancer is delimited by the red contour. The green area was still not invaded by the \ac{cap}]{\label{subfig:t1w}\includegraphics[width=0.4\linewidth]{02_background/figures/dce/slice.eps}} \hfill
+	\subfigure[Enhancement curve computed during the \ac{dce}-\ac{mri} analysis. The red curve is typical from \ac{cap} cancer while the green curve is characteristic of healthy tissue.]{\label{subfig:dce}\includegraphics[width=0.45\linewidth]{02_background/figures/dce/dce_cancer_healthy.eps}}
 	\hspace*{\fill}
-	\caption{Illustration of of \ac{dw}-\ac{mri} and \ac{adc} map. The signal intensity corresponding to cancer are inversely correlated on these two types of imaging techniques.}
-	\label{fig:dwi}
+	\caption{Illustration of typical enhancement signal observed in \ac{dce}-\ac{mri} analysis collected with a 3.0 Tesla \ac{mri} scanner.}
+	\label{fig:dceana}
 \end{figure}
 
 %DWI MRI
@@ -423,6 +413,16 @@ To summarize, in \ac{dw} \ac{mri} images, \acp{cap} are characterized by high-\a
 Diagnosis using \ac{dw} \ac{mri} combined with \ac{t2w} \ac{mri} has shown a significant improvement compared with \ac{t2w} \ac{mri} alone and provides highly contrasted images (\cite{Shimofusa2005,Padhani2011,Choi2007}). As drawbacks, this modality suffers from poor spatial resolution and low specificity due to false positive detection (\cite{Choi2007}).
 
 With a view to eliminate these drawbacks, radiologists are extracting quantitative maps from \ac{dw} \ac{mri}. This imaging technique is presented next.
+
+\begin{figure}
+\centering
+	\hspace*{\fill}
+	\subfigure[\ac{dw}-\ac{mri} image acquired with a 1.5 Tesla \ac{mri} scanner. The cancer corresponds to the high \ac{si} region highlighted in red.]{\label{subfig:dwi}\includegraphics[width=0.45\linewidth]{02_background/figures/dwi/dwi_cancer.eps}} \hfill
+	\subfigure[\ac{adc} map computer after acquisition of \ac{dw}-\ac{mri} iages with a 1.5 Tesla \ac{mri} scanner. The cancer corresponds to the low \ac{si} region highlighted in red.]{\label{subfig:adc}\includegraphics[width=0.45\linewidth]{02_background/figures/dwi/adc_cancer.eps}}
+	\hspace*{\fill}
+	\caption{Illustration of of \ac{dw}-\ac{mri} and \ac{adc} map. The signal intensity corresponding to cancer are inversely correlated on these two types of imaging techniques.}
+	\label{fig:dwi}
+\end{figure}
 
 %ADC map
 \item[$-$] \textbf{\textit{\ac{adc} Map:}} The \ac{nmr} signal measured for \ac{dw} \ac{mri} images is not only affected by diffusion as shown in \acs{eq} \eqref{eq:t2dif}. However, the signal drop (\acs{eq} \eqref{eq:dif}) is formulated such that the only variable is the acquisition parameter $b$ (\cite{LeBihan1986}). The \ac{adc} is considered as a ``pure'' diffusion coefficient and can be extracted to build a quantitative map.
@@ -473,36 +473,37 @@ However, some tissues of the \ac{cg} zone mimic \ac{cap} with low-\ac{si} (\cite
 	 	 $[9]$&\cite{Langer2009} & 25 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
 	 	 $[10]$&\cite{Litjens2011} & 188 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
 	 	 $[11]$&\cite{Litjens2012} & 288 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[12]$&\cite{Liu2009} & 11 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[13]$&\cite{Liu2013} & 54 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \xmark & \cmark \\
-	 	 $[14]$&\cite{Lopes2011} & 27 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[15]$&\cite{Lv2009} & 55 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[16]$&\cite{Matulewicz2013} & 18 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\ 
-	 	 $[17]$&\cite{Mazzetti2011} & 10 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[18]$&\cite{Niaf2011} & 23 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[19]$&\cite{Niaf2012} & 30 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[20]$&\cite{Ozer2009} & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[21]$&\cite{Ozer2010} & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[22]$&\cite{Parfait2012} & 22 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[23]$&\cite{Peng2013} & 48 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
-	 	 $[24]$&\cite{Puech2009} & 100 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
-	 	 $[25]$&\cite{Sung2011} & 42 & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
-	 	 $[26]$&\cite{Tiwari2007} & 14 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[27]$&\cite{Tiwari2008} & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[28]$&\cite{Tiwari2009} & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[29]$&\cite{Tiwari2009a} & 15 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[30]$&\cite{Tiwari2010} & 19 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[31]$&\cite{Tiwari2012} & 36 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
-	 	 $[32]$&\cite{Tiwari2013} & 29 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[33]$&\cite{Viswanath2008} & 16 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
-	 	 $[34]$&\cite{Viswanath2008a} & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[35]$&\cite{Viswanath2009} & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
-	 	 $[36]$&\cite{Viswanath2011} & 12 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[37]$&\cite{Viswanath2012} & 22 & \cmark & \xmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
-	 	 $[38]$&\cite{Vos2008} & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[39]$&\cite{Vos2008a} & 29 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[40]$&\cite{Vos2010} & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[41]$&\cite{Vos2012} & NA & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[12]$&\cite{Litjens2014} & 347 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[13]$&\cite{Liu2009} & 11 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[14]$&\cite{Liu2013} & 54 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \xmark & \cmark \\
+	 	 $[15]$&\cite{Lopes2011} & 27 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[16]$&\cite{Lv2009} & 55 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[17]$&\cite{Matulewicz2013} & 18 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\ 
+	 	 $[18]$&\cite{Mazzetti2011} & 10 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[19]$&\cite{Niaf2011} & 23 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[20]$&\cite{Niaf2012} & 30 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[21]$&\cite{Ozer2009} & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[22]$&\cite{Ozer2010} & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[23]$&\cite{Parfait2012} & 22 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[24]$&\cite{Peng2013} & 48 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
+	 	 $[25]$&\cite{Puech2009} & 100 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
+	 	 $[26]$&\cite{Sung2011} & 42 & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+	 	 $[27]$&\cite{Tiwari2007} & 14 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[28]$&\cite{Tiwari2008} & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[29]$&\cite{Tiwari2009} & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[30]$&\cite{Tiwari2009a} & 15 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[31]$&\cite{Tiwari2010} & 19 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[32]$&\cite{Tiwari2012} & 36 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+	 	 $[33]$&\cite{Tiwari2013} & 29 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[34]$&\cite{Viswanath2008} & 16 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+	 	 $[35]$&\cite{Viswanath2008a} & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[36]$&\cite{Viswanath2009} & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+	 	 $[37]$&\cite{Viswanath2011} & 12 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[38]$&\cite{Viswanath2012} & 22 & \cmark & \xmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+	 	 $[39]$&\cite{Vos2008} & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[40]$&\cite{Vos2008a} & 29 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[41]$&\cite{Vos2010} & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[42]$&\cite{Vos2012} & NA & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
 	 	 \hline
 	\end{tabular}
 	\begin{tablenotes}
