@@ -918,7 +918,7 @@
   Publisher                = {American Statistical Association}
 }
 
-@Article{Friedman98additivelogistic,
+@Article{Friedman1998,
   Title                    = {{{A}dditive logistic regression: a statistical view of boosting}},
   Author                   = {Jerome Friedman and Trevor Hastie and Robert Tibshirani},
   Journal                  = {Annals of Statistics},
@@ -1980,6 +1980,18 @@
   Number                   = {12},
   Pages                    = {897--906},
   Volume                   = {12}
+}
+
+@Article{pmid17412096,
+  Title                    = {{{R}eceiver operating characteristic analysis: a tool for the quantitative evaluation of observer performance and imaging systems}},
+  Author                   = {Metz, C. E. },
+  Journal                  = {J Am Coll Radiol},
+  Year                     = {2006},
+
+  Month                    = {Jun},
+  Number                   = {6},
+  Pages                    = {413--422},
+  Volume                   = {3}
 }
 
 @Article{Middleton1968,

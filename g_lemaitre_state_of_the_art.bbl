@@ -1,4 +1,4 @@
-\begin{thebibliography}{221}
+\begin{thebibliography}{222}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -1300,6 +1300,14 @@
   {C}orrelation with histologic pattern and direction of spread}}.
 \newblock \bibinfo{journal}{Am. J. Surg. Pathol.} \bibinfo{volume}{12},
   \bibinfo{pages}{897--906}.
+%Type = Article
+\bibitem[{Metz(2006)}]{Metz2006}
+\bibinfo{author}{Metz, C.E.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{{{R}eceiver operating characteristic analysis: a tool
+  for the quantitative evaluation of observer performance and imaging
+  systems}}.
+\newblock \bibinfo{journal}{J Am Coll Radiol} \bibinfo{volume}{3},
+  \bibinfo{pages}{413--422}.
 %Type = Article
 \bibitem[{Middleton and Esposito(1968)}]{Middleton1968}
 \bibinfo{author}{Middleton, D.}, \bibinfo{author}{Esposito, R.},

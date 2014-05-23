@@ -1,4 +1,4 @@
-\subsection{Feature detection} \label{subsec:featuredetection}
+\subsection{\ac{cadx}: Feature detection} \label{subsec:featuredetection}
 
 Discriminative features which can be used to recognize \ac{cap} from healthy tissue have to be first detected. This processing is known in computer vision as feature extraction. However, feature extraction is also the name given in pattern recognition to some types of dimension reduction methods which will be presented in the next section. In order to avoid confusion between these two aspects, in this survey, the procedure ``detecting'' or ``extracting'' features from images and signals will be defined as feature detection. This section will summarize the different strategies employed for this task. The features used in the studies reviewed are summarized in Tab. \ref{tab:feat}.
 
@@ -13,35 +13,35 @@ Discriminative features which can be used to recognize \ac{cap} from healthy tis
 		\hline \\ [-1.5ex]
 		\textbf{\ac{mri} image:} & \\ \\ [-1.5ex]
 		\quad \textit{Voxel-wise detection} &  \\ \\ [-1.5ex]
-		\quad \quad Intensity-based & $[$1-2,39$]^{\text{{\cmarksmall}- -}}$\par $[$7$]^{\text{- - {\cmarksmall}}}$\par $[$4-6,9-13,21-22$]^{\text{{\cmarksmall}- {\cmarksmall}}}$\par $[$19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad Intensity-based & $^{\text{{\cmarksmall}- -}}[$1-2,39$]$\par $^{\text{- - {\cmarksmall}}}[$7$]$\par $^{\text{{\cmarksmall}- {\cmarksmall}}}[$4-6,9-13,21-22$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
 		\quad \quad Edge-based & \\
-		\quad \quad \quad Prewitt operator & $[$30-31,33-34$]^{\text{{\cmarksmall}- -}}$ \\
-		\quad \quad \quad Sobel operator & $[$30-31,33-34,36-38$]^{\text{{\cmarksmall}- -}}$\par $[$19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Kirsch operator & $[$30-31,33-34,36-38$]^{\text{{\cmarksmall}- -}}$\par $[$19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Gabor filtering & $[$32,34,38$]^{\text{{\cmarksmall}- -}}$ \\ 
+		\quad \quad \quad Prewitt operator & $^{\text{{\cmarksmall}- -}}[$30-31,33-34$]$ \\
+		\quad \quad \quad Sobel operator & $^{\text{{\cmarksmall}- -}}[$30-31,33-34,36-38$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
+		\quad \quad \quad Kirsch operator & $^{\text{{\cmarksmall}- -}}[$30-31,33-34,36-38$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
+		\quad \quad \quad Gabor filtering & $^{\text{{\cmarksmall}- -}}[$32,34,38$]$ \\ 
 		\quad \quad Texture-based & \\
-		\quad \quad \quad Haralick features & $[$3,30-31,33-34,36,38$]^{\text{{\cmarksmall}- -}}$\par $[$37$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$11,19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Fractal analysis & $[$15-16$]^{\text{{\cmarksmall}- -}}$ \\
-		\quad \quad \quad \Ac{dct} & $[$19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Wavelet-based features & $[$38$]^{\text{{\cmarksmall}- -}}$ \\
-		\quad \quad \quad Gaussian filer bank & $[$12$]^{\text{{\cmarksmall}- -}}$ \\
+		\quad \quad \quad Haralick features & $^{\text{{\cmarksmall}- -}}[$3,30-31,33-34,36,38$]$\par $^{\text{{\cmarksmall}{\cmarksmall}-}}[$37$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$11,19-20$]$ \\
+		\quad \quad \quad Fractal analysis & $^{\text{{\cmarksmall}- -}}[$15-16$]$ \\
+		\quad \quad \quad \Ac{dct} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
+		\quad \quad \quad Wavelet-based features & $^{\text{{\cmarksmall}- -}}[$38$]$ \\
+		\quad \quad \quad Gaussian filer bank & $^{\text{{\cmarksmall}- -}}[$12$]$ \\
 		\quad \quad Position-based & $[$6,10-12$]$ \\ \\ [-1.5ex]
 		\quad \textit{Region-wise detection} &  \\ \\ [-1.5ex]
 		\quad \quad Statistical-based & \\
-		\quad \quad \quad Percentiles & $[$40$]^{\text{- {\cmarksmall}-}}$ \par $[$3,24$]^{\text{- - {\cmarksmall}}}$\par $[$41$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$10-12,19-20,42$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Statistical-moments & $[$1-2,30-31,33-34,36,38$]^{\text{{\cmarksmall}- -}}$\par $[$3$]^{\text{- - {\cmarksmall}}}$\par $[$37$]^{\text{{\cmarksmall}{\cmarksmall}-}}$\par $[$24$]^{\text{{\cmarksmall}- {\cmarksmall}}}$\par $[$10-12,19-20$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad Percentiles & $^{\text{- {\cmarksmall}-}}[$40$]$ \par $^{\text{- - {\cmarksmall}}}[$3,24$]$\par $^{\text{{\cmarksmall}{\cmarksmall}-}}[$41$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$10-12,19-20,42$]$ \\
+		\quad \quad \quad Statistical-moments & $^{\text{{\cmarksmall}- -}}[$1-2,30-31,33-34,36,38$]$\par $^{\text{- - {\cmarksmall}}}[$3$]$\par $^{\text{{\cmarksmall}{\cmarksmall}-}}[$37$]$\par $^{\text{{\cmarksmall}- {\cmarksmall}}}[$24$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$10-12,19-20$]$ \\
 		\quad \quad Histogram-based & \\
-		\quad \quad \quad \acs{pdf} & $[$14$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad \acs{hog} & $[$14$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad Shape context & $[$14$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
-		\quad \quad \quad \acs{lbp} & $[$14$]^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$ \\
+		\quad \quad \quad \acs{pdf} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
+		\quad \quad \quad \acs{hog} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
+		\quad \quad \quad Shape context & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
+		\quad \quad \quad \acs{lbp} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
 		\quad \quad Anatomical-based & $[$11-12,16$]$ \\ \\ [-1.5ex]
 		\textbf{\ac{dce} signal:} & \\ \\ [-1.5ex]
 		\quad Whole spectra approach & $[$1,2$]$ \\
-		\quad Semi-quantitative approach & $[$25$]^{\text{{\mmarksmall}}}$\par $[$18-20,26$]$ \\
+		\quad Semi-quantitative approach & $^{\text{{\mmarksmall}}}[$25$]$\par $[$18-20,26$]$ \\
 		\quad Quantitative approach &  \\
-		\quad \quad Toft model & $[$14,25$]^{\text{{\mmarksmall}}}$\par $[$7,9-12,18-20$]$ \\
-		\quad \quad Brix model & $[$4-5,21-22$]^{\text{{\mmarksmall}}}$\par $[$13,26$]$ \\
+		\quad \quad Toft model & $^{\text{{\mmarksmall}}}[$14,25$]$\par $[$7,9-12,18-20$]$ \\
+		\quad \quad Brix model & $^{\text{{\mmarksmall}}}[$4-5,21-22$]$\par $[$13,26$]$ \\
 		\quad \quad Weibull function & $[$7,18$]$ \\
 		\quad \quad PUM & $[$7,18$]$ \\
 		\\ [-1.5ex]
@@ -173,7 +173,7 @@ This section will focus on image-based features detection. Two main strategies t
 \setlist{noitemsep}
 \begin{enumerate}[leftmargin=*]
 
-\item[$-$] \textbf{\textit{Voxel-wise detection:}} This strategy refers to the fact that a feature is extracted at each voxel location of an image.
+\item[$-$] \textbf{\textit{Voxel-wise features:}} This strategy refers to the fact that a feature is extracted at each voxel location of an image.
 
 \ac{cap} as previously discussed (see Tab. \ref{tab:modmri}) can be discerned due to \ac{si} changes. Hence, intensity-based features are one of the most common features used to build the feature vector which has to be classified (\cite{Ampeliotis2007,Ampeliotis2008,Artan2009,Artan2010,Chan2003,Langer2009,Litjens2011,Litjens2012,Litjens2014,Liu2009,Niaf2011,Niaf2012,Viswanath2008a,Viswanath2011}). This type of feature consists simply of the \ac{si} of each voxel of the different \ac{mri} modalities.
 
@@ -284,7 +284,7 @@ Gabor filters (\cite{Gabor1946,Daugman1985}) offer another approach to extract i
 %To perform Gabor analysis to extract features for a classification scheme, a bank of Gabor filters is usually created with different angles, scale and dilatations (see Fig.~\ref{fig:gabor}) and then convolved with the image.
 \cite{Viswanath2008a,Viswanath2012} and \cite{Tiwari2012} integrated Gabor analysis in their feature vector.
 
-Texture-based features provide other characteristics discerning \ac{cap} from healthy tissue. The most common texture analysis for image classification was proposed by \cite{Haralick1973} and is commonly used in \ac{cad} systems (\cite{Antic2013,Niaf2011,Niaf2012,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012}).%{\color{red}Add maybe the main features here to still speak about it}% At each voxel, a neighbourhood is defined around this center and a gray-level co-occurrence matrix is built by selecting a pair of voxels based on a defined distance and angle. Then, using this co-occurrence matrix, a set of features can be computed based on the statistics describing the texture around each voxel. Computation of these features is presented in Tab. \ref{tab:glcm}.
+Texture-based features provide other characteristics discerning \ac{cap} from healthy tissue. The most common texture analysis for image classification are co-occurrence matrices with their related statistics which were proposed by \cite{Haralick1973} and are commonly used in \ac{cad} systems (\cite{Antic2013,Niaf2011,Niaf2012,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012}).%{\color{red}Add maybe the main features here to still speak about it}% At each voxel, a neighbourhood is defined around this center and a gray-level co-occurrence matrix is built by selecting a pair of voxels based on a defined distance and angle. Then, using this co-occurrence matrix, a set of features can be computed based on the statistics describing the texture around each voxel. Computation of these features is presented in Tab. \ref{tab:glcm}.
 %
 %\begin{table}
 %	\caption{The fourteen statistical features for texture analysis commonly computed from the gray level co-occurrence matrix $p$ as presented by \cite{Haralick1973}.}
@@ -327,13 +327,13 @@ In the same spirit, \cite{Viswanath2012} projected \ac{t2w} images into the wave
 
 \cite{Litjens2014} compute texture map based on \ac{t2w} images using a Gaussian filter bank (\cite{Leung2001}).
 
-The position of a voxel within the prostate was also considered a possible feature. \cite{Litjens2011,Litjens2014} computed the Euclidean distance from each voxel to the prostate center as well as the individual distance in the three directions $x$, $y$ and $z$. \cite{Chan2003} embedded the same information but this time using cylindrical coordinate $r$, $\theta$ and $z$ corresponding to the radius, azimuth and elevation respectively.
+The position of a voxel within the prostate was also considered a possible feature. \cite{Litjens2011,Litjens2014} computed the Euclidean distance from each voxel to the prostate center as well as the individual distance in the three directions $x$, $y$ and $z$. \cite{Chan2003} embedded the same information but this time using cylindrical coordinates $r$, $\theta$ and $z$ corresponding to the radius, azimuth and elevation respectively.
 
-\item[$-$] \textbf{\textit{Region-wise detection:}}
+\item[$-$] \textbf{\textit{Region-wise features:}}
 
 Unlike the previous section, another strategy is to study an entire region and extract characteristic features corresponding to this region.
 
-The most common approach reviewed can be classified as statiscal methods. Full map corresponding to feature types presented in the previous section are computed. Then, \acp{roi} are defined and statistics are extracted from each of these regions. The first type of statistic is based on percentiles and is widely used (\cite{Antic2013,Litjens2011,Litjens2012,Litjens2014,Peng2013,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012,Vos2008,Vos2008a,Vos2010,Vos2012}). In fact, once that a \ac{roi} is defined, the features corresponding the $n^{\text{th}}$ percentile is used as feature. This $n$ can take any value between $0$ and $100$. This threshold is usually manually determined observing the distribution and corresponds to the best discriminant value differentiating malignant and healthy tissue. in addition, statistic-moments such as mean, standard deviation, kurtosis and skewness are also used (\cite{Ampeliotis2007,Ampeliotis2008,Antic2013,Niaf2011,Niaf2012,Peng2013}). \cite{Litjens2014} also introduced a feature based on symmetry. They compute the mean of a candidate lesion as well as its mirrored counter-part and compute the quotient as feature.
+The most common approach reviewed can be classified as statistical methods. First, a feature map are computed for the whole image and not any more for a single voxel. Then, \acp{roi} are defined and statistics are extracted from each of these regions. The first type of statistic is based on percentiles and is widely used (\cite{Antic2013,Litjens2011,Litjens2012,Litjens2014,Peng2013,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2011,Viswanath2012,Vos2008,Vos2008a,Vos2010,Vos2012}). In fact, once that a \ac{roi} is defined, the features corresponding to the $n^{\text{th}}$ percentile are used as feature. This $n$ can take any value between $0$ and $100$. This threshold is usually manually determined observing the distribution and corresponds to the best discriminant value differentiating malignant and healthy tissue. in addition, statistic-moments such as mean, standard deviation, kurtosis and skewness are also used (\cite{Ampeliotis2007,Ampeliotis2008,Antic2013,Niaf2011,Niaf2012,Peng2013}). \cite{Litjens2014} also introduced a feature based on symmetry. They compute the mean of a candidate lesion as well as its mirrored counter-part and compute the quotient as feature.
 
 Another subset of features are anatomic which were also used by \cite{Litjens2012,Litjens2014} and \cite{Matulewicz2013}. \cite{Litjens2012,Litjens2014} computed the volume, compactness and sphericity related to the region to integrate it in their feature vector to later classify. \cite{Matulewicz2013} introduced four features corresponding to the percentage of tissue belonging to the regions \ac{pz}, \ac{cg}, periurethral region or outside prostate region for the considered \ac{roi}.
 
@@ -355,18 +355,15 @@ The last group of region-based feature is based on fractal analysis. The feature
 
 \item[$-$] \textbf{\textit{Whole-spectra approach:}} Some studies are using the whole \ac{dce} time series as feature vector such as \cite{Ampeliotis2007,Ampeliotis2008}, \cite{Tiwari2012} and \cite{Viswanath2008a,Viswanath2008}. In some cases, the high-dimensional feature space is reduced using dimension reduction methods as it will be presented in the next section (see Sect. \ref{subsec:featureselectionextraction}).
 
-\item[$-$] \textbf{\textit{Semi-quantitative approach:}} Semi-quantitative approaches are based on modelling mathematically the \ac{dce} time series. The parameters modelling the signal are commonly used mainly due to the simplicity of their computation. Parameters included in semi-quantitative analysis are summarized in Tab. \ref{tab:semiqua} and also graphically depicted in Fig.~\ref{fig:dceparam}. A set of time features corresponding to specific amplitude level (start, maximum and end) are extracted. Then, derivative and integral features are also considered as discriminative and are commonly computed.
+\item[$-$] \textbf{\textit{Semi-quantitative approach:}} Semi-quantitative approaches are based on mathematically modelling the \ac{dce} time series. The parameters modelling the signal are commonly used mainly due to the simplicity of their computation. Parameters included in semi-quantitative analysis are summarized in Tab. \ref{tab:semiqua} and also graphically depicted in Fig.~\ref{fig:dceparam}. A set of time features corresponding to specific amplitude level (start, maximum and end) are extracted. Then, derivative and integral features are also considered as discriminative and are commonly computed.
 
-\item[$-$] \textbf{\textit{Quantitative approach:}} As presented in Sect. \ref{subsubsec:mrimrsi}, quantitative approaches correspond to mathematical-pharmacokinetic models based on physiological exchanges. Four different models have been used in \ac{cad} systems. 
-
-The most common model reviewed was the Brix model using three parameters $A$, $k_{ep}$ and $k_{el}$ (\cite{Artan2009,Artan2010,Sung2011,Liu2009,Ozer2009,Ozer2010}).% This model is formalized such as:
+\item[$-$] \textbf{\textit{Quantitative approach:}} As presented in Sect. \ref{subsubsec:mrimrsi}, quantitative approaches correspond to mathematical-pharmacokinetic models based on physiological exchanges. Four different models have been used in \ac{cad} systems. The most common model reviewed was the Brix model using three parameters $A$, $k_{ep}$ and $k_{el}$ (\cite{Artan2009,Artan2010,Sung2011,Liu2009,Ozer2009,Ozer2010}). % This model is formalized such as:
 %\begin{equation}
 %	\frac{S(t)}{S(0)} = 1 + A k_{ep} \left( \frac{\exp( -k_{ep} t ) - \exp( -k_{el} t )}{k_{el} - k_{ep}} \right) \ ,
 %	\label{eq:brixmod}
 %\end{equation}
 %
 %\noindent where $S(\cdot)$ is the \ac{dce} signal, $A$ is the parameter simulating the tissue properties, $k_{el}$ is the parameter related to the first-order elimination from the plasma compartment and $k_{ep}$ is the parameter of the transvascular permeability and the parameters $k_{ep}$, $k_{el}$ and $A$ are computed from the \ac{mri} data and used as features.
-
 The Tofts model and more precisely the parameters $K_{trans}$, $k_{ep}$ and $v_e$ (\cite{Tofts1997}) was used by \cite{Langer2009,Litjens2011,Litjens2012,Litjens2014,Giannini2013,Niaf2011,Niaf2012,Mazzetti2011}.% The \ac{dce} signal relative to the concentration is modelled as:
 %\begin{equation}
 %	C_t(t) = v_p C_p(t) + K_{trans} \int_{0}^{t} C_p(\tau) \exp( -k_{ep}(t-\tau) ) \ d\tau \ ,
@@ -375,14 +372,13 @@ The Tofts model and more precisely the parameters $K_{trans}$, $k_{ep}$ and $v_e
 %
 %\noindent where $C_t(\cdot)$ is the concentration of the medium, $C_p(\cdot)$ is the \ac{aif} which have to be estimated independently, $K_{trans}$ is the parameter related to the diffuse transport of media across the capillary endothelium, $k_{ep}$ is the parameter related to the exchanges back into the vascular space and $v_e$ is the extravascular-extracellular space fraction defined such that $v_e = 1 - v_p$. Thus, the parameters $K_{trans}$, $k_{ep}$ and $v_e$ are computed and used as features in this model.
 
-\cite{Mazzetti2011} and \cite{Giannini2013} used the Weibull function defined by two parameters $A$ and $B$.% empirically formalized as:
+\cite{Mazzetti2011} and \cite{Giannini2013} used the Weibull function defined by two parameters. % $A$ and $B$.% empirically formalized as:
 %\begin{equation}
 %	S(t) = A t \exp( -t^{B} ) \ ,
 %	\label{eq:weibull}
 %\end{equation}
 %
 %\noindent where $A$ and $B$ are the two parameters which have to be inferred.
-
 They also used another empirical model which is based on the West-like function and named the phenomenological universalities model (\cite{Castorina2006}) using the three parameters the parameters $\beta$, $a_0$ and $r$.% formalized as:
 %\begin{equation}
 %	S(t) = \exp \left[ r t + \frac{1}{\beta} a_0 - r \left( \exp( \beta t ) - 1 \right) \right] \ ,

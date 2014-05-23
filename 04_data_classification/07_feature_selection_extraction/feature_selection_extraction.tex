@@ -1,6 +1,6 @@
-\subsection{Feature selection and feature extraction} \label{subsec:featureselectionextraction}
+\subsection{\ac{cadx}: Feature selection and feature extraction} \label{subsec:featureselectionextraction}
 
-As presented in the previous section, a wide variety of features can be computed (see Tab. \ref{tab:feat}). This often leads from multi-parametric \ac{mri} data to a high complexity feature space which might mislead or corrupt the classifier which used for training. Thus, it is of interest to reduce the number of dimensions before proceeding to the classification task. The strategies used can be grouped as: (i) feature selection and (ii) feature extraction. Those methods used in \ac{cad} system are summarized in Tab. \ref{tab:featext}.
+As presented in the previous section, a wide variety of features can be computed (see Tab. \ref{tab:feat}). This often leads from multi-parametric \ac{mri} data to a high dimensions feature space which might mislead or corrupt the classifier used for training. Thus, it is often of interest to reduce the number of dimensions before proceeding to the classification task. The strategies used can be grouped as: (i) feature selection and (ii) feature extraction and those methods will be presented in the above sections. However, only the methods used in \ac{cad} system are presented and summarized in Tab. \ref{tab:featext}.
 
 \subsubsection{Feature selection}\label{subsubsec:featsel}
 
@@ -80,7 +80,7 @@ Combination of these two criteria is known as \ac{mrmr}\footnote{\ac{mrmr} imple
 
 The feature extraction strategy is related to dimension reduction methods but not selecting discriminative features. Instead, these methods aim at mapping the data from the high-dimensional space into a low-dimensional space created to maximize the separability between the classes. The mapping can be performed in a linear or a non-linear manner. Again, only methods employed in \ac{cad} system will be reviewed in this section. We refer the reader to the review of \cite{Fodor2002} for a full review of feature extraction techniques.
 
-\ac{pca} is the most commonly used linear mapping method in \ac{cad} systems (\cite{Jolliffe2002}). %\ac{pca} is based on finding the orthogonal linear transform mapping the original data into a low-dimensional space. The space is defined such that the linear combinations of the original data with the $k^{th}$ greatest variances will lie on the $k^{th}$ principal components. 
+\ac{pca} is the most commonly used linear mapping method in \ac{cad} prostate (\cite{Jolliffe2002}). %\ac{pca} is based on finding the orthogonal linear transform mapping the original data into a low-dimensional space. The space is defined such that the linear combinations of the original data with the $k^{th}$ greatest variances will lie on the $k^{th}$ principal components. 
 %
 %The principal components can then be computed by using the eigenvectors-eigenvalues decomposition of the covariance matrix. Let $\mathbf{x}$ denote the data matrix. Then the covariance matrix is defined as:
 %

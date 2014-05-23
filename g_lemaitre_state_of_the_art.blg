@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: g_lemaitre_state_of_the_art.aux
 The style file: model2-names.bst
-Reallocated field_info (elt_size=4) to 11409 items from 5000.
+Reallocated field_info (elt_size=4) to 11438 items from 5000.
 Database file #1: bibtex/literature_review.bib.bib
 Too many commas in name 4 of "Liu, P. and Wang, S. and Turkbey, B. and Grant, K.and Pinto, P.and Choyke, P. and Wood, B. J. and Summers, R. M." for entry Liu2013
 while executing---line 3089 of file model2-names.bst
@@ -61,45 +61,45 @@ Warning--empty pages in Viswanath2009
 Warning--empty pages in Viswanath2008
 Warning--empty pages in Vos2008
 Warning--empty pages in Walker2010
-You've used 221 entries,
+You've used 222 entries,
             2990 wiz_defined-function locations,
-            2119 strings with 58876 characters,
-and the built_in function-call counts, 184897 in all, are:
-= -- 12969
-> -- 10184
-< -- 80
-+ -- 3880
-- -- 3652
-* -- 22204
-:= -- 26876
-add.period$ -- 633
-call.type$ -- 221
-change.case$ -- 2318
-chr.to.int$ -- 214
-cite$ -- 235
-duplicate$ -- 12526
-empty$ -- 11984
-format.name$ -- 4304
-if$ -- 33701
+            2125 strings with 59057 characters,
+and the built_in function-call counts, 185451 in all, are:
+= -- 13015
+> -- 10194
+< -- 81
++ -- 3884
+- -- 3655
+* -- 22255
+:= -- 26957
+add.period$ -- 636
+call.type$ -- 222
+change.case$ -- 2324
+chr.to.int$ -- 215
+cite$ -- 236
+duplicate$ -- 12571
+empty$ -- 12033
+format.name$ -- 4308
+if$ -- 33807
 int.to.chr$ -- 8
 int.to.str$ -- 1
-missing$ -- 2748
-newline$ -- 1090
-num.names$ -- 888
-pop$ -- 4698
+missing$ -- 2756
+newline$ -- 1095
+num.names$ -- 892
+pop$ -- 4712
 preamble$ -- 1
-purify$ -- 2100
+purify$ -- 2105
 quote$ -- 0
-skip$ -- 3268
+skip$ -- 3282
 stack$ -- 0
-substring$ -- 7585
-swap$ -- 10428
+substring$ -- 7621
+swap$ -- 10456
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1968
+type$ -- 1977
 warning$ -- 14
-while$ -- 1017
+while$ -- 1022
 width$ -- 0
-write$ -- 3076
+write$ -- 3090
 (There were 21 error messages)

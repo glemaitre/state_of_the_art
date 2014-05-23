@@ -57,7 +57,7 @@ Investigations focus on the strategies to perform the most adequate coefficient 
 
 \cite{Ampeliotis2007,Ampeliotis2008} performed wavelet shrinkage to denoise magnitude \ac{mri} images (cf., \ac{t2w}-\ac{mri} and \ac{dce}-\ac{mri}) using thresholding techniques (\cite{Mallat2008}). However, since the wavelet transform is an orthogonal transform, the Rician distribution of the noise is preserved in the wavelet-domain. Hence, for low \ac{snr}, the wavelet and scaling coefficients still suffer from a bias due to this specific noise distribution (\cite{Nowak1999}). 
 
-\cite{Lopes2011} used a technique proposed by \cite{Pizurica2003} to denoise \ac{t2w}-\ac{mri}. \cite{Pizurica2003} proposed a filtering technique based on joint detection and estimation theory (\cite{Middleton1968}).% The wavelet coefficients ``free-of-noise'' are estimated from the noisy wavelet coefficients using a \ac{map} estimate. Furthermore, the estimator designed takes spatial context into account by including both local and global information in the prior probabilities. The different probabilities needed by the \ac{map} are empirically estimated by using mask images representing the locations of the significant wavelet coefficients. These mask images are computed by thresholding the detail images obtained from the wavelet decomposition. To remove the bias from the wavelet and scaling coefficients, the squared magnitude \ac{mri} image used instead of the magnitude \ac{mri} image as proposed by \cite{Nowak1999}. This involves changing the Rician distribution to a scaled non-central Chi-square distribution. It implies that the wavelet coefficients are also unbiased estimators and the scaling coefficients are unbiased estimators but up to a constant $C$ as defined in Eq. \eqref{eq:nowakC} which needs to be subtracted from each scaling coefficient,
+\cite{Lopes2011} used the filtering technique proposed by \cite{Pizurica2003} to denoise \ac{t2w}-\ac{mri} which was based on joint detection and estimation theory (\cite{Middleton1968}).% The wavelet coefficients ``free-of-noise'' are estimated from the noisy wavelet coefficients using a \ac{map} estimate. Furthermore, the estimator designed takes spatial context into account by including both local and global information in the prior probabilities. The different probabilities needed by the \ac{map} are empirically estimated by using mask images representing the locations of the significant wavelet coefficients. These mask images are computed by thresholding the detail images obtained from the wavelet decomposition. To remove the bias from the wavelet and scaling coefficients, the squared magnitude \ac{mri} image used instead of the magnitude \ac{mri} image as proposed by \cite{Nowak1999}. This involves changing the Rician distribution to a scaled non-central Chi-square distribution. It implies that the wavelet coefficients are also unbiased estimators and the scaling coefficients are unbiased estimators but up to a constant $C$ as defined in Eq. \eqref{eq:nowakC} which needs to be subtracted from each scaling coefficient,
 
 %\begin{equation}
 %	C=2^{(J+1)}\hat{\sigma}^2 \ ,
@@ -162,7 +162,7 @@ Hence, the task of bias correction involves estimating the bias function $b(\mat
 %SI normalization
 \item[$-$] \textbf{\textit{\Ac{si} normalization/standardization:}}
 
-As discussed in the later section, segmentation or classification tasks are usually performed by first learning from a training set of patients. Hence, one can emphasize the desire to perform \ac{mri} examinations with a high repeatability or in other words, one would ensure to obtain similar \ac{mri} images (cf., similar \acp{si}) for patients of the same group (cf., healthy patients \textit{vs.} patients with \ac{cap}), for a similar sequence.
+As discussed in the later section, segmentation or classification tasks are usually performed by first learning from a training set of patients. Hence, one can emphasize the desire to perform \ac{mri} examinations with a high repeatability or in other words, one would like to obtain similar \ac{mri} images (cf., similar \acp{si}) for patients of the same group (cf., healthy patients \textit{vs.} patients with \ac{cap}), for a similar sequence.
 
 However, it is a known fact that variability between patients occurs during the \ac{mri} examinations even using the same scanner, protocol or sequence parameters (\cite{Nyul1999}). Hence, the aim of normalization or standardization of the \ac{mri} data is to remove the variability between patients and enforce the repeatability of the \ac{mri} examinations.
 
@@ -221,7 +221,7 @@ In a similar way, \cite{Liu2013} normalized \ac{t2w}-\ac{mri} by making use of t
 %  \label{eq:linearMap}
 %\end{equation}
 
-\cite{Viswanath2009,Viswanath2011,Viswanath2012} use a variant of this previous approach presented in the work of \cite{Madabhushi2006a} aiming to standardize the \ac{t2w}-\ac{mri} images. Instead of computing the \ac{pdf} of an entire image, a pre-segmentation of the foreground is carried out via \ac{gscale}.% which was discussed in the bias correction section. Once the foreground is detected, the largest region is extracted and the same process than previously mentioned (see Eq. \eqref{eq:linearMap}) takes place in order to align \acp{pdf} of the foreground of the \ac{mri} images.
+\cite{Viswanath2009,Viswanath2011,Viswanath2012} used a variant of this previous approach presented in the work of \cite{Madabhushi2006a} aiming to standardize the \ac{t2w}-\ac{mri} images. Instead of computing the \ac{pdf} of an entire image, a pre-segmentation of the foreground is carried out via \ac{gscale}.% which was discussed in the bias correction section. Once the foreground is detected, the largest region is extracted and the same process than previously mentioned (see Eq. \eqref{eq:linearMap}) takes place in order to align \acp{pdf} of the foreground of the \ac{mri} images.
 
 \begin{figure}
 \centering
@@ -271,13 +271,13 @@ Presented in Sect. \ref{subsubsec:mrimrsi}, \ac{mrsi} is a modality related to a
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{03_image_processing/03_preprocessing/figures/phase/phase.eps}
-	\caption{Illustration of phase misalignment in an \ac{mrsi} spectra acquire with a 3.0 Tesla \ac{mrsi} scanner. Note the distortion of the signal specially visible for the water and citrate peaks.}
+	\caption{Illustration of frequency and phase misalignment in an \ac{mrsi} spectra acquired with a 3.0 Tesla \ac{mrsi} scanner. Focusing on the phase misalignment, note the distortion of the signal specially visible for the water (cf., around 5.1 ppm) and citrate (cf., around 3 ppm) peaks. Regarding the frequency misalignment, the water peak is known to be aligned at 4.65 ppm. However, it can observed that this peak is occurring around 5.1 ppm.}
 	\label{fig:phase}
 \end{figure}
 
 	\item[$-$] \textbf{\textit{Water and lipid residuals filtering:}} The water and lipid metabolites occur in much higher concentrations than the metabolites of interests (cf., choline, creatine and citrate) (\cite{Zhu2010,Osorio-Garcia2012}). Fortunately, specific \ac{mrsi} sequences were developed in order to suppress water and lipid metabolites using pre-saturation techniques (\cite{Zhu2010}). However, these techniques do not perfectly remove water and lipids peaks and some residuals are still present in the \ac{mrsi} spectra as shown in Fig.~\ref{fig:waterfat}. Therefore, different post-processing methods have been proposed to enhance the quality of the \ac{mrsi} spectra by removing these residuals.
 	
-	\cite{Kelm2007} used the well known HSVD algorithm proposed by \cite{Pijnappel1992} which model the \ac{mrsi} signal by a sum of exponentially damped sinusoids in the time domain.% In the time domain, a \ac{mrsi} signal $s(t)$ is modelled by a sum of $K$ exponentially damped sinusoids such that:
+	\cite{Kelm2007} used the well known HSVD algorithm proposed by \cite{Pijnappel1992} which models the \ac{mrsi} signal by a sum of exponentially damped sinusoids in the time domain.% In the time domain, a \ac{mrsi} signal $s(t)$ is modelled by a sum of $K$ exponentially damped sinusoids such that:
 %\begin{equation}
 %	s(t) = \sum_{k=1}^{K} a_{k}\exp(i \phi_k) \exp( -d_{k} + i 2 \pi f_{k} ) t + \eta(t) \ ,
 %	\label{eq:fidsig}
@@ -319,22 +319,22 @@ Unlike \cite{Lieber2003}, \cite{Devos2004} proposed to correct the baseline in t
 %
 %\noindent Having a typical value for $\beta$ of 0.15.
 
-However, \cite{Parfait2012} concluded that the method proposed by \cite{Lieber2003} outperforms the one of \cite{Devos2004}. In the contemporary work of \cite{Tiwari2012}, the authors detected the baseline using a local non-linear fitting method avoiding regions with significant peaks which were detected using a experimentally parametrised signal-to-noise ratio (i.e. a value larger than 5 dB).
+However, \cite{Parfait2012} concluded that the method proposed by \cite{Lieber2003} outperformed the one of \cite{Devos2004}. In the contemporary work of \cite{Tiwari2012}, the authors detected the baseline using a local non-linear fitting method avoiding regions with significant peaks which were detected using a experimentally parametrised signal-to-noise ratio (i.e. a value larger than 5 dB).
 
-\begin{figure}
-\centering
-	\includegraphics[width=0.9\linewidth]{03_image_processing/03_preprocessing/figures/frequency/frequency.eps}
-	\caption{Illustration of frequency misalignment in an \ac{mrsi} spectra acquired with a 3.0 Tesla \ac{mrsi} scanner. The water peak is known to be aligned at 4.65 ppm. However, it can be seen that the peak on this spectra is aligned at around 5.1 ppm.}
-	\label{fig:frequency}
-\end{figure}
+%\begin{figure}
+%\centering
+%	\includegraphics[width=0.9\linewidth]{03_image_processing/03_preprocessing/figures/frequency/frequency.eps}
+%	\caption{Illustration of frequency misalignment in an \ac{mrsi} spectra acquired with a 3.0 Tesla \ac{mrsi} scanner. The water peak is known to be aligned at 4.65 ppm. However, it can be seen that the peak on this spectra is aligned at around 5.1 ppm.}
+%	\label{fig:frequency}
+%\end{figure}
 
-	\item[$-$] \textbf{\textit{Frequency alignment:}} Due to variations of the experimental conditions, a frequency shift can be observed in the \ac{mrsi} spectra as shown in Fig.~\ref{fig:frequency} (\cite{Chen2002,Osorio-Garcia2012}).
+	\item[$-$] \textbf{\textit{Frequency alignment:}} Due to variations of the experimental conditions, a frequency shift can be observed in the \ac{mrsi} spectra as shown in Fig.~\ref{fig:phase} (\cite{Chen2002,Osorio-Garcia2012}).
 	
 \cite{Tiwari2012} corrected the frequency shift by first detecting known metabolite peaks such as choline, creatine and citrate. The frequency shift is corrected by minimizing the frequency error between the experimental and theoretical values of each of these peaks.
 
 	\item[$-$] \textbf{\textit{Normalization:}} Due to variations of the experimental conditions, the \ac{mrsi} signal may also vary between patients.
 	
-\cite{Parfait2012} as \cite{Devos2004} compared two methods to normalize \ac{mrsi} signal. In each method, the original \ac{mrsi} spectra is divided by a normalization factor, similar to the intensity normalization described earlier. 
+\cite{Parfait2012} as \cite{Devos2004} compared two methods to normalize the \ac{mrsi} signal. In each method, the original \ac{mrsi} spectra is divided by a normalization factor, similar to the intensity normalization described earlier. 
 
 The first approach to obtain the normalization factor is based on an estimation of the water concentration. It is required to have an additional \ac{mrsi} sequence where the water metabolites are unsuppressed. Using this sequence, an estimation of the water concentration can be performed using the previously reported HSVD algorithm.  The second approach to normalization is based on using the L$_2$ norm of the \ac{mrsi} spectra $\|s(\xi)\|_2$. 
 It should be noted that both \cite{Parfait2012} and \cite{Devos2004} concluded that the L$_2$ normalization was more efficient in their framework.
