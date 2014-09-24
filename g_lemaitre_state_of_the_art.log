@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.8)  23 SEP 2014 09:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.8)  24 SEP 2014 09:12
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -99,115 +99,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \splwrite=\write3
 \openout3 = `g_lemaitre_state_of_the_art.spl'.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count95
-\Gm@cntv=\count96
-\c@Gm@tempcnt=\count97
-\Gm@bindingoffset=\dimen109
-\Gm@wd@mp=\dimen110
-\Gm@odd@mp=\dimen111
-\Gm@even@mp=\dimen112
-\Gm@layoutwidth=\dimen113
-\Gm@layoutheight=\dimen114
-\Gm@layouthoffset=\dimen115
-\Gm@layoutvoffset=\dimen116
-\Gm@dimlist=\toks17
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
-File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
-\mathindent=\dimen117
-)
-\appnamewidth=\dimen118
-)
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/txfonts.sty
-Package: txfonts 2008/01/22 v3.2.1
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
-\symitalic=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
-(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
-\symlettersA=\mathgroup5
-LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
-(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
-\symAMSa=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
-\symAMSb=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
-\symsymbolsC=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
-(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
-\symlargesymbolsA=\mathgroup9
-LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
-(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
-LaTeX Info: Redefining \not on input line 1043.
+\appnamewidth=\dimen109
 )
 (./file_system/package.tex
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -215,251 +107,24 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks18
-LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 59.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
-(Font)                  U/txsya/m/n --> U/msa/m/n on input line 59.
-LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
-(Font)                  U/txsya/bx/n --> U/msa/m/n on input line 59.
-LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 60.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
-(Font)                  U/txsyb/m/n --> U/msb/m/n on input line 60.
-LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
-(Font)                  U/txsyb/bx/n --> U/msb/m/n on input line 60.
-LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 74.
-LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 75.
-LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 76.
-LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
-LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
-)
-LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
-LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 52.
-
-LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 53.
-LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
-.
-LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
-LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
-LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 61
-.
-LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 62.
-
-LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
-
-LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 66.
-LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 69.
-
-LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 72.
-LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 73.
-LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 74.
-LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 75.
-LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 76.
-LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 77.
-LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
-79.
-LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 80.
-LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
-LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
-LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 85.
-LaTeX Font Info:    Redeclaring math symbol \multimap on input line 86.
-LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
-LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
-LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
-LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
-LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
-LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
-LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 94.
-LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 95.
-LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 96.
-LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
-LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
-LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
-LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
-LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
-LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
-LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
-LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
-LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
-LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
-LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 117.
-LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
-9.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
-20.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
-1.
-LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 122.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 123.
-LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
-LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
-LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
-LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
-LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 128.
-LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 129.
-LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 130.
-LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 131.
-LaTeX Font Info:    Redeclaring math symbol \veebar on input line 132.
-LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 133.
-LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
-LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 139.
-LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 140.
-LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 141.
-LaTeX Font Info:    Redeclaring math symbol \Subset on input line 142.
-LaTeX Font Info:    Redeclaring math symbol \Supset on input line 143.
-LaTeX Font Info:    Redeclaring math symbol \Cup on input line 144.
-LaTeX Font Info:    Redeclaring math symbol \Cap on input line 146.
-LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
-LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 150.
-LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 151.
-
-LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 152.
-LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 153.
-LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
-LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
-LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
-LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
-LaTeX Font Info:    Redeclaring math symbol \circledS on input line 160.
-LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 161.
-LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
-LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
-LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
-LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
-LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
-LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
-LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 171.
-LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 172.
-LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
-LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
-LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
-LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
-LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
-LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
-LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
-LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
-LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
-LaTeX Font Info:    Redeclaring math symbol \lneq on input line 183.
-LaTeX Font Info:    Redeclaring math symbol \gneq on input line 184.
-LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 185.
-LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
-LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
-LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
-LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 191.
-LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 192.
-LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
-LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
-LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 195.
-LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 196.
-LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 197.
-LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 198.
-LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
-LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
-LaTeX Font Info:    Redeclaring math symbol \diagup on input line 201.
-LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 202.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
-LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 204.
-LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 205.
-LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 206.
-LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
-LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 208.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 210.
-LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
-LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
-LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
-LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
-LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 217.
-LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 218.
-LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
-LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
-LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
-LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
-LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
-.
-LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
-
-LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 225.
-LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 226.
-LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
-LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
-LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
-LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
-LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
-
-LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
-
-LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 233.
-LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
-LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
-LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
-LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
-LaTeX Font Info:    Redeclaring math symbol \eth on input line 240.
-LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
-LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
-LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
-LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
-LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
-LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
-LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
-LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
-LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 249.
-LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 250.
-LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
-LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
-LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
-LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
-LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 256.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
-
-LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
-LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
-LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
-LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
-)
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks19
-\thm@bodyfont=\toks20
-\thm@headfont=\toks21
-\thm@notefont=\toks22
-\thm@headpunct=\toks23
+\thm@style=\toks18
+\thm@bodyfont=\toks19
+\thm@headfont=\toks20
+\thm@notefont=\toks21
+\thm@headpunct=\toks22
 \thm@preskip=\skip47
 \thm@postskip=\skip48
 \thm@headsep=\skip49
-\dth@everypar=\toks24
+\dth@everypar=\toks23
 LaTeX Info: Redefining \qed on input line 283.
-LaTeX Info: Redefining \textsquare on input line 431.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -471,51 +136,51 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks25
-\ex@=\dimen119
+\@emptytoks=\toks24
+\ex@=\dimen110
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen120
+\pmbraise@=\dimen111
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count98
+\inf@bad=\count95
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count99
-\leftroot@=\count100
+\uproot@=\count96
+\leftroot@=\count97
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count101
-\DOTSCASE@=\count102
+\classnum@=\count98
+\DOTSCASE@=\count99
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box30
 \strutbox@=\box31
-\big@size=\dimen121
+\big@size=\dimen112
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count103
-\c@MaxMatrixCols=\count104
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
-\c@parentequation=\count105
-\dspbrk@lvl=\count106
-\tag@help=\toks26
-\row@=\count107
-\column@=\count108
-\maxfields@=\count109
-\andhelp@=\toks27
-\eqnshift@=\dimen122
-\alignsep@=\dimen123
-\tagshift@=\dimen124
-\tagwidth@=\dimen125
-\totwidth@=\dimen126
-\lineht@=\dimen127
-\@envbody=\toks28
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks25
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks26
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
+\@envbody=\toks27
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks29
+\mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -532,16 +197,16 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen128
-\extrarowheight=\dimen129
-\NC@list=\toks30
+\col@sep=\dimen119
+\extrarowheight=\dimen120
+\NC@list=\toks29
 \extratabsurround=\skip53
 \backup@length=\skip54
 )
-\everycr=\toks31
+\everycr=\toks30
 \minrowclearance=\skip55
 )
-\rownum=\count110
+\rownum=\count107
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -555,14 +220,14 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 (/usr/share/texlive/texmf-dist/tex/generic/epsf/epsf.sty
 This is `epsf.tex' v2.7.4 <14 February 2011>
 \epsffilein=\read1
-\epsfframemargin=\dimen130
-\epsfframethickness=\dimen131
-\epsfrsize=\dimen132
-\epsftmp=\dimen133
-\epsftsize=\dimen134
-\epsfxsize=\dimen135
-\epsfysize=\dimen136
-\pspoints=\dimen137
+\epsfframemargin=\dimen121
+\epsfframethickness=\dimen122
+\epsfrsize=\dimen123
+\epsftmp=\dimen124
+\epsftsize=\dimen125
+\epsfxsize=\dimen126
+\epsfysize=\dimen127
+\pspoints=\dimen128
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
@@ -596,6 +261,11 @@ Package etexcmds Info: Could not find \expanded.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -614,14 +284,14 @@ e
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip56
 \subfigcapskip=\skip57
-\subfigcaptopadj=\dimen138
+\subfigcaptopadj=\dimen129
 \subfigbottomskip=\skip58
-\subfigcapmargin=\dimen139
+\subfigcapmargin=\dimen130
 \subfiglabelskip=\skip59
-\c@subfigure=\count111
-\c@lofdepth=\count112
-\c@subtable=\count113
-\c@lotdepth=\count114
+\c@subfigure=\count108
+\c@lofdepth=\count109
+\c@subtable=\count110
+\c@lotdepth=\count111
 
 ****************************************
 * Local config file subfigure.cfg used *
@@ -640,10 +310,10 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip62
-\enit@outerparindent=\dimen140
-\enit@toks=\toks32
+\enit@outerparindent=\dimen131
+\enit@toks=\toks31
 \enit@inbox=\box32
-\enitdp@description=\count115
+\enitdp@description=\count112
 )
 (/usr/share/texlive/texmf-dist/tex/latex/acro/acro.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -655,7 +325,7 @@ Package: l3names 2014/01/04 v4640 L3 Namespace for primitives
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count116
+\et@xins=\count113
 )
 Package: expl3 2014/01/07 v4646 L3 Experimental code bundle wrapper
 
@@ -673,18 +343,18 @@ Package: l3seq 2013/12/14 v4623 L3 Sequences and stacks
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
 Package: l3int 2013/08/02 v4583 L3 Integers
-\c_max_int=\count117
-\l_tmpa_int=\count118
-\l_tmpb_int=\count119
-\g_tmpa_int=\count120
-\g_tmpb_int=\count121
+\c_max_int=\count114
+\l_tmpa_int=\count115
+\l_tmpb_int=\count116
+\g_tmpa_int=\count117
+\g_tmpb_int=\count118
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
 Package: l3quark 2013/12/14 v4623 L3 Quarks
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
 Package: l3prg 2014/01/04 v4642 L3 Control structures
-\g__prg_map_int=\count122
+\g__prg_map_int=\count119
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
 Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
@@ -700,20 +370,20 @@ Package: l3msg 2013/07/28 v4581 L3 Messages
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
 Package: l3file 2013/10/13 v4596 L3 File and I/O operations
-\l_iow_line_count_int=\count123
-\l__iow_target_count_int=\count124
-\l__iow_current_line_int=\count125
-\l__iow_current_word_int=\count126
-\l__iow_current_indentation_int=\count127
+\l_iow_line_count_int=\count120
+\l__iow_target_count_int=\count121
+\l__iow_current_line_int=\count122
+\l__iow_current_word_int=\count123
+\l__iow_current_indentation_int=\count124
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
 Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
-\c_zero_dim=\dimen141
-\c_max_dim=\dimen142
-\l_tmpa_dim=\dimen143
-\l_tmpb_dim=\dimen144
-\g_tmpa_dim=\dimen145
-\g_tmpb_dim=\dimen146
+\c_zero_dim=\dimen132
+\c_max_dim=\dimen133
+\l_tmpa_dim=\dimen134
+\l_tmpb_dim=\dimen135
+\g_tmpa_dim=\dimen136
+\g_tmpb_dim=\dimen137
 \c_zero_skip=\skip63
 \c_max_skip=\skip64
 \l_tmpa_skip=\skip65
@@ -729,20 +399,20 @@ Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
 Package: l3keys 2013/12/08 v4614 L3 Experimental key-value interfaces
-\g__keyval_level_int=\count128
-\l_keys_choice_int=\count129
+\g__keyval_level_int=\count125
+\l_keys_choice_int=\count126
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
 Package: l3fp 2014/01/04 v4642 L3 Floating points
-\c__fp_leading_shift_int=\count130
-\c__fp_middle_shift_int=\count131
-\c__fp_trailing_shift_int=\count132
-\c__fp_big_leading_shift_int=\count133
-\c__fp_big_middle_shift_int=\count134
-\c__fp_big_trailing_shift_int=\count135
-\c__fp_Bigg_leading_shift_int=\count136
-\c__fp_Bigg_middle_shift_int=\count137
-\c__fp_Bigg_trailing_shift_int=\count138
+\c__fp_leading_shift_int=\count127
+\c__fp_middle_shift_int=\count128
+\c__fp_trailing_shift_int=\count129
+\c__fp_big_leading_shift_int=\count130
+\c__fp_big_middle_shift_int=\count131
+\c__fp_big_trailing_shift_int=\count132
+\c__fp_Bigg_leading_shift_int=\count133
+\c__fp_Bigg_middle_shift_int=\count134
+\c__fp_Bigg_trailing_shift_int=\count135
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
 Package: l3box 2013/07/28 v4581 L3 Experimental boxes
@@ -755,13 +425,13 @@ Package: l3box 2013/07/28 v4581 L3 Experimental boxes
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
 Package: l3coffins 2013/12/14 v4624 L3 Coffin code layer
 \l__coffin_internal_box=\box38
-\l__coffin_internal_dim=\dimen147
-\l__coffin_offset_x_dim=\dimen148
-\l__coffin_offset_y_dim=\dimen149
-\l__coffin_x_dim=\dimen150
-\l__coffin_y_dim=\dimen151
-\l__coffin_x_prime_dim=\dimen152
-\l__coffin_y_prime_dim=\dimen153
+\l__coffin_internal_dim=\dimen138
+\l__coffin_offset_x_dim=\dimen139
+\l__coffin_offset_y_dim=\dimen140
+\l__coffin_x_dim=\dimen141
+\l__coffin_y_dim=\dimen142
+\l__coffin_x_prime_dim=\dimen143
+\l__coffin_y_prime_dim=\dimen144
 \c_empty_coffin=\box39
 \l__coffin_aligned_coffin=\box40
 \l__coffin_aligned_internal_coffin=\box41
@@ -770,54 +440,54 @@ Package: l3coffins 2013/12/14 v4624 L3 Coffin code layer
 \l__coffin_display_coffin=\box44
 \l__coffin_display_coord_coffin=\box45
 \l__coffin_display_pole_coffin=\box46
-\l__coffin_display_offset_dim=\dimen154
-\l__coffin_display_x_dim=\dimen155
-\l__coffin_display_y_dim=\dimen156
+\l__coffin_display_offset_dim=\dimen145
+\l__coffin_display_x_dim=\dimen146
+\l__coffin_display_y_dim=\dimen147
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
 Package: l3color 2012/08/29 v4156 L3 Experimental color support
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
 Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
-\g__cctab_allocate_int=\count139
-\g__cctab_stack_int=\count140
+\g__cctab_allocate_int=\count136
+\g__cctab_stack_int=\count137
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
 Package: l3candidates 2014/01/06 v4643 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen157
-\l__box_bottom_dim=\dimen158
-\l__box_left_dim=\dimen159
-\l__box_right_dim=\dimen160
-\l__box_top_new_dim=\dimen161
-\l__box_bottom_new_dim=\dimen162
-\l__box_left_new_dim=\dimen163
-\l__box_right_new_dim=\dimen164
+\l__box_top_dim=\dimen148
+\l__box_bottom_dim=\dimen149
+\l__box_left_dim=\dimen150
+\l__box_right_dim=\dimen151
+\l__box_top_new_dim=\dimen152
+\l__box_bottom_new_dim=\dimen153
+\l__box_left_new_dim=\dimen154
+\l__box_right_new_dim=\dimen155
 \l__box_internal_box=\box47
-\l__coffin_bounding_shift_dim=\dimen165
-\l__coffin_left_corner_dim=\dimen166
-\l__coffin_right_corner_dim=\dimen167
-\l__coffin_bottom_corner_dim=\dimen168
-\l__coffin_top_corner_dim=\dimen169
-\l__coffin_scaled_total_height_dim=\dimen170
-\l__coffin_scaled_width_dim=\dimen171
+\l__coffin_bounding_shift_dim=\dimen156
+\l__coffin_left_corner_dim=\dimen157
+\l__coffin_right_corner_dim=\dimen158
+\l__coffin_bottom_corner_dim=\dimen159
+\l__coffin_top_corner_dim=\dimen160
+\l__coffin_scaled_total_height_dim=\dimen161
+\l__coffin_scaled_width_dim=\dimen162
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3experimental/l3sort/l3sort.sty
 Package: l3sort 2013/12/14 v4623 L3 Experimental sorting functions
-\l__sort_length_int=\count141
-\l__sort_block_int=\count142
-\l__sort_begin_int=\count143
-\l__sort_end_int=\count144
-\l__sort_A_int=\count145
-\l__sort_B_int=\count146
-\l__sort_C_int=\count147
+\l__sort_length_int=\count138
+\l__sort_block_int=\count139
+\l__sort_begin_int=\count140
+\l__sort_end_int=\count141
+\l__sort_A_int=\count142
+\l__sort_B_int=\count143
+\l__sort_C_int=\count144
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2013/12/31 v4634 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count148
-\l__xparse_m_args_int=\count149
-\l__xparse_mandatory_args_int=\count150
-\l__xparse_processor_int=\count151
-\l__xparse_v_nesting_int=\count152
+\l__xparse_current_arg_int=\count145
+\l__xparse_m_args_int=\count146
+\l__xparse_mandatory_args_int=\count147
+\l__xparse_processor_int=\count148
+\l__xparse_v_nesting_int=\count149
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2013/12/31 v4634 LaTeX2e option processing using LaTeX3 keys
@@ -825,8 +495,8 @@ Package: l3keys2e 2013/12/31 v4634 LaTeX2e option processing using LaTeX3 keys
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2013/12/31 v4634 L3 Experimental prototype document function
 s
-\l__xtemplate_tmp_dim=\dimen172
-\l__xtemplate_tmp_int=\count153
+\l__xtemplate_tmp_dim=\dimen163
+\l__xtemplate_tmp_int=\count150
 \l__xtemplate_tmp_muskip=\muskip17
 \l__xtemplate_tmp_skip=\skip69
 Variant \prop_get:NoNTF already defined; not changing it on line 106
@@ -834,14 +504,14 @@ Variant \prop_get:NoNT already defined; not changing it on line 107
 Variant \prop_get:NoNF already defined; not changing it on line 108
 )
 Package: acro 2013/12/18 v1.5 Typeset Acronyms
-\l__acro_tmpa_int=\count154
-\l__acro_tmpb_int=\count155
-\l__acro_tmpc_int=\count156
-\l__acro_tmpd_int=\count157
+\l__acro_tmpa_int=\count151
+\l__acro_tmpb_int=\count152
+\l__acro_tmpc_int=\count153
+\l__acro_tmpd_int=\count154
 Variant \tl_put_right:NV already defined; not changing it on line 124
 Variant \seq_use:cnnn already defined; not changing it on line 127
-\l__acro_table_width_dim=\dimen173
-\l__acro_page_space_dim=\dimen174
+\l__acro_table_width_dim=\dimen164
+\l__acro_page_space_dim=\dimen165
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -875,7 +545,7 @@ Package zref Info: New property: page on input line 761.
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 )
-\c@abspage=\count158
+\c@abspage=\count155
 Package zref Info: New property: abspage on input line 62.
 )
 .................................................
@@ -1084,22 +754,22 @@ Package: pgfopts 2011/06/02 v2.1 LaTeX package options with pgfkeys
 
 (/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks35
+\pgfkeys@tmptoks=\toks34
 )))
-\pgfopts@list@add@a@toks=\toks36
-\pgfopts@list@add@b@toks=\toks37
+\pgfopts@list@add@a@toks=\toks35
+\pgfopts@list@add@b@toks=\toks36
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-\etb@tempcnta=\count159
+\etb@tempcnta=\count156
 )
-\c@cnltx@tmpa=\count160
-\c@cnltx@tmpb=\count161
-\c@cnltx@tmpc=\count162
+\c@cnltx@tmpa=\count157
+\c@cnltx@tmpb=\count158
+\c@cnltx@tmpc=\count159
 \cnltx@tmpa@length=\skip70
 \cnltx@tmpb@length=\skip71
 \cnltx@tmpc@length=\skip72
@@ -1130,19 +800,19 @@ File: acro1.def
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count163
-\output=\toks38
-\linenoprevgraf=\count164
-\linenumbersep=\dimen175
-\linenumberwidth=\dimen176
-\c@linenumber=\count165
-\c@pagewiselinenumber=\count166
-\c@LN@truepage=\count167
-\c@internallinenumber=\count168
-\c@internallinenumbers=\count169
-\quotelinenumbersep=\dimen177
-\bframerule=\dimen178
-\bframesep=\dimen179
+\linenopenalty=\count160
+\output=\toks37
+\linenoprevgraf=\count161
+\linenumbersep=\dimen166
+\linenumberwidth=\dimen167
+\c@linenumber=\count162
+\c@pagewiselinenumber=\count163
+\c@LN@truepage=\count164
+\c@internallinenumber=\count165
+\c@internallinenumbers=\count166
+\quotelinenumbersep=\dimen168
+\bframerule=\dimen169
+\bframesep=\dimen170
 \bframebox=\box48
 LaTeX Info: Redefining \\ on input line 3056.
 )
@@ -1151,7 +821,30 @@ Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box49
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen180
+\bigstrutjot=\dimen171
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count167
+\Gm@cntv=\count168
+\c@Gm@tempcnt=\count169
+\Gm@bindingoffset=\dimen172
+\Gm@wd@mp=\dimen173
+\Gm@odd@mp=\dimen174
+\Gm@even@mp=\dimen175
+\Gm@layoutwidth=\dimen176
+\Gm@layoutheight=\dimen177
+\Gm@layouthoffset=\dimen178
+\Gm@layoutvoffset=\dimen179
+\Gm@dimlist=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
@@ -1160,24 +853,24 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
-\TX@col@width=\dimen181
-\TX@old@table=\dimen182
-\TX@old@col=\dimen183
-\TX@target=\dimen184
-\TX@delta=\dimen185
+\TX@col@width=\dimen180
+\TX@old@table=\dimen181
+\TX@old@col=\dimen182
+\TX@target=\dimen183
+\TX@delta=\dimen184
 \TX@cols=\count172
 \TX@ftn=\toks39
 )
 (/usr/share/texlive/texmf-dist/tex/latex/arydshln/arydshln.sty
 Package: arydshln 2004/08/31 v1.71 
-\dashlinedash=\dimen186
-\dashlinegap=\dimen187
+\dashlinedash=\dimen185
+\dashlinegap=\dimen186
 \adl@box=\box50
-\adl@height=\dimen188
-\adl@heightsave=\dimen189
-\adl@depth=\dimen190
-\adl@depthsave=\dimen191
-\adl@finaldepth=\dimen192
+\adl@height=\dimen187
+\adl@heightsave=\dimen188
+\adl@depth=\dimen189
+\adl@depthsave=\dimen190
+\adl@finaldepth=\dimen191
 \adl@columns=\count173
 \adl@ncol=\count174
 \adl@currentcolumn=\count175
@@ -1189,7 +882,7 @@ Package: arydshln 2004/08/31 v1.71
 \adl@cla=\count181
 \adl@clb=\count182
 \adl@everyvbox=\toks40
-\adl@LTpagetotal=\dimen193
+\adl@LTpagetotal=\dimen192
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
@@ -1226,7 +919,7 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-\@linkdim=\dimen194
+\@linkdim=\dimen193
 \Hy@linkcounter=\count183
 \Hy@pagecounter=\count184
 
@@ -1238,7 +931,6 @@ File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `final' set `true' on input line 4319.
 Package hyperref Info: Option `draft' set `true' on input line 4319.
 Package hyperref Info: Hyper figures OFF on input line 4443.
 Package hyperref Info: Link nesting OFF on input line 4448.
@@ -1254,10 +946,10 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen195
+\XeTeXLinkMargin=\dimen194
 \Fld@menulength=\count187
-\Field@Width=\dimen196
-\Fld@charsize=\dimen197
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -1310,15 +1002,15 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex)
-\pgf@x=\dimen198
-\pgf@y=\dimen199
-\pgf@xa=\dimen200
-\pgf@ya=\dimen201
+\pgf@x=\dimen197
+\pgf@y=\dimen198
+\pgf@xa=\dimen199
+\pgf@ya=\dimen200
+\pgf@xb=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
-\pgf@xb=\dimen256
-\pgf@yb=\dimen257
-\pgf@xc=\dimen258
-\pgf@yc=\dimen259
+\pgf@yb=\dimen256
+\pgf@xc=\dimen257
+\pgf@yc=\dimen258
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
 \c@pgf@counta=\count194
@@ -1352,7 +1044,7 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen260
+\pgfmath@dimen=\dimen259
 \pgfmath@count=\count200
 \pgfmath@box=\box52
 \pgfmath@toks=\toks42
@@ -1372,30 +1064,30 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen261
-\pgf@picmaxx=\dimen262
-\pgf@picminy=\dimen263
-\pgf@picmaxy=\dimen264
-\pgf@pathminx=\dimen265
-\pgf@pathmaxx=\dimen266
-\pgf@pathminy=\dimen267
-\pgf@pathmaxy=\dimen268
-\pgf@xx=\dimen269
-\pgf@xy=\dimen270
-\pgf@yx=\dimen271
-\pgf@yy=\dimen272
-\pgf@zx=\dimen273
-\pgf@zy=\dimen274
+\pgf@picminx=\dimen260
+\pgf@picmaxx=\dimen261
+\pgf@picminy=\dimen262
+\pgf@picmaxy=\dimen263
+\pgf@pathminx=\dimen264
+\pgf@pathmaxx=\dimen265
+\pgf@pathminy=\dimen266
+\pgf@pathmaxy=\dimen267
+\pgf@xx=\dimen268
+\pgf@xy=\dimen269
+\pgf@yx=\dimen270
+\pgf@yy=\dimen271
+\pgf@zx=\dimen272
+\pgf@zy=\dimen273
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen275
-\pgf@path@lasty=\dimen276
+\pgf@path@lastx=\dimen274
+\pgf@path@lasty=\dimen275
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen277
-\pgf@shorten@start@additional=\dimen278
+\pgf@shorten@end@additional=\dimen276
+\pgf@shorten@start@additional=\dimen277
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
@@ -1407,13 +1099,13 @@ Normal \count register pool exhausted, switching to extended pool.
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen279
+\pgflinewidth=\dimen278
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen280
-\pgf@pt@y=\dimen281
-\pgf@pt@temp=\dimen282
+\pgf@pt@x=\dimen279
+\pgf@pt@y=\dimen280
+\pgf@pt@temp=\dimen281
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -1429,7 +1121,7 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen283
+\pgf@max=\dimen282
 \pgf@sys@shading@range@num=\count278
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -1457,8 +1149,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen284
-\pgf@nodesepend=\dimen285
+\pgf@nodesepstart=\dimen283
+\pgf@nodesepend=\dimen284
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -1466,8 +1158,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen286
-\pgffor@skip=\dimen287
+\pgffor@iter=\dimen285
+\pgffor@skip=\dimen286
 \pgffor@stack=\toks45
 \pgffor@toks=\toks46
 ))
@@ -1477,14 +1169,14 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count279
-\pgfplotmarksize=\dimen288
+\pgfplotmarksize=\dimen287
 )
-\tikz@lastx=\dimen289
-\tikz@lasty=\dimen290
-\tikz@lastxsaved=\dimen291
-\tikz@lastysaved=\dimen292
-\tikzleveldistance=\dimen293
-\tikzsiblingdistance=\dimen294
+\tikz@lastx=\dimen288
+\tikz@lasty=\dimen289
+\tikz@lastxsaved=\dimen290
+\tikz@lastysaved=\dimen291
+\tikzleveldistance=\dimen292
+\tikzsiblingdistance=\dimen293
 \tikz@figbox=\box58
 \tikz@tempbox=\box59
 \tikztreelevel=\count280
@@ -1510,8 +1202,8 @@ Package: xifthen 2009/04/17 v1.3 Extended ifthen features
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count288
 \calc@Bcount=\count289
-\calc@Adimen=\dimen295
-\calc@Bdimen=\dimen296
+\calc@Adimen=\dimen294
+\calc@Bdimen=\dimen295
 \calc@Askip=\skip74
 \calc@Bskip=\skip75
 LaTeX Info: Redefining \setlength on input line 76.
@@ -1529,33 +1221,33 @@ Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgftree.sty
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.sty
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgfsubpic.tex
-\pgf@subpicminx=\dimen297
-\pgf@subpicminy=\dimen298
-\pgf@subpicmaxx=\dimen299
-\pgf@subpicmaxy=\dimen300
+\pgf@subpicminx=\dimen296
+\pgf@subpicminy=\dimen297
+\pgf@subpicmaxx=\dimen298
+\pgf@subpicmaxy=\dimen299
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/pgftree.tex
-\levelsep=\dimen301
-\subtreesep=\dimen302
-\smuggle@levelsep=\dimen303
-\smuggle@subtreesep=\dimen304
-\this@levelsep=\dimen305
-\this@subtreesep=\dimen306
-\pgftree@childx=\dimen307
-\pgftree@savechildx=\dimen308
-\pgftree@childy=\dimen309
-\pgftree@savechildy=\dimen310
+\levelsep=\dimen300
+\subtreesep=\dimen301
+\smuggle@levelsep=\dimen302
+\smuggle@subtreesep=\dimen303
+\this@levelsep=\dimen304
+\this@subtreesep=\dimen305
+\pgftree@childx=\dimen306
+\pgftree@savechildx=\dimen307
+\pgftree@childy=\dimen308
+\pgftree@savechildy=\dimen309
 \pgftree@childi=\count291
 \pgftree@savechildi=\count292
 \pgftree@level=\count293
-\pgftree@depth=\dimen311
+\pgftree@depth=\dimen310
 \pgf@subpic@hbox@children=\box60
-\pgf@subpic@minx@children=\dimen312
-\pgf@subpic@miny@children=\dimen313
-\pgf@subpic@maxx@children=\dimen314
-\pgf@subpic@maxy@children=\dimen315
-\pgftree@lastchildx=\dimen316
-\pgftree@lastchildy=\dimen317
+\pgf@subpic@minx@children=\dimen311
+\pgf@subpic@miny@children=\dimen312
+\pgf@subpic@maxx@children=\dimen313
+\pgf@subpic@maxy@children=\dimen314
+\pgftree@lastchildx=\dimen315
+\pgftree@lastchildy=\dimen316
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-qtree/tikz-qtree.tex
 \@result=\toks47
@@ -1567,14 +1259,14 @@ ations.pathmorphing.code.tex
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.code.tex
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen318
-\pgfdecoratedremainingdistance=\dimen319
-\pgfdecoratedinputsegmentcompleteddistance=\dimen320
-\pgfdecoratedinputsegmentremainingdistance=\dimen321
-\pgf@decorate@distancetomove=\dimen322
+\pgfdecoratedcompleteddistance=\dimen317
+\pgfdecoratedremainingdistance=\dimen318
+\pgfdecoratedinputsegmentcompleteddistance=\dimen319
+\pgfdecoratedinputsegmentremainingdistance=\dimen320
+\pgf@decorate@distancetomove=\dimen321
 \pgf@decorate@repeatstate=\count294
-\pgfdecorationsegmentamplitude=\dimen323
-\pgfdecorationsegmentlength=\dimen324
+\pgfdecorationsegmentamplitude=\dimen322
+\pgfdecorationsegmentlength=\dimen323
 )
 \tikz@lib@dec@box=\box61
 )
@@ -1664,7 +1356,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen325
+\arrowsize=\dimen324
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshado
 ws.code.tex
@@ -1726,98 +1418,35 @@ h' as default language. on input line 64.
 (./g_lemaitre_state_of_the_art.aux)
 \openout1 = `g_lemaitre_state_of_the_art.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 64.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 64.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
-File: omltxmi.fd 2000/12/15 v3.1
-)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 64.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 64.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
-File: omstxsy.fd 2000/12/15 v3.1
-)
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 64.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 64.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
-File: omxtxex.fd 2000/12/15 v3.1
-)
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 64.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 64.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
-File: utxexa.fd 2000/12/15 v3.1
-)
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 64.
 
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
-File: ot1txr.fd 2000/12/15 v3.1
-)
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count295
-\scratchdimen=\dimen326
+\scratchdimen=\dimen325
 \scratchbox=\box85
 \nofMPsegments=\count296
 \nofMParguments=\count297
 \everyMPshowfont=\toks50
 \MPscratchCnt=\count298
-\MPscratchDim=\dimen327
+\MPscratchDim=\dimen326
 \MPnumerator=\count299
 \makeMPintoPDFobject=\count300
 \everyMPtoPDFconversion=\toks51
 )
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: custom
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* hratio: 1:1
-* vratio: 1:1
-* modes: 
-* h-part:(L,W,R)=(37.75394pt, 522.0pt, 37.75394pt)
-* v-part:(T,H,B)=(81.52342pt, 682.0pt, 81.52342pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=522.0pt
-* \textheight=682.0pt
-* \oddsidemargin=-34.51605pt
-* \evensidemargin=-34.51605pt
-* \topmargin=-52.74657pt
-* \headheight=50.0pt
-* \headsep=12.0pt
-* \topskip=10.0pt
-* \footskip=18.0pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
-* \columnsep=18.0pt
-* \skip\footins=24.0pt plus 2.0pt minus 12.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumntrue
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 \AtBeginShipoutBox=\box86
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
@@ -1825,6 +1454,40 @@ nary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 
 Package hyperref Warning: Draft mode on.
 
@@ -1842,11 +1505,6 @@ LaTeX Info: Redefining \pageref on input line 64.
 LaTeX Info: Redefining \nameref on input line 64.
 
 ABD: EveryShipout initializing macros (./00_frontmatter/frontmatter.tex
-LaTeX Font Info:    Try loading font information for U+txmia on input line 64.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
-File: utxmia.fd 2000/12/15 v3.1
-)
 LaTeX Font Info:    Try loading font information for U+msa on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1856,35 +1514,35 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 64.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 64.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
 ))
-(./01_introduction/introduction.tex [1{/home/lemaitre/.texmf-var/fonts/map/pdft
-ex/updmap/pdftex.map}
+(./01_introduction/introduction.tex [1
 
 
-]) (./02_background/background.tex [2]
-Underfull \hbox (badness 1365) in paragraph at lines 49--49
-[][][]\OT1/txr/m/n/8 The []Eu-ro-pean Ran-dom-ized Study of Screen-ing for Pros
-tate Can-cer
+{/home/lemaitre/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]) (./02_back
+ground/background.tex [3] [4] [5]
+[6]
+Underfull \hbox (badness 6300) in paragraph at lines 79--79
+[]|\OT1/cmr/m/n/9 Quantitative fea-tures (Tofts'
  []
 
 
-Overfull \hbox (7.9135pt too wide) in paragraph at lines 149--149
- []\OT1/txr/m/n/14.4 detection/selection 
+Overfull \hbox (81.50348pt too wide) in paragraph at lines 65--99
+[]
  []
 
 
-Overfull \hbox (12.49268pt too wide) in paragraph at lines 151--151
- []\OT1/txr/m/n/14.4 selection/extraction 
+Overfull \hbox (16.01003pt too wide) in paragraph at lines 149--149
+ []\OT1/cmr/m/n/14.4 detection/selection 
  []
 
 
-Overfull \hbox (15.12787pt too wide) in paragraph at lines 152--152
- []\OT1/txr/m/n/14.4 classification/fusion 
+Overfull \hbox (21.88495pt too wide) in paragraph at lines 151--151
+ []\OT1/cmr/m/n/14.4 selection/extraction 
+ []
+
+
+Overfull \hbox (21.2583pt too wide) in paragraph at lines 152--152
+ []\OT1/cmr/m/n/14.4 classification/fusion 
  []
 
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
@@ -1899,7 +1557,7 @@ mage/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
 (epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/tikzimage/t2-eps-converted-to.pdf, id=35, 119.44624pt x 
+<02_background/figures/tikzimage/t2-eps-converted-to.pdf, id=53, 119.44624pt x 
 119.44624pt>
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2009,7 +1667,7 @@ mage/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
 (epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/tikzimage/dce-eps-converted-to.pdf, id=36, 85.31876pt x 
+<02_background/figures/tikzimage/dce-eps-converted-to.pdf, id=54, 85.31876pt x 
 85.31876pt>
 File: 02_background/figures/tikzimage/dce-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2065,7 +1723,7 @@ mage/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
 (epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/tikzimage/dwi1-eps-converted-to.pdf, id=37, 85.31876pt x
+<02_background/figures/tikzimage/dwi1-eps-converted-to.pdf, id=55, 85.31876pt x
  85.31876pt>
 File: 02_background/figures/tikzimage/dwi1-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2121,7 +1779,7 @@ mage/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
 (epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/tikzimage/adc-eps-converted-to.pdf, id=38, 151.56625pt x
+<02_background/figures/tikzimage/adc-eps-converted-to.pdf, id=56, 151.56625pt x
  151.56625pt>
 File: 02_background/figures/tikzimage/adc-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2177,7 +1835,7 @@ mage/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/tikzimage/mrsi-eps-converted-to.pdf, id=39, 107.40125pt 
+<02_background/figures/tikzimage/mrsi-eps-converted-to.pdf, id=57, 107.40125pt 
 x 107.40125pt>
 File: 02_background/figures/tikzimage/mrsi-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2234,7 +1892,7 @@ converted-to.pdf>
 (epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf, id=40, 257.96375pt
+<02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf, id=58, 257.96375pt
  x 257.96375pt>
 File: 02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2242,7 +1900,7 @@ type pdf)
 <use 02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/t2w/t2w_healthy-eps-converted-to
 .pdf used on input line 318.
-(pdftex.def)             Requested size: 156.6016pt x 156.60583pt.
+(pdftex.def)             Requested size: 129.00269pt x 129.00516pt.
 Package epstopdf Info: Source file: <02_background/figures/t2w/t2w_cancer_pz.ep
 s>
 (epstopdf)                    date: 2014-01-22 23:02:12
@@ -2256,7 +1914,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 319.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf, id=41, 258.9675p
+<02_background/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf, id=59, 258.9675p
 t x 258.9675pt>
 File: 02_background/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2264,7 +1922,7 @@ File: 02_background/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf Graphic file
 <use 02_background/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/t2w/t2w_cancer_pz-eps-converted-
 to.pdf used on input line 319.
-(pdftex.def)             Requested size: 156.6016pt x 156.60664pt.
+(pdftex.def)             Requested size: 129.00269pt x 129.00923pt.
 Package epstopdf Info: Source file: <02_background/figures/t2w/t2w_cancer_cg.ep
 s>
 (epstopdf)                    date: 2014-01-23 14:32:41
@@ -2278,7 +1936,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/t2w/t2w_cancer_cg-eps-converted-to.pdf, id=42, 359.3425p
+<02_background/figures/t2w/t2w_cancer_cg-eps-converted-to.pdf, id=60, 359.3425p
 t x 359.3425pt>
 File: 02_background/figures/t2w/t2w_cancer_cg-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2286,19 +1944,14 @@ File: 02_background/figures/t2w/t2w_cancer_cg-eps-converted-to.pdf Graphic file
 <use 02_background/figures/t2w/t2w_cancer_cg-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/t2w/t2w_cancer_cg-eps-converted-
 to.pdf used on input line 320.
-(pdftex.def)             Requested size: 156.6016pt x 156.60332pt.
- [3] [4 <./02_background/figures/tikzimage/t2-eps-converted-to.pdf> <./02_backg
-round/figures/tikzimage/dce-eps-converted-to.pdf> <./02_background/figures/tikz
-image/dwi1-eps-converted-to.pdf> <./02_background/figures/tikzimage/adc-eps-con
-verted-to.pdf> <./02_background/figures/tikzimage/mrsi-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf> <./02_backgr
-ound/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf> <./02_background/figures/t
-2w/t2w_cancer_cg-eps-converted-to.pdf>]
+(pdftex.def)             Requested size: 129.00269pt x 129.00679pt.
+ [7 <./02_background/figures/tikzimage/t2-eps-converted-to.pdf> <./02_backgroun
+d/figures/tikzimage/dce-eps-converted-to.pdf> <./02_background/figures/tikzimag
+e/dwi1-eps-converted-to.pdf> <./02_background/figures/tikzimage/adc-eps-convert
+ed-to.pdf> <./02_background/figures/tikzimage/mrsi-eps-converted-to.pdf>] [8] [
+9 <./02_background/figures/t2w/t2w_healthy-eps-converted-to.pdf> <./02_backgrou
+nd/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf> <./02_background/figures/t2w
+/t2w_cancer_cg-eps-converted-to.pdf>] [10]
 Package epstopdf Info: Source file: <02_background/figures/dce/slice.eps>
 (epstopdf)                    date: 2014-05-12 12:30:45
 (epstopdf)                    size: 359465 bytes
@@ -2311,14 +1964,14 @@ lice-eps-converted-to.pdf 02_background/figures/dce/slice.eps>
 (epstopdf)             \includegraphics on input line 378.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dce/slice-eps-converted-to.pdf, id=77, 257.96375pt x 194
-.7275pt>
+<02_background/figures/dce/slice-eps-converted-to.pdf, id=103, 257.96375pt x 19
+4.7275pt>
 File: 02_background/figures/dce/slice-eps-converted-to.pdf Graphic file (type p
 df)
  <use 02_background/figures/dce/slice-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dce/slice-eps-converted-to.pdf u
 sed on input line 378.
-(pdftex.def)             Requested size: 208.79681pt x 157.61845pt.
+(pdftex.def)             Requested size: 171.99922pt x 129.83978pt.
 Package epstopdf Info: Source file: <02_background/figures/dce/dce_cancer_healt
 hy.eps>
 (epstopdf)                    date: 2014-01-22 18:03:28
@@ -2333,15 +1986,17 @@ lthy.eps>
 (epstopdf)             \includegraphics on input line 379.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf, id=78, 710.
-655pt x 509.905pt>
+<02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf, id=104, 710
+.655pt x 509.905pt>
 File: 02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf Graphic
  file (type pdf)
 
 <use 02_background/figures/dce/dce_cancer_healthy-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dce/dce_cancer_healthy-eps-conve
 rted-to.pdf used on input line 379.
-(pdftex.def)             Requested size: 234.8984pt x 168.54147pt.
+(pdftex.def)             Requested size: 193.50076pt x 138.83548pt.
+
+[11]
 Package epstopdf Info: Source file: <02_background/figures/dwi/dwi_cancer.eps>
 (epstopdf)                    date: 2014-01-27 17:25:04
 (epstopdf)                    size: 113081 bytes
@@ -2354,14 +2009,15 @@ wi_cancer-eps-converted-to.pdf 02_background/figures/dwi/dwi_cancer.eps>
 (epstopdf)             \includegraphics on input line 416.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf, id=79, 302.12875pt 
-x 352.31625pt>
+<02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf, id=110, 302.12875pt
+ x 352.31625pt>
 File: 02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf Graphic file (t
 ype pdf)
- <use 02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf>
+
+<use 02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dwi/dwi_cancer-eps-converted-to.
 pdf used on input line 416.
-(pdftex.def)             Requested size: 113.39923pt x 132.23653pt.
+(pdftex.def)             Requested size: 95.43843pt x 111.29361pt.
 Package epstopdf Info: Source file: <02_background/figures/dwi/adc_cancer.eps>
 (epstopdf)                    date: 2014-01-27 17:26:06
 (epstopdf)                    size: 225920 bytes
@@ -2374,38 +2030,45 @@ dc_cancer-eps-converted-to.pdf 02_background/figures/dwi/adc_cancer.eps>
 (epstopdf)             \includegraphics on input line 417.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/dwi/adc_cancer-eps-converted-to.pdf, id=80, 302.12875pt 
-x 352.31625pt>
+<02_background/figures/dwi/adc_cancer-eps-converted-to.pdf, id=111, 302.12875pt
+ x 352.31625pt>
 File: 02_background/figures/dwi/adc_cancer-eps-converted-to.pdf Graphic file (t
 ype pdf)
- <use 02_background/figures/dwi/adc_cancer-eps-converted-to.pdf>
+
+<use 02_background/figures/dwi/adc_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/dwi/adc_cancer-eps-converted-to.
 pdf used on input line 417.
-(pdftex.def)             Requested size: 113.39923pt x 132.23653pt.
-
-[6 <./02_background/figures/dwi/dwi_cancer-eps-converted-to.pdf> <./02_backgrou
-nd/figures/dwi/adc_cancer-eps-converted-to.pdf>]
-Overfull \hbox (2.12572pt too wide) in paragraph at lines 459--459
- []|\OT1/txr/m/n/8 patients| 
+(pdftex.def)             Requested size: 95.43843pt x 111.29361pt.
+ [12 <./02_background/figures/dce/slice-eps-converted-to.pdf> <./02_background/
+figures/dce/dce_cancer_healthy-eps-converted-to.pdf>] [13 <./02_background/figu
+res/dwi/dwi_cancer-eps-converted-to.pdf> <./02_background/figures/dwi/adc_cance
+r-eps-converted-to.pdf>]
+Overfull \hbox (0.8529pt too wide) in paragraph at lines 458--458
+ []|[]| 
  []
 
 
-Overfull \hbox (0.52316pt too wide) in paragraph at lines 459--459
- []|[]\OT1/txr/m/n/8 CADe| 
+Overfull \hbox (6.79926pt too wide) in paragraph at lines 459--459
+ []|\OT1/cmr/m/n/8 patients| 
  []
 
 
-Overfull \hbox (0.97116pt too wide) in paragraph at lines 459--459
- []|[]\OT1/txr/m/n/8 CADx| 
+Overfull \hbox (2.85571pt too wide) in paragraph at lines 459--459
+ []|[]\OT1/cmr/m/n/8 CADe| 
  []
 
 
-Overfull \hbox (13.56113pt too wide) in paragraph at lines 454--515
+Overfull \hbox (3.56406pt too wide) in paragraph at lines 459--459
+ []|[]\OT1/cmr/m/n/8 CADx| 
+ []
+
+
+Overfull \hbox (113.77264pt too wide) in paragraph at lines 454--515
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 55.86287pt on input line 515.
+LaTeX Warning: Float too large for page by 688.30028pt on input line 515.
 
 Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_healthy.ep
 s>
@@ -2420,15 +2083,15 @@ mrsi_healthy-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_healthy.eps>
 (epstopdf)             \includegraphics on input line 520.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf, id=91, 547.04375
-pt x 338.26375pt>
+<02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf, id=134, 547.0437
+5pt x 338.26375pt>
 File: 02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf Graphic file
  (type pdf)
 
 <use 02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/mrsi/mrsi_healthy-eps-converted-
 to.pdf used on input line 520.
-(pdftex.def)             Requested size: 234.8984pt x 145.24927pt.
+(pdftex.def)             Requested size: 193.50076pt x 119.64832pt.
 Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_cancer.eps
 >
 (epstopdf)                    date: 2014-01-23 20:21:56
@@ -2442,28 +2105,19 @@ mrsi_cancer-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_cancer.eps>
 (epstopdf)             \includegraphics on input line 521.
 Package epstopdf Info: Output file is already uptodate.
 
-<02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf, id=92, 547.04375p
-t x 338.26375pt>
+<02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf, id=135, 547.04375
+pt x 338.26375pt>
 File: 02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf Graphic file 
 (type pdf)
 
 <use 02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/mrsi/mrsi_cancer-eps-converted-t
 o.pdf used on input line 521.
-(pdftex.def)             Requested size: 234.8984pt x 145.24927pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./02_background/figures/dce/slice-eps-converted-to.pdf> <./02_background/f
-igures/dce/dce_cancer_healthy-eps-converted-to.pdf>] [8]) [9 <./02_background/f
-igures/mrsi/mrsi_healthy-eps-converted-to.pdf> <./02_background/figures/mrsi/mr
-si_cancer-eps-converted-to.pdf>] (./03_image_processing/image_processing.tex
-(./03_image_processing/03_preprocessing/preprocessing_rm.tex
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-[]|$\OT1/txr/m/n/9 [$3-4,16,21-
- []
-
-[10]
+(pdftex.def)             Requested size: 193.50076pt x 119.64832pt.
+ [14 <./02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf> <./02_bac
+kground/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>] [15] [16] [17])
+(./03_image_processing/image_processing.tex [18]
+(./03_image_processing/03_preprocessing/preprocessing_rm.tex [19] [20] [21]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/niaf/t2w_bladder.eps>
 (epstopdf)                    date: 2014-01-30 20:40:18
@@ -2479,7 +2133,7 @@ preprocessing/figures/niaf/t2w_bladder.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-converted-to
-.pdf, id=121, 258.9675pt x 194.7275pt>
+.pdf, id=170, 258.9675pt x 194.7275pt>
 File: 03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
@@ -2487,7 +2141,7 @@ ed-to.pdf Graphic file (type pdf)
 d-to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/niaf/t2w_
 bladder-eps-converted-to.pdf used on input line 229.
-(pdftex.def)             Requested size: 113.39923pt x 85.27031pt.
+(pdftex.def)             Requested size: 171.99922pt x 129.33763pt.
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/niaf/t1w_arteries.eps>
 (epstopdf)                    date: 2014-01-30 20:40:18
@@ -2503,7 +2157,7 @@ _preprocessing/figures/niaf/t1w_arteries.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-converted-t
-o.pdf, id=122, 258.9675pt x 194.7275pt>
+o.pdf, id=171, 258.9675pt x 194.7275pt>
 File: 03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
@@ -2511,7 +2165,8 @@ ted-to.pdf Graphic file (type pdf)
 ed-to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/niaf/t1w_
 arteries-eps-converted-to.pdf used on input line 230.
-(pdftex.def)             Requested size: 113.39923pt x 85.27031pt.
+(pdftex.def)             Requested size: 171.99922pt x 129.33763pt.
+ [22]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/phase/phase.eps>
 (epstopdf)                    date: 2014-01-24 11:09:21
@@ -2527,7 +2182,7 @@ ocessing/figures/phase/phase.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-to.pdf,
- id=123, 546.04pt x 337.26pt>
+ id=175, 546.04pt x 337.26pt>
 File: 03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-to
 .pdf Graphic file (type pdf)
 
@@ -2535,11 +2190,10 @@ File: 03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-to
 pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/phase/pha
 se-eps-converted-to.pdf used on input line 273.
-(pdftex.def)             Requested size: 226.79846pt x 140.07864pt.
- [11 <./03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-conve
+(pdftex.def)             Requested size: 258.00539pt x 159.35619pt.
+ [23 <./03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-conve
 rted-to.pdf> <./03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-
-eps-converted-to.pdf> <./03_image_processing/03_preprocessing/figures/phase/pha
-se-eps-converted-to.pdf>]
+eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/water/water_fat.eps>
 (epstopdf)                    date: 2014-01-24 14:25:38
@@ -2555,7 +2209,7 @@ reprocessing/figures/water/water_fat.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/water/water_fat-eps-converted-to.
-pdf, id=140, 670.505pt x 486.81876pt>
+pdf, id=185, 670.505pt x 486.81876pt>
 File: 03_image_processing/03_preprocessing/figures/water/water_fat-eps-converte
 d-to.pdf Graphic file (type pdf)
 
@@ -2563,28 +2217,12 @@ d-to.pdf Graphic file (type pdf)
 -to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/water/wat
 er_fat-eps-converted-to.pdf used on input line 292.
-(pdftex.def)             Requested size: 226.79846pt x 164.66193pt.
-
-Underfull \hbox (badness 1810) in paragraph at lines 299--311
-\OT1/txr/m/n/10 Jansen (2003) and De-vos et al. (2004). Lieber and
- []
-
-
-Underfull \vbox (badness 3780) has occurred while \output is active []
-
-)
-(./03_image_processing/04_segmentation/segmentation_rm.tex
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-[]|$\OT1/txr/m/n/9 [$4-5,17,19-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--25
-[][]
- []
-
-[12 <./03_image_processing/03_preprocessing/figures/water/water_fat-eps-convert
-ed-to.pdf>]) (./03_image_processing/05_registration/registration.tex
+(pdftex.def)             Requested size: 258.00539pt x 187.31808pt.
+ [24 <./03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-
+to.pdf>] [25 <./03_image_processing/03_preprocessing/figures/water/water_fat-ep
+s-converted-to.pdf>])
+(./03_image_processing/04_segmentation/segmentation_rm.tex [26]) [27]
+(./03_image_processing/05_registration/registration.tex
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 (epstopdf)                    date: 2013-10-09 16:41:58
 (epstopdf)                    size: 40634 bytes
@@ -2623,11 +2261,11 @@ f used on input line 69.
 (pdftex.def)             Requested size: 42.67912pt x 42.67801pt.
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (2.94229pt too wide) in paragraph at lines 184--185
- [][] 
+Overfull \hbox (40.5544pt too wide) in paragraph at lines 195--220
+ [] 
  []
 
-[13]
+[28] [29] [30]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
 (epstopdf)                    date: 2014-03-07 12:29:28
@@ -2643,7 +2281,7 @@ ng/05_registration/figures/histogram/jointhistoalg.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-conver
-ted-to.pdf, id=161, 258.9675pt x 258.9675pt>
+ted-to.pdf, id=231, 258.9675pt x 258.9675pt>
 File: 03_image_processing/05_registration/figures/histogram/jointhistoalg-eps-c
 onverted-to.pdf Graphic file (type pdf)
 
@@ -2651,7 +2289,7 @@ onverted-to.pdf Graphic file (type pdf)
 nverted-to.pdf>
 Package pdftex.def Info: 03_image_processing/05_registration/figures/histogram/
 jointhistoalg-eps-converted-to.pdf used on input line 353.
-(pdftex.def)             Requested size: 104.3984pt x 104.39915pt.
+(pdftex.def)             Requested size: 85.9996pt x 86.00089pt.
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
 (epstopdf)                    date: 2014-03-07 12:29:28
@@ -2667,7 +2305,7 @@ sing/05_registration/figures/histogram/jointhistomisal.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/05_registration/figures/histogram/jointhistomisal-eps-conv
-erted-to.pdf, id=162, 258.9675pt x 258.9675pt>
+erted-to.pdf, id=232, 258.9675pt x 258.9675pt>
 File: 03_image_processing/05_registration/figures/histogram/jointhistomisal-eps
 -converted-to.pdf Graphic file (type pdf)
 
@@ -2675,46 +2313,26 @@ File: 03_image_processing/05_registration/figures/histogram/jointhistomisal-eps
 converted-to.pdf>
 Package pdftex.def Info: 03_image_processing/05_registration/figures/histogram/
 jointhistomisal-eps-converted-to.pdf used on input line 354.
-(pdftex.def)             Requested size: 104.3984pt x 104.39915pt.
- [14])) (./04_data_classification/data_classification.tex
+(pdftex.def)             Requested size: 85.9996pt x 86.00089pt.
+ [31])) [32 <./03_image_processing/05_registration/figures/histogram/jointhisto
+alg-eps-converted-to.pdf> <./03_image_processing/05_registration/figures/histog
+ram/jointhistomisal-eps-converted-to.pdf>]
+(./04_data_classification/data_classification.tex
 (./04_data_classification/06a_roi_detection/roi_detection.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--11
-[]|$\OT1/txr/m/n/9 [$4-5,7-
+[]|$\OT1/cmr/m/n/9 [$4-5,7-8,13,15,17-18,21-
  []
 
+[33]) (./04_data_classification/06_feature_detection/feature_detection.tex
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--11
-\OT1/txr/m/n/9 8,13,15,17-
- []
+LaTeX Warning: Float too large for page by 488.8839pt on input line 63.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--16
+Overfull \hbox (2.505pt too wide) in paragraph at lines 146--168
 [][]
  []
 
-) (./04_data_classification/06_feature_detection/feature_detection.tex [15 <./0
-3_image_processing/05_registration/figures/histogram/jointhistoalg-eps-converte
-d-to.pdf> <./03_image_processing/05_registration/figures/histogram/jointhistomi
-sal-eps-converted-to.pdf>]
-
-LaTeX Warning: Float too large for page by 1.17757pt on input line 63.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-[17]
-Underfull \hbox (badness 1184) in paragraph at lines 360--374
-[]\OT1/txr/bx/it/10 Quantitative ap-proach: \OT1/txr/m/n/10 As pre-sented in Se
-ct. 2.2.2,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 360--374
-\OT1/txr/m/n/10 quan-ti-ta-tive ap-proaches cor-re-spond to mathematical-
- []
-
-[18]
+[34] [35] [36] [37] [38] [39] [40]
 Package epstopdf Info: Source file: <04_data_classification/06_feature_detectio
 n/figures/dce/dce_cancer_parameters.eps>
 (epstopdf)                    date: 2014-01-23 09:23:40
@@ -2730,7 +2348,7 @@ _classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters-
-eps-converted-to.pdf, id=185, 710.655pt x 510.90875pt>
+eps-converted-to.pdf, id=273, 710.655pt x 510.90875pt>
 File: 04_data_classification/06_feature_detection/figures/dce/dce_cancer_parame
 ters-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2738,79 +2356,46 @@ ters-eps-converted-to.pdf Graphic file (type pdf)
 ers-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/06_feature_detection/figures/dc
 e/dce_cancer_parameters-eps-converted-to.pdf used on input line 408.
-(pdftex.def)             Requested size: 252.0pt x 181.16728pt.
+(pdftex.def)             Requested size: 258.00539pt x 185.49397pt.
 )
 (./04_data_classification/07_feature_selection_extraction/feature_selection_ext
-raction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 21--37
-[][]
+raction.tex [41 <./04_data_classification/06_feature_detection/figures/dce/dce_
+cancer_parameters-eps-converted-to.pdf>] [42]
+Overfull \hbox (53.19955pt too wide) in paragraph at lines 103--103
+[][][]\OT1/cmr/m/n/8 Laplacian eigen-map im-ple-men-ta-tion is avail-able at: \
+OT1/cmtt/m/n/8 http://www.cse.ohio-state.edu/$\OMS/cmsy/m/n/8 ^^X$\OT1/cmtt/m/n
+/8 mbelkin/algorithms/algorithms.html| 
  []
 
-[19 <./04_data_classification/06_feature_detection/figures/dce/dce_cancer_param
-eters-eps-converted-to.pdf>]
-Underfull \hbox (badness 5189) in paragraph at lines 132--132
-[][][][]\OT1/txr/m/n/8 LLE im-ple-men-ta-tion is avail-able at: \OT1/cmtt/m/n/8
- http://www.cs.nyu.edu/
- []
-
-) (./04_data_classification/08_classification/classification.tex
+[43]) (./04_data_classification/08_classification/classification.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
-[]|$\OT1/txr/m/n/9 [$4-6,8,10-11,14-
+[]|$\OT1/cmr/m/n/9 [$4-6,8,10-11,14-15,19-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
-\OT1/txr/m/n/9 15,19-24,26,32,39-
+LaTeX Warning: Float too large for page by 63.77182pt on input line 42.
+
+[44] [45]
+Overfull \hbox (48.00252pt too wide) in paragraph at lines 168--168
+[][][]\OT1/cmr/m/n/8 Random for-est im-ple-men-ta-tion can be found at: \OT1/cm
+tt/m/n/8 http://www.stat.berkeley.edu/$\OMS/cmsy/m/n/8 ^^X$\OT1/cmtt/m/n/8 brei
+man/RandomForests/cc[]software.htm| 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--42
-[][]
+[46]
+Overfull \hbox (34.16595pt too wide) in paragraph at lines 215--215
+[][][]\OT1/cmr/m/n/8 Gaussian pro-cess im-ple-men-ta-tion can be found at: \OT1
+/cmtt/m/n/8 http://www.gaussianprocess.org/gpml/code/matlab/doc/index.html| 
  []
 
-[20]
-Underfull \hbox (badness 2343) in paragraph at lines 215--215
-[][][]\OT1/txr/m/n/8 Gaussian pro-cess im-ple-men-ta-tion can be found at: \OT1
-/cmtt/m/n/8 http://www.
- []
-
-[21]
-Underfull \hbox (badness 1253) in paragraph at lines 248--286
-[][]\OT1/txr/m/n/10 Support vec-tor ma-chines (SVM)[] is a sparse ker-nel
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
-[]|$\OT1/txr/m/n/9 [$1-8,11,18-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 523--532
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 551--551
-[]|$\OT1/txr/m/n/9 [$4-5,7,13,15,18,21-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 552--552
-[]|$\OT1/txr/m/n/9 [$2-3,6-9,14-20,24,30-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--558
-[][]
- []
-
+[47] [48] [49]
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-[22] [23])) (./09_discussion/discussion.tex
+ [50] [51] [52])) (./09_discussion/discussion.tex
 Package epstopdf Info: Source file: <09_discussion/figures/froc.eps>
 (epstopdf)                    date: 2014-04-30 11:30:30
 (epstopdf)                    size: 11831 bytes
@@ -2823,110 +2408,106 @@ eps-converted-to.pdf 09_discussion/figures/froc.eps>
 (epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
 
-<09_discussion/figures/froc-eps-converted-to.pdf, id=211, 670.505pt x 490.83376
+<09_discussion/figures/froc-eps-converted-to.pdf, id=320, 670.505pt x 490.83376
 pt>
 File: 09_discussion/figures/froc-eps-converted-to.pdf Graphic file (type pdf)
  <use 09_discussion/figures/froc-eps-converted-to.pdf>
 Package pdftex.def Info: 09_discussion/figures/froc-eps-converted-to.pdf used o
 n input line 105.
-(pdftex.def)             Requested size: 252.0pt x 184.46663pt.
- [24 <./09_discussion/figures/froc-eps-converted-to.pdf>]
-Underfull \hbox (badness 2134) in paragraph at lines 140--141
-[]\OT1/txr/m/n/10 Lately, three stud-ies (Lit-jens et al. (2014a, 2012b),
+(pdftex.def)             Requested size: 258.00539pt x 188.86298pt.
+ [53 <./09_discussion/figures/froc-eps-converted-to.pdf>] [54] [55] [56]) [57]
+(./10_conclusion/conclusion.tex) (./11_acknowledgement/acknowledgement.tex)
+(./g_lemaitre_state_of_the_art.bbl [58]
+Underfull \hbox (badness 10000) in paragraph at lines 53--60
+[]\OT1/cmr/m/n/10 American Can-cer So-ci-ety, A.C., 2010.  Can-cer Facts and Fi
+g-ures 2010.
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 61--68
+[]\OT1/cmr/m/n/10 American Can-cer So-ci-ety, A.C., 2013.  Can-cer Facts and Fi
+g-ures 2013.
+ []
 
- [25])
-(./10_conclusion/conclusion.tex) (./11_acknowledgement/acknowledgement.tex)
-(./g_lemaitre_state_of_the_art.bbl [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[59] [60]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 338.
 
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 338.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxr.fd
-File: omstxr.fd 2000/12/15 v3.1
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 338.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
-Missing character: There is no â in font txr!
-Missing character: There is no € in font txr!
-Missing character: There is no “ in font txr!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-Missing character: There is no Ã in font txr!
-Missing character: There is no ¨ in font txr!
-Missing character: There is no Ã in font txr!
-Missing character: There is no © in font txr!
-Missing character: There is no Ã in font txr!
-Missing character: There is no © in font txr!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Missing character: There is no Ã in font txr!
-Missing character: There is no ¡ in font txr!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31])
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 338.
+ [61]
+[62] [63] [64]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [65] [66] [67] [68] [69] [70] [71]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¨ in font cmr10!
+ [72]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+ [73] [74] [75]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+ [76]
+[77] [78] [79] [80])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+ [81]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
-
-[32
-
-] (./g_lemaitre_state_of_the_art.aux)
+ (./g_lemaitre_state_of_the_art.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 32157 strings out of 493304
- 646586 string characters out of 6139872
- 913830 words of memory out of 10000000
- 34814 multiletter control sequences out of 15000+600000
- 71026 words of font info for 175 fonts, out of 8000000 for 9000
+ 31622 strings out of 493304
+ 639836 string characters out of 6139872
+ 902288 words of memory out of 10000000
+ 34331 multiletter control sequences out of 15000+600000
+ 22641 words of font info for 82 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 64i,21n,74p,10417b,1325s stack positions out of 5000i,500n,10000p,10000000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/txfonts/rtxbi.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/txfonts/rtxbmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
-onts/rtxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
-imes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (32 pages, 1101203 bytes).
+ 64i,21n,74p,10417b,1331s stack positions out of 5000i,500n,10000p,10000000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/zapfding/uzdr.pfb>
+Output written on g_lemaitre_state_of_the_art.pdf (81 pages, 1393711 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
+ 527 PDF objects out of 1000 (max. 8388607)
+ 342 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  237 words of extra memory for PDF output out of 10000 (max. 10000000)
 
