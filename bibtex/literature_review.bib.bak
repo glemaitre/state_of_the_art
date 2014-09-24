@@ -513,6 +513,16 @@
   Publisher                = {Elsevier Science Inc.}
 }
 
+@Article{Chilali2014190,
+  Title                    = {A survey of prostate modeling for image analysis },
+  Author                   = {O. Chilali and A. Ouzzane and M. Diaf and N. Betrouni},
+  Journal                  = {Computers in Biology and Medicine },
+  Year                     = {2014},
+  Number                   = {0},
+  Pages                    = {190 - 202},
+  Volume                   = {53}
+}
+
 @Article{Choi2007,
   Title                    = {{{F}unctional {M}{R} imaging of prostate cancer}},
   Author                   = {Choi, Y. J. and Kim, J. K. and Kim, N. and Kim, K. W. and Choi, E. K. and Cho, K. S.},
@@ -1982,7 +1992,7 @@
   Volume                   = {12}
 }
 
-@Article{pmid17412096,
+@Article{Metz2006,
   Title                    = {{{R}eceiver operating characteristic analysis: a tool for the quantitative evaluation of observer performance and imaging systems}},
   Author                   = {Metz, C. E. },
   Journal                  = {J Am Coll Radiol},

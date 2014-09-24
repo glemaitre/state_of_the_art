@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.28)  11 JUN 2014 10:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.8)  23 SEP 2014 09:37
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **g_lemaitre_state_of_the_art.tex
 (./g_lemaitre_state_of_the_art.tex
@@ -1862,8 +1862,8 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 64.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ))
-(./01_introduction/introduction.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/p
-dftex.map}
+(./01_introduction/introduction.tex [1{/home/lemaitre/.texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map}
 
 
 ]) (./02_background/background.tex [2]
@@ -1894,8 +1894,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:41
 (epstopdf)                    size: 10583 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
 (epstopdf)             \includegraphics on input line 192.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -1914,8 +1914,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:41
 (epstopdf)                    size: 10583 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
@@ -1932,8 +1932,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:41
 (epstopdf)                    size: 10583 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
@@ -1950,8 +1950,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:41
 (epstopdf)                    size: 10583 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
 (epstopdf)             \includegraphics on input line 205.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
@@ -1968,8 +1968,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:41
 (epstopdf)                    size: 10583 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
 (epstopdf)             \includegraphics on input line 209.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
@@ -1986,8 +1986,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:41
 (epstopdf)                    size: 10583 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
 (epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
@@ -2004,8 +2004,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 nverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:42
 (epstopdf)                    size: 7551 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
 (epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2024,8 +2024,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 nverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:42
 (epstopdf)                    size: 7551 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
 (epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dce-eps-converted-to.pdf Graphic file (ty
@@ -2042,8 +2042,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 nverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:42
 (epstopdf)                    size: 7551 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
 (epstopdf)             \includegraphics on input line 226.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dce-eps-converted-to.pdf Graphic file (ty
@@ -2060,8 +2060,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/dwi1.eps>
 onverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:42
 (epstopdf)                    size: 5017 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
 (epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2080,8 +2080,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/dwi1.eps>
 onverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:42
 (epstopdf)                    size: 5017 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
 (epstopdf)             \includegraphics on input line 235.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dwi1-eps-converted-to.pdf Graphic file (t
@@ -2098,8 +2098,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/dwi1.eps>
 onverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:42
 (epstopdf)                    size: 5017 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/dwi1-eps-converted-to.pdf 02_background/figures/tikzimage/dwi1.eps>
 (epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dwi1-eps-converted-to.pdf Graphic file (t
@@ -2116,8 +2116,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/adc.eps>
 nverted-to.pdf>
 (epstopdf)                    date: 2014-05-12 12:23:13
 (epstopdf)                    size: 14008 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
 (epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2136,8 +2136,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/adc.eps>
 nverted-to.pdf>
 (epstopdf)                    date: 2014-05-12 12:23:13
 (epstopdf)                    size: 14008 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
 (epstopdf)             \includegraphics on input line 248.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/adc-eps-converted-to.pdf Graphic file (ty
@@ -2154,8 +2154,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/adc.eps>
 nverted-to.pdf>
 (epstopdf)                    date: 2014-05-12 12:23:13
 (epstopdf)                    size: 14008 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
 (epstopdf)             \includegraphics on input line 252.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/adc-eps-converted-to.pdf Graphic file (ty
@@ -2172,8 +2172,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/mrsi.eps>
 onverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:49:35
 (epstopdf)                    size: 12482 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
 (epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2192,8 +2192,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/mrsi.eps>
 onverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:49:35
 (epstopdf)                    size: 12482 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
 (epstopdf)             \includegraphics on input line 261.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/mrsi-eps-converted-to.pdf Graphic file (t
@@ -2210,8 +2210,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/mrsi.eps>
 onverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:49:35
 (epstopdf)                    size: 12482 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/mrsi-eps-converted-to.pdf 02_background/figures/tikzimage/mrsi.eps>
 (epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/mrsi-eps-converted-to.pdf Graphic file (t
@@ -2229,8 +2229,8 @@ Package epstopdf Info: Source file: <02_background/figures/t2w/t2w_healthy.eps>
 converted-to.pdf>
 (epstopdf)                    date: 2014-01-22 22:45:36
 (epstopdf)                    size: 19353 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/t2w/
-t2w_healthy-eps-converted-to.pdf 02_background/figures/t2w/t2w_healthy.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/t2w/t
+2w_healthy-eps-converted-to.pdf 02_background/figures/t2w/t2w_healthy.eps>
 (epstopdf)             \includegraphics on input line 318.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2251,9 +2251,8 @@ s>
 s-converted-to.pdf>
 (epstopdf)                    date: 2014-01-22 23:02:37
 (epstopdf)                    size: 41571 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/t2w/
-t2w_cancer_pz-eps-converted-to.pdf 02_background/figures/t2w/t2w_cancer_pz.eps>
-
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/t2w/t
+2w_cancer_pz-eps-converted-to.pdf 02_background/figures/t2w/t2w_cancer_pz.eps>
 (epstopdf)             \includegraphics on input line 319.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2274,9 +2273,8 @@ s>
 s-converted-to.pdf>
 (epstopdf)                    date: 2014-01-23 14:32:48
 (epstopdf)                    size: 33952 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/t2w/
-t2w_cancer_cg-eps-converted-to.pdf 02_background/figures/t2w/t2w_cancer_cg.eps>
-
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/t2w/t
+2w_cancer_cg-eps-converted-to.pdf 02_background/figures/t2w/t2w_cancer_cg.eps>
 (epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2308,8 +2306,8 @@ Package epstopdf Info: Source file: <02_background/figures/dce/slice.eps>
 ted-to.pdf>
 (epstopdf)                    date: 2014-05-12 15:28:50
 (epstopdf)                    size: 31573 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/dce/
-slice-eps-converted-to.pdf 02_background/figures/dce/slice.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/dce/s
+lice-eps-converted-to.pdf 02_background/figures/dce/slice.eps>
 (epstopdf)             \includegraphics on input line 378.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2329,9 +2327,9 @@ hy.eps>
 hy-eps-converted-to.pdf>
 (epstopdf)                    date: 2014-01-22 21:50:37
 (epstopdf)                    size: 8272 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/dce/
-dce_cancer_healthy-eps-converted-to.pdf 02_background/figures/dce/dce_cancer_he
-althy.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/dce/d
+ce_cancer_healthy-eps-converted-to.pdf 02_background/figures/dce/dce_cancer_hea
+lthy.eps>
 (epstopdf)             \includegraphics on input line 379.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2351,8 +2349,8 @@ Package epstopdf Info: Source file: <02_background/figures/dwi/dwi_cancer.eps>
 onverted-to.pdf>
 (epstopdf)                    date: 2014-01-27 17:35:12
 (epstopdf)                    size: 13483 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/dwi/
-dwi_cancer-eps-converted-to.pdf 02_background/figures/dwi/dwi_cancer.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/dwi/d
+wi_cancer-eps-converted-to.pdf 02_background/figures/dwi/dwi_cancer.eps>
 (epstopdf)             \includegraphics on input line 416.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2371,8 +2369,8 @@ Package epstopdf Info: Source file: <02_background/figures/dwi/adc_cancer.eps>
 onverted-to.pdf>
 (epstopdf)                    date: 2014-01-27 17:35:13
 (epstopdf)                    size: 30458 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/dwi/
-adc_cancer-eps-converted-to.pdf 02_background/figures/dwi/adc_cancer.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/dwi/a
+dc_cancer-eps-converted-to.pdf 02_background/figures/dwi/adc_cancer.eps>
 (epstopdf)             \includegraphics on input line 417.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2417,9 +2415,8 @@ s>
 s-converted-to.pdf>
 (epstopdf)                    date: 2014-01-23 20:32:45
 (epstopdf)                    size: 14460 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/mrsi
-/mrsi_healthy-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_healthy.eps>
-
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/mrsi/
+mrsi_healthy-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_healthy.eps>
 (epstopdf)             \includegraphics on input line 520.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2440,8 +2437,8 @@ Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_cancer.eps
 -converted-to.pdf>
 (epstopdf)                    date: 2014-01-23 20:32:45
 (epstopdf)                    size: 16387 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/mrsi
-/mrsi_cancer-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_cancer.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/mrsi/
+mrsi_cancer-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_cancer.eps>
 (epstopdf)             \includegraphics on input line 521.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2475,9 +2472,9 @@ es/niaf/t2w_bladder.eps>
 es/niaf/t2w_bladder-eps-converted-to.pdf>
 (epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 32465 bytes
-(epstopdf)             Command: <repstopdf --outfile=03_image_processing/03_pre
-processing/figures/niaf/t2w_bladder-eps-converted-to.pdf 03_image_processing/03
-_preprocessing/figures/niaf/t2w_bladder.eps>
+(epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
+rocessing/figures/niaf/t2w_bladder-eps-converted-to.pdf 03_image_processing/03_
+preprocessing/figures/niaf/t2w_bladder.eps>
 (epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2499,9 +2496,9 @@ es/niaf/t1w_arteries.eps>
 es/niaf/t1w_arteries-eps-converted-to.pdf>
 (epstopdf)                    date: 2014-01-30 20:40:18
 (epstopdf)                    size: 33487 bytes
-(epstopdf)             Command: <repstopdf --outfile=03_image_processing/03_pre
-processing/figures/niaf/t1w_arteries-eps-converted-to.pdf 03_image_processing/0
-3_preprocessing/figures/niaf/t1w_arteries.eps>
+(epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
+rocessing/figures/niaf/t1w_arteries-eps-converted-to.pdf 03_image_processing/03
+_preprocessing/figures/niaf/t1w_arteries.eps>
 (epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2523,9 +2520,9 @@ es/phase/phase.eps>
 es/phase/phase-eps-converted-to.pdf>
 (epstopdf)                    date: 2014-01-24 11:14:49
 (epstopdf)                    size: 9956 bytes
-(epstopdf)             Command: <repstopdf --outfile=03_image_processing/03_pre
-processing/figures/phase/phase-eps-converted-to.pdf 03_image_processing/03_prep
-rocessing/figures/phase/phase.eps>
+(epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
+rocessing/figures/phase/phase-eps-converted-to.pdf 03_image_processing/03_prepr
+ocessing/figures/phase/phase.eps>
 (epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2551,9 +2548,9 @@ es/water/water_fat.eps>
 es/water/water_fat-eps-converted-to.pdf>
 (epstopdf)                    date: 2014-01-24 14:30:25
 (epstopdf)                    size: 10165 bytes
-(epstopdf)             Command: <repstopdf --outfile=03_image_processing/03_pre
-processing/figures/water/water_fat-eps-converted-to.pdf 03_image_processing/03_
-preprocessing/figures/water/water_fat.eps>
+(epstopdf)             Command: <epstopdf --outfile=03_image_processing/03_prep
+rocessing/figures/water/water_fat-eps-converted-to.pdf 03_image_processing/03_p
+reprocessing/figures/water/water_fat.eps>
 (epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2595,8 +2592,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 nverted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:42
 (epstopdf)                    size: 7551 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/dce-eps-converted-to.pdf 02_background/figures/tikzimage/dce.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/dce-eps-converted-to.pdf Graphic file (ty
@@ -2613,8 +2610,8 @@ Package epstopdf Info: Source file: <02_background/figures/tikzimage/t2.eps>
 verted-to.pdf>
 (epstopdf)                    date: 2013-10-09 16:46:41
 (epstopdf)                    size: 10583 bytes
-(epstopdf)             Command: <repstopdf --outfile=02_background/figures/tikz
-image/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
+(epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
+mage/t2-eps-converted-to.pdf 02_background/figures/tikzimage/t2.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 File: 02_background/figures/tikzimage/t2-eps-converted-to.pdf Graphic file (typ
@@ -2639,9 +2636,9 @@ s/histogram/jointhistoalg.eps>
 s/histogram/jointhistoalg-eps-converted-to.pdf>
 (epstopdf)                    date: 2014-03-07 12:29:28
 (epstopdf)                    size: 7348 bytes
-(epstopdf)             Command: <repstopdf --outfile=03_image_processing/05_reg
-istration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_process
-ing/05_registration/figures/histogram/jointhistoalg.eps>
+(epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
+stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
+ng/05_registration/figures/histogram/jointhistoalg.eps>
 (epstopdf)             \includegraphics on input line 353.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2663,9 +2660,9 @@ s/histogram/jointhistomisal.eps>
 s/histogram/jointhistomisal-eps-converted-to.pdf>
 (epstopdf)                    date: 2014-03-07 12:29:28
 (epstopdf)                    size: 31593 bytes
-(epstopdf)             Command: <repstopdf --outfile=03_image_processing/05_reg
-istration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proce
-ssing/05_registration/figures/histogram/jointhistomisal.eps>
+(epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
+stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
+sing/05_registration/figures/histogram/jointhistomisal.eps>
 (epstopdf)             \includegraphics on input line 354.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2726,9 +2723,9 @@ n/figures/dce/dce_cancer_parameters.eps>
 n/figures/dce/dce_cancer_parameters-eps-converted-to.pdf>
 (epstopdf)                    date: 2014-01-23 09:24:00
 (epstopdf)                    size: 470548 bytes
-(epstopdf)             Command: <repstopdf --outfile=04_data_classification/06_
-feature_detection/figures/dce/dce_cancer_parameters-eps-converted-to.pdf 04_dat
-a_classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps>
+(epstopdf)             Command: <epstopdf --outfile=04_data_classification/06_f
+eature_detection/figures/dce/dce_cancer_parameters-eps-converted-to.pdf 04_data
+_classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps>
 (epstopdf)             \includegraphics on input line 408.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2821,8 +2818,8 @@ Package epstopdf Info: Source file: <09_discussion/figures/froc.eps>
 o.pdf>
 (epstopdf)                    date: 2014-04-30 11:34:37
 (epstopdf)                    size: 9336 bytes
-(epstopdf)             Command: <repstopdf --outfile=09_discussion/figures/froc
--eps-converted-to.pdf 09_discussion/figures/froc.eps>
+(epstopdf)             Command: <epstopdf --outfile=09_discussion/figures/froc-
+eps-converted-to.pdf 09_discussion/figures/froc.eps>
 (epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
 
@@ -2870,12 +2867,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Missing character: There is no Ã in font txr!
-Missing character: There is no ¨ in font txr!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
+Missing character: There is no Ã in font txr!
+Missing character: There is no ¨ in font txr!
 Missing character: There is no Ã in font txr!
 Missing character: There is no © in font txr!
 Missing character: There is no Ã in font txr!
@@ -2905,13 +2902,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 32154 strings out of 493304
- 646529 string characters out of 6139871
- 913750 words of memory out of 5000000
- 34811 multiletter control sequences out of 15000+600000
+ 32157 strings out of 493304
+ 646586 string characters out of 6139872
+ 913830 words of memory out of 10000000
+ 34814 multiletter control sequences out of 15000+600000
  71026 words of font info for 175 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 64i,21n,74p,10417b,1325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,21n,74p,10417b,1325s stack positions out of 5000i,500n,10000p,10000000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/
@@ -2926,7 +2923,7 @@ nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (32 pages, 1101155 bytes).
+Output written on g_lemaitre_state_of_the_art.pdf (32 pages, 1101203 bytes).
 PDF statistics:
  300 PDF objects out of 1000 (max. 8388607)
  183 compressed objects within 2 object streams
