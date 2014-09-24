@@ -2,11 +2,14 @@
 
 Discriminative features which can be used to recognize \ac{cap} from healthy tissue have to be first detected. This processing is known in computer vision as feature extraction. However, feature extraction is also the name given in pattern recognition to some types of dimension reduction methods which will be presented in the next section. In order to avoid confusion between these two aspects, in this survey, the procedure ``detecting'' or ``extracting'' features from images and signals will be defined as feature detection. This section will summarize the different strategies employed for this task. The features used in the studies reviewed are summarized in Tab. \ref{tab:feat}.
 
+\newgeometry{margin=1cm}
+\thispagestyle{empty}
 \begin{table*}
+	\centering
 	\caption{Overview of the feature detection methods used in \ac{cad} systems.}
-	\small
+	\footnotesize
 	\begin{threeparttable}
-	\renewcommand{\arraystretch}{.9}
+	\renewcommand{\arraystretch}{.6}
 	\begin{tabular}{p{.6\linewidth} p{.3\linewidth}}
 		\hline \\ [-1.5ex]
 		\textbf{Feature detection methods} & \textbf{Indexes} \\ \\ [-1.5ex]
@@ -61,6 +64,7 @@ Discriminative features which can be used to recognize \ac{cap} from healthy tis
 	\end{threeparttable}
 	\label{tab:feat}
 \end{table*}
+\restoregeometry
 
 %\begin{table*}
 %\centering
@@ -142,7 +146,7 @@ Discriminative features which can be used to recognize \ac{cap} from healthy tis
 \begin{table*}
 	\caption{Parameters used as features for a \ac{dce} semi-quantitative analysis in \ac{cad} systems.}
 	\small
-	%\renewcommand{\arraystretch}{1.5}
+	\renewcommand{\arraystretch}{.8}
 	\begin{tabular}{p{.35\linewidth} p{.60\linewidth}}
 		\hline \\ [-1.5ex]
 		\textbf{Semi-quantitative features} & \textbf{Explanations} \\ \\ [-1.5ex]

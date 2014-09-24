@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.8)  24 SEP 2014 09:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.8)  24 SEP 2014 10:47
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1526,8 +1526,8 @@ Underfull \hbox (badness 6300) in paragraph at lines 79--79
  []
 
 
-Overfull \hbox (81.50348pt too wide) in paragraph at lines 65--99
-[]
+Overfull \hbox (38.82436pt too wide) in paragraph at lines 65--97
+[][] 
  []
 
 
@@ -1768,11 +1768,11 @@ Package pdftex.def Info: 02_background/figures/tikzimage/dwi1-eps-converted-to.
 pdf used on input line 239.
 (pdftex.def)             Requested size: 28.45274pt x 28.45209pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/adc.eps>
-(epstopdf)                    date: 2014-05-12 12:23:13
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 79609 bytes
 (epstopdf)             Output file: <02_background/figures/tikzimage/adc-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2014-05-12 12:23:13
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 14008 bytes
 (epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
 mage/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
@@ -1788,11 +1788,11 @@ Package pdftex.def Info: 02_background/figures/tikzimage/adc-eps-converted-to.p
 df used on input line 244.
 (pdftex.def)             Requested size: 28.45274pt x 28.45097pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/adc.eps>
-(epstopdf)                    date: 2014-05-12 12:23:13
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 79609 bytes
 (epstopdf)             Output file: <02_background/figures/tikzimage/adc-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2014-05-12 12:23:13
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 14008 bytes
 (epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
 mage/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
@@ -1806,11 +1806,11 @@ Package pdftex.def Info: 02_background/figures/tikzimage/adc-eps-converted-to.p
 df used on input line 248.
 (pdftex.def)             Requested size: 28.45274pt x 28.45097pt.
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/adc.eps>
-(epstopdf)                    date: 2014-05-12 12:23:13
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 79609 bytes
 (epstopdf)             Output file: <02_background/figures/tikzimage/adc-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2014-05-12 12:23:13
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 14008 bytes
 (epstopdf)             Command: <epstopdf --outfile=02_background/figures/tikzi
 mage/adc-eps-converted-to.pdf 02_background/figures/tikzimage/adc.eps>
@@ -1953,11 +1953,11 @@ ed-to.pdf> <./02_background/figures/tikzimage/mrsi-eps-converted-to.pdf>] [8] [
 nd/figures/t2w/t2w_cancer_pz-eps-converted-to.pdf> <./02_background/figures/t2w
 /t2w_cancer_cg-eps-converted-to.pdf>] [10]
 Package epstopdf Info: Source file: <02_background/figures/dce/slice.eps>
-(epstopdf)                    date: 2014-05-12 12:30:45
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 359465 bytes
 (epstopdf)             Output file: <02_background/figures/dce/slice-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2014-05-12 15:28:50
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 31573 bytes
 (epstopdf)             Command: <epstopdf --outfile=02_background/figures/dce/s
 lice-eps-converted-to.pdf 02_background/figures/dce/slice.eps>
@@ -2043,33 +2043,6 @@ pdf used on input line 417.
 figures/dce/dce_cancer_healthy-eps-converted-to.pdf>] [13 <./02_background/figu
 res/dwi/dwi_cancer-eps-converted-to.pdf> <./02_background/figures/dwi/adc_cance
 r-eps-converted-to.pdf>]
-Overfull \hbox (0.8529pt too wide) in paragraph at lines 458--458
- []|[]| 
- []
-
-
-Overfull \hbox (6.79926pt too wide) in paragraph at lines 459--459
- []|\OT1/cmr/m/n/8 patients| 
- []
-
-
-Overfull \hbox (2.85571pt too wide) in paragraph at lines 459--459
- []|[]\OT1/cmr/m/n/8 CADe| 
- []
-
-
-Overfull \hbox (3.56406pt too wide) in paragraph at lines 459--459
- []|[]\OT1/cmr/m/n/8 CADx| 
- []
-
-
-Overfull \hbox (113.77264pt too wide) in paragraph at lines 454--515
- [] 
- []
-
-
-LaTeX Warning: Float too large for page by 688.30028pt on input line 515.
-
 Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_healthy.ep
 s>
 (epstopdf)                    date: 2014-01-23 20:15:45
@@ -2080,7 +2053,7 @@ s-converted-to.pdf>
 (epstopdf)                    size: 14460 bytes
 (epstopdf)             Command: <epstopdf --outfile=02_background/figures/mrsi/
 mrsi_healthy-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_healthy.eps>
-(epstopdf)             \includegraphics on input line 520.
+(epstopdf)             \includegraphics on input line 451.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf, id=134, 547.0437
@@ -2090,7 +2063,7 @@ File: 02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf Graphic file
 
 <use 02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/mrsi/mrsi_healthy-eps-converted-
-to.pdf used on input line 520.
+to.pdf used on input line 451.
 (pdftex.def)             Requested size: 193.50076pt x 119.64832pt.
 Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_cancer.eps
 >
@@ -2102,7 +2075,7 @@ Package epstopdf Info: Source file: <02_background/figures/mrsi/mrsi_cancer.eps
 (epstopdf)                    size: 16387 bytes
 (epstopdf)             Command: <epstopdf --outfile=02_background/figures/mrsi/
 mrsi_cancer-eps-converted-to.pdf 02_background/figures/mrsi/mrsi_cancer.eps>
-(epstopdf)             \includegraphics on input line 521.
+(epstopdf)             \includegraphics on input line 452.
 Package epstopdf Info: Output file is already uptodate.
 
 <02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf, id=135, 547.04375
@@ -2112,12 +2085,63 @@ File: 02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf Graphic file
 
 <use 02_background/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>
 Package pdftex.def Info: 02_background/figures/mrsi/mrsi_cancer-eps-converted-t
-o.pdf used on input line 521.
+o.pdf used on input line 452.
 (pdftex.def)             Requested size: 193.50076pt x 119.64832pt.
  [14 <./02_background/figures/mrsi/mrsi_healthy-eps-converted-to.pdf> <./02_bac
-kground/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>] [15] [16] [17])
-(./03_image_processing/image_processing.tex [18]
+kground/figures/mrsi/mrsi_cancer-eps-converted-to.pdf>] [15]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(14.22636pt, 585.84227pt, 14.22636pt)
+* v-part:(T,H,B)=(14.22636pt, 766.51726pt, 14.22636pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=585.84227pt
+* \textheight=766.51726pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-95.04362pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \hbox (5.07951pt too wide) in paragraph at lines 496--496
+ []|\OT1/cmr/m/n/7 patients| 
+ []
+
+
+Overfull \hbox (1.27077pt too wide) in paragraph at lines 496--496
+ []|[]\OT1/cmr/m/n/7 CADe| 
+ []
+
+
+Overfull \hbox (1.91661pt too wide) in paragraph at lines 496--496
+ []|[]\OT1/cmr/m/n/7 CADx| 
+ []
+
+[16] [17
+
+
+]) [18] (./03_image_processing/image_processing.tex
 (./03_image_processing/03_preprocessing/preprocessing_rm.tex [19] [20] [21]
+[22]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/niaf/t2w_bladder.eps>
 (epstopdf)                    date: 2014-01-30 20:40:18
@@ -2133,7 +2157,7 @@ preprocessing/figures/niaf/t2w_bladder.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-converted-to
-.pdf, id=170, 258.9675pt x 194.7275pt>
+.pdf, id=173, 258.9675pt x 194.7275pt>
 File: 03_image_processing/03_preprocessing/figures/niaf/t2w_bladder-eps-convert
 ed-to.pdf Graphic file (type pdf)
 
@@ -2157,7 +2181,7 @@ _preprocessing/figures/niaf/t1w_arteries.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-converted-t
-o.pdf, id=171, 258.9675pt x 194.7275pt>
+o.pdf, id=174, 258.9675pt x 194.7275pt>
 File: 03_image_processing/03_preprocessing/figures/niaf/t1w_arteries-eps-conver
 ted-to.pdf Graphic file (type pdf)
 
@@ -2166,7 +2190,6 @@ ed-to.pdf>
 Package pdftex.def Info: 03_image_processing/03_preprocessing/figures/niaf/t1w_
 arteries-eps-converted-to.pdf used on input line 230.
 (pdftex.def)             Requested size: 171.99922pt x 129.33763pt.
- [22]
 Package epstopdf Info: Source file: <03_image_processing/03_preprocessing/figur
 es/phase/phase.eps>
 (epstopdf)                    date: 2014-01-24 11:09:21
@@ -2221,7 +2244,7 @@ er_fat-eps-converted-to.pdf used on input line 292.
  [24 <./03_image_processing/03_preprocessing/figures/phase/phase-eps-converted-
 to.pdf>] [25 <./03_image_processing/03_preprocessing/figures/water/water_fat-ep
 s-converted-to.pdf>])
-(./03_image_processing/04_segmentation/segmentation_rm.tex [26]) [27]
+(./03_image_processing/04_segmentation/segmentation_rm.tex [26] [27])
 (./03_image_processing/05_registration/registration.tex
 Package epstopdf Info: Source file: <02_background/figures/tikzimage/dce.eps>
 (epstopdf)                    date: 2013-10-09 16:41:58
@@ -2261,18 +2284,18 @@ f used on input line 69.
 (pdftex.def)             Requested size: 42.67912pt x 42.67801pt.
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (40.5544pt too wide) in paragraph at lines 195--220
- [] 
+Overfull \hbox (17.79211pt too wide) in paragraph at lines 195--218
+[][] 
  []
 
 [28] [29] [30]
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg.eps>
-(epstopdf)                    date: 2014-03-07 12:29:28
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 31205 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistoalg-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-07 12:29:28
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 7348 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistoalg-eps-converted-to.pdf 03_image_processi
@@ -2292,11 +2315,11 @@ jointhistoalg-eps-converted-to.pdf used on input line 353.
 (pdftex.def)             Requested size: 85.9996pt x 86.00089pt.
 Package epstopdf Info: Source file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal.eps>
-(epstopdf)                    date: 2014-03-07 12:29:28
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 241135 bytes
 (epstopdf)             Output file: <03_image_processing/05_registration/figure
 s/histogram/jointhistomisal-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-03-07 12:29:28
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 31593 bytes
 (epstopdf)             Command: <epstopdf --outfile=03_image_processing/05_regi
 stration/figures/histogram/jointhistomisal-eps-converted-to.pdf 03_image_proces
@@ -2324,15 +2347,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--11
  []
 
 [33]) (./04_data_classification/06_feature_detection/feature_detection.tex
+[34]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=557.38951pt
+* \textheight=738.0645pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Warning: Float too large for page by 488.8839pt on input line 63.
-
-
-Overfull \hbox (2.505pt too wide) in paragraph at lines 146--168
+ [35]
+Overfull \hbox (2.505pt too wide) in paragraph at lines 150--172
 [][]
  []
 
-[34] [35] [36] [37] [38] [39] [40]
+[36
+
+
+] [37] [38] [39]
 Package epstopdf Info: Source file: <04_data_classification/06_feature_detectio
 n/figures/dce/dce_cancer_parameters.eps>
 (epstopdf)                    date: 2014-01-23 09:23:40
@@ -2344,20 +2400,20 @@ n/figures/dce/dce_cancer_parameters-eps-converted-to.pdf>
 (epstopdf)             Command: <epstopdf --outfile=04_data_classification/06_f
 eature_detection/figures/dce/dce_cancer_parameters-eps-converted-to.pdf 04_data
 _classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps>
-(epstopdf)             \includegraphics on input line 408.
+(epstopdf)             \includegraphics on input line 412.
 Package epstopdf Info: Output file is already uptodate.
 
 <04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters-
-eps-converted-to.pdf, id=273, 710.655pt x 510.90875pt>
+eps-converted-to.pdf, id=271, 710.655pt x 510.90875pt>
 File: 04_data_classification/06_feature_detection/figures/dce/dce_cancer_parame
 ters-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 04_data_classification/06_feature_detection/figures/dce/dce_cancer_paramet
 ers-eps-converted-to.pdf>
 Package pdftex.def Info: 04_data_classification/06_feature_detection/figures/dc
-e/dce_cancer_parameters-eps-converted-to.pdf used on input line 408.
+e/dce_cancer_parameters-eps-converted-to.pdf used on input line 412.
 (pdftex.def)             Requested size: 258.00539pt x 185.49397pt.
-)
+ [40])
 (./04_data_classification/07_feature_selection_extraction/feature_selection_ext
 raction.tex [41 <./04_data_classification/06_feature_detection/figures/dce/dce_
 cancer_parameters-eps-converted-to.pdf>] [42]
@@ -2367,15 +2423,12 @@ OT1/cmtt/m/n/8 http://www.cse.ohio-state.edu/$\OMS/cmsy/m/n/8 ^^X$\OT1/cmtt/m/n
 /8 mbelkin/algorithms/algorithms.html| 
  []
 
-[43]) (./04_data_classification/08_classification/classification.tex
+) (./04_data_classification/08_classification/classification.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 []|$\OT1/cmr/m/n/9 [$4-6,8,10-11,14-15,19-
  []
 
-
-LaTeX Warning: Float too large for page by 63.77182pt on input line 42.
-
-[44] [45]
+[43] [44] [45]
 Overfull \hbox (48.00252pt too wide) in paragraph at lines 168--168
 [][][]\OT1/cmr/m/n/8 Random for-est im-ple-men-ta-tion can be found at: \OT1/cm
 tt/m/n/8 http://www.stat.berkeley.edu/$\OMS/cmsy/m/n/8 ^^X$\OT1/cmtt/m/n/8 brei
@@ -2388,36 +2441,36 @@ Overfull \hbox (34.16595pt too wide) in paragraph at lines 215--215
 /cmtt/m/n/8 http://www.gaussianprocess.org/gpml/code/matlab/doc/index.html| 
  []
 
-[47] [48] [49]
+[47] [48] [49] [50])) (./09_discussion/discussion.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- [50] [51] [52])) (./09_discussion/discussion.tex
 Package epstopdf Info: Source file: <09_discussion/figures/froc.eps>
-(epstopdf)                    date: 2014-04-30 11:30:30
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 11831 bytes
 (epstopdf)             Output file: <09_discussion/figures/froc-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2014-04-30 11:34:37
+(epstopdf)                    date: 2014-09-24 09:37:31
 (epstopdf)                    size: 9336 bytes
 (epstopdf)             Command: <epstopdf --outfile=09_discussion/figures/froc-
 eps-converted-to.pdf 09_discussion/figures/froc.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 758.
 Package epstopdf Info: Output file is already uptodate.
 
-<09_discussion/figures/froc-eps-converted-to.pdf, id=320, 670.505pt x 490.83376
+<09_discussion/figures/froc-eps-converted-to.pdf, id=315, 670.505pt x 490.83376
 pt>
 File: 09_discussion/figures/froc-eps-converted-to.pdf Graphic file (type pdf)
  <use 09_discussion/figures/froc-eps-converted-to.pdf>
 Package pdftex.def Info: 09_discussion/figures/froc-eps-converted-to.pdf used o
-n input line 105.
+n input line 758.
 (pdftex.def)             Requested size: 258.00539pt x 188.86298pt.
- [53 <./09_discussion/figures/froc-eps-converted-to.pdf>] [54] [55] [56]) [57]
+ [51] [52] [53]
+[54 <./09_discussion/figures/froc-eps-converted-to.pdf>] [55] [56])
 (./10_conclusion/conclusion.tex) (./11_acknowledgement/acknowledgement.tex)
-(./g_lemaitre_state_of_the_art.bbl [58]
+[57] (./g_lemaitre_state_of_the_art.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 53--60
 []\OT1/cmr/m/n/10 American Can-cer So-ci-ety, A.C., 2010.  Can-cer Facts and Fi
 g-ures 2010.
@@ -2429,7 +2482,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--68
 g-ures 2013.
  []
 
-[59] [60]
+[58] [59] [60]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 338.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -2437,77 +2490,74 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 338.
- [61]
-[62] [63] [64]
+
+[61] [62] [63]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [65] [66] [67] [68] [69] [70] [71]
+ [64] [65] [66] [67] [68] [69] [70]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¨ in font cmr10!
- [72]
+ [71] [72]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no © in font cmr10!
- [73] [74] [75]
+ [73] [74]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ¡ in font cmr10!
- [76]
-[77] [78] [79] [80])
+ [75]
+[76] [77] [78] [79])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
- [81]
+ [80]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./g_lemaitre_state_of_the_art.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 31622 strings out of 493304
- 639836 string characters out of 6139872
- 902288 words of memory out of 10000000
- 34331 multiletter control sequences out of 15000+600000
- 22641 words of font info for 82 fonts, out of 8000000 for 9000
+ 31621 strings out of 493304
+ 639825 string characters out of 6139872
+ 899478 words of memory out of 10000000
+ 34330 multiletter control sequences out of 15000+600000
+ 22281 words of font info for 81 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 64i,21n,74p,10417b,1331s stack positions out of 5000i,500n,10000p,10000000b,80000s
+ 64i,21n,74p,10417b,1333s stack positions out of 5000i,500n,10000p,10000000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/zapfding/uzdr.pfb>
-Output written on g_lemaitre_state_of_the_art.pdf (81 pages, 1393711 bytes).
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib1
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapf
+ding/uzdr.pfb>
+Output written on g_lemaitre_state_of_the_art.pdf (80 pages, 1414361 bytes).
 PDF statistics:
- 527 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
+ 528 PDF objects out of 1000 (max. 8388607)
+ 343 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  237 words of extra memory for PDF output out of 10000 (max. 10000000)
 

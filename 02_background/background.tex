@@ -59,12 +59,12 @@ Another weakness of the current screening strategy lies in the fact that \ac{tru
 \ac{mri} provides promising imaging techniques to overcome the previous mentioned drawbacks. Unlike \ac{trus} biopsy, \ac{mri} examination is a non-invasive protocol and has been shown to be the most accurate and harmless technique currently available (\cite{Turkbey2012}). In this section, we review different \ac{mri} modalities deveoped for \ac{cap} detection and diagnosis. Features used by the radiologist in their daily diagnosis task will receive particular attention together with their drawbacks. Moreover, these features commonly form the basis for developing analytic tools and automatic algorithms. However, we refer the reader to \acs{sec} \ref{subsec:featuredetection} for more details on automatic feature detection methods since they are part and parcel of the \acs{cad} framework. Table \ref{tab:modmri} provides an overview of the following discussion.
 
 \begin{table*}
-%\begin{adjustwidth}{-2.2cm}{}
+\begin{adjustwidth}{-1.5cm}{}
 \caption{Overview of the features associated with each \ac{mri} modality used for medical diagnosis by radiologists. Acronyms: \acf{cap} - \acf{si} - \acf{gs}.}	
 \begin{threeparttable}
 \centering
 \small
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.2}
 	\begin{tabular}{|m{1.7cm}||m{4.5cm}|>{\centering\arraybackslash}m{3.5cm}|>{\centering\arraybackslash}m{4cm}|>{\centering\arraybackslash}m{2cm}|}\hline
 	\rowcolor{gray!10}
 	Modality & Significant features & \ac{cap} & Healthy tissue & \ac{gs} correlation \\ \hline \hline
@@ -94,7 +94,7 @@ Another weakness of the current screening strategy lies in the fact that \ac{tru
       \item 0 = no correlation.
     \end{tablenotes}
 \end{threeparttable}
-%\end{adjustwidth}
+\end{adjustwidth}
 \label{tab:modmri}
 \end{table*}
 
@@ -445,13 +445,50 @@ Similar to the gain achieved by \ac{dw} \ac{mri}, diagnosis using \ac{adc} map c
 
 However, some tissues of the \ac{cg} zone mimic \ac{cap} with low-\ac{si} (\cite{Kirkham2006}) and image distortion can arise due to haemorrhage (\cite{Choi2007}). It has also been noted that a high variability of the \ac{adc} occurs between different patients making it difficult to define a static threshold to distinguish \ac{cap} from non-malignant tumours (\cite{Choi2007}). 
 
+\begin{figure*}
+	\centering
+	\hspace*{\fill}
+	\subfigure[]{\label{subfig:mrsihea}\includegraphics[width=0.45\linewidth]{02_background/figures/mrsi/mrsi_healthy.eps}} \hfill
+	\subfigure[]{\label{subfig:mrsican}\includegraphics[width=0.45\linewidth]{02_background/figures/mrsi/mrsi_cancer.eps}}
+	\hspace*{\fill}
+	\caption{Illustration of an \ac{mrsi} spectrum both healthy (Fig. \ref{subfig:mrsihea}) and cancerous (Fig. \ref{subfig:mrsican}) voxel with a 3.0 Tesla \ac{mri}. The highlighted areas corresponds to the related concentration of the metabolites which is computed by integrating the area under each peak. Acronyms: Choline (Cho), Spermine (Spe), Creatine (Cr) and Citrate (Cit).}
+	\label{fig:mrsi}
+\end{figure*}
+
+%MRSI
+\item[$-$] \textbf{\textit{\ac{mrsi}:}} \ac{cap} induces metabolic changes in the prostate compared with healthy tissue. Thus, \ac{cap} detection can be carried out by tracking changes of metabolite concentration in prostate tissue. \ac{mrsi} is an \ac{nmr}-based technique which generates spectra of relative metabolite concentration in \iac{roi}.
+
+In order to track changes of metabolite concentration, it is important to know which metabolites are associated with \ac{cap}. To address this question, clinical studies identified three biological markers: (i) citrate, (ii) choline and (iii) polyamines composed mainly of spermine, and in less abundance of spermidine and putrescine (\cite{Awwad2012,Costello2006,Giskeodegard2013}). 
+
+An increased concentration of choline associated with a decreased concentration of citrate and spermine are related to the presence of \ac{cap} (\cite{Awwad2012,Costello2006,Graaf2000,Giskeodegard2013}).
+
+%Citrate is involved in the production and secretion of the prostatic fluid, and the glandular prostate cells are associated with a high production of citrate enabled by zinc accumulation by these same cells (\cite{Costello2006}). However, the metabolism allowing the accumulation of citrate requires a large amount of energy (\cite{Costello2006}). In contrast, malignant cells do not have high zinc levels leading to lower citrate levels due to citrate oxydation (\cite{Costello2006}). Furthermore, this change results in a more energy-efficient metabolism enabling malignant cells to grow and spread (\cite{Costello2006}).
+
+%An increased concentration of choline is related to \ac{cap} (\cite{Awwad2012}). Malignant cell development requires epigenetic mechanisms resulting in metabolic changes and relies on two mechanisms: DNA methylation and phospholid metabolism which both result in choline uptake, explaining its increased level in \ac{cap} tissue (\cite{Awwad2012}).
+
+%Spermine is also considered as a biological marker in \ac{cap} (\cite{Graaf2000,Giskeodegard2013}). In \ac{cap}, reduction of the ductal volume due to shifts in polyamine homeostasis might lead to a reduced spermine concentration (\cite{Graaf2000}).
+
+To determine the concentration of these biological markers, one has to focus on the \ac{mrsi} modality. % In theory, in presence of a homogeneous magnetic field, identical nuclei precesses at the same operating frequency known as the Lamor frequency (\cite{Haacke1999}). However, \ac{mrsi} is based on the fact that identical nuclei will slightly precess at different frequencies depending on the chemical environment in which they are immersed (\cite{Haacke1999}), a phenomenon known as the \ac{cse} (\cite{Parfait2010}). Given this property, metabolites can be identified and their concentrations can be determined. In this regard, the Fourier transform is used to obtain the frequency spectrum of the \ac{nmr} signal (\cite{Haacke1999,Parfait2010}). 
+In each spectrum acquired, each peak is associated with a particular metabolite and the area under each peak corresponds to the relative concentration of this metabolite (see Fig.~\ref{fig:mrsi}) (\cite{Parfait2010}).
+
+Hence, frequencies of interest in regard to \ac{cap} detection and diagnosis should correspond to the earlier mentioned metabolites. Choline and spermine are represented by a single peak at respectively 3.21 ppm and 3.11 ppm (\cite{Verma2010}). Due to the coupling effect, citrate is represented by three or four peaks depending on the magnetic field strength. Citrate ranges from 2.47 ppm to 2.81 ppm with a central frequency at 2.64 ppm (\cite{Verma2010}). Then, relative concentrations of these metabolites are obtained by computing the area under the curve of the spectrum between the lower and upper frequency limits of each peak (see Fig.~\ref{fig:mrsi}). It can be noted that a creatine peak is located at 3.02 ppm and the three metabolite peaks tend to be merged together at clinical magnetic field strengths (see Fig.~\ref{fig:mrsi}) (\cite{Hoeks2011,Graaf2000}).
+
+%Two different quantitative approaches are used to decide or whether not the spectra of \iac{roi} is associated with \ac{cap} classified either as relative quantification or absolute quantification (\cite{Lemaitre2011}).
+% In relative quantification, the ratio of choline-polyamines-creatine to citrate is computed. The integral of the signal is computed from choline (cf., 3.21 ppm) to creatine (cf., 3.02 ppm) because the peaks in this region can be merged at clinical magnetic field strengths (see Fig.~\ref{fig:mrsi}) (\cite{Hoeks2011,Graaf2000}). Considering the previous assumption that choline concentration rises and citrate concentration decreases in the presence of \ac{cap}, the ratio computed should be higher in malignant tissue than in healthy tissue. 
+
+%In contrast with relative quantification, absolute quantification measures molar concentrations by normalizing relative concentrations using water as reference (\cite{Lemaitre2011}). In this case, ``true'' concentrations are directly used to differentiate malignant from healthy tissue. However, this method is not commonly used as it requires an additional step of acquiring water signals, inducing time and cost acquisition constraints.
+
+\ac{mrsi} allows examination with high specificity and sensitivity compared to other \ac{mri} modalities (\cite{Choi2007}). Furthermore, it has been shown that combining \ac{mrsi} with \ac{mri} improves detection and diagnosis performance (\cite{Scheidler1999a,Kaji1998,Vilanova2009}). Citrate and spermine concentrations are inversely correlated with the \ac{gs} allowing us to distinguish low from high grade \acp{cap} (\cite{Giskeodegard2013}). However, choline concentration does not provide the same properties (\cite{Giskeodegard2013}).
+
+\newgeometry{margin=.5cm}
+\thispagestyle{empty}
 \begin{table*}
 \centering
 \caption{Overview of the different studies reviewed with their main characteristics. Acronyms: number (\#) - image regularization (Img. Reg.).}
-\footnotesize
+\scriptsize
 %\begin{adjustwidth}{-2.2cm}{}
 \begin{threeparttable}
-\renewcommand{\arraystretch}{1.5}	
+\renewcommand{\arraystretch}{1}	
 	\rowcolors{3}{black!5}{white}	
 	\begin{tabular}{|>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{2.8cm}|>{\centering\arraybackslash}m{0.8cm}|>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{1cm}>{\centering\arraybackslash}m{1cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|}\hline
 	\hiderowcolors
@@ -513,41 +550,8 @@ However, some tissues of the \ac{cg} zone mimic \ac{cap} with low-\ac{si} (\cite
 %\end{adjustwidth}
 \label{tab:sumpap}
 \end{table*}
+\restoregeometry
 
-\begin{figure*}
-	\centering
-	\hspace*{\fill}
-	\subfigure[]{\label{subfig:mrsihea}\includegraphics[width=0.45\linewidth]{02_background/figures/mrsi/mrsi_healthy.eps}} \hfill
-	\subfigure[]{\label{subfig:mrsican}\includegraphics[width=0.45\linewidth]{02_background/figures/mrsi/mrsi_cancer.eps}}
-	\hspace*{\fill}
-	\caption{Illustration of an \ac{mrsi} spectrum both healthy (Fig. \ref{subfig:mrsihea}) and cancerous (Fig. \ref{subfig:mrsican}) voxel with a 3.0 Tesla \ac{mri}. The highlighted areas corresponds to the related concentration of the metabolites which is computed by integrating the area under each peak. Acronyms: Choline (Cho), Spermine (Spe), Creatine (Cr) and Citrate (Cit).}
-	\label{fig:mrsi}
-\end{figure*}
-
-%MRSI
-\item[$-$] \textbf{\textit{\ac{mrsi}:}} \ac{cap} induces metabolic changes in the prostate compared with healthy tissue. Thus, \ac{cap} detection can be carried out by tracking changes of metabolite concentration in prostate tissue. \ac{mrsi} is an \ac{nmr}-based technique which generates spectra of relative metabolite concentration in \iac{roi}.
-
-In order to track changes of metabolite concentration, it is important to know which metabolites are associated with \ac{cap}. To address this question, clinical studies identified three biological markers: (i) citrate, (ii) choline and (iii) polyamines composed mainly of spermine, and in less abundance of spermidine and putrescine (\cite{Awwad2012,Costello2006,Giskeodegard2013}). 
-
-An increased concentration of choline associated with a decreased concentration of citrate and spermine are related to the presence of \ac{cap} (\cite{Awwad2012,Costello2006,Graaf2000,Giskeodegard2013}).
-
-%Citrate is involved in the production and secretion of the prostatic fluid, and the glandular prostate cells are associated with a high production of citrate enabled by zinc accumulation by these same cells (\cite{Costello2006}). However, the metabolism allowing the accumulation of citrate requires a large amount of energy (\cite{Costello2006}). In contrast, malignant cells do not have high zinc levels leading to lower citrate levels due to citrate oxydation (\cite{Costello2006}). Furthermore, this change results in a more energy-efficient metabolism enabling malignant cells to grow and spread (\cite{Costello2006}).
-
-%An increased concentration of choline is related to \ac{cap} (\cite{Awwad2012}). Malignant cell development requires epigenetic mechanisms resulting in metabolic changes and relies on two mechanisms: DNA methylation and phospholid metabolism which both result in choline uptake, explaining its increased level in \ac{cap} tissue (\cite{Awwad2012}).
-
-%Spermine is also considered as a biological marker in \ac{cap} (\cite{Graaf2000,Giskeodegard2013}). In \ac{cap}, reduction of the ductal volume due to shifts in polyamine homeostasis might lead to a reduced spermine concentration (\cite{Graaf2000}).
-
-To determine the concentration of these biological markers, one has to focus on the \ac{mrsi} modality. % In theory, in presence of a homogeneous magnetic field, identical nuclei precesses at the same operating frequency known as the Lamor frequency (\cite{Haacke1999}). However, \ac{mrsi} is based on the fact that identical nuclei will slightly precess at different frequencies depending on the chemical environment in which they are immersed (\cite{Haacke1999}), a phenomenon known as the \ac{cse} (\cite{Parfait2010}). Given this property, metabolites can be identified and their concentrations can be determined. In this regard, the Fourier transform is used to obtain the frequency spectrum of the \ac{nmr} signal (\cite{Haacke1999,Parfait2010}). 
-In each spectrum acquired, each peak is associated with a particular metabolite and the area under each peak corresponds to the relative concentration of this metabolite (see Fig.~\ref{fig:mrsi}) (\cite{Parfait2010}).
-
-Hence, frequencies of interest in regard to \ac{cap} detection and diagnosis should correspond to the earlier mentioned metabolites. Choline and spermine are represented by a single peak at respectively 3.21 ppm and 3.11 ppm (\cite{Verma2010}). Due to the coupling effect, citrate is represented by three or four peaks depending on the magnetic field strength. Citrate ranges from 2.47 ppm to 2.81 ppm with a central frequency at 2.64 ppm (\cite{Verma2010}). Then, relative concentrations of these metabolites are obtained by computing the area under the curve of the spectrum between the lower and upper frequency limits of each peak (see Fig.~\ref{fig:mrsi}). It can be noted that a creatine peak is located at 3.02 ppm and the three metabolite peaks tend to be merged together at clinical magnetic field strengths (see Fig.~\ref{fig:mrsi}) (\cite{Hoeks2011,Graaf2000}).
-
-%Two different quantitative approaches are used to decide or whether not the spectra of \iac{roi} is associated with \ac{cap} classified either as relative quantification or absolute quantification (\cite{Lemaitre2011}).
-% In relative quantification, the ratio of choline-polyamines-creatine to citrate is computed. The integral of the signal is computed from choline (cf., 3.21 ppm) to creatine (cf., 3.02 ppm) because the peaks in this region can be merged at clinical magnetic field strengths (see Fig.~\ref{fig:mrsi}) (\cite{Hoeks2011,Graaf2000}). Considering the previous assumption that choline concentration rises and citrate concentration decreases in the presence of \ac{cap}, the ratio computed should be higher in malignant tissue than in healthy tissue. 
-
-%In contrast with relative quantification, absolute quantification measures molar concentrations by normalizing relative concentrations using water as reference (\cite{Lemaitre2011}). In this case, ``true'' concentrations are directly used to differentiate malignant from healthy tissue. However, this method is not commonly used as it requires an additional step of acquiring water signals, inducing time and cost acquisition constraints.
-
-\ac{mrsi} allows examination with high specificity and sensitivity compared to other \ac{mri} modalities (\cite{Choi2007}). Furthermore, it has been shown that combining \ac{mrsi} with \ac{mri} improves detection and diagnosis performance (\cite{Scheidler1999a,Kaji1998,Vilanova2009}). Citrate and spermine concentrations are inversely correlated with the \ac{gs} allowing us to distinguish low from high grade \acp{cap} (\cite{Giskeodegard2013}). However, choline concentration does not provide the same properties (\cite{Giskeodegard2013}).
 
 Unfortunately, \ac{mrsi} also presents several drawbacks. First, \ac{mrsi} acquisition is time consuming which prevents this modality from being used in daily clinical practise (\cite{Barentsz2012}). In addition, \ac{mrsi} suffers from low spatial resolution due to the fact that \ac{snr} is linked to the voxel size. However, this issue is addressed by developing new scanners with higher magnetic field strengths such as 7.5 T (\cite{Giskeodegard2013}). Finally, a high variability of the relative concentrations between patients has been observed (\cite{Choi2007}). The same observation was made depending on the zones studied (cf., \ac{pz}, \ac{cg}, base, mid-gland, apex) (\cite{Walker2010,Lemaitre2011}). Due to this variability, it is difficult to use a fixed thresholds in order to differentiate \ac{cap} from healthy tissue.
 
