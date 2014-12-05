@@ -3,34 +3,6 @@
 
 \subsection{Pre-processing} \label{subsec:preprocessing}
 
-\begin{table}
-	\caption{Overview of the pre-processing methods used in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{1}
-	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Pre-processing operations} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textit{\ac{mri} pre-processing:} & \\ \\ [-1.5ex]
-		\quad Noise filtering: &  \\
-		\quad \quad Median filtering & $[$22-23$]$  \\
-		\quad \quad Wavelet-based filtering & $[$1-2,15$]$ \\ \\ [-1.5ex]
-		\quad Bias correction: & \\
-		\quad \quad Parametric methods & $[$16,36$]$ \\
-		\quad \quad Non-parametric methods & $[$37$]$ \\ \\ [-1.5ex]
-		\quad Standardization: & \\
-		\quad \quad Statistical-based normalization: & $[$3-4,16,21-22,36,38$]$ \\
-		\quad \quad Organ \ac{si}-based normalization & $[$19-20$]$ \\ \\ [-1.5ex]
-		\textit{\ac{mrsi} pre-processing:} & \\ \\ [-1.5ex]
-		\quad Phase correction & $[$23$]$ \\
-		\quad Water and lipid residuals filtering & $[$8$]$ \\
-		\quad Baseline correction & $[$23,32$]$ \\
-		\quad Frequency alignment & $[$32$]$ \\
-		\quad Normalization & $[$23$]$ \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-\end{table}
-
 \subsubsection{\ac{mri} images pre-processing}
 
 Three different groups of pre-processing methods are commonly applied to images as initial stage in \ac{cad}.
@@ -223,16 +195,6 @@ In a similar way, \cite{Liu2013} normalized \ac{t2w}-\ac{mri} by making use of t
 
 \cite{Viswanath2009,Viswanath2011,Viswanath2012} used a variant of this previous approach presented in the work of \cite{Madabhushi2006a} aiming to standardize the \ac{t2w}-\ac{mri} images. Instead of computing the \ac{pdf} of an entire image, a pre-segmentation of the foreground is carried out via \ac{gscale}.% which was discussed in the bias correction section. Once the foreground is detected, the largest region is extracted and the same process than previously mentioned (see Eq. \eqref{eq:linearMap}) takes place in order to align \acp{pdf} of the foreground of the \ac{mri} images.
 
-\begin{figure}
-\centering
-	\hspace*{\fill}
-	\subfigure[Illustration and location of the bladder on a \ac{t2w}-\ac{mri} image acquired with a 3.0 Tesla \ac{mri} scanner]{\label{subfig:bladder} \includegraphics[width=0.4\linewidth]{03_image_processing/03_preprocessing/figures/niaf/t2w_bladder.eps}} \hfill
-	\subfigure[Illustration and location of the femoral arteries on a \ac{t1w}-\ac{mri} image acquired with a 3.0 Tesla \ac{mri} scanner]{\label{subfig:arteries} \includegraphics[width=0.4\linewidth]{03_image_processing/03_preprocessing/figures/niaf/t1w_arteries.eps}}
-	\hspace*{\fill}
-	\caption{Illustration of the two organs used by \cite{Niaf2011,Niaf2012} to normalize \ac{t2w} and \ac{t1w} \ac{mri} images.}
-	\label{fig:niaf}
-\end{figure}
-
 The methods described above were statistical-based methods. However, the standardization problem can be tackled by normalizing the MRI images using the \ac{si} of some known organs present in these images. \cite{Niaf2011,Niaf2012} normalized \ac{t2w}-\ac{mri} images by dividing the original \ac{si} of the images by the mean \ac{si} of the bladder (see Fig.~\ref{subfig:bladder}). Likewise, \cite{Niaf2011} standardized the \ac{t1w}-\ac{mri} images using the \ac{aif}. They computed the \ac{aif} by taking the mean of the \ac{si} in the most enhanced part of the common femoral arteries (see Fig.~\ref{subfig:arteries}) as proposed by \cite{Wiart2007}.
 
 \end{enumerate}
@@ -268,13 +230,6 @@ Presented in Sect. \ref{subsubsec:mrimrsi}, \ac{mrsi} is a modality related to a
 %
 %Once the best parameter $\Phi$ is obtained, the \ac{mrsi} signal is corrected using Eq. \eqref{eq:mrsiphcorr}.
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\linewidth]{03_image_processing/03_preprocessing/figures/phase/phase.eps}
-	\caption{Illustration of frequency and phase misalignment in an \ac{mrsi} spectra acquired with a 3.0 Tesla \ac{mrsi} scanner. Focusing on the phase misalignment, note the distortion of the signal specially visible for the water (cf., around 5.1 ppm) and citrate (cf., around 3 ppm) peaks. Regarding the frequency misalignment, the water peak is known to be aligned at 4.65 ppm. However, it can observed that this peak is occurring around 5.1 ppm.}
-	\label{fig:phase}
-\end{figure}
-
 	\item[$-$] \textbf{\textit{Water and lipid residuals filtering:}} The water and lipid metabolites occur in much higher concentrations than the metabolites of interests (cf., choline, creatine and citrate) (\cite{Zhu2010,Osorio-Garcia2012}). Fortunately, specific \ac{mrsi} sequences were developed in order to suppress water and lipid metabolites using pre-saturation techniques (\cite{Zhu2010}). However, these techniques do not perfectly remove water and lipids peaks and some residuals are still present in the \ac{mrsi} spectra as shown in Fig.~\ref{fig:waterfat}. Therefore, different post-processing methods have been proposed to enhance the quality of the \ac{mrsi} spectra by removing these residuals.
 	
 	\cite{Kelm2007} used the well known HSVD algorithm proposed by \cite{Pijnappel1992} which models the \ac{mrsi} signal by a sum of exponentially damped sinusoids in the time domain.% In the time domain, a \ac{mrsi} signal $s(t)$ is modelled by a sum of $K$ exponentially damped sinusoids such that:
@@ -286,13 +241,6 @@ Presented in Sect. \ref{subsubsec:mrimrsi}, \ac{mrsi} is a modality related to a
 %\noindent where $a_k$ is the amplitude proportional to the metabolite concentration with a resonance frequency $f_{k}$, $d_k$ represents the damping factor of the exponential, $\phi_k$ is the first-order phase and $\eta(t)$ is a complex white noise. 
 %
 %\cite{Pijnappel1992} showed that the ``noise-free signal'' can be found using the \ac{svd} decomposition. First the noisy signal is reorganized inside a Hankel matrix $H$. It can be shown that if the signal considered would be a ``noise-free signal'', the rank of $H$ would be equal to rank $K$. However, due to the presence of noise, $H$ is in fact a full rank matrix. Thus, to recover the ``noise-free signal'', the rank of $H$ can be truncated to $K$ using its \ac{svd} decomposition. Hence, knowing the cut off frequencies of water (cf., 4.7 ppm) and lipid (cf., 2.2 ppm) metabolites, their corresponding peaks can be reconstructed and subtracted from the original signal (\cite{Laudadio2002}).
-
-\begin{figure}
-\centering
-	\includegraphics[width=0.6\linewidth]{03_image_processing/03_preprocessing/figures/water/water_fat.eps}
-	\caption{Illustration of the residues of water and fat even after their suppression during the acquisition protocol. The acquisition was carried out with a 3.0 Tesla \ac{mri}.}
-	\label{fig:waterfat}
-\end{figure}
 	
 \item[$-$] \textbf{\textit{Baseline correction:}} Sometimes, the problem discussed in the above section regarding the lipid molecules is not addressed simultaneously with water residuals suppression. Lipids and macromolecules are known to affect the baseline of the \ac{mrsi} spectra. They could cause errors during further fitting processes aiming to quantify the metabolites, especially regarding the citrate metabolite.
 	

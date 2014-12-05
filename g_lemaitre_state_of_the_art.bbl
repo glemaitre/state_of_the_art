@@ -1,2275 +1,1229 @@
-\begin{thebibliography}{223}
-\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-\providecommand{\url}[1]{\texttt{#1}}
-\providecommand{\href}[2]{#2}
-\providecommand{\path}[1]{#1}
-\providecommand{\DOIprefix}{doi:}
-\providecommand{\ArXivprefix}{arXiv:}
-\providecommand{\URLprefix}{URL: }
-\providecommand{\Pubmedprefix}{pmid:}
-\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
-\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
-\providecommand{\bibinfo}[2]{#2}
-\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
-%Type = Article
-\bibitem[{Agalliu et~al.(2009)Agalliu, Gern, Leanza and Burk}]{Agalliu2009}
-\bibinfo{author}{Agalliu, I.}, \bibinfo{author}{Gern, R.},
-  \bibinfo{author}{Leanza, S.}, \bibinfo{author}{Burk, R.D.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{A}ssociations of high-grade prostate cancer with
-  {B}{R}{C}{A}1 and {B}{R}{C}{A}2 founder mutations}}.
-\newblock \bibinfo{journal}{Clin. Cancer Res.} \bibinfo{volume}{15},
-  \bibinfo{pages}{1112--1120}.
-%Type = Article
-\bibitem[{Ahmed et~al.(1974)Ahmed, Natarajan and Rao}]{Ahmed1974}
-\bibinfo{author}{Ahmed, N.}, \bibinfo{author}{Natarajan, T.},
-  \bibinfo{author}{Rao, K.}, \bibinfo{year}{1974}.
-\newblock \bibinfo{title}{{{D}iscrete cosine transform}}.
-\newblock \bibinfo{journal}{Computers, IEEE Transactions on}
-  \bibinfo{volume}{C-23}, \bibinfo{pages}{90--93}.
-%Type = Article
-\bibitem[{Akin et~al.(2006)Akin, Sala, Moskowitz, Kuroiwa, Ishill, Pucar,
-  Scardino and Hricak}]{Akin2006}
-\bibinfo{author}{Akin, O.}, \bibinfo{author}{Sala, E.},
-  \bibinfo{author}{Moskowitz, C.S.}, \bibinfo{author}{Kuroiwa, K.},
-  \bibinfo{author}{Ishill, N.M.}, \bibinfo{author}{Pucar, D.},
-  \bibinfo{author}{Scardino, P.T.}, \bibinfo{author}{Hricak, H.},
-  \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{T}ransition zone prostate cancers: features,
-  detection, localization, and staging at endorectal {M}{R} imaging}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{239},
-  \bibinfo{pages}{784--792}.
-%Type = Article
-\bibitem[{Alexander et~al.(2010)Alexander, Mink, Cushing and
-  Sceurman}]{Alexander2010}
-\bibinfo{author}{Alexander, D.D.}, \bibinfo{author}{Mink, P.J.},
-  \bibinfo{author}{Cushing, C.A.}, \bibinfo{author}{Sceurman, B.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{A} review and meta-analysis of prospective studies
-  of red and processed meat intake and prostate cancer}}.
-\newblock \bibinfo{journal}{Nutr J} \bibinfo{volume}{9}, \bibinfo{pages}{50}.
-%Type = Misc
-\bibitem[{American Cancer~Society(2010)}]{Society2010}
-\bibinfo{author}{American Cancer~Society, A.C.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{C}ancer Facts and Figures 2010}}.
-\newblock
-  \bibinfo{howpublished}{http://www.cancer.org/research/cancerfactsfigures}.
-\newblock \URLprefix \url{http://www.cancer.org/research/cancerfactsfigures}.
-  \bibinfo{note}{accessed: 2013-08-01}.
-%Type = Misc
-\bibitem[{American Cancer~Society(2013)}]{Society2013}
-\bibinfo{author}{American Cancer~Society, A.C.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{C}ancer Facts and Figures 2013}}.
-\newblock
-  \bibinfo{howpublished}{http://www.cancer.org/research/cancerfactsfigures}.
-\newblock \bibinfo{note}{Accessed: 2013-08-01}.
-%Type = Inproceedings
-\bibitem[{Ampeliotis et~al.(2007)Ampeliotis, Anonakoudi, Berberidis and
-  Psarakis}]{Ampeliotis2007}
-\bibinfo{author}{Ampeliotis, D.}, \bibinfo{author}{Anonakoudi, A.},
-  \bibinfo{author}{Berberidis, K.}, \bibinfo{author}{Psarakis, E.Z.},
-  \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{C}omputer aided detection of prostate cancer using
-  fused information from dynamic contrast enhanced and morphological magnetic
-  resonance images}}, in: \bibinfo{booktitle}{IEEE International Conference on
-  Signal Processing and Communications}, pp. \bibinfo{pages}{888--891}.
-%Type = Inproceedings
-\bibitem[{Ampeliotis et~al.(2008)Ampeliotis, Anonakoudi, Berberidis, Psarakis
-  and Kounoudes}]{Ampeliotis2008}
-\bibinfo{author}{Ampeliotis, D.}, \bibinfo{author}{Anonakoudi, A.},
-  \bibinfo{author}{Berberidis, K.}, \bibinfo{author}{Psarakis, E.Z.},
-  \bibinfo{author}{Kounoudes, A.}, \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{A} computer-aided system for the detection of
-  prostate cancer based on magnetic resonance image analysis}}, in:
-  \bibinfo{booktitle}{International Symposium on Communications, Control and
-  Signal Processing}.
-%Type = Article
-\bibitem[{Amundadottir et~al.(2006)Amundadottir, Sulem, Gudmundsson, Helgason,
-  Baker, Agnarsson, Sigurdsson, Benediktsdottir, Cazier, Sainz, Jakobsdottir,
-  Kostic, Magnusdottir, Ghosh, Agnarsson, Birgisdottir, Le~Roux, Olafsdottir,
-  Blondal, Andresdottir, Gretarsdottir, Bergthorsson, Gudbjartsson, Gylfason,
-  Thorleifsson, Manolescu, Kristjansson, Geirsson, Isaksson, Douglas,
-  Johansson, Balter, Wiklund, Montie, Yu, Suarez, Ober, Cooney, Gronberg,
-  Catalona, Einarsson, Barkardottir, Gulcher, Kong, Thorsteinsdottir and
-  Stefansson}]{Amundadottir2006}
-\bibinfo{author}{Amundadottir, L.T.}, \bibinfo{author}{Sulem, P.},
-  \bibinfo{author}{Gudmundsson, J.}, \bibinfo{author}{Helgason, A.},
-  \bibinfo{author}{Baker, A.}, \bibinfo{author}{Agnarsson, B.A.},
-  \bibinfo{author}{Sigurdsson, A.}, \bibinfo{author}{Benediktsdottir, K.R.},
-  \bibinfo{author}{Cazier, J.B.}, \bibinfo{author}{Sainz, J.},
-  \bibinfo{author}{Jakobsdottir, M.}, \bibinfo{author}{Kostic, J.},
-  \bibinfo{author}{Magnusdottir, D.N.}, \bibinfo{author}{Ghosh, S.},
-  \bibinfo{author}{Agnarsson, K.}, \bibinfo{author}{Birgisdottir, B.},
-  \bibinfo{author}{Le~Roux, L.}, \bibinfo{author}{Olafsdottir, A.},
-  \bibinfo{author}{Blondal, T.}, \bibinfo{author}{Andresdottir, M.},
-  \bibinfo{author}{Gretarsdottir, O.S.}, \bibinfo{author}{Bergthorsson, J.T.},
-  \bibinfo{author}{Gudbjartsson, D.}, \bibinfo{author}{Gylfason, A.},
-  \bibinfo{author}{Thorleifsson, G.}, \bibinfo{author}{Manolescu, A.},
-  \bibinfo{author}{Kristjansson, K.}, \bibinfo{author}{Geirsson, G.},
-  \bibinfo{author}{Isaksson, H.}, \bibinfo{author}{Douglas, J.},
-  \bibinfo{author}{Johansson, J.E.}, \bibinfo{author}{Balter, K.},
-  \bibinfo{author}{Wiklund, F.}, \bibinfo{author}{Montie, J.E.},
-  \bibinfo{author}{Yu, X.}, \bibinfo{author}{Suarez, B.K.},
-  \bibinfo{author}{Ober, C.}, \bibinfo{author}{Cooney, K.A.},
-  \bibinfo{author}{Gronberg, H.}, \bibinfo{author}{Catalona, W.J.},
-  \bibinfo{author}{Einarsson, G.V.}, \bibinfo{author}{Barkardottir, R.B.},
-  \bibinfo{author}{Gulcher, J.R.}, \bibinfo{author}{Kong, A.},
-  \bibinfo{author}{Thorsteinsdottir, U.}, \bibinfo{author}{Stefansson, K.},
-  \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{A} common variant associated with prostate cancer
-  in {E}uropean and {A}frican populations}}.
-\newblock \bibinfo{journal}{Nat. Genet.} \bibinfo{volume}{38},
-  \bibinfo{pages}{652--658}.
-%Type = Article
-\bibitem[{Andriole et~al.(2009)Andriole, Crawford, Grubb, Buys, Chia, Church,
-  Fouad, Gelmann, Kvale, Reding, Weissfeld, Yokochi, O'Brien, Clapp, Rathmell,
-  Riley, Hayes, Kramer, Izmirlian, Miller, Pinsky, Prorok, Gohagan and
-  Berg}]{Andriole2009}
-\bibinfo{author}{Andriole, G.L.}, \bibinfo{author}{Crawford, E.D.},
-  \bibinfo{author}{Grubb, R.L.}, \bibinfo{author}{Buys, S.S.},
-  \bibinfo{author}{Chia, D.}, \bibinfo{author}{Church, T.R.},
-  \bibinfo{author}{Fouad, M.N.}, \bibinfo{author}{Gelmann, E.P.},
-  \bibinfo{author}{Kvale, P.A.}, \bibinfo{author}{Reding, D.J.},
-  \bibinfo{author}{Weissfeld, J.L.}, \bibinfo{author}{Yokochi, L.A.},
-  \bibinfo{author}{O'Brien, B.}, \bibinfo{author}{Clapp, J.D.},
-  \bibinfo{author}{Rathmell, J.M.}, \bibinfo{author}{Riley, T.L.},
-  \bibinfo{author}{Hayes, R.B.}, \bibinfo{author}{Kramer, B.S.},
-  \bibinfo{author}{Izmirlian, G.}, \bibinfo{author}{Miller, A.B.},
-  \bibinfo{author}{Pinsky, P.F.}, \bibinfo{author}{Prorok, P.C.},
-  \bibinfo{author}{Gohagan, J.K.}, \bibinfo{author}{Berg, C.D.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{M}ortality results from a randomized
-  Prostate-cancer screening trial}}.
-\newblock \bibinfo{journal}{New England Journal of Medicine}
-  \bibinfo{volume}{360}, \bibinfo{pages}{1310--1319}.
-%Type = Inproceedings
-\bibitem[{Antic et~al.(2013)Antic, Peng, Jiang, Giger, Eggener and
-  Oto}]{Antic2013}
-\bibinfo{author}{Antic, T.}, \bibinfo{author}{Peng, Y.},
-  \bibinfo{author}{Jiang, Y.}, \bibinfo{author}{Giger, M.L.},
-  \bibinfo{author}{Eggener, S.}, \bibinfo{author}{Oto, A.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{A} study of {T}2-weighted {M}{R} image texture
-  features and diffusion-weighted {M}{R} image features for computer-aided
-  diagnosis of prostate cancer}}, in: \bibinfo{booktitle}{Proc. SPIE 8670,
-  Medical Imaging 2013: Computer-Aided Diagnosis}, pp.
-  \bibinfo{pages}{86701H--86701H--6}.
-%Type = Article
-\bibitem[{Artan et~al.(2010)Artan, Haider, Langer, van~der Kwast, Evans, Yang,
-  Wernick, Trachtenberg and Yetik}]{Artan2010}
-\bibinfo{author}{Artan, Y.}, \bibinfo{author}{Haider, M.A.},
-  \bibinfo{author}{Langer, D.L.}, \bibinfo{author}{van~der Kwast, T.H.},
-  \bibinfo{author}{Evans, A.J.}, \bibinfo{author}{Yang, Y.},
-  \bibinfo{author}{Wernick, M.N.}, \bibinfo{author}{Trachtenberg, J.},
-  \bibinfo{author}{Yetik, I.S.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{P}rostate cancer localization with multispectral
-  {M}{R}{I} using cost-sensitive support vector machines and conditional random
-  fields}}.
-\newblock \bibinfo{journal}{IEEE Trans Image Process} \bibinfo{volume}{19},
-  \bibinfo{pages}{2444--2455}.
-%Type = Inproceedings
-\bibitem[{Artan et~al.(2009)Artan, Langer, Haider, Van~der Kwast, Evans,
-  Wernick and Yetik}]{Artan2009}
-\bibinfo{author}{Artan, Y.}, \bibinfo{author}{Langer, D.},
-  \bibinfo{author}{Haider, M.}, \bibinfo{author}{Van~der Kwast, T.H.},
-  \bibinfo{author}{Evans, A.}, \bibinfo{author}{Wernick, M.},
-  \bibinfo{author}{Yetik, I.}, \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{P}rostate cancer segmentation with multispectral
-  {M}{R}{I} using cost-sensitive {C}onditional {R}andom {F}ields}}, in:
-  \bibinfo{booktitle}{Biomedical Imaging: From Nano to Macro, 2009. ISBI '09.
-  IEEE International Symposium on}, pp. \bibinfo{pages}{278--281}.
-%Type = Article
-\bibitem[{Awwad et~al.(2012)Awwad, Geisel and Obeid}]{Awwad2012}
-\bibinfo{author}{Awwad, H.M.}, \bibinfo{author}{Geisel, J.},
-  \bibinfo{author}{Obeid, R.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{T}he role of choline in prostate cancer}}.
-\newblock \bibinfo{journal}{Clin. Biochem.} \bibinfo{volume}{45},
-  \bibinfo{pages}{1548--1553}.
-%Type = Article
-\bibitem[{Barentsz et~al.(2012)Barentsz, Richenberg, Clements, Choyke, Verma,
-  Villeirs, Rouviere, Logager and Futterer}]{Barentsz2012}
-\bibinfo{author}{Barentsz, J.O.}, \bibinfo{author}{Richenberg, J.},
-  \bibinfo{author}{Clements, R.}, \bibinfo{author}{Choyke, P.},
-  \bibinfo{author}{Verma, S.}, \bibinfo{author}{Villeirs, G.},
-  \bibinfo{author}{Rouviere, O.}, \bibinfo{author}{Logager, V.},
-  \bibinfo{author}{Futterer, J.J.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{E}{S}{U}{R} prostate {M}{R} guidelines 2012}}.
-\newblock \bibinfo{journal}{Eur Radiol} \bibinfo{volume}{22},
-  \bibinfo{pages}{746--757}.
-%Type = Inproceedings
-\bibitem[{Belkin and Niyogi(2001)}]{Belkin2001}
-\bibinfo{author}{Belkin, M.}, \bibinfo{author}{Niyogi, P.},
-  \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{L}aplacian eigenmaps and spectral techniques for
-  embedding and clustering}}, in: \bibinfo{booktitle}{Advances in Neural
-  Information Processing Systems 14}, \bibinfo{publisher}{MIT Press}. pp.
-  \bibinfo{pages}{585--591}.
-%Type = Article
-\bibitem[{Belongie et~al.(2002)Belongie, Malik and Puzicha}]{Belongie2002}
-\bibinfo{author}{Belongie, S.}, \bibinfo{author}{Malik, J.},
-  \bibinfo{author}{Puzicha, J.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{S}hape matching and object recognition using shape
-  contexts}}.
-\newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
-  Transactions on} \bibinfo{volume}{24}, \bibinfo{pages}{509--522}.
-%Type = Article
-\bibitem[{Benassi et~al.(1998)Benassi, Cohen and Istas}]{Benassi1998}
-\bibinfo{author}{Benassi, A.}, \bibinfo{author}{Cohen, S.},
-  \bibinfo{author}{Istas, J.}, \bibinfo{year}{1998}.
-\newblock \bibinfo{title}{{{I}dentifying the multifractional function of a
-  {G}aussian process}}.
-\newblock \bibinfo{journal}{Statistics \& Probability Letters}
-  \bibinfo{volume}{39}, \bibinfo{pages}{337 -- 345}.
-%Type = Book
-\bibitem[{Bishop(2006)}]{Bishop2006}
-\bibinfo{author}{Bishop, C.M.}, \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{P}attern recognition and machine learning}}.
-\newblock \bibinfo{publisher}{Springer-Verlag New York, Inc.},
-  \bibinfo{address}{Secaucus, NJ, USA}.
-%Type = Inproceedings
-\bibitem[{Boser et~al.(1992)Boser, Guyon and Vapnik}]{Boser1992}
-\bibinfo{author}{Boser, B.E.}, \bibinfo{author}{Guyon, I.M.},
-  \bibinfo{author}{Vapnik, V.N.}, \bibinfo{year}{1992}.
-\newblock \bibinfo{title}{{{A} training algorithm for optimal margin
-  classifiers}}, in: \bibinfo{booktitle}{Proceedings of the Fifth Annual
-  Workshop on Computational Learning Theory}, \bibinfo{publisher}{ACM},
-  \bibinfo{address}{New York, NY, USA}. pp. \bibinfo{pages}{144--152}.
-%Type = Article
-\bibitem[{Bourdoumis et~al.(2010)Bourdoumis, Papatsoris, Chrisofos, Efstathiou,
-  Skolarikos and Deliveliotis}]{Bourdoumis2010}
-\bibinfo{author}{Bourdoumis, A.}, \bibinfo{author}{Papatsoris, A.G.},
-  \bibinfo{author}{Chrisofos, M.}, \bibinfo{author}{Efstathiou, E.},
-  \bibinfo{author}{Skolarikos, A.}, \bibinfo{author}{Deliveliotis, C.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{T}he novel prostate cancer antigen 3 ({P}{C}{A}3)
-  biomarker}}.
-\newblock \bibinfo{journal}{Int Braz J Urol} \bibinfo{volume}{36},
-  \bibinfo{pages}{665--668}.
-%Type = Article
-\bibitem[{Breiman(2001)}]{Breiman2001}
-\bibinfo{author}{Breiman, L.}, \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{R}andom forests}}.
-\newblock \bibinfo{journal}{Machine Learning} \bibinfo{volume}{45},
-  \bibinfo{pages}{5--32}.
-%Type = Incollection
-\bibitem[{Brenner et~al.(2013)Brenner, Chinnaiyan and Tomlins}]{Brenner2013}
-\bibinfo{author}{Brenner, J.}, \bibinfo{author}{Chinnaiyan, A.},
-  \bibinfo{author}{Tomlins, S.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{E}{T}{S} fusion genes in prostate cancer}}, in:
-  \bibinfo{editor}{Tindall, D.J.} (Ed.), \bibinfo{booktitle}{Prostate Cancer}.
-  \bibinfo{publisher}{Springer New York}. volume~\bibinfo{volume}{16} of
-  \textit{\bibinfo{series}{Protein Reviews}}, pp. \bibinfo{pages}{139--183}.
-%Type = Article
-\bibitem[{Buades et~al.(2005)Buades, Coll and Morel}]{Buades2005}
-\bibinfo{author}{Buades, A.}, \bibinfo{author}{Coll, B.},
-  \bibinfo{author}{Morel, J.}, \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{A} review of image denoising algorithms, with a new
-  one}}.
-\newblock \bibinfo{journal}{Simul} \bibinfo{volume}{4},
-  \bibinfo{pages}{490--530}.
-%Type = Article
-\bibitem[{Byrd et~al.(1995)Byrd, Lu, Nocedal and Zhu}]{Byrd1995}
-\bibinfo{author}{Byrd, R.H.}, \bibinfo{author}{Lu, P.},
-  \bibinfo{author}{Nocedal, J.}, \bibinfo{author}{Zhu, C.},
-  \bibinfo{year}{1995}.
-\newblock \bibinfo{title}{{{A} limited memory algorithm for bound constrained
-  optimization}}.
-\newblock \bibinfo{journal}{SIAM J. Sci. Comput.} \bibinfo{volume}{16},
-  \bibinfo{pages}{1190--1208}.
-%Type = Article
-\bibitem[{Carrol et~al.(1987)Carrol, Sommer, McNeal and Stamey}]{Carrol1987}
-\bibinfo{author}{Carrol, C.L.}, \bibinfo{author}{Sommer, F.G.},
-  \bibinfo{author}{McNeal, J.E.}, \bibinfo{author}{Stamey, T.A.},
-  \bibinfo{year}{1987}.
-\newblock \bibinfo{title}{{{T}he abnormal prostate: {M}{R} imaging at 1.5 {T}
-  with histopathologic correlation}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{163},
-  \bibinfo{pages}{521--525}.
-%Type = Article
-\bibitem[{Castorina et~al.(2006)Castorina, Delsanto and Guiot}]{Castorina2006}
-\bibinfo{author}{Castorina, P.}, \bibinfo{author}{Delsanto, P.P.},
-  \bibinfo{author}{Guiot, C.}, \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{C}lassification scheme for phenomenological
-  universalities in growth problems in physics and other sciences}}.
-\newblock \bibinfo{journal}{Phys. Rev. Lett.} \bibinfo{volume}{96},
-  \bibinfo{pages}{188701}.
-%Type = Article
-\bibitem[{Chan et~al.(1999)Chan, Sahiner, Helvie, Petrick, Roubidoux, Wilson,
-  Adler, Paramagul, Newman and Sanjay-Gopal}]{Chan1999}
-\bibinfo{author}{Chan, H.P.}, \bibinfo{author}{Sahiner, B.},
-  \bibinfo{author}{Helvie, M.A.}, \bibinfo{author}{Petrick, N.},
-  \bibinfo{author}{Roubidoux, M.A.}, \bibinfo{author}{Wilson, T.E.},
-  \bibinfo{author}{Adler, D.D.}, \bibinfo{author}{Paramagul, C.},
-  \bibinfo{author}{Newman, J.S.}, \bibinfo{author}{Sanjay-Gopal, S.},
-  \bibinfo{year}{1999}.
-\newblock \bibinfo{title}{{{I}mprovement of radiologists' characterization of
-  mammographic masses by using computer-aided diagnosis: an {R}{O}{C} study}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{212},
-  \bibinfo{pages}{817--827}.
-%Type = Article
-\bibitem[{Chan et~al.(2003)Chan, Wells, Mulkern, Haker, Zhang, Zou, Maier and
-  Tempany}]{Chan2003}
-\bibinfo{author}{Chan, I.}, \bibinfo{author}{Wells, W.},
-  \bibinfo{author}{Mulkern, R.V.}, \bibinfo{author}{Haker, S.},
-  \bibinfo{author}{Zhang, J.}, \bibinfo{author}{Zou, K.H.},
-  \bibinfo{author}{Maier, S.E.}, \bibinfo{author}{Tempany, C.M.},
-  \bibinfo{year}{2003}.
-\newblock \bibinfo{title}{{{D}etection of prostate cancer by integration of
-  line-scan diffusion, {T}2-mapping and {T}2-weighted magnetic resonance
-  imaging; a multichannel statistical classifier}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{30},
-  \bibinfo{pages}{2390--2398}.
-%Type = Article
-\bibitem[{Chappelow et~al.(2011)Chappelow, Bloch, Rofsky, Genega, Lenkinski,
-  DeWolf and Madabhushi}]{Chappelow2011}
-\bibinfo{author}{Chappelow, J.}, \bibinfo{author}{Bloch, B.N.},
-  \bibinfo{author}{Rofsky, N.}, \bibinfo{author}{Genega, E.},
-  \bibinfo{author}{Lenkinski, R.}, \bibinfo{author}{DeWolf, W.},
-  \bibinfo{author}{Madabhushi, A.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{E}lastic registration of multimodal prostate
-  {M}{R}{I} and histology via multiattribute combined mutual information}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{38},
-  \bibinfo{pages}{2005--2018}.
-%Type = Article
-\bibitem[{Chen et~al.(2002)Chen, Weng, Goh and Garland}]{Chen2002}
-\bibinfo{author}{Chen, L.}, \bibinfo{author}{Weng, Z.}, \bibinfo{author}{Goh,
-  L.}, \bibinfo{author}{Garland, M.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{A}n efficient algorithm for automatic phase
-  correction of \{NMR\} spectra based on entropy minimization }}.
-\newblock \bibinfo{journal}{Journal of Magnetic Resonance}
-  \bibinfo{volume}{158}, \bibinfo{pages}{164 -- 168}.
-%Type = Article
-\bibitem[{Chilali et~al.(2014)Chilali, Ouzzane, Diaf and
-  Betrouni}]{Chilali2014}
-\bibinfo{author}{Chilali, O.}, \bibinfo{author}{Ouzzane, A.},
-  \bibinfo{author}{Diaf, M.}, \bibinfo{author}{Betrouni, N.},
-  \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{{{A} survey of prostate modeling for image
-  analysis}}.
-\newblock \bibinfo{journal}{Computers in Biology and Medicine}
-  \bibinfo{volume}{53}, \bibinfo{pages}{190 -- 202}.
-%Type = Article
-\bibitem[{Choi et~al.(2007)Choi, Kim, Kim, Kim, Choi and Cho}]{Choi2007}
-\bibinfo{author}{Choi, Y.J.}, \bibinfo{author}{Kim, J.K.},
-  \bibinfo{author}{Kim, N.}, \bibinfo{author}{Kim, K.W.},
-  \bibinfo{author}{Choi, E.K.}, \bibinfo{author}{Cho, K.S.},
-  \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{F}unctional {M}{R} imaging of prostate cancer}}.
-\newblock \bibinfo{journal}{Radiographics} \bibinfo{volume}{27},
-  \bibinfo{pages}{63--75}.
-%Type = Article
-\bibitem[{Chou et~al.(2011)Chou, Croswell, Dana, Bougatsos, Blazina, Fu,
-  Gleitsmann, Koenig, Lam, Maltz, Rugge and Lin}]{Chou2011}
-\bibinfo{author}{Chou, R.}, \bibinfo{author}{Croswell, J.M.},
-  \bibinfo{author}{Dana, T.}, \bibinfo{author}{Bougatsos, C.},
-  \bibinfo{author}{Blazina, I.}, \bibinfo{author}{Fu, R.},
-  \bibinfo{author}{Gleitsmann, K.}, \bibinfo{author}{Koenig, H.C.},
-  \bibinfo{author}{Lam, C.}, \bibinfo{author}{Maltz, A.},
-  \bibinfo{author}{Rugge, J.B.}, \bibinfo{author}{Lin, K.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{S}creening for prostate cancer: a review of the
-  evidence for the {U}.{S}. {P}reventive {S}ervices {T}ask {F}orce}}.
-\newblock \bibinfo{journal}{Ann. Intern. Med.} \bibinfo{volume}{155},
-  \bibinfo{pages}{762--771}.
-%Type = Article
-\bibitem[{Cohen et~al.(2008)Cohen, Shannon, Phillips, Moorin, Wheeler and
-  Garrett}]{Cohen2008}
-\bibinfo{author}{Cohen, R.J.}, \bibinfo{author}{Shannon, B.A.},
-  \bibinfo{author}{Phillips, M.}, \bibinfo{author}{Moorin, R.E.},
-  \bibinfo{author}{Wheeler, T.M.}, \bibinfo{author}{Garrett, K.L.},
-  \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{C}entral zone carcinoma of the prostate gland: a
-  distinct tumor type with poor prognostic features}}.
-\newblock \bibinfo{journal}{J. Urol.} \bibinfo{volume}{179},
-  \bibinfo{pages}{1762--1767}.
-%Type = Article
-\bibitem[{Coifman and Wickerhauser(1992)}]{Coifman1992}
-\bibinfo{author}{Coifman, R.}, \bibinfo{author}{Wickerhauser, M.},
-  \bibinfo{year}{1992}.
-\newblock \bibinfo{title}{{{E}ntropy-based algorithms for best basis
-  selection}}.
-\newblock \bibinfo{journal}{Information Theory, IEEE Transactions on}
-  \bibinfo{volume}{38}, \bibinfo{pages}{713--718}.
-%Type = Techreport
-\bibitem[{Coleman and Li(1993)}]{Coleman1993}
-\bibinfo{author}{Coleman, T.}, \bibinfo{author}{Li, Y.}, \bibinfo{year}{1993}.
-\newblock \bibinfo{title}{{{A}n interior trust region approach for nonlinear
-  minimization subject to bounds}}.
-\newblock \bibinfo{type}{Technical Report}. Cornell University.
-%Type = Article
-\bibitem[{Cootes et~al.(1995)Cootes, Taylor, Cooper and Graham}]{Cootes1995}
-\bibinfo{author}{Cootes, T.F.}, \bibinfo{author}{Taylor, C.J.},
-  \bibinfo{author}{Cooper, D.H.}, \bibinfo{author}{Graham, J.},
-  \bibinfo{year}{1995}.
-\newblock \bibinfo{title}{{{A}ctive shape models\&Mdash;{T}heir training and
-  application}}.
-\newblock \bibinfo{journal}{Comput. Vis. Image Underst.} \bibinfo{volume}{61},
-  \bibinfo{pages}{38--59}.
-%Type = Article
-\bibitem[{Costello and Franklin(2006)}]{Costello2006}
-\bibinfo{author}{Costello, L.C.}, \bibinfo{author}{Franklin, R.B.},
-  \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{T}he clinical relevance of the metabolism of
-  prostate cancer; zinc and tumor suppression: connecting the dots}}.
-\newblock \bibinfo{journal}{Mol. Cancer} \bibinfo{volume}{5},
-  \bibinfo{pages}{17}.
-%Type = Article
-\bibitem[{Cruz et~al.(2002)Cruz, Tsuda, Narumi, Kuroiwa, Nose, Kojima, Okuyama,
-  Takahashi, Aozasa, Barentsz and Nakamura}]{Cruz2002}
-\bibinfo{author}{Cruz, M.}, \bibinfo{author}{Tsuda, K.},
-  \bibinfo{author}{Narumi, Y.}, \bibinfo{author}{Kuroiwa, Y.},
-  \bibinfo{author}{Nose, T.}, \bibinfo{author}{Kojima, Y.},
-  \bibinfo{author}{Okuyama, A.}, \bibinfo{author}{Takahashi, S.},
-  \bibinfo{author}{Aozasa, K.}, \bibinfo{author}{Barentsz, J.O.},
-  \bibinfo{author}{Nakamura, H.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{C}haracterization of low-intensity lesions in the
-  peripheral zone of prostate on pre-biopsy endorectal coil {M}{R} imaging}}.
-\newblock \bibinfo{journal}{Eur Radiol} \bibinfo{volume}{12},
-  \bibinfo{pages}{357--365}.
-%Type = Inproceedings
-\bibitem[{Dalal and Triggs(2005)}]{Dalal2005}
-\bibinfo{author}{Dalal, N.}, \bibinfo{author}{Triggs, B.},
-  \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{H}istograms of oriented gradients for human
-  detection}}, in: \bibinfo{booktitle}{Computer Vision and Pattern Recognition,
-  2005. CVPR 2005. IEEE Computer Society Conference on}, pp.
-  \bibinfo{pages}{886--893 vol. 1}.
-%Type = Article
-\bibitem[{Daugman(1985)}]{Daugman1985}
-\bibinfo{author}{Daugman, J.G.}, \bibinfo{year}{1985}.
-\newblock \bibinfo{title}{{{U}ncertainty relation for resolution in space,
-  spatial frequency, and orientation optimized by two-dimensional visual
-  cortical filters}}.
-\newblock \bibinfo{journal}{J Opt Soc Am A} \bibinfo{volume}{2},
-  \bibinfo{pages}{1160--1169}.
-%Type = Article
-\bibitem[{Dean and Ilvento(2006)}]{Dean2006}
-\bibinfo{author}{Dean, J.C.}, \bibinfo{author}{Ilvento, C.C.},
-  \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{I}mproved cancer detection using computer-aided
+\begin{thebibliography}{100}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Giger2008}
+M.~L. Giger, H.~P. Chan, J.~Boone, {{A}nniversary paper: {H}istory and status
+  of {C}{A}{D} and quantitative image analysis: the role of {M}edical {P}hysics
+  and {A}{A}{P}{M}}, Med Phys 35~(12) (2008) 5799--5820.
+
+\bibitem{Hambrock2013}
+T.~Hambrock, P.~C. Vos, C.~A. Hulsbergen-van~de Kaa, J.~O. Barentsz, H.~J.
+  Huisman, {{P}rostate cancer: computer-aided diagnosis with multiparametric
+  3-{T} {M}{R} imaging--effect on observer performance}, Radiology 266~(2)
+  (2013) 521--530.
+
+\bibitem{Chan1999}
+H.~P. Chan, B.~Sahiner, M.~A. Helvie, N.~Petrick, M.~A. Roubidoux, T.~E.
+  Wilson, D.~D. Adler, C.~Paramagul, J.~S. Newman, S.~Sanjay-Gopal,
+  {{I}mprovement of radiologists' characterization of mammographic masses by
+  using computer-aided diagnosis: an {R}{O}{C} study}, Radiology 212~(3) (1999)
+  817--827.
+
+\bibitem{Dean2006}
+J.~C. Dean, C.~C. Ilvento, {{I}mproved cancer detection using computer-aided
   detection with diagnostic and screening mammography: prospective study of 104
-  cancers}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{187},
-  \bibinfo{pages}{20--28}.
-%Type = Article
-\bibitem[{Delongchamps et~al.(2013)Delongchamps, Peyromaure, Schull, Beuvon,
-  Bouazza, Flam, Zerbib, Muradyan, Legman and Cornud}]{Delongchamps2013}
-\bibinfo{author}{Delongchamps, N.B.}, \bibinfo{author}{Peyromaure, M.},
-  \bibinfo{author}{Schull, A.}, \bibinfo{author}{Beuvon, F.},
-  \bibinfo{author}{Bouazza, N.}, \bibinfo{author}{Flam, T.},
-  \bibinfo{author}{Zerbib, M.}, \bibinfo{author}{Muradyan, N.},
-  \bibinfo{author}{Legman, P.}, \bibinfo{author}{Cornud, F.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{P}rebiopsy magnetic resonance imaging and prostate
-  cancer detection: comparison of random and targeted biopsies}}.
-\newblock \bibinfo{journal}{J. Urol.} \bibinfo{volume}{189},
-  \bibinfo{pages}{493--499}.
-%Type = Article
-\bibitem[{Delpierre et~al.(2013)Delpierre, Lamy, Kelly-Irving, Molinie, Velten,
-  Tretarre, Woronoff, Buemi, Lapotre-Ledoux, Bara, Guizard, Colonna and
-  Grosclaude}]{Delpierre2013}
-\bibinfo{author}{Delpierre, C.}, \bibinfo{author}{Lamy, S.},
-  \bibinfo{author}{Kelly-Irving, M.}, \bibinfo{author}{Molinie, F.},
-  \bibinfo{author}{Velten, M.}, \bibinfo{author}{Tretarre, B.},
-  \bibinfo{author}{Woronoff, A.S.}, \bibinfo{author}{Buemi, A.},
-  \bibinfo{author}{Lapotre-Ledoux, B.}, \bibinfo{author}{Bara, S.},
-  \bibinfo{author}{Guizard, A.V.}, \bibinfo{author}{Colonna, M.},
-  \bibinfo{author}{Grosclaude, P.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{L}ife expectancy estimates as a key factor in
-  over-treatment: the case of prostate cancer}}.
-\newblock \bibinfo{journal}{Cancer Epidemiol} \bibinfo{volume}{37},
-  \bibinfo{pages}{462--468}.
-%Type = Article
-\bibitem[{Devos et~al.(2004)Devos, Lukas, Suykens, Vanhamme, Tate, Howe, Majos,
-  Moreno-Torres, van~der Graaf, Arus and Van~Huffel}]{Devos2004}
-\bibinfo{author}{Devos, A.}, \bibinfo{author}{Lukas, L.},
-  \bibinfo{author}{Suykens, J.A.}, \bibinfo{author}{Vanhamme, L.},
-  \bibinfo{author}{Tate, A.R.}, \bibinfo{author}{Howe, F.A.},
-  \bibinfo{author}{Majos, C.}, \bibinfo{author}{Moreno-Torres, A.},
-  \bibinfo{author}{van~der Graaf, M.}, \bibinfo{author}{Arus, C.},
-  \bibinfo{author}{Van~Huffel, S.}, \bibinfo{year}{2004}.
-\newblock \bibinfo{title}{{{C}lassification of brain tumours using short echo
-  time 1{H} {M}{R} spectra}}.
-\newblock \bibinfo{journal}{J. Magn. Reson.} \bibinfo{volume}{170},
-  \bibinfo{pages}{164--175}.
-%Type = Article
-\bibitem[{Doo et~al.(2012)Doo, Sung, Park, Kim, Cho, Oh, Ko and Yang}]{Doo2012}
-\bibinfo{author}{Doo, K.W.}, \bibinfo{author}{Sung, D.J.},
-  \bibinfo{author}{Park, B.J.}, \bibinfo{author}{Kim, M.J.},
-  \bibinfo{author}{Cho, S.B.}, \bibinfo{author}{Oh, Y.W.}, \bibinfo{author}{Ko,
-  Y.H.}, \bibinfo{author}{Yang, K.S.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{D}etectability of low and intermediate or high risk
-  prostate cancer with combined {T}2-weighted and diffusion-weighted
-  {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Eur Radiol} \bibinfo{volume}{22},
-  \bibinfo{pages}{1812--1819}.
-%Type = Article
-\bibitem[{Efron(1983)}]{Efron1983}
-\bibinfo{author}{Efron, B.}, \bibinfo{year}{1983}.
-\newblock \bibinfo{title}{{{E}stimating the error rate of a prediction rule:
-  {I}mprovement on cross-validation}}.
-\newblock \bibinfo{journal}{Journal of the American Statistical Association}
-  \bibinfo{volume}{78}, \bibinfo{pages}{pp. 316--331}.
-%Type = Article
-\bibitem[{Etzioni et~al.(2002)Etzioni, Penson, Legler, di~Tommaso, Boer, Gann
-  and Feuer}]{Etzioni2002}
-\bibinfo{author}{Etzioni, R.}, \bibinfo{author}{Penson, D.F.},
-  \bibinfo{author}{Legler, J.M.}, \bibinfo{author}{di~Tommaso, D.},
-  \bibinfo{author}{Boer, R.}, \bibinfo{author}{Gann, P.H.},
-  \bibinfo{author}{Feuer, E.J.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{O}verdiagnosis due to prostate-specific antigen
-  screening: lessons from {U}.{S}. prostate cancer incidence trends}}.
-\newblock \bibinfo{journal}{J. Natl. Cancer Inst.} \bibinfo{volume}{94},
-  \bibinfo{pages}{981--990}.
-%Type = Article
-\bibitem[{Ferlay et~al.(2010)Ferlay, Shin, Bray, Forman, Mathers and
-  Parkin}]{Ferlay2010}
-\bibinfo{author}{Ferlay, J.}, \bibinfo{author}{Shin, H.R.},
-  \bibinfo{author}{Bray, F.}, \bibinfo{author}{Forman, D.},
-  \bibinfo{author}{Mathers, C.}, \bibinfo{author}{Parkin, D.M.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{E}stimates of worldwide burden of cancer in 2008:
-  {G}{L}{O}{B}{O}{C}{A}{N} 2008}}.
-\newblock \bibinfo{journal}{Int. J. Cancer} \bibinfo{volume}{127},
-  \bibinfo{pages}{2893--2917}.
-%Type = Misc
-\bibitem[{Fodor(2002)}]{Fodor2002}
-\bibinfo{author}{Fodor, I.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{A} survey of dimension reduction techniques}}.
-%Type = Article
-\bibitem[{Fred and Jain(2005)}]{Fred2005}
-\bibinfo{author}{Fred, A.}, \bibinfo{author}{Jain, A.}, \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{C}ombining multiple clusterings using evidence
-  accumulation}}.
-\newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
-  Transactions on} \bibinfo{volume}{27}, \bibinfo{pages}{835--850}.
-%Type = Article
-\bibitem[{Freedman et~al.(2006)Freedman, Haiman, Patterson, McDonald, Tandon,
-  Waliszewska, Penney, Steen, Ardlie, John, Oakley-Girvan, Whittemore, Cooney,
-  Ingles, Altshuler, Henderson and Reich}]{Freedman2006}
-\bibinfo{author}{Freedman, M.L.}, \bibinfo{author}{Haiman, C.A.},
-  \bibinfo{author}{Patterson, N.}, \bibinfo{author}{McDonald, G.J.},
-  \bibinfo{author}{Tandon, A.}, \bibinfo{author}{Waliszewska, A.},
-  \bibinfo{author}{Penney, K.}, \bibinfo{author}{Steen, R.G.},
-  \bibinfo{author}{Ardlie, K.}, \bibinfo{author}{John, E.M.},
-  \bibinfo{author}{Oakley-Girvan, I.}, \bibinfo{author}{Whittemore, A.S.},
-  \bibinfo{author}{Cooney, K.A.}, \bibinfo{author}{Ingles, S.A.},
-  \bibinfo{author}{Altshuler, D.}, \bibinfo{author}{Henderson, B.E.},
-  \bibinfo{author}{Reich, D.}, \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{A}dmixture mapping identifies 8q24 as a prostate
-  cancer risk locus in {A}frican-{A}merican men}}.
-\newblock \bibinfo{journal}{Proc. Natl. Acad. Sci. U.S.A.}
-  \bibinfo{volume}{103}, \bibinfo{pages}{14068--14073}.
-%Type = Article
-\bibitem[{Freund and Schapire(1997)}]{Freund1997}
-\bibinfo{author}{Freund, Y.}, \bibinfo{author}{Schapire, R.},
-  \bibinfo{year}{1997}.
-\newblock \bibinfo{title}{{{A} decision-theoretic generalization of on-line
-  learning and an application to boosting}}.
-\newblock \bibinfo{journal}{Journal of Computer and System Sciences}
-  \bibinfo{volume}{55}, \bibinfo{pages}{119 -- 139}.
-%Type = Article
-\bibitem[{Friedman(1989)}]{Friedman1989}
-\bibinfo{author}{Friedman, J.}, \bibinfo{year}{1989}.
-\newblock \bibinfo{title}{{{R}egularized discriminant analysis}}.
-\newblock \bibinfo{journal}{Journal of the American Statistical Association}
-  \bibinfo{volume}{84}, \bibinfo{pages}{pp. 165--175}.
-%Type = Article
-\bibitem[{Friedman et~al.(1998)Friedman, Hastie and Tibshirani}]{Friedman1998}
-\bibinfo{author}{Friedman, J.}, \bibinfo{author}{Hastie, T.},
-  \bibinfo{author}{Tibshirani, R.}, \bibinfo{year}{1998}.
-\newblock \bibinfo{title}{{{A}dditive logistic regression: a statistical view
-  of boosting}}.
-\newblock \bibinfo{journal}{Annals of Statistics} \bibinfo{volume}{28},
-  \bibinfo{pages}{2000}.
-%Type = Article
-\bibitem[{Gabor(1946)}]{Gabor1946}
-\bibinfo{author}{Gabor, D.}, \bibinfo{year}{1946}.
-\newblock \bibinfo{title}{{{T}heory of communication. Part 1: The analysis of
-  information}}.
-\newblock \bibinfo{journal}{Electrical Engineers - Part III: Radio and
-  Communication Engineering, Journal of the Institution of}
-  \bibinfo{volume}{93}, \bibinfo{pages}{429--441}.
-%Type = Article
-\bibitem[{Ghose et~al.(2012)Ghose, Oliver, Marti, Llado, Vilanova, Freixenet,
-  Mitra, Sidibe and Meriaudeau}]{Ghose2012}
-\bibinfo{author}{Ghose, S.}, \bibinfo{author}{Oliver, A.},
-  \bibinfo{author}{Marti, R.}, \bibinfo{author}{Llado, X.},
-  \bibinfo{author}{Vilanova, J.C.}, \bibinfo{author}{Freixenet, J.},
-  \bibinfo{author}{Mitra, J.}, \bibinfo{author}{Sidibe, D.},
-  \bibinfo{author}{Meriaudeau, F.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{A} survey of prostate segmentation methodologies in
-  ultrasound, magnetic resonance and computed tomography images}}.
-\newblock \bibinfo{journal}{Comput Methods Programs Biomed}
-  \bibinfo{volume}{108}, \bibinfo{pages}{262--287}.
-%Type = Inproceedings
-\bibitem[{Giannini et~al.(2013)Giannini, Vignati, Mazzetti, De~Luca, Bracco,
-  Stasi, Russo, Armando and Regge}]{Giannini2013}
-\bibinfo{author}{Giannini, V.}, \bibinfo{author}{Vignati, A.},
-  \bibinfo{author}{Mazzetti, S.}, \bibinfo{author}{De~Luca, M.},
-  \bibinfo{author}{Bracco, C.}, \bibinfo{author}{Stasi, M.},
-  \bibinfo{author}{Russo, F.}, \bibinfo{author}{Armando, E.},
-  \bibinfo{author}{Regge, D.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{A} prostate {C}{A}{D} system based on
-  multiparametric analysis of {D}{C}{E} {T}1-w, and {D}{W} automatically
-  registered images}}, in: \bibinfo{booktitle}{Proc. SPIE 8670, Medical Imaging
-  2013: Computer-Aided Diagnosis}, pp. \bibinfo{pages}{86703E--86703E--6}.
-%Type = Article
-\bibitem[{Gibbs et~al.(2001)Gibbs, Tozer, Liney and Turnbull}]{Gibbs2001}
-\bibinfo{author}{Gibbs, P.}, \bibinfo{author}{Tozer, D.J.},
-  \bibinfo{author}{Liney, G.P.}, \bibinfo{author}{Turnbull, L.W.},
-  \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{C}omparison of quantitative {T}2 mapping and
-  diffusion-weighted imaging in the normal and pathologic prostate}}.
-\newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{46},
-  \bibinfo{pages}{1054--1058}.
-%Type = Article
-\bibitem[{Giger et~al.(2008)Giger, Chan and Boone}]{Giger2008}
-\bibinfo{author}{Giger, M.L.}, \bibinfo{author}{Chan, H.P.},
-  \bibinfo{author}{Boone, J.}, \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{A}nniversary paper: {H}istory and status of
-  {C}{A}{D} and quantitative image analysis: the role of {M}edical {P}hysics
-  and {A}{A}{P}{M}}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{35},
-  \bibinfo{pages}{5799--5820}.
-%Type = Article
-\bibitem[{Giovannucci et~al.(2007)Giovannucci, Liu, Platz, Stampfer and
-  Willett}]{Giovannucci2007}
-\bibinfo{author}{Giovannucci, E.}, \bibinfo{author}{Liu, Y.},
-  \bibinfo{author}{Platz, E.A.}, \bibinfo{author}{Stampfer, M.J.},
-  \bibinfo{author}{Willett, W.C.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{R}isk factors for prostate cancer incidence and
-  progression in the health professionals follow-up study}}.
-\newblock \bibinfo{journal}{Int. J. Cancer} \bibinfo{volume}{121},
-  \bibinfo{pages}{1571--1578}.
-%Type = Article
-\bibitem[{Giskeodegard et~al.(2013)Giskeodegard, Bertilsson, Selnaes, Wright,
-  Bathen, Viset, Halgunset, Angelsen, Gribbestad and Tessem}]{Giskeodegard2013}
-\bibinfo{author}{Giskeodegard, G.F.}, \bibinfo{author}{Bertilsson, H.},
-  \bibinfo{author}{Selnaes, K.M.}, \bibinfo{author}{Wright, A.J.},
-  \bibinfo{author}{Bathen, T.F.}, \bibinfo{author}{Viset, T.},
-  \bibinfo{author}{Halgunset, J.}, \bibinfo{author}{Angelsen, A.},
-  \bibinfo{author}{Gribbestad, I.S.}, \bibinfo{author}{Tessem, M.B.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{S}permine and citrate as metabolic biomarkers for
-  assessing prostate cancer aggressiveness}}.
-\newblock \bibinfo{journal}{PLoS ONE} \bibinfo{volume}{8},
-  \bibinfo{pages}{e62375}.
-%Type = Inbook
-\bibitem[{Gleason(1977)}]{Gleason1977}
-\bibinfo{author}{Gleason, D.F.}, \bibinfo{year}{1977}.
-\newblock \bibinfo{title}{{{U}rologic pathology: {T}he prostate}}.
-  \bibinfo{publisher}{Lea and Febiger.}. chapter \bibinfo{chapter}{The
-  Veteran's Administration Cooperative Urologic Research Group: histologic
-  grading and clinical staging of prostatic carcinoma}.
-\newblock p. \bibinfo{pages}{171–198}.
-%Type = Article
-\bibitem[{van~der Graaf et~al.(2000)van~der Graaf, Schipper, Oosterhof,
-  Schalken, Verhofstad and Heerschap}]{Graaf2000}
-\bibinfo{author}{van~der Graaf, M.}, \bibinfo{author}{Schipper, R.G.},
-  \bibinfo{author}{Oosterhof, G.O.}, \bibinfo{author}{Schalken, J.A.},
-  \bibinfo{author}{Verhofstad, A.A.}, \bibinfo{author}{Heerschap, A.},
-  \bibinfo{year}{2000}.
-\newblock \bibinfo{title}{{{P}roton {M}{R} spectroscopy of prostatic tissue
-  focused on the detection of spermine, a possible biomarker of malignant
-  behavior in prostate cancer}}.
-\newblock \bibinfo{journal}{MAGMA} \bibinfo{volume}{10},
-  \bibinfo{pages}{153--159}.
-%Type = Incollection
-\bibitem[{Gribbestad et~al.(2005)Gribbestad, Gjesdal, Nilsen, Lundgren,
-  Hjelstuen and Jackson}]{Gribbestad2005}
-\bibinfo{author}{Gribbestad, I.}, \bibinfo{author}{Gjesdal, K.},
-  \bibinfo{author}{Nilsen, G.}, \bibinfo{author}{Lundgren, S.},
-  \bibinfo{author}{Hjelstuen, M.}, \bibinfo{author}{Jackson, A.},
-  \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{A}n introduction to dynamic contrast-enhanced
-  {M}{R}{I} in oncology}}, in: \bibinfo{editor}{Jackson, A.},
-  \bibinfo{editor}{Buckley, D.}, \bibinfo{editor}{Parker, G.} (Eds.),
-  \bibinfo{booktitle}{Dynamic Contrast-Enhanced Magnetic Resonance Imaging in
-  Oncology}. \bibinfo{publisher}{Springer Berlin Heidelberg}. Medical
-  Radiology, pp. \bibinfo{pages}{1--22}.
-%Type = Article
-\bibitem[{Haas et~al.(2007)Haas, Delongchamps, Jones, Chandan, Serio, Vickers,
-  Jumbelic, Threatte, Korets, Lilja and de~la Roza}]{Haas2007}
-\bibinfo{author}{Haas, G.P.}, \bibinfo{author}{Delongchamps, N.B.},
-  \bibinfo{author}{Jones, R.F.}, \bibinfo{author}{Chandan, V.},
-  \bibinfo{author}{Serio, A.M.}, \bibinfo{author}{Vickers, A.J.},
-  \bibinfo{author}{Jumbelic, M.}, \bibinfo{author}{Threatte, G.},
-  \bibinfo{author}{Korets, R.}, \bibinfo{author}{Lilja, H.},
-  \bibinfo{author}{de~la Roza, G.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{N}eedle biopsies on autopsy prostates: sensitivity
-  of cancer detection based on true prevalence}}.
-\newblock \bibinfo{journal}{J. Natl. Cancer Inst.} \bibinfo{volume}{99},
-  \bibinfo{pages}{1484--1489}.
-%Type = Article
-\bibitem[{Hambrock et~al.(2011)Hambrock, Somford, Huisman, van Oort, Witjes,
-  Hulsbergen-van~de Kaa, Scheenen and Barentsz}]{Hambrock2011}
-\bibinfo{author}{Hambrock, T.}, \bibinfo{author}{Somford, D.M.},
-  \bibinfo{author}{Huisman, H.J.}, \bibinfo{author}{van Oort, I.M.},
-  \bibinfo{author}{Witjes, J.A.}, \bibinfo{author}{Hulsbergen-van~de Kaa,
-  C.A.}, \bibinfo{author}{Scheenen, T.}, \bibinfo{author}{Barentsz, J.O.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{R}elationship between apparent diffusion
-  coefficients at 3.0-{T} {M}{R} imaging and {G}leason grade in peripheral zone
-  prostate cancer}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{259},
-  \bibinfo{pages}{453--461}.
-%Type = Article
-\bibitem[{Hambrock et~al.(2013)Hambrock, Vos, Hulsbergen-van~de Kaa, Barentsz
-  and Huisman}]{Hambrock2013}
-\bibinfo{author}{Hambrock, T.}, \bibinfo{author}{Vos, P.C.},
-  \bibinfo{author}{Hulsbergen-van~de Kaa, C.A.}, \bibinfo{author}{Barentsz,
-  J.O.}, \bibinfo{author}{Huisman, H.J.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{P}rostate cancer: computer-aided diagnosis with
-  multiparametric 3-{T} {M}{R} imaging--effect on observer performance}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{266},
-  \bibinfo{pages}{521--530}.
-%Type = Article
-\bibitem[{Hara et~al.(2005)Hara, Okuizumi, Koike, Kawaguchi and
-  Bilim}]{Hara2005}
-\bibinfo{author}{Hara, N.}, \bibinfo{author}{Okuizumi, M.},
-  \bibinfo{author}{Koike, H.}, \bibinfo{author}{Kawaguchi, M.},
-  \bibinfo{author}{Bilim, V.}, \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{D}ynamic contrast-enhanced magnetic resonance
-  imaging ({D}{C}{E}-{M}{R}{I}) is a useful modality for the precise detection
-  and staging of early prostate cancer}}.
-\newblock \bibinfo{journal}{Prostate} \bibinfo{volume}{62},
-  \bibinfo{pages}{140--147}.
-%Type = Article
-\bibitem[{Haralick et~al.(1973)Haralick, Shanmugam and Dinstein}]{Haralick1973}
-\bibinfo{author}{Haralick, R.}, \bibinfo{author}{Shanmugam, K.},
-  \bibinfo{author}{Dinstein, I.}, \bibinfo{year}{1973}.
-\newblock \bibinfo{title}{{{T}extural features for image classification}}.
-\newblock \bibinfo{journal}{Systems, Man and Cybernetics, IEEE Transactions on}
-  \bibinfo{volume}{SMC-3}, \bibinfo{pages}{610--621}.
-%Type = Article
-\bibitem[{Hegde et~al.(2013)Hegde, Mulkern, Panych, Fennessy, Fedorov, Maier
-  and Tempany}]{Hegde2013}
-\bibinfo{author}{Hegde, J.V.}, \bibinfo{author}{Mulkern, R.V.},
-  \bibinfo{author}{Panych, L.P.}, \bibinfo{author}{Fennessy, F.M.},
-  \bibinfo{author}{Fedorov, A.}, \bibinfo{author}{Maier, S.E.},
-  \bibinfo{author}{Tempany, C.M.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{M}ultiparametric {M}{R}{I} of prostate cancer: an
+  cancers}, AJR Am J Roentgenol 187~(1) (2006) 20--28.
+
+\bibitem{Li2004}
+F.~Li, M.~Aoyama, J.~Shiraishi, H.~Abe, Q.~Li, K.~Suzuki, R.~Engelmann,
+  S.~Sone, H.~Macmahon, K.~Doi, {{R}adiologists' performance for
+  differentiating benign from malignant lung nodules on high-resolution {C}{T}
+  using computer-estimated likelihood of malignancy}, AJR Am J Roentgenol
+  183~(5) (2004) 1209--1215.
+
+\bibitem{Petrick2008}
+N.~Petrick, M.~Haider, R.~M. Summers, S.~C. Yeshwant, L.~Brown, E.~M. Iuliano,
+  A.~Louie, J.~R. Choi, P.~J. Pickhardt, {{C}{T} colonography with
+  computer-aided detection as a second reader: observer performance study},
+  Radiology 246~(1) (2008) 148--156.
+
+\bibitem{Hegde2013}
+J.~V. Hegde, R.~V. Mulkern, L.~P. Panych, F.~M. Fennessy, A.~Fedorov, S.~E.
+  Maier, C.~M. Tempany, {{M}ultiparametric {M}{R}{I} of prostate cancer: an
   update on state-of-the-art techniques and their performance in detecting and
-  localizing prostate cancer}}.
-\newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{37},
-  \bibinfo{pages}{1035--1054}.
-%Type = Article
-\bibitem[{Heidenreich et~al.(2013)Heidenreich, Abrahamsson, Artibani, Catto,
-  Montorsi, Van~Poppel, Wirth and Mottet}]{Heidenreich2013}
-\bibinfo{author}{Heidenreich, A.}, \bibinfo{author}{Abrahamsson, P.A.},
-  \bibinfo{author}{Artibani, W.}, \bibinfo{author}{Catto, J.},
-  \bibinfo{author}{Montorsi, F.}, \bibinfo{author}{Van~Poppel, H.},
-  \bibinfo{author}{Wirth, M.}, \bibinfo{author}{Mottet, N.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{E}arly detection of prostate cancer: {E}uropean
-  {A}ssociation of {U}rology recommendation}}.
-\newblock \bibinfo{journal}{Eur. Urol.} \bibinfo{volume}{64},
-  \bibinfo{pages}{347--354}.
-%Type = Article
-\bibitem[{Hoeks et~al.(2011)Hoeks, Barentsz, Hambrock, Yakar, Somford,
-  Heijmink, Scheenen, Vos, Huisman, van Oort, Witjes, Heerschap and
-  Futterer}]{Hoeks2011}
-\bibinfo{author}{Hoeks, C.M.}, \bibinfo{author}{Barentsz, J.O.},
-  \bibinfo{author}{Hambrock, T.}, \bibinfo{author}{Yakar, D.},
-  \bibinfo{author}{Somford, D.M.}, \bibinfo{author}{Heijmink, S.W.},
-  \bibinfo{author}{Scheenen, T.W.}, \bibinfo{author}{Vos, P.C.},
-  \bibinfo{author}{Huisman, H.}, \bibinfo{author}{van Oort, I.M.},
-  \bibinfo{author}{Witjes, J.A.}, \bibinfo{author}{Heerschap, A.},
-  \bibinfo{author}{Futterer, J.J.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{P}rostate cancer: multiparametric {M}{R} imaging
-  for detection, localization, and staging}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{261},
-  \bibinfo{pages}{46--66}.
-%Type = Article
-\bibitem[{Hoffman et~al.(2001)Hoffman, Gilliland, Eley, Harlan, Stephenson,
-  Stanford, Albertson, Hamilton, Hunt and Potosky}]{Hoffman2001}
-\bibinfo{author}{Hoffman, R.M.}, \bibinfo{author}{Gilliland, F.D.},
-  \bibinfo{author}{Eley, J.W.}, \bibinfo{author}{Harlan, L.C.},
-  \bibinfo{author}{Stephenson, R.A.}, \bibinfo{author}{Stanford, J.L.},
-  \bibinfo{author}{Albertson, P.C.}, \bibinfo{author}{Hamilton, A.S.},
-  \bibinfo{author}{Hunt, W.C.}, \bibinfo{author}{Potosky, A.L.},
-  \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{R}acial and ethnic differences in advanced-stage
-  prostate cancer: the {P}rostate {C}ancer {O}utcomes {S}tudy}}.
-\newblock \bibinfo{journal}{J. Natl. Cancer Inst.} \bibinfo{volume}{93},
-  \bibinfo{pages}{388--395}.
-%Type = Article
-\bibitem[{Hricak et~al.(1987)Hricak, Dooms, McNeal, Mark, Marotti, Avallone,
-  Pelzer, Proctor and Tanagho}]{Hricak1987}
-\bibinfo{author}{Hricak, H.}, \bibinfo{author}{Dooms, G.C.},
-  \bibinfo{author}{McNeal, J.E.}, \bibinfo{author}{Mark, A.S.},
-  \bibinfo{author}{Marotti, M.}, \bibinfo{author}{Avallone, A.},
-  \bibinfo{author}{Pelzer, M.}, \bibinfo{author}{Proctor, E.C.},
-  \bibinfo{author}{Tanagho, E.A.}, \bibinfo{year}{1987}.
-\newblock \bibinfo{title}{{{M}{R} imaging of the prostate gland: normal
-  anatomy}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{148},
-  \bibinfo{pages}{51--58}.
-%Type = Article
-\bibitem[{Hricak et~al.(1983)Hricak, Williams, Spring, Moon, Hedgcock, Watson
-  and Crooks}]{Hricak1983}
-\bibinfo{author}{Hricak, H.}, \bibinfo{author}{Williams, R.D.},
-  \bibinfo{author}{Spring, D.B.}, \bibinfo{author}{Moon, K.L.},
-  \bibinfo{author}{Hedgcock, M.W.}, \bibinfo{author}{Watson, R.A.},
-  \bibinfo{author}{Crooks, L.E.}, \bibinfo{year}{1983}.
-\newblock \bibinfo{title}{{{A}natomy and pathology of the male pelvis by
-  magnetic resonance imaging}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{141},
-  \bibinfo{pages}{1101--1110}.
-%Type = Article
-\bibitem[{Huch~Boni et~al.(1995)Huch~Boni, Boner, Lutolf, Trinkler, Pestalozzi
-  and Krestin}]{HuchBoni1995}
-\bibinfo{author}{Huch~Boni, R.A.}, \bibinfo{author}{Boner, J.A.},
-  \bibinfo{author}{Lutolf, U.M.}, \bibinfo{author}{Trinkler, F.},
-  \bibinfo{author}{Pestalozzi, D.M.}, \bibinfo{author}{Krestin, G.P.},
-  \bibinfo{year}{1995}.
-\newblock \bibinfo{title}{{{C}ontrast-enhanced endorectal coil {M}{R}{I} in
-  local staging of prostate carcinoma}}.
-\newblock \bibinfo{journal}{J Comput Assist Tomogr} \bibinfo{volume}{19},
-  \bibinfo{pages}{232--237}.
-%Type = Article
-\bibitem[{Hugosson et~al.(2010)Hugosson, Carlsson, Aus, Bergdahl, Khatami,
-  Lodding, Pihl, Stranne, Holmberg and Lilja}]{Hugosson2010}
-\bibinfo{author}{Hugosson, J.}, \bibinfo{author}{Carlsson, S.},
-  \bibinfo{author}{Aus, G.}, \bibinfo{author}{Bergdahl, S.},
-  \bibinfo{author}{Khatami, A.}, \bibinfo{author}{Lodding, P.},
-  \bibinfo{author}{Pihl, C.G.}, \bibinfo{author}{Stranne, J.},
-  \bibinfo{author}{Holmberg, E.}, \bibinfo{author}{Lilja, H.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{M}ortality results from the {G}\"oteborg randomised
-  population-based prostate-cancer screening trial}}.
-\newblock \bibinfo{journal}{Lancet Oncol.} \bibinfo{volume}{11},
-  \bibinfo{pages}{725--732}.
-%Type = Inproceedings
-\bibitem[{Huisman et~al.(2010)Huisman, Vos, Litjens, Hambrock and
-  Barentsz}]{Huisman2010}
-\bibinfo{author}{Huisman, H.}, \bibinfo{author}{Vos, P.},
-  \bibinfo{author}{Litjens, G.}, \bibinfo{author}{Hambrock, T.},
-  \bibinfo{author}{Barentsz, J.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{C}omputer aided detection of prostate cancer using
-  {T}2, {D}{W}{I} and {D}{C}{E} {M}{R}{I}: methods and clinical applications}},
-  in: \bibinfo{booktitle}{Proceedings of the 2010 international conference on
-  Prostate cancer imaging: computer-aided diagnosis, prognosis, and
-  intervention}, \bibinfo{publisher}{Springer-Verlag},
-  \bibinfo{address}{Berlin, Heidelberg}. pp. \bibinfo{pages}{4--14}.
-%Type = Article
-\bibitem[{Huisman(2003)}]{Huisman2003}
-\bibinfo{author}{Huisman, T.A.}, \bibinfo{year}{2003}.
-\newblock \bibinfo{title}{{{D}iffusion-weighted imaging: basic concepts and
-  application in cerebral stroke and head trauma}}.
-\newblock \bibinfo{journal}{Eur Radiol} \bibinfo{volume}{13},
-  \bibinfo{pages}{2283--2297}.
-%Type = Article
-\bibitem[{Itou et~al.(2011)Itou, Nakanishi, Narumi, Nishizawa and
-  Tsukuma}]{Itou2011}
-\bibinfo{author}{Itou, Y.}, \bibinfo{author}{Nakanishi, K.},
-  \bibinfo{author}{Narumi, Y.}, \bibinfo{author}{Nishizawa, Y.},
-  \bibinfo{author}{Tsukuma, H.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{C}linical utility of apparent diffusion coefficient
-  ({A}{D}{C}) values in patients with prostate cancer: can {A}{D}{C} values
-  contribute to assess the aggressiveness of prostate cancer?}}
-\newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{33},
-  \bibinfo{pages}{167--172}.
-%Type = Article
-\bibitem[{Jager et~al.(1997)Jager, Ruijter, van~de Kaa, de~la Rosette,
-  Oosterhof, Thornbury, Ruijs and Barentsz}]{Jager1997}
-\bibinfo{author}{Jager, G.J.}, \bibinfo{author}{Ruijter, E.T.},
-  \bibinfo{author}{van~de Kaa, C.A.}, \bibinfo{author}{de~la Rosette, J.J.},
-  \bibinfo{author}{Oosterhof, G.O.}, \bibinfo{author}{Thornbury, J.R.},
-  \bibinfo{author}{Ruijs, S.H.}, \bibinfo{author}{Barentsz, J.O.},
-  \bibinfo{year}{1997}.
-\newblock \bibinfo{title}{{{D}ynamic {T}urbo{F}{L}{A}{S}{H} subtraction
-  technique for contrast-enhanced {M}{R} imaging of the prostate: correlation
-  with histopathologic results}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{203},
-  \bibinfo{pages}{645--652}.
-%Type = Book
-\bibitem[{Jolliffe(2002)}]{Jolliffe2002}
-\bibinfo{author}{Jolliffe, I.T.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{P}rincipal Component Analysis}}.
-\newblock \bibinfo{edition}{Second} ed., \bibinfo{publisher}{Springer}.
-%Type = Inproceedings
-\bibitem[{Jungke et~al.(1987)Jungke, Von~Seelen, Bielke, Meindl, Grigat and
-  Pfannenstiel}]{Jungke1987}
-\bibinfo{author}{Jungke, M.}, \bibinfo{author}{Von~Seelen, W.},
-  \bibinfo{author}{Bielke, G.}, \bibinfo{author}{Meindl, S.},
-  \bibinfo{author}{Grigat, M.}, \bibinfo{author}{Pfannenstiel, P.},
-  \bibinfo{year}{1987}.
-\newblock \bibinfo{title}{{{A} system for the diagnostic use of tissue
-  characterizing parameters in {N}{M}{R}-tomography}}, in:
-  \bibinfo{booktitle}{Proc. of Information Processing in Medical Imaging}, pp.
-  \bibinfo{pages}{471--481}.
-%Type = Article
-\bibitem[{Kaji et~al.(1998)Kaji, Kurhanewicz, Hricak, Sokolov, Huang, Nelson
-  and Vigneron}]{Kaji1998}
-\bibinfo{author}{Kaji, Y.}, \bibinfo{author}{Kurhanewicz, J.},
-  \bibinfo{author}{Hricak, H.}, \bibinfo{author}{Sokolov, D.L.},
-  \bibinfo{author}{Huang, L.R.}, \bibinfo{author}{Nelson, S.J.},
-  \bibinfo{author}{Vigneron, D.B.}, \bibinfo{year}{1998}.
-\newblock \bibinfo{title}{{{L}ocalizing prostate cancer in the presence of
-  postbiopsy changes on {M}{R} images: role of proton {M}{R} spectroscopic
-  imaging}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{206},
-  \bibinfo{pages}{785--790}.
-%Type = Article
-\bibitem[{Kelm et~al.(2007)Kelm, Menze, Zechmann, Baudendistel and
-  Hamprecht}]{Kelm2007}
-\bibinfo{author}{Kelm, B.M.}, \bibinfo{author}{Menze, B.H.},
-  \bibinfo{author}{Zechmann, C.M.}, \bibinfo{author}{Baudendistel, K.T.},
-  \bibinfo{author}{Hamprecht, F.A.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{A}utomated estimation of tumor probability in
-  prostate magnetic resonance spectroscopic imaging: pattern recognition vs
-  quantification}}.
-\newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{57},
-  \bibinfo{pages}{150--159}.
-%Type = Article
-\bibitem[{Kim et~al.(2005)Kim, Hong, Choi, Park, Ahn, Kim and Cho}]{Kim2005}
-\bibinfo{author}{Kim, J.K.}, \bibinfo{author}{Hong, S.S.},
-  \bibinfo{author}{Choi, Y.J.}, \bibinfo{author}{Park, S.H.},
-  \bibinfo{author}{Ahn, H.}, \bibinfo{author}{Kim, C.S.}, \bibinfo{author}{Cho,
-  K.S.}, \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{W}ash-in rate on the basis of dynamic
-  contrast-enhanced {M}{R}{I}: usefulness for prostate cancer detection and
-  localization}}.
-\newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{22},
-  \bibinfo{pages}{639--646}.
-%Type = Article
-\bibitem[{Kirkham et~al.(2006)Kirkham, Emberton and Allen}]{Kirkham2006}
-\bibinfo{author}{Kirkham, A.P.}, \bibinfo{author}{Emberton, M.},
-  \bibinfo{author}{Allen, C.}, \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{H}ow good is {M}{R}{I} at detecting and
-  characterising cancer within the prostate?}}
-\newblock \bibinfo{journal}{Eur. Urol.} \bibinfo{volume}{50},
-  \bibinfo{pages}{1163--1174}.
-%Type = Article
-\bibitem[{Kirsch(1971)}]{Kirsch1971}
-\bibinfo{author}{Kirsch, R.}, \bibinfo{year}{1971}.
-\newblock \bibinfo{title}{{{C}omputer determination of the constituent
-  structure of biological images }}.
-\newblock \bibinfo{journal}{Computers and Biomedical Research}
-  \bibinfo{volume}{4}, \bibinfo{pages}{315 -- 328}.
-%Type = Article
-\bibitem[{Klein et~al.(2008)Klein, van~der Heide, Lips, van Vulpen, Staring and
-  Pluim}]{Klein2008}
-\bibinfo{author}{Klein, S.}, \bibinfo{author}{van~der Heide, U.A.},
-  \bibinfo{author}{Lips, I.M.}, \bibinfo{author}{van Vulpen, M.},
-  \bibinfo{author}{Staring, M.}, \bibinfo{author}{Pluim, J.P.},
-  \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{A}utomatic segmentation of the prostate in 3{D}
-  {M}{R} images by atlas matching using localized mutual information}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{35},
-  \bibinfo{pages}{1407--1417}.
-%Type = Article
-\bibitem[{Koh and Collins(2007)}]{Koh2007}
-\bibinfo{author}{Koh, D.M.}, \bibinfo{author}{Collins, D.J.},
-  \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{D}iffusion-weighted {M}{R}{I} in the body:
-  applications and challenges in oncology}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{188},
-  \bibinfo{pages}{1622--1635}.
-%Type = Article
-\bibitem[{Kurhanewicz et~al.(1996)Kurhanewicz, Vigneron, Hricak, Narayan,
-  Carroll and Nelson}]{Kurhanewicz1996}
-\bibinfo{author}{Kurhanewicz, J.}, \bibinfo{author}{Vigneron, D.B.},
-  \bibinfo{author}{Hricak, H.}, \bibinfo{author}{Narayan, P.},
-  \bibinfo{author}{Carroll, P.}, \bibinfo{author}{Nelson, S.J.},
-  \bibinfo{year}{1996}.
-\newblock \bibinfo{title}{{{T}hree-dimensional {H}-1 {M}{R} spectroscopic
-  imaging of the in situ human prostate with high (0.24-0.7-cm3) spatial
-  resolution}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{198},
-  \bibinfo{pages}{795--805}.
-%Type = Article
-\bibitem[{Langer et~al.(2009)Langer, van~der Kwast, Evans, Trachtenberg, Wilson
-  and Haider}]{Langer2009}
-\bibinfo{author}{Langer, D.L.}, \bibinfo{author}{van~der Kwast, T.H.},
-  \bibinfo{author}{Evans, A.J.}, \bibinfo{author}{Trachtenberg, J.},
-  \bibinfo{author}{Wilson, B.C.}, \bibinfo{author}{Haider, M.A.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{P}rostate cancer detection with multi-parametric
-  {M}{R}{I}: logistic regression analysis of quantitative {T}2,
-  diffusion-weighted imaging, and dynamic contrast-enhanced {M}{R}{I}}}.
-\newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{30},
-  \bibinfo{pages}{327--334}.
-%Type = Article
-\bibitem[{Langerak et~al.(2010)Langerak, van~der Heide, Kotte, Viergever, van
-  Vulpen and Pluim}]{Langerak2010}
-\bibinfo{author}{Langerak, T.R.}, \bibinfo{author}{van~der Heide, U.A.},
-  \bibinfo{author}{Kotte, A.N.}, \bibinfo{author}{Viergever, M.A.},
-  \bibinfo{author}{van Vulpen, M.}, \bibinfo{author}{Pluim, J.P.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{L}abel fusion in atlas-based segmentation using a
-  selective and iterative method for performance level estimation
-  ({S}{I}{M}{P}{L}{E})}}.
-\newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{29},
-  \bibinfo{pages}{2000--2008}.
-%Type = Article
-\bibitem[{Le~Bihan et~al.(1988)Le~Bihan, Breton, Lallemand, Aubin, Vignaud and
-  Laval-Jeantet}]{LeBihan1988}
-\bibinfo{author}{Le~Bihan, D.}, \bibinfo{author}{Breton, E.},
-  \bibinfo{author}{Lallemand, D.}, \bibinfo{author}{Aubin, M.L.},
-  \bibinfo{author}{Vignaud, J.}, \bibinfo{author}{Laval-Jeantet, M.},
-  \bibinfo{year}{1988}.
-\newblock \bibinfo{title}{{{S}eparation of diffusion and perfusion in
-  intravoxel incoherent motion {M}{R} imaging}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{168},
-  \bibinfo{pages}{497--505}.
-%Type = Article
-\bibitem[{Le~Bihan et~al.(1986)Le~Bihan, Breton, Lallemand, Grenier, Cabanis
-  and Laval-Jeantet}]{LeBihan1986}
-\bibinfo{author}{Le~Bihan, D.}, \bibinfo{author}{Breton, E.},
-  \bibinfo{author}{Lallemand, D.}, \bibinfo{author}{Grenier, P.},
-  \bibinfo{author}{Cabanis, E.}, \bibinfo{author}{Laval-Jeantet, M.},
-  \bibinfo{year}{1986}.
-\newblock \bibinfo{title}{{{M}{R} imaging of intravoxel incoherent motions:
-  application to diffusion and perfusion in neurologic disorders}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{161},
-  \bibinfo{pages}{401--407}.
-%Type = Masterthesis
-\bibitem[{Lema\^itre(2011)}]{Lemaitre2011}
-\bibinfo{author}{Lema\^itre, G.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{A}bsolute quantification at 3 {T}}}.
-\newblock Master's thesis. Universit\'e de Bourgogne, Heriot-Watt University,
-  Universitat de Girona.
-%Type = Article
-\bibitem[{Leung and Malik(2001)}]{Leung2001}
-\bibinfo{author}{Leung, T.}, \bibinfo{author}{Malik, J.}, \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{R}epresenting and recognizing the visual appearance
-  of materials using three-dimensional textons}}.
-\newblock \bibinfo{journal}{International Journal of Computer Vision}
-  \bibinfo{volume}{43}, \bibinfo{pages}{29--44}.
-%Type = Article
-\bibitem[{Li et~al.(2004)Li, Aoyama, Shiraishi, Abe, Li, Suzuki, Engelmann,
-  Sone, Macmahon and Doi}]{Li2004}
-\bibinfo{author}{Li, F.}, \bibinfo{author}{Aoyama, M.},
-  \bibinfo{author}{Shiraishi, J.}, \bibinfo{author}{Abe, H.},
-  \bibinfo{author}{Li, Q.}, \bibinfo{author}{Suzuki, K.},
-  \bibinfo{author}{Engelmann, R.}, \bibinfo{author}{Sone, S.},
-  \bibinfo{author}{Macmahon, H.}, \bibinfo{author}{Doi, K.},
-  \bibinfo{year}{2004}.
-\newblock \bibinfo{title}{{{R}adiologists' performance for differentiating
-  benign from malignant lung nodules on high-resolution {C}{T} using
-  computer-estimated likelihood of malignancy}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{183},
-  \bibinfo{pages}{1209--1215}.
-%Type = Article
-\bibitem[{Lieber and Mahadevan-Jansen(2003)}]{Lieber2003}
-\bibinfo{author}{Lieber, C.A.}, \bibinfo{author}{Mahadevan-Jansen, A.},
-  \bibinfo{year}{2003}.
-\newblock \bibinfo{title}{{{A}utomated method for subtraction of fluorescence
-  from biological {R}aman spectra}}.
-\newblock \bibinfo{journal}{Appl Spectrosc} \bibinfo{volume}{57},
-  \bibinfo{pages}{1363--1367}.
-%Type = Article
-\bibitem[{Liney et~al.(1996a)Liney, Knowles, Manton, Turnbull, Blackband and
-  Horsman}]{Liney1996a}
-\bibinfo{author}{Liney, G.P.}, \bibinfo{author}{Knowles, A.J.},
-  \bibinfo{author}{Manton, D.J.}, \bibinfo{author}{Turnbull, L.W.},
-  \bibinfo{author}{Blackband, S.J.}, \bibinfo{author}{Horsman, A.},
-  \bibinfo{year}{1996}a.
-\newblock \bibinfo{title}{{{C}omparison of conventional single echo and
-  multi-echo sequences with a fast spin-echo sequence for quantitative {T}2
-  mapping: application to the prostate}}.
-\newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{6},
-  \bibinfo{pages}{603--607}.
-%Type = Article
-\bibitem[{Liney et~al.(1996b)Liney, Lowry, Turnbull, Manton, Knowles, Blackband
-  and Horsman}]{Liney1996}
-\bibinfo{author}{Liney, G.P.}, \bibinfo{author}{Lowry, M.},
-  \bibinfo{author}{Turnbull, L.W.}, \bibinfo{author}{Manton, D.J.},
-  \bibinfo{author}{Knowles, A.J.}, \bibinfo{author}{Blackband, S.J.},
-  \bibinfo{author}{Horsman, A.}, \bibinfo{year}{1996}b.
-\newblock \bibinfo{title}{{{P}roton {M}{R} {T}2 maps correlate with the citrate
-  concentration in the prostate}}.
-\newblock \bibinfo{journal}{NMR Biomed} \bibinfo{volume}{9},
-  \bibinfo{pages}{59--64}.
-%Type = Article
-\bibitem[{Liney et~al.(1997)Liney, Turnbull, Lowry, Turnbull, Knowles and
-  Horsman}]{Liney1997}
-\bibinfo{author}{Liney, G.P.}, \bibinfo{author}{Turnbull, L.W.},
-  \bibinfo{author}{Lowry, M.}, \bibinfo{author}{Turnbull, L.S.},
-  \bibinfo{author}{Knowles, A.J.}, \bibinfo{author}{Horsman, A.},
-  \bibinfo{year}{1997}.
-\newblock \bibinfo{title}{{{I}n vivo quantification of citrate concentration
-  and water {T}2 relaxation time of the pathologic prostate gland using 1{H}
-  {M}{R}{S} and {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Magn Reson Imaging} \bibinfo{volume}{15},
-  \bibinfo{pages}{1177--1186}.
-%Type = Article
-\bibitem[{Litjens et~al.(2014a)Litjens, Debats, Barentsz, Karssemeijer and
-  Huisman}]{Litjens2014}
-\bibinfo{author}{Litjens, G.}, \bibinfo{author}{Debats, O.},
-  \bibinfo{author}{Barentsz, J.}, \bibinfo{author}{Karssemeijer, N.},
-  \bibinfo{author}{Huisman, H.}, \bibinfo{year}{2014}a.
-\newblock \bibinfo{title}{{{C}omputer-iided detection of prostate cancer in
-  {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Medical Imaging, IEEE Transactions on}
-  \bibinfo{volume}{33}, \bibinfo{pages}{1083--1092}.
-%Type = Article
-\bibitem[{Litjens et~al.(2012a)Litjens, Debats, van~de Ven, Karssemeijer and
-  Huisman}]{Litjens2012a}
-\bibinfo{author}{Litjens, G.}, \bibinfo{author}{Debats, O.},
-  \bibinfo{author}{van~de Ven, W.}, \bibinfo{author}{Karssemeijer, N.},
-  \bibinfo{author}{Huisman, H.}, \bibinfo{year}{2012}a.
-\newblock \bibinfo{title}{{{A} pattern recognition approach to zonal
-  segmentation of the prostate on {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Med Image Comput Comput Assist Interv}
-  \bibinfo{volume}{15}, \bibinfo{pages}{413--420}.
-%Type = Article
-\bibitem[{Litjens et~al.(2014b)Litjens, Toth, van~de Ven, Hoeks, Kerkstra, van
-  Ginneken, Vincent, Guillard, Birbeck, Zhang, Strand, Malmberg, Ou,
-  Davatzikos, Kirschner, Jung, Yuan, Qiu, Gao, Edwards, Maan, van~der Heijden,
-  Ghose, Mitra, Dowling, Barratt, Huisman and Madabhushi}]{Litjens2014a}
-\bibinfo{author}{Litjens, G.}, \bibinfo{author}{Toth, R.},
-  \bibinfo{author}{van~de Ven, W.}, \bibinfo{author}{Hoeks, C.},
-  \bibinfo{author}{Kerkstra, S.}, \bibinfo{author}{van Ginneken, B.},
-  \bibinfo{author}{Vincent, G.}, \bibinfo{author}{Guillard, G.},
-  \bibinfo{author}{Birbeck, N.}, \bibinfo{author}{Zhang, J.},
-  \bibinfo{author}{Strand, R.}, \bibinfo{author}{Malmberg, F.},
-  \bibinfo{author}{Ou, Y.}, \bibinfo{author}{Davatzikos, C.},
-  \bibinfo{author}{Kirschner, M.}, \bibinfo{author}{Jung, F.},
-  \bibinfo{author}{Yuan, J.}, \bibinfo{author}{Qiu, W.}, \bibinfo{author}{Gao,
-  Q.}, \bibinfo{author}{Edwards, P.E.}, \bibinfo{author}{Maan, B.},
-  \bibinfo{author}{van~der Heijden, F.}, \bibinfo{author}{Ghose, S.},
-  \bibinfo{author}{Mitra, J.}, \bibinfo{author}{Dowling, J.},
-  \bibinfo{author}{Barratt, D.}, \bibinfo{author}{Huisman, H.},
-  \bibinfo{author}{Madabhushi, A.}, \bibinfo{year}{2014}b.
-\newblock \bibinfo{title}{{{E}valuation of prostate segmentation algorithms for
-  {M}{R}{I}: the {P}{R}{O}{M}{I}{S}{E}12 challenge}}.
-\newblock \bibinfo{journal}{Med Image Anal} \bibinfo{volume}{18},
-  \bibinfo{pages}{359--373}.
-%Type = Inproceedings
-\bibitem[{Litjens et~al.(2012b)Litjens, Barentsz, Karssemeijer and
-  Huisman}]{Litjens2012}
-\bibinfo{author}{Litjens, G.J.S.}, \bibinfo{author}{Barentsz, J.O.},
-  \bibinfo{author}{Karssemeijer, N.}, \bibinfo{author}{Huisman, H.J.},
-  \bibinfo{year}{2012}b.
-\newblock \bibinfo{title}{{{A}utomated computer-aided detection of prostate
-  cancer in MR images: from a whole-organ to a zone-based approach}}, in:
-  \bibinfo{booktitle}{Proc. SPIE 8315, Medical Imaging 2012: Computer-Aided
-  Diagnosis}, pp. \bibinfo{pages}{83150G--83150G--6}.
-%Type = Inproceedings
-\bibitem[{Litjens et~al.(2011)Litjens, Vos, Barentsz, Karssemeijer and
-  Huisman}]{Litjens2011}
-\bibinfo{author}{Litjens, G.J.S.}, \bibinfo{author}{Vos, P.C.},
-  \bibinfo{author}{Barentsz, J.O.}, \bibinfo{author}{Karssemeijer, N.},
-  \bibinfo{author}{Huisman, H.J.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{A}utomatic computer aided detection of
-  abnormalities in multi-parametric prostate {M}{R}{I}}}, in:
-  \bibinfo{booktitle}{Proc. SPIE 7963, Medical Imaging 2011: Computer-Aided
-  Diagnosis}, pp. \bibinfo{pages}{79630T--79630T--7}.
-%Type = Inproceedings
-\bibitem[{Liu et~al.(2013)Liu, Wang, Turkbey, Grant, Wood and
-  Summers}]{Liu2013}
-\bibinfo{author}{Liu, P.}, \bibinfo{author}{Wang, S.},
-  \bibinfo{author}{Turkbey, B.}, \bibinfo{author}{Grant, K.and~Pinto, P.C.P.},
-  \bibinfo{author}{Wood, B.J.}, \bibinfo{author}{Summers, R.M.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{A} prostate cancer computer-aided diagnosis system
-  using multimodal magnetic resonance imaging and targeted biopsy labels}}, in:
-  \bibinfo{booktitle}{Proc. SPIE 8670, Medical Imaging 2013: Computer-Aided
-  Diagnosis}, pp. \bibinfo{pages}{86701G--86701G--6}.
-%Type = Article
-\bibitem[{Liu et~al.(2011)Liu, Turkbey, Senegas, Remmele, Xu, Kruecker,
-  Bernardo, Wood, Pinto and Choyke}]{Liu2011}
-\bibinfo{author}{Liu, W.}, \bibinfo{author}{Turkbey, B.},
-  \bibinfo{author}{Senegas, J.}, \bibinfo{author}{Remmele, S.},
-  \bibinfo{author}{Xu, S.}, \bibinfo{author}{Kruecker, J.},
-  \bibinfo{author}{Bernardo, M.}, \bibinfo{author}{Wood, B.J.},
-  \bibinfo{author}{Pinto, P.A.}, \bibinfo{author}{Choyke, P.L.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{A}ccelerated {T}2 mapping for characterization of
-  prostate cancer}}.
-\newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{65},
-  \bibinfo{pages}{1400--1406}.
-%Type = Article
-\bibitem[{Liu et~al.(2009)Liu, Langer, Haider, Yang, Wernick and
-  Yetik}]{Liu2009}
-\bibinfo{author}{Liu, X.}, \bibinfo{author}{Langer, D.L.},
-  \bibinfo{author}{Haider, M.A.}, \bibinfo{author}{Yang, Y.},
-  \bibinfo{author}{Wernick, M.N.}, \bibinfo{author}{Yetik, I.S.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{P}rostate cancer segmentation with simultaneous
-  estimation of {M}arkov random field parameters and class}}.
-\newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{28},
-  \bibinfo{pages}{906--915}.
-%Type = Article
-\bibitem[{Lopes et~al.(2011)Lopes, Ayache, Makni, Puech, Villers, Mordon and
-  Betrouni}]{Lopes2011}
-\bibinfo{author}{Lopes, R.}, \bibinfo{author}{Ayache, A.},
-  \bibinfo{author}{Makni, N.}, \bibinfo{author}{Puech, P.},
-  \bibinfo{author}{Villers, A.}, \bibinfo{author}{Mordon, S.},
-  \bibinfo{author}{Betrouni, N.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{P}rostate cancer characterization on {M}{R} images
-  using fractal features}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{38},
-  \bibinfo{pages}{83--95}.
-%Type = Article
-\bibitem[{Lu-Yao et~al.(2009)Lu-Yao, Albertsen, Moore, Shih, Lin, DiPaola,
-  Barry, Zietman, O'Leary, Walker-Corkery and Yao}]{Lu-Yao2009}
-\bibinfo{author}{Lu-Yao, G.L.}, \bibinfo{author}{Albertsen, P.C.},
-  \bibinfo{author}{Moore, D.F.}, \bibinfo{author}{Shih, W.},
-  \bibinfo{author}{Lin, Y.}, \bibinfo{author}{DiPaola, R.S.},
-  \bibinfo{author}{Barry, M.J.}, \bibinfo{author}{Zietman, A.},
-  \bibinfo{author}{O'Leary, M.}, \bibinfo{author}{Walker-Corkery, E.},
-  \bibinfo{author}{Yao, S.L.}, \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{O}utcomes of localized prostate cancer following
-  conservative management}}.
-\newblock \bibinfo{journal}{JAMA} \bibinfo{volume}{302},
-  \bibinfo{pages}{1202--1209}.
-%Type = Article
-\bibitem[{Lv et~al.(2009)Lv, Guo, Wang, Zhang and Fang}]{Lv2009}
-\bibinfo{author}{Lv, D.}, \bibinfo{author}{Guo, X.}, \bibinfo{author}{Wang,
-  X.}, \bibinfo{author}{Zhang, J.}, \bibinfo{author}{Fang, J.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{C}omputerized characterization of prostate cancer
-  by fractal analysis in {M}{R} images}}.
-\newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{30},
-  \bibinfo{pages}{161--168}.
-%Type = Article
-\bibitem[{Ma and Chapman(2009)}]{Ma2009}
-\bibinfo{author}{Ma, R.W.}, \bibinfo{author}{Chapman, K.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{A} systematic review of the effect of diet in
-  prostate cancer prevention and treatment}}.
-\newblock \bibinfo{journal}{J Hum Nutr Diet} \bibinfo{volume}{22},
-  \bibinfo{pages}{187--199}.
-%Type = Article
-\bibitem[{Madabhushi et~al.(2006)Madabhushi, Udupa and Souza}]{Madabhushi2006}
-\bibinfo{author}{Madabhushi, A.}, \bibinfo{author}{Udupa, J.},
-  \bibinfo{author}{Souza, A.}, \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{G}eneralized scale: {T}heory, algorithms, and
-  application to image inhomogeneity correction }}.
-\newblock \bibinfo{journal}{Computer Vision and Image Understanding}
-  \bibinfo{volume}{101}, \bibinfo{pages}{100 -- 121}.
-%Type = Article
-\bibitem[{Madabhushi and Udupa(2006)}]{Madabhushi2006a}
-\bibinfo{author}{Madabhushi, A.}, \bibinfo{author}{Udupa, J.K.},
-  \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{N}ew methods of {M}{R} image intensity
-  standardization via generalized scale}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{33},
-  \bibinfo{pages}{3426--3434}.
-%Type = Article
-\bibitem[{Maintz and Viergever(1998)}]{Maintz1998}
-\bibinfo{author}{Maintz, J.B.}, \bibinfo{author}{Viergever, M.A.},
-  \bibinfo{year}{1998}.
-\newblock \bibinfo{title}{{{A} survey of medical image registration}}.
-\newblock \bibinfo{journal}{Med Image Anal} \bibinfo{volume}{2},
-  \bibinfo{pages}{1--36}.
-%Type = Book
-\bibitem[{Mallat(2008)}]{Mallat2008}
-\bibinfo{author}{Mallat, S.}, \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{A} wavelet tour of signal processing, {T}hird
-  {E}dition: {T}he sparse way}}.
-\newblock \bibinfo{edition}{3rd} ed., \bibinfo{publisher}{Academic Press}.
-%Type = Article
-\bibitem[{Manjon et~al.(2008)Manjon, Carbonell-Caballero, Lull, Garcia-Marti,
-  Marti-Bonmati and Robles}]{Manjon2008}
-\bibinfo{author}{Manjon, J.V.}, \bibinfo{author}{Carbonell-Caballero, J.},
-  \bibinfo{author}{Lull, J.J.}, \bibinfo{author}{Garcia-Marti, G.},
-  \bibinfo{author}{Marti-Bonmati, L.}, \bibinfo{author}{Robles, M.},
-  \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{M}{R}{I} denoising using non-local means}}.
-\newblock \bibinfo{journal}{Med Image Anal} \bibinfo{volume}{12},
-  \bibinfo{pages}{514--523}.
-%Type = Article
-\bibitem[{Matulewicz et~al.(2013)Matulewicz, Jansen, Bokacheva, Vargas, Akin,
-  Fine, Shukla-Dave, Eastham, Hricak, Koutcher and Zakian}]{Matulewicz2013}
-\bibinfo{author}{Matulewicz, L.}, \bibinfo{author}{Jansen, J.F.},
-  \bibinfo{author}{Bokacheva, L.}, \bibinfo{author}{Vargas, H.A.},
-  \bibinfo{author}{Akin, O.}, \bibinfo{author}{Fine, S.W.},
-  \bibinfo{author}{Shukla-Dave, A.}, \bibinfo{author}{Eastham, J.A.},
-  \bibinfo{author}{Hricak, H.}, \bibinfo{author}{Koutcher, J.A.},
-  \bibinfo{author}{Zakian, K.L.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{A}natomic segmentation improves prostate cancer
-  detection with artificial neural networks analysis of 1H magnetic resonance
-  spectroscopic imaging}}.
-\newblock \bibinfo{journal}{Journal of Magnetic Resonance Imaging} ,
-  \bibinfo{pages}{n/a--n/a}.
-%Type = Inproceedings
-\bibitem[{Mazzetti et~al.(2011)Mazzetti, De~Luca, Bracco, Vignati, Giannini,
-  Stasi, Russo, Armando, Agliozzo and Regge}]{Mazzetti2011}
-\bibinfo{author}{Mazzetti, S.}, \bibinfo{author}{De~Luca, M.},
-  \bibinfo{author}{Bracco, C.}, \bibinfo{author}{Vignati, A.},
-  \bibinfo{author}{Giannini, V.}, \bibinfo{author}{Stasi, M.},
-  \bibinfo{author}{Russo, F.}, \bibinfo{author}{Armando, E.},
-  \bibinfo{author}{Agliozzo, S.}, \bibinfo{author}{Regge, D.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{A} {C}{A}{D} system based on multi-parametric
-  analysis for cancer prostate detection on {D}{C}{E}-{M}{R}{I}}}, in:
-  \bibinfo{booktitle}{Proc. SPIE 7963, Medical Imaging 2011: Computer-Aided
-  Diagnosis}, pp. \bibinfo{pages}{79633Q--79633Q--7}.
-%Type = Article
-\bibitem[{McNeal et~al.(1988)McNeal, Redwine, Freiha and Stamey}]{McNeal1988}
-\bibinfo{author}{McNeal, J.E.}, \bibinfo{author}{Redwine, E.A.},
-  \bibinfo{author}{Freiha, F.S.}, \bibinfo{author}{Stamey, T.A.},
-  \bibinfo{year}{1988}.
-\newblock \bibinfo{title}{{{Z}onal distribution of prostatic adenocarcinoma.
-  {C}orrelation with histologic pattern and direction of spread}}.
-\newblock \bibinfo{journal}{Am. J. Surg. Pathol.} \bibinfo{volume}{12},
-  \bibinfo{pages}{897--906}.
-%Type = Article
-\bibitem[{Metz(2006)}]{Metz2006}
-\bibinfo{author}{Metz, C.E.}, \bibinfo{year}{2006}.
-\newblock \bibinfo{title}{{{R}eceiver operating characteristic analysis: a tool
-  for the quantitative evaluation of observer performance and imaging
-  systems}}.
-\newblock \bibinfo{journal}{J Am Coll Radiol} \bibinfo{volume}{3},
-  \bibinfo{pages}{413--422}.
-%Type = Article
-\bibitem[{Middleton and Esposito(1968)}]{Middleton1968}
-\bibinfo{author}{Middleton, D.}, \bibinfo{author}{Esposito, R.},
-  \bibinfo{year}{1968}.
-\newblock \bibinfo{title}{{{S}imultaneous optimum detection and estimation of
-  signals in noise}}.
-\newblock \bibinfo{journal}{Information Theory, IEEE Transactions on}
-  \bibinfo{volume}{14}, \bibinfo{pages}{434--444}.
-%Type = Phdthesis
-\bibitem[{Mitra(2012)}]{Mitra2012}
-\bibinfo{author}{Mitra, J.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{M}ultimodal image registration applied to magnetic
-  resonance and ultrasound prostatic images}}.
-\newblock Ph.D. thesis. Universitat de Girona and Universit\'e de Bourgogne.
-%Type = Article
-\bibitem[{Mitra et~al.(2012)Mitra, Kato, Marti, Oliver, Llado, Sidibe, Ghose,
-  Vilanova, Comet and Meriaudeau}]{Mitra2012a}
-\bibinfo{author}{Mitra, J.}, \bibinfo{author}{Kato, Z.},
-  \bibinfo{author}{Marti, R.}, \bibinfo{author}{Oliver, A.},
-  \bibinfo{author}{Llado, X.}, \bibinfo{author}{Sidibe, D.},
-  \bibinfo{author}{Ghose, S.}, \bibinfo{author}{Vilanova, J.C.},
-  \bibinfo{author}{Comet, J.}, \bibinfo{author}{Meriaudeau, F.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{A} spline-based non-linear diffeomorphism for
-  multimodal prostate registration}}.
-\newblock \bibinfo{journal}{Med Image Anal} \bibinfo{volume}{16},
-  \bibinfo{pages}{1259--1279}.
-%Type = Inproceedings
-\bibitem[{Mitra et~al.(2011)Mitra, Marti, Oliver, Llado, Vilanova and
-  Meriaudeau}]{Mitra2011}
-\bibinfo{author}{Mitra, J.}, \bibinfo{author}{Marti, R.},
-  \bibinfo{author}{Oliver, A.}, \bibinfo{author}{Llado, X.},
-  \bibinfo{author}{Vilanova, J.C.}, \bibinfo{author}{Meriaudeau, F.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{A} comparison of thin-plate splines with automatic
-  correspondences and B-splines with uniform grids for multimodal prostate
-  registration}}, in: \bibinfo{booktitle}{Society of Photo-Optical
-  Instrumentation Engineers (SPIE) Conference Series}.
-%Type = Article
-\bibitem[{Mohan et~al.(2014)Mohan, Krishnaveni and Guo}]{Mohan2014}
-\bibinfo{author}{Mohan, J.}, \bibinfo{author}{Krishnaveni, V.},
-  \bibinfo{author}{Guo, Y.}, \bibinfo{year}{2014}.
-\newblock \bibinfo{title}{{{A} survey on the magnetic resonance image denoising
-  methods}}.
-\newblock \bibinfo{journal}{Biomedical Signal Processing and Control}
-  \bibinfo{volume}{9}, \bibinfo{pages}{56 -- 69}.
-%Type = Article
-\bibitem[{Moore et~al.(2013)Moore, Ridout and Emberton}]{Moore2013}
-\bibinfo{author}{Moore, C.M.}, \bibinfo{author}{Ridout, A.},
-  \bibinfo{author}{Emberton, M.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{T}he role of {M}{R}{I} in active surveillance of
-  prostate cancer}}.
-\newblock \bibinfo{journal}{Curr Opin Urol} \bibinfo{volume}{23},
-  \bibinfo{pages}{261--267}.
-%Type = Article
-\bibitem[{Morgan et~al.(2011)Morgan, Boxall, Bhatt, Bailey, Hindley, Langley,
-  Whitaker, Neal, Ismail, Whitaker, Annels, Michael and Pandha}]{Morgan2011}
-\bibinfo{author}{Morgan, R.}, \bibinfo{author}{Boxall, A.},
-  \bibinfo{author}{Bhatt, A.}, \bibinfo{author}{Bailey, M.},
-  \bibinfo{author}{Hindley, R.}, \bibinfo{author}{Langley, S.},
-  \bibinfo{author}{Whitaker, H.C.}, \bibinfo{author}{Neal, D.E.},
-  \bibinfo{author}{Ismail, M.}, \bibinfo{author}{Whitaker, H.},
-  \bibinfo{author}{Annels, N.}, \bibinfo{author}{Michael, A.},
-  \bibinfo{author}{Pandha, H.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{E}ngrailed-2 ({E}{N}2): a tumor specific urinary
-  biomarker for the early diagnosis of prostate cancer}}.
-\newblock \bibinfo{journal}{Clin. Cancer Res.} \bibinfo{volume}{17},
-  \bibinfo{pages}{1090--1098}.
-%Type = Article
-\bibitem[{Niaf et~al.(2012)Niaf, Rouviere, Mege-Lechevallier, Bratan and
-  Lartizien}]{Niaf2012}
-\bibinfo{author}{Niaf, E.}, \bibinfo{author}{Rouviere, O.},
-  \bibinfo{author}{Mege-Lechevallier, F.}, \bibinfo{author}{Bratan, F.},
-  \bibinfo{author}{Lartizien, C.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{C}omputer-aided diagnosis of prostate cancer in the
-  peripheral zone using multiparametric {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Phys Med Biol} \bibinfo{volume}{57},
-  \bibinfo{pages}{3833--3851}.
-%Type = Inproceedings
-\bibitem[{Niaf et~al.(2011)Niaf, Rouvière and Lartizien}]{Niaf2011}
-\bibinfo{author}{Niaf, E.}, \bibinfo{author}{Rouvière, O.},
-  \bibinfo{author}{Lartizien, C.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{C}omputer-aided diagnosis for prostate cancer
-  detection in the peripheral zone via multisequence {M}{R}{I}}}, in:
-  \bibinfo{booktitle}{Proc. SPIE 7963, Medical Imaging 2011: Computer-Aided
-  Diagnosis}.
-%Type = Article
-\bibitem[{van Niekerk et~al.(2013)van Niekerk, Witjes, Barentsz, van~der Laak
-  and Hulsbergen-van~de Kaa}]{Niekerk2013}
-\bibinfo{author}{van Niekerk, C.G.}, \bibinfo{author}{Witjes, J.A.},
-  \bibinfo{author}{Barentsz, J.O.}, \bibinfo{author}{van~der Laak, J.A.},
-  \bibinfo{author}{Hulsbergen-van~de Kaa, C.A.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{M}icrovascularity in transition zone prostate
-  tumors resembles normal prostatic tissue}}.
-\newblock \bibinfo{journal}{Prostate} \bibinfo{volume}{73},
-  \bibinfo{pages}{467--475}.
-%Type = Article
-\bibitem[{Noguchi et~al.(2001)Noguchi, Stamey, McNeal and Yemoto}]{Noguchi2001}
-\bibinfo{author}{Noguchi, M.}, \bibinfo{author}{Stamey, T.A.},
-  \bibinfo{author}{McNeal, J.E.}, \bibinfo{author}{Yemoto, C.M.},
-  \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{R}elationship between systematic biopsies and
-  histological features of 222 radical prostatectomy specimens: lack of
-  prediction of tumor significance for men with nonpalpable prostate cancer}}.
-\newblock \bibinfo{journal}{J. Urol.} \bibinfo{volume}{166},
-  \bibinfo{pages}{104--109}.
-%Type = Article
-\bibitem[{Nowak(1999)}]{Nowak1999}
-\bibinfo{author}{Nowak, R.}, \bibinfo{year}{1999}.
-\newblock \bibinfo{title}{{{W}avelet-based {R}ician noise removal for magnetic
-  resonance imaging}}.
-\newblock \bibinfo{journal}{Image Processing, IEEE Transactions on}
-  \bibinfo{volume}{8}, \bibinfo{pages}{1408--1419}.
-%Type = Article
-\bibitem[{Nyul and Udupa(1999)}]{Nyul1999}
-\bibinfo{author}{Nyul, L.G.}, \bibinfo{author}{Udupa, J.K.},
-  \bibinfo{year}{1999}.
-\newblock \bibinfo{title}{{{O}n standardizing the {M}{R} image intensity
-  scale}}.
-\newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{42},
-  \bibinfo{pages}{1072--1081}.
-%Type = Article
-\bibitem[{Nyul et~al.(2000)Nyul, Udupa and Zhang}]{Nyul2000}
-\bibinfo{author}{Nyul, L.G.}, \bibinfo{author}{Udupa, J.K.},
-  \bibinfo{author}{Zhang, X.}, \bibinfo{year}{2000}.
-\newblock \bibinfo{title}{{{N}ew variants of a method of {M}{R}{I} scale
-  standardization}}.
-\newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{19},
-  \bibinfo{pages}{143--150}.
-%Type = Article
-\bibitem[{Ojala et~al.(1996)Ojala, Pietik\"{a}inen and Harwood}]{Ojala1996}
-\bibinfo{author}{Ojala, T.}, \bibinfo{author}{Pietik\"{a}inen, M.},
-  \bibinfo{author}{Harwood, D.}, \bibinfo{year}{1996}.
-\newblock \bibinfo{title}{{{A} comparative study of texture measures with
-  classification based on featured distributions}}.
-\newblock \bibinfo{journal}{Pattern Recognition} \bibinfo{volume}{29},
-  \bibinfo{pages}{51--59}.
-%Type = Inbook
-\bibitem[{Osorio-Garcia et~al.(2012)Osorio-Garcia, Croitor~Sava, Sima, Nielsen,
-  Himmelreich and Van~Huffel}]{Osorio-Garcia2012}
-\bibinfo{author}{Osorio-Garcia, M.}, \bibinfo{author}{Croitor~Sava, A.},
-  \bibinfo{author}{Sima, D.M.}, \bibinfo{author}{Nielsen, F.},
-  \bibinfo{author}{Himmelreich, U.}, \bibinfo{author}{Van~Huffel, S.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{M}agnetic {R}esonance {S}pectroscopy}}.
-  \bibinfo{publisher}{InTech}. chapter \bibinfo{chapter}{{{Q}uantification
-  improvements of 1{H} {M}{R}{S} Signals}}.
-\newblock pp. \bibinfo{pages}{1--27}.
-%Type = Article
-\bibitem[{Oster et~al.(2013)Oster, Lamerato, Glass, Richert-Boe, Lopez, Chung,
-  Richhariya, Dodge, Wolff, Balakumaran and Edelsberg}]{Oster2013}
-\bibinfo{author}{Oster, G.}, \bibinfo{author}{Lamerato, L.},
-  \bibinfo{author}{Glass, A.G.}, \bibinfo{author}{Richert-Boe, K.E.},
-  \bibinfo{author}{Lopez, A.}, \bibinfo{author}{Chung, K.},
-  \bibinfo{author}{Richhariya, A.}, \bibinfo{author}{Dodge, T.},
-  \bibinfo{author}{Wolff, G.G.}, \bibinfo{author}{Balakumaran, A.},
-  \bibinfo{author}{Edelsberg, J.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{N}atural history of skeletal-related events in
-  patients with breast, lung, or prostate cancer and metastases to bone: a
-  15-year study in two large {U}{S} health systems}}.
-\newblock \bibinfo{journal}{Support Care Cancer} \bibinfo{volume}{21},
-  \bibinfo{pages}{3279--3286}.
-%Type = Inproceedings
-\bibitem[{Ozer et~al.(2009)Ozer, Haider, Langer, Van~der Kwast, Evans, Wernick,
-  Trachtenberg and Yetik}]{Ozer2009}
-\bibinfo{author}{Ozer, S.}, \bibinfo{author}{Haider, M.},
-  \bibinfo{author}{Langer, D.L.}, \bibinfo{author}{Van~der Kwast, T.H.},
-  \bibinfo{author}{Evans, A.}, \bibinfo{author}{Wernick, M.},
-  \bibinfo{author}{Trachtenberg, J.}, \bibinfo{author}{Yetik, I.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{P}rostate cancer localization with multispectral
-  {M}{R}{I} based on Relevance Vector Machines}}, in:
-  \bibinfo{booktitle}{Biomedical Imaging: From Nano to Macro, 2009. ISBI '09.
-  IEEE International Symposium on}, pp. \bibinfo{pages}{73--76}.
-%Type = Article
-\bibitem[{Ozer et~al.(2010)Ozer, Langer, Liu, Haider, van~der Kwast, Evans,
-  Yang, Wernick and Yetik}]{Ozer2010}
-\bibinfo{author}{Ozer, S.}, \bibinfo{author}{Langer, D.L.},
-  \bibinfo{author}{Liu, X.}, \bibinfo{author}{Haider, M.A.},
-  \bibinfo{author}{van~der Kwast, T.H.}, \bibinfo{author}{Evans, A.J.},
-  \bibinfo{author}{Yang, Y.}, \bibinfo{author}{Wernick, M.N.},
-  \bibinfo{author}{Yetik, I.S.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{S}upervised and unsupervised methods for prostate
-  cancer segmentation with multispectral {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{37},
-  \bibinfo{pages}{1873--1883}.
-%Type = Article
-\bibitem[{Padhani(2002)}]{Padhani2002}
-\bibinfo{author}{Padhani, A.R.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{D}ynamic contrast-enhanced {M}{R}{I} in clinical
-  oncology: current status and future directions}}.
-\newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{16},
-  \bibinfo{pages}{407--422}.
-%Type = Article
-\bibitem[{Padhani(2011)}]{Padhani2011}
-\bibinfo{author}{Padhani, A.R.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{I}ntegrating multiparametric prostate {M}{R}{I}
-  into clinical practice}}.
-\newblock \bibinfo{journal}{Cancer Imaging} \bibinfo{volume}{11 Spec No A},
-  \bibinfo{pages}{27--37}.
-%Type = Phdthesis
-\bibitem[{Parfait(2010)}]{Parfait2010}
-\bibinfo{author}{Parfait, S.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{C}lassification de spectres et recherche de
-  biomarqueurs en spectroscopie par r\'esonqnce magn\'etique nulcl\'eaire du
-  proton dans les tumeurs prostatiques}}.
-\newblock Ph.D. thesis. Universit\'e de Bourgogne.
-%Type = Article
-\bibitem[{Parfait et~al.(2012)Parfait, Walker, Créhange, Tizon and
-  Mitéran}]{Parfait2012}
-\bibinfo{author}{Parfait, S.}, \bibinfo{author}{Walker, P.},
-  \bibinfo{author}{Créhange, G.}, \bibinfo{author}{Tizon, X.},
-  \bibinfo{author}{Mitéran, J.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{C}lassification of prostate magnetic resonance
-  spectra using {S}upport {V}ector {M}achine }}.
-\newblock \bibinfo{journal}{Biomedical Signal Processing and Control}
-  \bibinfo{volume}{7}, \bibinfo{pages}{499 -- 508}.
-%Type = Article
-\bibitem[{Peng et~al.(2005)Peng, Long and Ding}]{Peng2005}
-\bibinfo{author}{Peng, H.}, \bibinfo{author}{Long, F.}, \bibinfo{author}{Ding,
-  C.}, \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{F}eature selection based on mutual information
-  criteria of max-dependency, max-relevance, and min-redundancy}}.
-\newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
-  Transactions on} \bibinfo{volume}{27}, \bibinfo{pages}{1226--1238}.
-%Type = Article
-\bibitem[{Peng et~al.(2013)Peng, Jiang, Yang, Brown, Antic, Sethi,
-  Schmid-Tannwald, Giger, Eggener and Oto}]{Peng2013}
-\bibinfo{author}{Peng, Y.}, \bibinfo{author}{Jiang, Y.}, \bibinfo{author}{Yang,
-  C.}, \bibinfo{author}{Brown, J.}, \bibinfo{author}{Antic, T.},
-  \bibinfo{author}{Sethi, I.}, \bibinfo{author}{Schmid-Tannwald, C.},
-  \bibinfo{author}{Giger, M.}, \bibinfo{author}{Eggener, S.},
-  \bibinfo{author}{Oto, A.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{Q}uantitative analysis of multiparametric prostate
-  {M}{R} images: differentiation between prostate cancer and normal tissue and
-  correlation with {G}leason score--a computer-aided diagnosis development
-  study}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{267},
-  \bibinfo{pages}{787--796}.
-%Type = Article
-\bibitem[{Petrick et~al.(2008)Petrick, Haider, Summers, Yeshwant, Brown,
-  Iuliano, Louie, Choi and Pickhardt}]{Petrick2008}
-\bibinfo{author}{Petrick, N.}, \bibinfo{author}{Haider, M.},
-  \bibinfo{author}{Summers, R.M.}, \bibinfo{author}{Yeshwant, S.C.},
-  \bibinfo{author}{Brown, L.}, \bibinfo{author}{Iuliano, E.M.},
-  \bibinfo{author}{Louie, A.}, \bibinfo{author}{Choi, J.R.},
-  \bibinfo{author}{Pickhardt, P.J.}, \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{C}{T} colonography with computer-aided detection as
-  a second reader: observer performance study}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{246},
-  \bibinfo{pages}{148--156}.
-%Type = Article
-\bibitem[{Pijnappel et~al.(1992)Pijnappel, van~den Boogaart, de~Beer and van
-  Ormondt}]{Pijnappel1992}
-\bibinfo{author}{Pijnappel, W.}, \bibinfo{author}{van~den Boogaart, A.},
-  \bibinfo{author}{de~Beer, R.}, \bibinfo{author}{van Ormondt, D.},
-  \bibinfo{year}{1992}.
-\newblock \bibinfo{title}{{{S}{V}{D}-based quantification of magnetic resonance
-  signals }}.
-\newblock \bibinfo{journal}{Journal of Magnetic Resonance (1969)}
-  \bibinfo{volume}{97}, \bibinfo{pages}{122 -- 134}.
-%Type = Phdthesis
-\bibitem[{Pizurica(2002)}]{Pizurica2002}
-\bibinfo{author}{Pizurica, A.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{I}mage denoising using wavelets and spatial context
-  modeling}}.
-\newblock Ph.D. thesis. Universiteit Gent.
-%Type = Article
-\bibitem[{Pizurica et~al.(2003)Pizurica, Philips, Lemahieu and
-  Acheroy}]{Pizurica2003}
-\bibinfo{author}{Pizurica, A.}, \bibinfo{author}{Philips, W.},
-  \bibinfo{author}{Lemahieu, I.}, \bibinfo{author}{Acheroy, M.},
-  \bibinfo{year}{2003}.
-\newblock \bibinfo{title}{{{A} versatile wavelet domain noise filtration
-  technique for medical imaging}}.
-\newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{22},
-  \bibinfo{pages}{323--331}.
-%Type = Article
-\bibitem[{Pluim et~al.(2003)Pluim, Maintz and Viergever}]{Pluim2003}
-\bibinfo{author}{Pluim, J.}, \bibinfo{author}{Maintz, J.},
-  \bibinfo{author}{Viergever, M.}, \bibinfo{year}{2003}.
-\newblock \bibinfo{title}{{{M}utual-information-based registration of medical
-  images: a survey}}.
-\newblock \bibinfo{journal}{IEEE Transcations on Medical Imaging}
-  \bibinfo{volume}{22}, \bibinfo{pages}{986--1004}.
-%Type = Inbook
-\bibitem[{Prewitt(1970)}]{Prewitt1970}
-\bibinfo{author}{Prewitt, J.}, \bibinfo{year}{1970}.
-\newblock \bibinfo{title}{{{P}icture processing and psychohistories}}.
-  \bibinfo{publisher}{Academic Press}. chapter \bibinfo{chapter}{{{O}bject
-  enhancement and extraction}}.
-%Type = Article
-\bibitem[{Provencher(1993)}]{Provencher1993}
-\bibinfo{author}{Provencher, S.W.}, \bibinfo{year}{1993}.
-\newblock \bibinfo{title}{{{E}stimation of metabolite concentrations from
-  localized in vivo proton {N}{M}{R} spectra}}.
-\newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{30},
-  \bibinfo{pages}{672--679}.
-%Type = Article
-\bibitem[{Puech et~al.(2009)Puech, Betrouni, Makni, Dewalle, Villers and
-  Lemaitre}]{Puech2009}
-\bibinfo{author}{Puech, P.}, \bibinfo{author}{Betrouni, N.},
-  \bibinfo{author}{Makni, N.}, \bibinfo{author}{Dewalle, A.S.},
-  \bibinfo{author}{Villers, A.}, \bibinfo{author}{Lemaitre, L.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{C}omputer-assisted diagnosis of prostate cancer
-  using {D}{C}{E}-{M}{R}{I} data: design, implementation and preliminary
-  results}}.
-\newblock \bibinfo{journal}{Int J Comput Assist Radiol Surg}
-  \bibinfo{volume}{4}, \bibinfo{pages}{1--10}.
-%Type = Techreport
-\bibitem[{Quinonero-Candela et~al.(2002)Quinonero-Candela, Girard and
-  Rasmussen}]{Quinonero-Candela2002}
-\bibinfo{author}{Quinonero-Candela, J.}, \bibinfo{author}{Girard, A.},
-  \bibinfo{author}{Rasmussen, C.}, \bibinfo{year}{2002}.
-\newblock \bibinfo{title}{{{P}rediction at an Uncertain Input for {G}aussian
-  processes and relevance vector machines application to Multiple-Step ahead
-  time-series forecasting}}.
-\newblock \bibinfo{type}{Technical Report}. DTU Informatics.
-%Type = Article
-\bibitem[{Quint et~al.(1991)Quint, Van~Erp, Bland, Mandell, Del~Buono,
-  Grossman, Glazer and Gikas}]{Quint1991}
-\bibinfo{author}{Quint, L.E.}, \bibinfo{author}{Van~Erp, J.S.},
-  \bibinfo{author}{Bland, P.H.}, \bibinfo{author}{Mandell, S.H.},
-  \bibinfo{author}{Del~Buono, E.A.}, \bibinfo{author}{Grossman, H.B.},
-  \bibinfo{author}{Glazer, G.M.}, \bibinfo{author}{Gikas, P.W.},
-  \bibinfo{year}{1991}.
-\newblock \bibinfo{title}{{{C}arcinoma of the prostate: {M}{R} images obtained
-  with body coils do not accurately reflect tumor volume}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{156},
-  \bibinfo{pages}{511--516}.
-%Type = Book
-\bibitem[{Rasmussen and Williams(2005)}]{Rasmussen2005}
-\bibinfo{author}{Rasmussen, C.}, \bibinfo{author}{Williams, C.},
-  \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{G}aussian processes for machine learning}}.
-\newblock \bibinfo{publisher}{The MIT Press}.
-%Type = Article
-\bibitem[{Ratiney et~al.(2005)Ratiney, Sdika, Coenradie, Cavassila, van Ormondt
-  and Graveron-Demilly}]{Ratiney2005}
-\bibinfo{author}{Ratiney, H.}, \bibinfo{author}{Sdika, M.},
-  \bibinfo{author}{Coenradie, Y.}, \bibinfo{author}{Cavassila, S.},
-  \bibinfo{author}{van Ormondt, D.}, \bibinfo{author}{Graveron-Demilly, D.},
-  \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{T}ime-domain semi-parametric estimation based on a
-  metabolite basis set}}.
-\newblock \bibinfo{journal}{NMR Biomed} \bibinfo{volume}{18},
-  \bibinfo{pages}{1--13}.
-%Type = Inproceedings
-\bibitem[{Rish(2001)}]{Rish2001}
-\bibinfo{author}{Rish, I.}, \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{A}n empirical study of the naive {B}ayes
-  classifier}}, in: \bibinfo{booktitle}{IJCAI 2001 workshop on empirical
-  methods in artificial intelligence}, pp. \bibinfo{pages}{41--46}.
-%Type = Article
-\bibitem[{Rodriguez et~al.(2007)Rodriguez, Freedland, Deka, Jacobs, McCullough,
-  Patel, Thun and Calle}]{Rodriguez2007}
-\bibinfo{author}{Rodriguez, C.}, \bibinfo{author}{Freedland, S.J.},
-  \bibinfo{author}{Deka, A.}, \bibinfo{author}{Jacobs, E.J.},
-  \bibinfo{author}{McCullough, M.L.}, \bibinfo{author}{Patel, A.V.},
-  \bibinfo{author}{Thun, M.J.}, \bibinfo{author}{Calle, E.E.},
-  \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{B}ody mass index, weight change, and risk of
-  prostate cancer in the {C}ancer {P}revention {S}tudy {I}{I} {N}utrition
-  {C}ohort}}.
-\newblock \bibinfo{journal}{Cancer Epidemiol. Biomarkers Prev.}
-  \bibinfo{volume}{16}, \bibinfo{pages}{63--69}.
-%Type = Article
-\bibitem[{Rosenkrantz et~al.(2013)Rosenkrantz, Sabach, Babb, Matza, Taneja and
-  Deng}]{Rosenkrantz2013}
-\bibinfo{author}{Rosenkrantz, A.B.}, \bibinfo{author}{Sabach, A.},
-  \bibinfo{author}{Babb, J.S.}, \bibinfo{author}{Matza, B.W.},
-  \bibinfo{author}{Taneja, S.S.}, \bibinfo{author}{Deng, F.M.},
-  \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{P}rostate cancer: comparison of dynamic
-  contrast-enhanced {M}{R}{I} techniques for localization of peripheral zone
-  tumor}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{201},
-  \bibinfo{pages}{W471--478}.
-%Type = Article
-\bibitem[{Roweis and Saul(2000)}]{Roweis2000}
-\bibinfo{author}{Roweis, S.T.}, \bibinfo{author}{Saul, L.K.},
-  \bibinfo{year}{2000}.
-\newblock \bibinfo{title}{{{N}onlinear dimensionality reduction by locally
-  linear embedding}}.
-\newblock \bibinfo{journal}{Science} \bibinfo{volume}{290},
-  \bibinfo{pages}{2323--2326}.
-%Type = Article
-\bibitem[{Rueckert et~al.(1999)Rueckert, Sonoda, Hayes, Hill, Leach and
-  Hawkes}]{Rueckert1999}
-\bibinfo{author}{Rueckert, D.}, \bibinfo{author}{Sonoda, L.I.},
-  \bibinfo{author}{Hayes, C.}, \bibinfo{author}{Hill, D.L.},
-  \bibinfo{author}{Leach, M.O.}, \bibinfo{author}{Hawkes, D.J.},
-  \bibinfo{year}{1999}.
-\newblock \bibinfo{title}{{{N}onrigid registration using free-form
-  deformations: application to breast {M}{R} images}}.
-\newblock \bibinfo{journal}{IEEE Trans Med Imaging} \bibinfo{volume}{18},
-  \bibinfo{pages}{712--721}.
-%Type = Article
-\bibitem[{Saeys et~al.(2007)Saeys, Inza and Larranaga}]{Saeys2007}
-\bibinfo{author}{Saeys, Y.}, \bibinfo{author}{Inza, I.},
-  \bibinfo{author}{Larranaga, P.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{A} review of feature selection techniques in
-  bioinformatics}}.
-\newblock \bibinfo{journal}{Bioinformatics} \bibinfo{volume}{23},
-  \bibinfo{pages}{2507--2517}.
-%Type = Article
-\bibitem[{Scheidler et~al.(1999a)Scheidler, Hricak, Vigneron, Yu, Sokolov,
-  Huang, Zaloudek, Nelson, Carroll and Kurhanewicz}]{Scheidler1999a}
-\bibinfo{author}{Scheidler, J.}, \bibinfo{author}{Hricak, H.},
-  \bibinfo{author}{Vigneron, D.B.}, \bibinfo{author}{Yu, K.K.},
-  \bibinfo{author}{Sokolov, D.L.}, \bibinfo{author}{Huang, L.R.},
-  \bibinfo{author}{Zaloudek, C.J.}, \bibinfo{author}{Nelson, S.J.},
-  \bibinfo{author}{Carroll, P.R.}, \bibinfo{author}{Kurhanewicz, J.},
-  \bibinfo{year}{1999}a.
-\newblock \bibinfo{title}{{{P}rostate cancer: localization with
-  three-dimensional proton {M}{R} spectroscopic imaging--clinicopathologic
-  study}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{213},
-  \bibinfo{pages}{473--480}.
-%Type = Inproceedings
-\bibitem[{Scheidler et~al.(1999b)Scheidler, Petsch, Muller-Lisse, Heuck and
-  Reiser}]{Scheidler1999}
-\bibinfo{author}{Scheidler, J.}, \bibinfo{author}{Petsch, R.},
-  \bibinfo{author}{Muller-Lisse, U.}, \bibinfo{author}{Heuck, A.},
-  \bibinfo{author}{Reiser, M.}, \bibinfo{year}{1999}b.
-\newblock \bibinfo{title}{{{E}cho-planar diffusion-weighted MR imaging of the
-  prostate}}, in: \bibinfo{booktitle}{Proceedings of the 7th Annual Meeting of
-  ISMRM Philadelphia}, p. \bibinfo{pages}{1103}.
-%Type = Article
-\bibitem[{Schlemmer et~al.(2004)Schlemmer, Merkle, Grobholz, Jaeger, Michel,
-  Werner, Rabe and van Kaick}]{Schlemmer2004}
-\bibinfo{author}{Schlemmer, H.P.}, \bibinfo{author}{Merkle, J.},
-  \bibinfo{author}{Grobholz, R.}, \bibinfo{author}{Jaeger, T.},
-  \bibinfo{author}{Michel, M.S.}, \bibinfo{author}{Werner, A.},
-  \bibinfo{author}{Rabe, J.}, \bibinfo{author}{van Kaick, G.},
-  \bibinfo{year}{2004}.
-\newblock \bibinfo{title}{{{C}an pre-operative contrast-enhanced dynamic {M}{R}
+  localizing prostate cancer}, J Magn Reson Imaging 37~(5) (2013) 1035--1054.
+
+\bibitem{Hricak1983}
+H.~Hricak, R.~D. Williams, D.~B. Spring, K.~L. Moon, M.~W. Hedgcock, R.~A.
+  Watson, L.~E. Crooks, {{A}natomy and pathology of the male pelvis by magnetic
+  resonance imaging}, AJR Am J Roentgenol 141~(6) (1983) 1101--1110.
+
+\bibitem{HuchBoni1995}
+R.~A. Huch~Boni, J.~A. Boner, U.~M. Lutolf, F.~Trinkler, D.~M. Pestalozzi,
+  G.~P. Krestin, {{C}ontrast-enhanced endorectal coil {M}{R}{I} in local
+  staging of prostate carcinoma}, J Comput Assist Tomogr 19~(2) (1995)
+  232--237.
+
+\bibitem{Kurhanewicz1996}
+J.~Kurhanewicz, D.~B. Vigneron, H.~Hricak, P.~Narayan, P.~Carroll, S.~J.
+  Nelson, {{T}hree-dimensional {H}-1 {M}{R} spectroscopic imaging of the in
+  situ human prostate with high (0.24-0.7-cm3) spatial resolution}, Radiology
+  198~(3) (1996) 795--805.
+
+\bibitem{Scheidler1999}
+J.~Scheidler, R.~Petsch, U.~Muller-Lisse, A.~Heuck, M.~Reiser, {{E}cho-planar
+  diffusion-weighted MR imaging of the prostate}, in: Proceedings of the 7th
+  Annual Meeting of ISMRM Philadelphia, 1999, p. 1103.
+
+\bibitem{Swanson2001}
+M.~G. Swanson, D.~B. Vigneron, T.~K. Tran, N.~Sailasuta, R.~E. Hurd,
+  J.~Kurhanewicz, {{S}ingle-voxel oversampled {J}-resolved spectroscopy of in
+  vivo human prostate tissue}, Magn Reson Med 45~(6) (2001) 973--980.
+
+\bibitem{Chan2003}
+I.~Chan, W.~Wells, R.~V. Mulkern, S.~Haker, J.~Zhang, K.~H. Zou, S.~E. Maier,
+  C.~M. Tempany, {{D}etection of prostate cancer by integration of line-scan
+  diffusion, {T}2-mapping and {T}2-weighted magnetic resonance imaging; a
+  multichannel statistical classifier}, Med Phys 30~(9) (2003) 2390--2398.
+
+\bibitem{Ferlay2010}
+J.~Ferlay, H.~R. Shin, F.~Bray, D.~Forman, C.~Mathers, D.~M. Parkin,
+  {{E}stimates of worldwide burden of cancer in 2008: {G}{L}{O}{B}{O}{C}{A}{N}
+  2008}, Int. J. Cancer 127~(12) (2010) 2893--2917.
+
+\bibitem{Siegel2013}
+R.~Siegel, D.~Naishadham, A.~Jemal, {{C}ancer statistics, 2013}, CA Cancer J
+  Clin 63~(1) (2013) 11--30.
+
+\bibitem{Society2013}
+A.~C. American Cancer~Society, {{C}ancer Facts and Figures 2013},
+  http://www.cancer.org/research/cancerfactsfigures, accessed: 2013-08-01
+  (2013).
+
+\bibitem{Society2010}
+A.~C. American Cancer~Society,
+  \href{http://www.cancer.org/research/cancerfactsfigures}{{{C}ancer Facts and
+  Figures 2010}}, http://www.cancer.org/research/cancerfactsfigures, accessed:
+  2013-08-01 (2010).
+\newline\urlprefix\url{http://www.cancer.org/research/cancerfactsfigures}
+
+\bibitem{Giovannucci2007}
+E.~Giovannucci, Y.~Liu, E.~A. Platz, M.~J. Stampfer, W.~C. Willett, {{R}isk
+  factors for prostate cancer incidence and progression in the health
+  professionals follow-up study}, Int. J. Cancer 121~(7) (2007) 1571--1578.
+
+\bibitem{Steinberg1990}
+G.~D. Steinberg, B.~S. Carter, T.~H. Beaty, B.~Childs, P.~C. Walsh, {{F}amily
+  history and the risk of prostate cancer}, Prostate 17~(4) (1990) 337--347.
+
+\bibitem{Freedman2006}
+M.~L. Freedman, C.~A. Haiman, N.~Patterson, G.~J. McDonald, A.~Tandon,
+  A.~Waliszewska, K.~Penney, R.~G. Steen, K.~Ardlie, E.~M. John,
+  I.~Oakley-Girvan, A.~S. Whittemore, K.~A. Cooney, S.~A. Ingles, D.~Altshuler,
+  B.~E. Henderson, D.~Reich, {{A}dmixture mapping identifies 8q24 as a prostate
+  cancer risk locus in {A}frican-{A}merican men}, Proc. Natl. Acad. Sci. U.S.A.
+  103~(38) (2006) 14068--14073.
+
+\bibitem{Amundadottir2006}
+L.~T. Amundadottir, P.~Sulem, J.~Gudmundsson, A.~Helgason, A.~Baker, B.~A.
+  Agnarsson, A.~Sigurdsson, K.~R. Benediktsdottir, J.~B. Cazier, J.~Sainz,
+  M.~Jakobsdottir, J.~Kostic, D.~N. Magnusdottir, S.~Ghosh, K.~Agnarsson,
+  B.~Birgisdottir, L.~Le~Roux, A.~Olafsdottir, T.~Blondal, M.~Andresdottir,
+  O.~S. Gretarsdottir, J.~T. Bergthorsson, D.~Gudbjartsson, A.~Gylfason,
+  G.~Thorleifsson, A.~Manolescu, K.~Kristjansson, G.~Geirsson, H.~Isaksson,
+  J.~Douglas, J.~E. Johansson, K.~Balter, F.~Wiklund, J.~E. Montie, X.~Yu,
+  B.~K. Suarez, C.~Ober, K.~A. Cooney, H.~Gronberg, W.~J. Catalona, G.~V.
+  Einarsson, R.~B. Barkardottir, J.~R. Gulcher, A.~Kong, U.~Thorsteinsdottir,
+  K.~Stefansson, {{A} common variant associated with prostate cancer in
+  {E}uropean and {A}frican populations}, Nat. Genet. 38~(6) (2006) 652--658.
+
+\bibitem{Agalliu2009}
+I.~Agalliu, R.~Gern, S.~Leanza, R.~D. Burk, {{A}ssociations of high-grade
+  prostate cancer with {B}{R}{C}{A}1 and {B}{R}{C}{A}2 founder mutations},
+  Clin. Cancer Res. 15~(3) (2009) 1112--1120.
+
+\bibitem{Hoffman2001}
+R.~M. Hoffman, F.~D. Gilliland, J.~W. Eley, L.~C. Harlan, R.~A. Stephenson,
+  J.~L. Stanford, P.~C. Albertson, A.~S. Hamilton, W.~C. Hunt, A.~L. Potosky,
+  {{R}acial and ethnic differences in advanced-stage prostate cancer: the
+  {P}rostate {C}ancer {O}utcomes {S}tudy}, J. Natl. Cancer Inst. 93~(5) (2001)
+  388--395.
+
+\bibitem{Ma2009}
+R.~W. Ma, K.~Chapman, {{A} systematic review of the effect of diet in prostate
+  cancer prevention and treatment}, J Hum Nutr Diet 22~(3) (2009) 187--199.
+
+\bibitem{Alexander2010}
+D.~D. Alexander, P.~J. Mink, C.~A. Cushing, B.~Sceurman, {{A} review and
+  meta-analysis of prospective studies of red and processed meat intake and
+  prostate cancer}, Nutr J 9 (2010) 50.
+
+\bibitem{Rodriguez2007}
+C.~Rodriguez, S.~J. Freedland, A.~Deka, E.~J. Jacobs, M.~L. McCullough, A.~V.
+  Patel, M.~J. Thun, E.~E. Calle, {{B}ody mass index, weight change, and risk
+  of prostate cancer in the {C}ancer {P}revention {S}tudy {I}{I} {N}utrition
+  {C}ohort}, Cancer Epidemiol. Biomarkers Prev. 16~(1) (2007) 63--69.
+
+\bibitem{Strum2005}
+S.~Strum, D.~Pogliano, {{W}hat every doctor who treats male patients should
+  know}, PCRI Insights vol. 8, no. 2 (May 2005).
+
+\bibitem{Lu-Yao2009}
+G.~L. Lu-Yao, P.~C. Albertsen, D.~F. Moore, W.~Shih, Y.~Lin, R.~S. DiPaola,
+  M.~J. Barry, A.~Zietman, M.~O'Leary, E.~Walker-Corkery, S.~L. Yao,
+  {{O}utcomes of localized prostate cancer following conservative management},
+  JAMA 302~(11) (2009) 1202--1209.
+
+\bibitem{Oster2013}
+G.~Oster, L.~Lamerato, A.~G. Glass, K.~E. Richert-Boe, A.~Lopez, K.~Chung,
+  A.~Richhariya, T.~Dodge, G.~G. Wolff, A.~Balakumaran, J.~Edelsberg,
+  {{N}atural history of skeletal-related events in patients with breast, lung,
+  or prostate cancer and metastases to bone: a 15-year study in two large
+  {U}{S} health systems}, Support Care Cancer 21~(12) (2013) 3279--3286.
+
+\bibitem{Ye2007}
+L.~Ye, H.~G. Kynaston, W.~G. Jiang, {{B}one metastasis in prostate cancer:
+  molecular and cellular mechanisms ({R}eview)}, Int. J. Mol. Med. 20~(1)
+  (2007) 103--111.
+
+\bibitem{Carrol1987}
+C.~L. Carrol, F.~G. Sommer, J.~E. McNeal, T.~A. Stamey, {{T}he abnormal
+  prostate: {M}{R} imaging at 1.5 {T} with histopathologic correlation},
+  Radiology 163~(2) (1987) 521--525.
+
+\bibitem{McNeal1988}
+J.~E. McNeal, E.~A. Redwine, F.~S. Freiha, T.~A. Stamey, {{Z}onal distribution
+  of prostatic adenocarcinoma. {C}orrelation with histologic pattern and
+  direction of spread}, Am. J. Surg. Pathol. 12~(12) (1988) 897--906.
+
+\bibitem{Stamey1998}
+T.~A. Stamey, A.~N. Donaldson, C.~E. Yemoto, J.~E. McNeal, S.~Sozen, H.~Gill,
+  {{H}istological and clinical findings in 896 consecutive prostates treated
+  only with radical retropubic prostatectomy: epidemiologic significance of
+  annual changes}, J. Urol. 160~(6 Pt 2) (1998) 2412--2417.
+
+\bibitem{Cohen2008}
+R.~J. Cohen, B.~A. Shannon, M.~Phillips, R.~E. Moorin, T.~M. Wheeler, K.~L.
+  Garrett, {{C}entral zone carcinoma of the prostate gland: a distinct tumor
+  type with poor prognostic features}, J. Urol. 179~(5) (2008) 1762--1767.
+
+\bibitem{Etzioni2002}
+R.~Etzioni, D.~F. Penson, J.~M. Legler, D.~di~Tommaso, R.~Boer, P.~H. Gann,
+  E.~J. Feuer, {{O}verdiagnosis due to prostate-specific antigen screening:
+  lessons from {U}.{S}. prostate cancer incidence trends}, J. Natl. Cancer
+  Inst. 94~(13) (2002) 981--990.
+
+\bibitem{Hoeks2011}
+C.~M. Hoeks, J.~O. Barentsz, T.~Hambrock, D.~Yakar, D.~M. Somford, S.~W.
+  Heijmink, T.~W. Scheenen, P.~C. Vos, H.~Huisman, I.~M. van Oort, J.~A.
+  Witjes, A.~Heerschap, J.~J. Futterer, {{P}rostate cancer: multiparametric
+  {M}{R} imaging for detection, localization, and staging}, Radiology 261~(1)
+  (2011) 46--66.
+
+\bibitem{Parfait2010}
+S.~Parfait, {{C}lassification de spectres et recherche de biomarqueurs en
+  spectroscopie par r\'esonqnce magn\'etique nulcl\'eaire du proton dans les
+  tumeurs prostatiques}, Ph.D. thesis, Universit\'e de Bourgogne (2010).
+
+\bibitem{Gleason1977}
+D.~F. Gleason, {{U}rologic pathology: {T}he prostate}, Lea and Febiger., 1977,
+  Ch. The Veteran's Administration Cooperative Urologic Research Group:
+  histologic grading and clinical staging of prostatic carcinoma, p. 171–198.
+
+\bibitem{Hara2005}
+N.~Hara, M.~Okuizumi, H.~Koike, M.~Kawaguchi, V.~Bilim, {{D}ynamic
+  contrast-enhanced magnetic resonance imaging ({D}{C}{E}-{M}{R}{I}) is a
+  useful modality for the precise detection and staging of early prostate
+  cancer}, Prostate 62~(2) (2005) 140--147.
+
+\bibitem{Chou2011}
+R.~Chou, J.~M. Croswell, T.~Dana, C.~Bougatsos, I.~Blazina, R.~Fu,
+  K.~Gleitsmann, H.~C. Koenig, C.~Lam, A.~Maltz, J.~B. Rugge, K.~Lin,
+  {{S}creening for prostate cancer: a review of the evidence for the {U}.{S}.
+  {P}reventive {S}ervices {T}ask {F}orce}, Ann. Intern. Med. 155~(11) (2011)
+  762--771.
+
+\bibitem{Andriole2009}
+G.~L. Andriole, E.~D. Crawford, R.~L. Grubb, S.~S. Buys, D.~Chia, T.~R. Church,
+  M.~N. Fouad, E.~P. Gelmann, P.~A. Kvale, D.~J. Reding, J.~L. Weissfeld, L.~A.
+  Yokochi, B.~O'Brien, J.~D. Clapp, J.~M. Rathmell, T.~L. Riley, R.~B. Hayes,
+  B.~S. Kramer, G.~Izmirlian, A.~B. Miller, P.~F. Pinsky, P.~C. Prorok, J.~K.
+  Gohagan, C.~D. Berg, {{M}ortality results from a randomized Prostate-cancer
+  screening trial}, New England Journal of Medicine 360~(13) (2009) 1310--1319.
+
+\bibitem{Schroeder2012}
+F.~H. Schr\"oder, J.~Hugosson, M.~J. Roobol, T.~L. Tammela, S.~Ciatto,
+  V.~Nelen, M.~Kwiatkowski, M.~Lujan, H.~Lilja, M.~Zappa, L.~J. Denis,
+  F.~Recker, A.~Páez, L.~M\"a\"att\"anen, C.~H. Bangma, G.~Aus, S.~Carlsson,
+  A.~Villers, X.~Rebillard, T.~van~der Kwast, P.~M. Kujala, B.~G. Blijenberg,
+  U.-H. Stenman, A.~Huber, K.~Taari, M.~Hakama, S.~M. Moss, H.~J. de~Koning,
+  A.~Auvinen, {{P}rostate-cancer mortality at 11 years of follow-up}, New
+  England Journal of Medicine 366~(11) (2012) 981--990.
+
+\bibitem{Hugosson2010}
+J.~Hugosson, S.~Carlsson, G.~Aus, S.~Bergdahl, A.~Khatami, P.~Lodding, C.~G.
+  Pihl, J.~Stranne, E.~Holmberg, H.~Lilja, {{M}ortality results from the
+  {G}\"oteborg randomised population-based prostate-cancer screening trial},
+  Lancet Oncol. 11~(8) (2010) 725--732.
+
+\bibitem{Heidenreich2013}
+A.~Heidenreich, P.~A. Abrahamsson, W.~Artibani, J.~Catto, F.~Montorsi,
+  H.~Van~Poppel, M.~Wirth, N.~Mottet, {{E}arly detection of prostate cancer:
+  {E}uropean {A}ssociation of {U}rology recommendation}, Eur. Urol. 64~(3)
+  (2013) 347--354.
+
+\bibitem{Schroder2008}
+F.~H. Schroder, H.~B. Carter, T.~Wolters, R.~C. van~den Bergh, C.~Gosselaar,
+  C.~H. Bangma, M.~J. Roobol, {{E}arly detection of prostate cancer in 2007.
+  {P}art 1: {P}{S}{A} and {P}{S}{A} kinetics}, Eur. Urol. 53~(3) (2008)
+  468--477.
+
+\bibitem{Delpierre2013}
+C.~Delpierre, S.~Lamy, M.~Kelly-Irving, F.~Molinie, M.~Velten, B.~Tretarre,
+  A.~S. Woronoff, A.~Buemi, B.~Lapotre-Ledoux, S.~Bara, A.~V. Guizard,
+  M.~Colonna, P.~Grosclaude, {{L}ife expectancy estimates as a key factor in
+  over-treatment: the case of prostate cancer}, Cancer Epidemiol 37~(4) (2013)
+  462--468.
+
+\bibitem{Bourdoumis2010}
+A.~Bourdoumis, A.~G. Papatsoris, M.~Chrisofos, E.~Efstathiou, A.~Skolarikos,
+  C.~Deliveliotis, {{T}he novel prostate cancer antigen 3 ({P}{C}{A}3)
+  biomarker}, Int Braz J Urol 36~(6) (2010) 665--668.
+
+\bibitem{Morgan2011}
+R.~Morgan, A.~Boxall, A.~Bhatt, M.~Bailey, R.~Hindley, S.~Langley, H.~C.
+  Whitaker, D.~E. Neal, M.~Ismail, H.~Whitaker, N.~Annels, A.~Michael,
+  H.~Pandha, {{E}ngrailed-2 ({E}{N}2): a tumor specific urinary biomarker for
+  the early diagnosis of prostate cancer}, Clin. Cancer Res. 17~(5) (2011)
+  1090--1098.
+
+\bibitem{Brenner2013}
+J.~Brenner, A.~Chinnaiyan, S.~Tomlins, {{E}{T}{S} fusion genes in prostate
+  cancer}, in: D.~J. Tindall (Ed.), Prostate Cancer, Vol.~16 of Protein
+  Reviews, Springer New York, 2013, pp. 139--183.
+
+\bibitem{Moore2013}
+C.~M. Moore, A.~Ridout, M.~Emberton, {{T}he role of {M}{R}{I} in active
+  surveillance of prostate cancer}, Curr Opin Urol 23~(3) (2013) 261--267.
+
+\bibitem{Noguchi2001}
+M.~Noguchi, T.~A. Stamey, J.~E. McNeal, C.~M. Yemoto, {{R}elationship between
+  systematic biopsies and histological features of 222 radical prostatectomy
+  specimens: lack of prediction of tumor significance for men with nonpalpable
+  prostate cancer}, J. Urol. 166~(1) (2001) 104--109.
+
+\bibitem{Haas2007}
+G.~P. Haas, N.~B. Delongchamps, R.~F. Jones, V.~Chandan, A.~M. Serio, A.~J.
+  Vickers, M.~Jumbelic, G.~Threatte, R.~Korets, H.~Lilja, G.~de~la Roza,
+  {{N}eedle biopsies on autopsy prostates: sensitivity of cancer detection
+  based on true prevalence}, J. Natl. Cancer Inst. 99~(19) (2007) 1484--1489.
+
+\bibitem{Taira2010}
+A.~V. Taira, G.~S. Merrick, R.~W. Galbreath, H.~Andreini, W.~Taubenslag,
+  R.~Curtis, W.~M. Butler, E.~Adamovich, K.~E. Wallner, {{P}erformance of
+  transperineal template-guided mapping biopsy in detecting prostate cancer in
+  the initial and repeat biopsy setting}, Prostate Cancer Prostatic Dis. 13~(1)
+  (2010) 71--77.
+
+\bibitem{Delongchamps2013}
+N.~B. Delongchamps, M.~Peyromaure, A.~Schull, F.~Beuvon, N.~Bouazza, T.~Flam,
+  M.~Zerbib, N.~Muradyan, P.~Legman, F.~Cornud, {{P}rebiopsy magnetic resonance
+  imaging and prostate cancer detection: comparison of random and targeted
+  biopsies}, J. Urol. 189~(2) (2013) 493--499.
+
+\bibitem{Turkbey2012}
+B.~Turkbey, P.~L. Choyke, {{M}ultiparametric {M}{R}{I} and prostate cancer
+  diagnosis and risk stratification}, Curr Opin Urol 22~(4) (2012) 310--315.
+
+\bibitem{Barentsz2012}
+J.~O. Barentsz, J.~Richenberg, R.~Clements, P.~Choyke, S.~Verma, G.~Villeirs,
+  O.~Rouviere, V.~Logager, J.~J. Futterer, {{E}{S}{U}{R} prostate {M}{R}
+  guidelines 2012}, Eur Radiol 22~(4) (2012) 746--757.
+
+\bibitem{Hricak1987}
+H.~Hricak, G.~C. Dooms, J.~E. McNeal, A.~S. Mark, M.~Marotti, A.~Avallone,
+  M.~Pelzer, E.~C. Proctor, E.~A. Tanagho, {{M}{R} imaging of the prostate
+  gland: normal anatomy}, AJR Am J Roentgenol 148 (1987) 51--58.
+
+\bibitem{Akin2006}
+O.~Akin, E.~Sala, C.~S. Moskowitz, K.~Kuroiwa, N.~M. Ishill, D.~Pucar, P.~T.
+  Scardino, H.~Hricak, {{T}ransition zone prostate cancers: features,
+  detection, localization, and staging at endorectal {M}{R} imaging}, Radiology
+  239~(3) (2006) 784--792.
+
+\bibitem{Wang2008}
+L.~Wang, Y.~Mazaheri, J.~Zhang, N.~M. Ishill, K.~Kuroiwa, H.~Hricak,
+  {{A}ssessment of biologic aggressiveness of prostate cancer: correlation of
+  {M}{R} signal intensity with {G}leason grade after radical prostatectomy},
+  Radiology 246~(1) (2008) 168--176.
+
+\bibitem{Kirkham2006}
+A.~P. Kirkham, M.~Emberton, C.~Allen, {{H}ow good is {M}{R}{I} at detecting and
+  characterising cancer within the prostate?}, Eur. Urol. 50~(6) (2006)
+  1163--1174.
+
+\bibitem{Quint1991}
+L.~E. Quint, J.~S. Van~Erp, P.~H. Bland, S.~H. Mandell, E.~A. Del~Buono, H.~B.
+  Grossman, G.~M. Glazer, P.~W. Gikas, {{C}arcinoma of the prostate: {M}{R}
+  images obtained with body coils do not accurately reflect tumor volume}, AJR
+  Am J Roentgenol 156~(3) (1991) 511--516.
+
+\bibitem{Cruz2002}
+M.~Cruz, K.~Tsuda, Y.~Narumi, Y.~Kuroiwa, T.~Nose, Y.~Kojima, A.~Okuyama,
+  S.~Takahashi, K.~Aozasa, J.~O. Barentsz, H.~Nakamura, {{C}haracterization of
+  low-intensity lesions in the peripheral zone of prostate on pre-biopsy
+  endorectal coil {M}{R} imaging}, Eur Radiol 12~(2) (2002) 357--365.
+
+\bibitem{Liu2011}
+W.~Liu, B.~Turkbey, J.~Senegas, S.~Remmele, S.~Xu, J.~Kruecker, M.~Bernardo,
+  B.~J. Wood, P.~A. Pinto, P.~L. Choyke, {{A}ccelerated {T}2 mapping for
+  characterization of prostate cancer}, Magn Reson Med 65~(5) (2011)
+  1400--1406.
+
+\bibitem{Liney1996}
+G.~P. Liney, M.~Lowry, L.~W. Turnbull, D.~J. Manton, A.~J. Knowles, S.~J.
+  Blackband, A.~Horsman, {{P}roton {M}{R} {T}2 maps correlate with the citrate
+  concentration in the prostate}, NMR Biomed 9~(2) (1996) 59--64.
+
+\bibitem{Liney1997}
+G.~P. Liney, L.~W. Turnbull, M.~Lowry, L.~S. Turnbull, A.~J. Knowles,
+  A.~Horsman, {{I}n vivo quantification of citrate concentration and water {T}2
+  relaxation time of the pathologic prostate gland using 1{H} {M}{R}{S} and
+  {M}{R}{I}}, Magn Reson Imaging 15~(10) (1997) 1177--1186.
+
+\bibitem{Liney1996a}
+G.~P. Liney, A.~J. Knowles, D.~J. Manton, L.~W. Turnbull, S.~J. Blackband,
+  A.~Horsman, {{C}omparison of conventional single echo and multi-echo
+  sequences with a fast spin-echo sequence for quantitative {T}2 mapping:
+  application to the prostate}, J Magn Reson Imaging 6~(4) (1996) 603--607.
+
+\bibitem{Gibbs2001}
+P.~Gibbs, D.~J. Tozer, G.~P. Liney, L.~W. Turnbull, {{C}omparison of
+  quantitative {T}2 mapping and diffusion-weighted imaging in the normal and
+  pathologic prostate}, Magn Reson Med 46~(6) (2001) 1054--1058.
+
+\bibitem{Gribbestad2005}
+I.~Gribbestad, K.~Gjesdal, G.~Nilsen, S.~Lundgren, M.~Hjelstuen, A.~Jackson,
+  {{A}n introduction to dynamic contrast-enhanced {M}{R}{I} in oncology}, in:
+  A.~Jackson, D.~Buckley, G.~Parker (Eds.), Dynamic Contrast-Enhanced Magnetic
+  Resonance Imaging in Oncology, Medical Radiology, Springer Berlin Heidelberg,
+  2005, pp. 1--22.
+
+\bibitem{Padhani2002}
+A.~R. Padhani, {{D}ynamic contrast-enhanced {M}{R}{I} in clinical oncology:
+  current status and future directions}, J Magn Reson Imaging 16~(4) (2002)
+  407--422.
+
+\bibitem{Verma2012}
+S.~Verma, B.~Turkbey, N.~Muradyan, A.~Rajesh, F.~Cornud, M.~A. Haider, P.~L.
+  Choyke, M.~Harisinghani, {{O}verview of dynamic contrast-enhanced {M}{R}{I}
+  in prostate cancer diagnosis and management}, AJR Am J Roentgenol 198~(6)
+  (2012) 1277--1288.
+
+\bibitem{Tofts2010}
+P.~Tofts, {{T}1-weighted {D}{C}{E} imaging concepts: modelling, acquisition and
+  analysis}, in: Magneton Flash, Siemens, 2010.
+
+\bibitem{Rosenkrantz2013}
+A.~B. Rosenkrantz, A.~Sabach, J.~S. Babb, B.~W. Matza, S.~S. Taneja, F.~M.
+  Deng, {{P}rostate cancer: comparison of dynamic contrast-enhanced {M}{R}{I}
+  techniques for localization of peripheral zone tumor}, AJR Am J Roentgenol
+  201~(3) (2013) W471--478.
+
+\bibitem{Jager1997}
+G.~J. Jager, E.~T. Ruijter, C.~A. van~de Kaa, J.~J. de~la Rosette, G.~O.
+  Oosterhof, J.~R. Thornbury, S.~H. Ruijs, J.~O. Barentsz, {{D}ynamic
+  {T}urbo{F}{L}{A}{S}{H} subtraction technique for contrast-enhanced {M}{R}
+  imaging of the prostate: correlation with histopathologic results}, Radiology
+  203~(3) (1997) 645--652.
+
+\bibitem{Kim2005}
+J.~K. Kim, S.~S. Hong, Y.~J. Choi, S.~H. Park, H.~Ahn, C.~S. Kim, K.~S. Cho,
+  {{W}ash-in rate on the basis of dynamic contrast-enhanced {M}{R}{I}:
+  usefulness for prostate cancer detection and localization}, J Magn Reson
+  Imaging 22~(5) (2005) 639--646.
+
+\bibitem{Schlemmer2004}
+H.~P. Schlemmer, J.~Merkle, R.~Grobholz, T.~Jaeger, M.~S. Michel, A.~Werner,
+  J.~Rabe, G.~van Kaick, {{C}an pre-operative contrast-enhanced dynamic {M}{R}
   imaging for prostate cancer predict microvessel density in prostatectomy
-  specimens?}}
-\newblock \bibinfo{journal}{Eur Radiol} \bibinfo{volume}{14},
-  \bibinfo{pages}{309--317}.
-%Type = Article
-\bibitem[{Schroder et~al.(2008)Schroder, Carter, Wolters, van~den Bergh,
-  Gosselaar, Bangma and Roobol}]{Schroder2008}
-\bibinfo{author}{Schroder, F.H.}, \bibinfo{author}{Carter, H.B.},
-  \bibinfo{author}{Wolters, T.}, \bibinfo{author}{van~den Bergh, R.C.},
-  \bibinfo{author}{Gosselaar, C.}, \bibinfo{author}{Bangma, C.H.},
-  \bibinfo{author}{Roobol, M.J.}, \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{E}arly detection of prostate cancer in 2007. {P}art
-  1: {P}{S}{A} and {P}{S}{A} kinetics}}.
-\newblock \bibinfo{journal}{Eur. Urol.} \bibinfo{volume}{53},
-  \bibinfo{pages}{468--477}.
-%Type = Article
-\bibitem[{Schr\"oder et~al.(2012)Schr\"oder, Hugosson, Roobol, Tammela, Ciatto,
-  Nelen, Kwiatkowski, Lujan, Lilja, Zappa, Denis, Recker, Páez,
-  M\"a\"att\"anen, Bangma, Aus, Carlsson, Villers, Rebillard, van~der Kwast,
-  Kujala, Blijenberg, Stenman, Huber, Taari, Hakama, Moss, de~Koning and
-  Auvinen}]{Schroeder2012}
-\bibinfo{author}{Schr\"oder, F.H.}, \bibinfo{author}{Hugosson, J.},
-  \bibinfo{author}{Roobol, M.J.}, \bibinfo{author}{Tammela, T.L.},
-  \bibinfo{author}{Ciatto, S.}, \bibinfo{author}{Nelen, V.},
-  \bibinfo{author}{Kwiatkowski, M.}, \bibinfo{author}{Lujan, M.},
-  \bibinfo{author}{Lilja, H.}, \bibinfo{author}{Zappa, M.},
-  \bibinfo{author}{Denis, L.J.}, \bibinfo{author}{Recker, F.},
-  \bibinfo{author}{Páez, A.}, \bibinfo{author}{M\"a\"att\"anen, L.},
-  \bibinfo{author}{Bangma, C.H.}, \bibinfo{author}{Aus, G.},
-  \bibinfo{author}{Carlsson, S.}, \bibinfo{author}{Villers, A.},
-  \bibinfo{author}{Rebillard, X.}, \bibinfo{author}{van~der Kwast, T.},
-  \bibinfo{author}{Kujala, P.M.}, \bibinfo{author}{Blijenberg, B.G.},
-  \bibinfo{author}{Stenman, U.H.}, \bibinfo{author}{Huber, A.},
-  \bibinfo{author}{Taari, K.}, \bibinfo{author}{Hakama, M.},
-  \bibinfo{author}{Moss, S.M.}, \bibinfo{author}{de~Koning, H.J.},
-  \bibinfo{author}{Auvinen, A.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{P}rostate-cancer mortality at 11 years of
-  follow-up}}.
-\newblock \bibinfo{journal}{New England Journal of Medicine}
-  \bibinfo{volume}{366}, \bibinfo{pages}{981--990}.
-%Type = Article
-\bibitem[{Shi and Malik(2000)}]{Shi2000}
-\bibinfo{author}{Shi, J.}, \bibinfo{author}{Malik, J.}, \bibinfo{year}{2000}.
-\newblock \bibinfo{title}{{{N}ormalized cuts and image segmentation}}.
-\newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
-  Transactions on} \bibinfo{volume}{22}, \bibinfo{pages}{888--905}.
-%Type = Article
-\bibitem[{Shimofusa et~al.(2005)Shimofusa, Fujimoto, Akamata, Motoori,
-  Yamamoto, Ueda and Ito}]{Shimofusa2005}
-\bibinfo{author}{Shimofusa, R.}, \bibinfo{author}{Fujimoto, H.},
-  \bibinfo{author}{Akamata, H.}, \bibinfo{author}{Motoori, K.},
-  \bibinfo{author}{Yamamoto, S.}, \bibinfo{author}{Ueda, T.},
-  \bibinfo{author}{Ito, H.}, \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{D}iffusion-weighted imaging of prostate cancer}}.
-\newblock \bibinfo{journal}{J Comput Assist Tomogr} \bibinfo{volume}{29},
-  \bibinfo{pages}{149--153}.
-%Type = Article
-\bibitem[{Siegel et~al.(2013)Siegel, Naishadham and Jemal}]{Siegel2013}
-\bibinfo{author}{Siegel, R.}, \bibinfo{author}{Naishadham, D.},
-  \bibinfo{author}{Jemal, A.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{C}ancer statistics, 2013}}.
-\newblock \bibinfo{journal}{CA Cancer J Clin} \bibinfo{volume}{63},
-  \bibinfo{pages}{11--30}.
-%Type = Techreport
-\bibitem[{Sobel(1970)}]{Sobel1970}
-\bibinfo{author}{Sobel, I.}, \bibinfo{year}{1970}.
-\newblock \bibinfo{title}{{{C}amera models and machine perception}}.
-\newblock \bibinfo{type}{Technical Report}. DTIC Document.
-%Type = Inproceedings
-\bibitem[{Specht(1988)}]{Specht1988}
-\bibinfo{author}{Specht, D.F.}, \bibinfo{year}{1988}.
-\newblock \bibinfo{title}{{{P}robabilistic neural networks for classification,
-  mapping, or associative memory}}, in: \bibinfo{booktitle}{Neural Networks,
-  1988., IEEE International Conference on}, pp. \bibinfo{pages}{525--532
-  vol.1}.
-%Type = Article
-\bibitem[{Stamey et~al.(1998)Stamey, Donaldson, Yemoto, McNeal, Sozen and
-  Gill}]{Stamey1998}
-\bibinfo{author}{Stamey, T.A.}, \bibinfo{author}{Donaldson, A.N.},
-  \bibinfo{author}{Yemoto, C.E.}, \bibinfo{author}{McNeal, J.E.},
-  \bibinfo{author}{Sozen, S.}, \bibinfo{author}{Gill, H.},
-  \bibinfo{year}{1998}.
-\newblock \bibinfo{title}{{{H}istological and clinical findings in 896
-  consecutive prostates treated only with radical retropubic prostatectomy:
-  epidemiologic significance of annual changes}}.
-\newblock \bibinfo{journal}{J. Urol.} \bibinfo{volume}{160},
-  \bibinfo{pages}{2412--2417}.
-%Type = Article
-\bibitem[{Steinberg et~al.(1990)Steinberg, Carter, Beaty, Childs and
-  Walsh}]{Steinberg1990}
-\bibinfo{author}{Steinberg, G.D.}, \bibinfo{author}{Carter, B.S.},
-  \bibinfo{author}{Beaty, T.H.}, \bibinfo{author}{Childs, B.},
-  \bibinfo{author}{Walsh, P.C.}, \bibinfo{year}{1990}.
-\newblock \bibinfo{title}{{{F}amily history and the risk of prostate cancer}}.
-\newblock \bibinfo{journal}{Prostate} \bibinfo{volume}{17},
-  \bibinfo{pages}{337--347}.
-%Type = Misc
-\bibitem[{Strum and Pogliano(2005)}]{Strum2005}
-\bibinfo{author}{Strum, S.}, \bibinfo{author}{Pogliano, D.},
-  \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{W}hat every doctor who treats male patients should
-  know}}.
-\newblock \bibinfo{howpublished}{PCRI Insights vol. 8, no. 2}.
-%Type = Article
-\bibitem[{Styner et~al.(2000)Styner, Brechbuhler, Szckely and
-  Gerig}]{Styner2000}
-\bibinfo{author}{Styner, M.}, \bibinfo{author}{Brechbuhler, C.},
-  \bibinfo{author}{Szckely, G.}, \bibinfo{author}{Gerig, G.},
-  \bibinfo{year}{2000}.
-\newblock \bibinfo{title}{{{P}arametric estimate of intensity inhomogeneities
-  applied to {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Medical Imaging, IEEE Transactions on}
-  \bibinfo{volume}{19}, \bibinfo{pages}{153--165}.
-%Type = Article
-\bibitem[{Sung et~al.(2011)Sung, Kwon, Park, Cho, Lee, Cho and Kim}]{Sung2011}
-\bibinfo{author}{Sung, Y.S.}, \bibinfo{author}{Kwon, H.J.},
-  \bibinfo{author}{Park, B.W.}, \bibinfo{author}{Cho, G.},
-  \bibinfo{author}{Lee, C.K.}, \bibinfo{author}{Cho, K.S.},
-  \bibinfo{author}{Kim, J.K.}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{P}rostate cancer detection on dynamic
-  contrast-enhanced {M}{R}{I}: computer-aided diagnosis versus single perfusion
-  parameter maps}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{197},
-  \bibinfo{pages}{1122--1129}.
-%Type = Article
-\bibitem[{Swanson et~al.(2001)Swanson, Vigneron, Tran, Sailasuta, Hurd and
-  Kurhanewicz}]{Swanson2001}
-\bibinfo{author}{Swanson, M.G.}, \bibinfo{author}{Vigneron, D.B.},
-  \bibinfo{author}{Tran, T.K.}, \bibinfo{author}{Sailasuta, N.},
-  \bibinfo{author}{Hurd, R.E.}, \bibinfo{author}{Kurhanewicz, J.},
-  \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{S}ingle-voxel oversampled {J}-resolved spectroscopy
-  of in vivo human prostate tissue}}.
-\newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{45},
-  \bibinfo{pages}{973--980}.
-%Type = Article
-\bibitem[{Taira et~al.(2010)Taira, Merrick, Galbreath, Andreini, Taubenslag,
-  Curtis, Butler, Adamovich and Wallner}]{Taira2010}
-\bibinfo{author}{Taira, A.V.}, \bibinfo{author}{Merrick, G.S.},
-  \bibinfo{author}{Galbreath, R.W.}, \bibinfo{author}{Andreini, H.},
-  \bibinfo{author}{Taubenslag, W.}, \bibinfo{author}{Curtis, R.},
-  \bibinfo{author}{Butler, W.M.}, \bibinfo{author}{Adamovich, E.},
-  \bibinfo{author}{Wallner, K.E.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{P}erformance of transperineal template-guided
-  mapping biopsy in detecting prostate cancer in the initial and repeat biopsy
-  setting}}.
-\newblock \bibinfo{journal}{Prostate Cancer Prostatic Dis.}
-  \bibinfo{volume}{13}, \bibinfo{pages}{71--77}.
-%Type = Article
-\bibitem[{Tipping(2001)}]{Tipping2001}
-\bibinfo{author}{Tipping, M.}, \bibinfo{year}{2001}.
-\newblock \bibinfo{title}{{{S}parse {B}ayesian learning and the relevance
-  vector machine}}.
-\newblock \bibinfo{journal}{Journal of Machine Learning Research}
-  \bibinfo{volume}{1}, \bibinfo{pages}{211--244}.
-%Type = Article
-\bibitem[{Tiwari et~al.(2013)Tiwari, Kurhanewicz and Madabhushi}]{Tiwari2013}
-\bibinfo{author}{Tiwari, P.}, \bibinfo{author}{Kurhanewicz, J.},
-  \bibinfo{author}{Madabhushi, A.}, \bibinfo{year}{2013}.
-\newblock \bibinfo{title}{{{M}ulti-kernel graph embedding for detection,
-  {G}leason grading of prostate cancer via {M}{R}{I}/{M}{R}{S}}}.
-\newblock \bibinfo{journal}{Med Image Anal} \bibinfo{volume}{17},
-  \bibinfo{pages}{219--235}.
-%Type = Article
-\bibitem[{Tiwari et~al.(2010)Tiwari, Kurhanewicz, Rosen and
-  Madabhushi}]{Tiwari2010}
-\bibinfo{author}{Tiwari, P.}, \bibinfo{author}{Kurhanewicz, J.},
-  \bibinfo{author}{Rosen, M.}, \bibinfo{author}{Madabhushi, A.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{S}emi supervised multi kernel ({S}e{S}{M}i{K})
-  graph embedding: identifying aggressive prostate cancer via magnetic
-  resonance imaging and spectroscopy}}.
-\newblock \bibinfo{journal}{Med Image Comput Comput Assist Interv}
-  \bibinfo{volume}{13}, \bibinfo{pages}{666--673}.
-%Type = Article
-\bibitem[{Tiwari et~al.(2007)Tiwari, Madabhushi and Rosen}]{Tiwari2007}
-\bibinfo{author}{Tiwari, P.}, \bibinfo{author}{Madabhushi, A.},
-  \bibinfo{author}{Rosen, M.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{A} hierarchical unsupervised spectral clustering
-  scheme for detection of prostate cancer from magnetic resonance spectroscopy
-  ({M}{R}{S})}}.
-\newblock \bibinfo{journal}{Med Image Comput Comput Assist Interv}
-  \bibinfo{volume}{10}, \bibinfo{pages}{278--286}.
-%Type = Article
-\bibitem[{Tiwari et~al.(2008)Tiwari, Rosen and Madabhushi}]{Tiwari2008}
-\bibinfo{author}{Tiwari, P.}, \bibinfo{author}{Rosen, M.},
-  \bibinfo{author}{Madabhushi, A.}, \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{C}onsensus-locally linear embedding
+  specimens?}, Eur Radiol 14~(2) (2004) 309--317.
+
+\bibitem{Zelhof2009}
+B.~Zelhof, M.~Lowry, G.~Rodrigues, S.~Kraus, L.~Turnbull, {{D}escription of
+  magnetic resonance imaging-derived enhancement variables in pathologically
+  confirmed prostate cancer and normal peripheral zone regions}, BJU Int.
+  104~(5) (2009) 621--627.
+
+\bibitem{Niekerk2013}
+C.~G. van Niekerk, J.~A. Witjes, J.~O. Barentsz, J.~A. van~der Laak, C.~A.
+  Hulsbergen-van~de Kaa, {{M}icrovascularity in transition zone prostate tumors
+  resembles normal prostatic tissue}, Prostate 73~(5) (2013) 467--475.
+
+\bibitem{LeBihan1988}
+D.~Le~Bihan, E.~Breton, D.~Lallemand, M.~L. Aubin, J.~Vignaud,
+  M.~Laval-Jeantet, {{S}eparation of diffusion and perfusion in intravoxel
+  incoherent motion {M}{R} imaging}, Radiology 168~(2) (1988) 497--505.
+
+\bibitem{Koh2007}
+D.~M. Koh, D.~J. Collins, {{D}iffusion-weighted {M}{R}{I} in the body:
+  applications and challenges in oncology}, AJR Am J Roentgenol 188~(6) (2007)
+  1622--1635.
+
+\bibitem{Huisman2003}
+T.~A. Huisman, {{D}iffusion-weighted imaging: basic concepts and application in
+  cerebral stroke and head trauma}, Eur Radiol 13~(10) (2003) 2283--2297.
+
+\bibitem{LeBihan1986}
+D.~Le~Bihan, E.~Breton, D.~Lallemand, P.~Grenier, E.~Cabanis, M.~Laval-Jeantet,
+  {{M}{R} imaging of intravoxel incoherent motions: application to diffusion
+  and perfusion in neurologic disorders}, Radiology 161~(2) (1986) 401--407.
+
+\bibitem{Shimofusa2005}
+R.~Shimofusa, H.~Fujimoto, H.~Akamata, K.~Motoori, S.~Yamamoto, T.~Ueda,
+  H.~Ito, {{D}iffusion-weighted imaging of prostate cancer}, J Comput Assist
+  Tomogr 29~(2) (2005) 149--153.
+
+\bibitem{Padhani2011}
+A.~R. Padhani, {{I}ntegrating multiparametric prostate {M}{R}{I} into clinical
+  practice}, Cancer Imaging 11 Spec No A (2011) 27--37.
+
+\bibitem{Choi2007}
+Y.~J. Choi, J.~K. Kim, N.~Kim, K.~W. Kim, E.~K. Choi, K.~S. Cho, {{F}unctional
+  {M}{R} imaging of prostate cancer}, Radiographics 27 (2007) 63--75.
+
+\bibitem{Doo2012}
+K.~W. Doo, D.~J. Sung, B.~J. Park, M.~J. Kim, S.~B. Cho, Y.~W. Oh, Y.~H. Ko,
+  K.~S. Yang, {{D}etectability of low and intermediate or high risk prostate
+  cancer with combined {T}2-weighted and diffusion-weighted {M}{R}{I}}, Eur
+  Radiol 22~(8) (2012) 1812--1819.
+
+\bibitem{Hambrock2011}
+T.~Hambrock, D.~M. Somford, H.~J. Huisman, I.~M. van Oort, J.~A. Witjes, C.~A.
+  Hulsbergen-van~de Kaa, T.~Scheenen, J.~O. Barentsz, {{R}elationship between
+  apparent diffusion coefficients at 3.0-{T} {M}{R} imaging and {G}leason grade
+  in peripheral zone prostate cancer}, Radiology 259~(2) (2011) 453--461.
+
+\bibitem{Itou2011}
+Y.~Itou, K.~Nakanishi, Y.~Narumi, Y.~Nishizawa, H.~Tsukuma, {{C}linical utility
+  of apparent diffusion coefficient ({A}{D}{C}) values in patients with
+  prostate cancer: can {A}{D}{C} values contribute to assess the aggressiveness
+  of prostate cancer?}, J Magn Reson Imaging 33~(1) (2011) 167--172.
+
+\bibitem{Peng2013}
+Y.~Peng, Y.~Jiang, C.~Yang, J.~Brown, T.~Antic, I.~Sethi, C.~Schmid-Tannwald,
+  M.~Giger, S.~Eggener, A.~Oto, {{Q}uantitative analysis of multiparametric
+  prostate {M}{R} images: differentiation between prostate cancer and normal
+  tissue and correlation with {G}leason score--a computer-aided diagnosis
+  development study}, Radiology 267~(1) (2013) 787--796.
+
+\bibitem{Awwad2012}
+H.~M. Awwad, J.~Geisel, R.~Obeid, {{T}he role of choline in prostate cancer},
+  Clin. Biochem. 45~(18) (2012) 1548--1553.
+
+\bibitem{Costello2006}
+L.~C. Costello, R.~B. Franklin, {{T}he clinical relevance of the metabolism of
+  prostate cancer; zinc and tumor suppression: connecting the dots}, Mol.
+  Cancer 5 (2006) 17.
+
+\bibitem{Giskeodegard2013}
+G.~F. Giskeodegard, H.~Bertilsson, K.~M. Selnaes, A.~J. Wright, T.~F. Bathen,
+  T.~Viset, J.~Halgunset, A.~Angelsen, I.~S. Gribbestad, M.~B. Tessem,
+  {{S}permine and citrate as metabolic biomarkers for assessing prostate cancer
+  aggressiveness}, PLoS ONE 8~(4) (2013) e62375.
+
+\bibitem{Graaf2000}
+M.~van~der Graaf, R.~G. Schipper, G.~O. Oosterhof, J.~A. Schalken, A.~A.
+  Verhofstad, A.~Heerschap, {{P}roton {M}{R} spectroscopy of prostatic tissue
+  focused on the detection of spermine, a possible biomarker of malignant
+  behavior in prostate cancer}, MAGMA 10~(3) (2000) 153--159.
+
+\bibitem{Verma2010}
+S.~Verma, A.~Rajesh, J.~J. Futterer, B.~Turkbey, T.~W. Scheenen, Y.~Pang, P.~L.
+  Choyke, J.~Kurhanewicz, {{P}rostate {M}{R}{I} and 3{D} {M}{R} spectroscopy:
+  how we do it}, AJR Am J Roentgenol 194~(6) (2010) 1414--1426.
+
+\bibitem{Scheidler1999a}
+J.~Scheidler, H.~Hricak, D.~B. Vigneron, K.~K. Yu, D.~L. Sokolov, L.~R. Huang,
+  C.~J. Zaloudek, S.~J. Nelson, P.~R. Carroll, J.~Kurhanewicz, {{P}rostate
+  cancer: localization with three-dimensional proton {M}{R} spectroscopic
+  imaging--clinicopathologic study}, Radiology 213~(2) (1999) 473--480.
+
+\bibitem{Kaji1998}
+Y.~Kaji, J.~Kurhanewicz, H.~Hricak, D.~L. Sokolov, L.~R. Huang, S.~J. Nelson,
+  D.~B. Vigneron, {{L}ocalizing prostate cancer in the presence of postbiopsy
+  changes on {M}{R} images: role of proton {M}{R} spectroscopic imaging},
+  Radiology 206~(3) (1998) 785--790.
+
+\bibitem{Vilanova2009}
+J.~C. Vilanova, J.~Comet, C.~Barcel{\'o}-Vidal, J.~Barcel{\'o},
+  E.~L{\'o}pez-Bonet, A.~Maroto, M.~Arzoz, {\`A}.~Moreno, J.~Areal,
+  {{P}eripheral zone prostate cancer in patients with elevated {P}{S}{A} levels
+  and low free-to-total {P}{S}{A} ratio: detection with {M}{R} imaging and
+  {M}{R} spectroscopy}, Radiology 253~(1) (2009) 135--143.
+
+\bibitem{Ampeliotis2007}
+D.~Ampeliotis, A.~Anonakoudi, K.~Berberidis, E.~Z. Psarakis, {{C}omputer aided
+  detection of prostate cancer using fused information from dynamic contrast
+  enhanced and morphological magnetic resonance images}, in: IEEE International
+  Conference on Signal Processing and Communications, 2007, pp. 888--891.
+
+\bibitem{Ampeliotis2008}
+D.~Ampeliotis, A.~Anonakoudi, K.~Berberidis, E.~Z. Psarakis, A.~Kounoudes, {{A}
+  computer-aided system for the detection of prostate cancer based on magnetic
+  resonance image analysis}, in: International Symposium on Communications,
+  Control and Signal Processing, 2008.
+
+\bibitem{Antic2013}
+T.~Antic, Y.~Peng, Y.~Jiang, M.~L. Giger, S.~Eggener, A.~Oto, {{A} study of
+  {T}2-weighted {M}{R} image texture features and diffusion-weighted {M}{R}
+  image features for computer-aided diagnosis of prostate cancer}, in: Proc.
+  SPIE 8670, Medical Imaging 2013: Computer-Aided Diagnosis, 2013, pp.
+  86701H--86701H--6.
+
+\bibitem{Artan2009}
+Y.~Artan, D.~Langer, M.~Haider, T.~H. Van~der Kwast, A.~Evans, M.~Wernick,
+  I.~Yetik, {{P}rostate cancer segmentation with multispectral {M}{R}{I} using
+  cost-sensitive {C}onditional {R}andom {F}ields}, in: Biomedical Imaging: From
+  Nano to Macro, 2009. ISBI '09. IEEE International Symposium on, 2009, pp.
+  278--281.
+
+\bibitem{Artan2010}
+Y.~Artan, M.~A. Haider, D.~L. Langer, T.~H. van~der Kwast, A.~J. Evans,
+  Y.~Yang, M.~N. Wernick, J.~Trachtenberg, I.~S. Yetik, {{P}rostate cancer
+  localization with multispectral {M}{R}{I} using cost-sensitive support vector
+  machines and conditional random fields}, IEEE Trans Image Process 19~(9)
+  (2010) 2444--2455.
+
+\bibitem{Giannini2013}
+V.~Giannini, A.~Vignati, S.~Mazzetti, M.~De~Luca, C.~Bracco, M.~Stasi,
+  F.~Russo, E.~Armando, D.~Regge, {{A} prostate {C}{A}{D} system based on
+  multiparametric analysis of {D}{C}{E} {T}1-w, and {D}{W} automatically
+  registered images}, in: Proc. SPIE 8670, Medical Imaging 2013: Computer-Aided
+  Diagnosis, 2013, pp. 86703E--86703E--6.
+
+\bibitem{Kelm2007}
+B.~M. Kelm, B.~H. Menze, C.~M. Zechmann, K.~T. Baudendistel, F.~A. Hamprecht,
+  {{A}utomated estimation of tumor probability in prostate magnetic resonance
+  spectroscopic imaging: pattern recognition vs quantification}, Magn Reson Med
+  57~(1) (2007) 150--159.
+
+\bibitem{Langer2009}
+D.~L. Langer, T.~H. van~der Kwast, A.~J. Evans, J.~Trachtenberg, B.~C. Wilson,
+  M.~A. Haider, {{P}rostate cancer detection with multi-parametric {M}{R}{I}:
+  logistic regression analysis of quantitative {T}2, diffusion-weighted
+  imaging, and dynamic contrast-enhanced {M}{R}{I}}, J Magn Reson Imaging
+  30~(2) (2009) 327--334.
+
+\bibitem{Litjens2011}
+G.~J.~S. Litjens, P.~C. Vos, J.~O. Barentsz, N.~Karssemeijer, H.~J. Huisman,
+  {{A}utomatic computer aided detection of abnormalities in multi-parametric
+  prostate {M}{R}{I}}, in: Proc. SPIE 7963, Medical Imaging 2011:
+  Computer-Aided Diagnosis, 2011, pp. 79630T--79630T--7.
+
+\bibitem{Litjens2012}
+G.~J.~S. Litjens, J.~O. Barentsz, N.~Karssemeijer, H.~J. Huisman, {{A}utomated
+  computer-aided detection of prostate cancer in MR images: from a whole-organ
+  to a zone-based approach}, in: Proc. SPIE 8315, Medical Imaging 2012:
+  Computer-Aided Diagnosis, 2012, pp. 83150G--83150G--6.
+
+\bibitem{Litjens2014}
+G.~Litjens, O.~Debats, J.~Barentsz, N.~Karssemeijer, H.~Huisman,
+  {{C}omputer-iided detection of prostate cancer in {M}{R}{I}}, Medical
+  Imaging, IEEE Transactions on 33~(5) (2014) 1083--1092.
+
+\bibitem{Liu2009}
+X.~Liu, D.~L. Langer, M.~A. Haider, Y.~Yang, M.~N. Wernick, I.~S. Yetik,
+  {{P}rostate cancer segmentation with simultaneous estimation of {M}arkov
+  random field parameters and class}, IEEE Trans Med Imaging 28~(6) (2009)
+  906--915.
+
+\bibitem{Liu2013}
+P.~Liu, S.~Wang, B.~Turkbey, P.~C.~P. Grant, K.and~Pinto, B.~J. Wood, R.~M.
+  Summers, {{A} prostate cancer computer-aided diagnosis system using
+  multimodal magnetic resonance imaging and targeted biopsy labels}, in: Proc.
+  SPIE 8670, Medical Imaging 2013: Computer-Aided Diagnosis, 2013, pp.
+  86701G--86701G--6.
+
+\bibitem{Lopes2011}
+R.~Lopes, A.~Ayache, N.~Makni, P.~Puech, A.~Villers, S.~Mordon, N.~Betrouni,
+  {{P}rostate cancer characterization on {M}{R} images using fractal features},
+  Med Phys 38~(1) (2011) 83--95.
+
+\bibitem{Lv2009}
+D.~Lv, X.~Guo, X.~Wang, J.~Zhang, J.~Fang, {{C}omputerized characterization of
+  prostate cancer by fractal analysis in {M}{R} images}, J Magn Reson Imaging
+  30~(1) (2009) 161--168.
+
+\bibitem{Matulewicz2013}
+L.~Matulewicz, J.~F. Jansen, L.~Bokacheva, H.~A. Vargas, O.~Akin, S.~W. Fine,
+  A.~Shukla-Dave, J.~A. Eastham, H.~Hricak, J.~A. Koutcher, K.~L. Zakian,
+  {{A}natomic segmentation improves prostate cancer detection with artificial
+  neural networks analysis of 1H magnetic resonance spectroscopic imaging},
+  Journal of Magnetic Resonance Imaging (2013) n/a--n/a.
+
+\bibitem{Mazzetti2011}
+S.~Mazzetti, M.~De~Luca, C.~Bracco, A.~Vignati, V.~Giannini, M.~Stasi,
+  F.~Russo, E.~Armando, S.~Agliozzo, D.~Regge, {{A} {C}{A}{D} system based on
+  multi-parametric analysis for cancer prostate detection on
+  {D}{C}{E}-{M}{R}{I}}, in: Proc. SPIE 7963, Medical Imaging 2011:
+  Computer-Aided Diagnosis, 2011, pp. 79633Q--79633Q--7.
+
+\bibitem{Niaf2011}
+E.~Niaf, O.~Rouvière, C.~Lartizien, {{C}omputer-aided diagnosis for prostate
+  cancer detection in the peripheral zone via multisequence {M}{R}{I}}, in:
+  Proc. SPIE 7963, Medical Imaging 2011: Computer-Aided Diagnosis, 2011.
+
+\bibitem{Niaf2012}
+E.~Niaf, O.~Rouviere, F.~Mege-Lechevallier, F.~Bratan, C.~Lartizien,
+  {{C}omputer-aided diagnosis of prostate cancer in the peripheral zone using
+  multiparametric {M}{R}{I}}, Phys Med Biol 57~(12) (2012) 3833--3851.
+
+\bibitem{Ozer2009}
+S.~Ozer, M.~Haider, D.~L. Langer, T.~H. Van~der Kwast, A.~Evans, M.~Wernick,
+  J.~Trachtenberg, I.~Yetik, {{P}rostate cancer localization with multispectral
+  {M}{R}{I} based on Relevance Vector Machines}, in: Biomedical Imaging: From
+  Nano to Macro, 2009. ISBI '09. IEEE International Symposium on, 2009, pp.
+  73--76.
+
+\bibitem{Ozer2010}
+S.~Ozer, D.~L. Langer, X.~Liu, M.~A. Haider, T.~H. van~der Kwast, A.~J. Evans,
+  Y.~Yang, M.~N. Wernick, I.~S. Yetik, {{S}upervised and unsupervised methods
+  for prostate cancer segmentation with multispectral {M}{R}{I}}, Med Phys
+  37~(4) (2010) 1873--1883.
+
+\bibitem{Parfait2012}
+S.~Parfait, P.~Walker, G.~Créhange, X.~Tizon, J.~Mitéran, {{C}lassification
+  of prostate magnetic resonance spectra using {S}upport {V}ector {M}achine },
+  Biomedical Signal Processing and Control 7~(5) (2012) 499 -- 508.
+
+\bibitem{Puech2009}
+P.~Puech, N.~Betrouni, N.~Makni, A.~S. Dewalle, A.~Villers, L.~Lemaitre,
+  {{C}omputer-assisted diagnosis of prostate cancer using {D}{C}{E}-{M}{R}{I}
+  data: design, implementation and preliminary results}, Int J Comput Assist
+  Radiol Surg 4~(1) (2009) 1--10.
+
+\bibitem{Sung2011}
+Y.~S. Sung, H.~J. Kwon, B.~W. Park, G.~Cho, C.~K. Lee, K.~S. Cho, J.~K. Kim,
+  {{P}rostate cancer detection on dynamic contrast-enhanced {M}{R}{I}:
+  computer-aided diagnosis versus single perfusion parameter maps}, AJR Am J
+  Roentgenol 197~(5) (2011) 1122--1129.
+
+\bibitem{Tiwari2007}
+P.~Tiwari, A.~Madabhushi, M.~Rosen, {{A} hierarchical unsupervised spectral
+  clustering scheme for detection of prostate cancer from magnetic resonance
+  spectroscopy ({M}{R}{S})}, Med Image Comput Comput Assist Interv 10~(Pt 2)
+  (2007) 278--286.
+
+\bibitem{Tiwari2008}
+P.~Tiwari, M.~Rosen, A.~Madabhushi, {{C}onsensus-locally linear embedding
   ({C}-{L}{L}{E}): application to prostate cancer detection on magnetic
-  resonance spectroscopy}}.
-\newblock \bibinfo{journal}{Med Image Comput Comput Assist Interv}
-  \bibinfo{volume}{11}, \bibinfo{pages}{330--338}.
-%Type = Article
-\bibitem[{Tiwari et~al.(2009a)Tiwari, Rosen and Madabhushi}]{Tiwari2009}
-\bibinfo{author}{Tiwari, P.}, \bibinfo{author}{Rosen, M.},
-  \bibinfo{author}{Madabhushi, A.}, \bibinfo{year}{2009}a.
-\newblock \bibinfo{title}{{{A} hierarchical spectral clustering and nonlinear
-  dimensionality reduction scheme for detection of prostate cancer from
-  magnetic resonance spectroscopy ({M}{R}{S})}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{36},
-  \bibinfo{pages}{3927--3939}.
-%Type = Article
-\bibitem[{Tiwari et~al.(2009b)Tiwari, Rosen, Reed, Kurhanewicz and
-  Madabhushi}]{Tiwari2009a}
-\bibinfo{author}{Tiwari, P.}, \bibinfo{author}{Rosen, M.},
-  \bibinfo{author}{Reed, G.}, \bibinfo{author}{Kurhanewicz, J.},
-  \bibinfo{author}{Madabhushi, A.}, \bibinfo{year}{2009}b.
-\newblock \bibinfo{title}{{{S}pectral embedding based probabilistic boosting
-  tree ({S}c{E}{P}{T}re): classifying high dimensional heterogeneous biomedical
-  data}}.
-\newblock \bibinfo{journal}{Med Image Comput Comput Assist Interv}
-  \bibinfo{volume}{12}, \bibinfo{pages}{844--851}.
-%Type = Article
-\bibitem[{Tiwari et~al.(2012)Tiwari, Viswanath, Kurhanewicz, Sridhar and
-  Madabhushi}]{Tiwari2012}
-\bibinfo{author}{Tiwari, P.}, \bibinfo{author}{Viswanath, S.},
-  \bibinfo{author}{Kurhanewicz, J.}, \bibinfo{author}{Sridhar, A.},
-  \bibinfo{author}{Madabhushi, A.}, \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{M}ultimodal wavelet embedding representation for
-  data combination ({M}a{W}{E}{R}i{C}): integrating magnetic resonance imaging
-  and spectroscopy for prostate cancer detection}}.
-\newblock \bibinfo{journal}{NMR Biomed} \bibinfo{volume}{25},
-  \bibinfo{pages}{607--619}.
-%Type = Incollection
-\bibitem[{Tofts(2010)}]{Tofts2010}
-\bibinfo{author}{Tofts, P.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{T}1-weighted {D}{C}{E} imaging concepts: modelling,
-  acquisition and analysis}}, in: \bibinfo{booktitle}{Magneton Flash}.
-  \bibinfo{publisher}{Siemens}.
-%Type = Article
-\bibitem[{Tofts(1997)}]{Tofts1997}
-\bibinfo{author}{Tofts, P.S.}, \bibinfo{year}{1997}.
-\newblock \bibinfo{title}{{{M}odeling tracer kinetics in dynamic
-  {G}d-{D}{T}{P}{A} {M}{R} imaging}}.
-\newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{7},
-  \bibinfo{pages}{91--101}.
-%Type = Article
-\bibitem[{Toth et~al.(2008)Toth, Chappelow, Rosen, Pungavkar, Kalyanpur and
-  Madabhushi}]{Toth2008}
-\bibinfo{author}{Toth, R.}, \bibinfo{author}{Chappelow, J.},
-  \bibinfo{author}{Rosen, M.}, \bibinfo{author}{Pungavkar, S.},
-  \bibinfo{author}{Kalyanpur, A.}, \bibinfo{author}{Madabhushi, A.},
-  \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{M}ulti-attribute non-initializing texture
-  reconstruction based active shape model ({M}{A}{N}{T}{R}{A})}}.
-\newblock \bibinfo{journal}{Med Image Comput Comput Assist Interv}
-  \bibinfo{volume}{11}, \bibinfo{pages}{653--661}.
-%Type = Inproceedings
-\bibitem[{Toth et~al.(2009)Toth, Doyle, Pungavkar, Kalyanpur and
-  Madabhushi}]{Toth2009}
-\bibinfo{author}{Toth, R.}, \bibinfo{author}{Doyle, S.},
-  \bibinfo{author}{Pungavkar, S.}, \bibinfo{author}{Kalyanpur, A.},
-  \bibinfo{author}{Madabhushi, A.}, \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{A} boosted ensemble scheme for accurate landmark
-  detection for active shape models}}, in: \bibinfo{booktitle}{SPIE Medical
-  Imaging}, \bibinfo{address}{Orlando, FL}.
-%Type = Inproceedings
-\bibitem[{Tu(2005)}]{Tu2005}
-\bibinfo{author}{Tu, Z.}, \bibinfo{year}{2005}.
-\newblock \bibinfo{title}{{{P}robabilistic boosting-tree: learning
-  discriminative models for classification, recognition, and clustering}}, in:
-  \bibinfo{booktitle}{Computer Vision, 2005. ICCV 2005. Tenth IEEE
-  International Conference on}, pp. \bibinfo{pages}{1589--1596 Vol. 2}.
-%Type = Article
-\bibitem[{Turkbey and Choyke(2012)}]{Turkbey2012}
-\bibinfo{author}{Turkbey, B.}, \bibinfo{author}{Choyke, P.L.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{M}ultiparametric {M}{R}{I} and prostate cancer
-  diagnosis and risk stratification}}.
-\newblock \bibinfo{journal}{Curr Opin Urol} \bibinfo{volume}{22},
-  \bibinfo{pages}{310--315}.
-%Type = Article
-\bibitem[{Vanhamme et~al.(1997)Vanhamme, van~den Boogaart and
-  Van~Huffel}]{Vanhamme1997}
-\bibinfo{author}{Vanhamme, L.}, \bibinfo{author}{van~den Boogaart, A.},
-  \bibinfo{author}{Van~Huffel, S.}, \bibinfo{year}{1997}.
-\newblock \bibinfo{title}{{{I}mproved method for accurate and efficient
-  quantification of MRS data with use of prior knowledge}}.
-\newblock \bibinfo{journal}{J. Magn. Reson.} \bibinfo{volume}{129},
-  \bibinfo{pages}{35--45}.
-%Type = Article
-\bibitem[{Vapnik and Lerner(1963)}]{Vapnik1963}
-\bibinfo{author}{Vapnik, V.}, \bibinfo{author}{Lerner, A.},
-  \bibinfo{year}{1963}.
-\newblock \bibinfo{title}{{{P}attern Recognition using Generalized Portrait
-  Method}}.
-\newblock \bibinfo{journal}{Automation and Remote Control}
-  \bibinfo{volume}{24}.
-%Type = Article
-\bibitem[{Verma et~al.(2010)Verma, Rajesh, Futterer, Turkbey, Scheenen, Pang,
-  Choyke and Kurhanewicz}]{Verma2010}
-\bibinfo{author}{Verma, S.}, \bibinfo{author}{Rajesh, A.},
-  \bibinfo{author}{Futterer, J.J.}, \bibinfo{author}{Turkbey, B.},
-  \bibinfo{author}{Scheenen, T.W.}, \bibinfo{author}{Pang, Y.},
-  \bibinfo{author}{Choyke, P.L.}, \bibinfo{author}{Kurhanewicz, J.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{P}rostate {M}{R}{I} and 3{D} {M}{R} spectroscopy:
-  how we do it}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{194},
-  \bibinfo{pages}{1414--1426}.
-%Type = Article
-\bibitem[{Verma et~al.(2012)Verma, Turkbey, Muradyan, Rajesh, Cornud, Haider,
-  Choyke and Harisinghani}]{Verma2012}
-\bibinfo{author}{Verma, S.}, \bibinfo{author}{Turkbey, B.},
-  \bibinfo{author}{Muradyan, N.}, \bibinfo{author}{Rajesh, A.},
-  \bibinfo{author}{Cornud, F.}, \bibinfo{author}{Haider, M.A.},
-  \bibinfo{author}{Choyke, P.L.}, \bibinfo{author}{Harisinghani, M.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{O}verview of dynamic contrast-enhanced {M}{R}{I} in
-  prostate cancer diagnosis and management}}.
-\newblock \bibinfo{journal}{AJR Am J Roentgenol} \bibinfo{volume}{198},
-  \bibinfo{pages}{1277--1288}.
-%Type = Article
-\bibitem[{Vilanova et~al.(2009)Vilanova, Comet, Barcel{\'o}-Vidal, Barcel{\'o},
-  L{\'o}pez-Bonet, Maroto, Arzoz, Moreno and Areal}]{Vilanova2009}
-\bibinfo{author}{Vilanova, J.C.}, \bibinfo{author}{Comet, J.},
-  \bibinfo{author}{Barcel{\'o}-Vidal, C.}, \bibinfo{author}{Barcel{\'o}, J.},
-  \bibinfo{author}{L{\'o}pez-Bonet, E.}, \bibinfo{author}{Maroto, A.},
-  \bibinfo{author}{Arzoz, M.}, \bibinfo{author}{Moreno, {\`A}.},
-  \bibinfo{author}{Areal, J.}, \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{P}eripheral zone prostate cancer in patients with
-  elevated {P}{S}{A} levels and low free-to-total {P}{S}{A} ratio: detection
-  with {M}{R} imaging and {M}{R} spectroscopy}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{253},
-  \bibinfo{pages}{135--143}.
-%Type = Article
-\bibitem[{Viola and Wells(1997)}]{Viola1997}
-\bibinfo{author}{Viola, P.}, \bibinfo{author}{Wells, III, W.M.},
-  \bibinfo{year}{1997}.
-\newblock \bibinfo{title}{{{A}lignment by maximization of mutual information}}.
-\newblock \bibinfo{journal}{Int. J. Comput. Vision} \bibinfo{volume}{24},
-  \bibinfo{pages}{137--154}.
-%Type = Inproceedings
-\bibitem[{Viswanath et~al.(2011)Viswanath, Bloch, Chappelow, Patel, Rofsky,
-  Lenkinski, Genega and Madabhushi}]{Viswanath2011}
-\bibinfo{author}{Viswanath, S.}, \bibinfo{author}{Bloch, B.N.},
-  \bibinfo{author}{Chappelow, J.}, \bibinfo{author}{Patel, P.},
-  \bibinfo{author}{Rofsky, N.}, \bibinfo{author}{Lenkinski, R.},
-  \bibinfo{author}{Genega, E.}, \bibinfo{author}{Madabhushi, A.},
-  \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{{E}nhanced multi-protocol analysis via intelligent
+  resonance spectroscopy}, Med Image Comput Comput Assist Interv 11~(Pt 2)
+  (2008) 330--338.
+
+\bibitem{Tiwari2009}
+P.~Tiwari, M.~Rosen, A.~Madabhushi, {{A} hierarchical spectral clustering and
+  nonlinear dimensionality reduction scheme for detection of prostate cancer
+  from magnetic resonance spectroscopy ({M}{R}{S})}, Med Phys 36~(9) (2009)
+  3927--3939.
+
+\bibitem{Tiwari2009a}
+P.~Tiwari, M.~Rosen, G.~Reed, J.~Kurhanewicz, A.~Madabhushi, {{S}pectral
+  embedding based probabilistic boosting tree ({S}c{E}{P}{T}re): classifying
+  high dimensional heterogeneous biomedical data}, Med Image Comput Comput
+  Assist Interv 12~(Pt 2) (2009) 844--851.
+
+\bibitem{Tiwari2010}
+P.~Tiwari, J.~Kurhanewicz, M.~Rosen, A.~Madabhushi, {{S}emi supervised multi
+  kernel ({S}e{S}{M}i{K}) graph embedding: identifying aggressive prostate
+  cancer via magnetic resonance imaging and spectroscopy}, Med Image Comput
+  Comput Assist Interv 13~(Pt 3) (2010) 666--673.
+
+\bibitem{Tiwari2012}
+P.~Tiwari, S.~Viswanath, J.~Kurhanewicz, A.~Sridhar, A.~Madabhushi,
+  {{M}ultimodal wavelet embedding representation for data combination
+  ({M}a{W}{E}{R}i{C}): integrating magnetic resonance imaging and spectroscopy
+  for prostate cancer detection}, NMR Biomed 25~(4) (2012) 607--619.
+
+\bibitem{Tiwari2013}
+P.~Tiwari, J.~Kurhanewicz, A.~Madabhushi, {{M}ulti-kernel graph embedding for
+  detection, {G}leason grading of prostate cancer via {M}{R}{I}/{M}{R}{S}}, Med
+  Image Anal 17~(2) (2013) 219--235.
+
+\bibitem{Viswanath2008}
+S.~Viswanath, P.~Tiwari, M.~Rosen, A.~Madabhushi, {{A} meta-classifier for
+  detecting prostate cancer by quantitative integration of {\textit{In Vivo}}
+  magnetic resonance spectroscopy and magnetic resonance imaging}, in: Medical
+  Imaging 2008: Computer-Aided Diagnosis, Vol. 6915, SPIE, 2008.
+
+\bibitem{Viswanath2008a}
+S.~Viswanath, B.~N. Bloch, E.~Genega, N.~Rofsky, R.~Lenkinski, J.~Chappelow,
+  R.~Toth, A.~Madabhushi, {{A} comprehensive segmentation, registration, and
+  cancer detection scheme on 3 {T}esla in vivo prostate {D}{C}{E}-{M}{R}{I}},
+  Med Image Comput Comput Assist Interv 11~(Pt 1) (2008) 662--669.
+
+\bibitem{Viswanath2009}
+S.~Viswanath, B.~N. Bloch, M.~Rosen, J.~Chappelow, R.~Toth, N.~Rofsky,
+  R.~Lenkinski, E.~Genega, A.~Kalyanpur, A.~Madabhushi, {{I}ntegrating
+  structural and functional imaging for computer assisted detection of prostate
+  cancer on multi-protocol in vivo 3 {T}esla {M}{R}{I}}, in: Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 7260
+  of Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
+  Series, 2009.
+
+\bibitem{Viswanath2011}
+S.~Viswanath, B.~N. Bloch, J.~Chappelow, P.~Patel, N.~Rofsky, R.~Lenkinski,
+  E.~Genega, A.~Madabhushi, {{E}nhanced multi-protocol analysis via intelligent
   supervised embedding ({E}{M}{P}r{A}v{I}{S}{E}): detecting prostate cancer on
-  multi-parametric {M}{R}{I}}}, in: \bibinfo{booktitle}{Proc. SPIE 7963,
-  Medical Imaging 2011: Computer-Aided Diagnosis}.
-%Type = Article
-\bibitem[{Viswanath et~al.(2008a)Viswanath, Bloch, Genega, Rofsky, Lenkinski,
-  Chappelow, Toth and Madabhushi}]{Viswanath2008a}
-\bibinfo{author}{Viswanath, S.}, \bibinfo{author}{Bloch, B.N.},
-  \bibinfo{author}{Genega, E.}, \bibinfo{author}{Rofsky, N.},
-  \bibinfo{author}{Lenkinski, R.}, \bibinfo{author}{Chappelow, J.},
-  \bibinfo{author}{Toth, R.}, \bibinfo{author}{Madabhushi, A.},
-  \bibinfo{year}{2008}a.
-\newblock \bibinfo{title}{{{A} comprehensive segmentation, registration, and
-  cancer detection scheme on 3 {T}esla in vivo prostate {D}{C}{E}-{M}{R}{I}}}.
-\newblock \bibinfo{journal}{Med Image Comput Comput Assist Interv}
-  \bibinfo{volume}{11}, \bibinfo{pages}{662--669}.
-%Type = Inproceedings
-\bibitem[{Viswanath et~al.(2009)Viswanath, Bloch, Rosen, Chappelow, Toth,
-  Rofsky, Lenkinski, Genega, Kalyanpur and Madabhushi}]{Viswanath2009}
-\bibinfo{author}{Viswanath, S.}, \bibinfo{author}{Bloch, B.N.},
-  \bibinfo{author}{Rosen, M.}, \bibinfo{author}{Chappelow, J.},
-  \bibinfo{author}{Toth, R.}, \bibinfo{author}{Rofsky, N.},
-  \bibinfo{author}{Lenkinski, R.}, \bibinfo{author}{Genega, E.},
-  \bibinfo{author}{Kalyanpur, A.}, \bibinfo{author}{Madabhushi, A.},
-  \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{I}ntegrating structural and functional imaging for
-  computer assisted detection of prostate cancer on multi-protocol in vivo 3
-  {T}esla {M}{R}{I}}}, in: \bibinfo{booktitle}{Society of Photo-Optical
-  Instrumentation Engineers (SPIE) Conference Series}.
-%Type = Inproceedings
-\bibitem[{Viswanath et~al.(2008b)Viswanath, Tiwari, Rosen and
-  Madabhushi}]{Viswanath2008}
-\bibinfo{author}{Viswanath, S.}, \bibinfo{author}{Tiwari, P.},
-  \bibinfo{author}{Rosen, M.}, \bibinfo{author}{Madabhushi, A.},
-  \bibinfo{year}{2008}b.
-\newblock \bibinfo{title}{{{A} meta-classifier for detecting prostate cancer by
-  quantitative integration of {\textit{In Vivo}} magnetic resonance
-  spectroscopy and magnetic resonance imaging}}, in:
-  \bibinfo{booktitle}{Medical Imaging 2008: Computer-Aided Diagnosis},
-  \bibinfo{publisher}{SPIE}.
-%Type = Article
-\bibitem[{Viswanath et~al.(2012)Viswanath, Bloch, Chappelow, Toth, Rofsky,
-  Genega, Lenkinski and Madabhushi}]{Viswanath2012}
-\bibinfo{author}{Viswanath, S.E.}, \bibinfo{author}{Bloch, N.B.},
-  \bibinfo{author}{Chappelow, J.C.}, \bibinfo{author}{Toth, R.},
-  \bibinfo{author}{Rofsky, N.M.}, \bibinfo{author}{Genega, E.M.},
-  \bibinfo{author}{Lenkinski, R.E.}, \bibinfo{author}{Madabhushi, A.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{C}entral gland and peripheral zone prostate tumors
-  have significantly different quantitative imaging signatures on 3 {T}esla
-  endorectal, in vivo {T}2-weighted {M}{R} imagery}}.
-\newblock \bibinfo{journal}{J Magn Reson Imaging} \bibinfo{volume}{36},
-  \bibinfo{pages}{213--224}.
-%Type = Article
-\bibitem[{Vos et~al.(2012)Vos, Barentsz, Karssemeijer and Huisman}]{Vos2012}
-\bibinfo{author}{Vos, P.C.}, \bibinfo{author}{Barentsz, J.O.},
-  \bibinfo{author}{Karssemeijer, N.}, \bibinfo{author}{Huisman, H.J.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{A}utomatic computer-aided detection of prostate
-  cancer based on multiparametric magnetic resonance image analysis}}.
-\newblock \bibinfo{journal}{Phys Med Biol} \bibinfo{volume}{57},
-  \bibinfo{pages}{1527--1542}.
-%Type = Inproceedings
-\bibitem[{Vos et~al.(2008a)Vos, Hambrock, Barenstz and Huisman}]{Vos2008}
-\bibinfo{author}{Vos, P.C.}, \bibinfo{author}{Hambrock, T.},
-  \bibinfo{author}{Barenstz, J.O.}, \bibinfo{author}{Huisman, H.J.},
-  \bibinfo{year}{2008}a.
-\newblock \bibinfo{title}{{{C}ombining {T}2-weighted with dynamic {M}{R} images
-  for computerized classification of prostate lesions}}, in:
-  \bibinfo{booktitle}{Medical Imaging 2008: Computer-Aided Diagnosis},
-  \bibinfo{publisher}{SPIE}.
-%Type = Article
-\bibitem[{Vos et~al.(2010)Vos, Hambrock, Barenstz and Huisman}]{Vos2010}
-\bibinfo{author}{Vos, P.C.}, \bibinfo{author}{Hambrock, T.},
-  \bibinfo{author}{Barenstz, J.O.}, \bibinfo{author}{Huisman, H.J.},
-  \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{C}omputer-assisted analysis of peripheral zone
-  prostate lesions using {T}2-weighted and dynamic contrast enhanced
-  {T}1-weighted {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Phys Med Biol} \bibinfo{volume}{55},
-  \bibinfo{pages}{1719--1734}.
-%Type = Article
-\bibitem[{Vos et~al.(2008b)Vos, Hambrock, Hulsbergen-van~de Kaa, Futterer,
-  Barentsz and Huisman}]{Vos2008a}
-\bibinfo{author}{Vos, P.C.}, \bibinfo{author}{Hambrock, T.},
-  \bibinfo{author}{Hulsbergen-van~de Kaa, C.A.}, \bibinfo{author}{Futterer,
-  J.J.}, \bibinfo{author}{Barentsz, J.O.}, \bibinfo{author}{Huisman, H.J.},
-  \bibinfo{year}{2008}b.
-\newblock \bibinfo{title}{{{C}omputerized analysis of prostate lesions in the
-  peripheral zone using dynamic contrast enhanced {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Med Phys} \bibinfo{volume}{35},
-  \bibinfo{pages}{888--899}.
-%Type = Article
-\bibitem[{Vovk et~al.(2007)Vovk, Pernus and Likar}]{Vovk2007}
-\bibinfo{author}{Vovk, U.}, \bibinfo{author}{Pernus, F.},
-  \bibinfo{author}{Likar, B.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{A} review of methods for correction of intensity
-  inhomogeneity in {M}{R}{I}}}.
-\newblock \bibinfo{journal}{Medical Imaging, IEEE Transactions on}
-  \bibinfo{volume}{26}, \bibinfo{pages}{405--421}.
-%Type = Inproceedings
-\bibitem[{Walker et~al.(2010)Walker, Crehange, Parfait, Cochet, Maignon,
-  Cormier and Brunotte}]{Walker2010}
-\bibinfo{author}{Walker, P.}, \bibinfo{author}{Crehange, G.},
-  \bibinfo{author}{Parfait, S.}, \bibinfo{author}{Cochet, A.},
-  \bibinfo{author}{Maignon, P.}, \bibinfo{author}{Cormier, L.},
-  \bibinfo{author}{Brunotte, F.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{A}bsolute quantification in 1{H} {M}{R}{S}{I} of
-  the prostate at 3{T}}}, in: \bibinfo{booktitle}{ISMRM Annual Meeting 2010}.
-%Type = Article
-\bibitem[{Wang et~al.(2008)Wang, Mazaheri, Zhang, Ishill, Kuroiwa and
-  Hricak}]{Wang2008}
-\bibinfo{author}{Wang, L.}, \bibinfo{author}{Mazaheri, Y.},
-  \bibinfo{author}{Zhang, J.}, \bibinfo{author}{Ishill, N.M.},
-  \bibinfo{author}{Kuroiwa, K.}, \bibinfo{author}{Hricak, H.},
-  \bibinfo{year}{2008}.
-\newblock \bibinfo{title}{{{A}ssessment of biologic aggressiveness of prostate
-  cancer: correlation of {M}{R} signal intensity with {G}leason grade after
-  radical prostatectomy}}.
-\newblock \bibinfo{journal}{Radiology} \bibinfo{volume}{246},
-  \bibinfo{pages}{168--176}.
-%Type = Article
-\bibitem[{Wiart et~al.(2007)Wiart, Curiel, Gelet, Lyonnet, Chapelon and
-  Rouviere}]{Wiart2007}
-\bibinfo{author}{Wiart, M.}, \bibinfo{author}{Curiel, L.},
-  \bibinfo{author}{Gelet, A.}, \bibinfo{author}{Lyonnet, D.},
-  \bibinfo{author}{Chapelon, J.Y.}, \bibinfo{author}{Rouviere, O.},
-  \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{I}nfluence of perfusion on high-intensity focused
-  ultrasound prostate ablation: a first-pass {M}{R}{I} study}}.
-\newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{58},
-  \bibinfo{pages}{119--127}.
-%Type = Article
-\bibitem[{Ye et~al.(2007)Ye, Kynaston and Jiang}]{Ye2007}
-\bibinfo{author}{Ye, L.}, \bibinfo{author}{Kynaston, H.G.},
-  \bibinfo{author}{Jiang, W.G.}, \bibinfo{year}{2007}.
-\newblock \bibinfo{title}{{{B}one metastasis in prostate cancer: molecular and
-  cellular mechanisms ({R}eview)}}.
-\newblock \bibinfo{journal}{Int. J. Mol. Med.} \bibinfo{volume}{20},
-  \bibinfo{pages}{103--111}.
-%Type = Article
-\bibitem[{Zelhof et~al.(2009)Zelhof, Lowry, Rodrigues, Kraus and
-  Turnbull}]{Zelhof2009}
-\bibinfo{author}{Zelhof, B.}, \bibinfo{author}{Lowry, M.},
-  \bibinfo{author}{Rodrigues, G.}, \bibinfo{author}{Kraus, S.},
-  \bibinfo{author}{Turnbull, L.}, \bibinfo{year}{2009}.
-\newblock \bibinfo{title}{{{D}escription of magnetic resonance imaging-derived
-  enhancement variables in pathologically confirmed prostate cancer and normal
-  peripheral zone regions}}.
-\newblock \bibinfo{journal}{BJU Int.} \bibinfo{volume}{104},
-  \bibinfo{pages}{621--627}.
-%Type = Article
-\bibitem[{Zhao et~al.(2012)Zhao, Ahonen, Matas and Pietikainen}]{Zhao2012}
-\bibinfo{author}{Zhao, G.}, \bibinfo{author}{Ahonen, T.},
-  \bibinfo{author}{Matas, J.}, \bibinfo{author}{Pietikainen, M.},
-  \bibinfo{year}{2012}.
-\newblock \bibinfo{title}{{{R}otation-Invariant Image and Video Description
-  With Local Binary Pattern Features}}.
-\newblock \bibinfo{journal}{Image Processing, IEEE Transactions on}
-  \bibinfo{volume}{21}, \bibinfo{pages}{1465--1477}.
-%Type = Article
-\bibitem[{Zhu et~al.(2010)Zhu, Ouwerkerk and Barker}]{Zhu2010}
-\bibinfo{author}{Zhu, H.}, \bibinfo{author}{Ouwerkerk, R.},
-  \bibinfo{author}{Barker, P.B.}, \bibinfo{year}{2010}.
-\newblock \bibinfo{title}{{{D}ual-band water and lipid suppression for {M}{R}
-  spectroscopic imaging at 3 {T}esla}}.
-\newblock \bibinfo{journal}{Magn Reson Med} \bibinfo{volume}{63},
-  \bibinfo{pages}{1486--1492}.
-%Type = Article
-\bibitem[{Zitov\'a and Flusser(2003)}]{Zitova2003}
-\bibinfo{author}{Zitov\'a, B.}, \bibinfo{author}{Flusser, J.},
-  \bibinfo{year}{2003}.
-\newblock \bibinfo{title}{{{I}mage registration methods: a survey}}.
-\newblock \bibinfo{journal}{Image and Vision Computing} \bibinfo{volume}{21},
-  \bibinfo{pages}{977 -- 1000}.
+  multi-parametric {M}{R}{I}}, in: Proc. SPIE 7963, Medical Imaging 2011:
+  Computer-Aided Diagnosis, 2011.
+
+\bibitem{Viswanath2012}
+S.~E. Viswanath, N.~B. Bloch, J.~C. Chappelow, R.~Toth, N.~M. Rofsky, E.~M.
+  Genega, R.~E. Lenkinski, A.~Madabhushi, {{C}entral gland and peripheral zone
+  prostate tumors have significantly different quantitative imaging signatures
+  on 3 {T}esla endorectal, in vivo {T}2-weighted {M}{R} imagery}, J Magn Reson
+  Imaging 36~(1) (2012) 213--224.
+
+\bibitem{Vos2008}
+P.~C. Vos, T.~Hambrock, J.~O. Barenstz, H.~J. Huisman, {{C}ombining
+  {T}2-weighted with dynamic {M}{R} images for computerized classification of
+  prostate lesions}, in: Medical Imaging 2008: Computer-Aided Diagnosis, Vol.
+  6915, SPIE, 2008.
+
+\bibitem{Vos2008a}
+P.~C. Vos, T.~Hambrock, C.~A. Hulsbergen-van~de Kaa, J.~J. Futterer, J.~O.
+  Barentsz, H.~J. Huisman, {{C}omputerized analysis of prostate lesions in the
+  peripheral zone using dynamic contrast enhanced {M}{R}{I}}, Med Phys 35~(3)
+  (2008) 888--899.
+
+\bibitem{Vos2010}
+P.~C. Vos, T.~Hambrock, J.~O. Barenstz, H.~J. Huisman, {{C}omputer-assisted
+  analysis of peripheral zone prostate lesions using {T}2-weighted and dynamic
+  contrast enhanced {T}1-weighted {M}{R}{I}}, Phys Med Biol 55~(6) (2010)
+  1719--1734.
+
+\bibitem{Vos2012}
+P.~C. Vos, J.~O. Barentsz, N.~Karssemeijer, H.~J. Huisman, {{A}utomatic
+  computer-aided detection of prostate cancer based on multiparametric magnetic
+  resonance image analysis}, Phys Med Biol 57~(6) (2012) 1527--1542.
+
+\bibitem{Walker2010}
+P.~Walker, G.~Crehange, S.~Parfait, A.~Cochet, P.~Maignon, L.~Cormier,
+  F.~Brunotte, {{A}bsolute quantification in 1{H} {M}{R}{S}{I} of the prostate
+  at 3{T}}, in: ISMRM Annual Meeting 2010, 2010.
+
+\bibitem{Lemaitre2011}
+G.~Lema\^itre, {{A}bsolute quantification at 3 {T}}, Master's thesis,
+  Universit\'e de Bourgogne, Heriot-Watt University, Universitat de Girona
+  (2011).
+
+\bibitem{Nowak1999}
+R.~Nowak, {{W}avelet-based {R}ician noise removal for magnetic resonance
+  imaging}, Image Processing, IEEE Transactions on 8~(10) (1999) 1408--1419.
+
+\bibitem{Manjon2008}
+J.~V. Manjon, J.~Carbonell-Caballero, J.~J. Lull, G.~Garcia-Marti,
+  L.~Marti-Bonmati, M.~Robles, {{M}{R}{I} denoising using non-local means}, Med
+  Image Anal 12~(4) (2008) 514--523.
+
+\bibitem{Buades2005}
+A.~Buades, B.~Coll, J.~Morel, {{A} review of image denoising algorithms, with a
+  new one}, Simul 4 (2005) 490--530.
+
+\bibitem{Mohan2014}
+J.~Mohan, V.~Krishnaveni, Y.~Guo, {{A} survey on the magnetic resonance image
+  denoising methods}, Biomedical Signal Processing and Control 9~(0) (2014) 56
+  -- 69.
+
+\bibitem{Pizurica2002}
+A.~Pizurica, {{I}mage denoising using wavelets and spatial context modeling},
+  Ph.D. thesis, Universiteit Gent (2002).
+
+\bibitem{Mallat2008}
+S.~Mallat, {{A} wavelet tour of signal processing, {T}hird {E}dition: {T}he
+  sparse way}, 3rd Edition, Academic Press, 2008.
+
+\bibitem{Pizurica2003}
+A.~Pizurica, W.~Philips, I.~Lemahieu, M.~Acheroy, {{A} versatile wavelet domain
+  noise filtration technique for medical imaging}, IEEE Trans Med Imaging
+  22~(3) (2003) 323--331.
+
+\bibitem{Middleton1968}
+D.~Middleton, R.~Esposito, {{S}imultaneous optimum detection and estimation of
+  signals in noise}, Information Theory, IEEE Transactions on 14~(3) (1968)
+  434--444.
+
+\bibitem{Styner2000}
+M.~Styner, C.~Brechbuhler, G.~Szckely, G.~Gerig, {{P}arametric estimate of
+  intensity inhomogeneities applied to {M}{R}{I}}, Medical Imaging, IEEE
+  Transactions on 19~(3) (2000) 153--165.
+
+\bibitem{Jungke1987}
+M.~Jungke, W.~Von~Seelen, G.~Bielke, S.~Meindl, M.~Grigat, P.~Pfannenstiel,
+  {{A} system for the diagnostic use of tissue characterizing parameters in
+  {N}{M}{R}-tomography}, in: Proc. of Information Processing in Medical
+  Imaging, Vol.~87, 1987, pp. 471--481.
+
+\bibitem{Vovk2007}
+U.~Vovk, F.~Pernus, B.~Likar, {{A} review of methods for correction of
+  intensity inhomogeneity in {M}{R}{I}}, Medical Imaging, IEEE Transactions on
+  26~(3) (2007) 405--421.
+
+\bibitem{Madabhushi2006}
+A.~Madabhushi, J.~Udupa, A.~Souza, {{G}eneralized scale: {T}heory, algorithms,
+  and application to image inhomogeneity correction }, Computer Vision and
+  Image Understanding 101~(2) (2006) 100 -- 121.
+
+\bibitem{Nyul1999}
+L.~G. Nyul, J.~K. Udupa, {{O}n standardizing the {M}{R} image intensity scale},
+  Magn Reson Med 42~(6) (1999) 1072--1081.
+
+\bibitem{Nyul2000}
+L.~G. Nyul, J.~K. Udupa, X.~Zhang, {{N}ew variants of a method of {M}{R}{I}
+  scale standardization}, IEEE Trans Med Imaging 19~(2) (2000) 143--150.
+
+\bibitem{Madabhushi2006a}
+A.~Madabhushi, J.~K. Udupa, {{N}ew methods of {M}{R} image intensity
+  standardization via generalized scale}, Med Phys 33~(9) (2006) 3426--3434.
+
+\bibitem{Wiart2007}
+M.~Wiart, L.~Curiel, A.~Gelet, D.~Lyonnet, J.~Y. Chapelon, O.~Rouviere,
+  {{I}nfluence of perfusion on high-intensity focused ultrasound prostate
+  ablation: a first-pass {M}{R}{I} study}, Magn Reson Med 58~(1) (2007)
+  119--127.
+
+\bibitem{Chen2002}
+L.~Chen, Z.~Weng, L.~Goh, M.~Garland, {{A}n efficient algorithm for automatic
+  phase correction of \{NMR\} spectra based on entropy minimization }, Journal
+  of Magnetic Resonance 158~(1–2) (2002) 164 -- 168.
+
+\bibitem{Osorio-Garcia2012}
+M.~Osorio-Garcia, A.~Croitor~Sava, D.~M. Sima, F.~Nielsen, U.~Himmelreich,
+  S.~Van~Huffel, {{M}agnetic {R}esonance {S}pectroscopy}, InTech, 2012, Ch.
+  {{Q}uantification improvements of 1{H} {M}{R}{S} Signals}, pp. 1--27.
+
+\bibitem{Zhu2010}
+H.~Zhu, R.~Ouwerkerk, P.~B. Barker, {{D}ual-band water and lipid suppression
+  for {M}{R} spectroscopic imaging at 3 {T}esla}, Magn Reson Med 63~(6) (2010)
+  1486--1492.
+
+\bibitem{Pijnappel1992}
+W.~Pijnappel, A.~van~den Boogaart, R.~de~Beer, D.~van Ormondt, {{S}{V}{D}-based
+  quantification of magnetic resonance signals }, Journal of Magnetic Resonance
+  (1969) 97~(1) (1992) 122 -- 134.
+
+\bibitem{Lieber2003}
+C.~A. Lieber, A.~Mahadevan-Jansen, {{A}utomated method for subtraction of
+  fluorescence from biological {R}aman spectra}, Appl Spectrosc 57~(11) (2003)
+  1363--1367.
+
+\bibitem{Devos2004}
+A.~Devos, L.~Lukas, J.~A. Suykens, L.~Vanhamme, A.~R. Tate, F.~A. Howe,
+  C.~Majos, A.~Moreno-Torres, M.~van~der Graaf, C.~Arus, S.~Van~Huffel,
+  {{C}lassification of brain tumours using short echo time 1{H} {M}{R}
+  spectra}, J. Magn. Reson. 170~(1) (2004) 164--175.
+
+\bibitem{Ghose2012}
+S.~Ghose, A.~Oliver, R.~Marti, X.~Llado, J.~C. Vilanova, J.~Freixenet,
+  J.~Mitra, D.~Sidibe, F.~Meriaudeau, {{A} survey of prostate segmentation
+  methodologies in ultrasound, magnetic resonance and computed tomography
+  images}, Comput Methods Programs Biomed 108~(1) (2012) 262--287.
+
+\bibitem{Chilali2014}
+O.~Chilali, A.~Ouzzane, M.~Diaf, N.~Betrouni, {{A} survey of prostate modeling
+  for image analysis}, Computers in Biology and Medicine 53~(0) (2014) 190 --
+  202.
+
+\bibitem{Klein2008}
+S.~Klein, U.~A. van~der Heide, I.~M. Lips, M.~van Vulpen, M.~Staring, J.~P.
+  Pluim, {{A}utomatic segmentation of the prostate in 3{D} {M}{R} images by
+  atlas matching using localized mutual information}, Med Phys 35~(4) (2008)
+  1407--1417.
+
+\bibitem{Litjens2012a}
+G.~Litjens, O.~Debats, W.~van~de Ven, N.~Karssemeijer, H.~Huisman, {{A} pattern
+  recognition approach to zonal segmentation of the prostate on {M}{R}{I}}, Med
+  Image Comput Comput Assist Interv 15~(Pt 2) (2012) 413--420.
+
+\bibitem{Litjens2014a}
+G.~Litjens, R.~Toth, W.~van~de Ven, C.~Hoeks, S.~Kerkstra, B.~van Ginneken,
+  G.~Vincent, G.~Guillard, N.~Birbeck, J.~Zhang, R.~Strand, F.~Malmberg, Y.~Ou,
+  C.~Davatzikos, M.~Kirschner, F.~Jung, J.~Yuan, W.~Qiu, Q.~Gao, P.~E. Edwards,
+  B.~Maan, F.~van~der Heijden, S.~Ghose, J.~Mitra, J.~Dowling, D.~Barratt,
+  H.~Huisman, A.~Madabhushi, {{E}valuation of prostate segmentation algorithms
+  for {M}{R}{I}: the {P}{R}{O}{M}{I}{S}{E}12 challenge}, Med Image Anal 18~(2)
+  (2014) 359--373.
+
+\bibitem{Langerak2010}
+T.~R. Langerak, U.~A. van~der Heide, A.~N. Kotte, M.~A. Viergever, M.~van
+  Vulpen, J.~P. Pluim, {{L}abel fusion in atlas-based segmentation using a
+  selective and iterative method for performance level estimation
+  ({S}{I}{M}{P}{L}{E})}, IEEE Trans Med Imaging 29~(12) (2010) 2000--2008.
+
+\bibitem{Toth2008}
+R.~Toth, J.~Chappelow, M.~Rosen, S.~Pungavkar, A.~Kalyanpur, A.~Madabhushi,
+  {{M}ulti-attribute non-initializing texture reconstruction based active shape
+  model ({M}{A}{N}{T}{R}{A})}, Med Image Comput Comput Assist Interv 11~(Pt 1)
+  (2008) 653--661.
+
+\bibitem{Cootes1995}
+T.~F. Cootes, C.~J. Taylor, D.~H. Cooper, J.~Graham, {{A}ctive shape
+  models\&Mdash;{T}heir training and application}, Comput. Vis. Image Underst.
+  61~(1) (1995) 38--59.
+
+\bibitem{Huisman2010}
+H.~Huisman, P.~Vos, G.~Litjens, T.~Hambrock, J.~Barentsz, {{C}omputer aided
+  detection of prostate cancer using {T}2, {D}{W}{I} and {D}{C}{E} {M}{R}{I}:
+  methods and clinical applications}, in: Proceedings of the 2010 international
+  conference on Prostate cancer imaging: computer-aided diagnosis, prognosis,
+  and intervention, MICCAI'10, Springer-Verlag, Berlin, Heidelberg, 2010, pp.
+  4--14.
+
+\bibitem{Shi2000}
+J.~Shi, J.~Malik, {{N}ormalized cuts and image segmentation}, Pattern Analysis
+  and Machine Intelligence, IEEE Transactions on 22~(8) (2000) 888--905.
+
+\bibitem{Maintz1998}
+J.~B. Maintz, M.~A. Viergever, {{A} survey of medical image registration}, Med
+  Image Anal 2~(1) (1998) 1--36.
+
+\bibitem{Zitova2003}
+B.~Zitov\'a, J.~Flusser, {{I}mage registration methods: a survey}, Image and
+  Vision Computing 21~(11) (2003) 977 -- 1000.
+
+\bibitem{Mitra2011}
+J.~Mitra, R.~Marti, A.~Oliver, X.~Llado, J.~C. Vilanova, F.~Meriaudeau, {{A}
+  comparison of thin-plate splines with automatic correspondences and B-splines
+  with uniform grids for multimodal prostate registration}, in: Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol. 7964
+  of Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
+  Series, 2011.
+
+\bibitem{Mitra2012a}
+J.~Mitra, Z.~Kato, R.~Marti, A.~Oliver, X.~Llado, D.~Sidibe, S.~Ghose, J.~C.
+  Vilanova, J.~Comet, F.~Meriaudeau, {{A} spline-based non-linear
+  diffeomorphism for multimodal prostate registration}, Med Image Anal 16~(6)
+  (2012) 1259--1279.
+
+\bibitem{Toth2009}
+R.~Toth, S.~Doyle, S.~Pungavkar, A.~Kalyanpur, A.~Madabhushi, {{A} boosted
+  ensemble scheme for accurate landmark detection for active shape models}, in:
+  SPIE Medical Imaging, Vol. 7260, Orlando, FL, 2009.
+
+\bibitem{Pluim2003}
+J.~Pluim, J.~Maintz, M.~Viergever, {{M}utual-information-based registration of
+  medical images: a survey}, IEEE Transcations on Medical Imaging 22~(8) (2003)
+  986--1004.
+
+\bibitem{Chappelow2011}
+J.~Chappelow, B.~N. Bloch, N.~Rofsky, E.~Genega, R.~Lenkinski, W.~DeWolf,
+  A.~Madabhushi, {{E}lastic registration of multimodal prostate {M}{R}{I} and
+  histology via multiattribute combined mutual information}, Med Phys 38~(4)
+  (2011) 2005--2018.
+
+\bibitem{Byrd1995}
+R.~H. Byrd, P.~Lu, J.~Nocedal, C.~Zhu, {{A} limited memory algorithm for bound
+  constrained optimization}, SIAM J. Sci. Comput. 16~(5) (1995) 1190--1208.
+
+\bibitem{Viola1997}
+P.~Viola, W.~M. Wells, III, {{A}lignment by maximization of mutual
+  information}, Int. J. Comput. Vision 24~(2) (1997) 137--154.
+
+\bibitem{Mitra2012}
+J.~Mitra, {{M}ultimodal image registration applied to magnetic resonance and
+  ultrasound prostatic images}, Ph.D. thesis, Universitat de Girona and
+  Universit\'e de Bourgogne (2012).
+
+\bibitem{Rueckert1999}
+D.~Rueckert, L.~I. Sonoda, C.~Hayes, D.~L. Hill, M.~O. Leach, D.~J. Hawkes,
+  {{N}onrigid registration using free-form deformations: application to breast
+  {M}{R} images}, IEEE Trans Med Imaging 18~(8) (1999) 712--721.
+
+\bibitem{Prewitt1970}
+J.~Prewitt, {{P}icture processing and psychohistories}, Academic Press, 1970,
+  Ch. {{O}bject enhancement and extraction}.
+
+\bibitem{Sobel1970}
+I.~Sobel, {{C}amera models and machine perception}, Tech. rep., DTIC Document
+  (1970).
+
+\bibitem{Kirsch1971}
+R.~Kirsch, {{C}omputer determination of the constituent structure of biological
+  images }, Computers and Biomedical Research 4~(3) (1971) 315 -- 328.
+
+\bibitem{Gabor1946}
+D.~Gabor, {{T}heory of communication. Part 1: The analysis of information},
+  Electrical Engineers - Part III: Radio and Communication Engineering, Journal
+  of the Institution of 93~(26) (1946) 429--441.
+
+\bibitem{Daugman1985}
+J.~G. Daugman, {{U}ncertainty relation for resolution in space, spatial
+  frequency, and orientation optimized by two-dimensional visual cortical
+  filters}, J Opt Soc Am A 2~(7) (1985) 1160--1169.
+
+\bibitem{Haralick1973}
+R.~Haralick, K.~Shanmugam, I.~Dinstein, {{T}extural features for image
+  classification}, Systems, Man and Cybernetics, IEEE Transactions on SMC-3~(6)
+  (1973) 610--621.
+
+\bibitem{Benassi1998}
+A.~Benassi, S.~Cohen, J.~Istas, {{I}dentifying the multifractional function of
+  a {G}aussian process}, Statistics \& Probability Letters 39~(4) (1998) 337 --
+  345.
+
+\bibitem{Ahmed1974}
+N.~Ahmed, T.~Natarajan, K.~Rao, {{D}iscrete cosine transform}, Computers, IEEE
+  Transactions on C-23~(1) (1974) 90--93.
+
+\bibitem{Leung2001}
+T.~Leung, J.~Malik, {{R}epresenting and recognizing the visual appearance of
+  materials using three-dimensional textons}, International Journal of Computer
+  Vision 43~(1) (2001) 29--44.
+
+\bibitem{Dalal2005}
+N.~Dalal, B.~Triggs, {{H}istograms of oriented gradients for human detection},
+  in: Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer
+  Society Conference on, Vol.~1, 2005, pp. 886--893 vol. 1.
+
+\bibitem{Belongie2002}
+S.~Belongie, J.~Malik, J.~Puzicha, {{S}hape matching and object recognition
+  using shape contexts}, Pattern Analysis and Machine Intelligence, IEEE
+  Transactions on 24~(4) (2002) 509--522.
+
+\bibitem{Zhao2012}
+G.~Zhao, T.~Ahonen, J.~Matas, M.~Pietikainen, {{R}otation-Invariant Image and
+  Video Description With Local Binary Pattern Features}, Image Processing, IEEE
+  Transactions on 21~(4) (2012) 1465--1477.
+
+\bibitem{Ojala1996}
+T.~Ojala, M.~Pietik\"{a}inen, D.~Harwood, {{A} comparative study of texture
+  measures with classification based on featured distributions}, Pattern
+  Recognition 29~(1) (1996) 51--59.
+
+\bibitem{Tofts1997}
+P.~S. Tofts, {{M}odeling tracer kinetics in dynamic {G}d-{D}{T}{P}{A} {M}{R}
+  imaging}, J Magn Reson Imaging 7~(1) (1997) 91--101.
+
+\bibitem{Castorina2006}
+P.~Castorina, P.~P. Delsanto, C.~Guiot, {{C}lassification scheme for
+  phenomenological universalities in growth problems in physics and other
+  sciences}, Phys. Rev. Lett. 96 (2006) 188701.
+
+\bibitem{Ratiney2005}
+H.~Ratiney, M.~Sdika, Y.~Coenradie, S.~Cavassila, D.~van Ormondt,
+  D.~Graveron-Demilly, {{T}ime-domain semi-parametric estimation based on a
+  metabolite basis set}, NMR Biomed 18~(1) (2005) 1--13.
+
+\bibitem{Vanhamme1997}
+L.~Vanhamme, A.~van~den Boogaart, S.~Van~Huffel, {{I}mproved method for
+  accurate and efficient quantification of MRS data with use of prior
+  knowledge}, J. Magn. Reson. 129 (1997) 35--45.
+
+\bibitem{Coleman1993}
+T.~Coleman, Y.~Li, {{A}n interior trust region approach for nonlinear
+  minimization subject to bounds}, Tech. rep., Cornell University (1993).
+
+\bibitem{Provencher1993}
+S.~W. Provencher, {{E}stimation of metabolite concentrations from localized in
+  vivo proton {N}{M}{R} spectra}, Magn Reson Med 30~(6) (1993) 672--679.
+
+\bibitem{Coifman1992}
+R.~Coifman, M.~Wickerhauser, {{E}ntropy-based algorithms for best basis
+  selection}, Information Theory, IEEE Transactions on 38~(2) (1992) 713--718.
+
+\bibitem{Saeys2007}
+Y.~Saeys, I.~Inza, P.~Larranaga, {{A} review of feature selection techniques in
+  bioinformatics}, Bioinformatics 23~(19) (2007) 2507--2517.
+
+\bibitem{Peng2005}
+H.~Peng, F.~Long, C.~Ding, {{F}eature selection based on mutual information
+  criteria of max-dependency, max-relevance, and min-redundancy}, Pattern
+  Analysis and Machine Intelligence, IEEE Transactions on 27~(8) (2005)
+  1226--1238.
+
+\bibitem{Fodor2002}
+I.~Fodor, {{A} survey of dimension reduction techniques} (2002).
+
+\bibitem{Jolliffe2002}
+I.~T. Jolliffe, {{P}rincipal Component Analysis}, 2nd Edition, Springer, 2002.
+
+\bibitem{Belkin2001}
+M.~Belkin, P.~Niyogi, {{L}aplacian eigenmaps and spectral techniques for
+  embedding and clustering}, in: Advances in Neural Information Processing
+  Systems 14, MIT Press, 2001, pp. 585--591.
+
+\bibitem{Roweis2000}
+S.~T. Roweis, L.~K. Saul, {{N}onlinear dimensionality reduction by locally
+  linear embedding}, Science 290~(5500) (2000) 2323--2326.
+
+\bibitem{Bishop2006}
+C.~M. Bishop, {{P}attern recognition and machine learning}, Springer-Verlag New
+  York, Inc., Secaucus, NJ, USA, 2006.
+
+\bibitem{Fred2005}
+A.~Fred, A.~Jain, {{C}ombining multiple clusterings using evidence
+  accumulation}, Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on 27~(6) (2005) 835--850.
+
+\bibitem{Friedman1989}
+J.~Friedman, {{R}egularized discriminant analysis}, Journal of the American
+  Statistical Association 84~(405) (1989) pp. 165--175.
+
+\bibitem{Rish2001}
+I.~Rish, {{A}n empirical study of the naive {B}ayes classifier}, in: IJCAI 2001
+  workshop on empirical methods in artificial intelligence, Vol.~3, 2001, pp.
+  41--46.
+
+\bibitem{Freund1997}
+Y.~Freund, R.~Schapire, {{A} decision-theoretic generalization of on-line
+  learning and an application to boosting}, Journal of Computer and System
+  Sciences 55~(1) (1997) 119 -- 139.
+
+\bibitem{Breiman2001}
+L.~Breiman, {{R}andom forests}, Machine Learning 45~(1) (2001) 5--32.
+
+\bibitem{Tu2005}
+Z.~Tu, {{P}robabilistic boosting-tree: learning discriminative models for
+  classification, recognition, and clustering}, in: Computer Vision, 2005. ICCV
+  2005. Tenth IEEE International Conference on, Vol.~2, 2005, pp. 1589--1596
+  Vol. 2.
+
+\bibitem{Friedman1998}
+J.~Friedman, T.~Hastie, R.~Tibshirani, {{A}dditive logistic regression: a
+  statistical view of boosting}, Annals of Statistics 28 (1998) 2000.
+
+\bibitem{Rasmussen2005}
+C.~Rasmussen, C.~Williams, {{G}aussian processes for machine learning}, The MIT
+  Press, 2005.
+
+\bibitem{Vapnik1963}
+V.~Vapnik, A.~Lerner, {{P}attern Recognition using Generalized Portrait
+  Method}, Automation and Remote Control 24.
+
+\bibitem{Boser1992}
+B.~E. Boser, I.~M. Guyon, V.~N. Vapnik, {{A} training algorithm for optimal
+  margin classifiers}, in: Proceedings of the Fifth Annual Workshop on
+  Computational Learning Theory, COLT '92, ACM, New York, NY, USA, 1992, pp.
+  144--152.
+
+\bibitem{Tipping2001}
+M.~Tipping, {{S}parse {B}ayesian learning and the relevance vector machine},
+  Journal of Machine Learning Research 1 (2001) 211--244.
+
+\bibitem{Quinonero-Candela2002}
+J.~Quinonero-Candela, A.~Girard, C.~Rasmussen, {{P}rediction at an Uncertain
+  Input for {G}aussian processes and relevance vector machines application to
+  Multiple-Step ahead time-series forecasting}, Tech. rep., DTU Informatics
+  (2002).
+
+\bibitem{Specht1988}
+D.~F. Specht, {{P}robabilistic neural networks for classification, mapping, or
+  associative memory}, in: Neural Networks, 1988., IEEE International
+  Conference on, 1988, pp. 525--532 vol.1.
+
+\bibitem{Efron1983}
+B.~Efron, {{E}stimating the error rate of a prediction rule: {I}mprovement on
+  cross-validation}, Journal of the American Statistical Association 78~(382)
+  (1983) pp. 316--331.
+
+\bibitem{Metz2006}
+C.~E. Metz, {{R}eceiver operating characteristic analysis: a tool for the
+  quantitative evaluation of observer performance and imaging systems}, J Am
+  Coll Radiol 3~(6) (2006) 413--422.
 
 \end{thebibliography}

@@ -2,45 +2,6 @@
 
 \subsubsection{Classifier}
 
-\begin{table}
-	\caption{Overview of the classifiers used in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.60\linewidth} p{.30\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Classifier} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textit{Rule-based method:} & $[$16,25$]$ \\ \\ [-1.5ex]
-		\textit{Clustering methods:} & \\
-		\quad $k$-means clustering & $[$27-29,34-35$]$ \\
-		\quad \acs{knn} & $[$11,19-20$]$ \\ \\ [-1.5ex]
-		\textit{Linear model classifiers:} & \\
-		\quad \acs{lda} & $[$3,6,12,19-20,42$]$ \\
-		\quad Logistic regression & $[$8-9$]$ \\ \\ [-1.5ex]
-		\textit{Non-linear classifier:} & \\
-		\quad \acs{qda} & $[$38$]$ \\ \\ [-1.5ex]
-		\textit{Probabilistic classifier:} & \\
-		\quad Naive Bayes & $[$7,18-20$]$ \\ \\ [-1.5ex]
-		\textit{Ensemble learning classifiers:} & \\
-		\quad AdaBoost & $[$12,15$]$ \\
-		\quad Random forest & $[$8,12,32-33,36$]$ \\
-		\quad Probabilistic boosting tree & $[$30-32,37$]$ \\ \\ [-1.5ex]
-		\textit{Kernel method:} & \\
-		\quad Gaussian processes & $[$8$]$ \\ \\ [-1.5ex]
-		\textit{Sparse kernel methods:} & \\
-		\quad \acs{svm} & $[$4-6,8,10-11,14-15,19-24,26,32,39-41$]$ \\
-		\quad \acs{rvm} & $[$21-22$]$ \\ \\ [-1.5ex]
-		\textit{Neural network:} & \\ 
-		\quad Multiple layer perceptron & $[$17,23$]$ \\
-		\quad Probabilistic neural network & $[$1-2,37$]$ \\ \\ [-1.5ex]
-		\textit{Graphical model classifiers:} & \\
-		\quad Markov random field & $[$13,22$]$ \\
-		\quad Conditional random field & $[$4-5$]$ \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:class}
-\end{table}
-
 Once the feature vector has been extracted and eventually the complexity reduced, it is possible to make a decision and classify this feature vector to belong to \ac{cap} or healthy tissue. Classification methods used in a \ac{cad} system to distinguish these two classes are summarized in Tab. \ref{tab:class}. A full review of classification methods used in pattern recognition can be found in \cite{Bishop2006}.
 
 \setenumerate{listparindent=\parindent,itemsep=10px}
@@ -516,21 +477,6 @@ Markov random fields can also be used for classification in order to perform a l
 
 \subsubsection{Model validation}
 
-\begin{table}
-	\caption{Overview of the model validation techniques used in \ac{cad} systems.}
-	\small
-	%\renewcommand{\arraystretch}{1.5}
-	\begin{tabular}{p{.55\linewidth} p{.35\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Model validation techniques} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\quad \acs{loo} & $[$1-8,11,18-22,24,25,33,37,39-41$]$ \\ \\ [-1.5ex]
-		\quad \acs{kcv} & $[$10,23,29-33,38,36,42$]$ \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:valmod}
-\end{table}
-
 In pattern recognition, the use of model validation techniques to assess the performance of trained classifiers is quite important. Two techniques are broadly used in the development of \ac{cad} system and are summarized in Tab. \ref{tab:valmod}.
 
 The most popular technique used in \ac{cad} systems (see Tab. \ref{tab:valmod}) is the \acf{loo} technique. From the whole data, one patient is kept for validation and the other cases are used to train. This manipulation is repeated until each patient has been used for validation. This technique is popular when working with medical data due to the restricted number of patients included in datasets. Thus, it allows us to train on a fair number of patients even with a small dataset. However, this technique suffers from high variance and can be considered as an unreliable estimate (\cite{Efron1983}).
@@ -538,24 +484,6 @@ The most popular technique used in \ac{cad} systems (see Tab. \ref{tab:valmod}) 
 The other very well known technique used for assessing classifiers is the \acf{kcv} technique. This technique is based on splitting the dataset into $k$ subsets where the samples are randomly selected. Then, one fold is kept for the validation and the remaining subsets for training. The classification is then repeated as in the \ac{loo} technique. In our review, the typical values used for $k$ were set to three and five. This technique is more appropriate than the previous one since it does not suffer from large variance. However, the number of patients in the dataset needs to be large enough for the results to be meaningful.
 
 \subsubsection{Evaluation measure}\label{subsubsec:eval}
-
-\begin{table}
-	\caption{Overview of the evaluation metrics used in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.55\linewidth} p{.35\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Evaluation metrics} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\quad Accuracy & $[$4-5,13,26,32$]$ \\ \\ [-1.5ex]
-		\quad Sensitivity - Specificity & $[$4-5,7,13,15,18,21-24,26,28-29,34-35$]$ \\ \\ [-1.5ex]
-		\quad \acs{roc} - \acs{auc} & $[$2-3,6-9,14-20,24,30-33,36-41$]$ \\ \\ [-1.5ex]
-		\quad \acs{froc} & $[$10-11,42$]$ \\ \\ [-1.5ex]
-		\quad Dice's coefficient & $[$4-5,13,21$]$ \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:evatec}
-\end{table}
 
 Several metrics can be used in order to assess the performance of the classifier trained when tested on the test data. The techniques used for evaluation of the \ac{cad} system for \ac{cap} detection are summarized in Tab. \ref{tab:evatec}.
 

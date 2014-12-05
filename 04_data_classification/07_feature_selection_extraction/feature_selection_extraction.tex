@@ -14,27 +14,7 @@ The feature selection strategy is based on selecting the most discriminative fea
 %\end{eqnarray}
 %
 %\noindent where $n_1$ and $n_2$ are the number of samples in each class.
-\begin{table}
-	\caption{Overview of the feature selection and extraction methods used in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Dimension reduction methods} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textit{Feature selection:} & \\ \\ [-1.5ex]
-		\quad Statistical test & $[$19-20,42$]$ \\
-		\quad \ac{mi}-based methods & $[$19-20,38$]$ \\ \\ [-1.5ex]
-		\textit{Feature extraction:} & \\ \\ [-1.5ex]
-		\quad Linear mapping & \\
-		\quad \quad \acs{pca} & $[$28-29,32$]$ \\
-		\quad Non-linear mapping & \\
-		\quad \quad Laplacian eigenmaps & $[$27,29-31,34,37$]$ \\
-		\quad \quad \acs{lle} and \acs{lle}-based & $[$28-29,34-35$]$ \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:featext}
-\end{table} 
+
 %From Eq. \eqref{eq:tstat}, it can be seen that more the means of the class distribution diverge, the larger the $t$-statistic $t$ will be, implying that this particular feature is more relevant and able to make the distinction between the two classes. 
 %
 %The $p$-value statistic can be deduced from the $t$-test and corresponds to the probability of obtaining such an extreme test assuming that the null hypothesis is true (\cite{Goodman1999}). Hence, smaller the $p$-value, the more likely we are to reject the null hypothesis and more relevant the feature is likely to be.

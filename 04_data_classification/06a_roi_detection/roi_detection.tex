@@ -1,20 +1,5 @@
 \subsection{\ac{cade}: \acp{roi} detection/selection}\label{cade}
 
-\begin{table}
-	\caption{Overview of the \ac{cade} strategies employed in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{\ac{cade}: \acp{roi} selection strategy} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\quad All voxels-based approach & $[$4-5,7-8,13,15,17-18,21-23,26-38$]$ \\ \\ [-1.5ex]
-		\quad Lesions candidate detection & $[$10-12,42$]$ \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:cade}
-\end{table}
-
 As discussed in the introduction and shown in Fig.~\ref{fig:wkfcad}, the image classification framework is composed of eventually a \ac{cade} and a \ac{cadx}. In this section, we will focus on studies embedding a \ac{cade} in their framework. Two approaches are considered to define a \ac{cade} (see Tab. \ref{tab:cade}): (i) voxel-based delineation and (ii) lesion segmentation.
 
 The first strategy, which concerns the majority of the studies reviewed (see Tab. \ref{tab:cade}), is in fact linked to the nature of the classification framework. All voxels are considered as a possible lesion and the output of the framework will be pixels classified as lesion and non lesion.

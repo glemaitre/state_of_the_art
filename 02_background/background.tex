@@ -58,270 +58,10 @@ Another weakness of the current screening strategy lies in the fact that \ac{tru
 
 \ac{mri} provides promising imaging techniques to overcome the previous mentioned drawbacks. Unlike \ac{trus} biopsy, \ac{mri} examination is a non-invasive protocol and has been shown to be the most accurate and harmless technique currently available (\cite{Turkbey2012}). In this section, we review different \ac{mri} modalities deveoped for \ac{cap} detection and diagnosis. Features used by the radiologist in their daily diagnosis task will receive particular attention together with their drawbacks. Moreover, these features commonly form the basis for developing analytic tools and automatic algorithms. However, we refer the reader to \acs{sec} \ref{subsec:featuredetection} for more details on automatic feature detection methods since they are part and parcel of the \acs{cad} framework. Table \ref{tab:modmri} provides an overview of the following discussion.
 
-\begin{table*}
-\begin{adjustwidth}{-1.5cm}{}
-\caption{Overview of the features associated with each \ac{mri} modality used for medical diagnosis by radiologists. Acronyms: \acf{cap} - \acf{si} - \acf{gs}.}	
-\begin{threeparttable}
-\centering
-\small
-\renewcommand{\arraystretch}{1.2}
-	\begin{tabular}{|m{1.7cm}||m{4.5cm}|>{\centering\arraybackslash}m{3.5cm}|>{\centering\arraybackslash}m{4cm}|>{\centering\arraybackslash}m{2cm}|}\hline
-	\rowcolor{gray!10}
-	Modality & Significant features & \ac{cap} & Healthy tissue & \ac{gs} correlation \\ \hline \hline
-	\ac{t2w} \ac{mri} & \acs{si} & low-\ac{si} & intermediate to high-\ac{si} & + \\ \hline
-	T$_2$ map & \acs{si} & low-\ac{si} & intermediate to high-\ac{si} & + \\ \hline
-	\multirow{9}{*}{\ac{dce} \ac{mri}} & Semi-quantitative features: & & & \\[-1.5ex]
-	& $-$ wash-in & faster & slower & 0 \\[-1.5ex]
-	& $-$ wash-out & faster & slower & 0 \\[-1.5ex]
-	& $-$ integral under the curve & higher & lower & 0 \\[-1.5ex]
-	& $-$ maximum signal intensity & higher & lower & 0 \\[-1.5ex]
-	& $-$ time-to-peak enhancement & faster & slower & 0 \\ \cline{2-5}
-	& Quantitative features (Tofts' parameters): & & & \\[-1.5ex]
-	& $-$ $\text{k}_{\text{ep}}$ & higher & lower & 0 \\[-1.5ex]
-	& $-$ $\text{K}^{\text{trans}}$ & higher & lower & 0 \\ \hline
-	\ac{dw} \ac{mri} & \acs{si} & higher-\ac{si} & lower-\ac{si} & + \\ \hline
-	\acs{adc} map & \acs{si} & low-\ac{si} & high-\ac{si} & + \\ \hline
-	\multirow{4}{*}{\ac{mrsi}}& Metabolites: & & & \\[-1.5ex]
-	& Citrate (2.64 ppm) & lower concentration & higher concentration & + \\[-1.5ex]
-	& Choline (3.21 ppm) & higher concentration & lower concentration & 0 \\[-1.5ex]
-	& Spermine (3.11 ppm) & lower concentration & higher concentration & + \\ \hline
-	
-	\end{tabular}
-	\begin{tablenotes}
-      \small
-      \item Notes:
-      \item + = significantly correlated.
-      \item 0 = no correlation.
-    \end{tablenotes}
-\end{threeparttable}
-\end{adjustwidth}
-\label{tab:modmri}
-\end{table*}
-
-\begin{figure*}
-\centering
-
-% Define block styles used later
-
-\tikzstyle{module}=[draw, draw=blue!80, text width=10em, 
-    text centered, minimum height=5em, minimum width = 15em, drop shadow, rounded corners,
-    fill=blue!30]
-    
-\tikzstyle{vecArrow} = [thick, decoration={markings,mark=at position
-   1 with {\arrow[semithick]{open triangle 60}}},
-   double distance=1.4pt, shorten >= 5.5pt,
-   preaction = {decorate},
-   postaction = {draw,line width=1.4pt, white,shorten >= 4.5pt}]
-
-% Define distances for bordering
-\def\blockdist{1.5}
-\def\edgedist{2.5}
-
-\begin{tikzpicture}[node distance=3cm,thick,scale=0.6, every node/.style={scale=0.6},path image/.style={
-path picture={
-\node at (path picture bounding box.center) {
-\includegraphics[width=1cm]{#1}
-};}}]
-\tikzstyle{conefill} = [path image=,fill opacity=0.8]
-\node[module=above:pre] (pre) at (4.5,-2.6) {\Large Pre-processing};
-\node[module,below of=pre] (seg) {\Large Segmentation};
-\node[module,below of=seg] (reg) {\Large Registration};
-
-\path[->,dashed] (seg.west) edge [bend right=70] node {} (reg.west);
-\path[->,dashed] (reg.east) edge [bend right=70] node {} (seg.east);
-
-\draw[->] (pre)--(seg);
-\draw[->] (seg)--(reg);
-
-\begin{pgfonlayer}{background}
-	\path (pre.west |- pre.north)+(-0.9,1.0+\blockdist) node (a) {};
-    \path (reg.east |- reg.south)+(+0.9,-0.5) node (b) {};
-          
-    \path[fill=blue!10,rounded corners, draw=blue!20, dashed] (a) rectangle (b);
-\end{pgfonlayer}
-        
-\path (pre.north) +(0,+\blockdist) node (bgreg) {\Large Image regularization};
-
-\begin{scope}[node distance=10cm]
-	\node[module] (det) [below right=0cm and 3cm of pre] {\Large Features detection};
-\end{scope}
-\begin{scope}[node distance=3.5cm]
-	\node[module,above of=det] (roi) {\Large ROIs\\detection/selection};
-\end{scope}
-\node[module,below of=det] (sel) {\Large Features\\selection/extraction};
-\node[module,below of=sel] (cla) {\Large Features\\classification/fusion};
-
-\draw[->] (roi)--(det);
-\draw[->] (det)--(sel);
-\draw[->] (sel)--(cla);
-
-%\begin{pgfonlayer}{background}
-%	\path (roi.west |- roi.north)+(-0.5,1.0+\blockdist) node (c) {};
-%    \path (cla.east |- cla.south)+(+0.5,-0.5) node (d) {};
-%          
-%    \path[fill=blue!10,rounded corners, draw=blue!20, dashed] (c) rectangle (d);
-%\end{pgfonlayer}
-%
-%\path (roi.north) +(0,+\blockdist) node (bgfea) {\Large Image classification};
-
-\begin{pgfonlayer}{background}
-	\path (roi.west |- roi.north)+(-0.25,0.8) node (c) {};
-    \path (roi.east |- roi.south)+(+0.25,-0.25) node (d) {};
-          
-    \path[fill=blue!20,rounded corners, draw=blue!25, dashed] (c) rectangle (d);
-\end{pgfonlayer}
-
-\path (roi.west |- roi.north) +(.6,0.4) node (bgfea) {\Large \textbf{CADe}};
-
-\begin{pgfonlayer}{background}
-	\path (det.west |- det.north)+(-0.25,0.8) node (c) {};
-    \path (cla.east |- cla.south)+(+0.25,-0.25) node (d) {};
-          
-    \path[fill=blue!20,rounded corners, draw=blue!25, dashed] (c) rectangle (d);
-\end{pgfonlayer}
-
-\path (roi.west |- det.north) +(.6,0.4) node (bgfea) {\Large \textbf{CADx}};     
-
-% Define the place where the arrow should start anf finish
-\path (seg.east |- seg.north)+(+0.9,0) node (e) {};
-\path (sel.west |- seg.north)+(-0.8,0) node (f) {};
-
-\draw[double distance =3pt,preaction={-triangle 90,thin,draw,shorten >=-1mm}] (e) -- (f) node[midway,above] {\Large Regularized data};
-
-\begin{scope}[yshift=34,xshift=-86]
-	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/t2.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=31,xshift=-83]
-	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/t2.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=28,xshift=-80]
-	\transparent{0.8}\draw[path image=02_background/figures/tikzimage/t2.eps] (0,0) rectangle (1.0,1.0);
-	\path (0,0)+(-1.5,0.3) node {\Large T$_2$-W MRI};
-\end{scope}
-
-\begin{scope}[yshift=-33,xshift=-86]
-	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/t2.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-36,xshift=-83]
-	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/t2.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-39,xshift=-80]
-	\transparent{0.8}\draw[path image=02_background/figures/tikzimage/t2.eps] (0,0) rectangle (1.0,1.0);
-	\path (0,0)+(-1.2,0.3) node {\Large T$_2$ map};
-\end{scope}
-
-\begin{scope}[yshift=-100,xshift=-86]
-	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/dce.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-103,xshift=-83]
-	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/dce.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-106,xshift=-80]
-	\transparent{0.8}\draw[path image=02_background/figures/tikzimage/dce.eps] (0,0) rectangle (1.0,1.0);
-	\path (0,0)+(-1.5,0.3) node {\Large DCE MRI};
-\end{scope}
-
-\begin{scope}[yshift=-167,xshift=-86]
-	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/dwi1.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-170,xshift=-83]
-	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/dwi1.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-173,xshift=-80]
-	\transparent{0.8}\draw[path image=02_background/figures/tikzimage/dwi1.eps] (0,0) rectangle (1.0,1.0);
-	\path (0,0)+(-1.5,0.3) node {\Large DW MRI};
-\end{scope}
-
-\begin{scope}[yshift=-234,xshift=-86]
-\transparent{0.6}\draw[path image=02_background/figures/tikzimage/adc.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-237,xshift=-83]
-\transparent{0.6}\draw[path image=02_background/figures/tikzimage/adc.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-240,xshift=-80]
-\transparent{0.8}\draw[path image=02_background/figures/tikzimage/adc.eps] (0,0) rectangle (1.0,1.0);
-	\path (0,0)+(-1.5,0.3) node {\Large ADC};
-\end{scope}
-
-\begin{scope}[yshift=-301,xshift=-86]
-	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/mrsi.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-304,xshift=-83]
-\transparent{0.6}\draw[path image=02_background/figures/tikzimage/mrsi.eps] (0,0) rectangle (1.0,1.0);
-\end{scope}
-
-\begin{scope}[yshift=-307,xshift=-80]
-\transparent{0.8}\draw[path image=02_background/figures/tikzimage/mrsi.eps] (0,0) rectangle (1.0,1.0);
-	\path (0,0)+(-1,0.3) node {\Large MRSI};
-\end{scope}
-
-\path (pre.west |- roi.north)+(-3.5,1.0+\blockdist) node (g) {};
-\path (reg.west |- cla.south)+(-3.5,-0.5) node (h) {};
-
-\draw[decorate,decoration={brace,raise=6pt,amplitude=10pt}, thick]
-    (g)--(h) ;
-    
-\path (seg.west |- seg.north)+(-2.5,0) node (i) {};
-\path (seg.west |- seg.north)+(-0.9,0) node (j) {};
-   
-\draw[double distance =3pt,preaction={-triangle 90,thin,draw,shorten >=-1mm}] (i) -- (j);   
-
-\path (sel.east |- seg.north)+(2,0) node (k) {};
-\path (sel.east |- seg.north)+(0.5,0) node (l) {};
-   
-%\draw[double distance =3pt,preaction={-triangle 90,thin,draw,shorten >=-1mm}] (l) -- (k);  
-%
-%\begin{scope}[path image/.style={
-%path picture={
-%\node at (path picture bounding box.center) {
-%\includegraphics[width=3cm]{#1}
-%};}}]    
-%\begin{scope}[yshift=-180,xshift=560]
-%	\transparent{0.6}\draw[path image=02_background/figures/tikzimage/likeli.eps,very thin] (0,0) rectangle (3.0,3.0);
-%\end{scope}
-%
-%\begin{scope}[yshift=-175,xshift=570]
-%\transparent{0.6}\draw[path image=02_background/figures/tikzimage/likeli.eps,very thin] (0,0) rectangle (3.0,3.0);
-%\end{scope}
-%
-%\begin{scope}[yshift=-170,xshift=580]
-%	\transparent{0.8}\draw[path image=02_background/figures/tikzimage/likeli.eps,very thin] (0,0) rectangle (3.0,3.0);
-%	\path (0,0)+(+1,-1) node {\Large Likelihood};
-%	\path (0,0)+(+1,-1.5) node {\Large cancer};
-%	\path (0,0)+(+1,-2) node {\Large map};
-%\end{scope}
-%\end{scope}
-\end{tikzpicture}
-\caption{Common \ac{cad} framework based on \ac{mri} images used to detect \ac{cap}.}
-\label{fig:wkfcad}
-\end{figure*}
-
 % We are using enumerate with a small margin and some indent to organize our thoughts by paragraphs.
 \setenumerate{listparindent=\parindent,itemsep=10px}
 \setlist{noitemsep}
 \begin{enumerate}[leftmargin=*]
-
-\begin{figure*}
-\centering
-	\hspace*{\fill}
-	\subfigure[\ac{t2w}-\ac{mri} slice of an healthy prostate acquire with a 1.5 Tesla \ac{mri}. The blue contour represents the \ac{cg} while the \ac{pz} corresponds to the green contour.]{\label{subfig:t2whealthy}\includegraphics[width=0.3\linewidth]{02_background/figures/t2w/t2w_healthy.eps}} \hfill
-	\subfigure[\ac{t2w}-\ac{mri} slice of a prostate with a \ac{cap} highlighted in the \ac{pz} using a 3.0 Tesla \ac{mri} scanner.]{\label{subfig:t2wcancerpz}\includegraphics[width=0.3\linewidth]{02_background/figures/t2w/t2w_cancer_pz.eps}} \hfill
-	\subfigure[\ac{t2w}-\ac{mri} slice of a prostate with a \ac{cap} highlighted in the \ac{cg} using a 3.0 Tesla \ac{mri} scanner.]{\label{subfig:t2wcancercg}\includegraphics[width=0.3\linewidth]{02_background/figures/t2w/t2w_cancer_cg.eps}}
-	\hspace*{\fill}
-	\caption{Rendering of \ac{t2w}-\ac{mri} prostate image with both 1.5 and 3.0 Tesla \ac{mri} scanner.}
-	\label{fig:t2w}
-\end{figure*}
 
 %T2W MRI
 \item[$-$] \textbf{\textit{\ac{t2w} \ac{mri}:}} \ac{t2w} \ac{mri} was the first \ac{mri}-modality used to perform \ac{cap} diagnosis using \ac{mri} (\cite{Hricak1983}). Nowadays, radiologists make use of it for \ac{cap} detection, localization and staging purposes. This imaging technique is well suited to render zonal anatomy of the prostate (\cite{Barentsz2012}). 
@@ -372,16 +112,6 @@ These parameters will be discussed in a later section (see Fig.~\ref{fig:dcepara
 
 \ac{dce} \ac{mri} combined with \ac{t2w} \ac{mri} has shown to enhance sensitivity compared to \ac{t2w} \ac{mri} alone (\cite{Jager1997,Kim2005,Schlemmer2004,Zelhof2009}). Despite this fact, \ac{dce} \ac{mri} possesses some drawbacks. Due to its ``dynamic'' nature, patient motions during the image acquisition may lead to spatial misregistration of the image set (\cite{Verma2012}). Furthermore, it has been suggested that malignant tumours are difficult to distinguish from prostatitis located in \ac{pz} and \ac{bph} located in \ac{cg} (\cite{Hoeks2011,Verma2012}) as these two pairs of tissues tend to have similar appearances. Later studies have shown that \acp{cap} in \ac{cg} do not always manifest in homogeneous fashion. Indeed, tumours in this zone can present both hypo-vascularization and hyper-vascularization which illustrates the challenge of \ac{cap} detection in \ac{cg} (\cite{Niekerk2013}).
 
-\begin{figure*}
-\centering
-	\hspace*{\fill}
-	\subfigure[\ac{t1w}-\ac{mri} image where the cancer is delimited by the red contour. The green area was still not invaded by the \ac{cap}]{\label{subfig:t1w}\includegraphics[width=0.4\linewidth]{02_background/figures/dce/slice.eps}} \hfill
-	\subfigure[Enhancement curve computed during the \ac{dce}-\ac{mri} analysis. The red curve is typical from \ac{cap} cancer while the green curve is characteristic of healthy tissue.]{\label{subfig:dce}\includegraphics[width=0.45\linewidth]{02_background/figures/dce/dce_cancer_healthy.eps}}
-	\hspace*{\fill}
-	\caption{Illustration of typical enhancement signal observed in \ac{dce}-\ac{mri} analysis collected with a 3.0 Tesla \ac{mri} scanner.}
-	\label{fig:dceana}
-\end{figure*}
-
 %DWI MRI
 \item[$-$] \textbf{\textit{\ac{dw} \ac{mri}:}} As previously mentioned in the introduction, \ac{dw} \ac{mri} is the most recent MRI imaging technique aiming at \ac{cap} detection and diagnosis (\cite{Scheidler1999}). This modality exploits the variations in the motion of water molecules in different tissues (\cite{LeBihan1988,Koh2007}).
 
@@ -410,16 +140,6 @@ Diagnosis using \ac{dw} \ac{mri} combined with \ac{t2w} \ac{mri} has shown a sig
 
 With a view to eliminate these drawbacks, radiologists are extracting quantitative maps from \ac{dw} \ac{mri}. This imaging technique is presented next.
 
-\begin{figure}
-\centering
-	\hspace*{\fill}
-	\subfigure[\ac{dw}-\ac{mri} image. The cancer corresponds to the high \ac{si} region highlighted in red.]{\label{subfig:dwi}\includegraphics[height=0.2\textheight]{02_background/figures/dwi/dwi_cancer.eps}} \hfill
-	\subfigure[\ac{adc} map computer. The cancer corresponds to the low \ac{si} region highlighted in red.]{\label{subfig:adc}\includegraphics[height=0.2\textheight]{02_background/figures/dwi/adc_cancer.eps}}
-	\hspace*{\fill}
-	\caption{Illustration of of \ac{dw}-\ac{mri} and \ac{adc} map. The signal intensity corresponding to cancer are inversely correlated on these two types of imaging techniques.}
-	\label{fig:dwi}
-\end{figure}
-
 %ADC map
 \item[$-$] \textbf{\textit{\ac{adc} Map:}} The \ac{nmr} signal measured for \ac{dw} \ac{mri} images is not only affected by diffusion as shown in \acs{eq} \eqref{eq:t2dif}. However, the signal drop (\acs{eq} \eqref{eq:dif}) is formulated such that the only variable is the acquisition parameter $b$ (\cite{LeBihan1986}). The \ac{adc} is considered as a ``pure'' diffusion coefficient and can be extracted to build a quantitative map.
 
@@ -443,17 +163,7 @@ Regarding the appearance of the \ac{adc} maps, it was previously stated that by 
 
 Similar to the gain achieved by \ac{dw} \ac{mri}, diagnosis using \ac{adc} map combined with \ac{t2w} \ac{mri} significantly outperforms \ac{t2w} \ac{mri} alone (\cite{Doo2012,Choi2007}). Moreover, it has been shown that \ac{adc} is correlated with \ac{gs} (\cite{Hambrock2011, Itou2011, Peng2013}).
 
-However, some tissues of the \ac{cg} zone mimic \ac{cap} with low-\ac{si} (\cite{Kirkham2006}) and image distortion can arise due to haemorrhage (\cite{Choi2007}). It has also been noted that a high variability of the \ac{adc} occurs between different patients making it difficult to define a static threshold to distinguish \ac{cap} from non-malignant tumours (\cite{Choi2007}). 
-
-\begin{figure*}
-	\centering
-	\hspace*{\fill}
-	\subfigure[]{\label{subfig:mrsihea}\includegraphics[width=0.45\linewidth]{02_background/figures/mrsi/mrsi_healthy.eps}} \hfill
-	\subfigure[]{\label{subfig:mrsican}\includegraphics[width=0.45\linewidth]{02_background/figures/mrsi/mrsi_cancer.eps}}
-	\hspace*{\fill}
-	\caption{Illustration of an \ac{mrsi} spectrum both healthy (Fig. \ref{subfig:mrsihea}) and cancerous (Fig. \ref{subfig:mrsican}) voxel with a 3.0 Tesla \ac{mri}. The highlighted areas corresponds to the related concentration of the metabolites which is computed by integrating the area under each peak. Acronyms: Choline (Cho), Spermine (Spe), Creatine (Cr) and Citrate (Cit).}
-	\label{fig:mrsi}
-\end{figure*}
+However, some tissues of the \ac{cg} zone mimic \ac{cap} with low-\ac{si} (\cite{Kirkham2006}) and image distortion can arise due to haemorrhage (\cite{Choi2007}). It has also been noted that a high variability of the \ac{adc} occurs between different patients making it difficult to define a static threshold to distinguish \ac{cap} from non-malignant tumours (\cite{Choi2007}).
 
 %MRSI
 \item[$-$] \textbf{\textit{\ac{mrsi}:}} \ac{cap} induces metabolic changes in the prostate compared with healthy tissue. Thus, \ac{cap} detection can be carried out by tracking changes of metabolite concentration in prostate tissue. \ac{mrsi} is an \ac{nmr}-based technique which generates spectra of relative metabolite concentration in \iac{roi}.
@@ -480,79 +190,6 @@ Hence, frequencies of interest in regard to \ac{cap} detection and diagnosis sho
 
 \ac{mrsi} allows examination with high specificity and sensitivity compared to other \ac{mri} modalities (\cite{Choi2007}). Furthermore, it has been shown that combining \ac{mrsi} with \ac{mri} improves detection and diagnosis performance (\cite{Scheidler1999a,Kaji1998,Vilanova2009}). Citrate and spermine concentrations are inversely correlated with the \ac{gs} allowing us to distinguish low from high grade \acp{cap} (\cite{Giskeodegard2013}). However, choline concentration does not provide the same properties (\cite{Giskeodegard2013}).
 
-\newgeometry{margin=.5cm}
-\thispagestyle{empty}
-\begin{table*}
-\centering
-\caption{Overview of the different studies reviewed with their main characteristics. Acronyms: number (\#) - image regularization (Img. Reg.).}
-\scriptsize
-%\begin{adjustwidth}{-2.2cm}{}
-\begin{threeparttable}
-\renewcommand{\arraystretch}{1}	
-	\rowcolors{3}{black!5}{white}	
-	\begin{tabular}{|>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{2.8cm}|>{\centering\arraybackslash}m{0.8cm}|>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{1cm}>{\centering\arraybackslash}m{1cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|}\hline
-	\hiderowcolors
-	\multirow{2}{*}{Index} & \multirow{2}{*}{Study} & \# & \multicolumn{4}{c|}{\ac{mri}-modality} & \multicolumn{2}{c|}{Strength of field} & \multicolumn{2}{c|}{Studied zones} & \multicolumn{3}{c|}{\ac{cad} stages} \\ \cline{4-14}
-	 & & patients & \ac{t2w} \ac{mri} & \ac{dce} \ac{mri} & \ac{dw} \ac{mri} & \ac{mrsi} & 1.5 T & 3.0 T & \ac{pz} & \ac{cg} & Img. Reg. & \ac{cade} & \ac{cadx} \\ \hline \hline
-	 \showrowcolors 
-	 	 $[1]$&\cite{Ampeliotis2007} & 25 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[2]$&\cite{Ampeliotis2008} & 25 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[3]$&\cite{Antic2013} & 53 & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark  & \xmark & \cmark \\
-	 	 $[4]$&\cite{Artan2009} & 10 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark  & \xmark & \cmark & \cmark \\
-	 	 $[5]$&\cite{Artan2010} & 21 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[6]$&\cite{Chan2003} & 15 & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark \\
-	 	 $[7]$&\cite{Giannini2013} & 10 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark \\
-	 	 $[8]$&\cite{Kelm2007} & 24 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[9]$&\cite{Langer2009} & 25 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[10]$&\cite{Litjens2011} & 188 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[11]$&\cite{Litjens2012} & 288 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[12]$&\cite{Litjens2014} & 347 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[13]$&\cite{Liu2009} & 11 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[14]$&\cite{Liu2013} & 54 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \xmark & \cmark \\
-	 	 $[15]$&\cite{Lopes2011} & 27 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[16]$&\cite{Lv2009} & 55 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[17]$&\cite{Matulewicz2013} & 18 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\ 
-	 	 $[18]$&\cite{Mazzetti2011} & 10 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[19]$&\cite{Niaf2011} & 23 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[20]$&\cite{Niaf2012} & 30 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[21]$&\cite{Ozer2009} & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[22]$&\cite{Ozer2010} & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 $[23]$&\cite{Parfait2012} & 22 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[24]$&\cite{Peng2013} & 48 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
-	 	 $[25]$&\cite{Puech2009} & 100 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
-	 	 $[26]$&\cite{Sung2011} & 42 & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
-	 	 $[27]$&\cite{Tiwari2007} & 14 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[28]$&\cite{Tiwari2008} & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[29]$&\cite{Tiwari2009} & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[30]$&\cite{Tiwari2009a} & 15 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[31]$&\cite{Tiwari2010} & 19 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[32]$&\cite{Tiwari2012} & 36 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
-	 	 $[33]$&\cite{Tiwari2013} & 29 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[34]$&\cite{Viswanath2008} & 16 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
-	 	 $[35]$&\cite{Viswanath2008a} & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[36]$&\cite{Viswanath2009} & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
-	 	 $[37]$&\cite{Viswanath2011} & 12 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 $[38]$&\cite{Viswanath2012} & 22 & \cmark & \xmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
-	 	 $[39]$&\cite{Vos2008} & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[40]$&\cite{Vos2008a} & 29 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[41]$&\cite{Vos2010} & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 $[42]$&\cite{Vos2012} & NA & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 \hline
-	\end{tabular}
-	\begin{tablenotes}
-      \footnotesize
-      \item Notes:
-      \item {\xmark}: not used or not implemented.
-      \item {\mmark}: partially implemented.
-      \item {\cmark}: used or implemented.
-    \end{tablenotes}
-\end{threeparttable}
-%\end{adjustwidth}
-\label{tab:sumpap}
-\end{table*}
-\restoregeometry
-
-
 Unfortunately, \ac{mrsi} also presents several drawbacks. First, \ac{mrsi} acquisition is time consuming which prevents this modality from being used in daily clinical practise (\cite{Barentsz2012}). In addition, \ac{mrsi} suffers from low spatial resolution due to the fact that \ac{snr} is linked to the voxel size. However, this issue is addressed by developing new scanners with higher magnetic field strengths such as 7.5 T (\cite{Giskeodegard2013}). Finally, a high variability of the relative concentrations between patients has been observed (\cite{Choi2007}). The same observation was made depending on the zones studied (cf., \ac{pz}, \ac{cg}, base, mid-gland, apex) (\cite{Walker2010,Lemaitre2011}). Due to this variability, it is difficult to use a fixed thresholds in order to differentiate \ac{cap} from healthy tissue.
 
 \end{enumerate}
@@ -578,3 +215,8 @@ As pointed out in the introduction, performance of \ac{cap} detection and diagno
 
 The \ac{cad} review is organized using the methodology presented in \acs{fig} \ref{fig:wkfcad}. Methods embedded in the image regularization framework are presented before to focus on the image classification framework, the later being divided into \ac{cade} and \ac{cadx}. %Pre-processing operations applied to the \ac{mri} data will be classified either as image processing or signal processing. Segmentation will be subdivided into region or model-based methods while registration methods will be classified by reviewing the geometric model, similarity measure and optimizer used.  
 \Acl{tab} \ref{tab:sumpap} summarizes the forty-one different \ac{cad} studies reviewed in this paper. The first set of information reported is linked to the data acquisition such as the number of patients included in the study, the modalities acquired as well as the strength of the field of the scanner used. Subsequently, information about the prostate zones considered in the \ac{cad} analysis (\ac{pz} or \ac{cg}) are reported since that detecting \ac{cap} in the \ac{cg} is a more challenging problem and has received particular attention only in recent publications.
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../g_lemaitre_state_of_the_art"
+%%% End: 

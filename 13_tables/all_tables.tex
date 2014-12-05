@@ -1,0 +1,401 @@
+
+\begin{table*}
+\begin{adjustwidth}{-1cm}{}
+\caption{Overview of the features associated with each \ac{mri} modality used for medical diagnosis by radiologists. Acronyms: \acf{cap} - \acf{si} - \acf{gs}.}	
+\begin{threeparttable}
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+	\begin{tabular}{|m{1.7cm}||m{4.5cm}|>{\centering\arraybackslash}m{3.5cm}|>{\centering\arraybackslash}m{4cm}|>{\centering\arraybackslash}m{2cm}|}\hline
+	\rowcolor{gray!10}
+	Modality & Significant features & \ac{cap} & Healthy tissue & \ac{gs} correlation \\ \hline \hline
+	\ac{t2w} \ac{mri} & \acs{si} & low-\ac{si} & intermediate to high-\ac{si} & + \\ \hline
+	T$_2$ map & \acs{si} & low-\ac{si} & intermediate to high-\ac{si} & + \\ \hline
+	\multirow{9}{*}{\ac{dce} \ac{mri}} & Semi-quantitative features: & & & \\[-1.5ex]
+	& $-$ wash-in & faster & slower & 0 \\[-1.5ex]
+	& $-$ wash-out & faster & slower & 0 \\[-1.5ex]
+	& $-$ integral under the curve & higher & lower & 0 \\[-1.5ex]
+	& $-$ maximum signal intensity & higher & lower & 0 \\[-1.5ex]
+	& $-$ time-to-peak enhancement & faster & slower & 0 \\ \cline{2-5}
+	& Quantitative features (Tofts' parameters): & & & \\[-1.5ex]
+	& $-$ $\text{k}_{\text{ep}}$ & higher & lower & 0 \\[-1.5ex]
+	& $-$ $\text{K}^{\text{trans}}$ & higher & lower & 0 \\ \hline
+	\ac{dw} \ac{mri} & \acs{si} & higher-\ac{si} & lower-\ac{si} & + \\ \hline
+	\acs{adc} map & \acs{si} & low-\ac{si} & high-\ac{si} & + \\ \hline
+	\multirow{4}{*}{\ac{mrsi}}& Metabolites: & & & \\[-1.5ex]
+	& Citrate (2.64 ppm) & lower concentration & higher concentration & + \\[-1.5ex]
+	& Choline (3.21 ppm) & higher concentration & lower concentration & 0 \\[-1.5ex]
+	& Spermine (3.11 ppm) & lower concentration & higher concentration & + \\ \hline
+	
+	\end{tabular}
+	\begin{tablenotes}
+      \small
+      \item Notes:
+      \item + = significantly correlated.
+      \item 0 = no correlation.
+    \end{tablenotes}
+\end{threeparttable}
+\end{adjustwidth}
+\label{tab:modmri}
+\end{table*}
+
+\newgeometry{margin=.5cm}
+\thispagestyle{empty}
+\begin{table*}
+\centering
+\caption{Overview of the different studies reviewed with their main characteristics. Acronyms: number (\#) - image regularization (Img. Reg.).}
+\scriptsize
+%\begin{adjustwidth}{-2.2cm}{}
+\begin{threeparttable}
+\renewcommand{\arraystretch}{1}	
+	\rowcolors{3}{black!5}{white}	
+	\begin{tabular}{|>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{2.8cm}|>{\centering\arraybackslash}m{0.8cm}|>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{1cm}>{\centering\arraybackslash}m{1cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|}\hline
+	\hiderowcolors
+	\multirow{2}{*}{Index} & \multirow{2}{*}{Study} & \# & \multicolumn{4}{c|}{\ac{mri}-modality} & \multicolumn{2}{c|}{Strength of field} & \multicolumn{2}{c|}{Studied zones} & \multicolumn{3}{c|}{\ac{cad} stages} \\ \cline{4-14}
+	 & & patients & \ac{t2w} \ac{mri} & \ac{dce} \ac{mri} & \ac{dw} \ac{mri} & \ac{mrsi} & 1.5 T & 3.0 T & \ac{pz} & \ac{cg} & Img. Reg. & \ac{cade} & \ac{cadx} \\ \hline \hline
+	 \showrowcolors 
+	 	 $[1]$&\cite{Ampeliotis2007} & 25 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[2]$&\cite{Ampeliotis2008} & 25 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[3]$&\cite{Antic2013} & 53 & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark  & \xmark & \cmark \\
+	 	 $[4]$&\cite{Artan2009} & 10 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark  & \xmark & \cmark & \cmark \\
+	 	 $[5]$&\cite{Artan2010} & 21 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[6]$&\cite{Chan2003} & 15 & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark \\
+	 	 $[7]$&\cite{Giannini2013} & 10 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark \\
+	 	 $[8]$&\cite{Kelm2007} & 24 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[9]$&\cite{Langer2009} & 25 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[10]$&\cite{Litjens2011} & 188 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[11]$&\cite{Litjens2012} & 288 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[12]$&\cite{Litjens2014} & 347 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[13]$&\cite{Liu2009} & 11 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[14]$&\cite{Liu2013} & 54 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \xmark & \cmark \\
+	 	 $[15]$&\cite{Lopes2011} & 27 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[16]$&\cite{Lv2009} & 55 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[17]$&\cite{Matulewicz2013} & 18 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\ 
+	 	 $[18]$&\cite{Mazzetti2011} & 10 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[19]$&\cite{Niaf2011} & 23 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[20]$&\cite{Niaf2012} & 30 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[21]$&\cite{Ozer2009} & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[22]$&\cite{Ozer2010} & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 $[23]$&\cite{Parfait2012} & 22 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[24]$&\cite{Peng2013} & 48 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
+	 	 $[25]$&\cite{Puech2009} & 100 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
+	 	 $[26]$&\cite{Sung2011} & 42 & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+	 	 $[27]$&\cite{Tiwari2007} & 14 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[28]$&\cite{Tiwari2008} & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[29]$&\cite{Tiwari2009} & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[30]$&\cite{Tiwari2009a} & 15 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[31]$&\cite{Tiwari2010} & 19 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[32]$&\cite{Tiwari2012} & 36 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+	 	 $[33]$&\cite{Tiwari2013} & 29 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[34]$&\cite{Viswanath2008} & 16 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+	 	 $[35]$&\cite{Viswanath2008a} & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[36]$&\cite{Viswanath2009} & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+	 	 $[37]$&\cite{Viswanath2011} & 12 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+	 	 $[38]$&\cite{Viswanath2012} & 22 & \cmark & \xmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+	 	 $[39]$&\cite{Vos2008} & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[40]$&\cite{Vos2008a} & 29 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[41]$&\cite{Vos2010} & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+	 	 $[42]$&\cite{Vos2012} & NA & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+	 	 \hline
+	\end{tabular}
+	\begin{tablenotes}
+      \footnotesize
+      \item Notes:
+      \item {\xmark}: not used or not implemented.
+      \item {\mmark}: partially implemented.
+      \item {\cmark}: used or implemented.
+    \end{tablenotes}
+\end{threeparttable}
+%\end{adjustwidth}
+\label{tab:sumpap}
+\end{table*}
+\restoregeometry
+
+\begin{table}
+	\caption{Overview of the pre-processing methods used in \ac{cad} systems.}
+	\small
+	\renewcommand{\arraystretch}{1}
+	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{Pre-processing operations} & \textbf{References} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\textit{\ac{mri} pre-processing:} & \\ \\ [-1.5ex]
+		\quad Noise filtering: &  \\
+		\quad \quad Median filtering & $[$22-23$]$  \\
+		\quad \quad Wavelet-based filtering & $[$1-2,15$]$ \\ \\ [-1.5ex]
+		\quad Bias correction: & \\
+		\quad \quad Parametric methods & $[$16,36$]$ \\
+		\quad \quad Non-parametric methods & $[$37$]$ \\ \\ [-1.5ex]
+		\quad Standardization: & \\
+		\quad \quad Statistical-based normalization: & $[$3-4,16,21-22,36,38$]$ \\
+		\quad \quad Organ \ac{si}-based normalization & $[$19-20$]$ \\ \\ [-1.5ex]
+		\textit{\ac{mrsi} pre-processing:} & \\ \\ [-1.5ex]
+		\quad Phase correction & $[$23$]$ \\
+		\quad Water and lipid residuals filtering & $[$8$]$ \\
+		\quad Baseline correction & $[$23,32$]$ \\
+		\quad Frequency alignment & $[$32$]$ \\
+		\quad Normalization & $[$23$]$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}
+	\caption{Overview of the segmentation methods used in \ac{cad} systems.}
+	\small
+	\renewcommand{\arraystretch}{.8}
+	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{Segmentation methods} & \textbf{References} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\textit{\ac{mri}-based segmentation:} & \\ \\ [-1.5ex]
+		\quad Manual segmentation & $[$4-5,17,19-22,25,39-41$]$ \\
+		\quad Region-based segmentation & $[$11-12$]$ \\
+		\quad Model-based segmentation & $[$10,35-37,42$]$ \\ \\ [-1.5ex]
+		\textit{\ac{mrsi}-based segmentation:} & \\ \\ [-1.5ex]
+		\quad Clustering & $[$29$]$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+	\label{tab:seg}
+\end{table}
+
+\begin{table*}[ht]
+\centering
+\caption{Classification of the different registration methods used in the \ac{cad} systems reviewed. Acronyms: gradient descent (GD), Nelder-Mead (NM).}
+\small
+\begin{adjustwidth}{-.8cm}{}
+\begin{threeparttable}
+\renewcommand{\arraystretch}{1}
+	\rowcolors{3}{black!5}{white}	
+	\begin{tabular}{|c|c|c| >{\centering\arraybackslash}m{1.2cm} >{\centering\arraybackslash}m{1.2cm}| >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm}| >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.5cm}| }\hline
+	\hiderowcolors
+	Study & Modality & \multirow{2}{*}{Type} & \multicolumn{2}{c|}{Geometric model} & \multicolumn{3}{c|}{Similarity measure} & \multicolumn{2}{c|}{Optimizer} \\ \cline{4-10}
+	 index & registered & & Affine & Elastic & \acs{mse} & \acs{mi} & \acs{cmi} & GD & L-BFGS-B \\ \hline \hline
+	 \showrowcolors
+	 	  $[$1-2$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & \cmark & $-$ & $-$ & $-$ & $-$ \\
+	 	  $[$7$]$ & \ac{t2w} - \ac{dw} & 2D & \cmark & \cmark & $-$ & $-$ & $-$ & $-$ & $-$  \\
+		  $[$7$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & \cmark & $-$ & \cmark & $-$ & \cmark & $-$ \\
+	 	  $[$35-36$]$ & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
+	 	  $[$37$]$ & \ac{t2w} - \ac{dce} - \ac{dw} & 3D & \cmark & $-$ & $-$ & $-$ & \cmark & \cmark & $-$  \\
+	 	  $[$39$]$ & \ac{t2w} - \ac{dce} & 3D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
+	 	  $[$41$]$ & \ac{t2w} - \ac{dce} & 3D & \cmark & \cmark & $-$ & \cmark & $-$ & $-$ & \cmark \\
+	 	 \hline
+	\end{tabular}
+	\begin{tablenotes}
+      \footnotesize
+      \item Notes:
+      \item {$-$}: not used or not mentioned.
+      \item {\cmark}: used or implemented.
+    \end{tablenotes}
+\end{threeparttable}
+\end{adjustwidth}
+\label{tab:regtab}
+\end{table*}
+
+\begin{table}
+	\caption{Overview of the \ac{cade} strategies employed in \ac{cad} systems.}
+	\small
+	\renewcommand{\arraystretch}{.8}
+	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{\ac{cade}: \acp{roi} selection strategy} & \textbf{References} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\quad All voxels-based approach & $[$4-5,7-8,13,15,17-18,21-23,26-38$]$ \\ \\ [-1.5ex]
+		\quad Lesions candidate detection & $[$10-12,42$]$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+	\label{tab:cade}
+\end{table}
+
+\newgeometry{margin=1cm}
+\thispagestyle{empty}
+\begin{table*}
+	\centering
+	\caption{Overview of the feature detection methods used in \ac{cad} systems.}
+	\footnotesize
+	\begin{threeparttable}
+	\renewcommand{\arraystretch}{.6}
+	\begin{tabular}{p{.6\linewidth} p{.3\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{Feature detection methods} & \textbf{Indexes} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\textbf{\ac{mri} image:} & \\ \\ [-1.5ex]
+		\quad \textit{Voxel-wise detection} &  \\ \\ [-1.5ex]
+		\quad \quad Intensity-based & $^{\text{{\cmarksmall}- -}}[$1-2,39$]$\par $^{\text{- - {\cmarksmall}}}[$7$]$\par $^{\text{{\cmarksmall}- {\cmarksmall}}}[$4-6,9-13,21-22$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
+		\quad \quad Edge-based & \\
+		\quad \quad \quad Prewitt operator & $^{\text{{\cmarksmall}- -}}[$30-31,33-34$]$ \\
+		\quad \quad \quad Sobel operator & $^{\text{{\cmarksmall}- -}}[$30-31,33-34,36-38$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
+		\quad \quad \quad Kirsch operator & $^{\text{{\cmarksmall}- -}}[$30-31,33-34,36-38$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
+		\quad \quad \quad Gabor filtering & $^{\text{{\cmarksmall}- -}}[$32,34,38$]$ \\ 
+		\quad \quad Texture-based & \\
+		\quad \quad \quad Haralick features & $^{\text{{\cmarksmall}- -}}[$3,30-31,33-34,36,38$]$\par $^{\text{{\cmarksmall}{\cmarksmall}-}}[$37$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$11,19-20$]$ \\
+		\quad \quad \quad Fractal analysis & $^{\text{{\cmarksmall}- -}}[$15-16$]$ \\
+		\quad \quad \quad \Ac{dct} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
+		\quad \quad \quad Wavelet-based features & $^{\text{{\cmarksmall}- -}}[$38$]$ \\
+		\quad \quad \quad Gaussian filer bank & $^{\text{{\cmarksmall}- -}}[$12$]$ \\
+		\quad \quad Position-based & $[$6,10-12$]$ \\ \\ [-1.5ex]
+		\quad \textit{Region-wise detection} &  \\ \\ [-1.5ex]
+		\quad \quad Statistical-based & \\
+		\quad \quad \quad Percentiles & $^{\text{- {\cmarksmall}-}}[$40$]$ \par $^{\text{- - {\cmarksmall}}}[$3,24$]$\par $^{\text{{\cmarksmall}{\cmarksmall}-}}[$41$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$10-12,19-20,42$]$ \\
+		\quad \quad \quad Statistical-moments & $^{\text{{\cmarksmall}- -}}[$1-2,30-31,33-34,36,38$]$\par $^{\text{- - {\cmarksmall}}}[$3$]$\par $^{\text{{\cmarksmall}{\cmarksmall}-}}[$37$]$\par $^{\text{{\cmarksmall}- {\cmarksmall}}}[$24$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$10-12,19-20$]$ \\
+		\quad \quad Histogram-based & \\
+		\quad \quad \quad \acs{pdf} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
+		\quad \quad \quad \acs{hog} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
+		\quad \quad \quad Shape context & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
+		\quad \quad \quad \acs{lbp} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
+		\quad \quad Anatomical-based & $[$11-12,16$]$ \\ \\ [-1.5ex]
+		\textbf{\ac{dce} signal:} & \\ \\ [-1.5ex]
+		\quad Whole spectra approach & $[$1,2$]$ \\
+		\quad Semi-quantitative approach & $^{\text{{\mmarksmall}}}[$25$]$\par $[$18-20,26$]$ \\
+		\quad Quantitative approach &  \\
+		\quad \quad Toft model & $^{\text{{\mmarksmall}}}[$14,25$]$\par $[$7,9-12,18-20$]$ \\
+		\quad \quad Brix model & $^{\text{{\mmarksmall}}}[$4-5,21-22$]$\par $[$13,26$]$ \\
+		\quad \quad Weibull function & $[$7,18$]$ \\
+		\quad \quad PUM & $[$7,18$]$ \\
+		\\ [-1.5ex]
+		\textbf{\ac{mrsi} signal:} & \\ \\ [-1.5ex]
+		\quad Whole spectra approach & $[$8,17,23,27-31,33-34$]$ \\
+		\quad Quantification approach & $[$8,23$]$ \\
+		\quad Wavelet-based approach & $[$32$]$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+	\begin{tablenotes}
+      \footnotesize
+      \item Notes:
+      \item ( {\cmarksmall}/- {\cmarksmall}/- {\cmarksmall}/- ): triplet stating of the implementation or not of the feature for respectively \ac{t2w}-\ac{mri} images, \ac{dce}-\ac{mri} images, \ac{dw}-\ac{mri} images.
+      \item {\cmarksmall}: used or implemented.
+      \item {\mmarksmall}: partially implemented.
+    \end{tablenotes}
+	\end{threeparttable}
+	\label{tab:feat}
+\end{table*}
+\restoregeometry
+
+
+\begin{table*}
+	\caption{Parameters used as features for a \ac{dce} semi-quantitative analysis in \ac{cad} systems.}
+	\small
+	\renewcommand{\arraystretch}{.8}
+	\begin{tabular}{p{.35\linewidth} p{.60\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{Semi-quantitative features} & \textbf{Explanations} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\textit{Amplitude features:} & \\ \\ [-1.5ex]
+		\quad $S_0$ & Amplitude at the onset of the enhancement \\
+		\quad $S_{\max}$ & Amplitude corresponding to $95\%$ of the maximum amplitude \\
+		\quad $S_{p}$ & Amplitude corresponding to the maximum amplitude \\
+		\quad $S_f$ & Amplitude at the final time point \\ \\ [-1.5ex]
+		\textit{Time features:} & \\ \\ [-1.5ex]
+		\quad $t_0$ & Time at the onset of the enhancement \\
+		\quad $t_{\max}$ & Time corresponding to $95\%$ of the maximum amplitude \\
+		\quad $t_{p}$ & Time corresponding to the maximum amplitude \\
+		\quad $t_{f}$ & Final time \\
+		\quad $t_{tp}$ & Time to peak which is the time from $t_0$ to $t_p$ \\ \\ [-1.5ex]
+		\textit{Derivatives and integral features:} & \\ \\ [-1.5ex]
+		\quad $WI$ & Wash-in rate corresponding to the signal slope from $t_0$ to $t_m$ or $t_p$ \\
+		\quad $WO$ & Wash-out rate corresponding to the signal slope from $t_m$ or $t_p$ to $t_p$ \\
+		\quad $IAUC$ & Initial area under the curve which is the area between $t_0$ to $t_{f}$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+	\label{tab:semiqua}
+\end{table*}
+
+\begin{table}
+	\caption{Overview of the feature selection and extraction methods used in \ac{cad} systems.}
+	\small
+	\renewcommand{\arraystretch}{.8}
+	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{Dimension reduction methods} & \textbf{References} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\textit{Feature selection:} & \\ \\ [-1.5ex]
+		\quad Statistical test & $[$19-20,42$]$ \\
+		\quad \ac{mi}-based methods & $[$19-20,38$]$ \\ \\ [-1.5ex]
+		\textit{Feature extraction:} & \\ \\ [-1.5ex]
+		\quad Linear mapping & \\
+		\quad \quad \acs{pca} & $[$28-29,32$]$ \\
+		\quad Non-linear mapping & \\
+		\quad \quad Laplacian eigenmaps & $[$27,29-31,34,37$]$ \\
+		\quad \quad \acs{lle} and \acs{lle}-based & $[$28-29,34-35$]$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+	\label{tab:featext}
+\end{table} 
+
+\begin{table}
+	\caption{Overview of the classifiers used in \ac{cad} systems.}
+	\small
+	\renewcommand{\arraystretch}{.8}
+	\begin{tabular}{p{.60\linewidth} p{.30\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{Classifier} & \textbf{References} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\textit{Rule-based method:} & $[$16,25$]$ \\ \\ [-1.5ex]
+		\textit{Clustering methods:} & \\
+		\quad $k$-means clustering & $[$27-29,34-35$]$ \\
+		\quad \acs{knn} & $[$11,19-20$]$ \\ \\ [-1.5ex]
+		\textit{Linear model classifiers:} & \\
+		\quad \acs{lda} & $[$3,6,12,19-20,42$]$ \\
+		\quad Logistic regression & $[$8-9$]$ \\ \\ [-1.5ex]
+		\textit{Non-linear classifier:} & \\
+		\quad \acs{qda} & $[$38$]$ \\ \\ [-1.5ex]
+		\textit{Probabilistic classifier:} & \\
+		\quad Naive Bayes & $[$7,18-20$]$ \\ \\ [-1.5ex]
+		\textit{Ensemble learning classifiers:} & \\
+		\quad AdaBoost & $[$12,15$]$ \\
+		\quad Random forest & $[$8,12,32-33,36$]$ \\
+		\quad Probabilistic boosting tree & $[$30-32,37$]$ \\ \\ [-1.5ex]
+		\textit{Kernel method:} & \\
+		\quad Gaussian processes & $[$8$]$ \\ \\ [-1.5ex]
+		\textit{Sparse kernel methods:} & \\
+		\quad \acs{svm} & $[$4-6,8,10-11,14-15,19-24,26,32,39-41$]$ \\
+		\quad \acs{rvm} & $[$21-22$]$ \\ \\ [-1.5ex]
+		\textit{Neural network:} & \\ 
+		\quad Multiple layer perceptron & $[$17,23$]$ \\
+		\quad Probabilistic neural network & $[$1-2,37$]$ \\ \\ [-1.5ex]
+		\textit{Graphical model classifiers:} & \\
+		\quad Markov random field & $[$13,22$]$ \\
+		\quad Conditional random field & $[$4-5$]$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+	\label{tab:class}
+\end{table}
+
+
+\begin{table}
+	\caption{Overview of the model validation techniques used in \ac{cad} systems.}
+	\small
+	%\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{p{.55\linewidth} p{.35\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{Model validation techniques} & \textbf{References} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\quad \acs{loo} & $[$1-8,11,18-22,24,25,33,37,39-41$]$ \\ \\ [-1.5ex]
+		\quad \acs{kcv} & $[$10,23,29-33,38,36,42$]$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+	\label{tab:valmod}
+\end{table}
+
+
+\begin{table}
+	\caption{Overview of the evaluation metrics used in \ac{cad} systems.}
+	\small
+	\renewcommand{\arraystretch}{.8}
+	\begin{tabular}{p{.55\linewidth} p{.35\linewidth}}
+		\hline \\ [-1.5ex]
+		\textbf{Evaluation metrics} & \textbf{References} \\ \\ [-1.5ex]
+		\hline \\ [-1.5ex]
+		\quad Accuracy & $[$4-5,13,26,32$]$ \\ \\ [-1.5ex]
+		\quad Sensitivity - Specificity & $[$4-5,7,13,15,18,21-24,26,28-29,34-35$]$ \\ \\ [-1.5ex]
+		\quad \acs{roc} - \acs{auc} & $[$2-3,6-9,14-20,24,30-33,36-41$]$ \\ \\ [-1.5ex]
+		\quad \acs{froc} & $[$10-11,42$]$ \\ \\ [-1.5ex]
+		\quad Dice's coefficient & $[$4-5,13,21$]$ \\ \\ [-1.5ex]
+		\hline
+	\end{tabular}
+	\label{tab:evatec}
+\end{table}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../g_lemaitre_state_of_the_art"
+%%% End: 

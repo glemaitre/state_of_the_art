@@ -2,70 +2,6 @@
 
 Discriminative features which can be used to recognize \ac{cap} from healthy tissue have to be first detected. This processing is known in computer vision as feature extraction. However, feature extraction is also the name given in pattern recognition to some types of dimension reduction methods which will be presented in the next section. In order to avoid confusion between these two aspects, in this survey, the procedure ``detecting'' or ``extracting'' features from images and signals will be defined as feature detection. This section will summarize the different strategies employed for this task. The features used in the studies reviewed are summarized in Tab. \ref{tab:feat}.
 
-\newgeometry{margin=1cm}
-\thispagestyle{empty}
-\begin{table*}
-	\centering
-	\caption{Overview of the feature detection methods used in \ac{cad} systems.}
-	\footnotesize
-	\begin{threeparttable}
-	\renewcommand{\arraystretch}{.6}
-	\begin{tabular}{p{.6\linewidth} p{.3\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Feature detection methods} & \textbf{Indexes} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textbf{\ac{mri} image:} & \\ \\ [-1.5ex]
-		\quad \textit{Voxel-wise detection} &  \\ \\ [-1.5ex]
-		\quad \quad Intensity-based & $^{\text{{\cmarksmall}- -}}[$1-2,39$]$\par $^{\text{- - {\cmarksmall}}}[$7$]$\par $^{\text{{\cmarksmall}- {\cmarksmall}}}[$4-6,9-13,21-22$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
-		\quad \quad Edge-based & \\
-		\quad \quad \quad Prewitt operator & $^{\text{{\cmarksmall}- -}}[$30-31,33-34$]$ \\
-		\quad \quad \quad Sobel operator & $^{\text{{\cmarksmall}- -}}[$30-31,33-34,36-38$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
-		\quad \quad \quad Kirsch operator & $^{\text{{\cmarksmall}- -}}[$30-31,33-34,36-38$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
-		\quad \quad \quad Gabor filtering & $^{\text{{\cmarksmall}- -}}[$32,34,38$]$ \\ 
-		\quad \quad Texture-based & \\
-		\quad \quad \quad Haralick features & $^{\text{{\cmarksmall}- -}}[$3,30-31,33-34,36,38$]$\par $^{\text{{\cmarksmall}{\cmarksmall}-}}[$37$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$11,19-20$]$ \\
-		\quad \quad \quad Fractal analysis & $^{\text{{\cmarksmall}- -}}[$15-16$]$ \\
-		\quad \quad \quad \Ac{dct} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$19-20$]$ \\
-		\quad \quad \quad Wavelet-based features & $^{\text{{\cmarksmall}- -}}[$38$]$ \\
-		\quad \quad \quad Gaussian filer bank & $^{\text{{\cmarksmall}- -}}[$12$]$ \\
-		\quad \quad Position-based & $[$6,10-12$]$ \\ \\ [-1.5ex]
-		\quad \textit{Region-wise detection} &  \\ \\ [-1.5ex]
-		\quad \quad Statistical-based & \\
-		\quad \quad \quad Percentiles & $^{\text{- {\cmarksmall}-}}[$40$]$ \par $^{\text{- - {\cmarksmall}}}[$3,24$]$\par $^{\text{{\cmarksmall}{\cmarksmall}-}}[$41$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$10-12,19-20,42$]$ \\
-		\quad \quad \quad Statistical-moments & $^{\text{{\cmarksmall}- -}}[$1-2,30-31,33-34,36,38$]$\par $^{\text{- - {\cmarksmall}}}[$3$]$\par $^{\text{{\cmarksmall}{\cmarksmall}-}}[$37$]$\par $^{\text{{\cmarksmall}- {\cmarksmall}}}[$24$]$\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$10-12,19-20$]$ \\
-		\quad \quad Histogram-based & \\
-		\quad \quad \quad \acs{pdf} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
-		\quad \quad \quad \acs{hog} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
-		\quad \quad \quad Shape context & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
-		\quad \quad \quad \acs{lbp} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}[$14$]$ \\
-		\quad \quad Anatomical-based & $[$11-12,16$]$ \\ \\ [-1.5ex]
-		\textbf{\ac{dce} signal:} & \\ \\ [-1.5ex]
-		\quad Whole spectra approach & $[$1,2$]$ \\
-		\quad Semi-quantitative approach & $^{\text{{\mmarksmall}}}[$25$]$\par $[$18-20,26$]$ \\
-		\quad Quantitative approach &  \\
-		\quad \quad Toft model & $^{\text{{\mmarksmall}}}[$14,25$]$\par $[$7,9-12,18-20$]$ \\
-		\quad \quad Brix model & $^{\text{{\mmarksmall}}}[$4-5,21-22$]$\par $[$13,26$]$ \\
-		\quad \quad Weibull function & $[$7,18$]$ \\
-		\quad \quad PUM & $[$7,18$]$ \\
-		\\ [-1.5ex]
-		\textbf{\ac{mrsi} signal:} & \\ \\ [-1.5ex]
-		\quad Whole spectra approach & $[$8,17,23,27-31,33-34$]$ \\
-		\quad Quantification approach & $[$8,23$]$ \\
-		\quad Wavelet-based approach & $[$32$]$ \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\begin{tablenotes}
-      \footnotesize
-      \item Notes:
-      \item ( {\cmarksmall}/- {\cmarksmall}/- {\cmarksmall}/- ): triplet stating of the implementation or not of the feature for respectively \ac{t2w}-\ac{mri} images, \ac{dce}-\ac{mri} images, \ac{dw}-\ac{mri} images.
-      \item {\cmarksmall}: used or implemented.
-      \item {\mmarksmall}: partially implemented.
-    \end{tablenotes}
-	\end{threeparttable}
-	\label{tab:feat}
-\end{table*}
-\restoregeometry
-
 %\begin{table*}
 %\centering
 %\caption{Overview of the different features extracted by studies reviewed. The indexes of the features are presented in Tab. \ref{tab:feat}.}
@@ -142,34 +78,6 @@ Discriminative features which can be used to recognize \ac{cap} from healthy tis
 %\end{table*}
 
 \subsubsection{Image-based features}
-
-\begin{table*}
-	\caption{Parameters used as features for a \ac{dce} semi-quantitative analysis in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.35\linewidth} p{.60\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Semi-quantitative features} & \textbf{Explanations} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textit{Amplitude features:} & \\ \\ [-1.5ex]
-		\quad $S_0$ & Amplitude at the onset of the enhancement \\
-		\quad $S_{\max}$ & Amplitude corresponding to $95\%$ of the maximum amplitude \\
-		\quad $S_{p}$ & Amplitude corresponding to the maximum amplitude \\
-		\quad $S_f$ & Amplitude at the final time point \\ \\ [-1.5ex]
-		\textit{Time features:} & \\ \\ [-1.5ex]
-		\quad $t_0$ & Time at the onset of the enhancement \\
-		\quad $t_{\max}$ & Time corresponding to $95\%$ of the maximum amplitude \\
-		\quad $t_{p}$ & Time corresponding to the maximum amplitude \\
-		\quad $t_{f}$ & Final time \\
-		\quad $t_{tp}$ & Time to peak which is the time from $t_0$ to $t_p$ \\ \\ [-1.5ex]
-		\textit{Derivatives and integral features:} & \\ \\ [-1.5ex]
-		\quad $WI$ & Wash-in rate corresponding to the signal slope from $t_0$ to $t_m$ or $t_p$ \\
-		\quad $WO$ & Wash-out rate corresponding to the signal slope from $t_m$ or $t_p$ to $t_p$ \\
-		\quad $IAUC$ & Initial area under the curve which is the area between $t_0$ to $t_{f}$ \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:semiqua}
-\end{table*}
 
 This section will focus on image-based features detection. Two main strategies to detect features have been identified and used for the purpose of our classification: (i) voxel-wise detection and (ii) region-wise detection.
 
@@ -406,14 +314,6 @@ For all these models, the parameters are inferred using an optimization curve fi
 \item[$-$] \textbf{\textit{Quantification approach:}} We can reiterate that in \ac{mrsi} only few biological markers (cf., choline, creatine and citrate metabolites mainly) are known to be useful to discriminate \ac{cap} and healthy tissue. Then, concentrations of these metabolites can be considered as a feature used for classification. In order to perform this quantification, four different approaches have been used. The QUEST (\cite{Ratiney2005}), AMARES (\cite{Vanhamme1997}) and VARPRO (\cite{Coleman1993}) models were used by \cite{Kelm2007}. They are all time-domain quantification methods varying by the type of pre-knowledge embedded and the optimization approaches used to solve the quantification problem. Unlike the time-domain quantification approaches, \cite{Parfait2012} used the LcModel approach (\cite{Provencher1993}) which solves the optimization problem in the frequency domain.
 
 Once the different concentrations are computed, \cite{Kelm2007} calculated the relative concentrations (Eq. \eqref{eq:ratio1} and \eqref{eq:ratio2}) and used them as features. However, \cite{Parfait2012} used each metabolite concentrations individually.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=.6\linewidth]{04_data_classification/06_feature_detection/figures/dce/dce_cancer_parameters.eps}
-	\caption{Graphical representation of the different semi-quantitative features used for \ac{dce}-\ac{mri} analysis.}
-	\label{fig:dceparam}
-\end{figure}
-
 
 \begin{eqnarray}
 	R_1 & = & \frac{ [ \text{Cho} ] + [ \text{Cr} ]}{[ \text{Cit} ]} \ . \label{eq:ratio1} \\
