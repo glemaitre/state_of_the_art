@@ -6,27 +6,15 @@ The first strategy, which concerns the majority of the studies reviewed (see Tab
 
 The secondary group of methods is composed of method implementing a lesion segmentation algorithm to delineate potential candidates to further obtain a diagnosis through the \ac{cadx}. This approach was borrowed from methodologies applied successfully in \ac{cade} such as for breast cancers. These methods are in fact very similar to the classification framework used in \ac{cadx} later.
 
-\cite{Vos2012} highlighted lesion candidates by detecting blobs in the \ac{adc} map. These candidates were filtered using some \textit{a priori} criteria such as \ac{si} or diameter. % As mentioned in Sect. \ref{subsubsec:mrimrsi} (see also Tab. \ref{tab:modmri}), \ac{cap} can be interpreted as region of lower \ac{si} in \ac{adc} map. Hence, blob detectors are suitable to highlight these regions. Blobs are detected in a multi-resolution scheme by computing the three main eigenvalues $\{ \lambda_{\sigma,1},\lambda_{\sigma,2},\lambda_{\sigma,3} \}$ of the Hessian matrix for each voxel location of the \ac{adc} map at a specific scale $\sigma$ as proposed by \cite{Li2003}. The probability $p$ of a voxel $\mathbf{x}$ being a part of a blob at the scale $\sigma$ is given by:
-%
-%\begin{equation}
-%P(\mathbf{x},\sigma) = \begin{cases}
-%	\frac{\| \lambda_{\sigma,3}(\mathbf{x}) \|^{2}}{\| \lambda_{\sigma,1} (\mathbf{x}) \|} \ , & \text{if } \lambda_{\sigma,k}(\mathbf{x}) > 0 \text{ with } k = \{1,2,3\} \  , \\
-%	0 \ , & \text{otherwise} \ .
-%\end{cases}
-%\label{eq:blobdet}
-%\end{equation}
-%
-%The fusion of the different scales is computed as:
-%
-%\begin{equation}
-%	L(\mathbf{x}) = \max P(\mathbf{x},\sigma) , \forall \sigma \ .
-%	\label{eq:fusionBlob}
-%\end{equation}
-%The resulting map $L(\mathbf{x})$ 
-The candidate blobs detected are then filtered depending on their appearances (cf. maximum of the likelihood of the region, diameter of the lesion) and their \ac{si} in \ac{adc} and \ac{t2w} images. The detected regions are then used as inputs for the \ac{cadx}.
+\cite{Vos2012} highlighted lesion candidates by detecting blobs in the \ac{adc} map. These candidates were filtered using some \textit{a priori} criteria such as \ac{si} or diameter. The candidate blobs detected are then filtered depending on their appearances (cf. maximum of the likelihood of the region, diameter of the lesion) and their \ac{si} in \ac{adc} and \ac{t2w} images. The detected regions are then used as inputs for the \ac{cadx}.
 
 \cite{Litjens2011} used a pattern recognition approach in order to delineate the \acp{roi}. A blobness map was calculated in the same manner as previously in \cite{Vos2010} using the multi-resolution Hessian blob detector on the \ac{adc} map, \ac{t2w} and pharmacokinetic parameters maps (see Sect. \ref{subsec:featuredetection} for details about those parameters). Additionally, the position of the voxel $\mathbf{x}=\{x,y,z\}$ was used as a feature as well as the Euclidean distance of the voxel to the prostate center. Hence, the feature vectors were composed of eight features and a \ac{svm} classifier was trained using a \ac{rbf} kernel (see Sect. \ref{subsec:classification} for more details).
 
 Subsequently, \cite{Litjens2012} modified this approach by including only features related to the blob detection on the different maps as well as the original \acp{si} of the parametric images. Two new maps were introduced based on texture. Instead of a \ac{svm} classifier, a \ac{knn} classifier was used. The candidate regions were then extracted by performing a local maxima detection followed by post-processing region-growing and morphological operations. 
 
 In a similar way, \cite{Litjens2014} used the same approach and add two new features: (i) a Gaussian texture bank on \ac{t2w} to create new maps and (ii) the \ac{dw} \ac{mri} image acquired with $b=800$ s.mm$^-2$ was included too. Three classifiers were tested: (i) \ac{lda}, (ii) GentleBoost and (iii) Random forest. After evaluation, random forest was selected as classifier due to its overall performances.
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../../g_lemaitre_state_of_the_art"
+%%% End: 

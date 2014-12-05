@@ -12,63 +12,23 @@ As previously mentioned, the registration problem is to align two images or volu
 
 Two different groups of parametric transformation models have been used, each of them are characterized by the degree of freedom that they offer.
 
-%The first type of transformation is usually referred to as rigid transformation. These transformations are only composed of rotation and translation transforms. Hence, for a 2D space where $\mathbf{x} = (x,y) \in \mathbb{R}^2$ a rigid transformation $\mathcal{T}_R$ is formalized as:
-%\begin{eqnarray}
-%	\mathcal{T}_R(\mathbf{x}) & = & \begin{bmatrix}
-%		R & \mathbf{t} \\
-%		\mathbf{0^T} & 1
-%	\end{bmatrix} \mathbf{x} \ , \nonumber \\
-%	& = & \begin{bmatrix}
-%		\cos \theta & -\sin \theta & t_x \\
-%		\sin \theta & \cos \theta & t_y \\
-%		0 & 0 & 1
-%	\end{bmatrix}\begin{bmatrix}
-%		x \\
-%		y \\
-%		1
-%	\end{bmatrix} \ , \label{eq:rigtra} %\\
-%%	& = & \begin{matrix}
-%%	\cos(\theta) x - \sin(\theta) y + t_x \\
-%%	\sin(\theta) x + \cos(\theta) y + t_y
-%%	\end{matrix} \ . \nonumber
-%\end{eqnarray}
-%
-%\noindent where $\theta$ is the rotation angle and $\{ t_x,t_y \}$ represents the translation along $\{x,y\}$ respectively.
-%
-%In the case of 3D registration using volume, an additional component $z$ has to be taken into account such that $\mathbf{x} = (x,y,z)$. Thus, the rotation matrix $\mathbf{R}$ becomes of size $3 \times 3$ whereas the translation vector $\mathbf{t}$ consists of a vector of three elements. Hence, the geometric transformation $\mathcal{T}_R(\cdot)$ is embedded into a matrix of size $4 \times 4$.
-
 Affine transformations provide four degrees of freedom managing rotations and translation as with the rigid transformations but also shearing and scaling. Hence, for a 2D space where $\mathbf{x} = (x,y) \in \mathbb{R}^2$, an affine transformation $\mathcal{T}_A$ is formalized as: 
 
 \begin{eqnarray}
-	\mathcal{T}_A(\mathbf{x}) & = & \begin{bmatrix}
-		A & \mathbf{t} \\
-		\mathbf{0^T} & 1
-	\end{bmatrix} \mathbf{x} \ , \nonumber \\
-	& = & \begin{bmatrix}
-		a_{11} & a_{12} & t_x \\
-		a_{21} & a_{22} & t_y \\
-		0 & 0 & 1
-	\end{bmatrix}\begin{bmatrix}
-		x \\
-		y \\
-		1
-	\end{bmatrix} \ , \label{eq:afftra}% \\
-%	& = & \begin{matrix}
-%	a_{11} x - a_{12} y + t_x \\
-%	a_{21} x + a_{22} y + t_y
-%	\end{matrix} \ . \nonumber
+  \mathcal{T}_A(\mathbf{x}) & = & \begin{bmatrix}
+    A & \mathbf{t} \\
+    \mathbf{0^T} & 1
+  \end{bmatrix} \mathbf{x} \ , \nonumber \\
+  & = & \begin{bmatrix}
+    a_{11} & a_{12} & t_x \\
+    a_{21} & a_{22} & t_y \\
+    0 & 0 & 1
+  \end{bmatrix}\begin{bmatrix}
+    x \\
+    y \\
+    1
+  \end{bmatrix} \ , \label{eq:afftra}
 \end{eqnarray}
-
-%which can be always decomposed as:
-%
-%
-%\begin{eqnarray}
-%	A & = & R(\theta)R(-\phi)DR(\phi) \ , \label{eq:affmat} \\
-%	D & = & \begin{bmatrix}
-%	\lambda_x & 0 \\
-%	0 & \lambda_y
-%	\end{bmatrix} \ . \nonumber
-%\end{eqnarray} 
 
 Hence the four parameters $\{a_{11},a_{12},a_{21},a_{22}\}$ of the affine matrix and $\{ t_x, t_y \}$ of the translation encode an affine transformation.
 
@@ -77,15 +37,15 @@ In the case of 3D registration using image volumes, an additional component $z$ 
 The other group of transformations is known as elastic transformations and offer the advantage to handle local distortions. In the reviewed \ac{cad} systems, the radial basis functions are used to formalize the local distortions such as:
 
 \begin{equation}
-	\mathcal{T}_E(\mathbf{x}) = \begin{matrix}
-	a_{11} x - a_{12} y + t_x + \sum_i c_i g(\| \mathbf{x} - p_i \|) \\
-	a_{21} x + a_{22} y + t_y + \sum_i c_i g(\| \mathbf{x} - p_i \|)
-	\end{matrix} \ .
+  \mathcal{T}_E(\mathbf{x}) = \begin{matrix}
+    a_{11} x - a_{12} y + t_x + \sum_i c_i g(\| \mathbf{x} - p_i \|) \\
+    a_{21} x + a_{22} y + t_y + \sum_i c_i g(\| \mathbf{x} - p_i \|)
+  \end{matrix} \ .
 \end{equation}
 
 \noindent where $\mathbf{x}$ are the control points in both images and $g(\cdot)$ is the actual radial basis function. 
 
-Two radial basis functions have been used: (i) the \ac{tps} and (ii) the B-splines. Apart from the formalism, these two approaches have a main difference. With B-splines, the control points are usually uniformly and densely placed on a grid where as with \ac{tps}, the control points correspond to detected or selected key points. By using \ac{tps}, \cite{Mitra2011} obtained more accurate and time efficient results than with the B-splines strategy (\cite{Mitra2012a}). %Fab asked to put this reference
+Two radial basis functions have been used: (i) the \ac{tps} and (ii) the B-splines. Apart from the formalism, these two approaches have a main difference. With B-splines, the control points are usually uniformly and densely placed on a grid where as with \ac{tps}, the control points correspond to detected or selected key points. By using \ac{tps}, \cite{Mitra2011} obtained more accurate and time efficient results than with the B-splines strategy (\cite{Mitra2012a}).
 
 It is reasonable to point out that usually only rigid or affine registrations have been used to register multi-parametric images from a same protocol. Elastic registration methods are more commonly used to register multi-protocol images (e.g., histopathology with \ac{mri} images) (\cite{Toth2008,Toth2009}).
 
@@ -93,32 +53,11 @@ It is reasonable to point out that usually only rigid or affine registrations ha
 
 During the registration procedure, a similarity criterion is computed in order to evaluate the quality of the alignment performed. Roughly speaking, this criterion will give the direction to take to the optimizer, in order to assign the most optimal values to the geometric transformation parameters.
 
-The most naive similarity measure is the \acf{mse} of the \ac{si} of \ac{mri} images. % For a pair of images $I$ and $J$, the \ac{mse} is formalized as:
-%\begin{equation}
-%	\text{MSE} =\frac{1}{N} \sum_x \sum_y ( I(x,y) - J(x,y) )^2 \ ,
-%	\label{eq:mse}
-%\end{equation}
-%
-%\noindent where $N$ is the total number of pixels.
-However, this metric is not well suited when multi-parametric images are involved due to the tissue appearance variations between the different modalities.
+The most naive similarity measure is the \acf{mse} of the \ac{si} of \ac{mri} images. However, this metric is not well suited when multi-parametric images are involved due to the tissue appearance variations between the different modalities.
 
-In that regard, \ac{mi} was introduced as a registration measure in the late 1990's by \cite{Pluim2003}. The \ac{mi} measure finds its foundation in the assumption that a homogeneous region in the first modality image should also appear as a homogeneous region in the second modality even if their \acp{si} are not identical. Thus, those regions share information and the registration task can be achieved by maximizing this common information. % Hence, \Ac{mi} of two images $A$ and $B$ is defined as:
-%\begin{equation}
-%	MI(A;B) = S(A) + S(B) - S(A,B) \ ,
-%	\label{eq:midef}
-%\end{equation}
-%\noindent where $S(A)$ and $S(B)$ are the marginal entropies and $S(A,B)$ is the joint entropy.
-Maximizing the \ac{mi} is in fact equivalent to minimizing the joint entropy which is a measure related with the degree of uncertainty or dispersion of the data in the joint histogram. As shown in Fig.~\ref{fig:jointhisto}, the data in the joint histogram will be concentrated in the case of aligned images while will be more randomly distributed in the case of misaligned images.
-%Then, maximizing the \ac{mi} is equivalent to minimizing the joint entropy. The joint entropy measure is related with the degree of uncertainty or dispersion of the data in the joint histogram of the images $A$ and $B$. As shown in Fig.~\ref{fig:jointhisto}, the data in the joint histogram will be concentrated in the case of aligned images while will be more randomly distributed in the case of misaligned images. Regarding the computation of the entropies, an estimation of the \acp{pdf} needs to be carried out. Histogram or Parzen window methods are a common way to estimating these \acp{pdf}.
+In that regard, \ac{mi} was introduced as a registration measure in the late 1990's by \cite{Pluim2003}. The \ac{mi} measure finds its foundation in the assumption that a homogeneous region in the first modality image should also appear as a homogeneous region in the second modality even if their \acp{si} are not identical. Thus, those regions share information and the registration task can be achieved by maximizing this common information. Maximizing the \ac{mi} is in fact equivalent to minimizing the joint entropy which is a measure related with the degree of uncertainty or dispersion of the data in the joint histogram. As shown in Fig.~\ref{fig:jointhisto}, the data in the joint histogram will be concentrated in the case of aligned images while will be more randomly distributed in the case of misaligned images.
 
-A generalized form of \ac{mi}, \ac{cmi}, was proposed by \cite{Chappelow2011}. \ac{cmi} encompasses interdependent information such as texture and gradient into the metric.% Hence, for both of images $A$ and $B$, the image ensembles $\epsilon^{A}_n$ and $\epsilon^{B}_m$ are generated and composed of $n$ and $m$ images based on the texture and gradient. Then, the \ac{cmi} can be formulated such as:
-%
-%\begin{equation}
-%	CMI(\epsilon^{A}_n;\epsilon^{B}_m) = S(\epsilon^{A}_n) + S(\epsilon^{B}_m) - S(\epsilon^{A}_n,\epsilon^{B}_m) \ .
-%	\label{eq:cmidef}
-%\end{equation}
-%
-%From Eq. \eqref{eq:cmidef}, it can be seen that \ac{cmi} is estimated using high dimensional data and that histogram-based methods to estimate the \acp{pdf} are not suitable any more (\cite{Chappelow2011}). However, other approaches can be used such as the one employed by \cite{Staring2009} to compute the $\alpha$-\ac{mi} (\cite{Hero2002}) which is based on the construction of entropic graphs using \ac{knn} inside the high dimensional feature space later used to estimate the \ac{mi}.
+A generalized form of \ac{mi}, \ac{cmi}, was proposed by \cite{Chappelow2011}. \ac{cmi} encompasses interdependent information such as texture and gradient into the metric.
 
 \subsubsection{Optimization methods}\label{subsubsec:optmea}
 
@@ -141,3 +80,8 @@ Studies presenting a \ac{cad} pipeline incorporating an automatic registration p
 \cite{Viswanath2008a,Viswanath2009} as well as \cite{Vos2008} performed an affine registration using the \ac{mi} as similarity measure to correct the misalignment between \ac{t2w} and \ac{dce} images. The choice of the optimizer was not specified. \cite{Viswanath2008a,Viswanath2009} focused on 2D registration while \cite{Vos2008} performed 3D registration.
 
 Finally, \cite{Viswanath2011} performed a 3D registration with the three modalities, \ac{t2w} and \ac{dce} and \ac{dw} \ac{mri}, by using an affine transformation model combined with the \ac{cmi} similarity measure as presented in \cite{Chappelow2011}. Moreover, \cite{Chappelow2011} employed gradient descent to solve this problem but suggested Nelder-Mead simplex and quasi-Newton method as other solutions.
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../../g_lemaitre_state_of_the_art"
+%%% End: 
