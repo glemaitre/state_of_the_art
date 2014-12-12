@@ -1,12 +1,12 @@
 
 \begin{table*}
-\begin{adjustwidth}{-1.8cm}{}
-\caption{Overview of the features associated with each \ac{mri} modality used for medical diagnosis by radiologists. Acronyms: \acf{cap} - \acf{si} - \acf{gs}.}	
-\begin{threeparttable}
-\centering
-\small
-\renewcommand{\arraystretch}{1.2}
-	\begin{tabular}{|m{1.7cm}||m{4.5cm}|>{\centering\arraybackslash}m{4.8cm}|>{\centering\arraybackslash}m{4.8cm}|>{\centering\arraybackslash}m{2cm}|}\hline
+  \begin{adjustwidth}{-1.8cm}{}
+    \caption{Overview of the features associated with each \ac{mri} modality used for medical diagnosis by radiologists. Acronyms: \acf{cap} - \acf{si} - \acf{gs}.}\label{tab:modmri}
+    \begin{threeparttable}
+      \centering
+      \small
+      \renewcommand{\arraystretch}{1.2}
+      \begin{tabular}{|m{1.7cm}||m{4.5cm}|>{\centering\arraybackslash}m{4.8cm}|>{\centering\arraybackslash}m{4.8cm}|>{\centering\arraybackslash}m{2cm}|}\hline
 	\rowcolor{gray!10}
 	Modality & Significant features & \ac{cap} & Healthy tissue & \ac{gs} correlation \\ \hline \hline
 	\multirow{4}{*}{\ac{t2w} \ac{mri}} & \acs{si} & low-\ac{si} in \ac{pz}~\cite{Hricak1987} & \multirow{2}{*}{intermediate to high-\ac{si} in \ac{pz}~\cite{Hricak1987}} & \multirow{4}{*}{+~\cite{Wang2008}} \\ 
@@ -30,372 +30,361 @@
 	& Choline (3.21 ppm)~\cite{Verma2010} & higher concentration~\cite{Awwad2012,Costello2006,Graaf2000} & lower concentration~\cite{Awwad2012,Costello2006,Graaf2000} & 0~\cite{Giskeodegard2013} \\[-1.5ex]
 	& Spermine (3.11 ppm)~\cite{Verma2010} & lower concentration~\cite{Awwad2012,Costello2006,Graaf2000} & higher concentration~\cite{Awwad2012,Costello2006,Graaf2000} & +~\cite{Giskeodegard2013} \\ \hline
 	
-	\end{tabular}
-	\begin{tablenotes}
-      \small
+      \end{tabular}
+      \begin{tablenotes}
+        \small
       \item Notes:
       \item + = significantly correlated.
       \item 0 = no correlation.
-    \end{tablenotes}
-\end{threeparttable}
-\end{adjustwidth}
-\label{tab:modmri}
+      \end{tablenotes}
+    \end{threeparttable}
+  \end{adjustwidth}
 \end{table*}
 
 \newgeometry{margin=.5cm}
 \thispagestyle{empty}
 \begin{table*}
-\centering
-\caption{Overview of the different studies reviewed with their main characteristics. Acronyms: number (\#) - image regularization (Img. Reg.).}
-\scriptsize
-%\begin{adjustwidth}{-2.2cm}{}
-\begin{threeparttable}
-\renewcommand{\arraystretch}{1}	
-	\rowcolors{3}{black!5}{white}	
-	\begin{tabular}{|>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{0.8cm}|>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{1cm}>{\centering\arraybackslash}m{1cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|}\hline
-	\hiderowcolors
-	\multirow{2}{*}{Index} & \multirow{2}{*}{Study} & \# & \multicolumn{4}{c|}{\ac{mri}-modality} & \multicolumn{2}{c|}{Strength of field} & \multicolumn{2}{c|}{Studied zones} & \multicolumn{3}{c|}{\ac{cad} stages} \\ \cline{4-14}
-	 & & patients & \ac{t2w} \ac{mri} & \ac{dce} \ac{mri} & \ac{dw} \ac{mri} & \ac{mrsi} & 1.5 T & 3.0 T & \ac{pz} & \ac{cg} & Img. Reg. & \ac{cade} & \ac{cadx} \\ \hline \hline
-	 \showrowcolors 
-	 	 \cite{Ampeliotis2007} & Ampeliotis et al.\,(2007) & 25 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Ampeliotis2008} & Ampeliotis et al.\,(2008) & 25 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Antic2013} & Antic et al.\,(2013) & 53 & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark  & \xmark & \cmark \\
-	 	 \cite{Artan2009} & Artan et al.\,(2009) & 10 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark  & \xmark & \cmark & \cmark \\
-	 	 \cite{Artan2010} & Artan et al.\,(2010) & 21 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Chan2003} & Chan et al.\,(2013) & 15 & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark \\
-	 	 \cite{Giannini2013} & Giannini et al.\,(2013) & 10 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark \\
-	 	 \cite{Kelm2007} & Kelm et al.\,(2007) & 24 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Langer2009} & Langer et al.\,(2009) & 25 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Litjens2011} & Litjens et al.\,(2011) & 188 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Litjens2012} & Litjens et al.\,(2012) & 288 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Litjens2014} & Litjens et al.\,(2014) & 347 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Liu2009} & Liu et al.\,(2009) & 11 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Liu2013} & Liu et al.\,(2013) & 54 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Lopes2011} & Lopes et al.\,(2011) & 27 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Lv2009} & Lv et al.\,(2009) & 55 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Matulewicz2013} & Matulewicz et al.\,(2013) & 18 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\ 
-	 	 \cite{Mazzetti2011} & Mazzetti et al.\,(2011) & 10 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Niaf2011} & Niaf et al.\,(2011) & 23 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Niaf2012} & Niaf et al.\,(2012) & 30 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Ozer2009} & Ozer et al.\,(2009) & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Ozer2010} & Ozer et al.\,(2010) & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Parfait2012} & Parfait et al.\,(2012) & 22 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Peng2013} & Peng et al.\,(2013) & 48 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
-	 	 \cite{Puech2009} & Puech et al.\,(2009) & 100 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
-	 	 \cite{Sung2011} & Sung et al.\,(2011) & 42 & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
-	 	 \cite{Tiwari2007} & Tiwari et al.\,(2007) & 14 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Tiwari2008} & Tiwari et al.\,(2008) & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Tiwari2009} & Tiwari et al.\,(2009) & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Tiwari2009a} & Tiwari et al.\,(2009) & 15 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Tiwari2010} & Tiwari et al.\,(2010) & 19 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Tiwari2012} & Tiwari et al.\,(2012) & 36 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
-	 	 \cite{Tiwari2013} & Tiwari et al.\,(2013) & 29 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Viswanath2008} & Viswanath et al.\,(2008) & 16 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
-	 	 \cite{Viswanath2008a} & Viswanath et al.\,(2008) & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Viswanath2009} & Viswanath et al.\,(2009) & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
-	 	 \cite{Viswanath2011} & Viswanath et al.\,(2011) & 12 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
-	 	 \cite{Viswanath2012} & Viswanath et al.\,(2012) & 22 & \cmark & \xmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
-	 	 \cite{Vos2008} & Vos et al.\,(2008) & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Vos2008a} & Vos et al.\,(2008) & 29 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Vos2010} & Vos et al.\,(2010) & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
-	 	 \cite{Vos2012} & Vos et al.\,(2012) & NA & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
-	 	 \hline
-	\end{tabular}
-	\begin{tablenotes}
+  \centering
+  \caption{Overview of the different studies reviewed with their main characteristics. Acronyms: number (\#) - image regularization (Img. Reg.).}\label{tab:sumpap}
+  \scriptsize
+  % \begin{adjustwidth}{-2.2cm}{}
+  \begin{threeparttable}
+    \renewcommand{\arraystretch}{1}	
+    \rowcolors{3}{black!5}{white}	
+    \begin{tabular}{|>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{0.8cm}|>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{0.8cm}>{\centering\arraybackslash}m{1cm}>{\centering\arraybackslash}m{1cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}>{\centering\arraybackslash}m{0.7cm}|}\hline
+      \hiderowcolors
+      \multirow{2}{*}{Index} & \multirow{2}{*}{Study} & \# & \multicolumn{4}{c|}{\ac{mri}-modality} & \multicolumn{2}{c|}{Strength of field} & \multicolumn{2}{c|}{Studied zones} & \multicolumn{3}{c|}{\ac{cad} stages} \\ \cline{4-14}
+      & & patients & \ac{t2w} \ac{mri} & \ac{dce} \ac{mri} & \ac{dw} \ac{mri} & \ac{mrsi} & 1.5 T & 3.0 T & \ac{pz} & \ac{cg} & Img. Reg. & \ac{cade} & \ac{cadx} \\ \hline \hline
+      \showrowcolors 
+      \cite{Ampeliotis2007} & Ampeliotis et al.\,(2007) & 25 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+      \cite{Ampeliotis2008} & Ampeliotis et al.\,(2008) & 25 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+      \cite{Antic2013} & Antic et al.\,(2013) & 53 & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark  & \xmark & \cmark \\
+      \cite{Artan2009} & Artan et al.\,(2009) & 10 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark  & \xmark & \cmark & \cmark \\
+      \cite{Artan2010} & Artan et al.\,(2010) & 21 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+      \cite{Chan2003} & Chan et al.\,(2013) & 15 & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark \\
+      \cite{Giannini2013} & Giannini et al.\,(2013) & 10 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark \\
+      \cite{Kelm2007} & Kelm et al.\,(2007) & 24 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Langer2009} & Langer et al.\,(2009) & 25 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+      \cite{Litjens2011} & Litjens et al.\,(2011) & 188 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+      \cite{Litjens2012} & Litjens et al.\,(2012) & 288 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Litjens2014} & Litjens et al.\,(2014) & 347 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Liu2009} & Liu et al.\,(2009) & 11 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+      \cite{Liu2013} & Liu et al.\,(2013) & 54 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \xmark & \cmark \\
+      \cite{Lopes2011} & Lopes et al.\,(2011) & 27 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+      \cite{Lv2009} & Lv et al.\,(2009) & 55 & \cmark & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+      \cite{Matulewicz2013} & Matulewicz et al.\,(2013) & 18 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\ 
+      \cite{Mazzetti2011} & Mazzetti et al.\,(2011) & 10 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+      \cite{Niaf2011} & Niaf et al.\,(2011) & 23 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+      \cite{Niaf2012} & Niaf et al.\,(2012) & 30 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+      \cite{Ozer2009} & Ozer et al.\,(2009) & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+      \cite{Ozer2010} & Ozer et al.\,(2010) & 20 & \cmark & \cmark & \cmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+      \cite{Parfait2012} & Parfait et al.\,(2012) & 22 & \xmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Peng2013} & Peng et al.\,(2013) & 48 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
+      \cite{Puech2009} & Puech et al.\,(2009) & 100 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \cmark & \xmark & \xmark & \cmark \\
+      \cite{Sung2011} & Sung et al.\,(2011) & 42 & \xmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+      \cite{Tiwari2007} & Tiwari et al.\,(2007) & 14 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Tiwari2008} & Tiwari et al.\,(2008) & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Tiwari2009} & Tiwari et al.\,(2009) & 18 & \xmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Tiwari2009a} & Tiwari et al.\,(2009) & 15 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Tiwari2010} & Tiwari et al.\,(2010) & 19 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Tiwari2012} & Tiwari et al.\,(2012) & 36 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+      \cite{Tiwari2013} & Tiwari et al.\,(2013) & 29 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Viswanath2008} & Viswanath et al.\,(2008) & 16 & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark & \xmark & \cmark & \cmark \\
+      \cite{Viswanath2008a} & Viswanath et al.\,(2008) & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Viswanath2009} & Viswanath et al.\,(2009) & 6 & \cmark & \cmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+      \cite{Viswanath2011} & Viswanath et al.\,(2011) & 12 & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \cmark & \mmark & \cmark & \cmark \\
+      \cite{Viswanath2012} & Viswanath et al.\,(2012) & 22 & \cmark & \xmark & \xmark & \xmark & \xmark & \cmark & \cmark & \cmark & \cmark & \cmark & \cmark \\
+      \cite{Vos2008} & Vos et al.\,(2008) & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+      \cite{Vos2008a} & Vos et al.\,(2008) & 29 & \xmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+      \cite{Vos2010} & Vos et al.\,(2010) & 29 & \cmark & \cmark & \xmark & \xmark & \cmark & \xmark & \cmark & \xmark & \mmark & \xmark & \cmark \\
+      \cite{Vos2012} & Vos et al.\,(2012) & NA & \cmark & \cmark & \cmark & \xmark & \xmark & \cmark & \cmark & \xmark & \mmark & \cmark & \cmark \\
+      \hline
+    \end{tabular}
+    \begin{tablenotes}
       \footnotesize
-      \item Notes:
-      \item {\xmark}: not used or not implemented.
-      \item {\mmark}: partially implemented.
-      \item {\cmark}: used or implemented.
+    \item Notes:
+    \item {\xmark}: not used or not implemented.
+    \item {\mmark}: partially implemented.
+    \item {\cmark}: used or implemented.
     \end{tablenotes}
-\end{threeparttable}
-%\end{adjustwidth}
-\label{tab:sumpap}
+  \end{threeparttable}
+  % \end{adjustwidth}
 \end{table*}
 \restoregeometry
 
 \begin{table}
-	\caption{Overview of the pre-processing methods used in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{1}
-	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Pre-processing operations} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textit{\ac{mri} pre-processing:} & \\ \\ [-1.5ex]
-		\quad Noise filtering: &  \\
-		\quad \quad Median filtering & \cite{Ozer2009,Ozer2010}  \\
-		\quad \quad Wavelet-based filtering & \cite{Ampeliotis2007,Ampeliotis2008,Lopes2011} \\ \\ [-1.5ex]
-		\quad Bias correction: & \\
-		\quad \quad Parametric methods & \cite{Lv2009,Viswanath2009} \\
-		\quad \quad Non-parametric methods & \cite{Viswanath2011} \\ \\ [-1.5ex]
-		\quad Standardization: & \\
-		\quad \quad Statistical-based normalization: & \cite{Artan2009,Artan2010,Lv2009,Ozer2009,Ozer2010,Viswanath2009,Viswanath2011,Viswanath2012} \\
-		\quad \quad Organ \ac{si}-based normalization & \cite{Niaf2011,Niaf2012} \\ \\ [-1.5ex]
-		\textit{\ac{mrsi} pre-processing:} & \\ \\ [-1.5ex]
-		\quad Phase correction & \cite{Parfait2012} \\
-		\quad Water and lipid residuals filtering & \cite{Kelm2007} \\
-		\quad Baseline correction & \cite{Parfait2012,Tiwari2012} \\
-		\quad Frequency alignment & \cite{Tiwari2012} \\
-		\quad Normalization & \cite{Parfait2012} \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
+  \caption{Overview of the pre-processing methods used in \ac{cad} systems.}\label{tab:regtab}
+  \small
+  \renewcommand{\arraystretch}{1}
+  \begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
+    \hline \\ [-1.5ex]
+    \textbf{Pre-processing operations} & \textbf{References} \\ \\ [-1.5ex]
+    \hline \\ [-1.5ex]
+    \textit{\ac{mri} pre-processing:} & \\ \\ [-1.5ex]
+    \quad Noise filtering: &  \\
+    \quad \quad Median filtering & \cite{Ozer2009,Ozer2010}  \\
+    \quad \quad Wavelet-based filtering & \cite{Ampeliotis2007,Ampeliotis2008,Lopes2011} \\ \\ [-1.5ex]
+    \quad Bias correction: & \\
+    \quad \quad Parametric methods & \cite{Lv2009,Viswanath2009} \\
+    \quad \quad Non-parametric methods & \cite{Viswanath2011} \\ \\ [-1.5ex]
+    \quad Standardization: & \\
+    \quad \quad Statistical-based normalization: & \cite{Artan2009,Artan2010,Lv2009,Ozer2009,Ozer2010,Viswanath2009,Viswanath2011,Viswanath2012} \\
+    \quad \quad Organ \ac{si}-based normalization & \cite{Niaf2011,Niaf2012} \\ \\ [-1.5ex]
+    \textit{\ac{mrsi} pre-processing:} & \\ \\ [-1.5ex]
+    \quad Phase correction & \cite{Parfait2012} \\
+    \quad Water and lipid residuals filtering & \cite{Kelm2007} \\
+    \quad Baseline correction & \cite{Parfait2012,Tiwari2012} \\
+    \quad Frequency alignment & \cite{Tiwari2012} \\
+    \quad Normalization & \cite{Parfait2012} \\ \\ [-1.5ex]
+    \hline
+  \end{tabular}
 \end{table}
 
 \begin{table}
-	\caption{Overview of the segmentation methods used in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Segmentation methods} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textit{\ac{mri}-based segmentation:} & \\ \\ [-1.5ex]
-		\quad Manual segmentation & \cite{Artan2009,Artan2010,Matulewicz2013,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Puech2009,Vos2008,Vos2008a,Vos2010,Vos2012} \\
-		\quad Region-based segmentation & \cite{Litjens2012,Litjens2014} \\
-		\quad Model-based segmentation & \cite{Litjens2011,Viswanath2008a,Viswanath2009,Viswanath2011,Vos2012} \\ \\ [-1.5ex]
-		\textit{\ac{mrsi}-based segmentation:} & \\ \\ [-1.5ex]
-		\quad Clustering & \cite{Tiwari2009} \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:seg}
+  \caption{Overview of the segmentation methods used in \ac{cad} systems.}\label{tab:seg}
+  \small
+  \renewcommand{\arraystretch}{.8}
+  \begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
+    \hline \\ [-1.5ex]
+    \textbf{Segmentation methods} & \textbf{References} \\ \\ [-1.5ex]
+    \hline \\ [-1.5ex]
+    \textit{\ac{mri}-based segmentation:} & \\ \\ [-1.5ex]
+    \quad Manual segmentation & \cite{Artan2009,Artan2010,Matulewicz2013,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Puech2009,Vos2008,Vos2008a,Vos2010,Vos2012} \\
+    \quad Region-based segmentation & \cite{Litjens2012,Litjens2014} \\
+    \quad Model-based segmentation & \cite{Litjens2011,Viswanath2008a,Viswanath2009,Viswanath2011,Vos2012} \\ \\ [-1.5ex]
+    \textit{\ac{mrsi}-based segmentation:} & \\ \\ [-1.5ex]
+    \quad Clustering & \cite{Tiwari2009} \\ \\ [-1.5ex]
+    \hline
+  \end{tabular}
 \end{table}
 
 \begin{table*}[ht]
-\centering
-\caption{Classification of the different registration methods used in the \ac{cad} systems reviewed. Acronyms: gradient descent (GD), Nelder-Mead (NM).}
-\small
-\begin{adjustwidth}{-.4cm}{}
-\begin{threeparttable}
-\renewcommand{\arraystretch}{1}
-	\rowcolors{3}{black!5}{white}	
-	\begin{tabular}{|c|c|c| >{\centering\arraybackslash}m{1.2cm} >{\centering\arraybackslash}m{1.2cm}| >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm}| >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.7cm}| }\hline
+  \centering
+  \caption{Classification of the different registration methods used in the \ac{cad} systems reviewed. Acronyms: gradient descent (GD), Nelder-Mead (NM).}
+  \small
+  \begin{adjustwidth}{-.4cm}{}
+    \begin{threeparttable}
+      \renewcommand{\arraystretch}{1}
+      \rowcolors{3}{black!5}{white}	
+      \begin{tabular}{|c|c|c| >{\centering\arraybackslash}m{1.2cm} >{\centering\arraybackslash}m{1.2cm}| >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm} >{\centering\arraybackslash}m{0.8cm}| >{\centering\arraybackslash}m{1.5cm} >{\centering\arraybackslash}m{1.7cm}| }\hline
 	\hiderowcolors
 	Study & Modality & \multirow{2}{*}{Type} & \multicolumn{2}{c|}{Geometric model} & \multicolumn{3}{c|}{Similarity measure} & \multicolumn{2}{c|}{Optimizer} \\ \cline{4-10}
-	 index & registered & & Affine & Elastic & \acs{mse} & \acs{mi} & \acs{cmi} & GD & L-BFGS-B \\ \hline \hline
-	 \showrowcolors
-	 	  \cite{Ampeliotis2007,Ampeliotis2008} & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & \cmark & $-$ & $-$ & $-$ & $-$ \\
-	 	  \cite{Giannini2013} & \ac{t2w} - \ac{dw} & 2D & \cmark & \cmark & $-$ & $-$ & $-$ & $-$ & $-$  \\
-		  \cite{Giannini2013} & \ac{t2w} - \ac{dce} & 2D & \cmark & \cmark & $-$ & \cmark & $-$ & \cmark & $-$ \\
-	 	  \cite{Viswanath2008a,Viswanath2009} & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
-	 	  \cite{Viswanath2011} & \ac{t2w} - \ac{dce} - \ac{dw} & 3D & \cmark & $-$ & $-$ & $-$ & \cmark & \cmark & $-$  \\
-	 	  \cite{Vos2008} & \ac{t2w} - \ac{dce} & 3D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
-	 	  \cite{Vos2010} & \ac{t2w} - \ac{dce} & 3D & \cmark & \cmark & $-$ & \cmark & $-$ & $-$ & \cmark \\
-	 	 \hline
-	\end{tabular}
-	\begin{tablenotes}
-      \footnotesize
+        index & registered & & Affine & Elastic & \acs{mse} & \acs{mi} & \acs{cmi} & GD & L-BFGS-B \\ \hline \hline
+        \showrowcolors
+        \cite{Ampeliotis2007,Ampeliotis2008} & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & \cmark & $-$ & $-$ & $-$ & $-$ \\
+        \cite{Giannini2013} & \ac{t2w} - \ac{dw} & 2D & \cmark & \cmark & $-$ & $-$ & $-$ & $-$ & $-$  \\
+        \cite{Giannini2013} & \ac{t2w} - \ac{dce} & 2D & \cmark & \cmark & $-$ & \cmark & $-$ & \cmark & $-$ \\
+        \cite{Viswanath2008a,Viswanath2009} & \ac{t2w} - \ac{dce} & 2D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
+        \cite{Viswanath2011} & \ac{t2w} - \ac{dce} - \ac{dw} & 3D & \cmark & $-$ & $-$ & $-$ & \cmark & \cmark & $-$  \\
+        \cite{Vos2008} & \ac{t2w} - \ac{dce} & 3D & \cmark & $-$ & $-$ & \cmark & $-$ & $-$ & $-$ \\
+        \cite{Vos2010} & \ac{t2w} - \ac{dce} & 3D & \cmark & \cmark & $-$ & \cmark & $-$ & $-$ & \cmark \\
+        \hline
+      \end{tabular}
+      \begin{tablenotes}
+        \footnotesize
       \item Notes:
       \item {$-$}: not used or not mentioned.
       \item {\cmark}: used or implemented.
-    \end{tablenotes}
-\end{threeparttable}
-\end{adjustwidth}
-\label{tab:regtab}
+      \end{tablenotes}
+    \end{threeparttable}
+  \end{adjustwidth}
 \end{table*}
 
 \begin{table}
-	\caption{Overview of the \ac{cade} strategies employed in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{\ac{cade}: \acp{roi} selection strategy} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\quad All voxels-based approach & \cite{Artan2009,Artan2010,Giannini2013,Kelm2007,Liu2009,Lopes2011,Matulewicz2013,Mazzetti2011,Ozer2009,Ozer2010,Parfait2012,Sung2011,Tiwari2007,Tiwari2008,Tiwari2009,Tiwari2009a,Tiwari2010,Tiwari2012,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2009,Viswanath2011,Viswanath2012} \\ \\ [-1.5ex]
-		\quad Lesions candidate detection & \cite{Litjens2011,Litjens2012,Litjens2014,Vos2012} \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:cade}
+  \caption{Overview of the \ac{cade} strategies employed in \ac{cad} systems.}\label{tab:cade}
+  \small
+  \renewcommand{\arraystretch}{.8}
+  \begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
+    \hline \\ [-1.5ex]
+    \textbf{\ac{cade}: \acp{roi} selection strategy} & \textbf{References} \\ \\ [-1.5ex]
+    \hline \\ [-1.5ex]
+    \quad All voxels-based approach & \cite{Artan2009,Artan2010,Giannini2013,Kelm2007,Liu2009,Lopes2011,Matulewicz2013,Mazzetti2011,Ozer2009,Ozer2010,Parfait2012,Sung2011,Tiwari2007,Tiwari2008,Tiwari2009,Tiwari2009a,Tiwari2010,Tiwari2012,Tiwari2013,Viswanath2008,Viswanath2008a,Viswanath2009,Viswanath2011,Viswanath2012} \\ \\ [-1.5ex]
+    \quad Lesions candidate detection & \cite{Litjens2011,Litjens2012,Litjens2014,Vos2012} \\ \\ [-1.5ex]
+    \hline
+  \end{tabular}
 \end{table}
 
 \newgeometry{margin=1cm}
 \thispagestyle{empty}
 \begin{table*}
-	\centering
-	\caption{Overview of the feature detection methods used in \ac{cad} systems.}
-	\footnotesize
-	\begin{threeparttable}
-	\renewcommand{\arraystretch}{.7}
-	\begin{tabular}{p{.5\linewidth} p{.4\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Feature detection methods} & \textbf{Indexes} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textbf{\ac{mri} image:} & \\ \\ [-1.5ex]
-		\quad \textit{Voxel-wise detection} &  \\ \\ [-1.5ex]
-		\quad \quad Intensity-based & $^{\text{{\cmarksmall}- -}}$\cite{Ampeliotis2007,Ampeliotis2008,Vos2008}\par $^{\text{- - {\cmarksmall}}}$\cite{Giannini2013}\par $^{\text{{\cmarksmall}- {\cmarksmall}}}$\cite{Artan2009,Artan2010,Chan2003,Langer2009,Litjens2011,Litjens2012,Litjens2014,Liu2009,Ozer2009,Ozer2010}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Niaf2011,Niaf2012} \\ 
-		\quad \quad Edge-based & \\
-		\quad \quad \quad Prewitt operator & $^{\text{{\cmarksmall}- -}}$\cite{Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008} \\
-		\quad \quad \quad Sobel operator & $^{\text{{\cmarksmall}- -}}$\cite{Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2009,Viswanath2011,Viswanath2012}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Niaf2011,Niaf2012} \\
-		\quad \quad \quad Kirsch operator & $^{\text{{\cmarksmall}- -}}$\cite{Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2009,Viswanath2011,Viswanath2012}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Niaf2011,Niaf2012} \\
-		\quad \quad \quad Gabor filtering & $^{\text{{\cmarksmall}- -}}$\cite{Tiwari2012,Viswanath2008,Viswanath2012} \\ 
-		\quad \quad Texture-based & \\
-		\quad \quad \quad Haralick features & $^{\text{{\cmarksmall}- -}}$\cite{Antic2013,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2009,Viswanath2012}\par $^{\text{{\cmarksmall}{\cmarksmall}-}}$\cite{Viswanath2011}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Litjens2012,Niaf2011,Niaf2012} \\
-		\quad \quad \quad Fractal analysis & $^{\text{{\cmarksmall}- -}}$\cite{Lopes2011,Lv2009} \\
-		\quad \quad \quad \Ac{dct} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Niaf2011,Niaf2012} \\
-		\quad \quad \quad Wavelet-based features & $^{\text{{\cmarksmall}- -}}$\cite{Viswanath2012} \\
-		\quad \quad \quad Gaussian filer bank & $^{\text{{\cmarksmall}- -}}$\cite{Litjens2014} \\ 
-		\quad \quad Position-based & \cite{Chan2003,Litjens2011,Litjens2012,Litjens2014} \\ \\ [-1.5ex]
-		\quad \textit{Region-wise detection} &  \\ \\ [-1.5ex]
-		\quad \quad Statistical-based & \\
-		\quad \quad \quad Percentiles & $^{\text{- {\cmarksmall}-}}$\cite{Vos2008a} \par $^{\text{- - {\cmarksmall}}}$\cite{Antic2013,Peng2013}\par $^{\text{{\cmarksmall}{\cmarksmall}-}}$\cite{Vos2010}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Litjens2011,Litjens2012,Litjens2014,Niaf2011,Niaf2012,Vos2012} \\
-		\quad \quad \quad Statistical-moments & $^{\text{{\cmarksmall}- -}}$\cite{Ampeliotis2007,Ampeliotis2008,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2009,Viswanath2012}\par $^{\text{- - {\cmarksmall}}}$\cite{Antic2013}\par $^{\text{{\cmarksmall}{\cmarksmall}-}}$\cite{Viswanath2011}\par $^{\text{{\cmarksmall}- {\cmarksmall}}}$\cite{Peng2013}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Litjens2011,Litjens2012,Litjens2014,Niaf2011,Niaf2012} \\
-		\quad \quad Histogram-based & \\
-		\quad \quad \quad \acs{pdf} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Liu2013} \\
-		\quad \quad \quad \acs{hog} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Liu2013} \\
-		\quad \quad \quad Shape context & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Liu2013} \\
-		\quad \quad \quad \acs{lbp} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Liu2013} \\
-		\quad \quad Anatomical-based & \cite{Litjens2012,Litjens2014,Lv2009} \\ \\ [-1.5ex]
-		\textbf{\ac{dce} signal:} & \\ \\ [-1.5ex]
-		\quad Whole spectra approach & \cite{Ampeliotis2007,Ampeliotis2008} \\
-		\quad Semi-quantitative approach & $^{\text{{\mmarksmall}}}$\cite{Puech2009}\par \cite{Mazzetti2011,Niaf2011,Niaf2012,Sung2011} \\
-		\quad Quantitative approach &  \\
-		\quad \quad Toft model & $^{\text{{\mmarksmall}}}$\cite{Liu2013,Puech2009}\par \cite{Giannini2013,Langer2009,Litjens2011,Litjens2012,Litjens2014,Mazzetti2011,Niaf2011,Niaf2012} \\
-		\quad \quad Brix model & $^{\text{{\mmarksmall}}}$\cite{Artan2009,Artan2010,Ozer2009,Ozer2010}\par \cite{Liu2009,Sung2011} \\
-		\quad \quad Weibull function & \cite{Giannini2013,Mazzetti2011} \\
-		\quad \quad PUM & \cite{Giannini2013,Mazzetti2011} \\
-		\\ [-1.5ex]
-		\textbf{\ac{mrsi} signal:} & \\ \\ [-1.5ex]
-		\quad Whole spectra approach & \cite{Kelm2007,Matulewicz2013,Parfait2012,Tiwari2007,Tiwari2008,Tiwari2009,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008} \\
-		\quad Quantification approach & \cite{Kelm2007,Parfait2012} \\
-		\quad Wavelet-based approach & \cite{Tiwari2012} \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\begin{tablenotes}
+  \centering
+  \caption{Overview of the feature detection methods used in \ac{cad} systems.}\label{tab:feat}
+  \footnotesize
+  \begin{threeparttable}
+    \renewcommand{\arraystretch}{.7}
+    \begin{tabular}{p{.5\linewidth} p{.4\linewidth}}
+      \hline \\ [-1.5ex]
+      \textbf{Feature detection methods} & \textbf{Indexes} \\ \\ [-1.5ex]
+      \hline \\ [-1.5ex]
+      \textbf{\ac{mri} image:} & \\ \\ [-1.5ex]
+      \quad \textit{Voxel-wise detection} &  \\ \\ [-1.5ex]
+      \quad \quad Intensity-based & $^{\text{{\cmarksmall}- -}}$\cite{Ampeliotis2007,Ampeliotis2008,Vos2008}\par $^{\text{- - {\cmarksmall}}}$\cite{Giannini2013}\par $^{\text{{\cmarksmall}- {\cmarksmall}}}$\cite{Artan2009,Artan2010,Chan2003,Langer2009,Litjens2011,Litjens2012,Litjens2014,Liu2009,Ozer2009,Ozer2010}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Niaf2011,Niaf2012} \\ 
+      \quad \quad Edge-based & \\
+      \quad \quad \quad Prewitt operator & $^{\text{{\cmarksmall}- -}}$\cite{Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008} \\
+      \quad \quad \quad Sobel operator & $^{\text{{\cmarksmall}- -}}$\cite{Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2009,Viswanath2011,Viswanath2012}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Niaf2011,Niaf2012} \\
+      \quad \quad \quad Kirsch operator & $^{\text{{\cmarksmall}- -}}$\cite{Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2009,Viswanath2011,Viswanath2012}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Niaf2011,Niaf2012} \\
+      \quad \quad \quad Gabor filtering & $^{\text{{\cmarksmall}- -}}$\cite{Tiwari2012,Viswanath2008,Viswanath2012} \\ 
+      \quad \quad Texture-based & \\
+      \quad \quad \quad Haralick features & $^{\text{{\cmarksmall}- -}}$\cite{Antic2013,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2009,Viswanath2012}\par $^{\text{{\cmarksmall}{\cmarksmall}-}}$\cite{Viswanath2011}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Litjens2012,Niaf2011,Niaf2012} \\
+      \quad \quad \quad Fractal analysis & $^{\text{{\cmarksmall}- -}}$\cite{Lopes2011,Lv2009} \\
+      \quad \quad \quad \Ac{dct} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Niaf2011,Niaf2012} \\
+      \quad \quad \quad Wavelet-based features & $^{\text{{\cmarksmall}- -}}$\cite{Viswanath2012} \\
+      \quad \quad \quad Gaussian filer bank & $^{\text{{\cmarksmall}- -}}$\cite{Litjens2014} \\ 
+      \quad \quad Position-based & \cite{Chan2003,Litjens2011,Litjens2012,Litjens2014} \\ \\ [-1.5ex]
+      \quad \textit{Region-wise detection} &  \\ \\ [-1.5ex]
+      \quad \quad Statistical-based & \\
+      \quad \quad \quad Percentiles & $^{\text{- {\cmarksmall}-}}$\cite{Vos2008a} \par $^{\text{- - {\cmarksmall}}}$\cite{Antic2013,Peng2013}\par $^{\text{{\cmarksmall}{\cmarksmall}-}}$\cite{Vos2010}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Litjens2011,Litjens2012,Litjens2014,Niaf2011,Niaf2012,Vos2012} \\
+      \quad \quad \quad Statistical-moments & $^{\text{{\cmarksmall}- -}}$\cite{Ampeliotis2007,Ampeliotis2008,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008,Viswanath2009,Viswanath2012}\par $^{\text{- - {\cmarksmall}}}$\cite{Antic2013}\par $^{\text{{\cmarksmall}{\cmarksmall}-}}$\cite{Viswanath2011}\par $^{\text{{\cmarksmall}- {\cmarksmall}}}$\cite{Peng2013}\par $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Litjens2011,Litjens2012,Litjens2014,Niaf2011,Niaf2012} \\
+      \quad \quad Histogram-based & \\
+      \quad \quad \quad \acs{pdf} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Liu2013} \\
+      \quad \quad \quad \acs{hog} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Liu2013} \\
+      \quad \quad \quad Shape context & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Liu2013} \\
+      \quad \quad \quad \acs{lbp} & $^{\text{{\cmarksmall}{\cmarksmall}{\cmarksmall}}}$\cite{Liu2013} \\
+      \quad \quad Anatomical-based & \cite{Litjens2012,Litjens2014,Lv2009} \\ \\ [-1.5ex]
+      \textbf{\ac{dce} signal:} & \\ \\ [-1.5ex]
+      \quad Whole spectra approach & \cite{Ampeliotis2007,Ampeliotis2008} \\
+      \quad Semi-quantitative approach & $^{\text{{\mmarksmall}}}$\cite{Puech2009}\par \cite{Mazzetti2011,Niaf2011,Niaf2012,Sung2011} \\
+      \quad Quantitative approach &  \\
+      \quad \quad Toft model & $^{\text{{\mmarksmall}}}$\cite{Liu2013,Puech2009}\par \cite{Giannini2013,Langer2009,Litjens2011,Litjens2012,Litjens2014,Mazzetti2011,Niaf2011,Niaf2012} \\
+      \quad \quad Brix model & $^{\text{{\mmarksmall}}}$\cite{Artan2009,Artan2010,Ozer2009,Ozer2010}\par \cite{Liu2009,Sung2011} \\
+      \quad \quad Weibull function & \cite{Giannini2013,Mazzetti2011} \\
+      \quad \quad PUM & \cite{Giannini2013,Mazzetti2011} \\
+      \\ [-1.5ex]
+      \textbf{\ac{mrsi} signal:} & \\ \\ [-1.5ex]
+      \quad Whole spectra approach & \cite{Kelm2007,Matulewicz2013,Parfait2012,Tiwari2007,Tiwari2008,Tiwari2009,Tiwari2009a,Tiwari2010,Tiwari2013,Viswanath2008} \\
+      \quad Quantification approach & \cite{Kelm2007,Parfait2012} \\
+      \quad Wavelet-based approach & \cite{Tiwari2012} \\ \\ [-1.5ex]
+      \hline
+    \end{tabular}
+    \begin{tablenotes}
       \footnotesize
-      \item Notes:
-      \item ( {\cmarksmall}$|$- {\cmarksmall}$|$- {\cmarksmall}$|$- ): triplet stating of the implementation or not of the feature for respectively \ac{t2w}-\ac{mri} images, \ac{dce}-\ac{mri} images, \ac{dw}-\ac{mri} images.
-      \item {\cmarksmall}: used or implemented.
-      \item {\mmarksmall}: partially implemented.
+    \item Notes:
+    \item ( {\cmarksmall}$|$- {\cmarksmall}$|$- {\cmarksmall}$|$- ): triplet stating of the implementation or not of the feature for respectively \ac{t2w}-\ac{mri} images, \ac{dce}-\ac{mri} images, \ac{dw}-\ac{mri} images.
+    \item {\cmarksmall}: used or implemented.
+    \item {\mmarksmall}: partially implemented.
     \end{tablenotes}
-	\end{threeparttable}
-	\label{tab:feat}
+  \end{threeparttable}
 \end{table*}
 \restoregeometry
 
 
 \begin{table*}
-	\caption{Parameters used as features for a \ac{dce} semi-quantitative analysis in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.35\linewidth} p{.60\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Semi-quantitative features} & \textbf{Explanations} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textit{Amplitude features:} & \\ \\ [-1.5ex]
-		\quad $S_0$ & Amplitude at the onset of the enhancement \\
-		\quad $S_{\max}$ & Amplitude corresponding to $95\%$ of the maximum amplitude \\
-		\quad $S_{p}$ & Amplitude corresponding to the maximum amplitude \\
-		\quad $S_f$ & Amplitude at the final time point \\ \\ [-1.5ex]
-		\textit{Time features:} & \\ \\ [-1.5ex]
-		\quad $t_0$ & Time at the onset of the enhancement \\
-		\quad $t_{\max}$ & Time corresponding to $95\%$ of the maximum amplitude \\
-		\quad $t_{p}$ & Time corresponding to the maximum amplitude \\
-		\quad $t_{f}$ & Final time \\
-		\quad $t_{tp}$ & Time to peak which is the time from $t_0$ to $t_p$ \\ \\ [-1.5ex]
-		\textit{Derivatives and integral features:} & \\ \\ [-1.5ex]
-		\quad $WI$ & Wash-in rate corresponding to the signal slope from $t_0$ to $t_m$ or $t_p$ \\
-		\quad $WO$ & Wash-out rate corresponding to the signal slope from $t_m$ or $t_p$ to $t_p$ \\
-		\quad $IAUC$ & Initial area under the curve which is the area between $t_0$ to $t_{f}$ \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:semiqua}
+  \caption{Parameters used as features for a \ac{dce} semi-quantitative analysis in \ac{cad} systems.}\label{tab:semiqua}
+  \small
+  \renewcommand{\arraystretch}{.8}
+  \begin{tabular}{p{.35\linewidth} p{.60\linewidth}}
+    \hline \\ [-1.5ex]
+    \textbf{Semi-quantitative features} & \textbf{Explanations} \\ \\ [-1.5ex]
+    \hline \\ [-1.5ex]
+    \textit{Amplitude features:} & \\ \\ [-1.5ex]
+    \quad $S_0$ & Amplitude at the onset of the enhancement \\
+    \quad $S_{\max}$ & Amplitude corresponding to $95\%$ of the maximum amplitude \\
+    \quad $S_{p}$ & Amplitude corresponding to the maximum amplitude \\
+    \quad $S_f$ & Amplitude at the final time point \\ \\ [-1.5ex]
+    \textit{Time features:} & \\ \\ [-1.5ex]
+    \quad $t_0$ & Time at the onset of the enhancement \\
+    \quad $t_{\max}$ & Time corresponding to $95\%$ of the maximum amplitude \\
+    \quad $t_{p}$ & Time corresponding to the maximum amplitude \\
+    \quad $t_{f}$ & Final time \\
+    \quad $t_{tp}$ & Time to peak which is the time from $t_0$ to $t_p$ \\ \\ [-1.5ex]
+    \textit{Derivatives and integral features:} & \\ \\ [-1.5ex]
+    \quad $WI$ & Wash-in rate corresponding to the signal slope from $t_0$ to $t_m$ or $t_p$ \\
+    \quad $WO$ & Wash-out rate corresponding to the signal slope from $t_m$ or $t_p$ to $t_p$ \\
+    \quad $IAUC$ & Initial area under the curve which is the area between $t_0$ to $t_{f}$ \\ \\ [-1.5ex]
+    \hline
+  \end{tabular}
 \end{table*}
 
 \begin{table}
-	\caption{Overview of the feature selection and extraction methods used in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Dimension reduction methods} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textit{Feature selection:} & \\ \\ [-1.5ex]
-		\quad Statistical test & \cite{Niaf2011,Niaf2012,Vos2012} \\
-		\quad \ac{mi}-based methods & \cite{Niaf2011,Niaf2012,Vos2008} \\ \\ [-1.5ex]
-		\textit{Feature extraction:} & \\ \\ [-1.5ex]
-		\quad Linear mapping & \\
-		\quad \quad \acs{pca} & \cite{Tiwari2008,Tiwari2009} \\
-		\quad Non-linear mapping & \\
-		\quad \quad Laplacian eigenmaps & \cite{Tiwari2007,Tiwari2009a,Tiwari2009,Tiwari2010,Viswanath2008,Viswanath2011} \\
-		\quad \quad \acs{lle} and \acs{lle}-based & \cite{Tiwari2008,Tiwari2009,Viswanath2008a,Viswanath2008} \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:featext}
+  \caption{Overview of the feature selection and extraction methods used in \ac{cad} systems.}\label{tab:featext}
+  \small
+  \renewcommand{\arraystretch}{.8}
+  \begin{tabular}{p{.65\linewidth} p{.25\linewidth}}
+    \hline \\ [-1.5ex]
+    \textbf{Dimension reduction methods} & \textbf{References} \\ \\ [-1.5ex]
+    \hline \\ [-1.5ex]
+    \textit{Feature selection:} & \\ \\ [-1.5ex]
+    \quad Statistical test & \cite{Niaf2011,Niaf2012,Vos2012} \\
+    \quad \ac{mi}-based methods & \cite{Niaf2011,Niaf2012,Vos2008} \\ \\ [-1.5ex]
+    \textit{Feature extraction:} & \\ \\ [-1.5ex]
+    \quad Linear mapping & \\
+    \quad \quad \acs{pca} & \cite{Tiwari2008,Tiwari2009} \\
+    \quad Non-linear mapping & \\
+    \quad \quad Laplacian eigenmaps & \cite{Tiwari2007,Tiwari2009a,Tiwari2009,Tiwari2010,Viswanath2008,Viswanath2011} \\
+    \quad \quad \acs{lle} and \acs{lle}-based & \cite{Tiwari2008,Tiwari2009,Viswanath2008a,Viswanath2008} \\ \\ [-1.5ex]
+    \hline
+  \end{tabular}
 \end{table} 
 
 \begin{table}
-	\caption{Overview of the classifiers used in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.60\linewidth} p{.30\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Classifier} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\textit{Rule-based method:} & \cite{Lv2009,Puech2009} \\ \\ [-1.5ex]
-		\textit{Clustering methods:} & \\
-		\quad $k$-means clustering & \cite{Tiwari2007,Tiwari2008,Tiwari2009} \\
-		\quad \acs{knn} & \cite{Litjens2012,Niaf2011,Niaf2012} \\ \\ [-1.5ex]
-		\textit{Linear model classifiers:} & \\
-		\quad \acs{lda} & \cite{Antic2013,Chan2003,Litjens2014,Niaf2011,Niaf2012,Vos2012} \\
-		\quad Logistic regression & \cite{Kelm2007,Langer2009} \\ \\ [-1.5ex]
-		\textit{Non-linear classifier:} & \\
-		\quad \acs{qda} & \cite{Viswanath2012} \\ \\ [-1.5ex]
-		\textit{Probabilistic classifier:} & \\
-		\quad Naive Bayes & \cite{Giannini2013,Mazzetti2011,Niaf2011,Niaf2012} \\ \\ [-1.5ex]
-		\textit{Ensemble learning classifiers:} & \\
-		\quad AdaBoost & \cite{Litjens2014,Lopes2011} \\
-		\quad Random forest & \cite{Kelm2007,Litjens2014,Tiwari2012,Tiwari2013,Viswanath2009} \\
-		\quad Probabilistic boosting tree & \cite{Tiwari2009,Tiwari2010,Tiwari2012} \\ \\ [-1.5ex]
-		\textit{Kernel method:} & \\
-		\quad Gaussian processes & \cite{Kelm2007} \\ \\ [-1.5ex]
-		\textit{Sparse kernel methods:} & \\
-		\quad \acs{svm} & \cite{Artan2009,Artan2010,Chan2003,Litjens2011,Litjens2012,Liu2013,Lopes2011,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Parfait2012,Peng2013,Sung2011,Tiwari2012,Vos2008,Vos2008a,Vos2010,Vos2012} \\
-		\quad \acs{rvm} & \cite{Ozer2009,Ozer2010} \\ \\ [-1.5ex]
-		\textit{Neural network:} & \\ 
-		\quad Multiple layer perceptron & \cite{Matulewicz2013,Parfait2012} \\
-		\quad Probabilistic neural network & \cite{Ampeliotis2007,Ampeliotis2008,Viswanath2011} \\ \\ [-1.5ex]
-		\textit{Graphical model classifiers:} & \\
-		\quad Markov random field & \cite{Liu2009,Ozer2010} \\
-		\quad Conditional random field & \cite{Artan2009,Artan2010} \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:class}
+  \caption{Overview of the classifiers used in \ac{cad} systems.}\label{tab:class}
+  \small
+  \renewcommand{\arraystretch}{.8}
+  \begin{tabular}{p{.60\linewidth} p{.30\linewidth}}
+    \hline \\ [-1.5ex]
+    \textbf{Classifier} & \textbf{References} \\ \\ [-1.5ex]
+    \hline \\ [-1.5ex]
+    \textit{Rule-based method:} & \cite{Lv2009,Puech2009} \\ \\ [-1.5ex]
+    \textit{Clustering methods:} & \\
+    \quad $k$-means clustering & \cite{Tiwari2007,Tiwari2008,Tiwari2009} \\
+    \quad \acs{knn} & \cite{Litjens2012,Niaf2011,Niaf2012} \\ \\ [-1.5ex]
+    \textit{Linear model classifiers:} & \\
+    \quad \acs{lda} & \cite{Antic2013,Chan2003,Litjens2014,Niaf2011,Niaf2012,Vos2012} \\
+    \quad Logistic regression & \cite{Kelm2007,Langer2009} \\ \\ [-1.5ex]
+    \textit{Non-linear classifier:} & \\
+    \quad \acs{qda} & \cite{Viswanath2012} \\ \\ [-1.5ex]
+    \textit{Probabilistic classifier:} & \\
+    \quad Naive Bayes & \cite{Giannini2013,Mazzetti2011,Niaf2011,Niaf2012} \\ \\ [-1.5ex]
+    \textit{Ensemble learning classifiers:} & \\
+    \quad AdaBoost & \cite{Litjens2014,Lopes2011} \\
+    \quad Random forest & \cite{Kelm2007,Litjens2014,Tiwari2012,Tiwari2013,Viswanath2009} \\
+    \quad Probabilistic boosting tree & \cite{Tiwari2009,Tiwari2010,Tiwari2012} \\ \\ [-1.5ex]
+    \textit{Kernel method:} & \\
+    \quad Gaussian processes & \cite{Kelm2007} \\ \\ [-1.5ex]
+    \textit{Sparse kernel methods:} & \\
+    \quad \acs{svm} & \cite{Artan2009,Artan2010,Chan2003,Litjens2011,Litjens2012,Liu2013,Lopes2011,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Parfait2012,Peng2013,Sung2011,Tiwari2012,Vos2008,Vos2008a,Vos2010,Vos2012} \\
+    \quad \acs{rvm} & \cite{Ozer2009,Ozer2010} \\ \\ [-1.5ex]
+    \textit{Neural network:} & \\ 
+    \quad Multiple layer perceptron & \cite{Matulewicz2013,Parfait2012} \\
+    \quad Probabilistic neural network & \cite{Ampeliotis2007,Ampeliotis2008,Viswanath2011} \\ \\ [-1.5ex]
+    \textit{Graphical model classifiers:} & \\
+    \quad Markov random field & \cite{Liu2009,Ozer2010} \\
+    \quad Conditional random field & \cite{Artan2009,Artan2010} \\ \\ [-1.5ex]
+    \hline
+  \end{tabular}
 \end{table}
 
 
 \begin{table}
-	\caption{Overview of the model validation techniques used in \ac{cad} systems.}
-	\small
-	%\renewcommand{\arraystretch}{1.5}
-	\begin{tabular}{p{.55\linewidth} p{.35\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Model validation techniques} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\quad \acs{loo} & \cite{Ampeliotis2007,Ampeliotis2008,Antic2013,Artan2009,Artan2010,Chan2003,Giannini2013,Kelm2007,Litjens2012,Litjens2014,Mazzetti2011,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Peng2013,Puech2009,Tiwari2013,Viswanath2011,Vos2008,Vos2008,Vos2010} \\ \\ [-1.5ex]
-		\quad \acs{kcv} & \cite{Litjens2011,Parfait2012,Tiwari2009,Tiwari2009a,Tiwari2010,Tiwari2012,Viswanath2012,Viswanath2009,Vos2012} \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:valmod}
+  \caption{Overview of the model validation techniques used in \ac{cad} systems.}\label{tab:valmod}
+  \small
+  % \renewcommand{\arraystretch}{1.5}
+  \begin{tabular}{p{.55\linewidth} p{.35\linewidth}}
+    \hline \\ [-1.5ex]
+    \textbf{Model validation techniques} & \textbf{References} \\ \\ [-1.5ex]
+    \hline \\ [-1.5ex]
+    \quad \acs{loo} & \cite{Ampeliotis2007,Ampeliotis2008,Antic2013,Artan2009,Artan2010,Chan2003,Giannini2013,Kelm2007,Litjens2012,Litjens2014,Mazzetti2011,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Peng2013,Puech2009,Tiwari2013,Viswanath2011,Vos2008,Vos2008,Vos2010} \\ \\ [-1.5ex]
+    \quad \acs{kcv} & \cite{Litjens2011,Parfait2012,Tiwari2009,Tiwari2009a,Tiwari2010,Tiwari2012,Viswanath2012,Viswanath2009,Vos2012} \\ \\ [-1.5ex]
+    \hline
+  \end{tabular}
 \end{table}
 
 
 \begin{table}
-	\caption{Overview of the evaluation metrics used in \ac{cad} systems.}
-	\small
-	\renewcommand{\arraystretch}{.8}
-	\begin{tabular}{p{.55\linewidth} p{.35\linewidth}}
-		\hline \\ [-1.5ex]
-		\textbf{Evaluation metrics} & \textbf{References} \\ \\ [-1.5ex]
-		\hline \\ [-1.5ex]
-		\quad Accuracy & \cite{Artan2009,Artan2010,Liu2009,Sung2011,Tiwari2012} \\ \\ [-1.5ex]
-		\quad Sensitivity - Specificity & \cite{Artan2009,Artan2010,Giannini2013,Liu2009,Lopes2011,Mazzetti2011,Ozer2009,Ozer2010,Parfait2012,Peng2013,Tiwari2008,Tiwari2009,Viswanath2008,Viswanath2008a} \\ \\ [-1.5ex]
-		\quad \acs{roc} - \acs{auc} & \cite{Ampeliotis2008,Antic2013,Chan2003,Giannini2013,Kelm2007,Langer2009,Liu2013,Lopes2011,Lv2009,Matulewicz2013,Mazzetti2011,Niaf2011,Niaf2012,Peng2013,Tiwari2009a,Tiwari2010,Tiwari2012,Tiwari2013,Viswanath2009,Viswanath2011,Viswanath2012,Vos2008,Vos2008a,Vos2010} \\ \\ [-1.5ex]
-		\quad \acs{froc} & \cite{Litjens2011,Litjens2012,Vos2012} \\ \\ [-1.5ex]
-		\quad Dice's coefficient & \cite{Artan2009,Artan2010,Liu2009,Ozer2009} \\ \\ [-1.5ex]
-		\hline
-	\end{tabular}
-	\label{tab:evatec}
+  \caption{Overview of the evaluation metrics used in \ac{cad} systems.}\label{tab:evatec}
+  \small
+  \renewcommand{\arraystretch}{.8}
+  \begin{tabular}{p{.55\linewidth} p{.35\linewidth}}
+    \hline \\ [-1.5ex]
+    \textbf{Evaluation metrics} & \textbf{References} \\ \\ [-1.5ex]
+    \hline \\ [-1.5ex]
+    \quad Accuracy & \cite{Artan2009,Artan2010,Liu2009,Sung2011,Tiwari2012} \\ \\ [-1.5ex]
+    \quad Sensitivity - Specificity & \cite{Artan2009,Artan2010,Giannini2013,Liu2009,Lopes2011,Mazzetti2011,Ozer2009,Ozer2010,Parfait2012,Peng2013,Tiwari2008,Tiwari2009,Viswanath2008,Viswanath2008a} \\ \\ [-1.5ex]
+    \quad \acs{roc} - \acs{auc} & \cite{Ampeliotis2008,Antic2013,Chan2003,Giannini2013,Kelm2007,Langer2009,Liu2013,Lopes2011,Lv2009,Matulewicz2013,Mazzetti2011,Niaf2011,Niaf2012,Peng2013,Tiwari2009a,Tiwari2010,Tiwari2012,Tiwari2013,Viswanath2009,Viswanath2011,Viswanath2012,Vos2008,Vos2008a,Vos2010} \\ \\ [-1.5ex]
+    \quad \acs{froc} & \cite{Litjens2011,Litjens2012,Vos2012} \\ \\ [-1.5ex]
+    \quad Dice's coefficient & \cite{Artan2009,Artan2010,Liu2009,Ozer2009} \\ \\ [-1.5ex]
+    \hline
+  \end{tabular}
 \end{table}
 
 %%% Local Variables: 
