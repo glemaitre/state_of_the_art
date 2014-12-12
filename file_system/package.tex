@@ -45,7 +45,12 @@
 \usepackage{arydshln}
 
 %% To use URL referencing
-\usepackage[draft,hidelinks]{hyperref}
+\usepackage[breaklinks=true,%
+  colorlinks=true,%
+  linkcolor=blue,anchorcolor=blue,%
+  citecolor=blue,filecolor=blue,%
+  menucolor=blue,pagecolor=blue,%
+  urlcolor=blue]{hyperref}
 
 %% In order to draw some graphs
 \usepackage{tikz,xifthen}
@@ -74,6 +79,3 @@
 \newcommand{\semiAutoColor}{(light-green)}
 \definecolor{fullyGuided}{rgb}{ 0.4275    0.6902    0.3176}
 \newcommand{\fullyGuidedColor}{(dark-green)}
-
-\usepackage[numbers]{natbib}
-\newcommand\Mycite[1]{\citeauthor{#1}~[\citeyear{#1}]}
