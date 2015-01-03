@@ -24,7 +24,7 @@ This section will focus on image-based features detection. Two main strategies t
 
   In the same spirit, Viswanath et al. in~\cite{Viswanath2012} projected \ac{t2w} images into the wavelet space and used the coefficients obtained from the decomposition as features. The wavelet family used for the decomposition was the Haar wavelet.
 
-  Litjens et al. in~\cite{Litjens2014} compute texture map based on \ac{t2w} images using a Gaussian filter bank~\cite{Leung2001}.
+  Litjens et al. in~\cite{Litjens2014} computed texture map based on \ac{t2w} images using a Gaussian filter bank~\cite{Leung2001}.
 
   The position of a voxel within the prostate was also considered a possible feature as in~\cite{Litjens2011,Litjens2014}. In these works, the Euclidean distance from each voxel to the prostate center as well as the individual distance in the three directions $x$, $y$ and $z$ are computed. Chan et al.~\cite{Chan2003} embedded the same information but this time using cylindrical coordinates $r$, $\theta$ and $z$ corresponding to the radius, azimuth and elevation respectively.
 
@@ -69,7 +69,7 @@ This section will focus on image-based features detection. Two main strategies t
 
 \item[$-$] \textbf{\textit{Quantification approach:}} We can reiterate that in \ac{mrsi} only few biological markers (cf., choline, creatine and citrate metabolites mainly) are known to be useful to discriminate \ac{cap} and healthy tissue. Then, concentrations of these metabolites can be considered as a feature used for classification. In order to perform this quantification, four different approaches have been used. The QUEST~\cite{Ratiney2005}, AMARES~\cite{Vanhamme1997} and VARPRO~\cite{Coleman1993} models were used in~\cite{Kelm2007}. They are all time-domain quantification methods varying by the type of pre-knowledge embedded and the optimization approaches used to solve the quantification problem. Unlike the time-domain quantification approaches, Parfait et al.~\cite{Parfait2012} used the LcModel approach~\cite{Provencher1993} which solves the optimization problem in the frequency domain.
 
-  Once the different concentrations are computed, Kelm et al.~\cite{Kelm2007} calculated the relative concentrations can be computed as the ratio of choline plus creatine to citrate or the ratio of citrate to choline plus creatine plus citrate and were used as features. However, Parfait et al.~\cite{Parfait2012} used each metabolite concentrations individually.
+  Once the different concentrations are computed, Kelm et al.~\cite{Kelm2007} calculated the relative concentrations while Parfait et al.~\cite{Parfait2012} used each metabolite concentrations individually.
 
 \item[$-$] \textbf{\textit{Wavelet decomposition approach:}} Tiwari et al.~\cite{Tiwari2012} performed a wavelet packet decomposition~\cite{Coifman1992} with the Haar wavelet basis function and used the coefficients of this decomposition as features for further classification.
 
