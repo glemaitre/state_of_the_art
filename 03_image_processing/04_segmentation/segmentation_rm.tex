@@ -1,28 +1,24 @@
 \subsection{Segmentation} \label{subsec:segmentation}
 
-The segmentation task consists of delineating the prostate boundaries in the \ac{mri}. This procedure is of particular importance for focusing the posterior processing on the organ of interest~\cite{Ghose2012}. In this section, only the segmentation methods used in \ac{cad} systems are presented and summarized in \ac{tab}~\ref{tab:seg}. An exhaustive review of prostate segmentation methods in \ac{mri} can be found in~\cite{Ghose2012} as well as prostate modelling in~\cite{Chilali2014}.
-
-\subsubsection{MRI-based segmentation}
+The segmentation task consists of delineating the prostate boundaries in the \ac{mri} and is of particular importance for focusing the posterior processing on the organ of interest~\cite{Ghose2012}. In this section, only the segmentation methods used in \ac{cad} systems are presented and summarized in \ac{tab}~\ref{tab:seg}, and are mostly intensity based. An exhaustive review of prostate segmentation methods in \ac{mri} can be found in~\cite{Ghose2012} as well as prostate modelling in~\cite{Chilali2014}.
 
 \setenumerate{listparindent=\parindent,itemsep=10px}
 \setlist{noitemsep}
 \begin{enumerate}[leftmargin=*]
 
-\item[$-$] \textbf{\textit{Manual segmentation:}} To highlight the importance of prostate segmentation task in \ac{cad} systems, it is interesting to note the large number of studies which segment manually the prostate organs~\cite{Artan2009,Artan2010,Matulewicz2013,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Puech2009,Vos2008,Vos2008a}. In all the cases, the boundaries of the prostate gland are manually defined in order to limit the further processing to only this area. This approach ensures the right delineation of the organ nevertheless this procedure is highly time consuming and should be perform by a radiologist.
+\item[$-$] \textbf{\textit{Manual segmentation:}} To highlight the importance of prostate segmentation task in \ac{cad} systems, it is interesting to note the large number of studies which manually segment the prostate organs~\cite{Artan2009,Artan2010,Matulewicz2013,Niaf2011,Niaf2012,Ozer2009,Ozer2010,Puech2009,Vos2008,Vos2008a}. In all the cases, the boundaries of the prostate gland are manually defined in order to limit the further processing to only this area. This approach ensures the right delineation of the organ nevertheless this procedure is highly time consuming and should be performed by a radiologist.
 
 \item[$-$] \textbf{\textit{Atlas-based segmentation:}} Litjens et al. in~\cite{Litjens2012} used a multi-atlas-based segmentation~\cite{Klein2008} using multi-modal images (e.g., \ac{t2w}-\ac{mri} and \ac{adc} map) to segment the prostate with an additional pattern recognition method to differentiate \ac{cg} and \ac{pz} as proposed in~\cite{Litjens2012a}. This method consists of three different steps: (i) the registration between each atlas and the multi-modal images, (ii) the atlas selection and finally (iii) the classification of the prostate segmented voxels in either \ac{cg} or \ac{pz}. 
 
-  Litjens et al. in~\cite{Litjens2014} used an almost identical algorithm proposed in PROMISE12 challenge~\cite{Litjens2014a}. Their segmentation method is also based on multi-atlas multi-modal images. However, SIMPLE method~\cite{Langerak2010} is used to combine labels after the registration of the different atlas to obtain the final segmentation.
+  Litjens et al. in~\cite{Litjens2014} used an almost identical algorithm proposed in the PROMISE12 challenge~\cite{Litjens2014a}. Their segmentation method is also based on multi-atlas multi-modal images, but the SIMPLE method~\cite{Langerak2010} is used instead to combine labels after the registration of the different atlas to obtain the final segmentation.
 
 \item[$-$] \textbf{\textit{Model-based segmentation:}} Viswanath et al. in~\cite{Viswanath2008a,Viswanath2009} used the \ac{mantra} method as proposed in~\cite{Toth2008}. \ac{mantra} is closely related to the \ac{asm} from~\cite{Cootes1995}. This algorithm consists of two stages: (i) a training stage where a shape and appearance model is generated and (ii) the actual segmentation performed based on the learned model. 
 
-  Litjens et al.~\cite{Litjens2011} and Vos et al.~\cite{Vos2012} used an approach proposed in~\cite{Huisman2010} in which the bladder, prostate and rectum are segmented. The segmentation task is performed as an optimization problem taking into account three parameters into account linked to organs such as: (i) the shape, (ii) the location and (iii) the respective angles between them. Furthermore, Litjens et al.~\cite{Litjens2011} used only \ac{adc} map to encode the appearance whereas Vos et al.~\cite{Vos2012} used both \ac{adc} and T$_2$ maps.
+  Litjens et al.~\cite{Litjens2011} and Vos et al.~\cite{Vos2012} used an approach proposed in~\cite{Huisman2010} in which the bladder, prostate and rectum are segmented. The segmentation task is performed as an optimization problem taking three parameters into account linked to organs such as: (i) the shape, (ii) the location and (iii) the respective angles between them. Furthermore, Litjens et al.~\cite{Litjens2011} used only the \ac{adc} map to encode the appearance whereas Vos et al.~\cite{Vos2012} used both \ac{adc} and T$_2$ maps.
 
 \end{enumerate}
 
-\subsubsection{MRSI-based segmentation}
-
-Tiwari et al. in~\cite{Tiwari2009} localized the voxels corresponding to the prostate organ using a hierarchical spectral clustering. First, each \ac{mrsi} spectrum is projected into a lower dimension space using graph embedding~\cite{Shi2000}.
+Only the work of Tiwari et al. in~\cite{Tiwari2009} proposes a segmentation based on \ac{mrsi}. Authors localized the voxels corresponding to the prostate organ using a hierarchical spectral clustering. First, each \ac{mrsi} spectrum is projected into a lower dimension space using graph embedding~\cite{Shi2000}.
 
 %%% Local Variables: 
 %%% mode: latex
