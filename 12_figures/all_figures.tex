@@ -380,27 +380,27 @@
   \hspace*{\fill}
   \subfigure[]{
     \label{fig:auc15}
-    \begin{tikzpicture}[scale=.5,every node/.style={scale=0.5}]
+    \begin{tikzpicture}[scale=.48,every node/.style={scale=0.48}]
 
       \def\labels{
-        {\color{semiAuto}\cite{Ampeliotis2008}},
-        {\color{semiAuto}\cite{Antic2013}},
-        {\color{semiAuto}\cite{Chan2003}},
-        {\color{semiAuto}\cite{Giannini2013}},
-        {\color{semiAuto}\cite{Langer2009}},
-        {\color{semiAuto}\cite{Lopes2011}},
-        {\color{semiAuto}\cite{Lv2009}},
-        {\color{semiAuto}\cite{Niaf2011}},
-        {\color{semiAuto}\cite{Niaf2012}},
-        {\color{semiAuto}\cite{Tiwari2009a}},
-        {\color{semiAuto}\cite{Tiwari2010}},
-        {\color{semiAuto}\cite{Tiwari2012}},
-        {\color{semiAuto}\cite{Tiwari2013}},
-        {\color{semiAuto}\cite{Vos2008}},
-        {\color{semiAuto}\cite{Vos2010}},
-        {\color{semiAuto}\cite{Mazzetti2011}},
-        {\color{semiAuto}\cite{Puech2009}},
-        {\color{semiAuto}\cite{Vos2008a}}
+        {\color{blue}\cite{Ampeliotis2008}},
+        {\color{blue}\cite{Antic2013}},
+        {\color{blue}\cite{Chan2003}},
+        {\color{blue}\cite{Giannini2013}},
+        {\color{blue}\cite{Langer2009}},
+        {\color{blue}\cite{Lopes2011}},
+        {\color{blue}\cite{Lv2009}},
+        {\color{blue}\cite{Niaf2011}},
+        {\color{blue}\cite{Niaf2012}},
+        {\color{blue}\cite{Tiwari2009a}},
+        {\color{blue}\cite{Tiwari2010}},
+        {\color{blue}\cite{Tiwari2012}},
+        {\color{blue}\cite{Tiwari2013}},
+        {\color{blue}\cite{Vos2008}},
+        {\color{blue}\cite{Vos2010}},
+        {\color{blue}\cite{Mazzetti2011}},
+        {\color{blue}\cite{Puech2009}},
+        {\color{blue}\cite{Vos2008a}}
       }
 
       \def\reward{90,94,84,87,71,93,97,87,87,84,91,90,85,91,97,92,77,90}
@@ -435,14 +435,14 @@
       % draw the path of the percentages
       \def\aux{{\reward}}
       \pgfmathsetmacro\origin{\aux[\nbeams-1]} 
-      \draw [blue, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
+      \draw [semiAuto, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
 
       % label all the percentags
       \foreach \n [count=\ni] in \dbSize 
       {
 	\pgfmathsetmacro\cAngle{{(\ni*(360/\nbeams))+\globalRotation}}
 	\pgfmathsetmacro\nreward{\aux[\ni-1]}
-	\draw (\cAngle:{\cZoom*1.4}) node[align=center] {{\color{blue}\nreward $\%$} \\ {\color{red}\n} };
+	\draw (\cAngle:{\cZoom*1.5}) node[align=center] {{\color{semiAuto}\nreward $\%$} \\ {\color{red}\n} };
       } ;
 
       % draw the database rose
@@ -462,25 +462,25 @@
 
  	\pgfmathsetmacro\initialAngle{(\contadorQueNoSeCalcular*\beamAngle)+\halfAngle+\globalRotation}
  	\pgfmathsetmacro\finalAngle  {((\numElm+\contadorQueNoSeCalcular)*\beamAngle)+\halfAngle+\globalRotation}
-	\pgfmathsetmacro\l  {\cZoom*1.5+.3pt}
-	\draw (\initialAngle:{\cZoom*1.6}) -- (\initialAngle:{\cZoom*1.1});
+	\pgfmathsetmacro\l  {\cZoom*1.65+.3pt}
+	\draw (\initialAngle:{\cZoom*1.7}) -- (\initialAngle:{\cZoom*1.1});
 	\draw [ |<->|,>=latex] (\initialAngle:\l) arc (\initialAngle:\finalAngle:\l) ;    									 
-	\pgfmathsetmacro\r  {\cZoom*1.5+.45pt}
+	\pgfmathsetmacro\r  {\cZoom*1.65+.45pt}
     	{\draw [decoration={raise=4pt,text along path,text={\name},text align={center}},decorate] (\finalAngle:\r) arc (\finalAngle:\initialAngle:\r);}
       }
       
     \end{tikzpicture}}\hfill
   \subfigure[]{
     \label{fig:auc30}
-    \begin{tikzpicture}[scale=.5,every node/.style={scale=0.5}]
+    \begin{tikzpicture}[scale=.48,every node/.style={scale=0.48}]
 
       \def\labels{
-        {\color{semiAuto}\cite{Litjens2014}},
-        {\color{semiAuto}\cite{Liu2013}},
-        {\color{semiAuto}\cite{Peng2013}},
-        {\color{semiAuto}\cite{Viswanath2009}},
-        {\color{semiAuto}\cite{Viswanath2011}},
-        {\color{semiAuto}\cite{Viswanath2012}}
+        {\color{blue}\cite{Litjens2014}},
+        {\color{blue}\cite{Liu2013}},
+        {\color{blue}\cite{Peng2013}},
+        {\color{blue}\cite{Viswanath2009}},
+        {\color{blue}\cite{Viswanath2011}},
+        {\color{blue}\cite{Viswanath2012}}
       }
 
       \def\reward{81,83,95,82,77,80}
@@ -515,14 +515,14 @@
       % draw the path of the percentages
       \def\aux{{\reward}}
       \pgfmathsetmacro\origin{\aux[\nbeams-1]} 
-      \draw [blue, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
+      \draw [semiAuto, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
 
       % label all the percentags
       \foreach \n [count=\ni] in \dbSize 
       {
 	\pgfmathsetmacro\cAngle{{(\ni*(360/\nbeams))+\globalRotation}}
 	\pgfmathsetmacro\nreward{\aux[\ni-1]}
-	\draw (\cAngle:{\cZoom*1.4}) node[align=center] {{\color{blue}\nreward $\%$} \\ {\color{red}\n} };
+	\draw (\cAngle:{\cZoom*1.5}) node[align=center] {{\color{semiAuto}\nreward $\%$} \\ {\color{red}\n} };
       } ;
 
       % draw the database rose
@@ -542,17 +542,17 @@
 
  	\pgfmathsetmacro\initialAngle{(\contadorQueNoSeCalcular*\beamAngle)+\halfAngle+\globalRotation}
  	\pgfmathsetmacro\finalAngle  {((\numElm+\contadorQueNoSeCalcular)*\beamAngle)+\halfAngle+\globalRotation}
-	\pgfmathsetmacro\l  {\cZoom*1.5+.3pt}
-	\draw (\initialAngle:{\cZoom*1.6}) -- (\initialAngle:{\cZoom*1.1});
+	\pgfmathsetmacro\l  {\cZoom*1.65+.3pt}
+	\draw (\initialAngle:{\cZoom*1.7}) -- (\initialAngle:{\cZoom*1.1});
 	\draw [ |<->|,>=latex] (\initialAngle:\l) arc (\initialAngle:\finalAngle:\l) ;    									 
-	\pgfmathsetmacro\r  {\cZoom*1.5+.45pt}
+	\pgfmathsetmacro\r  {\cZoom*1.65+.45pt}
     	{\draw [decoration={raise=4pt,text along path,  text={\name},text align={center}},decorate] (\finalAngle:\r) arc (\finalAngle:\initialAngle:\r);}
       }
       
     \end{tikzpicture}
   }
   \hspace*{\fill}
-  \caption{Comparison of the results in terms of AUC for 1.5 and 3.0 Tesla \ac{mri} scanners. The {\color{blue}blue} value represents the metric and are graphically reported in the blue curve in the center of the figure. The {\color{red}red} value and areas correspond to the number of patients in the dataset. The numbers between brackets in {\color{semiAuto}green} correspond to the reference as reported in \acs{tab}~\ref{tab:sumpap}.}
+  \caption{Numerical and graphical comparison of the results in terms of AUC for 1.5 and 3.0 Tesla \ac{mri} scanners. The {\color{semiAuto}green} value represents the metric and are graphically reported in the {\color{semiAuto}green} curve in the center of the figure. The {\color{red}red} value and areas correspond to the number of patients in the dataset. The numbers between brackets in {blue\color{blue}} correspond to the reference as reported in \acs{tab}~\ref{tab:sumpap}.}
   \label{fig:auc}
 \end{figure*}
 
@@ -563,21 +563,21 @@
   \hspace*{\fill}
   \subfigure[]{
     \label{fig:sens15}
-    \begin{tikzpicture}[scale=.5,every node/.style={scale=0.5}]
+    \begin{tikzpicture}[scale=.48,every node/.style={scale=0.48}]
 
       \def\labels{
-        {\color{semiAuto}\cite{Artan2009}},
-        {\color{semiAuto}\cite{Artan2010}},
-        {\color{semiAuto}\cite{Giannini2013}},
-        {\color{semiAuto}\cite{Liu2009}},
-        {\color{semiAuto}\cite{Lopes2011}},
-        {\color{semiAuto}\cite{Ozer2009}},
-        {\color{semiAuto}\cite{Ozer2010}},
-        {\color{semiAuto}\cite{Tiwari2009a}},
-        {\color{semiAuto}\cite{Viswanath2008}},
-        {\color{semiAuto}\cite{Mazzetti2011}},
-        {\color{semiAuto}\cite{Puech2009}},
-        {\color{semiAuto}\cite{Tiwari2008}}
+        {\color{blue}\cite{Artan2009}},
+        {\color{blue}\cite{Artan2010}},
+        {\color{blue}\cite{Giannini2013}},
+        {\color{blue}\cite{Liu2009}},
+        {\color{blue}\cite{Lopes2011}},
+        {\color{blue}\cite{Ozer2009}},
+        {\color{blue}\cite{Ozer2010}},
+        {\color{blue}\cite{Tiwari2009a}},
+        {\color{blue}\cite{Viswanath2008}},
+        {\color{blue}\cite{Mazzetti2011}},
+        {\color{blue}\cite{Puech2009}},
+        {\color{blue}\cite{Tiwari2008}}
       }
 
       \def\reward{74,66,79,90,85,76,78,84,88,82,100,87}
@@ -612,14 +612,14 @@
       % draw the path of the percentages
       \def\aux{{\reward}}
       \pgfmathsetmacro\origin{\aux[\nbeams-1]} 
-      \draw [blue, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
+      \draw [semiAuto, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
 
       % label all the percentags
       \foreach \n [count=\ni] in \dbSize 
       {
 	\pgfmathsetmacro\cAngle{{(\ni*(360/\nbeams))+\globalRotation}}
 	\pgfmathsetmacro\nreward{\aux[\ni-1]}
-	\draw (\cAngle:{\cZoom*1.4}) node[align=center] {{\color{blue}\nreward $\%$} \\ {\color{red}\n} };
+	\draw (\cAngle:{\cZoom*1.5}) node[align=center] {{\color{semiAuto}\nreward $\%$} \\ {\color{red}\n} };
       } ;
 
       % draw the database rose
@@ -639,31 +639,31 @@
 
  	\pgfmathsetmacro\initialAngle{(\contadorQueNoSeCalcular*\beamAngle)+\halfAngle+\globalRotation}
  	\pgfmathsetmacro\finalAngle  {((\numElm+\contadorQueNoSeCalcular)*\beamAngle)+\halfAngle+\globalRotation}
-	\pgfmathsetmacro\l  {\cZoom*1.5+.3pt}
-	\draw (\initialAngle:{\cZoom*1.6}) -- (\initialAngle:{\cZoom*1.1});
+	\pgfmathsetmacro\l  {\cZoom*1.65+.3pt}
+	\draw (\initialAngle:{\cZoom*1.7}) -- (\initialAngle:{\cZoom*1.1});
 	\draw [ |<->|,>=latex] (\initialAngle:\l) arc (\initialAngle:\finalAngle:\l) ;    									 
-	\pgfmathsetmacro\r  {\cZoom*1.5+.45pt}
+	\pgfmathsetmacro\r  {\cZoom*1.65+.45pt}
     	{\draw [decoration={raise=4pt,text along path,  text={\name},text align={center}},decorate] (\finalAngle:\r) arc (\finalAngle:\initialAngle:\r);}
       }
       
     \end{tikzpicture}}\hfill
   \subfigure[]{
     \label{fig:spec15}
-    \begin{tikzpicture}[scale=.5,every node/.style={scale=0.5}]
+    \begin{tikzpicture}[scale=.48,every node/.style={scale=0.48}]
 
       \def\labels{
-        {\color{semiAuto}\cite{Artan2009}},
-        {\color{semiAuto}\cite{Artan2010}},
-        {\color{semiAuto}\cite{Giannini2013}},
-        {\color{semiAuto}\cite{Liu2009}},
-        {\color{semiAuto}\cite{Lopes2011}},
-        {\color{semiAuto}\cite{Ozer2009}},
-        {\color{semiAuto}\cite{Ozer2010}},
-        {\color{semiAuto}\cite{Tiwari2009a}},
-        {\color{semiAuto}\cite{Viswanath2008}},
-        {\color{semiAuto}\cite{Mazzetti2011}},
-        {\color{semiAuto}\cite{Puech2009}},
-        {\color{semiAuto}\cite{Tiwari2008}}
+        {\color{blue}\cite{Artan2009}},
+        {\color{blue}\cite{Artan2010}},
+        {\color{blue}\cite{Giannini2013}},
+        {\color{blue}\cite{Liu2009}},
+        {\color{blue}\cite{Lopes2011}},
+        {\color{blue}\cite{Ozer2009}},
+        {\color{blue}\cite{Ozer2010}},
+        {\color{blue}\cite{Tiwari2009a}},
+        {\color{blue}\cite{Viswanath2008}},
+        {\color{blue}\cite{Mazzetti2011}},
+        {\color{blue}\cite{Puech2009}},
+        {\color{blue}\cite{Tiwari2008}}
       }
 
       \def\reward{82,72,84,88,93,75,74,81,85,82,43,85}
@@ -698,14 +698,14 @@
       % draw the path of the percentages
       \def\aux{{\reward}}
       \pgfmathsetmacro\origin{\aux[\nbeams-1]} 
-      \draw [blue, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
+      \draw [semiAuto, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
 
       % label all the percentags
       \foreach \n [count=\ni] in \dbSize 
       {
 	\pgfmathsetmacro\cAngle{{(\ni*(360/\nbeams))+\globalRotation}}
 	\pgfmathsetmacro\nreward{\aux[\ni-1]}
-	\draw (\cAngle:{\cZoom*1.4}) node[align=center] {{\color{blue}\nreward $\%$} \\ {\color{red}\n} };
+	\draw (\cAngle:{\cZoom*1.5}) node[align=center] {{\color{semiAuto}\nreward $\%$} \\ {\color{red}\n} };
       } ;
 
       % draw the database rose
@@ -725,10 +725,10 @@
 
  	\pgfmathsetmacro\initialAngle{(\contadorQueNoSeCalcular*\beamAngle)+\halfAngle+\globalRotation}
  	\pgfmathsetmacro\finalAngle  {((\numElm+\contadorQueNoSeCalcular)*\beamAngle)+\halfAngle+\globalRotation}
-	\pgfmathsetmacro\l  {\cZoom*1.5+.3pt}
-	\draw (\initialAngle:{\cZoom*1.6}) -- (\initialAngle:{\cZoom*1.1});
+	\pgfmathsetmacro\l  {\cZoom*1.65+.3pt}
+	\draw (\initialAngle:{\cZoom*1.7}) -- (\initialAngle:{\cZoom*1.1});
 	\draw [ |<->|,>=latex] (\initialAngle:\l) arc (\initialAngle:\finalAngle:\l) ;    									 
-	\pgfmathsetmacro\r  {\cZoom*1.5+.45pt}
+	\pgfmathsetmacro\r  {\cZoom*1.65+.45pt}
     	{\draw [decoration={raise=4pt,text along path,  text={\name},text align={center}},decorate] (\finalAngle:\r) arc (\finalAngle:\initialAngle:\r);}
       }
       
@@ -739,14 +739,14 @@
   \hspace*{\fill}
   \subfigure[]{
     \label{fig:sens30}
-    \begin{tikzpicture}[scale=.5,every node/.style={scale=0.5}]
+    \begin{tikzpicture}[scale=.48,every node/.style={scale=0.48}]
 
       \def\labels{
-        {\color{semiAuto}\cite{Peng2013}},
-        {\color{semiAuto}\cite{Viswanath2008a}},
-        {\color{semiAuto}\cite{Matulewicz2013}},
-        {\color{semiAuto}\cite{Parfait2012}},
-        {\color{semiAuto}\cite{Sung2011}}
+        {\color{blue}\cite{Peng2013}},
+        {\color{blue}\cite{Viswanath2008a}},
+        {\color{blue}\cite{Matulewicz2013}},
+        {\color{blue}\cite{Parfait2012}},
+        {\color{blue}\cite{Sung2011}}
       }
 
       \def\reward{82,60,63,84,90}
@@ -782,14 +782,14 @@
       % draw the path of the percentages
       \def\aux{{\reward}}
       \pgfmathsetmacro\origin{\aux[\nbeams-1]} 
-      \draw [blue, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
+      \draw [semiAuto, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
 
       % label all the percentags
       \foreach \n [count=\ni] in \dbSize 
       {
 	\pgfmathsetmacro\cAngle{{(\ni*(360/\nbeams))+\globalRotation}}
 	\pgfmathsetmacro\nreward{\aux[\ni-1]}
-	\draw (\cAngle:{\cZoom*1.4}) node[align=center] {{\color{blue}\nreward $\%$} \\ {\color{red}\n} };
+	\draw (\cAngle:{\cZoom*1.5}) node[align=center] {{\color{semiAuto}\nreward $\%$} \\ {\color{red}\n} };
       } ;
 
       % draw the database rose
@@ -809,24 +809,24 @@
 
  	\pgfmathsetmacro\initialAngle{(\contadorQueNoSeCalcular*\beamAngle)+\halfAngle+\globalRotation}
  	\pgfmathsetmacro\finalAngle  {((\numElm+\contadorQueNoSeCalcular)*\beamAngle)+\halfAngle+\globalRotation}
-	\pgfmathsetmacro\l  {\cZoom*1.5+.3pt}
-	\draw (\initialAngle:{\cZoom*1.6}) -- (\initialAngle:{\cZoom*1.1});
+	\pgfmathsetmacro\l  {\cZoom*1.65+.3pt}
+	\draw (\initialAngle:{\cZoom*1.7}) -- (\initialAngle:{\cZoom*1.1});
 	\draw [ |<->|,>=latex] (\initialAngle:\l) arc (\initialAngle:\finalAngle:\l) ;    									 
-	\pgfmathsetmacro\r  {\cZoom*1.5+.45pt}
+	\pgfmathsetmacro\r  {\cZoom*1.65+.45pt}
     	{\draw [decoration={raise=4pt,text along path,  text={\name},text align={center}},decorate] (\finalAngle:\r) arc (\finalAngle:\initialAngle:\r);}
       }
       
     \end{tikzpicture}}\hfill
   \subfigure[]{
     \label{fig:spec30}
-    \begin{tikzpicture}[scale=.5,every node/.style={scale=0.5}]
+    \begin{tikzpicture}[scale=.48,every node/.style={scale=0.48}]
 
       \def\labels{
-        {\color{semiAuto}\cite{Peng2013}},
-        {\color{semiAuto}\cite{Viswanath2008a}},
-        {\color{semiAuto}\cite{Matulewicz2013}},
-        {\color{semiAuto}\cite{Parfait2012}},
-        {\color{semiAuto}\cite{Sung2011}}
+        {\color{blue}\cite{Peng2013}},
+        {\color{blue}\cite{Viswanath2008a}},
+        {\color{blue}\cite{Matulewicz2013}},
+        {\color{blue}\cite{Parfait2012}},
+        {\color{blue}\cite{Sung2011}}
       }
 
       \def\reward{95,66,99,97,77}
@@ -861,14 +861,14 @@
       % draw the path of the percentages
       \def\aux{{\reward}}
       \pgfmathsetmacro\origin{\aux[\nbeams-1]} 
-      \draw [blue, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
+      \draw [semiAuto, thick] (\globalRotation:{\cZoom*\origin/100}) \foreach \n  [count=\ni] in \reward { -- ({(\ni*(360/\nbeams))+\globalRotation}:{\cZoom*\n/100}) } ;
 
       % label all the percentags
       \foreach \n [count=\ni] in \dbSize 
       {
 	\pgfmathsetmacro\cAngle{{(\ni*(360/\nbeams))+\globalRotation}}
 	\pgfmathsetmacro\nreward{\aux[\ni-1]}
-	\draw (\cAngle:{\cZoom*1.4}) node[align=center] {{\color{blue}\nreward $\%$} \\ {\color{red}\n} };
+	\draw (\cAngle:{\cZoom*1.5}) node[align=center] {{\color{semiAuto}\nreward $\%$} \\ {\color{red}\n} };
       } ;
 
       % draw the database rose
@@ -888,17 +888,17 @@
 
  	\pgfmathsetmacro\initialAngle{(\contadorQueNoSeCalcular*\beamAngle)+\halfAngle+\globalRotation}
  	\pgfmathsetmacro\finalAngle  {((\numElm+\contadorQueNoSeCalcular)*\beamAngle)+\halfAngle+\globalRotation}
-	\pgfmathsetmacro\l  {\cZoom*1.5+.3pt}
-	\draw (\initialAngle:{\cZoom*1.6}) -- (\initialAngle:{\cZoom*1.1});
+	\pgfmathsetmacro\l  {\cZoom*1.65+.3pt}
+	\draw (\initialAngle:{\cZoom*1.7}) -- (\initialAngle:{\cZoom*1.1});
 	\draw [ |<->|,>=latex] (\initialAngle:\l) arc (\initialAngle:\finalAngle:\l) ;    									 
-	\pgfmathsetmacro\r  {\cZoom*1.5+.45pt}
+	\pgfmathsetmacro\r  {\cZoom*1.65+.45pt}
     	{\draw [decoration={raise=4pt,text along path,  text={\name},text align={center}},decorate] (\finalAngle:\r) arc (\finalAngle:\initialAngle:\r);}
       }
       
     \end{tikzpicture}
   }
   \hspace*{\fill}
-  \caption{Comparison of the results in terms of sensitivity \subref{fig:sens15}, \subref{fig:sens30} and specificity \subref{fig:spec15}, \subref{fig:spec30} for 1.5 and 3.0 Tesla \ac{mri} scanners. The {\color{blue}blue} value represents the metric and are graphically reported in the blue curve in the center of the figure. The {\color{red}red} value and areas correspond to the number of patients in the dataset. The numbers between brackets in {\color{semiAuto}green} correspond to the reference as reported in \acs{tab}~\ref{tab:sumpap}.}
+  \caption{Numerical and graphical comparison of the results in terms of sensitivity~\subref{fig:sens15},~\subref{fig:sens30} and specificity~\subref{fig:spec15},~\subref{fig:spec30} for 1.5 and 3.0 Tesla \ac{mri} scanners. The value in {\color{semiAuto}green} represents the metric and are graphically reported in the {\color{semiAuto}green} curve in the center of the figure. The {\color{red}red} value and areas correspond to the number of patients in the dataset. The numbers between brackets in {\color{blue}blue} correspond to the reference as reported in \acs{tab}~\ref{tab:sumpap}.}
   \label{fig:sensspec}
 \end{figure*}
 \restoregeometry
