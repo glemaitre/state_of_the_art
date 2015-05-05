@@ -6,6 +6,8 @@
 
 ## Manifesto
 
+Because Human is perfectible and prone to error, because science should be open and flow and because * Cogito ergo sum *
+
 ### Highlights:
 
 * Techniques used in mono and multi-parametric MRI CADe and CADx for CaP are reviewed.
