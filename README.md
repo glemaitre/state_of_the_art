@@ -1,6 +1,6 @@
 ## Manifesto
 
-Because *Human* is **perfectible** and **error-prone**, because *Science* should be **open** and **flow** and because *cogito ergo sum*:
+Because *Human* is **perfectible** and **error-prone**, because *Science* should be **open** and **flow** and because *cogito ergo sum*.
 
 ## Computer-Aided Detection and diagnosis for prostate cancer based on mono and multi-parametric MRI: A review
 
