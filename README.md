@@ -1,12 +1,12 @@
 # Computer-Aided Detection and diagnosis for prostate cancer based on mono and multi-parametric MRI: A review
 
-** Guillaume Lemaître, Robert Martí, Jordi Freixenet, Joan C. Vilanova, Paul M. Walker, Fabrice Meriaudeau **
+**Guillaume Lemaître, Robert Martí, Jordi Freixenet, Joan C. Vilanova, Paul M. Walker, Fabrice Meriaudeau**
 
 [doi:10.1016/j.compbiomed.2015.02.009](http://dx.doi.org/10.1016/j.compbiomed.2015.02.009)
 
 ## Manifesto
 
-Because Human is perfectible and prone to error, because science should be open and flow and because * Cogito ergo sum *
+Because *Human* is **perfectible** and prone to **error**, because *Science* should be **open** and **flow** and because *Cogito ergo sum*
 
 ### Highlights:
 
