@@ -6,7 +6,7 @@
 
 ## Manifesto
 
-Because *Human* is **perfectible** and prone to **error**, because *Science* should be **open** and **flow** and because *Cogito ergo sum*
+Because *Human* is **perfectible** and **error-prone**, because *Science* should be **open** and **flow** and because *cogito ergo sum*:
 
 ### Highlights:
 
